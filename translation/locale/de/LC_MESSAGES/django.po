@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-02 21:30+0000\n"
+"POT-Creation-Date: 2020-12-06 16:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,6 +18,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: views.py:5
-msgid "Hello, world. You're at the translation index."
-msgstr "Hallo, welt. Du bist bei Übersetzungsindex"
+#: translation/templates/translation/language.html:10
+msgid "You're translating"
+msgstr "Du übersetzt"
+
+#~ msgid "Hello, world. You're at the translation index."
+#~ msgstr "Hallo, welt. Du bist bei Übersetzungsindex"
