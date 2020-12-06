@@ -1,11 +1,12 @@
 from django.http import HttpResponse
 from django.utils.translation import ugettext as _
+from django.shortcuts import render
 
 
 def index(request):
-    message = _("Hello, world. You're at the translation index.")
-    return HttpResponse(message)
+    return render(request, 'translation/index.html')
 
 
 def translation(request, language_id):
-    return HttpResponse("You're translating %s." % language_id)
+    context = {'language_id': language_id}
+    return render(request, 'translation/language.html', context)
