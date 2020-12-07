@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-07 11:54+0100\n"
+"POT-Creation-Date: 2020-12-07 16:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,17 +16,16 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: translation/templates/translation/language.html:12
 msgid "PRESENTATION"
-msgstr ""
+msgstr "Diese Sprache existiert nicht"
 
 #: translation/templates/translation/language.html:14
 msgid ""
 "\"Bonjour, je suis \"Infirmière\", je vais utiliser le téléphone pour "
 "traduire les questions que j'ai à vous poser, êtes vous d'accord ?\""
-msgstr ""
+msgstr "ich teste nur "
 
 #: translation/templates/translation/language.html:15
 msgid "Infirmière"
