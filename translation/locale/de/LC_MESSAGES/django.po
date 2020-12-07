@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-06 16:48+0100\n"
+"POT-Creation-Date: 2020-12-06 21:39+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,9 +18,54 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: translation/templates/translation/language.html:10
+#: translation/templates/translation/index.html:10
+#: translation/templates/translation/index.html:15
+msgid "Welcome to our page"
+msgstr "Tachchen!"
+
+#: translation/templates/translation/language.html:11
 msgid "You're translating"
 msgstr "Du übersetzt"
+
+#: translation/templates/translation/language.html:13
+msgid "PRESENTATION"
+msgstr "Begrüßung"
+
+#: translation/templates/translation/language.html:19
+msgid "Bonjour, je suis "
+msgstr ""
+
+#: translation/templates/translation/language.html:21
+msgid "Infirmière"
+msgstr "Krankenschwester"
+
+#: translation/templates/translation/language.html:22
+msgid "Médecin"
+msgstr "Arzt"
+
+#: translation/templates/translation/language.html:23
+msgid "Secouriste"
+msgstr ""
+
+#: translation/templates/translation/language.html:24
+msgid "Bénévole"
+msgstr ""
+
+#: translation/templates/translation/language.html:25
+msgid "Agent d'accueil"
+msgstr ""
+
+#: translation/templates/translation/language.html:26
+msgid "Etudiant en médecine"
+msgstr ""
+
+#: translation/templates/translation/language.html:27
+msgid "Sage-femme"
+msgstr ""
+
+#: translation/templates/translation/language.html:28
+msgid "Secrétaire"
+msgstr ""
 
 #~ msgid "Hello, world. You're at the translation index."
 #~ msgstr "Hallo, welt. Du bist bei Übersetzungsindex"
