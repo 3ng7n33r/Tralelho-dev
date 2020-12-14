@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-14 12:30+0100\n"
+"POT-Creation-Date: 2020-12-14 14:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,23 +72,23 @@ msgid "IDENTITÉ"
 msgstr ""
 
 #: translation/templates/translation/language.html:78
-msgid "Pouvez-vous me montrez votre passeport"
+msgid "Pouvez-vous me montrez votre passeport ?"
 msgstr ""
 
 #: translation/templates/translation/language.html:82
-msgid "Pouvez-vous me montrez une carte d’identité"
+msgid "Pouvez-vous me montrez une carte d’identité ?"
 msgstr ""
 
 #: translation/templates/translation/language.html:86
-msgid "Pouvez-vous me montrer des papiers avec votre nom"
+msgid "Pouvez-vous me montrer des papiers avec votre nom ?"
 msgstr ""
 
 #: translation/templates/translation/language.html:90
-msgid "Pouvez-vous me montrer une carte Européenne de santé"
+msgid "Pouvez-vous me montrer une carte Européenne de santé ?"
 msgstr ""
 
 #: translation/templates/translation/language.html:94
-msgid "Pouvez-vous me montre une carte d’assurance privée"
+msgid "Pouvez-vous me montre une carte d’assurance privée ?"
 msgstr ""
 
 #: translation/templates/translation/language.html:98
