@@ -1,3 +1,7 @@
+#Unfinished documents
+translation/static/translation/docs/_obsolete
+translation/static/translation/docs/backup
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
