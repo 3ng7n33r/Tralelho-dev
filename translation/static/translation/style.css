@@ -189,15 +189,6 @@ html {
     background-color: rgb(62, 62, 62);
 }
 
-header {
-    display: flex;
-    /* #background: #AEC6CF; */
-    padding: 20px 30px;
-    max-width: 940px;
-    margin: auto;
-    align-items: center;
-}
-
 figure {
     text-align: center;
 }
@@ -236,17 +227,20 @@ nav ul {
 main {
     float: left;
     width: 60%;
+    margin: 1vw;
 }
 
 aside {
-    float: right;
-    width: 30%;
+    background-color: #5E5E5E;
+    float: left;
+    width: 10%;
+    border-radius: 20px;
+    padding: 0.5vw;
 }
 
 article {
     border-bottom: 2px dotted #999;
     padding: 10px;
-    margin-bottom: 20px;
 }
 
 article h2 {
@@ -258,7 +252,7 @@ article h2 {
 main section {}
 
 footer {
-    background: #ff9933;
+    background: #ff8000;
     width: 100%;
     margin: auto;
     clear: both;
@@ -277,8 +271,7 @@ address {
 
 aside>div {
     margin: 10px auto;
-    background: #AEC6CF;
-    min-height: 100px;
+    background: #5E5E5E;
 }
 
 .container {
@@ -299,6 +292,36 @@ aside>div {
     max-height: calc(200px / 1.5);
 }
 
+header {
+    background: #333;
+    padding: 50px 30px;
+    height: max-content;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: calc(50vw - 500px);
+    width: 100%;
+    max-width: 1000px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
 
 #logo {
     display: inline-block;
@@ -309,6 +332,7 @@ aside>div {
 }
 
 #logo img {
+    display: inline-block;
     max-width: 50px;
     width: 10vw;
     vertical-align: middle;
@@ -324,6 +348,8 @@ aside>div {
 
 
 #pageContent {
+    margin-top: 30px;
+    /* navbar*/
     max-width: 1000px;
     margin: auto;
     border: none;

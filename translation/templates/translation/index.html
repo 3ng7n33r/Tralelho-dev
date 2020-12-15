@@ -21,7 +21,7 @@
 
 	<body>
 		<header>
-			<a href="/"><div id="logo"><img src="{% static 'translation/iconmonstr-globe-5-240.png' %}">Tralelho</div></a>
+{% comment %} 			<a href="/"><div id="logo"><img src="{% static 'translation/iconmonstr-globe-5-240.png' %}">Tralelho</div></a>
 			<nav>  
 				<ul>
 					<li><a href="/">Home</a>
@@ -30,7 +30,15 @@
 					<li><a href="/">About</a>
 				</ul>
 			</nav>
-			<img id="sourceflag" src="{% static 'translation/fra.png' %}">
+			<img id="sourceflag" src="{% static 'translation/fra.png' %}"> {% endcomment %}
+			<div class="navbar">
+				<a href="/"><div id="logo"><img src="{% static 'translation/iconmonstr-globe-5-240.png' %}">Tralelho</div></a>
+				<a href="/">Home</a>
+				<a href="/">Documents</a>
+				<a href="/">Support us</a>
+				<a href="/">About</a>
+				<img id="sourceflag" src="{% static 'translation/fra.png' %}">
+			</div>
 		</header>
 		<section id="pageContent">
 {% comment %} 			<main role="main"> {% endcomment %}
