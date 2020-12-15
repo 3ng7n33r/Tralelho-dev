@@ -30,24 +30,39 @@
 					<li><a href="/">About</a>
 				</ul>
 			</nav>
+			<img id="sourceflag" src="{% static 'translation/fra.png' %}">
 		</header>
-		<section>
-			<strong>Ce site propose les traductions des phrases utiles à l'hôpital.<br>
-					Pour trouver la traduction que vous cherchez, cliquez sur le drapeau du pays.</strong>
-		</section>
 		<section id="pageContent">
-			<main role="main">
+{% comment %} 			<main role="main"> {% endcomment %}
 				<article>
-					<div>
+					<h2>Most common languages</h2>
+					<div class="container">
 						<a href="eng/">
 							<figure>
-								<img src="{% static 'translation/etatsunis.png' %}" href="eng/">
-								<figcaption>English translation</figcaption>
+								<img class="flag" src="{% static 'translation/eng.png' %}" href="eng/">
+								<figcaption>Etats-Unis</figcaption>
+							</figure>
+						</a>
+						<a href="deu/">
+							<figure>
+								<img class="flag" src="{% static 'translation/deu.png' %}" href="deu/">
+								<figcaption>Allemagne</figcaption>
 							</figure>
 						</a>
 					</div>
 				</article>
-			</main>
+				<article>
+					<h2>North America</h2>
+					<div class="container">
+						<a href="eng/">
+							<figure>
+								<img class="flag" src="{% static 'translation/eng-US.png' %}" href="eng/">
+								<figcaption>Etats-Unis</figcaption>
+							</figure>
+						</a>
+					</div>
+				</article>
+{% comment %} 			</main> {% endcomment %}
 		</section>
 		<footer>
 			<address>

@@ -104,7 +104,6 @@ details,
 figcaption,
 figure,
 footer,
-header,
 hgroup,
 menu,
 nav,
@@ -137,9 +136,11 @@ a {
     color: inherit;
 }
 
-/* a:visited {
-    color: pink;
-  } */
+article {
+    background-color: #595959;
+    justify-content: left;
+    border-radius: 20px;
+}
 
 ins {
     background-color: #ff9;
@@ -189,10 +190,12 @@ html {
 }
 
 header {
+    display: flex;
     /* #background: #AEC6CF; */
     padding: 20px 30px;
     max-width: 940px;
     margin: auto;
+    align-items: center;
 }
 
 figure {
@@ -201,6 +204,10 @@ figure {
 
 nav {
     display: inline-block;
+}
+
+table {
+    color: #FF8000;
 }
 
 nav ul li a {
@@ -218,18 +225,12 @@ nav ul li a:hover {
 }
 
 nav ul li {
-    display: inline-block;
-    margin: 10px;
+    display: inline-flex;
+    margin: 1vw;
 }
 
 nav ul {
     list-style: none;
-}
-
-#pageContent {
-    max-width: 1000px;
-    margin: auto;
-    border: none;
 }
 
 main {
@@ -244,23 +245,21 @@ aside {
 
 article {
     border-bottom: 2px dotted #999;
-    padding-bottom: 20px;
+    padding: 10px;
     margin-bottom: 20px;
 }
 
 article h2 {
     font-weight: normal;
     margin-bottom: 12px;
+    margin-left: 20px;
 }
-
-article p {}
 
 main section {}
 
 footer {
     background: #ff9933;
     width: 100%;
-    max-width: 1000px;
     margin: auto;
     clear: both;
     text-align: right;
@@ -282,6 +281,25 @@ aside>div {
     min-height: 100px;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.container>a {
+    text-align: center;
+    margin: 5px;
+}
+
+.flag {
+    width: 20vw;
+    max-width: 200px;
+    height: calc(20vw / 1.5);
+    max-height: calc(200px / 1.5);
+}
+
+
 #logo {
     display: inline-block;
     vertical-align: middle;
@@ -291,9 +309,24 @@ aside>div {
 }
 
 #logo img {
-    width: 50px;
+    max-width: 50px;
+    width: 10vw;
     vertical-align: middle;
     margin-right: 10px;
+}
+
+#sourceflag {
+    max-width: 50px;
+    width: 10vw;
+    margin-right: 10px;
+    max-height: calc(50px / 1.5);
+}
+
+
+#pageContent {
+    max-width: 1000px;
+    margin: auto;
+    border: none;
 }
 
 body>section {
