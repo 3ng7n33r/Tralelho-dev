@@ -1,13 +1,56 @@
+{% load static %}
 {% load i18n %}
 {% get_current_language as LANGUAGE_CODE %}
-<!-- Current language: {{ LANGUAGE_CODE }} -->
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-  </head>
-  <body>
-    <h1>Tralelho Index</h1>
-    <a href="eng/">English translation</a>
-  </body>
+
+<!doctype html>
+<html lang="en" class="no-js">
+<!-- Template used with permission from https://html5-templates.com/" -->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Responsive HTML5 Page Layout Template</title>
+		<meta name="description" content="Simple HTML5 Page layout template with header, footer, sidebar etc.">
+		<link rel="stylesheet" type="text/css" href="{% static 'translation/style.css' %}">
+	</head>
+
+	<body>
+		<header>
+			<a href="/"><div id="logo"><img src="{% static 'translation/iconmonstr-globe-5-240.png' %}">Tralelho</div></a>
+			<nav>  
+				<ul>
+					<li><a href="/">Home</a>
+					<li><a href="/">Documents</a>
+					<li><a href="/">Support us</a>
+					<li><a href="/">About</a>
+				</ul>
+			</nav>
+		</header>
+		<section>
+			<strong>Ce site propose les traductions des phrases utiles à l'hôpital.<br>
+					Pour trouver la traduction que vous cherchez, cliquez sur le drapeau du pays.</strong>
+		</section>
+		<section id="pageContent">
+			<main role="main">
+				<article>
+					<div>
+						<a href="eng/">
+							<figure>
+								<img src="{% static 'translation/etatsunis.png' %}" href="eng/">
+								<figcaption>English translation</figcaption>
+							</figure>
+						</a>
+					</div>
+				</article>
+			</main>
+		</section>
+		<footer>
+			<address>
+				Contact: <a href="mailto:me@example.com">Mail me</a>
+			</address>
+		</footer>
+
+
+	</body>
+
 </html>
