@@ -10,3 +10,15 @@ def index(request):
 def translation(request, language_id):
     context = {'language_id': language_id}
     return render(request, 'translation/language.html', context)
+
+
+def documents(request):
+    return render(request, 'translation/documents.html')
+
+
+def support(request):
+    return render(request, 'translation/support.html')
+
+
+def about(request):
+    return render(request, 'translation/about.html')

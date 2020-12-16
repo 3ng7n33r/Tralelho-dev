@@ -7,22 +7,25 @@
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Responsive HTML5 Page Layout Template</title>
-		<meta name="description" content="Simple HTML5 Page layout template with header, footer, sidebar etc.">
+		<title>Tralelho</title>
+		<meta name="description" content="Traductions pour les etrangers à l'hopital">
 		<link rel="stylesheet" type="text/css" href="{% static 'translation/style.css' %}">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- Favicons -->
+		<link rel="apple-touch-icon" sizes="180x180" href="{% static 'translation/favicon_io/apple-touch-icon.png' %}">
+		<link rel="icon" type="image/png" sizes="32x32" href="{% static 'translation/favicon_io/favicon-32x32.png' %}">
+		<link rel="icon" type="image/png" sizes="16x16" href="{% static 'translation/favicon_io/favicon-16x16.png' %}">
+		<link rel="manifest" href="{% static 'translation/favicon_io/site.webmanifest' %}">
 	</head>
 	<body>
-		<header>
-			<a href="/"><div id="logo"><img src="{% static 'translation/iconmonstr-globe-5-240.png' %}">Tralelho</div></a>
-			<nav>  
-				<ul>
-					<li><a href="/">Home</a>
-					<li><a href="/">Documents</a>
-					<li><a href="/">Support us</a>
-					<li><a href="/">About</a>
-				</ul>
-			</nav>
-			<img id="sourceflag" src="{% static 'translation/fra.png' %}">
+		<header> 
+			<div class="navbar">
+				<a class="active" href="/"><img id="logo" src="{% static 'translation/iconmonstr-globe-5-240.png' %}"><p class="navtext">Translations</p></a>
+				<a href="/documents"><i class="fa fa-file" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">Documents</p></a>
+				<a href="/support"><i class="fa fa-heart" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">Support us</p></a>
+				<a href="/about"><i class="fa fa-info-circle " style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">Support us</p></a>
+				<a id="asourceflag" href="/"><img id="sourceflag" src="{% static 'translation/fra.png' %}"></a>
+			</div> 
 		</header>
 		<section id="pageContent">
 			<aside>
