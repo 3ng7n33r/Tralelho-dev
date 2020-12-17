@@ -16,22 +16,22 @@
 		<link rel="icon" type="image/png" sizes="32x32" href="{% static 'translation/favicon_io/favicon-32x32.png' %}">
 		<link rel="icon" type="image/png" sizes="16x16" href="{% static 'translation/favicon_io/favicon-16x16.png' %}">
 		<link rel="manifest" href="{% static 'translation/favicon_io/site.webmanifest' %}">
-	</head>
+	</head>				
 	<body>
 		<header> 
 			<div class="navbar">
-				<a class="active" href="/"><img id="logo" src="{% static 'translation/iconmonstr-globe-5-240.png' %}"><p class="navtext">Translations</p></a>
-				<a href="/documents"><i class="fa fa-file" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">Documents</p></a>
-				<a href="/support"><i class="fa fa-heart" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">Support us</p></a>
-				<a href="/about"><i class="fa fa-info-circle " style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">Support us</p></a>
-				<div id="flagcontainer">
+				<a class="anav" id="active" href="/"><img id="logo" src="{% static 'translation/iconmonstr-globe-5-240.png' %}"><p class="navtext">Translations</p></a>
+				<a class="anav" href="/documents"><i class="fa fa-file" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">Documents</p></a>
+				<a class="anav" href="/support"><i class="fa fa-heart" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">Support us</p></a>
+				<a class="anav" href="/about"><i class="fa fa-info-circle " style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">About</p></a>
+			</div> 
+			<div id="flagcontainer">
 				<a href="/"><img class="transflags" src="{% static 'translation/fra.png' %}"></a>
 				<i class="fa fa-arrow-right " style="color:#ff8000; font-size: min(10vw, 50px);"></i>
 				<a href="/"><img class="transflags" src="{% static 'translation/eng.png' %}"></a>
-				</div>
-			</div> 
+			</div>
 		</header>
-		<section id="pageContent">
+		<section>
 			<aside>
 				<div>Sidebar 1</div>
 				<div>Sidebar 2</div>

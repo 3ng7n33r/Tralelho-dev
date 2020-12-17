@@ -23,64 +23,62 @@
 	<body>
 		<header> 
 			<div class="navbar">
-				<a class="active" href="/"><img id="logo" src="{% static 'translation/iconmonstr-globe-5-240.png' %}"><p class="navtext">Translations</p></a>
-				<a href="/documents"><i class="fa fa-file" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">Documents</p></a>
-				<a href="/support"><i class="fa fa-heart" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">Support us</p></a>
-				<a href="/about"><i class="fa fa-info-circle " style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">Support us</p></a>
-				<a id="asourceflag" href="/"><img id="sourceflag" src="{% static 'translation/fra.png' %}"></a>
+				<a class="anav" id="active" href="/"><img id="logo" src="{% static 'translation/iconmonstr-globe-5-240.png' %}"><p class="navtext">Translations</p></a>
+				<a class="anav" href="/documents"><i class="fa fa-file" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">Documents</p></a>
+				<a class="anav" href="/support"><i class="fa fa-heart" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">Support us</p></a>
+				<a class="anav" href="/about"><i class="fa fa-info-circle " style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">About</p></a>
 			</div> 
+			<div id="flagcontainer">
+				<a class="anav" href="/"><img id="sourceflag" src="{% static 'translation/fra.png' %}"></a>
+			</div>
 		</header>
-		<section id="pageContent">
-				{% comment %} 			<main role="main"> {% endcomment %}
-				<article>
-					<h2>Most common languages</h2>
-					<div class="container">
-						<a href="eng/">
-							<figure>
-								<img class="flag" src="{% static 'translation/eng.png' %}" href="eng/">
-								<figcaption>Etats-Unis</figcaption>
-							</figure>
-						</a>
-						<a href="deu/">
-							<figure>
-								<img class="flag" src="{% static 'translation/deu.png' %}" href="deu/">
-								<figcaption>Allemagne</figcaption>
-							</figure>
-						</a>
-						<a href="deu/">
-							<figure>
-								<img class="flag" src="{% static 'translation/deu.png' %}" href="deu/">
-								<figcaption>Allemagne</figcaption>
-							</figure>
-						</a>
-						<a href="deu/">
-							<figure>
-								<img class="flag" src="{% static 'translation/deu.png' %}" href="deu/">
-								<figcaption>Allemagne</figcaption>
-							</figure>
-						</a>
-					</div>
-				</article>
-				<article>
-					<h2>North America</h2>
-					<div class="container">
-						<a href="eng/">
-							<figure>
-								<img class="flag" src="{% static 'translation/eng-US.png' %}" href="eng/">
-								<figcaption>Etats-Unis</figcaption>
-							</figure>
-						</a>
-					</div>
-				</article>
-		{% comment %} 			</main> {% endcomment %}
+ 		<section>
+			<article>
+				<h2>Most common languages</h2>
+				<div class="langcontainer">
+					<a href="eng/">
+						<figure>
+							<img class="flag" src="{% static 'translation/eng.png' %}" href="eng/">
+							<figcaption>Etats-Unis</figcaption>
+						</figure>
+					</a>
+					<a href="deu/">
+						<figure>
+							<img class="flag" src="{% static 'translation/deu.png' %}" href="deu/">
+							<figcaption>Allemagne</figcaption>
+						</figure>
+					</a>
+					<a href="deu/">
+						<figure>
+							<img class="flag" src="{% static 'translation/deu.png' %}" href="deu/">
+							<figcaption>Allemagne</figcaption>
+						</figure>
+					</a>
+					<a href="deu/">
+						<figure>
+							<img class="flag" src="{% static 'translation/deu.png' %}" href="deu/">
+							<figcaption>Allemagne</figcaption>
+						</figure>
+					</a>
+				</div>
+			</article>
+			<article>
+				<h2>North America</h2>
+				<div class="langcontainer">
+					<a href="eng/">
+						<figure>
+							<img class="flag" src="{% static 'translation/eng-US.png' %}" href="eng/">
+							<figcaption>Etats-Unis</figcaption>
+						</figure>
+					</a>
+				</div>
+			</article>
 		</section>
 		<footer>
 			<address>
 				Contact: <a href="mailto:me@example.com">Mail me</a>
 			</address>
 		</footer>
-
-
 	</body>
 
 </html>
