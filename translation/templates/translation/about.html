@@ -3,10 +3,11 @@
 {% get_current_language as LANGUAGE_CODE %}
 
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 <!-- Template used with permission from https://html5-templates.com/" -->
 	<head>
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Tralelho</title>
@@ -23,22 +24,22 @@
 	<body>
 		<header> 
 			<div class="navbar">
-				<a href="/"><img id="logo" src="{% static 'translation/iconmonstr-globe-5-240.png' %}"><p class="navtext">Translations</p></a>
-				<a href="/documents"><i class="fa fa-file" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">Documents</p></a>
-				<a href="/support"><i class="fa fa-heart" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">Support us</p></a>
-				<a class="active" href="/about"><i class="fa fa-info-circle " style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">Support us</p></a>
-				<a id="asourceflag" href="/"><img id="sourceflag" src="{% static 'translation/fra.png' %}"></a>
+				<a class="anav" href="/"><img id="logo" src="{% static 'translation/iconmonstr-globe-5-240.png' %}"><p class="navtext">Traductions</p></a>
+				<a class="anav" href="/documents"><i class="fa fa-file" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">Documents</p></a>
+				<a class="anav" href="/support"><i class="fa fa-heart" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">Soutenez-nous</p></a>
+				<a class="anav" id="active" href="/about"><i class="fa fa-info-circle " style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">Qui-sommes nous?</p></a>
 			</div> 
+			<div id="flagcontainer">
+				<a class="anav" href="/"><img id="sourceflag" src="{% static 'translation/flags/fra.png' %}"></a>
+			</div>
 		</header>
-		<section id="pageContent">
+ 		<section>
 		</section>
 		<footer>
 			<address>
 				Contact: <a href="mailto:me@example.com">Mail me</a>
 			</address>
 		</footer>
-
-
 	</body>
 
 </html>
