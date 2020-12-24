@@ -72,6 +72,11 @@ header {
     max-height: 100px;
 }
 
+.smallflag {
+    max-width: 30%;
+    max-height: 80px;
+}
+
 #flagcontainer {
     display: grid;
     align-items: center;
