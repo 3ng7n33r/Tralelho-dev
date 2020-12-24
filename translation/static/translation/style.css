@@ -126,6 +126,20 @@ figure {
     margin: min(3vw, 10px);
 }
 
+/* Translation tables */
+
+tbody {
+    background-color: #ffaa56;
+}
+
+tr {
+    background-color: #ff8000;
+}
+
+td {
+    border: 0px;
+}
+
 /* Footer */
 footer {
     padding: 2vw;
