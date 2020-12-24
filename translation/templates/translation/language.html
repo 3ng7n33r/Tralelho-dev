@@ -11,6 +11,7 @@
 		<title>Tralelho</title>
 		<meta name="description" content="Traductions pour les etrangers à l'hopital">
 		<link rel="stylesheet" type="text/css" href="{% static 'translation/style.css' %}">
+		<script src="{% static 'translation/app.js' %}" async></script>		
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<!-- Favicons -->
 		<link rel="apple-touch-icon" sizes="180x180" href="{% static 'translation/favicon_io/apple-touch-icon.png' %}">
@@ -22,10 +23,10 @@
 	<body>
 		<header> 
 			<div class="navbar">
-				<a class="anav" id="active" href="/"><img id="logo" src="{% static 'translation/iconmonstr-globe-5-240.png' %}"><p class="navtext">Translations</p></a>
+				<a class="anav" id="active" href="/"><img id="logo" src="{% static 'translation/iconmonstr-globe-5-240.png' %}"><p class="navtext">Traductions</p></a>
 				<a class="anav" href="/documents"><i class="fa fa-file" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">Documents</p></a>
-				<a class="anav" href="/support"><i class="fa fa-heart" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">Support us</p></a>
-				<a class="anav" href="/about"><i class="fa fa-info-circle " style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">About</p></a>
+				<a class="anav" href="/support"><i class="fa fa-heart" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">Soutenez-nous</p></a>
+				<a class="anav" href="/about"><i class="fa fa-info-circle " style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">Qui-sommes nous?</p></a>
 			</div> 
 			<div id="flagcontainer">
 				<a class="anav" href="/">
@@ -35,24 +36,10 @@
 			</div>
 		</header>
 		<section>
-			<aside>
-				<div>Sidebar 1</div>
-				<div>Sidebar 2</div>
-				<div>Sidebar 3</div>
-			</aside>
 			<main role="main">
+				<h2>PRESENTATION</h2>
 				<table class="tg">
-					<thead>
-						<tr>
-							<th>Origin</th>
-							<th>Traduction</th>
-						</tr>
-					</thead>
 					<tbody>
-						<tr> 
-						<td><p>PRESENTATION</p></td> 
-						<td><p> {% translate "PRESENTATION" %} </p></td>
-						</tr> 
 						<tr> 
 						<td><p>Bonjour, je suis</p></td> 
 						<td><p> {% translate "Bonjour, je suis" %} </p></td>
