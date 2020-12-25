@@ -128,16 +128,38 @@ figure {
 
 /* Translation tables */
 
-tbody {
+table {
     background-color: #ffaa56;
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0px 5px;
+    padding: 10px 5px;
 }
 
-tr {
-    background-color: #ff8000;
+tr:hover td {
+    background-color: #FEFEFE;
+}
+
+td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-right: none;
+}
+
+td:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left: none;
 }
 
 td {
-    border: 0px;
+    border: solid 0px;
+    background-color: #ff8000;
+    padding: 0px 10px;
 }
 
 /* Footer */
