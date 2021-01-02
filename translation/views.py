@@ -16,6 +16,10 @@ def documents(request):
     return render(request, 'translation/documents.html')
 
 
+def docindex(request):
+    return render(request, 'translation/docindex.html')
+
+
 def support(request):
     return render(request, 'translation/support.html')
 

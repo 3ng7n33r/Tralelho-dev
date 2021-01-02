@@ -7,6 +7,7 @@ urlpatterns = [
     # ex: /de/
     path('<str:language_id>/', views.translation, name='translation'),
     path('documents', views.documents, name='documents'),
+    path('docindex', views.docindex, name='docindex'),
     path('support', views.support, name='support'),
     path('about', views.about, name='about'),
 ]
