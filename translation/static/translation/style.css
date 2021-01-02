@@ -22,6 +22,7 @@ body {
 html {
     background-color: #fffbf0;
     color: #000;
+    scroll-behavior: smooth;
 }
 
 /* Header and Navbar */
@@ -29,6 +30,9 @@ html {
 header {
     display: grid;
     grid-template-columns: 3fr 1fr;
+    height: max-content;
+    width: 100vw;
+    max-width: 1024px;
 }
 
 .navbar {
@@ -36,6 +40,7 @@ header {
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
     min-height: 60px;
+    max-height: 100px;
     background-color: #efefef;
 }
 
@@ -46,6 +51,7 @@ header {
     text-decoration: none;
     text-align: center;
     height: 100%;
+    white-space: nowrap;
 }
 
 #active {
@@ -81,6 +87,7 @@ header {
     display: grid;
     align-items: center;
     min-height: 60px;
+    max-height: 100px;
     background-color: #efefef;
 }
 
@@ -126,10 +133,94 @@ figure {
     margin: min(3vw, 10px);
 }
 
+/* Sidenav */
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.collapsible:hover {
+    background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.collapsible:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+
+traduction {
+    display: grid;
+    margin: 0 0px;
+    grid-template-columns: min-content 1fr;
+}
+
+nav {
+    background-color: #efefef;
+    margin: 10px 1vw 0 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-height: 300px) {
+    nav button {
+        position: -webkit-sticky;
+        /* Safari */
+        position: sticky;
+        top: 0;
+    }
+
+    nav div {
+        position: -webkit-sticky;
+        /* Safari */
+        position: sticky;
+        top: 50px;
+    }
+}
+
+nav ul li a {
+    color: black;
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #7a7a7a;
+}
+
+nav ul li a.current {
+    background: black;
+}
+
 /* Translation tables */
 
 table {
-    background-color: #ffaa56;
     border-radius: 6px;
     overflow: hidden;
     max-width: 800px;
@@ -158,7 +249,7 @@ td:last-child {
 
 td {
     border: solid 0px;
-    background-color: #ff8000;
+    background-color: #fce5cd;
     padding: 0px 10px;
 }
 
@@ -172,7 +263,7 @@ footer {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (max-device-width : 480px) {
+@media only screen and (max-device-width : 700px) {
     .navtext {
         display: none;
     }
