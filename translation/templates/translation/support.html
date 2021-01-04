@@ -25,7 +25,7 @@
 		<header> 
 			<div class="navbar">
 				<a class="anav" href="/"><img id="logo" src="{% static 'translation/iconmonstr-globe-5-240.png' %}"><p class="navtext">Traductions</p></a>
-				<a class="anav" href="/documents"><i class="fa fa-file" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">Documents</p></a>
+				<a class="anav" href="/docindex"><i class="fa fa-file" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">Documents</p></a>
 				<a class="anav" id="active" href="/support"><i class="fa fa-heart" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">Soutenez-nous</p></a>
 				<a class="anav" href="/about"><i class="fa fa-info-circle " style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">Qui-sommes nous?</p></a>
 			</div> 
@@ -33,7 +33,29 @@
 				<a class="anav" href="/"><img id="sourceflag" src="{% static 'translation/flags/fra.png' %}"></a>
 			</div>
 		</header>
- 		<section>
+ 		<section class="about">
+		 	<h1>Soutenir TraLELHo</h1>
+			<h2>Traduction</h2>
+			<p>Soutenir TraLELHo c'est d'abord l'utiliser, le diffuser auprès de vos collègues, amis.</p>
+			<p>C'est aussi nous contacter si vous parlez une langue étrangère pour nous proposer une correction ou une nouvelle traduction.</p>
+			<p>  Text mentioning Crowdin as translation platform</p>
+			<h2>Faire un Don</h2>
+			<p>Enfin soutenir TraLELHo peut aussi passer par un don, afin d'aider le site à rester héberger aussi longtemps que possible, ou a obtenir de nouvelles traductions ou corrections.</p>
+			<p>Avec 4 euros vous permettez au site d'être hébergé un mois de plus, avec 50 euros vous permettez de traduire une nouvelle langue.</p>
+			<p style="width:80%" data-value="10">Dépenses d'hébergement 2021</p>
+			<progress max="100" value="10" class="hebergement">
+			<!-- Browsers that support HTML5 progress element will ignore the html inside `progress` element. Whereas older browsers will ignore the `progress` element and instead render the html inside it. -->
+				<div class="progress-bar">
+					<span style="width: 80%">80%</span>
+				</div>
+			</progress>
+			<p style="width:80%" data-value="40">Traduction en Suedois</p>
+			<progress max="100" value="40" class="hebergement">
+			<!-- Browsers that support HTML5 progress element will ignore the html inside `progress` element. Whereas older browsers will ignore the `progress` element and instead render the html inside it. -->
+				<div class="progress-bar">
+					<span style="width: 80%">80%</span>
+				</div>
+			</progress>
 		</section>
 		<footer>
 			<address>
