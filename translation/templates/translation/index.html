@@ -75,6 +75,23 @@
 					</a>
 				</div>
 			</article>
+			<article>
+				<h2>Europe</h2>
+				<div class="langcontainer">
+					{% if europe %}
+						{% for country in europe %}
+							<a href="{{ country.code_3d }}/">
+								<figure>
+									<img class="flag" src="{% static "translation/flags/"|add:country.code_3d|add:".png" %}">
+									<figcaption>{{ country.Name_fr }}</figcaption>
+								</figure>
+							</a>
+						{% endfor %}
+					{% else %}
+    					<p>No translations available.</p>
+					{% endif %}
+				</div>
+			</article>
 		</section>
 		<footer>
 			<address>

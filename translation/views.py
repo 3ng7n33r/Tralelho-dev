@@ -2,9 +2,13 @@ from django.http import HttpResponse
 from django.utils.translation import ugettext as _
 from django.shortcuts import render
 
+from .models import Countries
+
 
 def index(request):
-    return render(request, 'translation/index.html')
+    europe = Countries.objects.filter(Continent__iexact="Europe")
+    context = {'europe': europe}
+    return render(request, 'translation/index.html', context)
 
 
 def translation(request, language_id):
