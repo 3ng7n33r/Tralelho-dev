@@ -35,6 +35,7 @@
 			</div>
 		</header>
  		<section>
+{% comment %} 		 	Section todo, create table with most spoken language based on base language country
 			<article>
 				<h2>Principales langues étrangères</h2>
 				<div class="langcontainer">
@@ -63,16 +64,73 @@
 						</figure>
 					</a>
 				</div>
-			</article>
+			</article> {% endcomment %}
+			<article>
+				<h2>Afrique</h2>
+				<div class="langcontainer">
+					{% if afrique %}
+						{% for country in afrique %}
+							<a href="{{ country.langcode }}/">
+								<figure>
+									<img class="flag" src="{% static "translation/flags/"|add:country.flagcode|add:".png" %}">
+									<figcaption>{{ country.Name_fr }}</figcaption>
+								</figure>
+							</a>
+						{% endfor %}
+					{% else %}
+    					<p style="margin: auto">No translations available</p>
+					{% endif %}
+				</div>
+			</article>			
 			<article>
 				<h2>Amerique du Nord</h2>
 				<div class="langcontainer">
-					<a href="eng-US/">
-						<figure>
-							<img class="flag" src="{% static 'translation/flags/eng-US.png' %}" href="eng/">
-							<figcaption>Etats-Unis</figcaption>
-						</figure>
-					</a>
+					{% if namerique %}
+						{% for country in namerique %}
+							<a href="{{ country.langcode }}/">
+								<figure>
+									<img class="flag" src="{% static "translation/flags/"|add:country.flagcode|add:".png" %}">
+									<figcaption>{{ country.Name_fr }}</figcaption>
+								</figure>
+							</a>
+						{% endfor %}
+					{% else %}
+    					<p style="margin: auto">No translations available</p>
+					{% endif %}
+				</div>
+			</article>
+			<article>
+				<h2>Amerique du Sud</h2>
+				<div class="langcontainer">
+					{% if samerique %}
+						{% for country in samerique %}
+							<a href="{{ country.langcode }}/">
+								<figure>
+									<img class="flag" src="{% static "translation/flags/"|add:country.flagcode|add:".png" %}">
+									<figcaption>{{ country.Name_fr }}</figcaption>
+								</figure>
+							</a>
+						{% endfor %}
+					{% else %}
+    					<p style="margin: auto">No translations available</p>
+					{% endif %}
+				</div>
+			</article>
+			<article>
+				<h2>Asie</h2>
+				<div class="langcontainer">
+					{% if asie %}
+						{% for country in asie %}
+							<a href="{{ country.langcode }}/">
+								<figure>
+									<img class="flag" src="{% static "translation/flags/"|add:country.flagcode|add:".png" %}">
+									<figcaption>{{ country.Name_fr }}</figcaption>
+								</figure>
+							</a>
+						{% endfor %}
+					{% else %}
+    					<p style="margin: auto">No translations available</p>
+					{% endif %}
 				</div>
 			</article>
 			<article>
@@ -80,18 +138,35 @@
 				<div class="langcontainer">
 					{% if europe %}
 						{% for country in europe %}
-							<a href="{{ country.code_3d }}/">
+							<a href="{{ country.langcode }}/">
 								<figure>
-									<img class="flag" src="{% static "translation/flags/"|add:country.code_3d|add:".png" %}">
+									<img class="flag" src="{% static "translation/flags/"|add:country.flagcode|add:".png" %}">
 									<figcaption>{{ country.Name_fr }}</figcaption>
 								</figure>
 							</a>
 						{% endfor %}
 					{% else %}
-    					<p>No translations available.</p>
+    					<p style="margin: auto">No translations available</p>
 					{% endif %}
 				</div>
 			</article>
+			<article>
+				<h2>Oceanie</h2>
+				<div class="langcontainer">
+					{% if oceanie %}
+						{% for country in oceanie %}
+							<a href="{{ country.langcode }}/">
+								<figure>
+									<img class="flag" src="{% static "translation/flags/"|add:country.flagcode|add:".png" %}">
+									<figcaption>{{ country.Name_fr }}</figcaption>
+								</figure>
+							</a>
+						{% endfor %}
+					{% else %}
+    					<p style="margin: auto">No translations available</p>
+					{% endif %}
+				</div>
+			</article>						
 		</section>
 		<footer>
 			<address>

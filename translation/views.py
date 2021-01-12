@@ -6,8 +6,20 @@ from .models import Countries
 
 
 def index(request):
+    afrique = Countries.objects.filter(Continent__iexact="Afrique")
+    namerique = Countries.objects.filter(Continent__iexact="Amerique du Nord")
+    samerique = Countries.objects.filter(Continent__iexact="Amerique du Sud")
+    oceanie = Countries.objects.filter(Continent__iexact="Oceania")
+    asie = Countries.objects.filter(Continent__iexact="Asie")
     europe = Countries.objects.filter(Continent__iexact="Europe")
-    context = {'europe': europe}
+    context = {
+        'afrique': afrique,
+        'namerique': namerique,
+        'samerique': samerique,
+        'oceanie': oceanie,
+        'asie': asie,
+        'europe': europe,
+    }
     return render(request, 'translation/index.html', context)
 
 
