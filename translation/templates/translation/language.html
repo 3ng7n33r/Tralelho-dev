@@ -31,6 +31,7 @@
 			<div id="flagcontainer">
 				<a class="anav" href="/">
 					<img class="smallflag" src="{% static 'translation/flags/fra.png' %}">
+					{% comment %} Make flag representation possible for multiple countries with same language {% endcomment %}
 					<img class="smallflag" src="{% get_static_prefix %}translation/flags/{{ language_id }}.png">
 				</a>
 			</div>
