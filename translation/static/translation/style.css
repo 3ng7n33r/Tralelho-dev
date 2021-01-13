@@ -209,6 +209,10 @@ traduction {
     grid-template-columns: min-content 1fr;
 }
 
+.activerow td {
+    background-color: cadetblue;
+}
+
 nav {
     background-color: #efefef;
     margin: 10px 1vw 0 0;
