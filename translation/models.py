@@ -2,7 +2,7 @@ from django.db import models
 
 
 class Countries(models.Model):
-    """ Iso-639-2/T """
+    """ Iso-639-2/T // BCP - 47"""
     langcode = models.CharField(max_length=3)
     """ ISO 3166-1 alpha-3 """
     flagcode = models.CharField(max_length=3)
