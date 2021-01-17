@@ -33,4 +33,23 @@ function togglerow(id) {
 
 	let updown = document.getElementsByClassName("txtUpsideDown")[0];
 	updown.textContent = text;
+  }
+
+  function switchVisibilityBlock(ID) {
+	let element = document.getElementById(ID);
+    if (element.style.display === "block") {
+		element.style.display = "none";
+	  } else {
+		element.style.display = "block";
+	  }
+  } 
+
+  function switchVisibilityFlex(ID) {
+	let element = document.getElementById(ID);
+    if (element.style.display === "flex") {
+		element.style.display = "none";
+	  } else {
+		/* element.style.className = "langcontainer"; */
+		element.style.display = "flex";
+	  }
   } 
