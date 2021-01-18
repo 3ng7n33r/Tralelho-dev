@@ -4,7 +4,6 @@
 
 <!doctype html>
 <html lang="fr">
-<!-- Template used with permission from https://html5-templates.com/" -->
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
@@ -39,7 +38,7 @@
 				<div id="afrique" class="langcontainer" style="display: none">
 					{% if afrique %}
 						{% for country in afrique %}
-							<a href="/{{ country.langcode }}/{{ country.flagcode }}">
+							<a href="/{{ country.langcode }}/{{ country.flagcode }}/about">
 								<figure>
 									<img class="flag" src="{% static "translation/flags/"|add:country.flagcode|add:".png" %}">
 									<figcaption>{% translate country.Name_fr %}</figcaption>
@@ -54,7 +53,7 @@
 				<div id="namerique" class="langcontainer" style="display: none">
 					{% if namerique %}
 						{% for country in namerique %}
-							<a href="/{{ country.langcode }}/{{ country.flagcode }}">
+							<a href="/{{ country.langcode }}/{{ country.flagcode }}/about">
 								<figure>
 									<img class="flag" src="{% static "translation/flags/"|add:country.flagcode|add:".png" %}">
 									<figcaption>{% translate country.Name_fr %}</figcaption>
@@ -69,7 +68,7 @@
 				<div id="samerique" class="langcontainer" style="display: none">
 					{% if samerique %}
 						{% for country in samerique %}
-							<a href="/{{ country.langcode }}/{{ country.flagcode }}">
+							<a href="/{{ country.langcode }}/{{ country.flagcode }}/about">
 								<figure>
 									<img class="flag" src="{% static "translation/flags/"|add:country.flagcode|add:".png" %}">
 									<figcaption>{% translate country.Name_fr %}</figcaption>
@@ -84,7 +83,7 @@
 				<div id="asie" class="langcontainer" style="display: none">
 					{% if asie %}
 						{% for country in asie %}
-							<a href="/{{ country.langcode }}/{{ country.flagcode }}">
+							<a href="/{{ country.langcode }}/{{ country.flagcode }}/about">
 								<figure>
 									<img class="flag" src="{% static "translation/flags/"|add:country.flagcode|add:".png" %}">
 									<figcaption>{% translate country.Name_fr %}</figcaption>
@@ -99,7 +98,7 @@
 				<div id="europe" class="langcontainer" style="display: none">
 					{% if europe %}
 						{% for country in europe %}
-							<a href="/{{ country.langcode }}/{{ country.flagcode }}">
+							<a href="/{{ country.langcode }}/{{ country.flagcode }}/about">
 								<figure>
 									<img class="flag" src="{% static "translation/flags/"|add:country.flagcode|add:".png" %}">
 									<figcaption>{% translate country.Name_fr %}</figcaption>
@@ -114,7 +113,7 @@
 				<div id="oceanie" class="langcontainer" style="display: none">
 					{% if oceanie %}
 						{% for country in oceanie %}
-							<a href="/{{ country.langcode }}/{{ country.flagcode }}">
+							<a href="/{{ country.langcode }}/{{ country.flagcode }}/about">
 								<figure>
 									<img class="flag" src="{% static "translation/flags/"|add:country.flagcode|add:".png" %}">
 									<figcaption>{% translate country.Name_fr %}</figcaption>
