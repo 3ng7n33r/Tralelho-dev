@@ -25,10 +25,10 @@
 	<body>
 		<header> 
 			<div class="navbar">
-				<a class="anav" id="active" href="/"><img id="logo" src="{% static 'translation/iconmonstr-globe-5-240.png' %}"><p class="navtext">{% translate "Traductions" %}</p></a>
-				<a class="anav" href="/docindex"><i class="fa fa-file" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">{% translate "Documents" %}</p></a>
-				<a class="anav" href="/support"><i class="fa fa-heart" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">{% translate "Soutenez-nous" %}</p></a>
-				<a class="anav" href="/about"><i class="fa fa-info-circle " style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">{% translate "Qui-sommes nous?" %}</p></a>
+				<a class="anav" id="active" href="/{{ base_language }}/{{ base_flag }}"><img id="logo" src="{% static 'translation/iconmonstr-globe-5-240.png' %}"><p class="navtext">{% translate "Traductions" %}</p></a>
+				<a class="anav" href="/{{ base_language }}/{{ base_flag }}/documents"><i class="fa fa-file" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">{% translate "Documents" %}</p></a>
+				<a class="anav" href="/{{ base_language }}/{{ base_flag }}/support"><i class="fa fa-heart" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">{% translate "Soutenez-nous" %}</p></a>
+				<a class="anav" href="/{{ base_language }}/{{ base_flag }}/about"><i class="fa fa-info-circle " style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">{% translate "Qui-sommes nous?" %}</p></a>
 			</div> 
 			<div id="flagcontainer" onclick="switchVisibilityBlock('changebase')">
 				<img id="sourceflag" src="{% get_static_prefix %}translation/flags/{{ base_flag }}.png">
@@ -39,7 +39,7 @@
 				<div id="afrique" class="langcontainer" style="display: none">
 					{% if afrique %}
 						{% for country in afrique %}
-							<a href="/{{ country.langcode }}/{{ country.flagcode }}/">
+							<a href="/{{ country.langcode }}/{{ country.flagcode }}">
 								<figure>
 									<img class="flag" src="{% static "translation/flags/"|add:country.flagcode|add:".png" %}">
 									<figcaption>{% translate country.Name_fr %}</figcaption>
@@ -54,7 +54,7 @@
 				<div id="namerique" class="langcontainer" style="display: none">
 					{% if namerique %}
 						{% for country in namerique %}
-							<a href="/{{ country.langcode }}/{{ country.flagcode }}/">
+							<a href="/{{ country.langcode }}/{{ country.flagcode }}">
 								<figure>
 									<img class="flag" src="{% static "translation/flags/"|add:country.flagcode|add:".png" %}">
 									<figcaption>{% translate country.Name_fr %}</figcaption>
@@ -69,7 +69,7 @@
 				<div id="samerique" class="langcontainer" style="display: none">
 					{% if samerique %}
 						{% for country in samerique %}
-							<a href="/{{ country.langcode }}/{{ country.flagcode }}/">
+							<a href="/{{ country.langcode }}/{{ country.flagcode }}">
 								<figure>
 									<img class="flag" src="{% static "translation/flags/"|add:country.flagcode|add:".png" %}">
 									<figcaption>{% translate country.Name_fr %}</figcaption>
@@ -84,7 +84,7 @@
 				<div id="asie" class="langcontainer" style="display: none">
 					{% if asie %}
 						{% for country in asie %}
-							<a href="/{{ country.langcode }}/{{ country.flagcode }}/">
+							<a href="/{{ country.langcode }}/{{ country.flagcode }}">
 								<figure>
 									<img class="flag" src="{% static "translation/flags/"|add:country.flagcode|add:".png" %}">
 									<figcaption>{% translate country.Name_fr %}</figcaption>
@@ -99,7 +99,7 @@
 				<div id="europe" class="langcontainer" style="display: none">
 					{% if europe %}
 						{% for country in europe %}
-							<a href="/{{ country.langcode }}/{{ country.flagcode }}/">
+							<a href="/{{ country.langcode }}/{{ country.flagcode }}">
 								<figure>
 									<img class="flag" src="{% static "translation/flags/"|add:country.flagcode|add:".png" %}">
 									<figcaption>{% translate country.Name_fr %}</figcaption>
@@ -114,7 +114,7 @@
 				<div id="oceanie" class="langcontainer" style="display: none">
 					{% if oceanie %}
 						{% for country in oceanie %}
-							<a href="/{{ country.langcode }}/{{ country.flagcode }}/">
+							<a href="/{{ country.langcode }}/{{ country.flagcode }}">
 								<figure>
 									<img class="flag" src="{% static "translation/flags/"|add:country.flagcode|add:".png" %}">
 									<figcaption>{% translate country.Name_fr %}</figcaption>
@@ -128,36 +128,36 @@
       		</div>
 		</header>
  		<section>
-{% comment %} 		 	Section todo, #6 create table with most spoken language based on base language country
-			<article>
-				<h2>Principales langues étrangères</h2>
-				<div class="langcontainer">
-					<a href="eng/">
-						<figure>
-							<img class="flag" src="{% static 'translation/flags/eng.png' %}">
-							<figcaption>Royaume-Uni</figcaption>
-						</figure>
-					</a>
-					<a href="spa/">
-						<figure>
-							<img class="flag" src="{% static 'translation/flags/spa.png' %}">
-							<figcaption>Espagnol</figcaption>
-						</figure>
-					</a>
-					<a href="deu/">
-						<figure>
-							<img class="flag" src="{% static 'translation/flags/deu.png' %}">
-							<figcaption>Allemagne</figcaption>
-						</figure>
-					</a>
-					<a href="ita/">
-						<figure>
-							<img class="flag" src="{% static 'translation/flags/ita.png' %}">
-							<figcaption>Italie</figcaption>
-						</figure>
-					</a>
-				</div>
-			</article> {% endcomment %}
+		{% comment %} 		 	Section todo, #6 create table with most spoken language based on base language country
+		<article>
+			<h2>Principales langues étrangères</h2>
+			<div class="langcontainer">
+				<a href="eng/">
+					<figure>
+						<img class="flag" src="{% static 'translation/flags/eng.png' %}">
+						<figcaption>Royaume-Uni</figcaption>
+					</figure>
+				</a>
+				<a href="spa/">
+					<figure>
+						<img class="flag" src="{% static 'translation/flags/spa.png' %}">
+						<figcaption>Espagnol</figcaption>
+					</figure>
+				</a>
+				<a href="deu/">
+					<figure>
+						<img class="flag" src="{% static 'translation/flags/deu.png' %}">
+						<figcaption>Allemagne</figcaption>
+					</figure>
+				</a>
+				<a href="ita/">
+					<figure>
+						<img class="flag" src="{% static 'translation/flags/ita.png' %}">
+						<figcaption>Italie</figcaption>
+					</figure>
+				</a>
+			</div>
+		</article> {% endcomment %}
 			<article>
 				<h2>{% translate "Afrique" %}</h2>
 				<div class="langcontainer">

@@ -1,10 +1,8 @@
 {% load static %}
 {% load i18n %}
-{% get_current_language as LANGUAGE_CODE %}
-
+{% language base_language %}
 <!doctype html>
-<html lang="en">
-<!-- Template used with permission from https://html5-templates.com/" -->
+<html lang="en" class="no-js">
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
@@ -13,6 +11,7 @@
 		<title>Tralelho</title>
 		<meta name="description" content="Traductions pour les etrangers à l'hopital">
 		<link rel="stylesheet" type="text/css" href="{% static 'translation/style.css' %}">
+		<script src="{% static 'translation/app.js' %}" async></script>		
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<!-- Favicons -->
 		<link rel="apple-touch-icon" sizes="180x180" href="{% static 'translation/favicon_io/apple-touch-icon.png' %}">
@@ -24,62 +23,122 @@
 	<body>
 		<header> 
 			<div class="navbar">
-				<a class="anav" href="/"><img id="logo" src="{% static 'translation/iconmonstr-globe-5-240.png' %}"><p class="navtext">Translations</p></a>
-				<a class="anav" id="active" href="/documents"><i class="fa fa-file" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">Documents</p></a>
-				<a class="anav" href="/support"><i class="fa fa-heart" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">Support us</p></a>
-				<a class="anav" href="/about"><i class="fa fa-info-circle " style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">About</p></a>
+				<a class="anav" href="/"><img id="logo" src="{% static 'translation/iconmonstr-globe-5-240.png' %}"><p class="navtext">{% translate "Traductions" %}</p></a>
+				<a class="anav" id="active" href="/{{ base_language }}/{{ base_flag }}/documents"><i class="fa fa-file" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">{% translate "Documents" %}</p></a>
+				<a class="anav" href="/{{ base_language }}/{{ base_flag }}/support"><i class="fa fa-heart" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">{% translate "Soutenez-nous" %}</p></a>
+				<a class="anav" href="/{{ base_language }}/{{ base_flag }}/about"><i class="fa fa-info-circle " style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">{% translate "Qui-sommes nous?" %}</p></a>
 			</div> 
-			<div id="flagcontainer">
-				<a class="anav" href="/"><img id="sourceflag" src="{% static 'translation/flags/fra.png' %}"></a>
+			<div id="flagcontainer" onclick="switchVisibilityBlock('changebase')">
+				<a class="anav">
+					<img class="smallflag" src="{% get_static_prefix %}translation/flags/{{ base_flag }}.png">
+					{% comment %} Make flag representation possible for multiple countries with same language {% endcomment %}
+					<img class="smallflag" src="{% get_static_prefix %}translation/flags/{{ target_flag }}.png">
+				</a>
 			</div>
+			<div id="changebase">
+        		<h2 style="text-align: center">{% translate "Langue d'utilisation" %}</h2>
+				<h3 onclick="switchVisibilityFlex('afrique')"><i class="fa fa-caret-right" aria-hidden="true"></i> {% translate "Afrique" %}</h3>
+				<div id="afrique" class="langcontainer" style="display: none">
+					{% if afrique %}
+						{% for country in afrique %}
+							<a href="/{{ country.langcode }}/{{ country.flagcode }}/{{ target_language }}/{{ target_flag }}/documents">
+								<figure>
+									<img class="flag" src="{% static "translation/flags/"|add:country.flagcode|add:".png" %}">
+									<figcaption>{% translate country.Name_fr %}</figcaption>
+								</figure>
+							</a>
+						{% endfor %}
+					{% else %}
+    					<p style="margin: auto">{% translate "No translations available" %}</p>
+					{% endif %}
+				</div>
+				<h3 onclick="switchVisibilityFlex('namerique')"><i class="fa fa-caret-right" aria-hidden="true"></i> {% translate "Amerique du Nord" %}</h3>
+				<div id="namerique" class="langcontainer" style="display: none">
+					{% if namerique %}
+						{% for country in namerique %}
+							<a href="/{{ country.langcode }}/{{ country.flagcode }}/{{ target_language }}/{{ target_flag }}/documents">
+								<figure>
+									<img class="flag" src="{% static "translation/flags/"|add:country.flagcode|add:".png" %}">
+									<figcaption>{% translate country.Name_fr %}</figcaption>
+								</figure>
+							</a>
+						{% endfor %}
+					{% else %}
+    					<p style="margin: auto">{% translate "No translations available" %}</p>
+					{% endif %}
+				</div>
+				<h3 onclick="switchVisibilityFlex('samerique')"><i class="fa fa-caret-right" aria-hidden="true"></i> {% translate "Amerique du Sud" %}</h3>
+				<div id="samerique" class="langcontainer" style="display: none">
+					{% if samerique %}
+						{% for country in samerique %}
+							<a href="/{{ country.langcode }}/{{ country.flagcode }}/{{ target_language }}/{{ target_flag }}/documents">
+								<figure>
+									<img class="flag" src="{% static "translation/flags/"|add:country.flagcode|add:".png" %}">
+									<figcaption>{% translate country.Name_fr %}</figcaption>
+								</figure>
+							</a>
+						{% endfor %}
+					{% else %}
+    					<p style="margin: auto">{% translate "No translations available" %}</p>
+					{% endif %}
+				</div>
+				<h3 onclick="switchVisibilityFlex('asie')"><i class="fa fa-caret-right" aria-hidden="true"></i> {% translate "Asie" %}</h3>
+				<div id="asie" class="langcontainer" style="display: none">
+					{% if asie %}
+						{% for country in asie %}
+							<a href="/{{ country.langcode }}/{{ country.flagcode }}/{{ target_language }}/{{ target_flag }}/documents">
+								<figure>
+									<img class="flag" src="{% static "translation/flags/"|add:country.flagcode|add:".png" %}">
+									<figcaption>{% translate country.Name_fr %}</figcaption>
+								</figure>
+							</a>
+						{% endfor %}
+					{% else %}
+    					<p style="margin: auto">{% translate "No translations available" %}</p>
+					{% endif %}
+				</div>
+				<h3 onclick="switchVisibilityFlex('europe')"><i class="fa fa-caret-right" aria-hidden="true"></i> {% translate "Europe" %}</h3>
+				<div id="europe" class="langcontainer" style="display: none">
+					{% if europe %}
+						{% for country in europe %}
+							<a href="/{{ country.langcode }}/{{ country.flagcode }}/{{ target_language }}/{{ target_flag }}/documents">
+								<figure>
+									<img class="flag" src="{% static "translation/flags/"|add:country.flagcode|add:".png" %}">
+									<figcaption>{% translate country.Name_fr %}</figcaption>
+								</figure>
+							</a>
+						{% endfor %}
+					{% else %}
+    					<p style="margin: auto">{% translate "No translations available" %}/p>
+					{% endif %}
+				</div>
+				<h3 onclick="switchVisibilityFlex('oceanie')"><i class="fa fa-caret-right" aria-hidden="true"></i> {% translate "Oceanie" %}</h3>
+				<div id="oceanie" class="langcontainer" style="display: none">
+					{% if oceanie %}
+						{% for country in oceanie %}
+							<a href="/{{ country.langcode }}/{{ country.flagcode }}/{{ target_language }}/{{ target_flag }}/documents">
+								<figure>
+									<img class="flag" src="{% static "translation/flags/"|add:country.flagcode|add:".png" %}">
+									<figcaption>{% translate country.Name_fr %}</figcaption>
+								</figure>
+							</a>
+						{% endfor %}
+					{% else %}
+    					<p style="margin: auto">{% translate "No translations available" %}</p>
+					{% endif %}
+				</div>
+      		</div>
 		</header>
- 		<section>
-			<article>
-				<h2>Most common languages</h2>
-				<div class="langcontainer">
-					<a href="eng/">
-						<figure>
-							<img class="flag" src="{% static 'translation/flags/eng.png' %}" href="eng/">
-							<figcaption>Etats-Unis</figcaption>
-						</figure>
+		<section>
+			{% for string, short in docs.items %}
+				<article class="docarticle">
+					<a class="doccontainer" href="{% get_static_prefix %}translation/docs/{{ base_language }}-{{ target_language }}-{{ short }}.pdf">
+						<h2>{% translate string %}</h2>
+						<img class="docicon" src="{% get_static_prefix %}translation/docs/icons/{{ short }}.png">
 					</a>
-					<a href="deu/">
-						<figure>
-							<img class="flag" src="{% static 'translation/flags/deu.png' %}" href="deu/">
-							<figcaption>Allemagne</figcaption>
-						</figure>
-					</a>
-					<a href="deu/">
-						<figure>
-							<img class="flag" src="{% static 'translation/flags/deu.png' %}" href="deu/">
-							<figcaption>Allemagne</figcaption>
-						</figure>
-					</a>
-					<a href="deu/">
-						<figure>
-							<img class="flag" src="{% static 'translation/flags/deu.png' %}" href="deu/">
-							<figcaption>Allemagne</figcaption>
-						</figure>
-					</a>
-				</div>
-			</article>
-			<article>
-				<h2>North America</h2>
-				<div class="langcontainer">
-					<a href="eng-US/">
-						<figure>
-							<img class="flag" src="{% static 'translation/flags/eng-US.png' %}" href="eng/">
-							<figcaption>Etats-Unis</figcaption>
-						</figure>
-					</a>
-				</div>
-			</article>
+				</article>
+			{% endfor %}
 		</section>
-		<footer>
-			<address>
-				Contact: <a href="mailto:me@example.com">Mail me</a>
-			</address>
-		</footer>
+	{% endlanguage %}
 	</body>
-
 </html>

@@ -124,13 +124,17 @@ header {
 
 /* Content */
 
+.docicon {
+    max-width: 30%;
+    max-height: 80px;
+}
+
 section {
     margin: 0 7px;
 }
 
 article {
     background-color: #fce5cd;
-    justify-content: left;
     border-radius: 20px;
 }
 
@@ -147,6 +151,23 @@ aside>div {
     display: flex;
     flex-wrap: wrap;
     padding: 5px;
+}
+
+.doccontainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-around;
+}
+
+.docarticle {
+    background-color: #fce5cd;
+    border-radius: 20px;
+    margin: 10px auto;
+}
+
+.docarticle:hover {
+    background-color: #ccc;
 }
 
 .langcontainer>a {
