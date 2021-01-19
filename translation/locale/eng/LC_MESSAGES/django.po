@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-08 16:21+0100\n"
+"POT-Creation-Date: 2021-01-17 18:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,1800 +17,3128 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: translation/templates/translation/language.html:23
+#: translation/templates/translation/about.html:27
+#: translation/templates/translation/docindex.html:28
+#: translation/templates/translation/index.html:28
+#: translation/templates/translation/language.html:26
+#: translation/templates/translation/support.html:27
+msgid "Traductions"
+msgstr "Translations"
+
+#: translation/templates/translation/about.html:28
+#: translation/templates/translation/docindex.html:29
+#: translation/templates/translation/index.html:29
+#: translation/templates/translation/language.html:27
+#: translation/templates/translation/support.html:28
+msgid "Documents"
+msgstr "Documents"
+
+#: translation/templates/translation/about.html:29
+#: translation/templates/translation/docindex.html:30
+#: translation/templates/translation/index.html:30
+#: translation/templates/translation/language.html:28
+#: translation/templates/translation/support.html:29
+msgid "Soutenez-nous"
+msgstr "Support us"
+
+#: translation/templates/translation/about.html:30
+#: translation/templates/translation/docindex.html:31
+#: translation/templates/translation/index.html:31
+#: translation/templates/translation/language.html:29
+#: translation/templates/translation/support.html:30
+msgid "Qui-sommes nous?"
+msgstr "About us"
+
+#: translation/templates/translation/docindex.html:13
+#: translation/templates/translation/index.html:13
+msgid "Tralelho"
+msgstr ""
+
+#: translation/templates/translation/docindex.html:37
+#: translation/templates/translation/index.html:37
+msgid "Langue d'utilisation"
+msgstr ""
+
+#: translation/templates/translation/docindex.html:73
+#: translation/templates/translation/index.html:38
+#: translation/templates/translation/index.html:163
+msgid "Afrique"
+msgstr "Africa"
+
+#: translation/templates/translation/docindex.html:85
+#: translation/templates/translation/docindex.html:102
+#: translation/templates/translation/docindex.html:119
+#: translation/templates/translation/docindex.html:136
+#: translation/templates/translation/docindex.html:153
+#: translation/templates/translation/docindex.html:170
+#: translation/templates/translation/index.html:50
+#: translation/templates/translation/index.html:65
+#: translation/templates/translation/index.html:80
+#: translation/templates/translation/index.html:95
+#: translation/templates/translation/index.html:110
+#: translation/templates/translation/index.html:125
+#: translation/templates/translation/index.html:175
+#: translation/templates/translation/index.html:192
+#: translation/templates/translation/index.html:209
+#: translation/templates/translation/index.html:226
+#: translation/templates/translation/index.html:243
+#: translation/templates/translation/index.html:260
+msgid "No translations available"
+msgstr "No translations available"
+
+#: translation/templates/translation/docindex.html:90
+#: translation/templates/translation/index.html:53
+#: translation/templates/translation/index.html:180
+msgid "Amerique du Nord"
+msgstr "North America"
+
+#: translation/templates/translation/docindex.html:107
+#: translation/templates/translation/index.html:68
+#: translation/templates/translation/index.html:197
+msgid "Amerique du Sud"
+msgstr "South America"
+
+#: translation/templates/translation/docindex.html:124
+#: translation/templates/translation/index.html:83
+#: translation/templates/translation/index.html:214
+msgid "Asie"
+msgstr "Asia"
+
+#: translation/templates/translation/docindex.html:141
+#: translation/templates/translation/index.html:98
+#: translation/templates/translation/index.html:231
+msgid "Europe"
+msgstr "Europe"
+
+#: translation/templates/translation/docindex.html:158
+#: translation/templates/translation/index.html:113
+#: translation/templates/translation/index.html:248
+msgid "Oceanie"
+msgstr "Oceania"
+
+#: translation/templates/translation/language.html:69
+msgid "Please click a phrase to display"
+msgstr ""
+
+#: translation/templates/translation/language.html:72
 msgid "PRESENTATION"
 msgstr "Introduction"
 
-#: translation/templates/translation/language.html:27
+#: translation/templates/translation/language.html:78
+#: translation/templates/translation/language.html:81
+msgid "Bonjour, je suis"
+msgstr "Hello, I am a"
+
+#: translation/templates/translation/language.html:86
+#: translation/templates/translation/language.html:89
+msgid "Infirmière"
+msgstr "Nurse"
+
+#: translation/templates/translation/language.html:94
+#: translation/templates/translation/language.html:97
+msgid "Médecin"
+msgstr "Doctor"
+
+#: translation/templates/translation/language.html:102
+#: translation/templates/translation/language.html:105
+msgid "Secouriste"
+msgstr "first aider"
+
+#: translation/templates/translation/language.html:110
+#: translation/templates/translation/language.html:113
+msgid "Bénévole"
+msgstr "volunteer"
+
+#: translation/templates/translation/language.html:118
+#: translation/templates/translation/language.html:121
+msgid "Agent d'accueil"
+msgstr "customer service representative"
+
+#: translation/templates/translation/language.html:126
+#: translation/templates/translation/language.html:129
+#, fuzzy
+#| msgid "\"Etudiant en médecine\""
+msgid "Etudiant en médecine"
+msgstr "Medical student"
+
+#: translation/templates/translation/language.html:134
+#: translation/templates/translation/language.html:137
+msgid "Sage-femme"
+msgstr "Midwife"
+
+#: translation/templates/translation/language.html:142
+#: translation/templates/translation/language.html:145
+msgid "Secrétaire"
+msgstr "secretary"
+
+#: translation/templates/translation/language.html:150
+#: translation/templates/translation/language.html:153
+msgid "Soignant"
+msgstr "nursing staff"
+
+#: translation/templates/translation/language.html:158
+#: translation/templates/translation/language.html:161
+#, fuzzy
+#| msgid ""
+#| "\"Bonjour, je suis \"Infirmière\", je vais utiliser le téléphone pour "
+#| "traduire les questions que j'ai à vous poser, êtes vous d'accord ?\""
 msgid ""
-"\"Bonjour, je suis \"Infirmière\", je vais utiliser le téléphone pour "
-"traduire les questions que j'ai à vous poser, êtes vous d'accord ?\""
+"Je vais utiliser le téléphone pour traduire les questions que j'ai à vous "
+"poser, êtes vous d'accord ?"
 msgstr ""
 "Hello, I am a nurse. Do you mind if I use my phone to translate the "
 "questions that I'll be asking you?"
 
-#: translation/templates/translation/language.html:31
-msgid "Infirmière"
-msgstr "Nurse"
-
-#: translation/templates/translation/language.html:35
-msgid "Médecin"
-msgstr "Doctor"
-
-#: translation/templates/translation/language.html:39
-msgid "Secouriste"
-msgstr "first aider"
-
-#: translation/templates/translation/language.html:43
-msgid "Bénévole"
-msgstr "volunteer"
-
-#: translation/templates/translation/language.html:47
-msgid "Agent d'accueil"
-msgstr "customer service representative"
-
-#: translation/templates/translation/language.html:51
-msgid "\"Etudiant en médecine\""
-msgstr "Medical student"
-
-#: translation/templates/translation/language.html:55
-msgid "Sage-femme"
-msgstr "Midwife"
-
-#: translation/templates/translation/language.html:59
-msgid "Secrétaire"
-msgstr "secretary"
-
-#: translation/templates/translation/language.html:63
-msgid "Soignant"
-msgstr "nursing staff"
-
-#: translation/templates/translation/language.html:67
+#: translation/templates/translation/language.html:167
 msgid "IDENTITÉ"
 msgstr "identity"
 
-#: translation/templates/translation/language.html:71
-msgid "\"Pouvez-vous me montrez votre passeport.\""
+#: translation/templates/translation/language.html:173
+#: translation/templates/translation/language.html:176
+#, fuzzy
+#| msgid "\"Pouvez-vous me montrez votre passeport.\""
+msgid "Pouvez-vous me montrez votre passeport ?"
 msgstr "Can you show me your passport?"
 
-#: translation/templates/translation/language.html:75
-msgid "\"Pouvez-vous me montrez une carte d’identité.\""
+#: translation/templates/translation/language.html:181
+#: translation/templates/translation/language.html:184
+#, fuzzy
+#| msgid "\"Pouvez-vous me montrez une carte d’identité.\""
+msgid "Pouvez-vous me montrez une carte d’identité ?"
 msgstr "Would I be able to see some ID?"
 
-#: translation/templates/translation/language.html:79
-msgid "\"Pouvez-vous me montrer des papiers avec votre nom.\""
+#: translation/templates/translation/language.html:189
+#: translation/templates/translation/language.html:192
+#, fuzzy
+#| msgid "\"Pouvez-vous me montrer des papiers avec votre nom.\""
+msgid "Pouvez-vous me montrer des papiers avec votre nom ?"
 msgstr "Would I be able to see some papers with your name on?"
 
-#: translation/templates/translation/language.html:83
-msgid "\"Pouvez-vous me montrer une carte Européenne de santé.\""
+#: translation/templates/translation/language.html:197
+#: translation/templates/translation/language.html:200
+#, fuzzy
+#| msgid "\"Pouvez-vous me montrer une carte Européenne de santé.\""
+msgid "Pouvez-vous me montrer une carte Européenne de santé ?"
 msgstr "Do you have a European health card?"
 
-#: translation/templates/translation/language.html:87
-msgid "\"Pouvez-vous me montre une carte d’assurance privée.\""
+#: translation/templates/translation/language.html:205
+#: translation/templates/translation/language.html:208
+#, fuzzy
+#| msgid "\"Pouvez-vous me montre une carte d’assurance privée.\""
+msgid "Pouvez-vous me montre une carte d’assurance privée ?"
 msgstr "Do you have any private insurance? Do you have your card with you?"
 
-#: translation/templates/translation/language.html:91
-msgid "\"Les frais des soins seront à votre charge.\""
+#: translation/templates/translation/language.html:213
+#: translation/templates/translation/language.html:216
+#, fuzzy
+#| msgid "\"Les frais des soins seront à votre charge.\""
+msgid "Les frais des soins seront à votre charge"
 msgstr ""
 "The cost of care will not be covered by insurance and you will need to pay "
 "in full."
 
-#: translation/templates/translation/language.html:95
-msgid "\"Les frais des soins ne seront pas à votre charge.\""
+#: translation/templates/translation/language.html:221
+#: translation/templates/translation/language.html:224
+#, fuzzy
+#| msgid "\"Les frais des soins ne seront pas à votre charge.\""
+msgid "Les frais des soins ne seront pas à votre charge"
 msgstr ""
 "The cost of care will be covered by insurance. You will not need to pay "
 "anything."
 
-#: translation/templates/translation/language.html:99
-msgid "\"De quel pays venez-vous ?\""
+#: translation/templates/translation/language.html:229
+#: translation/templates/translation/language.html:232
+#, fuzzy
+#| msgid "\"De quel pays venez-vous ?\""
+msgid "De quel pays venez-vous ?"
 msgstr "What country do you come from?"
 
-#: translation/templates/translation/language.html:103
-msgid "\"A quelle adresse vivez-vous actuellement ?\""
+#: translation/templates/translation/language.html:237
+#: translation/templates/translation/language.html:240
+#, fuzzy
+#| msgid "\"A quelle adresse vivez-vous actuellement ?\""
+msgid "A quelle adresse vivez-vous actuellement ?"
 msgstr "What is your current address?"
 
-#: translation/templates/translation/language.html:107
-msgid "\"Avez-vous un numéro de téléphone où l’on peut vous joindre ?\""
+#: translation/templates/translation/language.html:245
+#: translation/templates/translation/language.html:248
+#, fuzzy
+#| msgid "\"Avez-vous un numéro de téléphone où l’on peut vous joindre ?\""
+msgid "Avez-vous un numéro de téléphone où l’on peut vous joindre ?"
 msgstr "Do you have a phone number that I can contact you on?"
 
-#: translation/templates/translation/language.html:111
+#: translation/templates/translation/language.html:254
 msgid "ATTENTE"
 msgstr "Waiting"
 
-#: translation/templates/translation/language.html:115
-msgid "\"Je vous laisse attendre :\""
+#: translation/templates/translation/language.html:260
+#: translation/templates/translation/language.html:263
+#, fuzzy
+#| msgid "\"Je vous laisse attendre :\""
+msgid "Je vous laisse attendre :"
 msgstr "Please wait"
 
-#: translation/templates/translation/language.html:119
+#: translation/templates/translation/language.html:268
+#: translation/templates/translation/language.html:271
 msgid "sur les chaises"
 msgstr "on the chairs"
 
-#: translation/templates/translation/language.html:123
+#: translation/templates/translation/language.html:276
+#: translation/templates/translation/language.html:279
 msgid "sur le banc"
 msgstr "on the bench"
 
-#: translation/templates/translation/language.html:127
-msgid "\"dans la salle d'attente\""
+#: translation/templates/translation/language.html:284
+#: translation/templates/translation/language.html:287
+#, fuzzy
+#| msgid "\"dans la salle d'attente\""
+msgid "dans la salle d'attente"
 msgstr "in the waiting room"
 
-#: translation/templates/translation/language.html:131
-msgid "\"Nous viendrons vous appeler.\""
+#: translation/templates/translation/language.html:292
+#: translation/templates/translation/language.html:295
+#, fuzzy
+#| msgid "\"Nous viendrons vous appeler.\""
+msgid "Nous viendrons vous appeler"
 msgstr "We will come and get you."
 
-#: translation/templates/translation/language.html:135
-msgid "\"Merci de ne pas manger, boire ou fumer pendant l’attente.\""
+#: translation/templates/translation/language.html:300
+#: translation/templates/translation/language.html:303
+#, fuzzy
+#| msgid "\"Merci de ne pas manger, boire ou fumer pendant l’attente.\""
+msgid "Merci de ne pas manger, boire ou fumer pendant l’attente"
 msgstr "No eating, drinking or smoking in the waiting areas."
 
-#: translation/templates/translation/language.html:139
-msgid "\"Votre famille devra attendre ici.\""
+#: translation/templates/translation/language.html:308
+#: translation/templates/translation/language.html:311
+#, fuzzy
+#| msgid "\"Votre famille devra attendre ici.\""
+msgid "Votre famille devra attendre ici"
 msgstr "Your family needs to wait here."
 
-#: translation/templates/translation/language.html:143
+#: translation/templates/translation/language.html:316
+#: translation/templates/translation/language.html:319
+#, fuzzy
+#| msgid ""
+#| "\"Selon votre état de santé, le médecin demandera parfois des soins, "
+#| "comme une prise de sang, un examen comme une radio ou un scanner, ou "
+#| "pourra demander de vous garder en observation pour surveiller votre état "
+#| "de santé.\""
 msgid ""
-"\"Selon votre état de santé, le médecin demandera parfois des soins, comme "
-"une prise de sang, un examen comme une radio ou un scanner, ou pourra "
-"demander de vous garder en observation pour surveiller votre état de santé.\""
+"Selon votre état de santé, le médecin demandera parfois des soins, comme une "
+"prise de sang, un examen comme une radio ou un scanner, ou pourra demander "
+"de vous garder en observation pour surveiller votre état de santé"
 msgstr ""
 "Depending on you status of health, the doctor will sometimes ask for further "
 "investigations, like blood tests, radiographies, scans, or they could "
 "request to keep you here for observation."
 
-#: translation/templates/translation/language.html:147
+#: translation/templates/translation/language.html:324
+#: translation/templates/translation/language.html:327
+#, fuzzy
+#| msgid ""
+#| "\"Nous vous demandons de ne pas manger ou boire tant que le médecin ne "
+#| "vous y a pas autorisé, certains examens demandant de rester à jeun.\""
 msgid ""
-"\"Nous vous demandons de ne pas manger ou boire tant que le médecin ne vous "
-"y a pas autorisé, certains examens demandant de rester à jeun.\""
+"Nous vous demandons de ne pas manger ou boire tant que le médecin ne vous y "
+"a pas autorisé, certains examens demandant de rester à jeun"
 msgstr ""
 "We ask that you refrain from eating or drinking until otherwise stated by "
 "the doctor. Certain tests require an empty stomach."
 
-#: translation/templates/translation/language.html:151
-msgid ""
-"\"Il faut attendre “1 heure” pour avoir les résultats de la prise de sang.\""
+#: translation/templates/translation/language.html:332
+#: translation/templates/translation/language.html:335
+#, fuzzy
+#| msgid ""
+#| "\"Il faut attendre “1 heure” pour avoir les résultats de la prise de sang."
+#| "\""
+msgid "Il faut attendre “1 heure” pour avoir les résultats de la prise de sang"
 msgstr "You need to wait 1 hour to receive the blood test results."
 
-#: translation/templates/translation/language.html:155
+#: translation/templates/translation/language.html:341
 msgid "ACCUEIL"
 msgstr "Reception"
 
-#: translation/templates/translation/language.html:159
-msgid "\"Qu’est-ce qui vous arrive ?\""
+#: translation/templates/translation/language.html:347
+#: translation/templates/translation/language.html:350
+#, fuzzy
+#| msgid "\"Qu’est-ce qui vous arrive ?\""
+msgid "Qu’est-ce qui vous arrive ?"
 msgstr "What happened to you?"
 
-#: translation/templates/translation/language.html:163
-msgid "\"Avez-vous des douleurs ?\""
+#: translation/templates/translation/language.html:355
+#: translation/templates/translation/language.html:358
+#, fuzzy
+#| msgid "\"Avez-vous des douleurs ?\""
+msgid "Avez-vous des douleurs ?"
 msgstr "Are you in pain?"
 
-#: translation/templates/translation/language.html:167
+#: translation/templates/translation/language.html:363
+#: translation/templates/translation/language.html:366
+#: translation/templates/translation/language.html:3780
+#: translation/templates/translation/language.html:3783
 msgid "Oui"
 msgstr "Yes"
 
-#: translation/templates/translation/language.html:171
+#: translation/templates/translation/language.html:371
+#: translation/templates/translation/language.html:374
+#: translation/templates/translation/language.html:3788
+#: translation/templates/translation/language.html:3791
 msgid "Non"
 msgstr "No"
 
-#: translation/templates/translation/language.html:175
-msgid "\"Montrez-moi où vous avez mal.\""
+#: translation/templates/translation/language.html:379
+#: translation/templates/translation/language.html:382
+#, fuzzy
+#| msgid "\"Montrez-moi où vous avez mal.\""
+msgid "Montrez-moi où vous avez mal"
 msgstr "Show me where it hurts."
 
-#: translation/templates/translation/language.html:179
-msgid "\"Je vais vous examiner.\""
+#: translation/templates/translation/language.html:387
+#: translation/templates/translation/language.html:390
+#, fuzzy
+#| msgid "\"Je vais vous examiner.\""
+msgid "Je vais vous examiner"
 msgstr "I am going to examine you."
 
-#: translation/templates/translation/language.html:183
-msgid "\"Pourriez-vous chiffrer votre douleur entre 0 et 10\""
+#: translation/templates/translation/language.html:395
+#: translation/templates/translation/language.html:398
+#, fuzzy
+#| msgid "\"Pourriez-vous chiffrer votre douleur entre 0 et 10\""
+msgid ""
+"Pourriez-vous chiffrer votre douleur entre 0 et 10 ? (10 étant la note pour "
+"une douleur insupportable)"
 msgstr "On a scale of 1 to 10, can you rate your pain level?"
 
-#: translation/templates/translation/language.html:187
-msgid "\"(10 étant la note pour une douleur insupportable) ?\""
-msgstr "10 being absolutely unbearable"
-
-#: translation/templates/translation/language.html:191
+#: translation/templates/translation/language.html:403
+#: translation/templates/translation/language.html:406
 msgid "0"
 msgstr "zero"
 
-#: translation/templates/translation/language.html:195
+#: translation/templates/translation/language.html:411
+#: translation/templates/translation/language.html:414
 msgid "1"
 msgstr "one"
 
-#: translation/templates/translation/language.html:199
+#: translation/templates/translation/language.html:419
+#: translation/templates/translation/language.html:422
 msgid "2"
 msgstr "two"
 
-#: translation/templates/translation/language.html:203
+#: translation/templates/translation/language.html:427
+#: translation/templates/translation/language.html:430
 msgid "3"
 msgstr "three"
 
-#: translation/templates/translation/language.html:207
+#: translation/templates/translation/language.html:435
+#: translation/templates/translation/language.html:438
 msgid "4"
 msgstr "four"
 
-#: translation/templates/translation/language.html:211
+#: translation/templates/translation/language.html:443
+#: translation/templates/translation/language.html:446
 msgid "5"
 msgstr "five"
 
-#: translation/templates/translation/language.html:215
+#: translation/templates/translation/language.html:451
+#: translation/templates/translation/language.html:454
 msgid "6"
 msgstr "six"
 
-#: translation/templates/translation/language.html:219
+#: translation/templates/translation/language.html:459
+#: translation/templates/translation/language.html:462
 msgid "7"
 msgstr "seven"
 
-#: translation/templates/translation/language.html:223
+#: translation/templates/translation/language.html:467
+#: translation/templates/translation/language.html:470
 msgid "8"
 msgstr "eight"
 
-#: translation/templates/translation/language.html:227
+#: translation/templates/translation/language.html:475
+#: translation/templates/translation/language.html:478
 msgid "9"
 msgstr "nine"
 
-#: translation/templates/translation/language.html:231
+#: translation/templates/translation/language.html:483
+#: translation/templates/translation/language.html:486
 msgid "10"
 msgstr "ten"
 
-#: translation/templates/translation/language.html:235
-msgid "\"Pouvez vous vous déshabiller pour que je vous examine.\""
+#: translation/templates/translation/language.html:491
+#: translation/templates/translation/language.html:494
+#, fuzzy
+#| msgid "\"Pouvez vous vous déshabiller pour que je vous examine.\""
+msgid "Pouvez vous vous déshabiller pour que je vous examine ?"
 msgstr "Can you please undress so I can examine you?"
 
-#: translation/templates/translation/language.html:239
-msgid "\"Vous pouvez garder vos sous-vêtements.\""
+#: translation/templates/translation/language.html:499
+#: translation/templates/translation/language.html:502
+#, fuzzy
+#| msgid "\"Vous pouvez garder vos sous-vêtements.\""
+msgid "Vous pouvez garder vos sous-vêtements"
 msgstr "You can keep your underwear on."
 
-#: translation/templates/translation/language.html:243
-msgid "\"Vous pouvez vous asseoir sur la chaise.\""
+#: translation/templates/translation/language.html:507
+#: translation/templates/translation/language.html:510
+#, fuzzy
+#| msgid "\"Vous pouvez vous asseoir sur la chaise.\""
+msgid "Vous pouvez vous asseoir sur la chaise"
 msgstr "You can sit on the chair."
 
-#: translation/templates/translation/language.html:247
-msgid "\"Vous pouvez vous allonger sur la table d'examen.\""
+#: translation/templates/translation/language.html:515
+#: translation/templates/translation/language.html:518
+#, fuzzy
+#| msgid "\"Vous pouvez vous allonger sur la table d'examen.\""
+msgid "Vous pouvez vous allonger sur la table d'examen"
 msgstr "You can lie on the table."
 
-#: translation/templates/translation/language.html:251
-msgid "\"Vous pouvez vous allonger sur le brancard.\""
+#: translation/templates/translation/language.html:523
+#: translation/templates/translation/language.html:526
+#, fuzzy
+#| msgid "\"Vous pouvez vous allonger sur le brancard.\""
+msgid "Vous pouvez vous allonger sur le brancard"
 msgstr "You can lie on the stretcher."
 
-#: translation/templates/translation/language.html:255
+#: translation/templates/translation/language.html:532
 msgid "NEUROLOGIE"
 msgstr "Neurology"
 
-#: translation/templates/translation/language.html:259
-msgid "\"Avez-vous perdu connaissance ?\""
+#: translation/templates/translation/language.html:538
+#: translation/templates/translation/language.html:541
+#, fuzzy
+#| msgid "\"Avez-vous perdu connaissance ?\""
+msgid "Avez-vous perdu connaissance ?"
 msgstr "Did you lose consciousness?"
 
-#: translation/templates/translation/language.html:263
-msgid "\"Savez-vous quel jour nous sommes ?\""
+#: translation/templates/translation/language.html:546
+#: translation/templates/translation/language.html:549
+#, fuzzy
+#| msgid "\"Savez-vous quel jour nous sommes ?\""
+msgid "Savez-vous quel jour nous sommes ?"
 msgstr "Do you know what day it is?"
 
-#: translation/templates/translation/language.html:267
-msgid "\"Savez-vous où vous êtes ?\""
+#: translation/templates/translation/language.html:554
+#: translation/templates/translation/language.html:557
+#, fuzzy
+#| msgid "\"Savez-vous où vous êtes ?\""
+msgid "Savez-vous où vous êtes ?"
 msgstr "Do you know where you are?"
 
-#: translation/templates/translation/language.html:271
-msgid "\"Suivez mon doigt du regard.\""
+#: translation/templates/translation/language.html:562
+#: translation/templates/translation/language.html:565
+#, fuzzy
+#| msgid "\"Suivez mon doigt du regard.\""
+msgid "Suivez mon doigt du regard"
 msgstr "Follow my finger."
 
-#: translation/templates/translation/language.html:275
-msgid "\"Pouvez-vous bouger vos mains et vos pieds ?\""
+#: translation/templates/translation/language.html:570
+#: translation/templates/translation/language.html:573
+#, fuzzy
+#| msgid "\"Pouvez-vous bouger vos mains et vos pieds ?\""
+msgid "Pouvez-vous bouger vos mains et vos pieds ?"
 msgstr "Can you move your hands and feet?"
 
-#: translation/templates/translation/language.html:279
+#: translation/templates/translation/language.html:578
+#: translation/templates/translation/language.html:581
+#, fuzzy
+#| msgid ""
+#| "\"Je vais toucher vos mains et vos pieds, sentez-vous que je vous touche ?"
+#| "\""
 msgid ""
-"\"Je vais toucher vos mains et vos pieds, sentez-vous que je vous touche ?\""
+"Je vais toucher vos mains et vos pieds, sentez-vous que je vous touche ?"
 msgstr "I am going to touch you hands and feet. Do you feel it?"
 
-#: translation/templates/translation/language.html:283
-msgid "\"Regardez-moi dans les yeux, je vais observer vos pupilles.\""
+#: translation/templates/translation/language.html:586
+#: translation/templates/translation/language.html:589
+#, fuzzy
+#| msgid "\"Regardez-moi dans les yeux, je vais observer vos pupilles.\""
+msgid "Regardez-moi dans les yeux, je vais observer vos pupilles"
 msgstr "Look me in the eyes. I want to observe your pupils."
 
-#: translation/templates/translation/language.html:287
-msgid "\"Avez vous des fourmillement ? Montrez moi où.\""
+#: translation/templates/translation/language.html:594
+#: translation/templates/translation/language.html:597
+#, fuzzy
+#| msgid "\"Avez vous des fourmillement ? Montrez moi où.\""
+msgid "Avez vous des fourmillement ? Montrez moi où"
 msgstr "Do you have any pins and needles? Show me where."
 
-#: translation/templates/translation/language.html:291
-msgid "\"Poussez sur mes mains.\""
+#: translation/templates/translation/language.html:602
+#: translation/templates/translation/language.html:605
+#, fuzzy
+#| msgid "\"Poussez sur mes mains.\""
+msgid "Poussez sur mes mains"
 msgstr "Push on my hands."
 
-#: translation/templates/translation/language.html:295
-msgid "Ouvrez les yeux."
+#: translation/templates/translation/language.html:610
+#: translation/templates/translation/language.html:613
+#, fuzzy
+#| msgid "Ouvrez les yeux."
+msgid "Ouvrez les yeux"
 msgstr "Open your eyes."
 
-#: translation/templates/translation/language.html:299
+#: translation/templates/translation/language.html:618
+#: translation/templates/translation/language.html:621
 msgid "Ouvrez la bouche"
 msgstr "Open your mouth."
 
-#: translation/templates/translation/language.html:303
-msgid "\"Levez le bras droit.\""
+#: translation/templates/translation/language.html:626
+#: translation/templates/translation/language.html:629
+#, fuzzy
+#| msgid "\"Levez le bras droit.\""
+msgid "Levez le bras droit"
 msgstr "Lift your right arm."
 
-#: translation/templates/translation/language.html:307
-msgid "\"Avez-vous des douleurs à la tête ?\""
+#: translation/templates/translation/language.html:634
+#: translation/templates/translation/language.html:637
+#, fuzzy
+#| msgid "\"Avez-vous des douleurs à la tête ?\""
+msgid "Avez-vous des douleurs à la tête ?"
 msgstr "Do you have a headache?"
 
-#: translation/templates/translation/language.html:311
-#: translation/templates/translation/language.html:1299
-msgid "\"La douleur est apparue :\""
+#: translation/templates/translation/language.html:642
+#: translation/templates/translation/language.html:645
+#: translation/templates/translation/language.html:2604
+#: translation/templates/translation/language.html:2607
+#, fuzzy
+#| msgid "\"La douleur est apparue :\""
+msgid "La douleur est apparue :"
 msgstr "The pain came on:"
 
-#: translation/templates/translation/language.html:315
-#: translation/templates/translation/language.html:1307
+#: translation/templates/translation/language.html:650
+#: translation/templates/translation/language.html:653
+#: translation/templates/translation/language.html:2620
+#: translation/templates/translation/language.html:2623
 msgid "Progressivement"
 msgstr "little by little"
 
-#: translation/templates/translation/language.html:319
-#: translation/templates/translation/language.html:1303
+#: translation/templates/translation/language.html:658
+#: translation/templates/translation/language.html:661
+#: translation/templates/translation/language.html:2612
+#: translation/templates/translation/language.html:2615
 msgid "Brutalement"
 msgstr "suddenly"
 
-#: translation/templates/translation/language.html:323
-msgid "\"Avez vous des douleurs dans la nuque ?\""
+#: translation/templates/translation/language.html:666
+#: translation/templates/translation/language.html:669
+#, fuzzy
+#| msgid "\"Avez vous des douleurs dans la nuque ?\""
+msgid "Avez vous des douleurs dans la nuque ?"
 msgstr "Do you have any pain in the neck?"
 
-#: translation/templates/translation/language.html:327
-msgid "\"Avez-vous voyagez ces derniers mois ?\""
+#: translation/templates/translation/language.html:674
+#: translation/templates/translation/language.html:677
+#, fuzzy
+#| msgid "\"Avez-vous voyagez ces derniers mois ?\""
+msgid "Avez-vous voyagez ces derniers mois ?"
 msgstr "Have you travelled in the last few months?"
 
-#: translation/templates/translation/language.html:331
+#: translation/templates/translation/language.html:682
+#: translation/templates/translation/language.html:685
 msgid "Dans quel pays ?"
 msgstr "Have you travelled overseas? Where to?"
 
-#: translation/templates/translation/language.html:335
-msgid "\"Est ce que la lumière vous dérange ?\""
+#: translation/templates/translation/language.html:690
+#: translation/templates/translation/language.html:693
+#, fuzzy
+#| msgid "\"Est ce que la lumière vous dérange ?\""
+msgid "Est ce que la lumière vous dérange ?"
 msgstr "Does the light bother you?"
 
-#: translation/templates/translation/language.html:339
-msgid "\"Est ce que le bruit vous dérange ?\""
+#: translation/templates/translation/language.html:698
+#: translation/templates/translation/language.html:701
+#, fuzzy
+#| msgid "\"Est ce que le bruit vous dérange ?\""
+msgid "Est ce que le bruit vous dérange ?"
 msgstr "Does the noise bother you?"
 
-#: translation/templates/translation/language.html:343
+#: translation/templates/translation/language.html:706
+#: translation/templates/translation/language.html:709
+#, fuzzy
+#| msgid ""
+#| "\"Je vais faire une piqûre au bout de votre doigt pour connaître votre "
+#| "taux de sucre.\""
 msgid ""
-"\"Je vais faire une piqûre au bout de votre doigt pour connaître votre taux "
-"de sucre.\""
+"Je vais faire une piqûre au bout de votre doigt pour connaître votre taux de "
+"sucre"
 msgstr ""
 "I am going to prick the end of your finger to check your blood sugar level."
 
-#: translation/templates/translation/language.html:347
-msgid "PNEUMOLOGIE :"
+#: translation/templates/translation/language.html:715
+#, fuzzy
+#| msgid "PNEUMOLOGIE :"
+msgid "PNEUMOLOGIE"
 msgstr "Pulmonology"
 
-#: translation/templates/translation/language.html:351
+#: translation/templates/translation/language.html:721
+#: translation/templates/translation/language.html:724
+#, fuzzy
+#| msgid ""
+#| "\"Je vais poser ma main sur votre ventre pour compter votre respiration, "
+#| "respirez normalement et ne parlez pas pendant ce temps.\""
 msgid ""
-"\"Je vais poser ma main sur votre ventre pour compter votre respiration, "
-"respirez normalement et ne parlez pas pendant ce temps.\""
+"Je vais poser ma main sur votre ventre pour compter votre respiration, "
+"respirez normalement et ne parlez pas pendant ce temps"
 msgstr ""
 "I am going to put my hand on your stomach to check your breathing. Just "
 "breathe normally and don't talk"
 
-#: translation/templates/translation/language.html:355
-msgid "\"Etes-vous essoufflé ?\""
+#: translation/templates/translation/language.html:729
+#: translation/templates/translation/language.html:732
+#, fuzzy
+#| msgid "\"Etes-vous essoufflé ?\""
+msgid "Etes-vous essoufflé ?"
 msgstr "Are you having trouble breathing? / short of breath?"
 
-#: translation/templates/translation/language.html:359
-msgid "\"Prenez une grande inspiration puis bloquez votre respiration.\""
+#: translation/templates/translation/language.html:737
+#: translation/templates/translation/language.html:740
+#, fuzzy
+#| msgid "\"Prenez une grande inspiration puis bloquez votre respiration.\""
+msgid "Prenez une grande inspiration puis bloquez votre respiration"
 msgstr "Take a deep breath in and hold it."
 
-#: translation/templates/translation/language.html:363
-msgid "\"Respirez normalement.\""
+#: translation/templates/translation/language.html:745
+#: translation/templates/translation/language.html:748
+#, fuzzy
+#| msgid "\"Respirez normalement.\""
+msgid "Respirez normalement"
 msgstr "Breathe normally."
 
-#: translation/templates/translation/language.html:367
-msgid "\"Respirez profondément.\""
+#: translation/templates/translation/language.html:753
+#: translation/templates/translation/language.html:756
+#, fuzzy
+#| msgid "\"Respirez profondément.\""
+msgid "Respirez profondément"
 msgstr "Breathe deeply."
 
-#: translation/templates/translation/language.html:371
+#: translation/templates/translation/language.html:761
+#: translation/templates/translation/language.html:764
 msgid "Fumez-vous ?"
 msgstr "Do you smoke?"
 
-#: translation/templates/translation/language.html:375
-msgid "\"Etes-vous asthmatique ?\""
+#: translation/templates/translation/language.html:769
+#: translation/templates/translation/language.html:772
+#, fuzzy
+#| msgid "\"Etes-vous asthmatique ?\""
+msgid "Etes-vous asthmatique ?"
 msgstr "Are you asthmatic?"
 
-#: translation/templates/translation/language.html:379
-msgid "\"Avez vous pris votre traitement contre l’asthme ?\""
+#: translation/templates/translation/language.html:777
+#: translation/templates/translation/language.html:780
+#, fuzzy
+#| msgid "\"Avez vous pris votre traitement contre l’asthme ?\""
+msgid "Avez vous pris votre traitement contre l’asthme ?"
 msgstr "Have you taken your asthma medication?"
 
-#: translation/templates/translation/language.html:383
-msgid "\"Avez-vous respiré des fumées ?\""
+#: translation/templates/translation/language.html:785
+#: translation/templates/translation/language.html:788
+#, fuzzy
+#| msgid "\"Avez-vous respiré des fumées ?\""
+msgid "Avez-vous respiré des fumées ?"
 msgstr "Have you breathed in any type of smoke?"
 
-#: translation/templates/translation/language.html:387
-msgid ""
-"\"Je vous laisse vous moucher, pour savoir s’il y a des traces de suie.\""
+#: translation/templates/translation/language.html:793
+#: translation/templates/translation/language.html:796
+#, fuzzy
+#| msgid ""
+#| "\"Je vous laisse vous moucher, pour savoir s’il y a des traces de suie.\""
+msgid "Je vous laisse vous moucher, pour savoir s’il y a des traces de suie"
 msgstr "Can you please blow your nose so I can see I there is any soot?"
 
-#: translation/templates/translation/language.html:391
-msgid "CARDIOLOGIE :"
+#: translation/templates/translation/language.html:802
+#, fuzzy
+#| msgid "CARDIOLOGIE :"
+msgid "CARDIOLOGIE"
 msgstr "Cardiology"
 
-#: translation/templates/translation/language.html:395
-msgid "\"Est-ce que votre douleur :\""
+#: translation/templates/translation/language.html:808
+#: translation/templates/translation/language.html:811
+#, fuzzy
+#| msgid "\"Est-ce que votre douleur :\""
+msgid "Est-ce que votre douleur :"
 msgstr "Describe your pain."
 
-#: translation/templates/translation/language.html:399
-#: translation/templates/translation/language.html:1451
+#: translation/templates/translation/language.html:816
+#: translation/templates/translation/language.html:819
+#: translation/templates/translation/language.html:2908
+#: translation/templates/translation/language.html:2911
 msgid "Serre"
 msgstr "Is it a tight sensation?"
 
-#: translation/templates/translation/language.html:403
-#: translation/templates/translation/language.html:1447
+#: translation/templates/translation/language.html:824
+#: translation/templates/translation/language.html:827
+#: translation/templates/translation/language.html:2900
+#: translation/templates/translation/language.html:2903
 msgid "Pique"
 msgstr "Is it a sharp sensation?"
 
-#: translation/templates/translation/language.html:407
-#: translation/templates/translation/language.html:1455
+#: translation/templates/translation/language.html:832
+#: translation/templates/translation/language.html:835
+#: translation/templates/translation/language.html:2916
+#: translation/templates/translation/language.html:2919
 msgid "Brûle"
 msgstr "Is it a burning sensation?"
 
-#: translation/templates/translation/language.html:411
-msgid "\"Est-ce que votre douleur irradie ? Montrez-moi vers où ?\""
+#: translation/templates/translation/language.html:840
+#: translation/templates/translation/language.html:843
+#, fuzzy
+#| msgid "\"Est-ce que votre douleur irradie ? Montrez-moi vers où ?\""
+msgid "Est-ce que votre douleur irradie ? Montrez-moi vers où ?"
 msgstr ""
 "Is your pain referring to any other part of your body? Can you show me where?"
 
-#: translation/templates/translation/language.html:415
-msgid "\"Depuis combien de temps avec vous cette douleur  ?\""
+#: translation/templates/translation/language.html:848
+#: translation/templates/translation/language.html:851
+#, fuzzy
+#| msgid "\"Depuis combien de temps avec vous cette douleur  ?\""
+msgid "Depuis combien de temps avez vous cette douleur ?"
 msgstr "How long have you experienced this pain?"
 
-#: translation/templates/translation/language.html:419
+#: translation/templates/translation/language.html:856
+#: translation/templates/translation/language.html:859
 msgid "Minutes"
 msgstr "Minutes"
 
-#: translation/templates/translation/language.html:423
+#: translation/templates/translation/language.html:864
+#: translation/templates/translation/language.html:867
 msgid "Heures"
 msgstr "hours"
 
-#: translation/templates/translation/language.html:427
+#: translation/templates/translation/language.html:872
+#: translation/templates/translation/language.html:875
 msgid "Jours"
 msgstr "days"
 
-#: translation/templates/translation/language.html:431
-msgid "\"Je vais prendre votre pouls.\""
+#: translation/templates/translation/language.html:880
+#: translation/templates/translation/language.html:883
+#, fuzzy
+#| msgid "\"Je vais prendre votre pouls.\""
+msgid "Je vais prendre votre pouls"
 msgstr "I am going to take your pulse."
 
-#: translation/templates/translation/language.html:435
-msgid "\"Je vais appuyer doucement sur votre ongle.\""
+#: translation/templates/translation/language.html:888
+#: translation/templates/translation/language.html:891
+#, fuzzy
+#| msgid "\"Je vais appuyer doucement sur votre ongle.\""
+msgid "Je vais appuyer doucement sur votre ongle"
 msgstr "I am going to press lightly on your nail."
 
-#: translation/templates/translation/language.html:439
-msgid "\"Je vais prendre votre pression artérielle.\""
+#: translation/templates/translation/language.html:896
+#: translation/templates/translation/language.html:899
+#, fuzzy
+#| msgid "\"Je vais prendre votre pression artérielle.\""
+msgid "Je vais prendre votre pression artérielle"
 msgstr "I am going to take your blood pressure."
 
-#: translation/templates/translation/language.html:443
-msgid "\"Ressentez-vous des palpitations ?\""
+#: translation/templates/translation/language.html:904
+#: translation/templates/translation/language.html:907
+#, fuzzy
+#| msgid "\"Ressentez-vous des palpitations ?\""
+msgid "Ressentez-vous des palpitations ?"
 msgstr "Are you having any palpitations?"
 
-#: translation/templates/translation/language.html:447
+#: translation/templates/translation/language.html:912
+#: translation/templates/translation/language.html:915
+#, fuzzy
+#| msgid ""
+#| "\"Ouvrez la bouche et soulevez la langue, je vais vous donner un "
+#| "traitement.\""
 msgid ""
-"\"Ouvrez la bouche et soulevez la langue, je vais vous donner un traitement."
-"\""
+"Ouvrez la bouche et soulevez la langue, je vais vous donner un traitement"
 msgstr ""
 "Open your mouth and lift your tongue. I am going to give you some medication."
 
-#: translation/templates/translation/language.html:451
-msgid "\"Est ce que ce médicament soulage votre douleur ?\""
+#: translation/templates/translation/language.html:920
+#: translation/templates/translation/language.html:923
+#, fuzzy
+#| msgid "\"Est ce que ce médicament soulage votre douleur ?\""
+msgid "Est ce que ce médicament soulage votre douleur ?"
 msgstr "Does this medication help the pain?"
 
-#: translation/templates/translation/language.html:455
-msgid "\"Buvez-vous de l'alcool ?\""
+#: translation/templates/translation/language.html:928
+#: translation/templates/translation/language.html:931
+#, fuzzy
+#| msgid "\"Buvez-vous de l'alcool ?\""
+msgid "Buvez-vous de l'alcool ?"
 msgstr "Do you drink alcohol?"
 
-#: translation/templates/translation/language.html:459
-msgid "\"Avez-vous du diabète ?\""
+#: translation/templates/translation/language.html:936
+#: translation/templates/translation/language.html:939
+#, fuzzy
+#| msgid "\"Avez-vous du diabète ?\""
+msgid "Avez-vous du diabète ?"
 msgstr "Are you diabetic?"
 
-#: translation/templates/translation/language.html:463
-msgid "\"Avez-vous du cholestérol ?\""
+#: translation/templates/translation/language.html:944
+#: translation/templates/translation/language.html:947
+#, fuzzy
+#| msgid "\"Avez-vous du cholestérol ?\""
+msgid "Avez-vous du cholestérol ?"
 msgstr "Do you have high cholesterol?"
 
-#: translation/templates/translation/language.html:467
+#: translation/templates/translation/language.html:952
+#: translation/templates/translation/language.html:955
+#, fuzzy
+#| msgid ""
+#| "\"Je vais faire un enregistrement de votre coeur, ce n’est pas "
+#| "douloureux, ne bouger pas pendant quelques secondes.\""
 msgid ""
-"\"Je vais faire un enregistrement de votre coeur, ce n’est pas douloureux, "
-"ne bouger pas pendant quelques secondes.\""
+"Je vais faire un enregistrement de votre coeur, ce n’est pas douloureux, ne "
+"bouger pas pendant quelques secondes"
 msgstr ""
 "I am going to record your heart. It won't hurt, but try and avoid moving for "
 "several seconds."
 
-#: translation/templates/translation/language.html:471
-msgid "MALAISE :"
+#: translation/templates/translation/language.html:961
+#, fuzzy
+#| msgid "MALAISE :"
+msgid "MALAISE"
 msgstr "Dizziness/loss of consciousness"
 
-#: translation/templates/translation/language.html:475
-msgid "\"Avez-vous senti votre malaise arriver ?\""
+#: translation/templates/translation/language.html:967
+#: translation/templates/translation/language.html:970
+#, fuzzy
+#| msgid "\"Avez-vous senti votre malaise arriver ?\""
+msgid "Avez-vous senti votre malaise arriver ?"
 msgstr "Did you feel your dizziness come on?/Did the dizziness come on slowly?"
 
-#: translation/templates/translation/language.html:479
-msgid "\"Qu’avez-vous ressenti pendant la malaise ?\""
+#: translation/templates/translation/language.html:975
+#: translation/templates/translation/language.html:978
+#, fuzzy
+#| msgid "\"Qu’avez-vous ressenti pendant la malaise ?\""
+msgid "Qu’avez-vous ressenti pendant la malaise ?"
 msgstr "What did you experience during the dizzy spell?"
 
-#: translation/templates/translation/language.html:483
+#: translation/templates/translation/language.html:983
+#: translation/templates/translation/language.html:986
 msgid "Fourmillement"
 msgstr "pins and needles"
 
-#: translation/templates/translation/language.html:487
+#: translation/templates/translation/language.html:991
+#: translation/templates/translation/language.html:994
 msgid "Vertige"
 msgstr "vertigo"
 
-#: translation/templates/translation/language.html:491
+#: translation/templates/translation/language.html:999
+#: translation/templates/translation/language.html:1002
 msgid "Grande fatigue"
 msgstr "exhaustion"
 
-#: translation/templates/translation/language.html:495
-msgid "\"Avez vous des vertiges ?\""
+#: translation/templates/translation/language.html:1007
+#: translation/templates/translation/language.html:1010
+#, fuzzy
+#| msgid "\"Avez vous des vertiges ?\""
+msgid "Avez vous des vertiges ?"
 msgstr "Have you had vertigo before?"
 
-#: translation/templates/translation/language.html:499
-msgid "\"La douleur irradie-t-elle ? Vers ou ?\""
+#: translation/templates/translation/language.html:1015
+#: translation/templates/translation/language.html:1018
+#, fuzzy
+#| msgid "\"La douleur irradie-t-elle ? Vers ou ?\""
+msgid "La douleur irradie-t-elle ? Vers ou ?"
 msgstr "Does the pain spread elsewhere? Where to?"
 
-#: translation/templates/translation/language.html:503
-msgid "\"A quel endroit avez-vous ressenti ces signes ?\""
+#: translation/templates/translation/language.html:1023
+#: translation/templates/translation/language.html:1026
+#, fuzzy
+#| msgid "\"A quel endroit avez-vous ressenti ces signes ?\""
+msgid "A quel endroit avez-vous ressenti ces signes ?"
 msgstr "Where has the pain referred to?"
 
-#: translation/templates/translation/language.html:507
-msgid "\"Combien de temps à durer votre malaise ?\""
+#: translation/templates/translation/language.html:1031
+#: translation/templates/translation/language.html:1034
+#, fuzzy
+#| msgid "\"Combien de temps à durer votre malaise ?\""
+msgid "Combien de temps à durer votre malaise ?"
 msgstr "How long did your dizziness last?"
 
-#: translation/templates/translation/language.html:511
-msgid "\"Avez-vous perdu vos urines ?\""
+#: translation/templates/translation/language.html:1039
+#: translation/templates/translation/language.html:1042
+#, fuzzy
+#| msgid "\"Avez-vous perdu vos urines ?\""
+msgid "Avez-vous perdu vos urines ?"
 msgstr "Did you experience any incontinence?"
 
-#: translation/templates/translation/language.html:515
-msgid "\"Vous êtes-vous mordu la langue ? Ouvrez la bouche.\""
+#: translation/templates/translation/language.html:1047
+#: translation/templates/translation/language.html:1050
+#, fuzzy
+#| msgid "\"Vous êtes-vous mordu la langue ? Ouvrez la bouche.\""
+msgid "Vous êtes-vous mordu la langue ? Ouvrez la bouche"
 msgstr "Did you bite your tongue? Open the mouth?"
 
-#: translation/templates/translation/language.html:519
-msgid "\"Avez vous convulsé ?\""
+#: translation/templates/translation/language.html:1055
+#: translation/templates/translation/language.html:1058
+#, fuzzy
+#| msgid "\"Avez vous convulsé ?\""
+msgid "Avez vous convulsé ?"
 msgstr "Did you experience any convulsions?"
 
-#: translation/templates/translation/language.html:523
-msgid "\"Avez-vous mangé aujourd’hui ?\""
+#: translation/templates/translation/language.html:1063
+#: translation/templates/translation/language.html:1066
+#, fuzzy
+#| msgid "\"Avez-vous mangé aujourd’hui ?\""
+msgid "Avez-vous mangé aujourd’hui ?"
 msgstr "Have you eaten today?"
 
-#: translation/templates/translation/language.html:527
+#: translation/templates/translation/language.html:1072
 msgid "DIGESTIF"
 msgstr "digestive problems"
 
-#: translation/templates/translation/language.html:531
-msgid "\"Montrez moi ou vous avez mal.\""
+#: translation/templates/translation/language.html:1078
+#: translation/templates/translation/language.html:1081
+#, fuzzy
+#| msgid "\"Montrez moi ou vous avez mal.\""
+msgid "Montrez moi ou vous avez mal"
 msgstr "Show me where it hurts."
 
-#: translation/templates/translation/language.html:535
-msgid "\"Est ce que la douleur irradie, si oui montrez moi vers où.\""
+#: translation/templates/translation/language.html:1086
+#: translation/templates/translation/language.html:1089
+#, fuzzy
+#| msgid "\"Est ce que la douleur irradie, si oui montrez moi vers où.\""
+msgid "Est ce que la douleur irradie, si oui montrez moi vers où"
 msgstr "Does the pain spread elsewhere? Where to?"
 
-#: translation/templates/translation/language.html:539
-msgid "\"Avez-vous perdu du poids ces derniers mois ? Combien de Kg ?\""
+#: translation/templates/translation/language.html:1094
+#: translation/templates/translation/language.html:1097
+#, fuzzy
+#| msgid "\"Avez-vous perdu du poids ces derniers mois ? Combien de Kg ?\""
+msgid "Avez-vous perdu du poids ces derniers mois ? Combien de Kg ?"
 msgstr "Have you lost any weight in the last few months? How many kilos?"
 
-#: translation/templates/translation/language.html:543
-msgid "\"Avez-vous des brûlures quand vous urinez ?\""
+#: translation/templates/translation/language.html:1102
+#: translation/templates/translation/language.html:1105
+#, fuzzy
+#| msgid "\"Avez-vous des brûlures quand vous urinez ?\""
+msgid "Avez-vous des brûlures quand vous urinez ?"
 msgstr "Have you experienced any burning sensation when urinating?"
 
-#: translation/templates/translation/language.html:547
-msgid "\"Est-ce qu’il y a du sang dans vos urines ?\""
+#: translation/templates/translation/language.html:1110
+#: translation/templates/translation/language.html:1113
+#, fuzzy
+#| msgid "\"Est-ce qu’il y a du sang dans vos urines ?\""
+msgid "Est-ce qu’il y a du sang dans vos urines ?"
 msgstr "Have you noticed any blood in your urine?"
 
-#: translation/templates/translation/language.html:551
-msgid "\"Quelle est la date de vos dernières règles ?\""
+#: translation/templates/translation/language.html:1118
+#: translation/templates/translation/language.html:1121
+#, fuzzy
+#| msgid "\"Quelle est la date de vos dernières règles ?\""
+msgid "Quelle est la date de vos dernières règles ?"
 msgstr "When was your last period?"
 
-#: translation/templates/translation/language.html:555
-#: translation/templates/translation/language.html:747
-msgid "\"Etes vous enceinte ?\""
+#: translation/templates/translation/language.html:1126
+#: translation/templates/translation/language.html:1129
+#: translation/templates/translation/language.html:1505
+#: translation/templates/translation/language.html:1508
+#, fuzzy
+#| msgid "\"Etes vous enceinte ?\""
+msgid "Etes vous enceinte ?"
 msgstr "Are you pregnant?"
 
-#: translation/templates/translation/language.html:559
-msgid "\"A quelle heure avez-vous uriné pour la dernière fois aujourd’hui ?\""
+#: translation/templates/translation/language.html:1134
+#: translation/templates/translation/language.html:1137
+#, fuzzy
+#| msgid ""
+#| "\"A quelle heure avez-vous uriné pour la dernière fois aujourd’hui ?\""
+msgid "A quelle heure avez-vous uriné pour la dernière fois aujourd’hui ?"
 msgstr "When was the last time you urinated today?"
 
-#: translation/templates/translation/language.html:563
-msgid "\"Êtes vous constipé ?\""
+#: translation/templates/translation/language.html:1142
+#: translation/templates/translation/language.html:1145
+#, fuzzy
+#| msgid "\"Êtes vous constipé ?\""
+msgid "Êtes vous constipé ?"
 msgstr "Are you experiencing any constipation?"
 
-#: translation/templates/translation/language.html:567
-msgid "\"Depuis combien de jours ?\""
+#: translation/templates/translation/language.html:1150
+#: translation/templates/translation/language.html:1153
+#, fuzzy
+#| msgid "\"Depuis combien de jours ?\""
+msgid "Depuis combien de jours ?"
 msgstr "For how many days?"
 
-#: translation/templates/translation/language.html:571
-msgid "\"Avez-vous des nausées ?\""
+#: translation/templates/translation/language.html:1158
+#: translation/templates/translation/language.html:1161
+#, fuzzy
+#| msgid "\"Avez-vous des nausées ?\""
+msgid "Avez-vous des nausées ?"
 msgstr "Have you experienced any nausea?"
 
-#: translation/templates/translation/language.html:575
-msgid "\"Avez-vous des diarrhées ?\""
+#: translation/templates/translation/language.html:1166
+#: translation/templates/translation/language.html:1169
+#, fuzzy
+#| msgid "\"Avez-vous des diarrhées ?\""
+msgid "Avez-vous des diarrhées ?"
 msgstr "Have you had any bouts of diarrhea?"
 
-#: translation/templates/translation/language.html:579
+#: translation/templates/translation/language.html:1174
+#: translation/templates/translation/language.html:1177
 msgid "Avez-vous vomi ?"
 msgstr "Have you vomited?"
 
-#: translation/templates/translation/language.html:583
-msgid "\"Y a-t-il du sang dans vos selles ?\""
+#: translation/templates/translation/language.html:1182
+#: translation/templates/translation/language.html:1185
+#, fuzzy
+#| msgid "\"Y a-t-il du sang dans vos selles ?\""
+msgid "Y a-t-il du sang dans vos selles ?"
 msgstr "Have you noticed any blood in your stool?"
 
-#: translation/templates/translation/language.html:587
-msgid "\"Avez-vous des gazs ?\""
+#: translation/templates/translation/language.html:1190
+#: translation/templates/translation/language.html:1193
+#, fuzzy
+#| msgid "\"Avez-vous des gazs ?\""
+msgid "Avez-vous des gazs ?"
 msgstr "Do you have any gas?"
 
-#: translation/templates/translation/language.html:591
-msgid "\"Je dois vous faire un toucher rectal, êtes vous d’accord ?\""
+#: translation/templates/translation/language.html:1198
+#: translation/templates/translation/language.html:1201
+#, fuzzy
+#| msgid "\"Je dois vous faire un toucher rectal, êtes vous d’accord ?\""
+msgid "Je dois vous faire un toucher rectal, êtes vous d’accord ?"
 msgstr "I need to do a rectal exam. Are you ok with that?"
 
-#: translation/templates/translation/language.html:595
-msgid "\"Il faudra uriner dans ce pot pour réaliser un examen.\""
+#: translation/templates/translation/language.html:1206
+#: translation/templates/translation/language.html:1209
+#, fuzzy
+#| msgid "\"Il faudra uriner dans ce pot pour réaliser un examen.\""
+msgid "Il faudra uriner dans ce pot pour réaliser un examen"
 msgstr "You need to urinate in this jar so we can test it."
 
-#: translation/templates/translation/language.html:599
-msgid "\"Il faudra réaliser une toilette intime avant d’uriner dans le pot.\""
+#: translation/templates/translation/language.html:1214
+#: translation/templates/translation/language.html:1217
+#, fuzzy
+#| msgid ""
+#| "\"Il faudra réaliser une toilette intime avant d’uriner dans le pot.\""
+msgid "Il faudra réaliser une toilette intime avant d’uriner dans le pot"
 msgstr "You'll need to wash your genitals before urinating in the jar."
 
-#: translation/templates/translation/language.html:603
-msgid "INFECTIEUX :"
+#: translation/templates/translation/language.html:1223
+#, fuzzy
+#| msgid "INFECTIEUX :"
+msgid "INFECTIEUX"
 msgstr "infectious problems"
 
-#: translation/templates/translation/language.html:607
-msgid "\"Avez-vous été piqué ou mordu ?\""
+#: translation/templates/translation/language.html:1229
+#: translation/templates/translation/language.html:1232
+#, fuzzy
+#| msgid "\"Avez-vous été piqué ou mordu ?\""
+msgid "Avez-vous été piqué ou mordu ?"
 msgstr "Have you been bitten or stung?"
 
-#: translation/templates/translation/language.html:611
-msgid "\"Montrez moi à quel endroit.\""
+#: translation/templates/translation/language.html:1237
+#: translation/templates/translation/language.html:1240
+#, fuzzy
+#| msgid "\"Montrez moi à quel endroit.\""
+msgid "Montrez moi à quel endroit"
 msgstr "Show me where."
 
-#: translation/templates/translation/language.html:615
-msgid "\"Montrez moi où étaient les premiers boutons.\""
+#: translation/templates/translation/language.html:1245
+#: translation/templates/translation/language.html:1248
+#, fuzzy
+#| msgid "\"Montrez moi où étaient les premiers boutons.\""
+msgid "Montrez moi où étaient les premiers boutons"
 msgstr "Show me where the first spots appeared."
 
-#: translation/templates/translation/language.html:619
-msgid "\"Depuis combien de temps la jambe est-elle rouge ?\""
+#: translation/templates/translation/language.html:1253
+#: translation/templates/translation/language.html:1256
+#, fuzzy
+#| msgid "\"Depuis combien de temps la jambe est-elle rouge ?\""
+msgid "Depuis combien de temps la jambe est-elle rouge ?"
 msgstr "For how long has the leg been red?"
 
-#: translation/templates/translation/language.html:623
-msgid "\"Est ce que ça vous démange ?\""
+#: translation/templates/translation/language.html:1261
+#: translation/templates/translation/language.html:1264
+#, fuzzy
+#| msgid "\"Est ce que ça vous démange ?\""
+msgid "Est ce que ça vous démange ?"
 msgstr "Is it itchy?"
 
-#: translation/templates/translation/language.html:627
-msgid "\"Il faut rester en isolement.\""
+#: translation/templates/translation/language.html:1269
+#: translation/templates/translation/language.html:1272
+#, fuzzy
+#| msgid "\"Il faut rester en isolement.\""
+msgid "Il faut rester en isolement"
 msgstr "You nned to remain in isolation."
 
-#: translation/templates/translation/language.html:631
-msgid "\"Vous devez garder ce masque sur vous.\""
+#: translation/templates/translation/language.html:1277
+#: translation/templates/translation/language.html:1280
+#, fuzzy
+#| msgid "\"Vous devez garder ce masque sur vous.\""
+msgid "Vous devez garder ce masque sur vous"
 msgstr "You need to keep this mask on."
 
-#: translation/templates/translation/language.html:635
-msgid "\"Avez-vous eu des rapports sexuels non protégés ?\""
+#: translation/templates/translation/language.html:1285
+#: translation/templates/translation/language.html:1288
+#, fuzzy
+#| msgid "\"Avez-vous eu des rapports sexuels non protégés ?\""
+msgid "Avez-vous eu des rapports sexuels non protégés ?"
 msgstr "Have you had any unprotected sex?"
 
-#: translation/templates/translation/language.html:639
-msgid "\"Je vais prendre votre température\""
+#: translation/templates/translation/language.html:1293
+#: translation/templates/translation/language.html:1296
+#, fuzzy
+#| msgid "\"Je vais prendre votre température\""
+msgid "Je vais prendre votre température"
 msgstr "I am going to take your temperature."
 
-#: translation/templates/translation/language.html:643
-msgid "OPHTALMOLOGIE :"
+#: translation/templates/translation/language.html:1302
+#, fuzzy
+#| msgid "OPHTALMOLOGIE :"
+msgid "OPHTALMOLOGIE"
 msgstr "Ophthalmology"
 
-#: translation/templates/translation/language.html:647
-msgid "\"Est-ce que vous voyez flou ?\""
+#: translation/templates/translation/language.html:1308
+#: translation/templates/translation/language.html:1311
+#, fuzzy
+#| msgid "\"Est-ce que vous voyez flou ?\""
+msgid "Est-ce que vous voyez flou ?"
 msgstr "Is your vision blurry?"
 
-#: translation/templates/translation/language.html:651
-msgid "\"Est-ce que vous voyez double ?\""
+#: translation/templates/translation/language.html:1316
+#: translation/templates/translation/language.html:1319
+#, fuzzy
+#| msgid "\"Est-ce que vous voyez double ?\""
+msgid "Est-ce que vous voyez double ?"
 msgstr "Are you seeing double?"
 
-#: translation/templates/translation/language.html:655
-msgid "\"Avez-vous mal à la tête ?\""
+#: translation/templates/translation/language.html:1324
+#: translation/templates/translation/language.html:1327
+#, fuzzy
+#| msgid "\"Avez-vous mal à la tête ?\""
+msgid "Avez-vous mal à la tête ?"
 msgstr "Do you have a headache?"
 
-#: translation/templates/translation/language.html:659
-msgid ""
-"\"Est ce que vous avez l’impression que la pièce tourne autour de vous ?\""
+#: translation/templates/translation/language.html:1332
+#: translation/templates/translation/language.html:1335
+#, fuzzy
+#| msgid ""
+#| "\"Est ce que vous avez l’impression que la pièce tourne autour de vous ?\""
+msgid "Est ce que vous avez l’impression que la pièce tourne autour de vous ?"
 msgstr "Do you feel as though the room is spinning?"
 
-#: translation/templates/translation/language.html:663
-msgid "\"Avez-vous reçu un coup à la tête récemment ?\""
+#: translation/templates/translation/language.html:1340
+#: translation/templates/translation/language.html:1343
+#, fuzzy
+#| msgid "\"Avez-vous reçu un coup à la tête récemment ?\""
+msgid "Avez-vous reçu un coup à la tête récemment ?"
 msgstr "Have you been hit in the head recently?"
 
-#: translation/templates/translation/language.html:667
+#: translation/templates/translation/language.html:1349
 msgid "ANTÉCÉDENTS"
 msgstr "Medical History"
 
-#: translation/templates/translation/language.html:671
-msgid "\"Avez-vous des maladies (diabète, hypertension ?)\""
+#: translation/templates/translation/language.html:1355
+#: translation/templates/translation/language.html:1358
+#, fuzzy
+#| msgid "\"Avez-vous des maladies (diabète, hypertension ?)\""
+msgid "Avez-vous des maladies (diabète, hypertension) ?"
 msgstr "Do you have any medical issues (diabetes, hypertension, etc)?"
 
-#: translation/templates/translation/language.html:675
-msgid "\"Avez-vous été hospitalisé récemment ?\""
+#: translation/templates/translation/language.html:1363
+#: translation/templates/translation/language.html:1366
+#, fuzzy
+#| msgid "\"Avez-vous été hospitalisé récemment ?\""
+msgid "Avez-vous été hospitalisé récemment ?"
 msgstr "Have you been hospitalised recently?"
 
-#: translation/templates/translation/language.html:679
-msgid "\"Avez-vous un traitement en cours ? (lequel ?)\""
+#: translation/templates/translation/language.html:1371
+#: translation/templates/translation/language.html:1374
+#, fuzzy
+#| msgid "\"Avez-vous un traitement en cours ? (lequel ?)\""
+msgid "Avez-vous un traitement en cours ? (lequel ?)"
 msgstr "Are you being treated for anything? For what?"
 
-#: translation/templates/translation/language.html:683
-msgid "\"Avez-vous une ordonnance avec vos traitements ?\""
+#: translation/templates/translation/language.html:1379
+#: translation/templates/translation/language.html:1382
+#, fuzzy
+#| msgid "\"Avez-vous une ordonnance avec vos traitements ?\""
+msgid "Avez-vous une ordonnance avec vos traitements ?"
 msgstr "Do you have a prescription for your treatment?"
 
-#: translation/templates/translation/language.html:687
-msgid "\"Avez-vous des allergies ? (lesquelles ?)\""
+#: translation/templates/translation/language.html:1387
+#: translation/templates/translation/language.html:1390
+#, fuzzy
+#| msgid "\"Avez-vous des allergies ? (lesquelles ?)\""
+msgid "Avez-vous des allergies ? (lesquelles ?)"
 msgstr "Do you have any allergies? What are you allergic to?"
 
-#: translation/templates/translation/language.html:691
-msgid "\"Y a-t-il des antécédents de maladie dans votre famille ?\""
+#: translation/templates/translation/language.html:1395
+#: translation/templates/translation/language.html:1398
+#, fuzzy
+#| msgid "\"Y a-t-il des antécédents de maladie dans votre famille ?\""
+msgid "Y a-t-il des antécédents de maladie dans votre famille ?"
 msgstr "Do you have any family medical history?"
 
-#: translation/templates/translation/language.html:695
-msgid "\"Pouvez-vous vous asseoir ?\""
+#: translation/templates/translation/language.html:1403
+#: translation/templates/translation/language.html:1406
+#, fuzzy
+#| msgid "\"Pouvez-vous vous asseoir ?\""
+msgid "Pouvez-vous vous asseoir ?"
 msgstr "Can you please take a seat?"
 
-#: translation/templates/translation/language.html:699
-msgid "\"Pouvez-vous vous lever ?\""
+#: translation/templates/translation/language.html:1411
+#: translation/templates/translation/language.html:1414
+#, fuzzy
+#| msgid "\"Pouvez-vous vous lever ?\""
+msgid "Pouvez-vous vous lever ?"
 msgstr "Can you stand up?"
 
-#: translation/templates/translation/language.html:703
-msgid "\"Pouvez-vous marcher ?\""
+#: translation/templates/translation/language.html:1419
+#: translation/templates/translation/language.html:1422
+#, fuzzy
+#| msgid "\"Pouvez-vous marcher ?\""
+msgid "Pouvez-vous marcher ?"
 msgstr "Can you walk?"
 
-#: translation/templates/translation/language.html:707
-msgid "PEDIATRIE :"
+#: translation/templates/translation/language.html:1428
+#, fuzzy
+#| msgid "PEDIATRIE :"
+msgid "PEDIATRIE"
 msgstr "Peaditric problems"
 
-#: translation/templates/translation/language.html:711
-msgid "\"Le bébé a t il perdu du poids ? Combien de kilo ?\""
+#: translation/templates/translation/language.html:1434
+#: translation/templates/translation/language.html:1437
+#, fuzzy
+#| msgid "\"Le bébé a t il perdu du poids ? Combien de kilo ?\""
+msgid "Le bébé a t il perdu du poids ? Combien de kilo ?"
 msgstr "Has the baby lost any weight? How much?"
 
-#: translation/templates/translation/language.html:715
-msgid "\"Est-ce que le bébé est à jour de ces vaccins ?\""
+#: translation/templates/translation/language.html:1442
+#: translation/templates/translation/language.html:1445
+#, fuzzy
+#| msgid "\"Est-ce que le bébé est à jour de ces vaccins ?\""
+msgid "Est-ce que le bébé est à jour de ces vaccins ?"
 msgstr "Is the baby up-to-date with his/her vaccinations?"
 
-#: translation/templates/translation/language.html:719
-msgid "\"Est-ce que ses frères et soeurs sont malades ?\""
+#: translation/templates/translation/language.html:1450
+#: translation/templates/translation/language.html:1453
+#, fuzzy
+#| msgid "\"Est-ce que ses frères et soeurs sont malades ?\""
+msgid "Est-ce que ses frères et soeurs sont malades ?"
 msgstr "Are your other children sick?"
 
-#: translation/templates/translation/language.html:723
-msgid "\"Est-ce qu’il mange bien ?\""
+#: translation/templates/translation/language.html:1458
+#: translation/templates/translation/language.html:1461
+#, fuzzy
+#| msgid "\"Est-ce qu’il mange bien ?\""
+msgid "Est-ce qu’il mange bien ?"
 msgstr "Is he/she eating well?"
 
-#: translation/templates/translation/language.html:727
+#: translation/templates/translation/language.html:1466
+#: translation/templates/translation/language.html:1469
 msgid "Est-ce qu’il vomi ?"
 msgstr "Is he/she vomiting?"
 
-#: translation/templates/translation/language.html:731
-msgid "\"Est-ce qu’il semble plus agité que d’habitude ?\""
+#: translation/templates/translation/language.html:1474
+#: translation/templates/translation/language.html:1477
+#, fuzzy
+#| msgid "\"Est-ce qu’il semble plus agité que d’habitude ?\""
+msgid "Est-ce qu’il semble plus agité que d’habitude ?"
 msgstr "Does he/she seem more upset than normal?"
 
-#: translation/templates/translation/language.html:735
-msgid "\"Est-ce qu’il semble plus fatigué que d’habitude ?\""
+#: translation/templates/translation/language.html:1482
+#: translation/templates/translation/language.html:1485
+#, fuzzy
+#| msgid "\"Est-ce qu’il semble plus fatigué que d’habitude ?\""
+msgid "Est-ce qu’il semble plus fatigué que d’habitude ?"
 msgstr "Does he/she seem more tired than usual?"
 
-#: translation/templates/translation/language.html:739
-msgid "\"Est ce qu’il a la diarrhée ?\""
+#: translation/templates/translation/language.html:1490
+#: translation/templates/translation/language.html:1493
+#, fuzzy
+#| msgid "\"Est ce qu’il a la diarrhée ?\""
+msgid "Est ce qu’il a la diarrhée ?"
 msgstr "Does he/she have any diarrhea?"
 
-#: translation/templates/translation/language.html:743
-msgid "GYNECOLOGIE :"
+#: translation/templates/translation/language.html:1499
+#, fuzzy
+#| msgid "GYNECOLOGIE :"
+msgid "GYNECOLOGIE"
 msgstr "Gynacology"
 
-#: translation/templates/translation/language.html:751
-msgid "\"De combien de semaines ?\""
+#: translation/templates/translation/language.html:1513
+#: translation/templates/translation/language.html:1516
+#, fuzzy
+#| msgid "\"De combien de semaines ?\""
+msgid "De combien de semaines ?"
 msgstr "How far along are you?"
 
-#: translation/templates/translation/language.html:755
-msgid "\"Avez vous vos règles ?\""
+#: translation/templates/translation/language.html:1521
+#: translation/templates/translation/language.html:1524
+#, fuzzy
+#| msgid "\"Avez vous vos règles ?\""
+msgid "Avez vous vos règles ?"
 msgstr "Are you menstruating?"
 
-#: translation/templates/translation/language.html:759
-msgid "\"Avez vous perdu du sang ?\""
+#: translation/templates/translation/language.html:1529
+#: translation/templates/translation/language.html:1532
+#, fuzzy
+#| msgid "\"Avez vous perdu du sang ?\""
+msgid "Avez vous perdu du sang ?"
 msgstr "Have you lost any blood?"
 
-#: translation/templates/translation/language.html:763
-msgid "\"Vos pertes étaient elles rouge ou noir ?\""
+#: translation/templates/translation/language.html:1537
+#: translation/templates/translation/language.html:1540
+#, fuzzy
+#| msgid "\"Vos pertes étaient elles rouge ou noir ?\""
+msgid "Vos pertes étaient elles rouge ou noir ?"
 msgstr "Was the blood red or black?"
 
-#: translation/templates/translation/language.html:767
-msgid "\"Avez vous eu des problèmes lors de vos précédentes grossesse ?\""
+#: translation/templates/translation/language.html:1545
+#: translation/templates/translation/language.html:1548
+#, fuzzy
+#| msgid "\"Avez vous eu des problèmes lors de vos précédentes grossesse ?\""
+msgid "Avez vous eu des problèmes lors de vos précédentes grossesse ?"
 msgstr "Did you have any problems during your last pregnancy?"
 
-#: translation/templates/translation/language.html:771
-msgid "\"Avez vous des contractions ?\""
+#: translation/templates/translation/language.html:1553
+#: translation/templates/translation/language.html:1556
+#, fuzzy
+#| msgid "\"Avez vous des contractions ?\""
+msgid "Avez vous des contractions ?"
 msgstr "Do you have any contractions?"
 
-#: translation/templates/translation/language.html:775
-msgid "\"Avez vous perdu les eaux ?\""
+#: translation/templates/translation/language.html:1561
+#: translation/templates/translation/language.html:1564
+#, fuzzy
+#| msgid "\"Avez vous perdu les eaux ?\""
+msgid "Avez vous perdu les eaux ?"
 msgstr "Has your water broken?"
 
-#: translation/templates/translation/language.html:779
-msgid "\"Sentez vous le bébé bouger ?\""
+#: translation/templates/translation/language.html:1569
+#: translation/templates/translation/language.html:1572
+#, fuzzy
+#| msgid "\"Sentez vous le bébé bouger ?\""
+msgid "Sentez vous le bébé bouger ?"
 msgstr "Do you feel the baby moving?"
 
-#: translation/templates/translation/language.html:783
-msgid "\"Avez vous une contraception ?\""
+#: translation/templates/translation/language.html:1577
+#: translation/templates/translation/language.html:1580
+#, fuzzy
+#| msgid "\"Avez vous une contraception ?\""
+msgid "Avez vous une contraception ?"
 msgstr "Do you have any contraception?"
 
-#: translation/templates/translation/language.html:787
-msgid "\"Je dois faire un examen gynécologique, allongez vous sur la table.\""
+#: translation/templates/translation/language.html:1585
+#: translation/templates/translation/language.html:1588
+#, fuzzy
+#| msgid ""
+#| "\"Je dois faire un examen gynécologique, allongez vous sur la table.\""
+msgid "Je dois faire un examen gynécologique, allongez vous sur la table"
 msgstr "I need to do a gynacological exam. Can you please lie on the table?"
 
-#: translation/templates/translation/language.html:791
-msgid "\"Il faut retirer vos sous-vêtements.\""
+#: translation/templates/translation/language.html:1593
+#: translation/templates/translation/language.html:1596
+#, fuzzy
+#| msgid "\"Il faut retirer vos sous-vêtements.\""
+msgid "Il faut retirer vos sous-vêtements"
 msgstr "You need to remove your underwear."
 
-#: translation/templates/translation/language.html:795
-msgid "TRAUMATOLOGIE:"
+#: translation/templates/translation/language.html:1602
+#, fuzzy
+#| msgid "TRAUMATOLOGIE:"
+msgid "TRAUMATOLOGIE"
 msgstr "Traumatology"
 
-#: translation/templates/translation/language.html:799
-msgid "\"Avez-vous été éjecté du véhicule ?\""
+#: translation/templates/translation/language.html:1608
+#: translation/templates/translation/language.html:1611
+#, fuzzy
+#| msgid "\"Avez-vous été éjecté du véhicule ?\""
+msgid "Avez-vous été éjecté du véhicule ?"
 msgstr "Were you thrown from the vehicle?"
 
-#: translation/templates/translation/language.html:803
-msgid "\"A quelle vitesse rouliez-vous ?\""
+#: translation/templates/translation/language.html:1616
+#: translation/templates/translation/language.html:1619
+#, fuzzy
+#| msgid "\"A quelle vitesse rouliez-vous ?\""
+msgid "A quelle vitesse rouliez-vous ?"
 msgstr "What speed were you going?"
 
-#: translation/templates/translation/language.html:807
+#: translation/templates/translation/language.html:1624
+#: translation/templates/translation/language.html:1627
 msgid "Etiez-vous casqué ?"
 msgstr "Were you wearing a helmet?"
 
-#: translation/templates/translation/language.html:811
-msgid "\"Aviez-vous votre ceinture de sécurité ?\""
+#: translation/templates/translation/language.html:1632
+#: translation/templates/translation/language.html:1635
+#, fuzzy
+#| msgid "\"Aviez-vous votre ceinture de sécurité ?\""
+msgid "Aviez-vous votre ceinture de sécurité ?"
 msgstr "Were you wearing a seatbelt?"
 
-#: translation/templates/translation/language.html:815
-msgid "\"Avez vous fait une chute ?\""
+#: translation/templates/translation/language.html:1640
+#: translation/templates/translation/language.html:1643
+#, fuzzy
+#| msgid "\"Avez vous fait une chute ?\""
+msgid "Avez vous fait une chute ?"
 msgstr "Did you fall down?"
 
-#: translation/templates/translation/language.html:819
-msgid "\"De quelle hauteur êtes-vous tombé ?\""
+#: translation/templates/translation/language.html:1648
+#: translation/templates/translation/language.html:1651
+#, fuzzy
+#| msgid "\"De quelle hauteur êtes-vous tombé ?\""
+msgid "De quelle hauteur êtes-vous tombé ?"
 msgstr "From what height did you fall?"
 
-#: translation/templates/translation/language.html:823
+#: translation/templates/translation/language.html:1656
+#: translation/templates/translation/language.html:1659
+#, fuzzy
+#| msgid ""
+#| "\"Prenez vous des anticoagulants, des médicaments pour fluidifier le "
+#| "sang ?\""
 msgid ""
-"\"Prenez vous des anticoagulants, des médicaments pour fluidifier le sang ?\""
+"Prenez vous des anticoagulants, des médicaments pour fluidifier le sang ?"
 msgstr "Do you take any anticoagulants or any medication to thin the blood?"
 
-#: translation/templates/translation/language.html:827
-msgid ""
-"\"Je vais installer une collier afin de protéger votre colonne vertébrale.\""
+#: translation/templates/translation/language.html:1664
+#: translation/templates/translation/language.html:1667
+#, fuzzy
+#| msgid ""
+#| "\"Je vais installer une collier afin de protéger votre colonne vertébrale."
+#| "\""
+msgid "Je vais installer une collier afin de protéger votre colonne vertébrale"
 msgstr "I am going to give you a neck brace to protect your spine."
 
-#: translation/templates/translation/language.html:831
-msgid "\"Je dois mettre un antiseptique sur la plaie.\""
+#: translation/templates/translation/language.html:1672
+#: translation/templates/translation/language.html:1675
+#, fuzzy
+#| msgid "\"Je dois mettre un antiseptique sur la plaie.\""
+msgid "Je dois mettre un antiseptique sur la plaie"
 msgstr "I need to add some antiseptic solution to the wound."
 
-#: translation/templates/translation/language.html:835
-msgid "\"Je dois suturer la plaie.\""
+#: translation/templates/translation/language.html:1680
+#: translation/templates/translation/language.html:1683
+#, fuzzy
+#| msgid "\"Je dois suturer la plaie.\""
+msgid "Je dois suturer la plaie"
 msgstr "I need to stitch up the wound."
 
-#: translation/templates/translation/language.html:839
-msgid "\"Je dois faire un pansement.\""
+#: translation/templates/translation/language.html:1688
+#: translation/templates/translation/language.html:1691
+#, fuzzy
+#| msgid "\"Je dois faire un pansement.\""
+msgid "Je dois faire un pansement"
 msgstr "I need to apply a dressing."
 
-#: translation/templates/translation/language.html:843
-msgid "\"Je vais faire une anesthésie autour de la plaie.\""
+#: translation/templates/translation/language.html:1696
+#: translation/templates/translation/language.html:1699
+#, fuzzy
+#| msgid "\"Je vais faire une anesthésie autour de la plaie.\""
+msgid "Je vais faire une anesthésie autour de la plaie"
 msgstr "I am going to give you a local anaesthetic for your wound."
 
-#: translation/templates/translation/language.html:847
-msgid "Ne bougez pas."
+#: translation/templates/translation/language.html:1704
+#: translation/templates/translation/language.html:1707
+#, fuzzy
+#| msgid "Ne bougez pas."
+msgid "Ne bougez pas"
 msgstr "Please don't move."
 
-#: translation/templates/translation/language.html:851
-msgid "\"Je dois vous faire un plâtre.\""
+#: translation/templates/translation/language.html:1712
+#: translation/templates/translation/language.html:1715
+#, fuzzy
+#| msgid "\"Je dois vous faire un plâtre.\""
+msgid "Je dois vous faire un plâtre"
 msgstr "I am going to have to place you in a cast."
 
-#: translation/templates/translation/language.html:855
-#: translation/templates/translation/language.html:1051
-msgid "\"Vous devez être opéré.\""
+#: translation/templates/translation/language.html:1720
+#: translation/templates/translation/language.html:1723
+#: translation/templates/translation/language.html:2109
+#: translation/templates/translation/language.html:2112
+#, fuzzy
+#| msgid "\"Vous devez être opéré.\""
+msgid "Vous devez être opéré"
 msgstr "You need an operation."
 
-#: translation/templates/translation/language.html:859
+#: translation/templates/translation/language.html:1729
 msgid "EXAMENS"
 msgstr "Tests"
 
-#: translation/templates/translation/language.html:863
+#: translation/templates/translation/language.html:1735
+#: translation/templates/translation/language.html:1738
 msgid "Vous devez avoir :"
 msgstr "You need to have:"
 
-#: translation/templates/translation/language.html:867
-msgid "\"Je vais vous faire :\""
+#: translation/templates/translation/language.html:1743
+#: translation/templates/translation/language.html:1746
+#, fuzzy
+#| msgid "\"Je vais vous faire :\""
+msgid "Je vais vous faire :"
 msgstr "I am going to give you a:"
 
-#: translation/templates/translation/language.html:871
+#: translation/templates/translation/language.html:1751
+#: translation/templates/translation/language.html:1754
 msgid "une perfusion"
 msgstr "I am going to put you on a drip."
 
-#: translation/templates/translation/language.html:875
+#: translation/templates/translation/language.html:1759
+#: translation/templates/translation/language.html:1762
 msgid "une prise de sang"
 msgstr "I am going to take some blood."
 
-#: translation/templates/translation/language.html:879
+#: translation/templates/translation/language.html:1767
+#: translation/templates/translation/language.html:1770
 msgid "un pansement"
 msgstr "I am going to apply a dressing."
 
-#: translation/templates/translation/language.html:883
+#: translation/templates/translation/language.html:1775
+#: translation/templates/translation/language.html:1778
 msgid "une piqûre"
 msgstr "I am going to give you an injection."
 
-#: translation/templates/translation/language.html:887
+#: translation/templates/translation/language.html:1783
+#: translation/templates/translation/language.html:1786
 msgid "votre toilette"
 msgstr "I am going to give you a wash down/sponge bath."
 
-#: translation/templates/translation/language.html:891
+#: translation/templates/translation/language.html:1791
+#: translation/templates/translation/language.html:1794
 msgid "un scanner"
 msgstr "a scan"
 
-#: translation/templates/translation/language.html:895
+#: translation/templates/translation/language.html:1799
+#: translation/templates/translation/language.html:1802
 msgid "une radiographie"
 msgstr "an x-ray"
 
-#: translation/templates/translation/language.html:899
+#: translation/templates/translation/language.html:1807
+#: translation/templates/translation/language.html:1810
 msgid "un plâtre"
 msgstr "a cast"
 
-#: translation/templates/translation/language.html:903
+#: translation/templates/translation/language.html:1815
+#: translation/templates/translation/language.html:1818
 msgid "une échographie"
 msgstr "an ultrasound"
 
-#: translation/templates/translation/language.html:907
+#: translation/templates/translation/language.html:1823
+#: translation/templates/translation/language.html:1826
 msgid "une opération"
 msgstr "an operation"
 
-#: translation/templates/translation/language.html:911
+#: translation/templates/translation/language.html:1831
+#: translation/templates/translation/language.html:1834
 msgid "Aujourd'hui"
 msgstr "today"
 
-#: translation/templates/translation/language.html:915
+#: translation/templates/translation/language.html:1839
+#: translation/templates/translation/language.html:1842
 msgid "Demain"
 msgstr "tomorrow"
 
-#: translation/templates/translation/language.html:919
-msgid "\"Vous devez prendre une douche avec un shampoing avant l'opération.\""
+#: translation/templates/translation/language.html:1847
+#: translation/templates/translation/language.html:1850
+#, fuzzy
+#| msgid ""
+#| "\"Vous devez prendre une douche avec un shampoing avant l'opération.\""
+msgid "Vous devez prendre une douche avec un shampoing avant l'opération"
 msgstr "You need to take a shower and wash your hair before the operation."
 
-#: translation/templates/translation/language.html:923
-msgid "\"L’examen n’est pas douloureux.\""
+#: translation/templates/translation/language.html:1855
+#: translation/templates/translation/language.html:1858
+#, fuzzy
+#| msgid "\"L’examen n’est pas douloureux.\""
+msgid "L’examen n’est pas douloureux"
 msgstr "The test is not painful."
 
-#: translation/templates/translation/language.html:927
-msgid "\"Après l'opération vous aurez :\""
+#: translation/templates/translation/language.html:1863
+#: translation/templates/translation/language.html:1866
+#, fuzzy
+#| msgid "\"Après l'opération vous aurez :\""
+msgid "Après l'opération vous aurez :"
 msgstr "After the operation, you will have."
 
-#: translation/templates/translation/language.html:931
+#: translation/templates/translation/language.html:1871
+#: translation/templates/translation/language.html:1874
 msgid "Une sonde urinaire"
 msgstr "a catheter"
 
-#: translation/templates/translation/language.html:935
+#: translation/templates/translation/language.html:1879
+#: translation/templates/translation/language.html:1882
 msgid "Une sonde gastrique"
 msgstr "a feeding tube"
 
-#: translation/templates/translation/language.html:939
+#: translation/templates/translation/language.html:1887
+#: translation/templates/translation/language.html:1890
 msgid "Un drain"
 msgstr "a pus drainage tube"
 
-#: translation/templates/translation/language.html:943
+#: translation/templates/translation/language.html:1895
+#: translation/templates/translation/language.html:1898
 msgid "Une cicatrice"
 msgstr "a scar"
 
-#: translation/templates/translation/language.html:947
-msgid "\"Vous devez retier tous vos bijoux et piercing.\""
+#: translation/templates/translation/language.html:1903
+#: translation/templates/translation/language.html:1906
+#, fuzzy
+#| msgid "\"Vous devez retier tous vos bijoux et piercing.\""
+msgid "Vous devez retier tous vos bijoux et piercing"
 msgstr "You need to remove your jewellry and piercings."
 
-#: translation/templates/translation/language.html:951
-msgid "\"Vous devez retier votre vernis a ongles.\""
+#: translation/templates/translation/language.html:1911
+#: translation/templates/translation/language.html:1914
+#, fuzzy
+#| msgid "\"Vous devez retier votre vernis a ongles.\""
+msgid "Vous devez retier votre vernis a ongles"
 msgstr "You need to remove your nail polish."
 
-#: translation/templates/translation/language.html:955
-msgid "\"Vous devez retier vos appareils dentaires et auditifs.\""
+#: translation/templates/translation/language.html:1919
+#: translation/templates/translation/language.html:1922
+#, fuzzy
+#| msgid "\"Vous devez retier vos appareils dentaires et auditifs.\""
+msgid "Vous devez retier vos appareils dentaires et auditifs"
 msgstr "You need to remove your dentures and hearing aids."
 
-#: translation/templates/translation/language.html:959
-msgid "\"Dites nous si vous avez :\""
+#: translation/templates/translation/language.html:1927
+#: translation/templates/translation/language.html:1930
+#, fuzzy
+#| msgid "\"Dites nous si vous avez :\""
+msgid "Dites nous si vous avez :"
 msgstr "Tell me if you have:"
 
-#: translation/templates/translation/language.html:963
+#: translation/templates/translation/language.html:1935
+#: translation/templates/translation/language.html:1938
 msgid "Un pace-maker"
 msgstr "a pace-maker"
 
-#: translation/templates/translation/language.html:967
+#: translation/templates/translation/language.html:1943
+#: translation/templates/translation/language.html:1946
 msgid "Une valve cardiaque"
 msgstr "a cardiac valve"
 
-#: translation/templates/translation/language.html:971
+#: translation/templates/translation/language.html:1951
+#: translation/templates/translation/language.html:1954
 msgid "Un stent"
 msgstr "a stent"
 
-#: translation/templates/translation/language.html:975
+#: translation/templates/translation/language.html:1959
+#: translation/templates/translation/language.html:1962
 msgid "Une prothèse"
 msgstr "a prosthesis"
 
-#: translation/templates/translation/language.html:979
-msgid "\"TRAITEMENTS et CONSIGNES\""
+#: translation/templates/translation/language.html:1968
+#, fuzzy
+#| msgid "\"TRAITEMENTS et CONSIGNES\""
+msgid "TRAITEMENTS et CONSIGNES"
 msgstr "Treatment and instructions"
 
-#: translation/templates/translation/language.html:983
+#: translation/templates/translation/language.html:1974
+#: translation/templates/translation/language.html:1977
 msgid "Je vous donne :"
 msgstr "I am giving you:"
 
-#: translation/templates/translation/language.html:987
+#: translation/templates/translation/language.html:1982
+#: translation/templates/translation/language.html:1985
 msgid "des médicaments"
 msgstr "some medication"
 
-#: translation/templates/translation/language.html:991
+#: translation/templates/translation/language.html:1990
+#: translation/templates/translation/language.html:1993
 msgid "des antalgiques"
 msgstr "some analgesics"
 
-#: translation/templates/translation/language.html:995
+#: translation/templates/translation/language.html:1998
+#: translation/templates/translation/language.html:2001
 msgid "des antibiotiques"
 msgstr "some antibiotics"
 
-#: translation/templates/translation/language.html:999
-msgid "\"Vous ne devez pas boire\""
+#: translation/templates/translation/language.html:2006
+#: translation/templates/translation/language.html:2009
+#, fuzzy
+#| msgid "\"Vous ne devez pas boire\""
+msgid "Vous ne devez pas boire"
 msgstr "You must not drink."
 
-#: translation/templates/translation/language.html:1003
-msgid "\"Vous ne devez pas manger.\""
+#: translation/templates/translation/language.html:2014
+#: translation/templates/translation/language.html:2017
+#, fuzzy
+#| msgid "\"Vous ne devez pas manger.\""
+msgid "Vous ne devez pas manger"
 msgstr "You must not eat."
 
-#: translation/templates/translation/language.html:1007
-msgid "\"Vous ne devez pas vous lever.\""
+#: translation/templates/translation/language.html:2022
+#: translation/templates/translation/language.html:2025
+#, fuzzy
+#| msgid "\"Vous ne devez pas vous lever.\""
+msgid "Vous ne devez pas vous lever"
 msgstr "You must not get up."
 
-#: translation/templates/translation/language.html:1011
-msgid "\"Vous devez rester sur le dos.\""
+#: translation/templates/translation/language.html:2030
+#: translation/templates/translation/language.html:2033
+#, fuzzy
+#| msgid "\"Vous devez rester sur le dos.\""
+msgid "Vous devez rester sur le dos"
 msgstr "You must remain lying on your back."
 
-#: translation/templates/translation/language.html:1015
-msgid "\"Vous ne devez pas fumer.\""
+#: translation/templates/translation/language.html:2038
+#: translation/templates/translation/language.html:2041
+#, fuzzy
+#| msgid "\"Vous ne devez pas fumer.\""
+msgid "Vous ne devez pas fumer"
 msgstr "You must not smoke."
 
-#: translation/templates/translation/language.html:1019
-msgid "\"Pour nous appeler appuyer ici.\""
+#: translation/templates/translation/language.html:2046
+#: translation/templates/translation/language.html:2049
+#, fuzzy
+#| msgid "\"Pour nous appeler appuyer ici.\""
+msgid "Pour nous appeler appuyer ici"
 msgstr "To call us, press here."
 
-#: translation/templates/translation/language.html:1023
-msgid "\"Pour allumer ou éteindre les lumières appuyer ici.\""
+#: translation/templates/translation/language.html:2054
+#: translation/templates/translation/language.html:2057
+#, fuzzy
+#| msgid "\"Pour allumer ou éteindre les lumières appuyer ici.\""
+msgid "Pour allumer ou éteindre les lumières appuyer ici"
 msgstr "To turn on or turn off the lights, press here."
 
-#: translation/templates/translation/language.html:1027
-msgid "\"Les toilettes sont ici.\""
+#: translation/templates/translation/language.html:2062
+#: translation/templates/translation/language.html:2065
+#, fuzzy
+#| msgid "\"Les toilettes sont ici.\""
+msgid "Les toilettes sont ici"
 msgstr "The toilets are here."
 
-#: translation/templates/translation/language.html:1031
-msgid "\"La salle de bain est ici.\""
+#: translation/templates/translation/language.html:2070
+#: translation/templates/translation/language.html:2073
+#, fuzzy
+#| msgid "\"La salle de bain est ici.\""
+msgid "La salle de bain est ici"
 msgstr "The bathroom is here."
 
-#: translation/templates/translation/language.html:1035
-msgid "\"Votre chambre est ici.\""
+#: translation/templates/translation/language.html:2078
+#: translation/templates/translation/language.html:2081
+#, fuzzy
+#| msgid "\"Votre chambre est ici.\""
+msgid "Votre chambre est ici"
 msgstr "You room is here."
 
-#: translation/templates/translation/language.html:1039
+#: translation/templates/translation/language.html:2087
 msgid "CONCLUSION"
 msgstr "CONCLUSION"
 
-#: translation/templates/translation/language.html:1043
-msgid "\"Il y a une fracture.\""
+#: translation/templates/translation/language.html:2093
+#: translation/templates/translation/language.html:2096
+#, fuzzy
+#| msgid "\"Il y a une fracture.\""
+msgid "Il y a une fracture"
 msgstr "You have a fracture/He or she has a fracture."
 
-#: translation/templates/translation/language.html:1047
-msgid "\"Il n’y a pas de fracture.\""
+#: translation/templates/translation/language.html:2101
+#: translation/templates/translation/language.html:2104
+#, fuzzy
+#| msgid "\"Il n’y a pas de fracture.\""
+msgid "Il n’y a pas de fracture"
 msgstr "You don't have a fracture/He or she doesn't have a fracture."
 
-#: translation/templates/translation/language.html:1055
-msgid "\"Vous devez revenir demain matin.\""
+#: translation/templates/translation/language.html:2117
+#: translation/templates/translation/language.html:2120
+#, fuzzy
+#| msgid "\"Vous devez revenir demain matin.\""
+msgid "Vous devez revenir demain matin"
 msgstr "You need to come back tomorrow."
 
-#: translation/templates/translation/language.html:1059
-msgid "\"Vous devez revenir dans :\""
+#: translation/templates/translation/language.html:2125
+#: translation/templates/translation/language.html:2128
+#, fuzzy
+#| msgid "\"Vous devez revenir dans :\""
+msgid "Vous devez revenir dans :"
 msgstr "You need to come back in:"
 
-#: translation/templates/translation/language.html:1063
-msgid "\"Vous devrez faire retirer les fils dans :\""
+#: translation/templates/translation/language.html:2133
+#: translation/templates/translation/language.html:2136
+#, fuzzy
+#| msgid "\"Vous devrez faire retirer les fils dans :\""
+msgid "Vous devrez faire retirer les fils dans :"
 msgstr "You need to get the stitches removed in:"
 
-#: translation/templates/translation/language.html:1067
-msgid "\"Vous devez avoir un plâtre.\""
+#: translation/templates/translation/language.html:2141
+#: translation/templates/translation/language.html:2144
+#, fuzzy
+#| msgid "\"Vous devez avoir un plâtre.\""
+msgid "Vous devez avoir un plâtre"
 msgstr "You need a cast."
 
-#: translation/templates/translation/language.html:1071
-msgid "\"Vous devrez porter une attelle.\""
+#: translation/templates/translation/language.html:2149
+#: translation/templates/translation/language.html:2152
+#, fuzzy
+#| msgid "\"Vous devrez porter une attelle.\""
+msgid "Vous devrez porter une attelle"
 msgstr "You need crutches"
 
-#: translation/templates/translation/language.html:1075
-msgid "\"Vous pouvez rentrer chez vous.\""
+#: translation/templates/translation/language.html:2157
+#: translation/templates/translation/language.html:2160
+#, fuzzy
+#| msgid "\"Vous pouvez rentrer chez vous.\""
+msgid "Vous pouvez rentrer chez vous"
 msgstr "You can go home."
 
-#: translation/templates/translation/language.html:1079
-msgid "\"Vous devez aller à l'hôpital\""
+#: translation/templates/translation/language.html:2165
+#: translation/templates/translation/language.html:2168
+#, fuzzy
+#| msgid "\"Vous devez aller à l'hôpital\""
+msgid "Vous devez aller à l'hôpital"
 msgstr "You need to go to the hospital."
 
-#: translation/templates/translation/language.html:1083
-msgid "\"Vous devez rester à l'hôpital.\""
+#: translation/templates/translation/language.html:2173
+#: translation/templates/translation/language.html:2176
+#, fuzzy
+#| msgid "\"Vous devez rester à l'hôpital.\""
+msgid "Vous devez rester à l'hôpital"
 msgstr "You need to stay in hospital."
 
-#: translation/templates/translation/language.html:1087
-msgid "\"Vous allez être transféré dans un autre service.\""
+#: translation/templates/translation/language.html:2181
+#: translation/templates/translation/language.html:2184
+#, fuzzy
+#| msgid "\"Vous allez être transféré dans un autre service.\""
+msgid "Vous allez être transféré dans un autre service"
 msgstr "You are going to be transferred to another department."
 
-#: translation/templates/translation/language.html:1091
-msgid "\"PATIENT EN STRUCTURE\""
+#: translation/templates/translation/language.html:2190
+#, fuzzy
+#| msgid "\"PATIENT EN STRUCTURE\""
+msgid "PATIENT EN STRUCTURE"
 msgstr "Patient in Hospital"
 
-#: translation/templates/translation/language.html:1095
+#: translation/templates/translation/language.html:2196
+#: translation/templates/translation/language.html:2199
 msgid "J’ai faim"
 msgstr "I am hungry."
 
-#: translation/templates/translation/language.html:1099
+#: translation/templates/translation/language.html:2204
+#: translation/templates/translation/language.html:2207
 msgid "j’ai soif"
 msgstr "I am thirsty."
 
-#: translation/templates/translation/language.html:1103
+#: translation/templates/translation/language.html:2212
+#: translation/templates/translation/language.html:2215
 msgid "j’ai mal"
 msgstr "I am in pain."
 
-#: translation/templates/translation/language.html:1107
+#: translation/templates/translation/language.html:2220
+#: translation/templates/translation/language.html:2223
 msgid "j’ai froid"
 msgstr "I am cold."
 
-#: translation/templates/translation/language.html:1111
+#: translation/templates/translation/language.html:2228
+#: translation/templates/translation/language.html:2231
 msgid "j’ai chaud"
 msgstr "I am hot."
 
-#: translation/templates/translation/language.html:1115
+#: translation/templates/translation/language.html:2236
+#: translation/templates/translation/language.html:2239
 msgid "j’ai des nausées"
 msgstr "I am nauseous./I feel like vomiting."
 
-#: translation/templates/translation/language.html:1119
+#: translation/templates/translation/language.html:2244
+#: translation/templates/translation/language.html:2247
 msgid "j’ai vomi"
 msgstr "I threw up/vomited."
 
-#: translation/templates/translation/language.html:1123
-msgid "\"j’ai uriné (je voudrais être changé)\""
+#: translation/templates/translation/language.html:2252
+#: translation/templates/translation/language.html:2255
+#, fuzzy
+#| msgid "\"j’ai uriné (je voudrais être changé)\""
+msgid "j’ai uriné (je voudrais être changé)"
 msgstr "I wet myself (I would like to be changed)."
 
-#: translation/templates/translation/language.html:1127
+#: translation/templates/translation/language.html:2260
+#: translation/templates/translation/language.html:2263
 msgid "je voudrais uriner"
 msgstr "I need to go and urinate."
 
-#: translation/templates/translation/language.html:1131
-msgid "\"je voudrais déféquer\""
+#: translation/templates/translation/language.html:2268
+#: translation/templates/translation/language.html:2271
+#, fuzzy
+#| msgid "\"je voudrais déféquer\""
+msgid "je voudrais déféquer"
 msgstr "I need to pass a bowel movement."
 
-#: translation/templates/translation/language.html:1135
+#: translation/templates/translation/language.html:2276
+#: translation/templates/translation/language.html:2279
 msgid "j’ai des vertiges"
 msgstr "I feel dizzy."
 
-#: translation/templates/translation/language.html:1139
+#: translation/templates/translation/language.html:2284
+#: translation/templates/translation/language.html:2287
 msgid "j’ai peur"
 msgstr "I am scared."
 
-#: translation/templates/translation/language.html:1143
-msgid "\"je voudrais être réinstallé.\""
+#: translation/templates/translation/language.html:2292
+#: translation/templates/translation/language.html:2295
+#, fuzzy
+#| msgid "\"je voudrais être réinstallé.\""
+msgid "je voudrais être réinstallé"
 msgstr "I would like to move rooms."
 
-#: translation/templates/translation/language.html:1147
-msgid "\"je voudrais des informations.\""
+#: translation/templates/translation/language.html:2300
+#: translation/templates/translation/language.html:2303
+#, fuzzy
+#| msgid "\"je voudrais des informations.\""
+msgid "je voudrais des informations"
 msgstr "I would like some information."
 
-#: translation/templates/translation/language.html:1151
-msgid "\"J’ai eu un accident.\""
+#: translation/templates/translation/language.html:2308
+#: translation/templates/translation/language.html:2311
+#, fuzzy
+#| msgid "\"J’ai eu un accident.\""
+msgid "J’ai eu un accident"
 msgstr "I had an accident."
 
-#: translation/templates/translation/language.html:1155
-msgid "J’étais piéton."
+#: translation/templates/translation/language.html:2316
+#: translation/templates/translation/language.html:2319
+#, fuzzy
+#| msgid "J’étais piéton."
+msgid "J’étais piéton"
 msgstr "I was a pedestrian."
 
-#: translation/templates/translation/language.html:1159
-msgid "J’ai été renversé."
+#: translation/templates/translation/language.html:2324
+#: translation/templates/translation/language.html:2327
+#, fuzzy
+#| msgid "J’ai été renversé."
+msgid "J’ai été renversé"
 msgstr "I was hit (by a vehicle)."
 
-#: translation/templates/translation/language.html:1163
-msgid "\"Je n’ai pas été renversé.\""
+#: translation/templates/translation/language.html:2332
+#: translation/templates/translation/language.html:2335
+#, fuzzy
+#| msgid "\"Je n’ai pas été renversé.\""
+msgid "Je n’ai pas été renversé"
 msgstr "I wasn't hit (by a vehicle)."
 
-#: translation/templates/translation/language.html:1167
-#: translation/templates/translation/language.html:1231
-msgid "Je suis tombé."
+#: translation/templates/translation/language.html:2340
+#: translation/templates/translation/language.html:2343
+#: translation/templates/translation/language.html:2468
+#: translation/templates/translation/language.html:2471
+#, fuzzy
+#| msgid "Je suis tombé."
+msgid "Je suis tombé"
 msgstr "I fell (down)."
 
-#: translation/templates/translation/language.html:1171
-msgid "J’ai reçu un coup."
+#: translation/templates/translation/language.html:2348
+#: translation/templates/translation/language.html:2351
+#, fuzzy
+#| msgid "J’ai reçu un coup."
+msgid "J’ai reçu un coup"
 msgstr "I was hit."
 
-#: translation/templates/translation/language.html:1175
-msgid "J’étais en voiture."
+#: translation/templates/translation/language.html:2356
+#: translation/templates/translation/language.html:2359
+#, fuzzy
+#| msgid "J’étais en voiture."
+msgid "J’étais en voiture"
 msgstr "I was in the car/I was driving."
 
-#: translation/templates/translation/language.html:1179
-msgid "\"Je roulais à “x” km/h.\""
-msgstr "I was driving at XX km/h."
-
-#: translation/templates/translation/language.html:1183
-msgid "\"J’avais ma ceinture de sécurité.\""
-msgstr "I had my seatbelt on."
-
-#: translation/templates/translation/language.html:1187
-msgid "\"Je n’avais pas de ceinture de sécurité.\""
-msgstr "I didn't have my seatbelt on."
-
-#: translation/templates/translation/language.html:1191
-msgid "\"J’ai été éjecté pendant l’accident.\""
-msgstr "I was thrown from the car during the accident."
-
-#: translation/templates/translation/language.html:1195
-msgid "\"Je n’ai pas été éjecté pendant l’accident.\""
-msgstr "I wasn't thrown from the car during the accident."
-
-#: translation/templates/translation/language.html:1199
-msgid "\"L’air-bag s’est déclenché.\""
-msgstr "The air bag was deployed."
-
-#: translation/templates/translation/language.html:1203
-msgid "\"L’air-bag ne s’est pas déclenché.\""
-msgstr "The air bag was not deployed."
-
-#: translation/templates/translation/language.html:1207
-msgid "J’étais en vélo."
-msgstr "I was riding the bike./I was on my bike."
-
-#: translation/templates/translation/language.html:1211
-msgid "J'étais en scooter."
-msgstr "I was riding the scooter./I was on my scooter."
-
-#: translation/templates/translation/language.html:1215
-msgid "J'étais en moto."
-msgstr "I was riding the motorbike./I was on my motorbike."
-
-#: translation/templates/translation/language.html:1219
-msgid "\"Je roulais à “x” km/h\""
+#: translation/templates/translation/language.html:2364
+#: translation/templates/translation/language.html:2367
+#: translation/templates/translation/language.html:2444
+#: translation/templates/translation/language.html:2447
+#, fuzzy
+#| msgid "\"Je roulais à “x” km/h\""
+msgid "Je roulais à “x” km/h"
 msgstr "I was riding at XX km/h."
 
-#: translation/templates/translation/language.html:1223
+#: translation/templates/translation/language.html:2372
+#: translation/templates/translation/language.html:2375
+#, fuzzy
+#| msgid "\"J’avais ma ceinture de sécurité.\""
+msgid "J’avais ma ceinture de sécurité"
+msgstr "I had my seatbelt on."
+
+#: translation/templates/translation/language.html:2380
+#: translation/templates/translation/language.html:2383
+#, fuzzy
+#| msgid "\"Je n’avais pas de ceinture de sécurité.\""
+msgid "Je n’avais pas de ceinture de sécurité"
+msgstr "I didn't have my seatbelt on."
+
+#: translation/templates/translation/language.html:2388
+#: translation/templates/translation/language.html:2391
+#, fuzzy
+#| msgid "\"J’ai été éjecté pendant l’accident.\""
+msgid "J’ai été éjecté pendant l’accident"
+msgstr "I was thrown from the car during the accident."
+
+#: translation/templates/translation/language.html:2396
+#: translation/templates/translation/language.html:2399
+#, fuzzy
+#| msgid "\"Je n’ai pas été éjecté pendant l’accident.\""
+msgid "Je n’ai pas été éjecté pendant l’accident"
+msgstr "I wasn't thrown from the car during the accident."
+
+#: translation/templates/translation/language.html:2404
+#: translation/templates/translation/language.html:2407
+#, fuzzy
+#| msgid "\"L’air-bag s’est déclenché.\""
+msgid "L’air-bag s’est déclenché"
+msgstr "The air bag was deployed."
+
+#: translation/templates/translation/language.html:2412
+#: translation/templates/translation/language.html:2415
+#, fuzzy
+#| msgid "\"L’air-bag ne s’est pas déclenché.\""
+msgid "L’air-bag ne s’est pas déclenché"
+msgstr "The air bag was not deployed."
+
+#: translation/templates/translation/language.html:2420
+#: translation/templates/translation/language.html:2423
+#, fuzzy
+#| msgid "J’étais en vélo."
+msgid "J’étais en vélo"
+msgstr "I was riding the bike./I was on my bike."
+
+#: translation/templates/translation/language.html:2428
+#: translation/templates/translation/language.html:2431
+#, fuzzy
+#| msgid "J'étais en scooter."
+msgid "J'étais en scooter"
+msgstr "I was riding the scooter./I was on my scooter."
+
+#: translation/templates/translation/language.html:2436
+#: translation/templates/translation/language.html:2439
+#, fuzzy
+#| msgid "J'étais en moto."
+msgid "J'étais en moto"
+msgstr "I was riding the motorbike./I was on my motorbike."
+
+#: translation/templates/translation/language.html:2452
+#: translation/templates/translation/language.html:2455
 msgid "J’avais un casque"
 msgstr "I had a helmet on."
 
-#: translation/templates/translation/language.html:1227
-msgid "\"Je n’avais pas de casque.\""
+#: translation/templates/translation/language.html:2460
+#: translation/templates/translation/language.html:2463
+#, fuzzy
+#| msgid "\"Je n’avais pas de casque.\""
+msgid "Je n’avais pas de casque"
 msgstr "I didn't have a helmet on."
 
-#: translation/templates/translation/language.html:1235
-msgid "\"Je suis tombé de ma hauteur.\""
+#: translation/templates/translation/language.html:2476
+#: translation/templates/translation/language.html:2479
+#, fuzzy
+#| msgid "\"Je suis tombé de ma hauteur.\""
+msgid "Je suis tombé de ma hauteur"
 msgstr "I fell (off)."
 
-#: translation/templates/translation/language.html:1239
-msgid "\"Je suis tombé de “x” mètres de haut.\""
+#: translation/templates/translation/language.html:2484
+#: translation/templates/translation/language.html:2487
+#, fuzzy
+#| msgid "\"Je suis tombé de “x” mètres de haut.\""
+msgid "Je suis tombé de “x” mètres de haut"
 msgstr "I fell from the same height as me."
 
-#: translation/templates/translation/language.html:1243
-msgid "\"Ma tête a tapé pendant l’accident.\""
+#: translation/templates/translation/language.html:2492
+#: translation/templates/translation/language.html:2495
+#, fuzzy
+#| msgid "\"Ma tête a tapé pendant l’accident.\""
+msgid "Ma tête a tapé pendant l’accident"
 msgstr "I fell from XX metres high."
 
-#: translation/templates/translation/language.html:1247
-msgid "\"Ma tête n’a pas tapé pendant l’accident\""
+#: translation/templates/translation/language.html:2500
+#: translation/templates/translation/language.html:2503
+#, fuzzy
+#| msgid "\"Ma tête n’a pas tapé pendant l’accident\""
+msgid "Ma tête n’a pas tapé pendant l’accident"
 msgstr "I hit my head in the accident."
 
-#: translation/templates/translation/language.html:1251
+#: translation/templates/translation/language.html:2508
+#: translation/templates/translation/language.html:2511
 msgid "J’ai des douleurs :"
 msgstr "My head was not hit in the accident."
 
-#: translation/templates/translation/language.html:1255
+#: translation/templates/translation/language.html:2516
+#: translation/templates/translation/language.html:2519
 msgid "à la tête"
 msgstr "My head hurts."
 
-#: translation/templates/translation/language.html:1259
+#: translation/templates/translation/language.html:2524
+#: translation/templates/translation/language.html:2527
 msgid "au cou"
 msgstr "My neck hurts."
 
-#: translation/templates/translation/language.html:1263
+#: translation/templates/translation/language.html:2532
+#: translation/templates/translation/language.html:2535
 msgid "au dos"
 msgstr "My back hurts."
 
-#: translation/templates/translation/language.html:1267
+#: translation/templates/translation/language.html:2540
+#: translation/templates/translation/language.html:2543
 msgid "au bras"
 msgstr "My arm hurts."
 
-#: translation/templates/translation/language.html:1271
+#: translation/templates/translation/language.html:2548
+#: translation/templates/translation/language.html:2551
 msgid "à la jambe"
 msgstr "My leg hurts."
 
-#: translation/templates/translation/language.html:1275
+#: translation/templates/translation/language.html:2556
+#: translation/templates/translation/language.html:2559
 msgid "au torse"
 msgstr "My torso hurts."
 
-#: translation/templates/translation/language.html:1279
+#: translation/templates/translation/language.html:2564
+#: translation/templates/translation/language.html:2567
 msgid "au ventre"
 msgstr "My stomach hurts."
 
-#: translation/templates/translation/language.html:1283
-msgid "\"Je prend des anticoagulants (médicaments pour fluidifier le sang).\""
+#: translation/templates/translation/language.html:2572
+#: translation/templates/translation/language.html:2575
+#, fuzzy
+#| msgid ""
+#| "\"Je prend des anticoagulants (médicaments pour fluidifier le sang).\""
+msgid "Je prend des anticoagulants (médicaments pour fluidifier le sang)"
 msgstr "I take anticoagulants to thin my blood."
 
-#: translation/templates/translation/language.html:1287
-msgid ""
-"\"Je ne prend pas d’anticoagulants (médicaments pour fluidifier le sang)\""
+#: translation/templates/translation/language.html:2580
+#: translation/templates/translation/language.html:2583
+#, fuzzy
+#| msgid ""
+#| "\"Je ne prend pas d’anticoagulants (médicaments pour fluidifier le sang)\""
+msgid "Je ne prend pas d’anticoagulants (médicaments pour fluidifier le sang)"
 msgstr "I don't take anticoagulants."
 
-#: translation/templates/translation/language.html:1291
+#: translation/templates/translation/language.html:2588
+#: translation/templates/translation/language.html:2591
 msgid "Tête"
 msgstr "Head"
 
-#: translation/templates/translation/language.html:1295
-#: translation/templates/translation/language.html:1727
-msgid "\"J’ai des douleurs depuis :\""
+#: translation/templates/translation/language.html:2596
+#: translation/templates/translation/language.html:2599
+#: translation/templates/translation/language.html:3460
+#: translation/templates/translation/language.html:3463
+#, fuzzy
+#| msgid "\"J’ai des douleurs depuis :\""
+msgid "J’ai des douleurs depuis :"
 msgstr "I have been in pain since:"
 
-#: translation/templates/translation/language.html:1311
-msgid "\"J’arrive bien à bouger mes bras et jambes.\""
+#: translation/templates/translation/language.html:2628
+#: translation/templates/translation/language.html:2631
+#, fuzzy
+#| msgid "\"J’arrive bien à bouger mes bras et jambes.\""
+msgid "J’arrive bien à bouger mes bras et jambes"
 msgstr "I can easily move my arms and legs."
 
-#: translation/templates/translation/language.html:1315
-msgid "\"Je n’arrive pas a bouger un bras ou une jambe\""
+#: translation/templates/translation/language.html:2636
+#: translation/templates/translation/language.html:2639
+#, fuzzy
+#| msgid "\"Je n’arrive pas a bouger un bras ou une jambe\""
+msgid "Je n’arrive pas a bouger un bras ou une jambe"
 msgstr "I can't move my arms or legs."
 
-#: translation/templates/translation/language.html:1319
-msgid "\"J’arrive bien à parler.\""
+#: translation/templates/translation/language.html:2644
+#: translation/templates/translation/language.html:2647
+#, fuzzy
+#| msgid "\"J’arrive bien à parler.\""
+msgid "J’arrive bien à parler"
 msgstr "I can speak."
 
-#: translation/templates/translation/language.html:1323
-msgid "\"J’ai des difficultés à parler.\""
+#: translation/templates/translation/language.html:2652
+#: translation/templates/translation/language.html:2655
+#, fuzzy
+#| msgid "\"J’ai des difficultés à parler.\""
+msgid "J’ai des difficultés à parler"
 msgstr "I am having trouble speaking."
 
-#: translation/templates/translation/language.html:1327
-msgid "\"La lumière me dérange.\""
+#: translation/templates/translation/language.html:2660
+#: translation/templates/translation/language.html:2663
+#, fuzzy
+#| msgid "\"La lumière me dérange.\""
+msgid "La lumière me dérange"
 msgstr "The light annoys me/Light annoys me."
 
-#: translation/templates/translation/language.html:1331
-msgid "\"La lumière ne me dérange pas.\""
+#: translation/templates/translation/language.html:2668
+#: translation/templates/translation/language.html:2671
+#, fuzzy
+#| msgid "\"La lumière ne me dérange pas.\""
+msgid "La lumière ne me dérange pas"
 msgstr "The light doesn't annoy me/Light doesn't annoy me."
 
-#: translation/templates/translation/language.html:1335
-msgid "J’ai de la fièvre."
+#: translation/templates/translation/language.html:2676
+#: translation/templates/translation/language.html:2679
+#, fuzzy
+#| msgid "J’ai de la fièvre."
+msgid "J’ai de la fièvre"
 msgstr "I have a fever."
 
-#: translation/templates/translation/language.html:1339
-msgid "\"Je n’ai pas de fièvre.\""
+#: translation/templates/translation/language.html:2684
+#: translation/templates/translation/language.html:2687
+#, fuzzy
+#| msgid "\"Je n’ai pas de fièvre.\""
+msgid "Je n’ai pas de fièvre"
 msgstr "I don't have a fever."
 
-#: translation/templates/translation/language.html:1343
-msgid "\"J’ai des douleurs à la nuque.\""
+#: translation/templates/translation/language.html:2692
+#: translation/templates/translation/language.html:2695
+#, fuzzy
+#| msgid "\"J’ai des douleurs à la nuque.\""
+msgid "J’ai des douleurs à la nuque"
 msgstr "the back of my neck hurts."
 
-#: translation/templates/translation/language.html:1347
-msgid "\"Je n’ai pas de douleurs à la nuque.\""
+#: translation/templates/translation/language.html:2700
+#: translation/templates/translation/language.html:2703
+#, fuzzy
+#| msgid "\"Je n’ai pas de douleurs à la nuque.\""
+msgid "Je n’ai pas de douleurs à la nuque"
 msgstr "The back of my neck doesn't hurt."
 
-#: translation/templates/translation/language.html:1351
-msgid "\"J’ai fais un malaise.\""
+#: translation/templates/translation/language.html:2708
+#: translation/templates/translation/language.html:2711
+#, fuzzy
+#| msgid "\"J’ai fais un malaise.\""
+msgid "J’ai fais un malaise"
 msgstr "I had a dizzy spell."
 
-#: translation/templates/translation/language.html:1355
-msgid "\"Je n’ai pas fais de malaise.\""
+#: translation/templates/translation/language.html:2716
+#: translation/templates/translation/language.html:2719
+#, fuzzy
+#| msgid "\"Je n’ai pas fais de malaise.\""
+msgid "Je n’ai pas fais de malaise"
 msgstr "I didn't have a dizzy spell."
 
-#: translation/templates/translation/language.html:1359
-msgid "\"J’ai perdu connaissance.\""
+#: translation/templates/translation/language.html:2724
+#: translation/templates/translation/language.html:2727
+#, fuzzy
+#| msgid "\"J’ai perdu connaissance.\""
+msgid "J’ai perdu connaissance"
 msgstr "I lost consciousness."
 
-#: translation/templates/translation/language.html:1363
-msgid "\"Je n’ai pas perdu connaissance.\""
+#: translation/templates/translation/language.html:2732
+#: translation/templates/translation/language.html:2735
+#, fuzzy
+#| msgid "\"Je n’ai pas perdu connaissance.\""
+msgid "Je n’ai pas perdu connaissance"
 msgstr "I didn't lose consciousness."
 
-#: translation/templates/translation/language.html:1367
-msgid "\"J’ai perdu mes urines.\""
+#: translation/templates/translation/language.html:2740
+#: translation/templates/translation/language.html:2743
+#, fuzzy
+#| msgid "\"J’ai perdu mes urines.\""
+msgid "J’ai perdu mes urines"
 msgstr "I wet myself."
 
-#: translation/templates/translation/language.html:1371
-msgid "\"Je n’ai pas perdu mes urines.\""
+#: translation/templates/translation/language.html:2748
+#: translation/templates/translation/language.html:2751
+#, fuzzy
+#| msgid "\"Je n’ai pas perdu mes urines.\""
+msgid "Je n’ai pas perdu mes urines"
 msgstr "I didn't wet myself."
 
-#: translation/templates/translation/language.html:1375
-msgid "J’ai convulsé."
+#: translation/templates/translation/language.html:2756
+#: translation/templates/translation/language.html:2759
+#, fuzzy
+#| msgid "J’ai convulsé."
+msgid "J’ai convulsé"
 msgstr "I had some seizures."
 
-#: translation/templates/translation/language.html:1379
-msgid "\"Je n’ai pas convulsé.\""
+#: translation/templates/translation/language.html:2764
+#: translation/templates/translation/language.html:2767
+#, fuzzy
+#| msgid "\"Je n’ai pas convulsé.\""
+msgid "Je n’ai pas convulsé"
 msgstr "I didn't have any seizures."
 
-#: translation/templates/translation/language.html:1383
-msgid "\"Je suis épileptique.\""
+#: translation/templates/translation/language.html:2772
+#: translation/templates/translation/language.html:2775
+#, fuzzy
+#| msgid "\"Je suis épileptique.\""
+msgid "Je suis épileptique"
 msgstr "I am epileptic."
 
-#: translation/templates/translation/language.html:1387
-msgid "\"Je ne suis pas épileptique.\""
+#: translation/templates/translation/language.html:2780
+#: translation/templates/translation/language.html:2783
+#, fuzzy
+#| msgid "\"Je ne suis pas épileptique.\""
+msgid "Je ne suis pas épileptique"
 msgstr "I am not epileptic."
 
-#: translation/templates/translation/language.html:1391
-msgid "\"J’ai pris mes traitements aujourd’hui.\""
+#: translation/templates/translation/language.html:2788
+#: translation/templates/translation/language.html:2791
+#, fuzzy
+#| msgid "\"J’ai pris mes traitements aujourd’hui.\""
+msgid "J’ai pris mes traitements aujourd’hui"
 msgstr "I took my medication today."
 
-#: translation/templates/translation/language.html:1395
-msgid "\"Je n’ai pas prit mes traitements aujourd’hui.\""
+#: translation/templates/translation/language.html:2796
+#: translation/templates/translation/language.html:2799
+#, fuzzy
+#| msgid "\"Je n’ai pas prit mes traitements aujourd’hui.\""
+msgid "Je n’ai pas prit mes traitements aujourd’hui"
 msgstr "I didn't take my medication today."
 
-#: translation/templates/translation/language.html:1399
-msgid "J’ai des vertiges."
+#: translation/templates/translation/language.html:2804
+#: translation/templates/translation/language.html:2807
+#, fuzzy
+#| msgid "J’ai des vertiges."
+msgid "J’ai des vertiges"
 msgstr "I feel dizzy."
 
-#: translation/templates/translation/language.html:1403
-msgid "\"Je n’ai pas de vertiges.\""
+#: translation/templates/translation/language.html:2812
+#: translation/templates/translation/language.html:2815
+#, fuzzy
+#| msgid "\"Je n’ai pas de vertiges.\""
+msgid "Je n’ai pas de vertiges"
 msgstr "I don't feel dizzy."
 
-#: translation/templates/translation/language.html:1407
-msgid "Je suis diabétique."
+#: translation/templates/translation/language.html:2820
+#: translation/templates/translation/language.html:2823
+#, fuzzy
+#| msgid "Je suis diabétique."
+msgid "Je suis diabétique"
 msgstr "I am diabetic."
 
-#: translation/templates/translation/language.html:1411
-msgid "\"Je ne suis pas diabétique.\""
+#: translation/templates/translation/language.html:2828
+#: translation/templates/translation/language.html:2831
+#, fuzzy
+#| msgid "\"Je ne suis pas diabétique.\""
+msgid "Je ne suis pas diabétique"
 msgstr "I am not diabetic."
 
-#: translation/templates/translation/language.html:1415
-msgid "\"J’ai mangé aujourd’hui.\""
+#: translation/templates/translation/language.html:2836
+#: translation/templates/translation/language.html:2839
+#, fuzzy
+#| msgid "\"J’ai mangé aujourd’hui.\""
+msgid "J’ai mangé aujourd’hui"
 msgstr "I have eaten today."
 
-#: translation/templates/translation/language.html:1419
-msgid "\"Je n’ai pas mangé aujourd’hui.\""
+#: translation/templates/translation/language.html:2844
+#: translation/templates/translation/language.html:2847
+#, fuzzy
+#| msgid "\"Je n’ai pas mangé aujourd’hui.\""
+msgid "Je n’ai pas mangé aujourd’hui"
 msgstr "I haven't eaten today."
 
-#: translation/templates/translation/language.html:1423
+#: translation/templates/translation/language.html:2852
+#: translation/templates/translation/language.html:2855
 msgid "Torse"
 msgstr "Torso"
 
-#: translation/templates/translation/language.html:1427
-msgid "\"J’ai eu un choc au torse récemment.\""
+#: translation/templates/translation/language.html:2860
+#: translation/templates/translation/language.html:2863
+#, fuzzy
+#| msgid "\"J’ai eu un choc au torse récemment.\""
+msgid "J’ai eu un choc au torse récemment"
 msgstr "I got hit in the torso recently."
 
-#: translation/templates/translation/language.html:1431
-msgid "\"Je n’ai pas eu de choc au torse récemment.\""
+#: translation/templates/translation/language.html:2868
+#: translation/templates/translation/language.html:2871
+#, fuzzy
+#| msgid "\"Je n’ai pas eu de choc au torse récemment.\""
+msgid "Je n’ai pas eu de choc au torse récemment"
 msgstr "I wasn't hit in the torso recently."
 
-#: translation/templates/translation/language.html:1435
-msgid "\"La douleur est encore présente.\""
+#: translation/templates/translation/language.html:2876
+#: translation/templates/translation/language.html:2879
+#, fuzzy
+#| msgid "\"La douleur est encore présente.\""
+msgid "La douleur est encore présente"
 msgstr "The pain is still there."
 
-#: translation/templates/translation/language.html:1439
-msgid "\"La douleur n’est plus présente.\""
+#: translation/templates/translation/language.html:2884
+#: translation/templates/translation/language.html:2887
+#, fuzzy
+#| msgid "\"La douleur n’est plus présente.\""
+msgid "La douleur n’est plus présente"
 msgstr "The pain is no longer there."
 
-#: translation/templates/translation/language.html:1443
+#: translation/templates/translation/language.html:2892
+#: translation/templates/translation/language.html:2895
 msgid "La douleur :"
 msgstr "The pain:"
 
-#: translation/templates/translation/language.html:1459
-msgid "\"La douleur irradie vers :\""
+#: translation/templates/translation/language.html:2924
+#: translation/templates/translation/language.html:2927
+#, fuzzy
+#| msgid "\"La douleur irradie vers :\""
+msgid "La douleur irradie vers :"
 msgstr "The pain is referring to my:"
 
-#: translation/templates/translation/language.html:1463
+#: translation/templates/translation/language.html:2932
+#: translation/templates/translation/language.html:2935
 msgid "Machoire"
 msgstr "jaw"
 
-#: translation/templates/translation/language.html:1467
-msgid "\"Je ressent des palpitations.\""
+#: translation/templates/translation/language.html:2940
+#: translation/templates/translation/language.html:2943
+#, fuzzy
+#| msgid "\"Je ressent des palpitations.\""
+msgid "Je ressent des palpitations"
 msgstr "I am having palpitations"
 
-#: translation/templates/translation/language.html:1471
-msgid "\"Je ne ressent pas de palpitations.\""
+#: translation/templates/translation/language.html:2948
+#: translation/templates/translation/language.html:2951
+#, fuzzy
+#| msgid "\"Je ne ressent pas de palpitations.\""
+msgid "Je ne ressent pas de palpitations"
 msgstr "I am not having any palpitations."
 
-#: translation/templates/translation/language.html:1475
-msgid "\"Dans ma famille il y a des problèmes cardiaques.\""
+#: translation/templates/translation/language.html:2956
+#: translation/templates/translation/language.html:2959
+#, fuzzy
+#| msgid "\"Dans ma famille il y a des problèmes cardiaques.\""
+msgid "Dans ma famille il y a des problèmes cardiaques"
 msgstr "My family has a history of cardiac problems."
 
-#: translation/templates/translation/language.html:1479
-msgid "\"Dans ma famille il n’y a pas de problème cardiaque.\""
+#: translation/templates/translation/language.html:2964
+#: translation/templates/translation/language.html:2967
+#, fuzzy
+#| msgid "\"Dans ma famille il n’y a pas de problème cardiaque.\""
+msgid "Dans ma famille il n’y a pas de problème cardiaque"
 msgstr "My family has no history of cardiac problems."
 
-#: translation/templates/translation/language.html:1483
-msgid "\"La douleur est plus forte quand je respire.\""
+#: translation/templates/translation/language.html:2972
+#: translation/templates/translation/language.html:2975
+#, fuzzy
+#| msgid "\"La douleur est plus forte quand je respire.\""
+msgid "La douleur est plus forte quand je respire"
 msgstr "The pain is stronger when I inhale."
 
-#: translation/templates/translation/language.html:1487
-msgid "\"La douleur n’est pas plus forte quand je respire.\""
+#: translation/templates/translation/language.html:2980
+#: translation/templates/translation/language.html:2983
+#, fuzzy
+#| msgid "\"La douleur n’est pas plus forte quand je respire.\""
+msgid "La douleur n’est pas plus forte quand je respire"
 msgstr "The pain is not stronger when I inhale."
 
-#: translation/templates/translation/language.html:1491
-msgid "Je crache du sang."
+#: translation/templates/translation/language.html:2988
+#: translation/templates/translation/language.html:2991
+#, fuzzy
+#| msgid "Je crache du sang."
+msgid "Je crache du sang"
 msgstr "I am coughing blood."
 
-#: translation/templates/translation/language.html:1495
-msgid "\"Je ne crache pas du sang.\""
+#: translation/templates/translation/language.html:2996
+#: translation/templates/translation/language.html:2999
+#, fuzzy
+#| msgid "\"Je ne crache pas du sang.\""
+msgid "Je ne crache pas du sang"
 msgstr "I am not coughing blood."
 
-#: translation/templates/translation/language.html:1499
-msgid "Je tousse."
+#: translation/templates/translation/language.html:3004
+#: translation/templates/translation/language.html:3007
+#, fuzzy
+#| msgid "Je tousse."
+msgid "Je tousse"
 msgstr "I am coughing."
 
-#: translation/templates/translation/language.html:1503
-msgid "Je ne tousse pas."
+#: translation/templates/translation/language.html:3012
+#: translation/templates/translation/language.html:3015
+#, fuzzy
+#| msgid "Je ne tousse pas."
+msgid "Je ne tousse pas"
 msgstr "I am not coughing."
 
-#: translation/templates/translation/language.html:1507
-msgid "\"J’ai des difficultés à respirer.\""
+#: translation/templates/translation/language.html:3020
+#: translation/templates/translation/language.html:3023
+#, fuzzy
+#| msgid "\"J’ai des difficultés à respirer.\""
+msgid "J’ai des difficultés à respirer"
 msgstr "I am having trouble breathing."
 
-#: translation/templates/translation/language.html:1511
-msgid "\"Je n’ai pas de difficultés à respirer.\""
+#: translation/templates/translation/language.html:3028
+#: translation/templates/translation/language.html:3031
+#, fuzzy
+#| msgid "\"Je n’ai pas de difficultés à respirer.\""
+msgid "Je n’ai pas de difficultés à respirer"
 msgstr "I am not having any trouble breathing."
 
-#: translation/templates/translation/language.html:1515
-msgid "\"J’ai respiré des fumées.\""
+#: translation/templates/translation/language.html:3036
+#: translation/templates/translation/language.html:3039
+#, fuzzy
+#| msgid "\"J’ai respiré des fumées.\""
+msgid "J’ai respiré des fumées"
 msgstr "I inhaled some fumes."
 
-#: translation/templates/translation/language.html:1519
-msgid "Je fume."
+#: translation/templates/translation/language.html:3044
+#: translation/templates/translation/language.html:3047
+#, fuzzy
+#| msgid "Je fume."
+msgid "Je fume"
 msgstr "I smoke."
 
-#: translation/templates/translation/language.html:1523
-msgid "Je ne fume pas."
+#: translation/templates/translation/language.html:3052
+#: translation/templates/translation/language.html:3055
+#, fuzzy
+#| msgid "Je ne fume pas."
+msgid "Je ne fume pas"
 msgstr "I don't smoke."
 
-#: translation/templates/translation/language.html:1527
-msgid "\"Je bois de l’alcool.\""
+#: translation/templates/translation/language.html:3060
+#: translation/templates/translation/language.html:3063
+#, fuzzy
+#| msgid "\"Je bois de l’alcool.\""
+msgid "Je bois de l’alcool"
 msgstr "I drink alcohol."
 
-#: translation/templates/translation/language.html:1531
-msgid "\"Je ne bois pas d’alcool.\""
+#: translation/templates/translation/language.html:3068
+#: translation/templates/translation/language.html:3071
+#, fuzzy
+#| msgid "\"Je ne bois pas d’alcool.\""
+msgid "Je ne bois pas d’alcool"
 msgstr "I don't drink alcohol."
 
-#: translation/templates/translation/language.html:1535
-msgid "\"J’ai du cholestérol.\""
+#: translation/templates/translation/language.html:3076
+#: translation/templates/translation/language.html:3079
+#, fuzzy
+#| msgid "\"J’ai du cholestérol.\""
+msgid "J’ai du cholestérol"
 msgstr "I have high cholesterol."
 
-#: translation/templates/translation/language.html:1539
-msgid "\"Je n’ai pas de cholestérol.\""
+#: translation/templates/translation/language.html:3084
+#: translation/templates/translation/language.html:3087
+#, fuzzy
+#| msgid "\"Je n’ai pas de cholestérol.\""
+msgid "Je n’ai pas de cholestérol"
 msgstr "I don't have high cholesterol."
 
-#: translation/templates/translation/language.html:1543
-msgid "\"Je suis asthmatique.\""
+#: translation/templates/translation/language.html:3092
+#: translation/templates/translation/language.html:3095
+#, fuzzy
+#| msgid "\"Je suis asthmatique.\""
+msgid "Je suis asthmatique"
 msgstr "I am asthmatic."
 
-#: translation/templates/translation/language.html:1547
-msgid "\"Je ne suis pas asthmatique.\""
+#: translation/templates/translation/language.html:3100
+#: translation/templates/translation/language.html:3103
+#, fuzzy
+#| msgid "\"Je ne suis pas asthmatique.\""
+msgid "Je ne suis pas asthmatique"
 msgstr "I am not asthmatic."
 
-#: translation/templates/translation/language.html:1551
+#: translation/templates/translation/language.html:3108
+#: translation/templates/translation/language.html:3111
 msgid "Ventre"
 msgstr "Stomach"
 
-#: translation/templates/translation/language.html:1555
-msgid "J'ai des nausées."
+#: translation/templates/translation/language.html:3116
+#: translation/templates/translation/language.html:3119
+#, fuzzy
+#| msgid "J'ai des nausées."
+msgid "J'ai des nausées"
 msgstr "I feel nauseous."
 
-#: translation/templates/translation/language.html:1559
-msgid "\"Je n'ai pas de nausées.\""
+#: translation/templates/translation/language.html:3124
+#: translation/templates/translation/language.html:3127
+#, fuzzy
+#| msgid "\"Je n'ai pas de nausées.\""
+msgid "Je n'ai pas de nausées"
 msgstr "I don't feel nauseous."
 
-#: translation/templates/translation/language.html:1563
-msgid "J’ai vomi."
+#: translation/templates/translation/language.html:3132
+#: translation/templates/translation/language.html:3135
+#, fuzzy
+#| msgid "J’ai vomi."
+msgid "J’ai vomi"
 msgstr "I vomited/threw up."
 
-#: translation/templates/translation/language.html:1567
-msgid "Je n’ai pas vomi."
+#: translation/templates/translation/language.html:3140
+#: translation/templates/translation/language.html:3143
+#, fuzzy
+#| msgid "Je n’ai pas vomi."
+msgid "Je n’ai pas vomi"
 msgstr "I didn't throw up/vomit."
 
-#: translation/templates/translation/language.html:1571
-msgid "Des aliments."
+#: translation/templates/translation/language.html:3148
+#: translation/templates/translation/language.html:3151
+#, fuzzy
+#| msgid "Des aliments."
+msgid "Des aliments"
 msgstr "food"
 
-#: translation/templates/translation/language.html:1575
-msgid "Du sang."
+#: translation/templates/translation/language.html:3156
+#: translation/templates/translation/language.html:3159
+#, fuzzy
+#| msgid "Du sang."
+msgid "Du sang"
 msgstr "blood"
 
-#: translation/templates/translation/language.html:1579
+#: translation/templates/translation/language.html:3164
+#: translation/templates/translation/language.html:3167
 msgid "1 fois"
 msgstr "once"
 
-#: translation/templates/translation/language.html:1583
+#: translation/templates/translation/language.html:3172
+#: translation/templates/translation/language.html:3175
 msgid "2 fois"
 msgstr "twice"
 
-#: translation/templates/translation/language.html:1587
-msgid "Plusieurs fois."
+#: translation/templates/translation/language.html:3180
+#: translation/templates/translation/language.html:3183
+#, fuzzy
+#| msgid "Plusieurs fois."
+msgid "Plusieurs fois"
 msgstr "several times"
 
-#: translation/templates/translation/language.html:1591
-msgid "J’ai des diarrhées."
+#: translation/templates/translation/language.html:3188
+#: translation/templates/translation/language.html:3191
+#, fuzzy
+#| msgid "J’ai des diarrhées."
+msgid "J’ai des diarrhées"
 msgstr "I have diarrhea."
 
-#: translation/templates/translation/language.html:1595
-msgid "\"Je n’ai pas de diarrhées.\""
+#: translation/templates/translation/language.html:3196
+#: translation/templates/translation/language.html:3199
+#, fuzzy
+#| msgid "\"Je n’ai pas de diarrhées.\""
+msgid "Je n’ai pas de diarrhées"
 msgstr "I don't have diarrhea."
 
-#: translation/templates/translation/language.html:1599
-msgid "J’ai des gazs."
+#: translation/templates/translation/language.html:3204
+#: translation/templates/translation/language.html:3207
+#, fuzzy
+#| msgid "J’ai des gazs."
+msgid "J’ai des gazs"
 msgstr "I have gas."
 
-#: translation/templates/translation/language.html:1603
-msgid "\"Je n’ai plus de gazs.\""
+#: translation/templates/translation/language.html:3212
+#: translation/templates/translation/language.html:3215
+#, fuzzy
+#| msgid "\"Je n’ai plus de gazs.\""
+msgid "Je n’ai plus de gazs"
 msgstr "I no longer have gas."
 
-#: translation/templates/translation/language.html:1607
-msgid "\"Mes dernières urines étaient il y a :\""
+#: translation/templates/translation/language.html:3220
+#: translation/templates/translation/language.html:3223
+#, fuzzy
+#| msgid "\"Mes dernières urines étaient il y a :\""
+msgid "Mes dernières urines étaient il y a :"
 msgstr "The last I urinated was:"
 
-#: translation/templates/translation/language.html:1611
-msgid "\"Il y avait du sang dans mes urines.\""
+#: translation/templates/translation/language.html:3228
+#: translation/templates/translation/language.html:3231
+#, fuzzy
+#| msgid "\"Il y avait du sang dans mes urines.\""
+msgid "Il y avait du sang dans mes urines"
 msgstr "The was blood in my urine."
 
-#: translation/templates/translation/language.html:1615
-msgid "\"Il n’y avait pas de sang dans mes urines.\""
+#: translation/templates/translation/language.html:3236
+#: translation/templates/translation/language.html:3239
+#, fuzzy
+#| msgid "\"Il n’y avait pas de sang dans mes urines.\""
+msgid "Il n’y avait pas de sang dans mes urines"
 msgstr "There was no blood in my urine."
 
-#: translation/templates/translation/language.html:1619
-msgid "\"J’ai des brulures quand j’urine.\""
+#: translation/templates/translation/language.html:3244
+#: translation/templates/translation/language.html:3247
+#, fuzzy
+#| msgid "\"J’ai des brulures quand j’urine.\""
+msgid "J’ai des brulures quand j’urine"
 msgstr "It burns when I urinate."
 
-#: translation/templates/translation/language.html:1623
-msgid "\"Je n’ai pas de brulures quand j’urine.\""
+#: translation/templates/translation/language.html:3252
+#: translation/templates/translation/language.html:3255
+#, fuzzy
+#| msgid "\"Je n’ai pas de brulures quand j’urine.\""
+msgid "Je n’ai pas de brulures quand j’urine"
 msgstr "It doesn't burn when I urinate."
 
-#: translation/templates/translation/language.html:1627
-msgid "\"Mes dernières selles étaient il y a :\""
+#: translation/templates/translation/language.html:3260
+#: translation/templates/translation/language.html:3263
+#, fuzzy
+#| msgid "\"Mes dernières selles étaient il y a :\""
+msgid "Mes dernières selles étaient il y a :"
 msgstr "My last bowel motion was :"
 
-#: translation/templates/translation/language.html:1631
-msgid "\"Il y avait du sang dans mes selles.\""
+#: translation/templates/translation/language.html:3268
+#: translation/templates/translation/language.html:3271
+#, fuzzy
+#| msgid "\"Il y avait du sang dans mes selles.\""
+msgid "Il y avait du sang dans mes selles"
 msgstr "There was blood in my stool."
 
-#: translation/templates/translation/language.html:1635
-msgid "\"Il n’y avait pas de sang dans mes selles.\""
+#: translation/templates/translation/language.html:3276
+#: translation/templates/translation/language.html:3279
+#, fuzzy
+#| msgid "\"Il n’y avait pas de sang dans mes selles.\""
+msgid "Il n’y avait pas de sang dans mes selles"
 msgstr "There was no blood in my stool."
 
-#: translation/templates/translation/language.html:1639
-msgid "\"Mes dernières règles étaient il y a :\""
+#: translation/templates/translation/language.html:3284
+#: translation/templates/translation/language.html:3287
+#, fuzzy
+#| msgid "\"Mes dernières règles étaient il y a :\""
+msgid "Mes dernières règles étaient il y a :"
 msgstr "My last period was:"
 
-#: translation/templates/translation/language.html:1643
-msgid "Je suis enceinte."
+#: translation/templates/translation/language.html:3292
+#: translation/templates/translation/language.html:3295
+#, fuzzy
+#| msgid "Je suis enceinte."
+msgid "Je suis enceinte"
 msgstr "I am pregnant."
 
-#: translation/templates/translation/language.html:1647
-msgid "\"Je ne suis pas enceinte.\""
+#: translation/templates/translation/language.html:3300
+#: translation/templates/translation/language.html:3303
+#, fuzzy
+#| msgid "\"Je ne suis pas enceinte.\""
+msgid "Je ne suis pas enceinte"
 msgstr "I am not pregnant."
 
-#: translation/templates/translation/language.html:1651
+#: translation/templates/translation/language.html:3308
+#: translation/templates/translation/language.html:3311
 msgid "Depuis “x” semaines"
 msgstr "Since X weeks."
 
-#: translation/templates/translation/language.html:1655
-msgid "\"J’ai eu des pertes par voie basse.\""
+#: translation/templates/translation/language.html:3316
+#: translation/templates/translation/language.html:3319
+#, fuzzy
+#| msgid "\"J’ai eu des pertes par voie basse.\""
+msgid "J’ai eu des pertes par voie basse"
 msgstr "I had blood loss during vaginal delivery/natural birth."
 
-#: translation/templates/translation/language.html:1659
-msgid "\"Je n’ai pas eu de perte par voie basse.\""
+#: translation/templates/translation/language.html:3324
+#: translation/templates/translation/language.html:3327
+#, fuzzy
+#| msgid "\"Je n’ai pas eu de perte par voie basse.\""
+msgid "Je n’ai pas eu de perte par voie basse"
 msgstr "I had no blood loss during vaginal delivery/natural birth."
 
-#: translation/templates/translation/language.html:1663
-msgid "\"Mes pertes étaient :\""
+#: translation/templates/translation/language.html:3332
+#: translation/templates/translation/language.html:3335
+#, fuzzy
+#| msgid "\"Mes pertes étaient :\""
+msgid "Mes pertes étaient :"
 msgstr "My blood loss was:"
 
-#: translation/templates/translation/language.html:1667
-msgid "De couleur rouge."
+#: translation/templates/translation/language.html:3340
+#: translation/templates/translation/language.html:3343
+#, fuzzy
+#| msgid "De couleur rouge."
+msgid "De couleur rouge"
 msgstr "red"
 
-#: translation/templates/translation/language.html:1671
-msgid "De couleur noire."
+#: translation/templates/translation/language.html:3348
+#: translation/templates/translation/language.html:3351
+#, fuzzy
+#| msgid "De couleur noire."
+msgid "De couleur noire"
 msgstr "black"
 
-#: translation/templates/translation/language.html:1675
-msgid "\"J’ai perdu du poids ces derniers temps.\""
+#: translation/templates/translation/language.html:3356
+#: translation/templates/translation/language.html:3359
+#, fuzzy
+#| msgid "\"J’ai perdu du poids ces derniers temps.\""
+msgid "J’ai perdu du poids ces derniers temps"
 msgstr "I have lost weight recently."
 
-#: translation/templates/translation/language.html:1679
-msgid "\"Je n’ai pas perdu de poids ces derniers temps.\""
+#: translation/templates/translation/language.html:3364
+#: translation/templates/translation/language.html:3367
+#, fuzzy
+#| msgid "\"Je n’ai pas perdu de poids ces derniers temps.\""
+msgid "Je n’ai pas perdu de poids ces derniers temps"
 msgstr "I have not lost weight recently."
 
-#: translation/templates/translation/language.html:1683
+#: translation/templates/translation/language.html:3372
+#: translation/templates/translation/language.html:3375
 msgid "Dos / Cou"
 msgstr "Back/Neck"
 
-#: translation/templates/translation/language.html:1687
-msgid "\"Ma douleur n’irradie pas vers la fesse ou la jambe.\""
+#: translation/templates/translation/language.html:3380
+#: translation/templates/translation/language.html:3383
+#, fuzzy
+#| msgid "\"Ma douleur n’irradie pas vers la fesse ou la jambe.\""
+msgid "Ma douleur n’irradie pas vers la fesse ou la jambe"
 msgstr "The pain doesn't refer to anywhere else."
 
-#: translation/templates/translation/language.html:1691
-msgid "\"Ma douleur irradie vers la fesse ou la jambe.\""
+#: translation/templates/translation/language.html:3388
+#: translation/templates/translation/language.html:3391
+#, fuzzy
+#| msgid "\"Ma douleur irradie vers la fesse ou la jambe.\""
+msgid "Ma douleur irradie vers la fesse ou la jambe"
 msgstr "The pain refers down into my backside/down my leg."
 
-#: translation/templates/translation/language.html:1695
-msgid "\"Je n’ai pas le dos bloqué.\""
+#: translation/templates/translation/language.html:3396
+#: translation/templates/translation/language.html:3399
+#, fuzzy
+#| msgid "\"Je n’ai pas le dos bloqué.\""
+msgid "Je n’ai pas le dos bloqué"
 msgstr "My back doesn't feel blocked."
 
-#: translation/templates/translation/language.html:1699
-msgid "J’ai le dos bloqué."
+#: translation/templates/translation/language.html:3404
+#: translation/templates/translation/language.html:3407
+#, fuzzy
+#| msgid "J’ai le dos bloqué."
+msgid "J’ai le dos bloqué"
 msgstr "my back feels blocked."
 
-#: translation/templates/translation/language.html:1703
-msgid "\"J’ai mal surtout le soir.\""
+#: translation/templates/translation/language.html:3412
+#: translation/templates/translation/language.html:3415
+#, fuzzy
+#| msgid "\"J’ai mal surtout le soir.\""
+msgid "J’ai mal surtout le soir"
 msgstr "I feel sick especially at night."
 
-#: translation/templates/translation/language.html:1707
-msgid "\"J’ai mal surtout le matin.\""
+#: translation/templates/translation/language.html:3420
+#: translation/templates/translation/language.html:3423
+#, fuzzy
+#| msgid "\"J’ai mal surtout le matin.\""
+msgid "J’ai mal surtout le matin"
 msgstr "I feel sick, especially in the morning."
 
-#: translation/templates/translation/language.html:1711
+#: translation/templates/translation/language.html:3428
+#: translation/templates/translation/language.html:3431
 msgid "Bras"
 msgstr "Arm"
 
-#: translation/templates/translation/language.html:1715
+#: translation/templates/translation/language.html:3436
+#: translation/templates/translation/language.html:3439
 msgid "Jambe"
 msgstr "Leg"
 
-#: translation/templates/translation/language.html:1719
-msgid "\"J’ai reçu un coup récemment.\""
+#: translation/templates/translation/language.html:3444
+#: translation/templates/translation/language.html:3447
+#, fuzzy
+#| msgid "\"J’ai reçu un coup récemment.\""
+msgid "J’ai reçu un coup récemment"
 msgstr "I received a knock recently/I was hit recently."
 
-#: translation/templates/translation/language.html:1723
-msgid "\"Je n’ai pas reçu de coup récemment.\""
+#: translation/templates/translation/language.html:3452
+#: translation/templates/translation/language.html:3455
+#, fuzzy
+#| msgid "\"Je n’ai pas reçu de coup récemment.\""
+msgid "Je n’ai pas reçu de coup récemment"
 msgstr "I have not been hit/received any blows recently."
 
-#: translation/templates/translation/language.html:1731
-msgid "\"J’ai été piqué ou mordu récemment.\""
+#: translation/templates/translation/language.html:3468
+#: translation/templates/translation/language.html:3471
+#, fuzzy
+#| msgid "\"J’ai été piqué ou mordu récemment.\""
+msgid "J’ai été piqué ou mordu récemment"
 msgstr "I was stung/bitten recently."
 
-#: translation/templates/translation/language.html:1735
-msgid "\"Je n’ai pas été piqué ou mordu récemment.\""
+#: translation/templates/translation/language.html:3476
+#: translation/templates/translation/language.html:3479
+#, fuzzy
+#| msgid "\"Je n’ai pas été piqué ou mordu récemment.\""
+msgid "Je n’ai pas été piqué ou mordu récemment"
 msgstr "I wasn't stung/bitten recently."
 
-#: translation/templates/translation/language.html:1739
-msgid "Ca me démange."
+#: translation/templates/translation/language.html:3484
+#: translation/templates/translation/language.html:3487
+#, fuzzy
+#| msgid "Ca me démange."
+msgid "Ca me démange"
 msgstr "It itches."
 
-#: translation/templates/translation/language.html:1743
-msgid "\"Ca ne me démange pas.\""
+#: translation/templates/translation/language.html:3492
+#: translation/templates/translation/language.html:3495
+#, fuzzy
+#| msgid "\"Ca ne me démange pas.\""
+msgid "Ca ne me démange pas"
 msgstr "It doesn't itch."
 
-#: translation/templates/translation/language.html:1747
+#: translation/templates/translation/language.html:3500
+#: translation/templates/translation/language.html:3503
 msgid "Ma douleur est :"
 msgstr "my pain is:"
 
-#: translation/templates/translation/language.html:1751
+#: translation/templates/translation/language.html:3508
+#: translation/templates/translation/language.html:3511
 msgid "Faible"
 msgstr "weak"
 
-#: translation/templates/translation/language.html:1755
+#: translation/templates/translation/language.html:3516
+#: translation/templates/translation/language.html:3519
 msgid "Moyenne"
 msgstr "average"
 
-#: translation/templates/translation/language.html:1759
+#: translation/templates/translation/language.html:3524
+#: translation/templates/translation/language.html:3527
 msgid "Forte"
 msgstr "strong"
 
-#: translation/templates/translation/language.html:1763
+#: translation/templates/translation/language.html:3532
+#: translation/templates/translation/language.html:3535
 msgid "Insupportable"
 msgstr "unbearable"
 
-#: translation/templates/translation/language.html:1767
-msgid "\"Des clips intra-cranien\""
+#: translation/templates/translation/language.html:3540
+#: translation/templates/translation/language.html:3543
+#, fuzzy
+#| msgid "\"Des clips intra-cranien\""
+msgid "Des clips intra-cranien"
 msgstr "intracranial clips"
 
-#: translation/templates/translation/language.html:1771
-msgid "\"Un implant cochléaire\""
+#: translation/templates/translation/language.html:3548
+#: translation/templates/translation/language.html:3551
+#, fuzzy
+#| msgid "\"Un implant cochléaire\""
+msgid "Un implant cochléaire"
 msgstr "a cochlear implant"
 
-#: translation/templates/translation/language.html:1775
-msgid "\"Un implant occulaire\""
+#: translation/templates/translation/language.html:3556
+#: translation/templates/translation/language.html:3559
+#, fuzzy
+#| msgid "\"Un implant occulaire\""
+msgid "Un implant occulaire"
 msgstr "an intraocular lens implant"
 
-#: translation/templates/translation/language.html:1779
-msgid "\"Du métal dans le corps\""
+#: translation/templates/translation/language.html:3564
+#: translation/templates/translation/language.html:3567
+#, fuzzy
+#| msgid "\"Du métal dans le corps\""
+msgid "Du métal dans le corps"
 msgstr "Some metal in the body"
 
-#: translation/templates/translation/language.html:1783
+#: translation/templates/translation/language.html:3572
+#: translation/templates/translation/language.html:3575
 msgid "Un défibrillateur"
 msgstr "A defibrillator"
 
-#: translation/templates/translation/language.html:1787
-msgid "\"Une chambre implantable\""
+#: translation/templates/translation/language.html:3580
+#: translation/templates/translation/language.html:3583
+#, fuzzy
+#| msgid "\"Une chambre implantable\""
+msgid "Une chambre implantable"
 msgstr "a PICC line (Peripherally Inserted Central Catheter)"
 
-#: translation/templates/translation/language.html:1791
+#: translation/templates/translation/language.html:3588
+#: translation/templates/translation/language.html:3591
 msgid "Allaitez-vous ?"
 msgstr "Are you breastfeeding? Do you breastfeed?"
 
-#: translation/templates/translation/language.html:1795
-msgid "\"Où se trouve le médecin le plus proche ?\""
+#: translation/templates/translation/language.html:3596
+#: translation/templates/translation/language.html:3599
+#, fuzzy
+#| msgid "\"Où se trouve le médecin le plus proche ?\""
+msgid "Où se trouve le médecin le plus proche ?"
 msgstr "Where is the closest doctor?"
 
-#: translation/templates/translation/language.html:1799
-msgid "\"Où se trouve l'hôpital le plus proche ?\""
+#: translation/templates/translation/language.html:3604
+#: translation/templates/translation/language.html:3607
+#, fuzzy
+#| msgid "\"Où se trouve l'hôpital le plus proche ?\""
+msgid "Où se trouve l'hôpital le plus proche ?"
 msgstr "Where is the closest hospital?"
 
-#: translation/templates/translation/language.html:1803
-msgid "\"Où se trouve la pharmacie la plus proche ?\""
+#: translation/templates/translation/language.html:3612
+#: translation/templates/translation/language.html:3615
+#, fuzzy
+#| msgid "\"Où se trouve la pharmacie la plus proche ?\""
+msgid "Où se trouve la pharmacie la plus proche ?"
 msgstr "Where is the closest pharmacy?"
 
-#: translation/templates/translation/language.html:1807
-msgid "\"J'ai besoin de secours, pouvez-vous les appeler ?\""
+#: translation/templates/translation/language.html:3620
+#: translation/templates/translation/language.html:3623
+#, fuzzy
+#| msgid "\"J'ai besoin de secours, pouvez-vous les appeler ?\""
+msgid "J'ai besoin de secours, pouvez-vous les appeler ?"
 msgstr "I need (medical) assistance, could you please call an ambulance?"
+
+#: translation/templates/translation/language.html:3628
+#: translation/templates/translation/language.html:3631
+msgid "Une IRM"
+msgstr ""
+
+#: translation/templates/translation/language.html:3636
+#: translation/templates/translation/language.html:3639
+msgid "L'examen est long. Il dure entre 15 et 40 minutes"
+msgstr ""
+
+#: translation/templates/translation/language.html:3644
+#: translation/templates/translation/language.html:3647
+msgid "L'examen n'est pas douloureux mais il est très bruyant"
+msgstr ""
+
+#: translation/templates/translation/language.html:3652
+#: translation/templates/translation/language.html:3655
+msgid "Il faut rester immobile pendant toute la durée de l'examen"
+msgstr ""
+
+#: translation/templates/translation/language.html:3660
+#: translation/templates/translation/language.html:3663
+msgid "Des éclats métalliques dans les yeux?"
+msgstr ""
+
+#: translation/templates/translation/language.html:3668
+#: translation/templates/translation/language.html:3671
+#, fuzzy
+#| msgid "Une valve cardiaque"
+msgid "une valve mécanique"
+msgstr "a cardiac valve"
+
+#: translation/templates/translation/language.html:3676
+#: translation/templates/translation/language.html:3679
+msgid "un capteur de glycémie"
+msgstr ""
+
+#: translation/templates/translation/language.html:3684
+#: translation/templates/translation/language.html:3687
+msgid "si oui, avez-vous une carte avec les références du matériel?"
+msgstr ""
+
+#: translation/templates/translation/language.html:3692
+#: translation/templates/translation/language.html:3695
+msgid "Quelle est votre taille et votre poids?"
+msgstr ""
+
+#: translation/templates/translation/language.html:3700
+#: translation/templates/translation/language.html:3703
+msgid ""
+"Durant l'examen, on vous demandera de gonfler et les poumons et de bloquer "
+"la respiration"
+msgstr ""
+
+#: translation/templates/translation/language.html:3708
+#: translation/templates/translation/language.html:3711
+msgid ""
+"Nous allons injecter un produit de contraste qui va vous donner chaud dans "
+"tout le corps, c'est normal ne vous inquiétez pas"
+msgstr ""
+
+#: translation/templates/translation/language.html:3716
+#: translation/templates/translation/language.html:3719
+#, fuzzy
+#| msgid "\"Avez-vous un traitement en cours ? (lequel ?)\""
+msgid "Prenez-vous un traitement pour la thyroïde ?"
+msgstr "Are you being treated for anything? For what?"
+
+#: translation/templates/translation/language.html:3724
+#: translation/templates/translation/language.html:3727
+#, fuzzy
+#| msgid "\"Avez-vous des douleurs ?\""
+msgid "Avez-vous des problèmes rénaux ?"
+msgstr "Are you in pain?"
+
+#: translation/templates/translation/language.html:3732
+#: translation/templates/translation/language.html:3735
+#, fuzzy
+#| msgid "\"Pouvez-vous bouger vos mains et vos pieds ?\""
+msgid "Pouvez-vous signer l’autorisation de soins ci-dessous ?"
+msgstr "Can you move your hands and feet?"
+
+#: translation/templates/translation/language.html:3740
+#: translation/templates/translation/language.html:3743
+msgid "Nom :"
+msgstr ""
+
+#: translation/templates/translation/language.html:3748
+#: translation/templates/translation/language.html:3751
+msgid "Prénom :"
+msgstr ""
+
+#: translation/templates/translation/language.html:3756
+#: translation/templates/translation/language.html:3759
+msgid "Date de naissance :"
+msgstr ""
+
+#: translation/templates/translation/language.html:3764
+#: translation/templates/translation/language.html:3767
+msgid "La taille :"
+msgstr ""
+
+#: translation/templates/translation/language.html:3772
+#: translation/templates/translation/language.html:3775
+msgid "Poids :"
+msgstr ""
+
+#: translation/templates/translation/language.html:3796
+#: translation/templates/translation/language.html:3799
+#, fuzzy
+#| msgid "Je ne tousse pas."
+msgid "Je ne sais pas"
+msgstr "I don't know."
+
+#~ msgid "\"(10 étant la note pour une douleur insupportable) ?\""
+#~ msgstr "10 being absolutely unbearable"
+
+#~ msgid "\"Je roulais à “x” km/h.\""
+#~ msgstr "I was driving at XX km/h."

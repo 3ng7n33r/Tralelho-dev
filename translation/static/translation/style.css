@@ -1,0 +1,510 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1.1rem;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+    font-family: Roboto, serif;
+    margin: auto;
+    max-width: 1024px;
+}
+
+html {
+    background-color: #fffbf0;
+    color: #000;
+    scroll-behavior: smooth;
+}
+
+/* Header and Navbar */
+
+header {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto auto;
+    height: max-content;
+    width: 100vw;
+    max-width: 1024px;
+    grid-template-areas:
+        "a b"
+        "c c";
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    min-height: 60px;
+    max-height: 100px;
+    background-color: #efefef;
+}
+
+.anav {
+    display: grid;
+    place-items: center;
+    color: inherit;
+    text-decoration: none;
+    text-align: center;
+    height: 100%;
+    white-space: nowrap;
+}
+
+.responsive-iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100px;
+    max-height: 500px;
+    height: 27vh;
+    width: 48vh;
+    max-width: 100%;
+}
+
+.centertext {
+    text-align: center;
+}
+
+#active {
+    background-color: #b7b7b7;
+}
+
+.navbar a:hover {
+    background-color: #FFF;
+}
+
+#logo {
+    max-width: 50px;
+    width: 10vw;
+    vertical-align: middle;
+}
+
+.transflags {
+    max-width: 70%;
+    vertical-align: middle;
+}
+
+#sourceflag {
+    max-width: 50%;
+    max-height: 100px;
+    margin: auto;
+}
+
+.smallflag {
+    max-width: 30%;
+    max-height: 80px;
+}
+
+#flagcontainer {
+    display: grid;
+    align-items: center;
+    min-height: 60px;
+    max-height: 100px;
+    background-color: #efefef;
+}
+
+#changebase {
+    display: none;
+    grid-area: c;
+    background-color: #efefef;
+}
+
+/* Content */
+
+.docicon {
+    max-width: 30%;
+    max-height: 80px;
+}
+
+section {
+    margin: 0 7px;
+}
+
+article {
+    background-color: #fce5cd;
+    border-radius: 20px;
+}
+
+article>h2 {
+    text-align: center;
+}
+
+aside>div {
+    margin: 10px auto;
+    background: #5E5E5E;
+}
+
+.langcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.doccontainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-around;
+}
+
+.docarticle {
+    background-color: #fce5cd;
+    border-radius: 20px;
+    margin: 10px auto;
+}
+
+.docarticle:hover {
+    background-color: #ccc;
+}
+
+.langcontainer>a {
+    text-align: center;
+}
+
+.flag {
+    width: 25vw;
+    max-width: 150px;
+    height: calc(25vw / 1.5);
+    max-height: calc(150px / 1.5);
+}
+
+figure {
+    margin: min(3vw, 10px);
+}
+
+/* Sidenav */
+.transbutton {
+    padding: 18px;
+    width: 100%;
+    background-color: inherit;
+    display: inline-block;
+    border: none;
+    outline: none;
+}
+
+.transbutton:hover {
+    background-color: #ccc;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    padding: 18px;
+    width: 100%;
+    background-color: inherit;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 13px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.collapsible:hover {
+    background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.collapsible:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+
+traduction {
+    display: grid;
+    margin: 0 0px;
+    grid-template-columns: min-content 1fr;
+}
+
+.activerow td {
+    background-color: cadetblue;
+}
+
+nav {
+    background-color: #efefef;
+    margin: 10px 1vw 0 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h3:hover {
+    background-color: #ccc;
+}
+
+@media (min-height: 300px) {
+    .transbutton {
+        position: -webkit-sticky;
+        /* Safari */
+        position: sticky;
+        top: 0;
+    }
+
+    .collapsible {
+        position: -webkit-sticky;
+        /* Safari */
+        position: sticky;
+        top: 50px;
+    }
+
+    nav div {
+        position: -webkit-sticky;
+        /* Safari */
+        position: sticky;
+        top: 100px;
+    }
+}
+
+nav ul li a {
+    color: black;
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #7a7a7a;
+}
+
+nav ul li a.current {
+    background: black;
+}
+
+/* Translation tables */
+
+table {
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0px 5px;
+    padding: 10px 5px;
+}
+
+tr:hover td {
+    background-color: #FEFEFE;
+}
+
+td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-right: none;
+}
+
+td:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left: none;
+}
+
+td {
+    border: solid 0px;
+    background-color: #fce5cd;
+    padding: 0px 10px;
+}
+
+.txtUpsideDown {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+    /* IE6,IE7 */
+    -moz-transform: rotate(-180deg);
+    /* FF3.5+ */
+    -o-transform: rotate(-180deg);
+    /* Opera 10.5 */
+    -webkit-transform: rotate(-180deg);
+    /* Safari 3.1+, Chrome */
+    background-color: white;
+    width: 100%;
+    height: 40vh;
+    font-size: 220%;
+    font-weight: bold;
+    display: none;
+    position: sticky;
+    top: 0;
+}
+
+/* Footer */
+footer {
+    padding: 2vw;
+    background: #ff8000;
+    width: 100%;
+    margin: auto;
+    text-align: right;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-device-width : 700px) {
+    .navtext {
+        display: none;
+    }
+
+    #logo {
+        margin-right: 0px;
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    :root {
+        --fs-h1: 4.5rem;
+        --fs-h2: 3.75rem;
+        --fs-h3: 1.5rem;
+        --fs-body: 1.125rem;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+    /* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+    /* Styles */
+}
+
+/* Progress Bars */
+
+
+/* Styling an indeterminate progress bar */
+
+progress:not(value) {
+    /* Add your styles here. As part of this walkthrough we will focus only on determinate progress bars. */
+}
+
+/* Styling the determinate progress element */
+
+progress[value] {
+    /* Get rid of the default appearance */
+    appearance: none;
+
+    /* This unfortunately leaves a trail of border behind in Firefox and Opera. We can remove that by setting the border to none. */
+    border: none;
+
+    /* Add dimensions */
+    width: 70%;
+    height: 30px;
+
+    /* Although firefox doesn't provide any additional pseudo class to style the progress element container, any style applied here works on the container. */
+    background-color: whiteSmoke;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .5) inset;
+
+    /* Of all IE, only IE10 supports progress element that too partially. It only allows to change the background-color of the progress value using the 'color' attribute. */
+    color: royalblue;
+
+    position: relative;
+    margin: 0 0 1.5em;
+}
+
+/*
+  Webkit browsers provide two pseudo classes that can be use to style HTML5 progress element.
+  -webkit-progress-bar -> To style the progress element container
+  -webkit-progress-value -> To style the progress element value.
+  */
+
+progress[value]::-webkit-progress-bar {
+    background-color: whiteSmoke;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .5) inset;
+}
+
+progress[value]::-webkit-progress-value {
+    position: relative;
+
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+    border-radius: 3px;
+}
+
+/* Let's spice up things little bit by using pseudo elements. */
+
+progress[value]::-webkit-progress-value:after {
+    /* Only webkit/blink browsers understand pseudo elements on pseudo classes. A rare phenomenon! */
+    content: '';
+    position: absolute;
+
+    width: 5px;
+    height: 5px;
+    top: 7px;
+    right: 7px;
+
+    background-color: white;
+    border-radius: 100%;
+}
+
+/* Firefox provides a single pseudo class to style the progress element value and not for container. -moz-progress-bar */
+
+progress[value]::-moz-progress-bar {
+    background-image:
+        -moz-linear-gradient(top,
+            rgba(255, 255, 255, .25),
+            rgba(0, 0, 0, .2)),
+        -moz-linear-gradient(left, rgb(158, 158, 158), #ff8000);
+
+    background-size: 35px 30px, 100% 100%, 100% 100%;
+    border-radius: 3px;
+
+    /* Firefox doesn't support CSS3 keyframe animations on progress element. Hence, we did not include animate-stripes in this code block */
+}
+
+/* Fallback technique styles */
+.progress-bar {
+    background-color: whiteSmoke;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .5) inset;
+
+    /* Dimensions should be similar to the parent progress element. */
+    width: 100%;
+    height: 20px;
+}
+
+.progress-bar span {
+    background-color: royalblue;
+    border-radius: 3px;
+
+    display: block;
+    text-indent: -9999px;
+}
+
+p[data-value] {
+
+    position: relative;
+}
+
+/* The percentage will automatically fall in place as soon as we make the width fluid. Now making widths fluid. */
+
+p[data-value]:after {
+    content: attr(data-value) '%';
+    position: absolute;
+    right: 0;
+}

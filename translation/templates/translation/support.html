@@ -1,0 +1,161 @@
+{% load static %}
+{% load i18n %}
+{% language base_language %}
+
+<!doctype html>
+<html lang="fr">
+<!-- Template used with permission from https://html5-templates.com/" -->
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{% translate "Tralelho" %}</title>
+		<meta name="description" content="Traductions pour les etrangers à l'hopital">
+		<link rel="stylesheet" type="text/css" href="{% static 'translation/style.css' %}">
+		<script src="{% static 'translation/app.js' %}" async></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- Favicons -->
+		<link rel="apple-touch-icon" sizes="180x180" href="{% static 'translation/favicon_io/apple-touch-icon.png' %}">
+		<link rel="icon" type="image/png" sizes="32x32" href="{% static 'translation/favicon_io/favicon-32x32.png' %}">
+		<link rel="icon" type="image/png" sizes="16x16" href="{% static 'translation/favicon_io/favicon-16x16.png' %}">
+		<link rel="manifest" href="{% static 'translation/favicon_io/site.webmanifest' %}">
+	</head>
+
+	<body>
+		<header> 
+			<div class="navbar">
+				<a class="anav" href="/{{ base_language }}/{{ base_flag }}"><img id="logo" src="{% static 'translation/iconmonstr-globe-5-240.png' %}"><p class="navtext">{% translate "Traductions" %}</p></a>
+				<a class="anav" href="/{{ base_language }}/{{ base_flag }}/documents"><i class="fa fa-file" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">{% translate "Documents" %}</p></a>
+				<a class="anav" id="active" href="/{{ base_language }}/{{ base_flag }}/support"><i class="fa fa-heart" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">{% translate "Soutenez-nous" %}</p></a>
+				<a class="anav" href="/{{ base_language }}/{{ base_flag }}/about"><i class="fa fa-info-circle " style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">{% translate "Qui-sommes nous?" %}</p></a>
+			</div> 
+			<div id="flagcontainer" onclick="switchVisibilityBlock('changebase')">
+				<img id="sourceflag" src="{% get_static_prefix %}translation/flags/{{ base_flag }}.png">
+			</div>
+			<div id="changebase">
+        		<h2 style="text-align: center">{% translate "Langue d'utilisation" %}</h2>
+				<h3 onclick="switchVisibilityFlex('afrique')"><i class="fa fa-caret-right" aria-hidden="true"></i> {% translate "Afrique" %}</h3>
+				<div id="afrique" class="langcontainer" style="display: none">
+					{% if afrique %}
+						{% for country in afrique %}
+							<a href="/{{ country.langcode }}/{{ country.flagcode }}/support">
+								<figure>
+									<img class="flag" src="{% static "translation/flags/"|add:country.flagcode|add:".png" %}">
+									<figcaption>{% translate country.Name_fr %}</figcaption>
+								</figure>
+							</a>
+						{% endfor %}
+					{% else %}
+    					<p style="margin: auto">{% translate "No translations available" %}</p>
+					{% endif %}
+				</div>
+				<h3 onclick="switchVisibilityFlex('namerique')"><i class="fa fa-caret-right" aria-hidden="true"></i> {% translate "Amerique du Nord" %}</h3>
+				<div id="namerique" class="langcontainer" style="display: none">
+					{% if namerique %}
+						{% for country in namerique %}
+							<a href="/{{ country.langcode }}/{{ country.flagcode }}/support">
+								<figure>
+									<img class="flag" src="{% static "translation/flags/"|add:country.flagcode|add:".png" %}">
+									<figcaption>{% translate country.Name_fr %}</figcaption>
+								</figure>
+							</a>
+						{% endfor %}
+					{% else %}
+    					<p style="margin: auto">{% translate "No translations available" %}</p>
+					{% endif %}
+				</div>
+				<h3 onclick="switchVisibilityFlex('samerique')"><i class="fa fa-caret-right" aria-hidden="true"></i> {% translate "Amerique du Sud" %}</h3>
+				<div id="samerique" class="langcontainer" style="display: none">
+					{% if samerique %}
+						{% for country in samerique %}
+							<a href="/{{ country.langcode }}/{{ country.flagcode }}/support">
+								<figure>
+									<img class="flag" src="{% static "translation/flags/"|add:country.flagcode|add:".png" %}">
+									<figcaption>{% translate country.Name_fr %}</figcaption>
+								</figure>
+							</a>
+						{% endfor %}
+					{% else %}
+    					<p style="margin: auto">{% translate "No translations available" %}</p>
+					{% endif %}
+				</div>
+				<h3 onclick="switchVisibilityFlex('asie')"><i class="fa fa-caret-right" aria-hidden="true"></i> {% translate "Asie" %}</h3>
+				<div id="asie" class="langcontainer" style="display: none">
+					{% if asie %}
+						{% for country in asie %}
+							<a href="/{{ country.langcode }}/{{ country.flagcode }}/support">
+								<figure>
+									<img class="flag" src="{% static "translation/flags/"|add:country.flagcode|add:".png" %}">
+									<figcaption>{% translate country.Name_fr %}</figcaption>
+								</figure>
+							</a>
+						{% endfor %}
+					{% else %}
+    					<p style="margin: auto">{% translate "No translations available" %}</p>
+					{% endif %}
+				</div>
+				<h3 onclick="switchVisibilityFlex('europe')"><i class="fa fa-caret-right" aria-hidden="true"></i> {% translate "Europe" %}</h3>
+				<div id="europe" class="langcontainer" style="display: none">
+					{% if europe %}
+						{% for country in europe %}
+							<a href="/{{ country.langcode }}/{{ country.flagcode }}/support">
+								<figure>
+									<img class="flag" src="{% static "translation/flags/"|add:country.flagcode|add:".png" %}">
+									<figcaption>{% translate country.Name_fr %}</figcaption>
+								</figure>
+							</a>
+						{% endfor %}
+					{% else %}
+    					<p style="margin: auto">{% translate "No translations available" %}/p>
+					{% endif %}
+				</div>
+				<h3 onclick="switchVisibilityFlex('oceanie')"><i class="fa fa-caret-right" aria-hidden="true"></i> {% translate "Oceanie" %}</h3>
+				<div id="oceanie" class="langcontainer" style="display: none">
+					{% if oceanie %}
+						{% for country in oceanie %}
+							<a href="/{{ country.langcode }}/{{ country.flagcode }}/support">
+								<figure>
+									<img class="flag" src="{% static "translation/flags/"|add:country.flagcode|add:".png" %}">
+									<figcaption>{% translate country.Name_fr %}</figcaption>
+								</figure>
+							</a>
+						{% endfor %}
+					{% else %}
+    					<p style="margin: auto">{% translate "No translations available" %}</p>
+					{% endif %}
+				</div>
+      		</div>
+		</header>
+ 		<section class="about">
+		 	<h1>Soutenir TraLELHo</h1>
+			<h2>Traduction</h2>
+			<p>Soutenir TraLELHo c'est d'abord l'utiliser, le diffuser auprès de vos collègues, amis.</p>
+			<p>C'est aussi nous contacter si vous parlez une langue étrangère pour nous proposer une correction ou une nouvelle traduction.</p>
+			<p>  Text mentioning Crowdin as translation platform</p>
+			<h2>Faire un Don</h2>
+			<p>Enfin soutenir TraLELHo peut aussi passer par un don, afin d'aider le site à rester héberger aussi longtemps que possible, ou a obtenir de nouvelles traductions ou corrections.</p>
+			<p>Avec 4 euros vous permettez au site d'être hébergé un mois de plus, avec 50 euros vous permettez de traduire une nouvelle langue.</p>
+			<p style="width:80%" data-value="10">Dépenses d'hébergement 2021</p>
+			<progress max="100" value="10" class="hebergement">
+			<!-- Browsers that support HTML5 progress element will ignore the html inside `progress` element. Whereas older browsers will ignore the `progress` element and instead render the html inside it. -->
+				<div class="progress-bar">
+					<span style="width: 80%">80%</span>
+				</div>
+			</progress>
+			<p style="width:80%" data-value="40">Traduction en Suedois</p>
+			<progress max="100" value="40" class="hebergement">
+			<!-- Browsers that support HTML5 progress element will ignore the html inside `progress` element. Whereas older browsers will ignore the `progress` element and instead render the html inside it. -->
+				<div class="progress-bar">
+					<span style="width: 80%">80%</span>
+				</div>
+			</progress>
+		</section>
+		<footer>
+			<address>
+				Contact: <a href="mailto:me@example.com">Mail me</a>
+			</address>
+		</footer>
+	</body>
+{% endlanguage %}
+</html>
