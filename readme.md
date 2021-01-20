@@ -1,4 +1,4 @@
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/3ng7n33r/Tralelho-dev>)
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/3ng7n33r/Tralelho-dev)
 
 ## Abbreviations
 The abbreviations should follow the ISO 639-2 guideline. 
