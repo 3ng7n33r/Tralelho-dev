@@ -12,3 +12,7 @@ six==1.15.0
 sqlparse==0.4.1
 toml==0.10.2
 wrapt==1.12.1
+#pytest-django==4.1.0
+#djangorestframework==3.12.2
+#django-filter==2.4.0 # maybe not required
+#Markdown==3.3.3 # maybe not required
