@@ -6,19 +6,19 @@ from .models import Countries
 
 
 def index(request, base_language="fra", base_flag="fra"):
-    afrique = Countries.objects.filter(Continent__iexact="Afrique")
-    namerique = Countries.objects.filter(Continent__iexact="Amerique du Nord")
-    samerique = Countries.objects.filter(Continent__iexact="Amerique du Sud")
-    oceanie = Countries.objects.filter(Continent__iexact="Oceania")
-    asie = Countries.objects.filter(Continent__iexact="Asie")
-    europe = Countries.objects.filter(Continent__iexact="Europe")
+    AF = Countries.objects.filter(Continent__iexact="AF")
+    NA = Countries.objects.filter(Continent__iexact="NA")
+    SA = Countries.objects.filter(Continent__iexact="SA")
+    OC = Countries.objects.filter(Continent__iexact="OC")
+    AS = Countries.objects.filter(Continent__iexact="AS")
+    EU = Countries.objects.filter(Continent__iexact="EU")
     context = {
-        'afrique': afrique,
-        'namerique': namerique,
-        'samerique': samerique,
-        'oceanie': oceanie,
-        'asie': asie,
-        'europe': europe,
+        'AF': AF,
+        'NA': NA,
+        'SA': SA,
+        'OC': OC,
+        'AS': AS,
+        'EU': EU,
         'base_language': base_language,
         'base_flag': base_flag,
     }
@@ -26,19 +26,19 @@ def index(request, base_language="fra", base_flag="fra"):
 
 
 def translation(request, base_language, base_flag, target_language, target_flag):
-    afrique = Countries.objects.filter(Continent__iexact="Afrique")
-    namerique = Countries.objects.filter(Continent__iexact="Amerique du Nord")
-    samerique = Countries.objects.filter(Continent__iexact="Amerique du Sud")
-    oceanie = Countries.objects.filter(Continent__iexact="Oceania")
-    asie = Countries.objects.filter(Continent__iexact="Asie")
-    europe = Countries.objects.filter(Continent__iexact="Europe")
+    AF = Countries.objects.filter(Continent__iexact="AF")
+    NA = Countries.objects.filter(Continent__iexact="NA")
+    SA = Countries.objects.filter(Continent__iexact="SA")
+    OC = Countries.objects.filter(Continent__iexact="OC")
+    AS = Countries.objects.filter(Continent__iexact="AS")
+    EU = Countries.objects.filter(Continent__iexact="EU")
     context = {
-        'afrique': afrique,
-        'namerique': namerique,
-        'samerique': samerique,
-        'oceanie': oceanie,
-        'asie': asie,
-        'europe': europe,
+        'AF': AF,
+        'NA': NA,
+        'SA': SA,
+        'OC': OC,
+        'AS': AS,
+        'EU': EU,
         'base_language': base_language,
         'base_flag': base_flag,
         'target_language': target_language,
@@ -48,19 +48,19 @@ def translation(request, base_language, base_flag, target_language, target_flag)
 
 
 def docindex(request, base_language="fra", base_flag="fra"):
-    afrique = Countries.objects.filter(Continent__iexact="Afrique")
-    namerique = Countries.objects.filter(Continent__iexact="Amerique du Nord")
-    samerique = Countries.objects.filter(Continent__iexact="Amerique du Sud")
-    oceanie = Countries.objects.filter(Continent__iexact="Oceania")
-    asie = Countries.objects.filter(Continent__iexact="Asie")
-    europe = Countries.objects.filter(Continent__iexact="Europe")
+    AF = Countries.objects.filter(Continent__iexact="AF")
+    NA = Countries.objects.filter(Continent__iexact="NA")
+    SA = Countries.objects.filter(Continent__iexact="SA")
+    OC = Countries.objects.filter(Continent__iexact="OC")
+    AS = Countries.objects.filter(Continent__iexact="AS")
+    EU = Countries.objects.filter(Continent__iexact="EU")
     context = {
-        'afrique': afrique,
-        'namerique': namerique,
-        'samerique': samerique,
-        'oceanie': oceanie,
-        'asie': asie,
-        'europe': europe,
+        'AF': AF,
+        'NA': NA,
+        'SA': SA,
+        'OC': OC,
+        'AS': AS,
+        'EU': EU,
         'base_language': base_language,
         'base_flag': base_flag,
     }
@@ -68,12 +68,12 @@ def docindex(request, base_language="fra", base_flag="fra"):
 
 
 def documents(request, base_language, base_flag, target_language, target_flag):
-    afrique = Countries.objects.filter(Continent__iexact="Afrique")
-    namerique = Countries.objects.filter(Continent__iexact="Amerique du Nord")
-    samerique = Countries.objects.filter(Continent__iexact="Amerique du Sud")
-    oceanie = Countries.objects.filter(Continent__iexact="Oceania")
-    asie = Countries.objects.filter(Continent__iexact="Asie")
-    europe = Countries.objects.filter(Continent__iexact="Europe")
+    AF = Countries.objects.filter(Continent__iexact="AF")
+    NA = Countries.objects.filter(Continent__iexact="NA")
+    SA = Countries.objects.filter(Continent__iexact="SA")
+    OC = Countries.objects.filter(Continent__iexact="OC")
+    AS = Countries.objects.filter(Continent__iexact="AS")
+    EU = Countries.objects.filter(Continent__iexact="EU")
     docs = {
         "Anesthésie": "ane",
         "IRM": "irm",
@@ -82,12 +82,12 @@ def documents(request, base_language, base_flag, target_language, target_flag):
         "Scanner": "scn",
         "Secrétariat": "sec"}
     context = {
-        'afrique': afrique,
-        'namerique': namerique,
-        'samerique': samerique,
-        'oceanie': oceanie,
-        'asie': asie,
-        'europe': europe,
+        'AF': AF,
+        'NA': NA,
+        'SA': SA,
+        'OC': OC,
+        'AS': AS,
+        'EU': EU,
         'base_language': base_language,
         'base_flag': base_flag,
         'target_language': target_language,
@@ -98,19 +98,19 @@ def documents(request, base_language, base_flag, target_language, target_flag):
 
 
 def support(request, base_language="fra", base_flag="fra"):
-    afrique = Countries.objects.filter(Continent__iexact="Afrique")
-    namerique = Countries.objects.filter(Continent__iexact="Amerique du Nord")
-    samerique = Countries.objects.filter(Continent__iexact="Amerique du Sud")
-    oceanie = Countries.objects.filter(Continent__iexact="Oceania")
-    asie = Countries.objects.filter(Continent__iexact="Asie")
-    europe = Countries.objects.filter(Continent__iexact="Europe")
+    AF = Countries.objects.filter(Continent__iexact="AF")
+    NA = Countries.objects.filter(Continent__iexact="NA")
+    SA = Countries.objects.filter(Continent__iexact="SA")
+    OC = Countries.objects.filter(Continent__iexact="OC")
+    AS = Countries.objects.filter(Continent__iexact="AS")
+    EU = Countries.objects.filter(Continent__iexact="EU")
     context = {
-        'afrique': afrique,
-        'namerique': namerique,
-        'samerique': samerique,
-        'oceanie': oceanie,
-        'asie': asie,
-        'europe': europe,
+        'AF': AF,
+        'NA': NA,
+        'SA': SA,
+        'OC': OC,
+        'AS': AS,
+        'EU': EU,
         'base_language': base_language,
         'base_flag': base_flag,
     }
@@ -118,19 +118,19 @@ def support(request, base_language="fra", base_flag="fra"):
 
 
 def about(request, base_language="fra", base_flag="fra"):
-    afrique = Countries.objects.filter(Continent__iexact="Afrique")
-    namerique = Countries.objects.filter(Continent__iexact="Amerique du Nord")
-    samerique = Countries.objects.filter(Continent__iexact="Amerique du Sud")
-    oceanie = Countries.objects.filter(Continent__iexact="Oceania")
-    asie = Countries.objects.filter(Continent__iexact="Asie")
-    europe = Countries.objects.filter(Continent__iexact="Europe")
+    AF = Countries.objects.filter(Continent__iexact="AF")
+    NA = Countries.objects.filter(Continent__iexact="NA")
+    SA = Countries.objects.filter(Continent__iexact="SA")
+    OC = Countries.objects.filter(Continent__iexact="OC")
+    AS = Countries.objects.filter(Continent__iexact="AS")
+    EU = Countries.objects.filter(Continent__iexact="EU")
     context = {
-        'afrique': afrique,
-        'namerique': namerique,
-        'samerique': samerique,
-        'oceanie': oceanie,
-        'asie': asie,
-        'europe': europe,
+        'AF': AF,
+        'NA': NA,
+        'SA': SA,
+        'OC': OC,
+        'AS': AS,
+        'EU': EU,
         'base_language': base_language,
         'base_flag': base_flag,
     }
