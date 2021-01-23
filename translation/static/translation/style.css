@@ -182,7 +182,14 @@ aside>div {
 }
 
 figure {
-    margin: min(3vw, 10px);
+    display: table;
+    width: 1px;
+    margin: min(3vw, 8px);
+}
+
+img,
+figcaption {
+    display: table-row;
 }
 
 /* Sidenav */
