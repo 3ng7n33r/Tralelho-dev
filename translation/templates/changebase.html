@@ -7,14 +7,14 @@
 		<div id="{{ name }}"|add:continent class="langcontainer" style="display: none">
 			{% if continent %}
 				{% for country in continent %}
-					{% if country.spoken_languages.count %}
+					{% if country.spoken_languages.count == 1 and country.spoken_languages.all.0.Translated %}
 						<a href="/{{ country.spoken_languages.all.0.langcode }}/{{ country.countrycode }}{{ changetag }}">
 							<figure>
 								<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
 								<figcaption>{% translate country.Name_fr %}</figcaption>
 							</figure>
 						</a>
-					{% elif country.spoken_languages.count > 1 %}
+					{% elif country.spoken_languages.count > 1 and country.spoken_languages.all.0.Translated %}
 						<a href="/{{ country.spoken_languages.all.0.langcode }}/{{ country.countrycode }}{{ changetag }}">
 							<figure>
 								<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">

@@ -11,6 +11,18 @@
 	</div>
 {% endblock %}
 
+{% block flags %}
+	{% load i18n %}
+	{% load static %}
+	<div id="flagcontainer" onclick="switchVisibilityBlock('changebase')">
+		<a class="anav">
+			<img class="smallflag" src="{% get_static_prefix %}translation/flags/{{ base_flag }}.png">
+			{% comment %} Make flag representation possible for multiple countries with same language {% endcomment %}
+			<img class="smallflag" src="{% get_static_prefix %}translation/flags/{{ target_flag }}.png">
+		</a>
+	</div>
+{% endblock %}
+
 {% block changebase %}
 	{% load i18n %}
 	{% load static %}
@@ -49,6 +61,7 @@
 				</div>
 			</nav>
 			<main role="main">
+				{% language base_language %}
 				<div class="txtUpsideDown">{% translate "Please click a phrase to display" %}</div>
 				{% endlanguage %}
 				{% language base_language %}

@@ -25,9 +25,8 @@
 		<header>
 			{% block navbar %}
 			{% endblock %}
-			<div id="flagcontainer" onclick="switchVisibilityBlock('changebase')">
-				<img id="sourceflag" src="{% get_static_prefix %}translation/flags/{{ base_flag }}.png">
-			</div>
+			{% block flags %}
+			{% endblock %}
 			{% block changebase %}
 			{% endblock %}
 		</header>

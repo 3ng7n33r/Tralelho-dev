@@ -11,6 +11,12 @@
 	</div>
 {% endblock %}
 
+{% block flags %}
+	<div id="flagcontainer" onclick="switchVisibilityBlock('changebase')">
+		<img id="sourceflag" src="{% get_static_prefix %}translation/flags/{{ base_flag }}.png">
+	</div>
+{% endblock %}
+
 {% block changebase %}
 	{% load i18n %}
 	{% load static %}
