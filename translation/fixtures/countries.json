@@ -6,7 +6,11 @@
             "Name_eng": "Afghanistan",
             "Name_fr": "Afghanistan",
             "countrycode": "afg",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                64,
+                65
+            ]
         }
     },
     {
@@ -16,7 +20,10 @@
             "Name_eng": "Angola",
             "Name_fr": "Angola",
             "countrycode": "ago",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                63
+            ]
         }
     },
     {
@@ -26,7 +33,10 @@
             "Name_eng": "Albania",
             "Name_fr": "Albanie",
             "countrycode": "alb",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                78
+            ]
         }
     },
     {
@@ -36,7 +46,10 @@
             "Name_eng": "Andorra",
             "Name_fr": "Andorre",
             "countrycode": "and",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                10
+            ]
         }
     },
     {
@@ -46,7 +59,10 @@
             "Name_eng": "United Arab Emirates",
             "Name_fr": "\u00c9mirats arabes unis",
             "countrycode": "are",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                3
+            ]
         }
     },
     {
@@ -56,7 +72,10 @@
             "Name_eng": "Argentina",
             "Name_fr": "Argentine",
             "countrycode": "arg",
-            "Continent": "SA"
+            "Continent": "SA",
+            "spoken_languages": [
+                77
+            ]
         }
     },
     {
@@ -66,7 +85,10 @@
             "Name_eng": "Armenia",
             "Name_fr": "Arm\u00e9nie",
             "countrycode": "arm",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                30
+            ]
         }
     },
     {
@@ -76,7 +98,10 @@
             "Name_eng": "Antigua and Barbuda",
             "Name_fr": "Antigua-et-Barbuda",
             "countrycode": "atg",
-            "Continent": "NA"
+            "Continent": "NA",
+            "spoken_languages": [
+                18
+            ]
         }
     },
     {
@@ -86,7 +111,10 @@
             "Name_eng": "Australia",
             "Name_fr": "Australie",
             "countrycode": "aus",
-            "Continent": "OC"
+            "Continent": "OC",
+            "spoken_languages": [
+                18
+            ]
         }
     },
     {
@@ -96,7 +124,10 @@
             "Name_eng": "Austria",
             "Name_fr": "Autriche",
             "countrycode": "aut",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                14
+            ]
         }
     },
     {
@@ -106,7 +137,10 @@
             "Name_eng": "Azerbaijan",
             "Name_fr": "Azerba\u00efdjan",
             "countrycode": "aze",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                4
+            ]
         }
     },
     {
@@ -116,7 +150,11 @@
             "Name_eng": "Burundi",
             "Name_fr": "Burundi",
             "countrycode": "bdi",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                24,
+                67
+            ]
         }
     },
     {
@@ -126,7 +164,12 @@
             "Name_eng": "Belgium",
             "Name_fr": "Belgique",
             "countrycode": "bel",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                24,
+                14,
+                58
+            ]
         }
     },
     {
@@ -136,7 +179,10 @@
             "Name_eng": "Benin",
             "Name_fr": "B\u00e9nin",
             "countrycode": "ben",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                24
+            ]
         }
     },
     {
@@ -146,7 +192,10 @@
             "Name_eng": "Burkina Faso",
             "Name_fr": "Burkina Faso",
             "countrycode": "bfa",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                24
+            ]
         }
     },
     {
@@ -156,7 +205,10 @@
             "Name_eng": "Bangladesh",
             "Name_fr": "Bangladesh",
             "countrycode": "bgd",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                6
+            ]
         }
     },
     {
@@ -166,7 +218,10 @@
             "Name_eng": "Bulgaria",
             "Name_fr": "Bulgarie",
             "countrycode": "bgr",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                9
+            ]
         }
     },
     {
@@ -176,7 +231,10 @@
             "Name_eng": "Bahrain",
             "Name_fr": "Bahre\u00efn",
             "countrycode": "bhr",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                3
+            ]
         }
     },
     {
@@ -186,7 +244,10 @@
             "Name_eng": "Bahamas",
             "Name_fr": "Bahamas",
             "countrycode": "bhs",
-            "Continent": "NA"
+            "Continent": "NA",
+            "spoken_languages": [
+                18
+            ]
         }
     },
     {
@@ -196,7 +257,12 @@
             "Name_eng": "Bosnia and Herzegovina",
             "Name_fr": "Bosnie-Herz\u00e9govine",
             "countrycode": "bih",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                79,
+                28,
+                8
+            ]
         }
     },
     {
@@ -206,7 +272,11 @@
             "Name_eng": "Belarus",
             "Name_fr": "Bi\u00e9lorussie",
             "countrycode": "blr",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                68,
+                5
+            ]
         }
     },
     {
@@ -216,7 +286,10 @@
             "Name_eng": "Belize",
             "Name_fr": "Belize",
             "countrycode": "blz",
-            "Continent": "NA"
+            "Continent": "NA",
+            "spoken_languages": [
+                18
+            ]
         }
     },
     {
@@ -226,7 +299,10 @@
             "Name_eng": "Bolivia",
             "Name_fr": "Bolivie",
             "countrycode": "bol",
-            "Continent": "SA"
+            "Continent": "SA",
+            "spoken_languages": [
+                77
+            ]
         }
     },
     {
@@ -236,7 +312,10 @@
             "Name_eng": "Brazil",
             "Name_fr": "Br\u00e9sil",
             "countrycode": "bra",
-            "Continent": "SA"
+            "Continent": "SA",
+            "spoken_languages": [
+                63
+            ]
         }
     },
     {
@@ -246,7 +325,10 @@
             "Name_eng": "Barbados",
             "Name_fr": "Barbade",
             "countrycode": "brb",
-            "Continent": "NA"
+            "Continent": "NA",
+            "spoken_languages": [
+                18
+            ]
         }
     },
     {
@@ -256,7 +338,10 @@
             "Name_eng": "Brunei Darussalam",
             "Name_fr": "Brunei",
             "countrycode": "brn",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                54
+            ]
         }
     },
     {
@@ -266,7 +351,10 @@
             "Name_eng": "Bhutan",
             "Name_fr": "Bhoutan",
             "countrycode": "btn",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                16
+            ]
         }
     },
     {
@@ -276,7 +364,10 @@
             "Name_eng": "Botswana",
             "Name_fr": "Botswana",
             "countrycode": "bwa",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                18
+            ]
         }
     },
     {
@@ -286,7 +377,11 @@
             "Name_eng": "Central African Republic",
             "Name_fr": "R\u00e9publique centrafricaine",
             "countrycode": "caf",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                24,
+                69
+            ]
         }
     },
     {
@@ -296,7 +391,11 @@
             "Name_eng": "Canada",
             "Name_fr": "Canada",
             "countrycode": "can",
-            "Continent": "NA"
+            "Continent": "NA",
+            "spoken_languages": [
+                18,
+                24
+            ]
         }
     },
     {
@@ -306,7 +405,11 @@
             "Name_eng": "Switzerland",
             "Name_fr": "Suisse",
             "countrycode": "che",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                14,
+                24
+            ]
         }
     },
     {
@@ -316,7 +419,10 @@
             "Name_eng": "Chile",
             "Name_fr": "Chili",
             "countrycode": "chl",
-            "Continent": "SA"
+            "Continent": "SA",
+            "spoken_languages": [
+                77
+            ]
         }
     },
     {
@@ -326,7 +432,10 @@
             "Name_eng": "China",
             "Name_fr": "Chine",
             "countrycode": "chn",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                101
+            ]
         }
     },
     {
@@ -336,7 +445,10 @@
             "Name_eng": "C\u00f4te d'Ivoire",
             "Name_fr": "C\u00f4te d'Ivoire",
             "countrycode": "civ",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                24
+            ]
         }
     },
     {
@@ -346,7 +458,11 @@
             "Name_eng": "Cameroon",
             "Name_fr": "Cameroun",
             "countrycode": "cmr",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                24,
+                18
+            ]
         }
     },
     {
@@ -356,7 +472,13 @@
             "Name_eng": "Democratic Republic of the Congo",
             "Name_fr": "R\u00e9publique d\u00e9mocratique du Congo",
             "countrycode": "cod",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                24,
+                44,
+                82,
+                46
+            ]
         }
     },
     {
@@ -366,7 +488,11 @@
             "Name_eng": "Republic of the Congo",
             "Name_fr": "R\u00e9publique du Congo",
             "countrycode": "cog",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                24,
+                44
+            ]
         }
     },
     {
@@ -376,7 +502,10 @@
             "Name_eng": "Colombia",
             "Name_fr": "Colombie",
             "countrycode": "col",
-            "Continent": "SA"
+            "Continent": "SA",
+            "spoken_languages": [
+                77
+            ]
         }
     },
     {
@@ -386,7 +515,12 @@
             "Name_eng": "Comoros",
             "Name_fr": "Comores",
             "countrycode": "com",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                24,
+                3,
+                83
+            ]
         }
     },
     {
@@ -396,7 +530,10 @@
             "Name_eng": "Cabo Verde",
             "Name_fr": "Cap-Vert",
             "countrycode": "cpv",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                63
+            ]
         }
     },
     {
@@ -406,7 +543,10 @@
             "Name_eng": "Costa Rica",
             "Name_fr": "Costa Rica",
             "countrycode": "cri",
-            "Continent": "NA"
+            "Continent": "NA",
+            "spoken_languages": [
+                77
+            ]
         }
     },
     {
@@ -416,7 +556,10 @@
             "Name_eng": "Cuba",
             "Name_fr": "Cuba",
             "countrycode": "cub",
-            "Continent": "NA"
+            "Continent": "NA",
+            "spoken_languages": [
+                77
+            ]
         }
     },
     {
@@ -426,7 +569,11 @@
             "Name_eng": "Cyprus",
             "Name_fr": "Chypre",
             "countrycode": "cyp",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                17,
+                94
+            ]
         }
     },
     {
@@ -436,7 +583,10 @@
             "Name_eng": "Czechia",
             "Name_fr": "Tch\u00e9quie",
             "countrycode": "cze",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                12
+            ]
         }
     },
     {
@@ -446,7 +596,10 @@
             "Name_eng": "Germany",
             "Name_fr": "Allemagne",
             "countrycode": "deu",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                14
+            ]
         }
     },
     {
@@ -456,7 +609,11 @@
             "Name_eng": "Djibouti",
             "Name_fr": "Djibouti",
             "countrycode": "dji",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                24,
+                3
+            ]
         }
     },
     {
@@ -466,7 +623,10 @@
             "Name_eng": "Dominica",
             "Name_fr": "Dominique",
             "countrycode": "dma",
-            "Continent": "NA"
+            "Continent": "NA",
+            "spoken_languages": [
+                18
+            ]
         }
     },
     {
@@ -476,7 +636,10 @@
             "Name_eng": "Denmark",
             "Name_fr": "Danemark",
             "countrycode": "dnk",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                13
+            ]
         }
     },
     {
@@ -486,7 +649,10 @@
             "Name_eng": "Dominican Republic",
             "Name_fr": "R\u00e9publique dominicaine",
             "countrycode": "dom",
-            "Continent": "NA"
+            "Continent": "NA",
+            "spoken_languages": [
+                77
+            ]
         }
     },
     {
@@ -496,7 +662,11 @@
             "Name_eng": "Algeria",
             "Name_fr": "Alg\u00e9rie",
             "countrycode": "dza",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                3,
+                7
+            ]
         }
     },
     {
@@ -506,7 +676,10 @@
             "Name_eng": "Ecuador",
             "Name_fr": "\u00c9quateur",
             "countrycode": "ecu",
-            "Continent": "SA"
+            "Continent": "SA",
+            "spoken_languages": [
+                77
+            ]
         }
     },
     {
@@ -516,7 +689,10 @@
             "Name_eng": "Egypt",
             "Name_fr": "\u00c9gypte",
             "countrycode": "egy",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                3
+            ]
         }
     },
     {
@@ -526,7 +702,12 @@
             "Name_eng": "Eritrea",
             "Name_fr": "\u00c9rythr\u00e9e",
             "countrycode": "eri",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                89,
+                3,
+                18
+            ]
         }
     },
     {
@@ -536,7 +717,10 @@
             "Name_eng": "Spain",
             "Name_fr": "Espagne",
             "countrycode": "esp",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                77
+            ]
         }
     },
     {
@@ -546,7 +730,10 @@
             "Name_eng": "Estonia",
             "Name_fr": "Estonie",
             "countrycode": "est",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                19
+            ]
         }
     },
     {
@@ -556,7 +743,10 @@
             "Name_eng": "Ethiopia",
             "Name_fr": "\u00c9thiopie",
             "countrycode": "eth",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                2
+            ]
         }
     },
     {
@@ -566,7 +756,11 @@
             "Name_eng": "Finland",
             "Name_fr": "Finlande",
             "countrycode": "fin",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                22,
+                84
+            ]
         }
     },
     {
@@ -576,7 +770,11 @@
             "Name_eng": "Fiji",
             "Name_fr": "Fidji",
             "countrycode": "fji",
-            "Continent": "OC"
+            "Continent": "OC",
+            "spoken_languages": [
+                18,
+                23
+            ]
         }
     },
     {
@@ -586,7 +784,10 @@
             "Name_eng": "France",
             "Name_fr": "France",
             "countrycode": "fra",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                24
+            ]
         }
     },
     {
@@ -596,7 +797,10 @@
             "Name_eng": "Micronesia",
             "Name_fr": "\u00c9tats f\u00e9d\u00e9r\u00e9s de Micron\u00e9sie",
             "countrycode": "fsm",
-            "Continent": "OC"
+            "Continent": "OC",
+            "spoken_languages": [
+                18
+            ]
         }
     },
     {
@@ -606,7 +810,10 @@
             "Name_eng": "Gabon",
             "Name_fr": "Gabon",
             "countrycode": "gab",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                24
+            ]
         }
     },
     {
@@ -616,7 +823,10 @@
             "Name_eng": "United Kingdom of Great Britain and Northern Ireland",
             "Name_fr": "Royaume-Uni",
             "countrycode": "gbr",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                18
+            ]
         }
     },
     {
@@ -626,7 +836,10 @@
             "Name_eng": "Georgia",
             "Name_fr": "G\u00e9orgie",
             "countrycode": "geo",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                35
+            ]
         }
     },
     {
@@ -636,7 +849,10 @@
             "Name_eng": "Ghana",
             "Name_fr": "Ghana",
             "countrycode": "gha",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                18
+            ]
         }
     },
     {
@@ -646,7 +862,10 @@
             "Name_eng": "Guinea",
             "Name_fr": "Guin\u00e9e",
             "countrycode": "gin",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                24
+            ]
         }
     },
     {
@@ -656,7 +875,10 @@
             "Name_eng": "Gambia",
             "Name_fr": "Gambie",
             "countrycode": "gmb",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                18
+            ]
         }
     },
     {
@@ -666,7 +888,10 @@
             "Name_eng": "Guinea-Bissau",
             "Name_fr": "Guin\u00e9e-Bissau",
             "countrycode": "gnb",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                63
+            ]
         }
     },
     {
@@ -676,7 +901,10 @@
             "Name_eng": "Equatorial Guinea",
             "Name_fr": "Guin\u00e9e \u00e9quatoriale",
             "countrycode": "gnq",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                77
+            ]
         }
     },
     {
@@ -686,7 +914,10 @@
             "Name_eng": "Greece",
             "Name_fr": "Gr\u00e8ce",
             "countrycode": "grc",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                17
+            ]
         }
     },
     {
@@ -696,7 +927,10 @@
             "Name_eng": "Grenada",
             "Name_fr": "Grenade",
             "countrycode": "grd",
-            "Continent": "NA"
+            "Continent": "NA",
+            "spoken_languages": [
+                18
+            ]
         }
     },
     {
@@ -706,7 +940,10 @@
             "Name_eng": "Guatemala",
             "Name_fr": "Guatemala",
             "countrycode": "gtm",
-            "Continent": "NA"
+            "Continent": "NA",
+            "spoken_languages": [
+                77
+            ]
         }
     },
     {
@@ -716,7 +953,10 @@
             "Name_eng": "Guyana",
             "Name_fr": "Guyana",
             "countrycode": "guy",
-            "Continent": "SA"
+            "Continent": "SA",
+            "spoken_languages": [
+                18
+            ]
         }
     },
     {
@@ -726,7 +966,10 @@
             "Name_eng": "Honduras",
             "Name_fr": "Honduras",
             "countrycode": "hnd",
-            "Continent": "NA"
+            "Continent": "NA",
+            "spoken_languages": [
+                77
+            ]
         }
     },
     {
@@ -736,7 +979,10 @@
             "Name_eng": "Croatia",
             "Name_fr": "Croatie",
             "countrycode": "hrv",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                28
+            ]
         }
     },
     {
@@ -746,7 +992,11 @@
             "Name_eng": "Haiti",
             "Name_fr": "Ha\u00efti",
             "countrycode": "hti",
-            "Continent": "NA"
+            "Continent": "NA",
+            "spoken_languages": [
+                24,
+                25
+            ]
         }
     },
     {
@@ -756,7 +1006,10 @@
             "Name_eng": "Hungary",
             "Name_fr": "Hongrie",
             "countrycode": "hun",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                29
+            ]
         }
     },
     {
@@ -766,7 +1019,10 @@
             "Name_eng": "Indonesia",
             "Name_fr": "Indon\u00e9sie",
             "countrycode": "idn",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                31
+            ]
         }
     },
     {
@@ -776,7 +1032,15 @@
             "Name_eng": "India",
             "Name_fr": "Inde",
             "countrycode": "ind",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                27,
+                18,
+                48,
+                97,
+                6,
+                85
+            ]
         }
     },
     {
@@ -786,7 +1050,10 @@
             "Name_eng": "Ireland",
             "Name_fr": "Irlande",
             "countrycode": "irl",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                18
+            ]
         }
     },
     {
@@ -796,7 +1063,11 @@
             "Name_eng": "Iran",
             "Name_fr": "Iran",
             "countrycode": "irn",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                20,
+                41
+            ]
         }
     },
     {
@@ -806,7 +1077,11 @@
             "Name_eng": "Iraq",
             "Name_fr": "Irak",
             "countrycode": "irq",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                3,
+                41
+            ]
         }
     },
     {
@@ -816,7 +1091,10 @@
             "Name_eng": "Iceland",
             "Name_fr": "Islande",
             "countrycode": "isl",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                32
+            ]
         }
     },
     {
@@ -826,7 +1104,11 @@
             "Name_eng": "Israel",
             "Name_fr": "Isra\u00ebl",
             "countrycode": "isr",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                26,
+                3
+            ]
         }
     },
     {
@@ -836,7 +1118,10 @@
             "Name_eng": "Italy",
             "Name_fr": "Italie",
             "countrycode": "ita",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                33
+            ]
         }
     },
     {
@@ -846,7 +1131,10 @@
             "Name_eng": "Jamaica",
             "Name_fr": "Jama\u00efque",
             "countrycode": "jam",
-            "Continent": "NA"
+            "Continent": "NA",
+            "spoken_languages": [
+                18
+            ]
         }
     },
     {
@@ -856,7 +1144,10 @@
             "Name_eng": "Jordan",
             "Name_fr": "Jordanie",
             "countrycode": "jor",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                3
+            ]
         }
     },
     {
@@ -866,7 +1157,10 @@
             "Name_eng": "Japan",
             "Name_fr": "Japon",
             "countrycode": "jpn",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                34
+            ]
         }
     },
     {
@@ -876,7 +1170,11 @@
             "Name_eng": "Kazakhstan",
             "Name_fr": "Kazakhstan",
             "countrycode": "kaz",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                36,
+                68
+            ]
         }
     },
     {
@@ -886,7 +1184,11 @@
             "Name_eng": "Kenya",
             "Name_fr": "Kenya",
             "countrycode": "ken",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                18,
+                82
+            ]
         }
     },
     {
@@ -896,7 +1198,11 @@
             "Name_eng": "Kyrgyzstan",
             "Name_fr": "Kirghizistan",
             "countrycode": "kgz",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                39,
+                68
+            ]
         }
     },
     {
@@ -906,7 +1212,10 @@
             "Name_eng": "Cambodia",
             "Name_fr": "Cambodge",
             "countrycode": "khm",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                37
+            ]
         }
     },
     {
@@ -916,7 +1225,10 @@
             "Name_eng": "Kiribati",
             "Name_fr": "Kiribati",
             "countrycode": "kir",
-            "Continent": "OC"
+            "Continent": "OC",
+            "spoken_languages": [
+                18
+            ]
         }
     },
     {
@@ -926,7 +1238,10 @@
             "Name_eng": "Saint Kitts and Nevis",
             "Name_fr": "Saint-Christophe-et-Ni\u00e9v\u00e8s",
             "countrycode": "kna",
-            "Continent": "NA"
+            "Continent": "NA",
+            "spoken_languages": [
+                18
+            ]
         }
     },
     {
@@ -936,7 +1251,10 @@
             "Name_eng": "South Korea",
             "Name_fr": "Cor\u00e9e du Sud",
             "countrycode": "kor",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                40
+            ]
         }
     },
     {
@@ -946,7 +1264,10 @@
             "Name_eng": "Kuwait",
             "Name_fr": "Kowe\u00eft",
             "countrycode": "kwt",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                3
+            ]
         }
     },
     {
@@ -956,7 +1277,10 @@
             "Name_eng": "Lao People's Democratic Republic",
             "Name_fr": "Laos",
             "countrycode": "lao",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                42
+            ]
         }
     },
     {
@@ -966,7 +1290,10 @@
             "Name_eng": "Lebanon",
             "Name_fr": "Liban",
             "countrycode": "lbn",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                3
+            ]
         }
     },
     {
@@ -976,7 +1303,10 @@
             "Name_eng": "Liberia",
             "Name_fr": "Liberia",
             "countrycode": "lbr",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                18
+            ]
         }
     },
     {
@@ -986,7 +1316,10 @@
             "Name_eng": "Libya",
             "Name_fr": "Libye",
             "countrycode": "lby",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                3
+            ]
         }
     },
     {
@@ -996,7 +1329,10 @@
             "Name_eng": "Saint Lucia",
             "Name_fr": "Sainte-Lucie",
             "countrycode": "lca",
-            "Continent": "NA"
+            "Continent": "NA",
+            "spoken_languages": [
+                18
+            ]
         }
     },
     {
@@ -1006,7 +1342,10 @@
             "Name_eng": "Liechtenstein",
             "Name_fr": "Liechtenstein",
             "countrycode": "lie",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                14
+            ]
         }
     },
     {
@@ -1016,7 +1355,11 @@
             "Name_eng": "Sri Lanka",
             "Name_fr": "Sri Lanka",
             "countrycode": "lka",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                70,
+                85
+            ]
         }
     },
     {
@@ -1026,7 +1369,11 @@
             "Name_eng": "Lesotho",
             "Name_fr": "Lesotho",
             "countrycode": "lso",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                18,
+                76
+            ]
         }
     },
     {
@@ -1036,7 +1383,10 @@
             "Name_eng": "Lithuania",
             "Name_fr": "Lituanie",
             "countrycode": "ltu",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                45
+            ]
         }
     },
     {
@@ -1046,7 +1396,12 @@
             "Name_eng": "Luxembourg",
             "Name_fr": "Luxembourg",
             "countrycode": "lux",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                46,
+                14,
+                24
+            ]
         }
     },
     {
@@ -1056,7 +1411,10 @@
             "Name_eng": "Latvia",
             "Name_fr": "Lettonie",
             "countrycode": "lva",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                43
+            ]
         }
     },
     {
@@ -1066,7 +1424,10 @@
             "Name_eng": "Morocco",
             "Name_fr": "Maroc",
             "countrycode": "mar",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                3
+            ]
         }
     },
     {
@@ -1076,7 +1437,10 @@
             "Name_eng": "Monaco",
             "Name_fr": "Monaco",
             "countrycode": "mco",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                24
+            ]
         }
     },
     {
@@ -1086,7 +1450,10 @@
             "Name_eng": "Moldova",
             "Name_fr": "Moldavie",
             "countrycode": "mda",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                66
+            ]
         }
     },
     {
@@ -1096,7 +1463,12 @@
             "Name_eng": "Madagascar",
             "Name_fr": "Madagascar",
             "countrycode": "mdg",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                50,
+                24,
+                18
+            ]
         }
     },
     {
@@ -1106,7 +1478,10 @@
             "Name_eng": "Maldives",
             "Name_fr": "Maldives",
             "countrycode": "mdv",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                15
+            ]
         }
     },
     {
@@ -1116,7 +1491,10 @@
             "Name_eng": "Mexico",
             "Name_fr": "Mexique",
             "countrycode": "mex",
-            "Continent": "NA"
+            "Continent": "NA",
+            "spoken_languages": [
+                77
+            ]
         }
     },
     {
@@ -1126,7 +1504,11 @@
             "Name_eng": "Marshall Islands",
             "Name_fr": "\u00celes Marshall",
             "countrycode": "mhl",
-            "Continent": "OC"
+            "Continent": "OC",
+            "spoken_languages": [
+                18,
+                47
+            ]
         }
     },
     {
@@ -1136,7 +1518,11 @@
             "Name_eng": "North Macedonia",
             "Name_fr": "Mac\u00e9doine du Nord",
             "countrycode": "mkd",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                49,
+                78
+            ]
         }
     },
     {
@@ -1146,7 +1532,10 @@
             "Name_eng": "Mali",
             "Name_fr": "Mali",
             "countrycode": "mli",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                24
+            ]
         }
     },
     {
@@ -1156,7 +1545,11 @@
             "Name_eng": "Malta",
             "Name_fr": "Malte",
             "countrycode": "mlt",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                51,
+                18
+            ]
         }
     },
     {
@@ -1166,7 +1559,10 @@
             "Name_eng": "Myanmar",
             "Name_fr": "Birmanie",
             "countrycode": "mmr",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                55
+            ]
         }
     },
     {
@@ -1176,7 +1572,14 @@
             "Name_eng": "Montenegro",
             "Name_fr": "Mont\u00e9n\u00e9gro",
             "countrycode": "mne",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                11,
+                79,
+                28,
+                8,
+                78
+            ]
         }
     },
     {
@@ -1186,7 +1589,10 @@
             "Name_eng": "Mongolia",
             "Name_fr": "Mongolie",
             "countrycode": "mng",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                52
+            ]
         }
     },
     {
@@ -1196,7 +1602,10 @@
             "Name_eng": "Mozambique",
             "Name_fr": "Mozambique",
             "countrycode": "moz",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                63
+            ]
         }
     },
     {
@@ -1206,7 +1615,11 @@
             "Name_eng": "Mauritania",
             "Name_fr": "Mauritanie",
             "countrycode": "mrt",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                3,
+                24
+            ]
         }
     },
     {
@@ -1216,7 +1629,11 @@
             "Name_eng": "Mauritius",
             "Name_fr": "Maurice",
             "countrycode": "mus",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                18,
+                24
+            ]
         }
     },
     {
@@ -1226,7 +1643,10 @@
             "Name_eng": "Malawi",
             "Name_fr": "Malawi",
             "countrycode": "mwi",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                18
+            ]
         }
     },
     {
@@ -1236,7 +1656,10 @@
             "Name_eng": "Malaysia",
             "Name_fr": "Malaisie",
             "countrycode": "mys",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                54
+            ]
         }
     },
     {
@@ -1246,7 +1669,10 @@
             "Name_eng": "Namibia",
             "Name_fr": "Namibie",
             "countrycode": "nam",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                18
+            ]
         }
     },
     {
@@ -1256,7 +1682,10 @@
             "Name_eng": "Niger",
             "Name_fr": "Niger",
             "countrycode": "ner",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                24
+            ]
         }
     },
     {
@@ -1266,7 +1695,10 @@
             "Name_eng": "Nigeria",
             "Name_fr": "Nigeria",
             "countrycode": "nga",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                18
+            ]
         }
     },
     {
@@ -1276,7 +1708,10 @@
             "Name_eng": "Nicaragua",
             "Name_fr": "Nicaragua",
             "countrycode": "nic",
-            "Continent": "NA"
+            "Continent": "NA",
+            "spoken_languages": [
+                77
+            ]
         }
     },
     {
@@ -1286,7 +1721,10 @@
             "Name_eng": "Netherlands",
             "Name_fr": "Pays-Bas",
             "countrycode": "nld",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                58
+            ]
         }
     },
     {
@@ -1296,7 +1734,10 @@
             "Name_eng": "Norway",
             "Name_fr": "Norv\u00e8ge",
             "countrycode": "nor",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                59
+            ]
         }
     },
     {
@@ -1306,7 +1747,10 @@
             "Name_eng": "Nepal",
             "Name_fr": "N\u00e9pal",
             "countrycode": "npl",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                57
+            ]
         }
     },
     {
@@ -1316,7 +1760,11 @@
             "Name_eng": "Nauru",
             "Name_fr": "Nauru",
             "countrycode": "nru",
-            "Continent": "OC"
+            "Continent": "OC",
+            "spoken_languages": [
+                18,
+                56
+            ]
         }
     },
     {
@@ -1326,7 +1774,11 @@
             "Name_eng": "New Zealand",
             "Name_fr": "Nouvelle-Z\u00e9lande",
             "countrycode": "nzl",
-            "Continent": "OC"
+            "Continent": "OC",
+            "spoken_languages": [
+                18,
+                53
+            ]
         }
     },
     {
@@ -1336,7 +1788,10 @@
             "Name_eng": "Oman",
             "Name_fr": "Oman",
             "countrycode": "omn",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                3
+            ]
         }
     },
     {
@@ -1346,7 +1801,12 @@
             "Name_eng": "Pakistan",
             "Name_fr": "Pakistan",
             "countrycode": "pak",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                18,
+                97,
+                74
+            ]
         }
     },
     {
@@ -1356,7 +1816,10 @@
             "Name_eng": "Panama",
             "Name_fr": "Panama",
             "countrycode": "pan",
-            "Continent": "NA"
+            "Continent": "NA",
+            "spoken_languages": [
+                77
+            ]
         }
     },
     {
@@ -1366,7 +1829,10 @@
             "Name_eng": "Peru",
             "Name_fr": "P\u00e9rou",
             "countrycode": "per",
-            "Continent": "SA"
+            "Continent": "SA",
+            "spoken_languages": [
+                77
+            ]
         }
     },
     {
@@ -1376,7 +1842,11 @@
             "Name_eng": "Philippines",
             "Name_fr": "Philippines",
             "countrycode": "phl",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                18,
+                21
+            ]
         }
     },
     {
@@ -1386,7 +1856,11 @@
             "Name_eng": "Palau",
             "Name_fr": "Palaos",
             "countrycode": "plw",
-            "Continent": "OC"
+            "Continent": "OC",
+            "spoken_languages": [
+                18,
+                61
+            ]
         }
     },
     {
@@ -1396,7 +1870,10 @@
             "Name_eng": "Papua New Guinea",
             "Name_fr": "Papouasie-Nouvelle-Guin\u00e9e",
             "countrycode": "png",
-            "Continent": "OC"
+            "Continent": "OC",
+            "spoken_languages": [
+                18
+            ]
         }
     },
     {
@@ -1406,7 +1883,10 @@
             "Name_eng": "Poland",
             "Name_fr": "Pologne",
             "countrycode": "pol",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                62
+            ]
         }
     },
     {
@@ -1416,7 +1896,10 @@
             "Name_eng": "North Korea",
             "Name_fr": "Cor\u00e9e du Nord",
             "countrycode": "prk",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                40
+            ]
         }
     },
     {
@@ -1426,7 +1909,10 @@
             "Name_eng": "Portugal",
             "Name_fr": "Portugal",
             "countrycode": "prt",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                63
+            ]
         }
     },
     {
@@ -1436,7 +1922,10 @@
             "Name_eng": "Paraguay",
             "Name_fr": "Paraguay",
             "countrycode": "pry",
-            "Continent": "SA"
+            "Continent": "SA",
+            "spoken_languages": [
+                77
+            ]
         }
     },
     {
@@ -1446,7 +1935,10 @@
             "Name_eng": "Qatar",
             "Name_fr": "Qatar",
             "countrycode": "qat",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                3
+            ]
         }
     },
     {
@@ -1456,7 +1948,10 @@
             "Name_eng": "Romania",
             "Name_fr": "Roumanie",
             "countrycode": "rou",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                66
+            ]
         }
     },
     {
@@ -1466,7 +1961,11 @@
             "Name_eng": "Russian Federation",
             "Name_fr": "Russie",
             "countrycode": "rus",
-            "Continent": "EU"
+            "Continent": "EU",
+            "Continent2": "AS",
+            "spoken_languages": [
+                68
+            ]
         }
     },
     {
@@ -1476,7 +1975,13 @@
             "Name_eng": "Rwanda",
             "Name_fr": "Rwanda",
             "countrycode": "rwa",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                38,
+                24,
+                18,
+                82
+            ]
         }
     },
     {
@@ -1486,7 +1991,10 @@
             "Name_eng": "Saudi Arabia",
             "Name_fr": "Arabie saoudite",
             "countrycode": "sau",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                3
+            ]
         }
     },
     {
@@ -1496,7 +2004,10 @@
             "Name_eng": "Sudan",
             "Name_fr": "Soudan",
             "countrycode": "sdn",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                3
+            ]
         }
     },
     {
@@ -1506,7 +2017,10 @@
             "Name_eng": "Senegal",
             "Name_fr": "S\u00e9n\u00e9gal",
             "countrycode": "sen",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                24
+            ]
         }
     },
     {
@@ -1516,7 +2030,13 @@
             "Name_eng": "Singapore",
             "Name_fr": "Singapour",
             "countrycode": "sgp",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                18,
+                54,
+                101,
+                85
+            ]
         }
     },
     {
@@ -1526,7 +2046,10 @@
             "Name_eng": "Solomon Islands",
             "Name_fr": "Salomon",
             "countrycode": "slb",
-            "Continent": "OC"
+            "Continent": "OC",
+            "spoken_languages": [
+                18
+            ]
         }
     },
     {
@@ -1536,7 +2059,11 @@
             "Name_eng": "Sierra Leone",
             "Name_fr": "Sierra Leone",
             "countrycode": "sle",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                18,
+                81
+            ]
         }
     },
     {
@@ -1546,7 +2073,10 @@
             "Name_eng": "El Salvador",
             "Name_fr": "Salvador",
             "countrycode": "slv",
-            "Continent": "NA"
+            "Continent": "NA",
+            "spoken_languages": [
+                77
+            ]
         }
     },
     {
@@ -1556,7 +2086,10 @@
             "Name_eng": "San Marino",
             "Name_fr": "Saint-Marin",
             "countrycode": "smr",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                33
+            ]
         }
     },
     {
@@ -1566,7 +2099,11 @@
             "Name_eng": "Somalia",
             "Name_fr": "Somalie",
             "countrycode": "som",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                75,
+                3
+            ]
         }
     },
     {
@@ -1576,7 +2113,10 @@
             "Name_eng": "Serbia",
             "Name_fr": "Serbie",
             "countrycode": "srb",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                79
+            ]
         }
     },
     {
@@ -1586,7 +2126,10 @@
             "Name_eng": "South Sudan",
             "Name_fr": "Soudan du Sud",
             "countrycode": "ssd",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                18
+            ]
         }
     },
     {
@@ -1596,7 +2139,10 @@
             "Name_eng": "Sao Tome and Principe",
             "Name_fr": "Sao Tom\u00e9-et-Principe",
             "countrycode": "stp",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                63
+            ]
         }
     },
     {
@@ -1606,7 +2152,10 @@
             "Name_eng": "Suriname",
             "Name_fr": "Suriname",
             "countrycode": "sur",
-            "Continent": "SA"
+            "Continent": "SA",
+            "spoken_languages": [
+                58
+            ]
         }
     },
     {
@@ -1616,7 +2165,10 @@
             "Name_eng": "Slovakia",
             "Name_fr": "Slovaquie",
             "countrycode": "svk",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                71
+            ]
         }
     },
     {
@@ -1626,7 +2178,11 @@
             "Name_eng": "Slovenia",
             "Name_fr": "Slov\u00e9nie",
             "countrycode": "svn",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                72,
+                29
+            ]
         }
     },
     {
@@ -1636,7 +2192,10 @@
             "Name_eng": "Sweden",
             "Name_fr": "Su\u00e8de",
             "countrycode": "swe",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                84
+            ]
         }
     },
     {
@@ -1646,7 +2205,11 @@
             "Name_eng": "Eswatini",
             "Name_fr": "Eswatini",
             "countrycode": "swz",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                18,
+                80
+            ]
         }
     },
     {
@@ -1656,7 +2219,11 @@
             "Name_eng": "Seychelles",
             "Name_fr": "Seychelles",
             "countrycode": "syc",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                24,
+                3
+            ]
         }
     },
     {
@@ -1666,7 +2233,11 @@
             "Name_eng": "Syrian Arab Republic",
             "Name_fr": "Syrie",
             "countrycode": "syr",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                3,
+                41
+            ]
         }
     },
     {
@@ -1676,7 +2247,11 @@
             "Name_eng": "Chad",
             "Name_fr": "Tchad",
             "countrycode": "tcd",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                3,
+                24
+            ]
         }
     },
     {
@@ -1686,7 +2261,10 @@
             "Name_eng": "Togo",
             "Name_fr": "Togo",
             "countrycode": "tgo",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                24
+            ]
         }
     },
     {
@@ -1696,7 +2274,10 @@
             "Name_eng": "Thailand",
             "Name_fr": "Tha\u00eflande",
             "countrycode": "tha",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                88
+            ]
         }
     },
     {
@@ -1706,7 +2287,11 @@
             "Name_eng": "Tajikistan",
             "Name_fr": "Tadjikistan",
             "countrycode": "tjk",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                87,
+                68
+            ]
         }
     },
     {
@@ -1716,7 +2301,11 @@
             "Name_eng": "Turkmenistan",
             "Name_fr": "Turkm\u00e9nistan",
             "countrycode": "tkm",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                93,
+                68
+            ]
         }
     },
     {
@@ -1726,7 +2315,11 @@
             "Name_eng": "Timor-Leste",
             "Name_fr": "Timor oriental",
             "countrycode": "tls",
-            "Continent": "OC"
+            "Continent": "OC",
+            "spoken_languages": [
+                63,
+                86
+            ]
         }
     },
     {
@@ -1736,7 +2329,11 @@
             "Name_eng": "Tonga",
             "Name_fr": "Tonga",
             "countrycode": "ton",
-            "Continent": "OC"
+            "Continent": "OC",
+            "spoken_languages": [
+                18,
+                90
+            ]
         }
     },
     {
@@ -1746,7 +2343,10 @@
             "Name_eng": "Trinidad and Tobago",
             "Name_fr": "Trinit\u00e9-et-Tobago",
             "countrycode": "tto",
-            "Continent": "NA"
+            "Continent": "NA",
+            "spoken_languages": [
+                18
+            ]
         }
     },
     {
@@ -1756,7 +2356,10 @@
             "Name_eng": "Tunisia",
             "Name_fr": "Tunisie",
             "countrycode": "tun",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                3
+            ]
         }
     },
     {
@@ -1766,7 +2369,12 @@
             "Name_eng": "Turkey",
             "Name_fr": "Turquie",
             "countrycode": "tur",
-            "Continent": "AS"
+            "Continent": "AS",
+            "Continent2": "EU",
+            "spoken_languages": [
+                94,
+                41
+            ]
         }
     },
     {
@@ -1776,7 +2384,11 @@
             "Name_eng": "Tuvalu",
             "Name_fr": "Tuvalu",
             "countrycode": "tuv",
-            "Continent": "OC"
+            "Continent": "OC",
+            "spoken_languages": [
+                18,
+                95
+            ]
         }
     },
     {
@@ -1786,7 +2398,11 @@
             "Name_eng": "Tanzania",
             "Name_fr": "Tanzanie",
             "countrycode": "tza",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                18,
+                82
+            ]
         }
     },
     {
@@ -1796,7 +2412,10 @@
             "Name_eng": "Uganda",
             "Name_fr": "Ouganda",
             "countrycode": "uga",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                18
+            ]
         }
     },
     {
@@ -1806,7 +2425,10 @@
             "Name_eng": "Ukraine",
             "Name_fr": "Ukraine",
             "countrycode": "ukr",
-            "Continent": "EU"
+            "Continent": "EU",
+            "spoken_languages": [
+                96
+            ]
         }
     },
     {
@@ -1816,7 +2438,10 @@
             "Name_eng": "Uruguay",
             "Name_fr": "Uruguay",
             "countrycode": "ury",
-            "Continent": "SA"
+            "Continent": "SA",
+            "spoken_languages": [
+                77
+            ]
         }
     },
     {
@@ -1826,7 +2451,10 @@
             "Name_eng": "United States of America",
             "Name_fr": "\u00c9tats-Unis",
             "countrycode": "usa",
-            "Continent": "NA"
+            "Continent": "NA",
+            "spoken_languages": [
+                18
+            ]
         }
     },
     {
@@ -1836,7 +2464,11 @@
             "Name_eng": "Uzbekistan",
             "Name_fr": "Ouzb\u00e9kistan",
             "countrycode": "uzb",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                98,
+                68
+            ]
         }
     },
     {
@@ -1846,7 +2478,10 @@
             "Name_eng": "Saint Vincent and the Grenadines",
             "Name_fr": "Saint-Vincent-et-les-Grenadines",
             "countrycode": "vct",
-            "Continent": "NA"
+            "Continent": "NA",
+            "spoken_languages": [
+                18
+            ]
         }
     },
     {
@@ -1856,7 +2491,10 @@
             "Name_eng": "Venezuela",
             "Name_fr": "Venezuela",
             "countrycode": "ven",
-            "Continent": "SA"
+            "Continent": "SA",
+            "spoken_languages": [
+                77
+            ]
         }
     },
     {
@@ -1866,7 +2504,10 @@
             "Name_eng": "Viet Nam",
             "Name_fr": "Vi\u00eat Nam",
             "countrycode": "vnm",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                99
+            ]
         }
     },
     {
@@ -1876,7 +2517,11 @@
             "Name_eng": "Vanuatu",
             "Name_fr": "Vanuatu",
             "countrycode": "vut",
-            "Continent": "OC"
+            "Continent": "OC",
+            "spoken_languages": [
+                18,
+                24
+            ]
         }
     },
     {
@@ -1886,7 +2531,11 @@
             "Name_eng": "Samoa",
             "Name_fr": "Samoa",
             "countrycode": "wsm",
-            "Continent": "OC"
+            "Continent": "OC",
+            "spoken_languages": [
+                73,
+                18
+            ]
         }
     },
     {
@@ -1896,7 +2545,10 @@
             "Name_eng": "Yemen",
             "Name_fr": "Y\u00e9men",
             "countrycode": "yem",
-            "Continent": "AS"
+            "Continent": "AS",
+            "spoken_languages": [
+                3
+            ]
         }
     },
     {
@@ -1906,7 +2558,16 @@
             "Name_eng": "South Africa",
             "Name_fr": "Afrique du Sud",
             "countrycode": "zaf",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                18,
+                100,
+                1,
+                102,
+                60,
+                91,
+                92
+            ]
         }
     },
     {
@@ -1916,7 +2577,10 @@
             "Name_eng": "Zambia",
             "Name_fr": "Zambie",
             "countrycode": "zmb",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                18
+            ]
         }
     },
     {
@@ -1926,7 +2590,10 @@
             "Name_eng": "Zimbabwe",
             "Name_fr": "Zimbabwe",
             "countrycode": "zwe",
-            "Continent": "AF"
+            "Continent": "AF",
+            "spoken_languages": [
+                18
+            ]
         }
     }
 ]

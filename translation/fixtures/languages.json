@@ -804,13 +804,22 @@
         "pk": 90,
         "model": "translation.Language",
         "fields": {
+            "langcode": "ton",
+            "Name_fr": "Tongien",
+            "Name_eng": "Tongan"
+        }
+    },
+    {
+        "pk": 91,
+        "model": "translation.Language",
+        "fields": {
             "langcode": "tsn",
             "Name_fr": "Tswana",
             "Name_eng": "Tswana"
         }
     },
     {
-        "pk": 91,
+        "pk": 92,
         "model": "translation.Language",
         "fields": {
             "langcode": "tso",
@@ -819,7 +828,7 @@
         }
     },
     {
-        "pk": 92,
+        "pk": 93,
         "model": "translation.Language",
         "fields": {
             "langcode": "tuk",
@@ -828,7 +837,7 @@
         }
     },
     {
-        "pk": 93,
+        "pk": 94,
         "model": "translation.Language",
         "fields": {
             "langcode": "tur",
@@ -837,7 +846,7 @@
         }
     },
     {
-        "pk": 94,
+        "pk": 95,
         "model": "translation.Language",
         "fields": {
             "langcode": "tvl",
@@ -846,7 +855,7 @@
         }
     },
     {
-        "pk": 95,
+        "pk": 96,
         "model": "translation.Language",
         "fields": {
             "langcode": "ukr",
@@ -855,7 +864,7 @@
         }
     },
     {
-        "pk": 96,
+        "pk": 97,
         "model": "translation.Language",
         "fields": {
             "langcode": "urd",
@@ -864,7 +873,7 @@
         }
     },
     {
-        "pk": 97,
+        "pk": 98,
         "model": "translation.Language",
         "fields": {
             "langcode": "uzb",
@@ -873,7 +882,7 @@
         }
     },
     {
-        "pk": 98,
+        "pk": 99,
         "model": "translation.Language",
         "fields": {
             "langcode": "vie",
@@ -882,7 +891,7 @@
         }
     },
     {
-        "pk": 99,
+        "pk": 100,
         "model": "translation.Language",
         "fields": {
             "langcode": "xho",
@@ -891,7 +900,7 @@
         }
     },
     {
-        "pk": 100,
+        "pk": 101,
         "model": "translation.Language",
         "fields": {
             "langcode": "zho",
@@ -900,7 +909,7 @@
         }
     },
     {
-        "pk": 101,
+        "pk": 102,
         "model": "translation.Language",
         "fields": {
             "langcode": "zul",
