@@ -38,12 +38,21 @@
 				<div id="AF" class="langcontainer" style="display: none">
 					{% if AF %}
 						{% for country in AF %}
-							<a href="/{{ country.langcode }}/{{ country.countrycode }}">
-								<figure>
-									<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
-									<figcaption>{% translate country.Name_fr %}</figcaption>
-								</figure>
-							</a>
+							{% if country.spoken_languages.count %}
+								<a href="/{{ country.spoken_languages.all.0.langcode }}/{{ country.countrycode }}">
+									<figure>
+										<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
+										<figcaption>{% translate country.Name_fr %}</figcaption>
+									</figure>
+								</a>
+							{% elif country.spoken_languages.count > 1 %}
+								<a href="/{{ country.spoken_languages.all.0.langcode }}/{{ country.countrycode }}">
+									<figure>
+										<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
+										<figcaption>{% translate country.Name_fr %}Popup!</figcaption>
+									</figure>
+								</a>
+							{% endif%}
 						{% endfor %}
 					{% else %}
     					<p style="margin: auto">{% translate "No translations available" %}</p>
@@ -53,12 +62,21 @@
 				<div id="NA" class="langcontainer" style="display: none">
 					{% if NA %}
 						{% for country in NA %}
-							<a href="/{{ country.langcode }}/{{ country.countrycode }}">
-								<figure>
-									<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
-									<figcaption>{% translate country.Name_fr %}</figcaption>
-								</figure>
-							</a>
+							{% if country.spoken_languages.count %}
+								<a href="/{{ country.spoken_languages.all.0.langcode }}/{{ country.countrycode }}">
+									<figure>
+										<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
+										<figcaption>{% translate country.Name_fr %}</figcaption>
+									</figure>
+								</a>
+							{% elif country.spoken_languages.count > 1 %}
+								<a href="/{{ country.spoken_languages.all.0.langcode }}/{{ country.countrycode }}">
+									<figure>
+										<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
+										<figcaption>{% translate country.Name_fr %}Popup!</figcaption>
+									</figure>
+								</a>
+							{% endif%}
 						{% endfor %}
 					{% else %}
     					<p style="margin: auto">{% translate "No translations available" %}</p>
@@ -68,12 +86,21 @@
 				<div id="SA" class="langcontainer" style="display: none">
 					{% if SA %}
 						{% for country in SA %}
-							<a href="/{{ country.langcode }}/{{ country.countrycode }}">
-								<figure>
-									<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
-									<figcaption>{% translate country.Name_fr %}</figcaption>
-								</figure>
-							</a>
+							{% if country.spoken_languages.count %}
+								<a href="/{{ country.spoken_languages.all.0.langcode }}/{{ country.countrycode }}">
+									<figure>
+										<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
+										<figcaption>{% translate country.Name_fr %}</figcaption>
+									</figure>
+								</a>
+							{% elif country.spoken_languages.count > 1 %}
+								<a href="/{{ country.spoken_languages.all.0.langcode }}/{{ country.countrycode }}">
+									<figure>
+										<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
+										<figcaption>{% translate country.Name_fr %}Popup!</figcaption>
+									</figure>
+								</a>
+							{% endif%}
 						{% endfor %}
 					{% else %}
     					<p style="margin: auto">{% translate "No translations available" %}</p>
@@ -83,12 +110,21 @@
 				<div id="AS" class="langcontainer" style="display: none">
 					{% if AS %}
 						{% for country in AS %}
-							<a href="/{{ country.langcode }}/{{ country.countrycode }}">
-								<figure>
-									<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
-									<figcaption>{% translate country.Name_fr %}</figcaption>
-								</figure>
-							</a>
+							{% if country.spoken_languages.count %}
+								<a href="/{{ country.spoken_languages.all.0.langcode }}/{{ country.countrycode }}">
+									<figure>
+										<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
+										<figcaption>{% translate country.Name_fr %}</figcaption>
+									</figure>
+								</a>
+							{% elif country.spoken_languages.count > 1 %}
+								<a href="/{{ country.spoken_languages.all.0.langcode }}/{{ country.countrycode }}">
+									<figure>
+										<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
+										<figcaption>{% translate country.Name_fr %}Popup!</figcaption>
+									</figure>
+								</a>
+							{% endif%}
 						{% endfor %}
 					{% else %}
     					<p style="margin: auto">{% translate "No translations available" %}</p>
@@ -98,12 +134,21 @@
 				<div id="EU" class="langcontainer" style="display: none">
 					{% if EU %}
 						{% for country in EU %}
-							<a href="/{{ country.langcode }}/{{ country.countrycode }}">
-								<figure>
-									<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
-									<figcaption>{% translate country.Name_fr %}</figcaption>
-								</figure>
-							</a>
+							{% if country.spoken_languages.count %}
+								<a href="/{{ country.spoken_languages.all.0.langcode }}/{{ country.countrycode }}">
+									<figure>
+										<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
+										<figcaption>{% translate country.Name_fr %}</figcaption>
+									</figure>
+								</a>
+							{% elif country.spoken_languages.count > 1 %}
+								<a href="/{{ country.spoken_languages.all.0.langcode }}/{{ country.countrycode }}">
+									<figure>
+										<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
+										<figcaption>{% translate country.Name_fr %}Popup!</figcaption>
+									</figure>
+								</a>
+							{% endif%}
 						{% endfor %}
 					{% else %}
     					<p style="margin: auto">{% translate "No translations available" %}/p>
@@ -113,12 +158,21 @@
 				<div id="OC" class="langcontainer" style="display: none">
 					{% if OC %}
 						{% for country in OC %}
-							<a href="/{{ country.langcode }}/{{ country.countrycode }}">
-								<figure>
-									<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
-									<figcaption>{% translate country.Name_fr %}</figcaption>
-								</figure>
-							</a>
+							{% if country.spoken_languages.count %}
+								<a href="/{{ country.spoken_languages.all.0.langcode }}/{{ country.countrycode }}">
+									<figure>
+										<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
+										<figcaption>{% translate country.Name_fr %}</figcaption>
+									</figure>
+								</a>
+							{% elif country.spoken_languages.count > 1 %}
+								<a href="/{{ country.spoken_languages.all.0.langcode }}/{{ country.countrycode }}">
+									<figure>
+										<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
+										<figcaption>{% translate country.Name_fr %}Popup!</figcaption>
+									</figure>
+								</a>
+							{% endif%}
 						{% endfor %}
 					{% else %}
     					<p style="margin: auto">{% translate "No translations available" %}</p>
@@ -162,12 +216,21 @@
 				<div class="langcontainer">
 					{% if AF %}
 						{% for country in AF %}
-							<a href="/{{ base_language }}/{{ base_flag }}/{{ country.langcode }}/{{ country.countrycode }}">
-								<figure>
-									<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
-									<figcaption>{% translate country.Name_fr %}</figcaption>
-								</figure>
-							</a>
+							{% if country.spoken_languages.count %}
+								<a href="/{{ base_language }}/{{ base_flag }}/{{ country.spoken_languages.all.0.langcode }}/{{ country.countrycode }}">
+									<figure>
+										<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
+										<figcaption>{% translate country.Name_fr %}</figcaption>
+									</figure>
+								</a>
+							{% elif country.spoken_languages.count > 1 %}
+								<a href="/{{ base_language }}/{{ base_flag }}/{{ country.spoken_languages.all.0.langcode }}/{{ country.countrycode }}">
+									<figure>
+										<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
+										<figcaption>{% translate country.Name_fr %}Popup!</figcaption>
+									</figure>
+								</a>
+							{% endif%}
 						{% endfor %}
 					{% else %}
     					<p style="margin: auto">{% translate "No translations available" %}</p>
@@ -179,12 +242,21 @@
 				<div class="langcontainer">
 					{% if NA %}
 						{% for country in NA %}
-							<a href="/{{ base_language }}/{{ base_flag }}/{{ country.langcode }}/{{ country.countrycode }}">
-								<figure>
-									<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
-									<figcaption>{% translate country.Name_fr %}</figcaption>
-								</figure>
-							</a>
+							{% if country.spoken_languages.count %}
+								<a href="/{{ base_language }}/{{ base_flag }}/{{ country.spoken_languages.all.0.langcode }}/{{ country.countrycode }}">
+									<figure>
+										<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
+										<figcaption>{% translate country.Name_fr %}</figcaption>
+									</figure>
+								</a>
+							{% elif country.spoken_languages.count > 1 %}
+								<a href="/{{ base_language }}/{{ base_flag }}/{{ country.spoken_languages.all.0.langcode }}/{{ country.countrycode }}">
+									<figure>
+										<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
+										<figcaption>{% translate country.Name_fr %}Popup!</figcaption>
+									</figure>
+								</a>
+							{% endif%}
 						{% endfor %}
 					{% else %}
     					<p style="margin: auto">{% translate "No translations available" %}</p>
@@ -196,12 +268,21 @@
 				<div class="langcontainer">
 					{% if SA %}
 						{% for country in SA %}
-							<a href="/{{ base_language }}/{{ base_flag }}/{{ country.langcode }}/{{ country.countrycode }}">
-								<figure>
-									<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
-									<figcaption>{% translate country.Name_fr %}</figcaption>
-								</figure>
-							</a>
+							{% if country.spoken_languages.count %}
+								<a href="/{{ base_language }}/{{ base_flag }}/{{ country.spoken_languages.all.0.langcode }}/{{ country.countrycode }}">
+									<figure>
+										<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
+										<figcaption>{% translate country.Name_fr %}</figcaption>
+									</figure>
+								</a>
+							{% elif country.spoken_languages.count > 1 %}
+								<a href="/{{ base_language }}/{{ base_flag }}/{{ country.spoken_languages.all.0.langcode }}/{{ country.countrycode }}">
+									<figure>
+										<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
+										<figcaption>{% translate country.Name_fr %}Popup!</figcaption>
+									</figure>
+								</a>
+							{% endif%}
 						{% endfor %}
 					{% else %}
     					<p style="margin: auto">{% translate "No translations available" %}</p>
@@ -213,12 +294,21 @@
 				<div class="langcontainer">
 					{% if AS %}
 						{% for country in AS %}
-							<a href="/{{ base_language }}/{{ base_flag }}/{{ country.langcode }}/{{ country.countrycode }}">
-								<figure>
-									<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
-									<figcaption>{% translate country.Name_fr %}</figcaption>
-								</figure>
-							</a>
+							{% if country.spoken_languages.count %}
+								<a href="/{{ base_language }}/{{ base_flag }}/{{ country.spoken_languages.all.0.langcode }}/{{ country.countrycode }}">
+									<figure>
+										<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
+										<figcaption>{% translate country.Name_fr %}</figcaption>
+									</figure>
+								</a>
+							{% elif country.spoken_languages.count > 1 %}
+								<a href="/{{ base_language }}/{{ base_flag }}/{{ country.spoken_languages.all.0.langcode }}/{{ country.countrycode }}">
+									<figure>
+										<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
+										<figcaption>{% translate country.Name_fr %}Popup!</figcaption>
+									</figure>
+								</a>
+							{% endif%}
 						{% endfor %}
 					{% else %}
     					<p style="margin: auto">{% translate "No translations available" %}</p>
@@ -230,12 +320,21 @@
 				<div class="langcontainer">
 					{% if EU %}
 						{% for country in EU %}
-							<a href="/{{ base_language }}/{{ base_flag }}/{{ country.langcode }}/{{ country.countrycode }}">
-								<figure>
-									<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
-									<figcaption>{% translate country.Name_fr %}</figcaption>
-								</figure>
-							</a>
+							{% if country.spoken_languages.count %}
+								<a href="/{{ base_language }}/{{ base_flag }}/{{ country.spoken_languages.all.0.langcode }}/{{ country.countrycode }}">
+									<figure>
+										<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
+										<figcaption>{% translate country.Name_fr %}</figcaption>
+									</figure>
+								</a>
+							{% elif country.spoken_languages.count > 1 %}
+								<a href="/{{ base_language }}/{{ base_flag }}/{{ country.spoken_languages.all.0.langcode }}/{{ country.countrycode }}">
+									<figure>
+										<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
+										<figcaption>{% translate country.Name_fr %}Popup!</figcaption>
+									</figure>
+								</a>
+							{% endif%}
 						{% endfor %}
 					{% else %}
     					<p style="margin: auto">{% translate "No translations available" %}/p>
@@ -247,12 +346,21 @@
 				<div class="langcontainer">
 					{% if OC %}
 						{% for country in OC %}
-							<a href="/{{ base_language }}/{{ base_flag }}/{{ country.langcode }}/{{ country.countrycode }}">
-								<figure>
-									<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
-									<figcaption>{% translate country.Name_fr %}</figcaption>
-								</figure>
-							</a>
+							{% if country.spoken_languages.count %}
+								<a href="/{{ base_language }}/{{ base_flag }}/{{ country.spoken_languages.all.0.langcode }}/{{ country.countrycode }}">
+									<figure>
+										<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
+										<figcaption>{% translate country.Name_fr %}</figcaption>
+									</figure>
+								</a>
+							{% elif country.spoken_languages.count > 1 %}
+								<a href="/{{ base_language }}/{{ base_flag }}/{{ country.spoken_languages.all.0.langcode }}/{{ country.countrycode }}">
+									<figure>
+										<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
+										<figcaption>{% translate country.Name_fr %}Popup!</figcaption>
+									</figure>
+								</a>
+							{% endif%}
 						{% endfor %}
 					{% else %}
     					<p style="margin: auto">{% translate "No translations available" %}</p>
