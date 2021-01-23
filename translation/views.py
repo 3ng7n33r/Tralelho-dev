@@ -12,13 +12,16 @@ def index(request, base_language="fra", base_flag="fra"):
     OC = Countries.objects.filter(Continent__iexact="OC")
     AS = Countries.objects.filter(Continent__iexact="AS")
     EU = Countries.objects.filter(Continent__iexact="EU")
+    continents = {
+        'Afrique': AF,
+        'Amerique du Nord': NA,
+        'Amerique du Sud': SA,
+        'Océanie': OC,
+        'Asie': AS,
+        'Europe': EU,
+    }
     context = {
-        'AF': AF,
-        'NA': NA,
-        'SA': SA,
-        'OC': OC,
-        'AS': AS,
-        'EU': EU,
+        'continents': continents,
         'base_language': base_language,
         'base_flag': base_flag,
     }
@@ -32,13 +35,16 @@ def translation(request, base_language, base_flag, target_language, target_flag)
     OC = Countries.objects.filter(Continent__iexact="OC")
     AS = Countries.objects.filter(Continent__iexact="AS")
     EU = Countries.objects.filter(Continent__iexact="EU")
+    continents = {
+        'Afrique': AF,
+        'Amerique du Nord': NA,
+        'Amerique du Sud': SA,
+        'Océanie': OC,
+        'Asie': AS,
+        'Europe': EU,
+    }
     context = {
-        'AF': AF,
-        'NA': NA,
-        'SA': SA,
-        'OC': OC,
-        'AS': AS,
-        'EU': EU,
+        'continents': continents,
         'base_language': base_language,
         'base_flag': base_flag,
         'target_language': target_language,
@@ -54,13 +60,16 @@ def docindex(request, base_language="fra", base_flag="fra"):
     OC = Countries.objects.filter(Continent__iexact="OC")
     AS = Countries.objects.filter(Continent__iexact="AS")
     EU = Countries.objects.filter(Continent__iexact="EU")
+    continents = {
+        'Afrique': AF,
+        'Amerique du Nord': NA,
+        'Amerique du Sud': SA,
+        'Océanie': OC,
+        'Asie': AS,
+        'Europe': EU,
+    }
     context = {
-        'AF': AF,
-        'NA': NA,
-        'SA': SA,
-        'OC': OC,
-        'AS': AS,
-        'EU': EU,
+        'continents': continents,
         'base_language': base_language,
         'base_flag': base_flag,
     }
@@ -74,6 +83,14 @@ def documents(request, base_language, base_flag, target_language, target_flag):
     OC = Countries.objects.filter(Continent__iexact="OC")
     AS = Countries.objects.filter(Continent__iexact="AS")
     EU = Countries.objects.filter(Continent__iexact="EU")
+    continents = {
+        'Afrique': AF,
+        'Amerique du Nord': NA,
+        'Amerique du Sud': SA,
+        'Océanie': OC,
+        'Asie': AS,
+        'Europe': EU,
+    }
     docs = {
         "Anesthésie": "ane",
         "IRM": "irm",
@@ -82,12 +99,7 @@ def documents(request, base_language, base_flag, target_language, target_flag):
         "Scanner": "scn",
         "Secrétariat": "sec"}
     context = {
-        'AF': AF,
-        'NA': NA,
-        'SA': SA,
-        'OC': OC,
-        'AS': AS,
-        'EU': EU,
+        'continents': continents,
         'base_language': base_language,
         'base_flag': base_flag,
         'target_language': target_language,
@@ -104,13 +116,16 @@ def support(request, base_language="fra", base_flag="fra"):
     OC = Countries.objects.filter(Continent__iexact="OC")
     AS = Countries.objects.filter(Continent__iexact="AS")
     EU = Countries.objects.filter(Continent__iexact="EU")
+    continents = {
+        'Afrique': AF,
+        'Amerique du Nord': NA,
+        'Amerique du Sud': SA,
+        'Océanie': OC,
+        'Asie': AS,
+        'Europe': EU,
+    }
     context = {
-        'AF': AF,
-        'NA': NA,
-        'SA': SA,
-        'OC': OC,
-        'AS': AS,
-        'EU': EU,
+        'continents': continents,
         'base_language': base_language,
         'base_flag': base_flag,
     }
@@ -124,13 +139,16 @@ def about(request, base_language="fra", base_flag="fra"):
     OC = Countries.objects.filter(Continent__iexact="OC")
     AS = Countries.objects.filter(Continent__iexact="AS")
     EU = Countries.objects.filter(Continent__iexact="EU")
+    continents = {
+        'Afrique': AF,
+        'Amerique du Nord': NA,
+        'Amerique du Sud': SA,
+        'Océanie': OC,
+        'Asie': AS,
+        'Europe': EU,
+    }
     context = {
-        'AF': AF,
-        'NA': NA,
-        'SA': SA,
-        'OC': OC,
-        'AS': AS,
-        'EU': EU,
+        'continents': continents,
         'base_language': base_language,
         'base_flag': base_flag,
     }
