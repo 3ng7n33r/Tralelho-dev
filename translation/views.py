@@ -4,22 +4,29 @@ from django.shortcuts import render
 
 from .models import Countries
 
+AF = Countries.objects.filter(Continent__iexact="AF").filter(
+    spoken_languages__Translated=True)
+NA = Countries.objects.filter(Continent__iexact="NA").filter(
+    spoken_languages__Translated=True)
+SA = Countries.objects.filter(Continent__iexact="SA").filter(
+    spoken_languages__Translated=True)
+OC = Countries.objects.filter(Continent__iexact="OC").filter(
+    spoken_languages__Translated=True)
+AS = Countries.objects.filter(Continent__iexact="AS").filter(
+    spoken_languages__Translated=True)
+EU = Countries.objects.filter(Continent__iexact="EU").filter(
+    spoken_languages__Translated=True)
+continents = {
+    'Afrique': AF,
+    'Amerique du Nord': NA,
+    'Amerique du Sud': SA,
+    'Océanie': OC,
+    'Asie': AS,
+    'Europe': EU,
+}
+
 
 def index(request, base_language="fra", base_flag="fra"):
-    AF = Countries.objects.filter(Continent__iexact="AF")
-    NA = Countries.objects.filter(Continent__iexact="NA")
-    SA = Countries.objects.filter(Continent__iexact="SA")
-    OC = Countries.objects.filter(Continent__iexact="OC")
-    AS = Countries.objects.filter(Continent__iexact="AS")
-    EU = Countries.objects.filter(Continent__iexact="EU")
-    continents = {
-        'Afrique': AF,
-        'Amerique du Nord': NA,
-        'Amerique du Sud': SA,
-        'Océanie': OC,
-        'Asie': AS,
-        'Europe': EU,
-    }
     context = {
         'continents': continents,
         'base_language': base_language,
@@ -29,20 +36,6 @@ def index(request, base_language="fra", base_flag="fra"):
 
 
 def translation(request, base_language, base_flag, target_language, target_flag):
-    AF = Countries.objects.filter(Continent__iexact="AF")
-    NA = Countries.objects.filter(Continent__iexact="NA")
-    SA = Countries.objects.filter(Continent__iexact="SA")
-    OC = Countries.objects.filter(Continent__iexact="OC")
-    AS = Countries.objects.filter(Continent__iexact="AS")
-    EU = Countries.objects.filter(Continent__iexact="EU")
-    continents = {
-        'Afrique': AF,
-        'Amerique du Nord': NA,
-        'Amerique du Sud': SA,
-        'Océanie': OC,
-        'Asie': AS,
-        'Europe': EU,
-    }
     context = {
         'continents': continents,
         'base_language': base_language,
@@ -54,20 +47,6 @@ def translation(request, base_language, base_flag, target_language, target_flag)
 
 
 def docindex(request, base_language="fra", base_flag="fra"):
-    AF = Countries.objects.filter(Continent__iexact="AF")
-    NA = Countries.objects.filter(Continent__iexact="NA")
-    SA = Countries.objects.filter(Continent__iexact="SA")
-    OC = Countries.objects.filter(Continent__iexact="OC")
-    AS = Countries.objects.filter(Continent__iexact="AS")
-    EU = Countries.objects.filter(Continent__iexact="EU")
-    continents = {
-        'Afrique': AF,
-        'Amerique du Nord': NA,
-        'Amerique du Sud': SA,
-        'Océanie': OC,
-        'Asie': AS,
-        'Europe': EU,
-    }
     context = {
         'continents': continents,
         'base_language': base_language,
@@ -77,20 +56,6 @@ def docindex(request, base_language="fra", base_flag="fra"):
 
 
 def documents(request, base_language, base_flag, target_language, target_flag):
-    AF = Countries.objects.filter(Continent__iexact="AF")
-    NA = Countries.objects.filter(Continent__iexact="NA")
-    SA = Countries.objects.filter(Continent__iexact="SA")
-    OC = Countries.objects.filter(Continent__iexact="OC")
-    AS = Countries.objects.filter(Continent__iexact="AS")
-    EU = Countries.objects.filter(Continent__iexact="EU")
-    continents = {
-        'Afrique': AF,
-        'Amerique du Nord': NA,
-        'Amerique du Sud': SA,
-        'Océanie': OC,
-        'Asie': AS,
-        'Europe': EU,
-    }
     docs = {
         "Anesthésie": "ane",
         "IRM": "irm",
@@ -110,20 +75,6 @@ def documents(request, base_language, base_flag, target_language, target_flag):
 
 
 def support(request, base_language="fra", base_flag="fra"):
-    AF = Countries.objects.filter(Continent__iexact="AF")
-    NA = Countries.objects.filter(Continent__iexact="NA")
-    SA = Countries.objects.filter(Continent__iexact="SA")
-    OC = Countries.objects.filter(Continent__iexact="OC")
-    AS = Countries.objects.filter(Continent__iexact="AS")
-    EU = Countries.objects.filter(Continent__iexact="EU")
-    continents = {
-        'Afrique': AF,
-        'Amerique du Nord': NA,
-        'Amerique du Sud': SA,
-        'Océanie': OC,
-        'Asie': AS,
-        'Europe': EU,
-    }
     context = {
         'continents': continents,
         'base_language': base_language,
@@ -133,20 +84,7 @@ def support(request, base_language="fra", base_flag="fra"):
 
 
 def about(request, base_language="fra", base_flag="fra"):
-    AF = Countries.objects.filter(Continent__iexact="AF")
-    NA = Countries.objects.filter(Continent__iexact="NA")
-    SA = Countries.objects.filter(Continent__iexact="SA")
-    OC = Countries.objects.filter(Continent__iexact="OC")
-    AS = Countries.objects.filter(Continent__iexact="AS")
-    EU = Countries.objects.filter(Continent__iexact="EU")
-    continents = {
-        'Afrique': AF,
-        'Amerique du Nord': NA,
-        'Amerique du Sud': SA,
-        'Océanie': OC,
-        'Asie': AS,
-        'Europe': EU,
-    }
+
     context = {
         'continents': continents,
         'base_language': base_language,
