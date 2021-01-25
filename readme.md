@@ -5,7 +5,7 @@
 Tralelho is a tanslation service for medical professionals
 
 ## Translators needed
-This project needs translators. If you speak a language other than English, French and German and would like to contribute, please don't hesitate to contact me. A translation service integration has been set up to make translating this project as simple as possible.
+This project needs translators. If you speak a language other than English, French or German and would like to contribute, please don't hesitate to [contact me](mailto:tralelho@maxemailian.anonaddy.com). A translation service integration has been set up to make translating this project as simple as possible.
 
 ## Installation
 
