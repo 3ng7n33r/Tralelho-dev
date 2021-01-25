@@ -1,0 +1,23 @@
+{% load i18n %}
+{% load static %}
+
+<div id="searchcontainer">
+  <form id=”search” action="" method="post" style="text-align:center">
+    {% csrf_token %}
+    {{ form }}
+    <button id="countrybutton" type="submit"><i class="fa fa-search" aria-hidden="true"></i>
+    </button>
+  </form>
+  <script>
+    $(document).ready(function(){ 
+        $("#txtSearch").autocomplete({
+            source: "/{{ base_language }}/ajax_calls/search/",
+            minLength: 1,
+            open: function(){
+                setTimeout(function () {
+                    $('.ui-autocomplete').css('z-index', 99);
+                }, 0);
+            }
+          });        });
+    </script>
+</div>

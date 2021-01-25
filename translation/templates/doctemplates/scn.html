@@ -1,0 +1,133 @@
+<!doctype html>
+{% load i18n %}
+{% load static %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="{% static 'translation/scn.css' %}">
+<div class="A4">
+
+  <div id="header">
+    <div id="titlecontainer">
+      <p><b>{% language target_language%}Scanner{% endlanguage %}</b><br>{% language base_language%}Scanner{% endlanguage %}</p>
+    </div>
+    </th>
+    <th>
+    </th>
+    <th class="tg-0lax">
+    <div id="flagcontainer">
+      <img class="smallflag" src="{% get_static_prefix %}translation/flags/{{ base_flag }}.png">
+      <i id="flagarrow" class="fa fa-arrow-right fa-3x" aria-hidden="true"></i>
+      <img class="smallflag" src="{% get_static_prefix %}translation/flags/{{ target_flag }}.png">
+    </div>
+  </div>
+  <div class="textwrapper">
+    <p>{% language target_language %}<b>{% translate "Vous allez passer une scanner" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Vous allez passer une scanner" %}{% endlanguage %}</p>
+
+    <p>{% language target_language %}<b>{% translate "Il faudra retirer tout objet métallique (appareils dentaires et auditifs)" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Il faudra retirer tout objet métallique (appareils dentaires et auditifs)" %}{% endlanguage %}</p>
+
+    <p>{% language target_language %}<b>{% translate "Une perfusion va vous être posée pour injecter un produit de contraste au cours de l’examen. L’injection de ce produit de contraste peut donner une sensation de chaleur dans tout le corps" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Une perfusion va vous être posée pour injecter un produit de contraste au cours de l’examen. L’injection de ce produit de contraste peut donner une sensation de chaleur dans tout le corps" %}{% endlanguage %}</p>
+
+    <p>{% language target_language %}<b>{% translate "Il faudra rester immobile pendant tout l’examen" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Il faudra rester immobile pendant tout l’examen" %}{% endlanguage %}</p>
+
+    <p>{% language target_language %}<b>{% translate "Durant l'examen, on vous demandera de gonfler et les poumons et de bloquer la respiration" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Durant l'examen, on vous demandera de gonfler et les poumons et de bloquer la respiration" %}{% endlanguage %}</p>
+
+    <p>{% language target_language %}<b>{% translate "L'examen dure en moyenne 15 minutes" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "L'examen dure en moyenne 15 minutes" %}{% endlanguage %}</p>
+  </div>
+
+
+  <h2 class="secondpagetitle">{% language base_language %}{% translate "Checklist Scanner" %}{% endlanguage %}</h2>
+  <div>
+    <div class="half">
+      <ul class="questions">
+        <li>  <p>{% language target_language %}<b>{% translate "Nom" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Nom" %}{% endlanguage %}</p></li>
+          <li>  <p>{% language target_language %}<b>{% translate "Prénom" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Prénom" %}{% endlanguage %}</p></li>
+          <li>  <p>{% language target_language %}<b>{% translate "Date de naissance" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Date de naissance" %}{% endlanguage %}</p></li>
+          <li>  <p>{% language target_language %}<b>{% translate "Taille" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Taille" %}{% endlanguage %}</p></li>
+          <li>  <p>{% language target_language %}<b>{% translate "Poids" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Poids" %}{% endlanguage %}</p></li>
+      </ul>
+    </div>
+    <div class="half">
+      <ul class="answers">
+        <li>  <p> _ _ _ _ _ _ _ _ _ _ _ _ _ _ _</p></li>
+        <li>  <p> _ _ _ _ _ _ _ _ _ _ _ _ _ _ _</p></li>
+        <li>  <p>_ _  / _ _  /  _ _ _ _</p></li>
+        <li>  <p>____ cm</p></li>
+        <li>  <p>____ kg</p></li>
+      </ul>
+    </div>
+  </div>
+  <table class="tg">
+    <thead>
+      <tr>
+        <th class="tg-0lax"></th>
+        <th class="tg-0lax">{% language target_language %}<b>{% translate "Oui" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Oui" %}{% endlanguage %}</th>
+        <th class="tg-0lax">{% language target_language %}<b>{% translate "Non" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Non" %}{% endlanguage %}</th>
+        <th class="tg-0lax">{% language target_language %}<b>{% translate "Je ne sais pas" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Je ne sais pas" %}{% endlanguage %}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="tg-0lax" style="width: 400px">{% language target_language %}<b>{% translate "Êtes-vous enceinte?" %}</b>{% endlanguage %}<br>
+          {% language base_language %}{% translate "Êtes-vous enceinte?" %}{% endlanguage %}</td>
+        <td class="boxfield"><i class="fa fa-square-o fa-lg" aria-hidden="true"></i></td>
+        <td class="boxfield"><i class="fa fa-square-o fa-lg" aria-hidden="true"></i></td>
+        <td class="boxfield"><i class="fa fa-square-o fa-lg" aria-hidden="true"></i></td>
+      </tr>
+      <tr>
+        <td class="tg-0lax" style="width: 400px">{% language target_language %}<b>{% translate "Avez-vous des allergies au produit de contraste?" %}</b>{% endlanguage %}<br>
+          {% language base_language %}{% translate "Avez-vous des allergies au produit de contraste?" %}{% endlanguage %}</td>
+        <td class="boxfield"><i class="fa fa-square-o fa-lg" aria-hidden="true"></i></td>
+        <td class="boxfield"><i class="fa fa-square-o fa-lg" aria-hidden="true"></i></td>
+        <td class="boxfield"><i class="fa fa-square-o fa-lg" aria-hidden="true"></i></td>
+      </tr>
+      <tr>
+        <td class="tg-0lax" style="width: 400px">{% language target_language %}<b>{% translate "Avez-vous une insuffisance ou maladie rénale?" %}</b>{% endlanguage %}<br>
+          {% language base_language %}{% translate "Avez-vous une insuffisance ou maladie rénale?" %}{% endlanguage %}</td>
+        <td class="boxfield"><i class="fa fa-square-o fa-lg" aria-hidden="true"></i></td>
+        <td class="boxfield"><i class="fa fa-square-o fa-lg" aria-hidden="true"></i></td>
+        <td class="boxfield"><i class="fa fa-square-o fa-lg" aria-hidden="true"></i></td>
+      </tr>
+      <tr>
+        <td class="tg-0lax" style="width: 400px">{% language target_language %}<b>{% translate "Prenez-vous un traitement pour la thyroïde?" %}</b>{% endlanguage %}<br>
+          {% language base_language %}{% translate "Prenez-vous un traitement pour la thyroïde?" %}{% endlanguage %}</td>
+        <td class="boxfield"><i class="fa fa-square-o fa-lg" aria-hidden="true"></i></td>
+        <td class="boxfield"><i class="fa fa-square-o fa-lg" aria-hidden="true"></i></td>
+        <td class="boxfield"><i class="fa fa-square-o fa-lg" aria-hidden="true"></i></td>
+      </tr>
+      <tr>
+        <td class="tg-0lax" style="width: 400px">{% language target_language %}<b>{% translate "Avez-vous de l'asthme?" %}</b>{% endlanguage %}<br>
+          {% language base_language %}{% translate "Avez-vous de l'asthme?" %}{% endlanguage %}</td>
+        <td class="boxfield"><i class="fa fa-square-o fa-lg" aria-hidden="true"></i></td>
+        <td class="boxfield"><i class="fa fa-square-o fa-lg" aria-hidden="true"></i></td>
+        <td class="boxfield"><i class="fa fa-square-o fa-lg" aria-hidden="true"></i></td>
+      </tr>
+    </tbody>
+  </table>
+
+    <div id="signature">
+    <div class="half">
+      <ul class="questions">
+        <li>  <p>{% language target_language %}<b>{% translate "Signez ici:" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Signez ici:" %}{% endlanguage %}</p></li>
+      </ul>
+    </div>
+    <div class="half">
+      <ul class="answers">
+        <li>  <p> _ _ _ _ _ _ _ _ _ _ _ _ _ _ _</p></li>
+      </ul>
+    </div>
+  </div>
+</div>
