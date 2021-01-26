@@ -10,12 +10,12 @@ for country in Countries.objects.all():
             language.delete()
 
 
-AF = Countries.objects.filter(Continent__iexact="AF")
-NA = Countries.objects.filter(Continent__iexact="NA")
-SA = Countries.objects.filter(Continent__iexact="SA")
-OC = Countries.objects.filter(Continent__iexact="OC")
-AS = Countries.objects.filter(Continent__iexact="AS")
-EU = Countries.objects.filter(Continent__iexact="EU")
+AF = Countries.objects.order_by('Name_eng').filter(Continent__iexact="AF")
+NA = Countries.objects.order_by('Name_eng').filter(Continent__iexact="NA")
+SA = Countries.objects.order_by('Name_eng').filter(Continent__iexact="SA")
+OC = Countries.objects.order_by('Name_eng').filter(Continent__iexact="OC")
+AS = Countries.objects.order_by('Name_eng').filter(Continent__iexact="AS")
+EU = Countries.objects.order_by('Name_eng').filter(Continent__iexact="EU")
 continents = {
     'Afrique': AF,
     'Amerique du Nord': NA,

@@ -3383,3 +3383,21 @@ msgstr ""
 
 msgid "Zoulou"
 msgstr ""
+
+msgid "Anesthésie"
+msgstr ""
+
+msgid "IRM"
+msgstr ""
+
+msgid "Patient"
+msgstr ""
+
+msgid "Pédiatrie"
+msgstr ""
+
+msgid "Scanner"
+msgstr ""
+
+msgid "Secréteriat"
+msgstr ""
