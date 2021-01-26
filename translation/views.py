@@ -3,19 +3,16 @@ from django.utils.translation import ugettext as _
 from django.shortcuts import render
 
 from .models import Countries
+''' 
+.filter(
+    spoken_languages__Translated=True) '''
 
-AF = Countries.objects.filter(Continent__iexact="AF").filter(
-    spoken_languages__Translated=True)
-NA = Countries.objects.filter(Continent__iexact="NA").filter(
-    spoken_languages__Translated=True)
-SA = Countries.objects.filter(Continent__iexact="SA").filter(
-    spoken_languages__Translated=True)
-OC = Countries.objects.filter(Continent__iexact="OC").filter(
-    spoken_languages__Translated=True)
-AS = Countries.objects.filter(Continent__iexact="AS").filter(
-    spoken_languages__Translated=True)
-EU = Countries.objects.filter(Continent__iexact="EU").filter(
-    spoken_languages__Translated=True)
+AF = Countries.objects.filter(Continent__iexact="AF")
+NA = Countries.objects.filter(Continent__iexact="NA")
+SA = Countries.objects.filter(Continent__iexact="SA")
+OC = Countries.objects.filter(Continent__iexact="OC")
+AS = Countries.objects.filter(Continent__iexact="AS")
+EU = Countries.objects.filter(Continent__iexact="EU")
 continents = {
     'Afrique': AF,
     'Amerique du Nord': NA,
