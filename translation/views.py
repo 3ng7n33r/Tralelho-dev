@@ -3,9 +3,12 @@ from django.utils.translation import ugettext as _
 from django.shortcuts import render
 
 from .models import Countries
-''' 
-.filter(
-    spoken_languages__Translated=True) '''
+
+for country in Countries.objects.all():
+    for language in country.spoken_languages.all():
+        if not language.Translated:
+            language.delete()
+
 
 AF = Countries.objects.filter(Continent__iexact="AF")
 NA = Countries.objects.filter(Continent__iexact="NA")
