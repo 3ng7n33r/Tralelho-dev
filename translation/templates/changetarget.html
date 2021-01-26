@@ -48,14 +48,13 @@
 							<a href="#{{ country.countrycode }}target">
 								<figure>
 									<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
-									<figcaption>{% translate country.Name_fr %}!</figcaption>
+									<figcaption>{% translate country.Name_fr %}</figcaption>
 								</figure>
 							</a>
 							<div id="{{ country.countrycode }}target" class="overlay">
 								<a class="cancel" href="#"></a>
 								<div class="popup">
 									<h2>{% translate "Plusieurs langues disponibles" %}</h2>
-									<a class="close" href="#">&times;</a>
 									<div class="popcontent">
 										{% for language in country.spoken_languages.all %}
 											<article class="poparticle">
