@@ -37,14 +37,14 @@
 			<div class="langcontainer">
 				{% if continent %}
 					{% for country in continent %}
-						{% if country.spoken_languages.count == 1 %}
-							<a href="/{{ base_language }}/{{ base_flag }}/{{ country.spoken_languages.all.0.langcode }}/{{ country.countrycode }}{{ changetarget }}">
+						{% if country.translated_spoken_languages.count == 1 %}
+							<a href="/{{ base_language }}/{{ base_flag }}/{{ country.translated_spoken_languages.all.0.langcode }}/{{ country.countrycode }}{{ changetarget }}">
 								<figure>
 									<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
 									<figcaption>{% translate country.Name_fr %}</figcaption>
 								</figure>
 							</a>
-						{% elif country.spoken_languages.count > 1 %}
+						{% elif country.translated_spoken_languages.count > 1 %}
 							<a href="#{{ country.countrycode }}target">
 								<figure>
 									<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
@@ -56,7 +56,7 @@
 								<div class="popup">
 									<h2>{% translate "Plusieurs langues disponibles" %}</h2>
 									<div class="popcontent">
-										{% for language in country.spoken_languages.all %}
+										{% for language in country.translated_spoken_languages.all %}
 											<article class="poparticle">
 												<a class="popcontainer" href="/{{ base_language }}/{{ base_flag }}/{{ language.langcode }}/{{ country.countrycode }}{{ changetarget }}">{% translate language.Name_fr %}</a>
 											</article>

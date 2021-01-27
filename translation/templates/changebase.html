@@ -7,14 +7,14 @@
 		<div id="{{ name }}"|add:continent class="langcontainer" style="display: none">
 			{% if continent %}
 				{% for country in continent %}
-					{% if country.spoken_languages.count == 1 %}
+					{% if country.translated_spoken_languages.count == 1 %}
 						<a href="/{{ country.spoken_languages.all.0.langcode }}/{{ country.countrycode }}{{ changetag }}">
 							<figure>
 								<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
 								<figcaption>{% translate country.Name_fr %}</figcaption>
 							</figure>
 						</a>
-					{% elif country.spoken_languages.count > 1 %}
+					{% elif country.translated_spoken_languages.count > 1 %}
 							<a href="#{{ country.countrycode }}base">
 								<figure>
 									<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
@@ -26,9 +26,9 @@
 								<div class="popup">
 									<h2>{% translate "Plusieurs langues disponibles" %}</h2>
 									<div class="popcontent">
-										{% for language in country.spoken_languages.all %}
+										{% for language in country.translated_spoken_languages.all %}
 											<article class="poparticle">
-												<a class="popcontainer" href="/{{ country.spoken_languages.all.0.langcode }}/{{ country.countrycode }}{{ changetag }}">{% translate language.Name_fr %}</a>
+												<a class="popcontainer" href="/{{ country.translated_spoken_languages.all.0.langcode }}/{{ country.countrycode }}{{ changetag }}">{% translate language.Name_fr %}</a>
 											</article>
 										{% endfor %}
 									</div>
