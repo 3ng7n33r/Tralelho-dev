@@ -29,7 +29,7 @@
 								<div class="popcontent">
 									{% for language in languages.all %}
 										<article class="poparticle">
-											<a class="popcontainer" href="/{{ languages.langcode }}/{{ country.countrycode }}{{ changetag }}">{% translate language.Name_fr %}</a>
+											<a class="popcontainer" href="/{{ languages.all.0.langcode }}/{{ country.countrycode }}{{ changetag }}">{% translate language.Name_fr %}</a>
 										</article>
 									{% endfor %}
 								</div>
