@@ -2,20 +2,15 @@ from django.http import HttpResponse
 from django.utils.translation import ugettext as _
 from django.shortcuts import render
 
-from .models import Countries
+from .models import Country
 
-for country in Countries.objects.all():
-    for language in country.spoken_languages.all():
-        if not language.Translated:
-            language.delete()
-
-
-AF = Countries.objects.order_by('Name_eng').filter(Continent__iexact="AF")
-NA = Countries.objects.order_by('Name_eng').filter(Continent__iexact="NA")
-SA = Countries.objects.order_by('Name_eng').filter(Continent__iexact="SA")
-OC = Countries.objects.order_by('Name_eng').filter(Continent__iexact="OC")
-AS = Countries.objects.order_by('Name_eng').filter(Continent__iexact="AS")
-EU = Countries.objects.order_by('Name_eng').filter(Continent__iexact="EU")
+# sort countries by continent
+AF = Country.objects.order_by('Name_eng').filter(Continent__iexact="AF")
+NA = Country.objects.order_by('Name_eng').filter(Continent__iexact="NA")
+SA = Country.objects.order_by('Name_eng').filter(Continent__iexact="SA")
+OC = Country.objects.order_by('Name_eng').filter(Continent__iexact="OC")
+AS = Country.objects.order_by('Name_eng').filter(Continent__iexact="AS")
+EU = Country.objects.order_by('Name_eng').filter(Continent__iexact="EU")
 continents = {
     'Afrique': AF,
     'Amerique du Nord': NA,
@@ -36,6 +31,7 @@ def index(request, base_language="fra", base_flag="fra"):
 
 
 def translation(request, base_language, base_flag, target_language, target_flag):
+
     context = {
         'continents': continents,
         'base_language': base_language,
@@ -47,6 +43,7 @@ def translation(request, base_language, base_flag, target_language, target_flag)
 
 
 def docindex(request, base_language="fra", base_flag="fra"):
+
     context = {
         'continents': continents,
         'base_language': base_language,
@@ -56,6 +53,7 @@ def docindex(request, base_language="fra", base_flag="fra"):
 
 
 def documents(request, base_language, base_flag, target_language, target_flag):
+
     docs = {
         "Anesthésie": "ane",
         "IRM": "irm",
@@ -75,6 +73,7 @@ def documents(request, base_language, base_flag, target_language, target_flag):
 
 
 def support(request, base_language="fra", base_flag="fra"):
+
     context = {
         'continents': continents,
         'base_language': base_language,

@@ -1,44 +1,42 @@
 {% load i18n %}
 {% load static %}
+{% load exclude_base_language %}
 <div id="changebase">
 	<h2 style="text-align: center">{% translate "Langue d'utilisation" %}</h2>
 	{% for name, continent in continents.items %}
 	<h3 onclick="switchVisibilityFlex('{{ name }}')"><i class="fa fa-caret-right" aria-hidden="true"></i> {% translate name %}</h3>
 		<div id="{{ name }}"|add:continent class="langcontainer" style="display: none">
-			{% if continent %}
-				{% for country in continent %}
-					{% if country.spoken_languages.count == 1 %}
-						<a href="/{{ country.spoken_languages.all.0.langcode }}/{{ country.countrycode }}{{ changetag }}">
+			{% for country in continent %}
+				{% exclude_base_language country base_language as languages %}
+					{% if languages.count == 1 %}
+						<a href="/{{ languages.all.0.langcode }}/{{ country.countrycode }}{{ changetag }}">
 							<figure>
 								<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
 								<figcaption>{% translate country.Name_fr %}</figcaption>
 							</figure>
 						</a>
-					{% elif country.spoken_languages.count > 1 %}
-							<a href="#{{ country.countrycode }}base">
-								<figure>
-									<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
-									<figcaption>{% translate country.Name_fr %}</figcaption>
-								</figure>
-							</a>
-							<div id="{{ country.countrycode }}base" class="overlay">
-								<a class="cancel" href="#"></a>
-								<div class="popup">
-									<h2>{% translate "Plusieurs langues disponibles" %}</h2>
-									<div class="popcontent">
-										{% for language in country.spoken_languages.all %}
-											<article class="poparticle">
-												<a class="popcontainer" href="/{{ country.spoken_languages.all.0.langcode }}/{{ country.countrycode }}{{ changetag }}">{% translate language.Name_fr %}</a>
-											</article>
-										{% endfor %}
-									</div>
+					{% elif languages.count > 1 %}
+						<a href="#{{ country.countrycode }}base">
+							<figure>
+								<img class="flag" src="{% static "translation/flags/"|add:country.countrycode|add:".png" %}">
+								<figcaption>{% translate country.Name_fr %}</figcaption>
+							</figure>
+						</a>
+						<div id="{{ country.countrycode }}base" class="overlay">
+							<a class="cancel" href="#"></a>
+							<div class="popup">
+								<h2>{% translate "Plusieurs langues disponibles" %}</h2>
+								<div class="popcontent">
+									{% for language in languages.all %}
+										<article class="poparticle">
+											<a class="popcontainer" href="/{{ languages.langcode }}/{{ country.countrycode }}{{ changetag }}">{% translate language.Name_fr %}</a>
+										</article>
+									{% endfor %}
 								</div>
-							</div>					
+							</div>
+						</div>
 					{% endif%}
-				{% endfor %}
-			{% else %}
-				<p style="margin: auto">{% translate "Aucune traduction disponible" %}</p>
-			{% endif %}
+			{% endfor %}
 		</div>
 	{% endfor %}
 </div>

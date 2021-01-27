@@ -12,7 +12,7 @@ class Language(models.Model):
         return self.Name_eng
 
 
-class Countries(models.Model):
+class Country(models.Model):
     """ ISO 3166 - 1 - alpha3"""
     countrycode = models.CharField(max_length=3, unique=True)
     Name_fr = models.CharField(max_length=50, unique=True)
@@ -23,6 +23,9 @@ class Countries(models.Model):
 
     def __str__(self):
         return self.Name_eng
+
+    def translated_spoken_languages(self, base_language):
+        return self.spoken_languages.filter(Translated=True).exclude(langcode=base_language)
 
 
 # resources:
