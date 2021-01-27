@@ -24,7 +24,7 @@ class Country(models.Model):
     def __str__(self):
         return self.Name_eng
 
-    def translated_spoken_languages(self, base_language):
+    def translated_spoken_languages(self, base_language="None"):
         return self.spoken_languages.filter(Translated=True).exclude(langcode=base_language)
 
 
