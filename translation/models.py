@@ -24,8 +24,8 @@ class Country(models.Model):
     def __str__(self):
         return self.Name_eng
 
-    def translated_spoken_languages(self):
-        return self.spoken_languages.filter(Translated=True)
+    def translated_spoken_languages(self, base_language):
+        return self.spoken_languages.filter(Translated=True).exclude(langcode=base_language)
 
 
 # resources:
