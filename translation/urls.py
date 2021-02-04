@@ -18,4 +18,6 @@ urlpatterns = [
     path('about', views.about, name='about'),
     path('<str:base_language>/<str:base_flag>/about',
          views.about, name='about'),
+    path('<str:base_language>/<str:base_flag>/disclaimer',
+         views.disclaimer, name='disclaimer'),
 ]
