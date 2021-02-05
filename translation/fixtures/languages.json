@@ -122,7 +122,8 @@
         "fields": {
             "langcode": "deu",
             "Name_fr": "Allemand",
-            "Name_eng": "German"
+            "Name_eng": "German",
+            "Translated": "True"
         }
     },
     {
@@ -158,7 +159,8 @@
         "fields": {
             "langcode": "eng",
             "Name_fr": "Anglais",
-            "Name_eng": "English"
+            "Name_eng": "English",
+            "Translated": "True"
         }
     },
     {
@@ -212,7 +214,8 @@
         "fields": {
             "langcode": "fra",
             "Name_fr": "Fran\u00e7ais",
-            "Name_eng": "French"
+            "Name_eng": "French",
+            "Translated": "True"
         }
     },
     {
