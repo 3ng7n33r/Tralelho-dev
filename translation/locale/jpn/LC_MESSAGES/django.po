@@ -5,15 +5,15 @@ msgstr ""
 "POT-Creation-Date: 2021-01-22 17:17+0000\n"
 "PO-Revision-Date: 2021-02-04 09:41\n"
 "Last-Translator: \n"
-"Language-Team: French\n"
-"Language: fr\n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: 73d3b19e82fc460fd936796fc5b25f94\n"
 "X-Crowdin-Project-ID: 2\n"
-"X-Crowdin-Language: fr\n"
+"X-Crowdin-Language: ja\n"
 "X-Crowdin-File: /master/translation/locale/fra/LC_MESSAGES/django.po\n"
 "X-Crowdin-File-ID: 12\n"
 
@@ -192,7 +192,7 @@ msgstr ""
 
 #: translation/templates/translation/language.html:165
 msgid "PRESENTATION"
-msgstr ""
+msgstr "自己紹介"
 
 #: translation/templates/translation/language.html:171
 #: translation/templates/translation/language.html:174
@@ -202,47 +202,47 @@ msgstr ""
 #: translation/templates/translation/language.html:179
 #: translation/templates/translation/language.html:182
 msgid "Infirmière"
-msgstr ""
+msgstr "看護師"
 
 #: translation/templates/translation/language.html:187
 #: translation/templates/translation/language.html:190
 msgid "Médecin"
-msgstr ""
+msgstr "医者"
 
 #: translation/templates/translation/language.html:195
 #: translation/templates/translation/language.html:198
 msgid "Secouriste"
-msgstr ""
+msgstr "救命士"
 
 #: translation/templates/translation/language.html:203
 #: translation/templates/translation/language.html:206
 msgid "Bénévole"
-msgstr ""
+msgstr "ボランティア"
 
 #: translation/templates/translation/language.html:211
 #: translation/templates/translation/language.html:214
 msgid "Agent d'accueil"
-msgstr ""
+msgstr "受付係"
 
 #: translation/templates/translation/language.html:219
 #: translation/templates/translation/language.html:222
 msgid "Etudiant en médecine"
-msgstr ""
+msgstr "医学生"
 
 #: translation/templates/translation/language.html:227
 #: translation/templates/translation/language.html:230
 msgid "Sage-femme"
-msgstr ""
+msgstr "助産婦"
 
 #: translation/templates/translation/language.html:235
 #: translation/templates/translation/language.html:238
 msgid "Secrétaire"
-msgstr ""
+msgstr "秘書"
 
 #: translation/templates/translation/language.html:243
 #: translation/templates/translation/language.html:246
 msgid "Soignant"
-msgstr ""
+msgstr "介護にあたる人"
 
 #: translation/templates/translation/language.html:251
 #: translation/templates/translation/language.html:254
@@ -251,7 +251,7 @@ msgstr ""
 
 #: translation/templates/translation/language.html:260
 msgid "IDENTITÉ"
-msgstr ""
+msgstr "身分証明"
 
 #: translation/templates/translation/language.html:266
 #: translation/templates/translation/language.html:269
@@ -291,41 +291,41 @@ msgstr ""
 #: translation/templates/translation/language.html:322
 #: translation/templates/translation/language.html:325
 msgid "De quel pays venez-vous ?"
-msgstr ""
+msgstr "どちらの国から来ましたか。"
 
 #: translation/templates/translation/language.html:330
 #: translation/templates/translation/language.html:333
 msgid "A quelle adresse vivez-vous actuellement ?"
-msgstr ""
+msgstr "現在の住所はどちらですか。"
 
 #: translation/templates/translation/language.html:338
 #: translation/templates/translation/language.html:341
 msgid "Avez-vous un numéro de téléphone où l’on peut vous joindre ?"
-msgstr ""
+msgstr "連絡の取れる電話番号はありますか。"
 
 #: translation/templates/translation/language.html:347
 msgid "ATTENTE"
-msgstr ""
+msgstr "待ち時間"
 
 #: translation/templates/translation/language.html:353
 #: translation/templates/translation/language.html:356
 msgid "Je vous laisse attendre :"
-msgstr ""
+msgstr "下の場所でしばらくお待ちください。"
 
 #: translation/templates/translation/language.html:361
 #: translation/templates/translation/language.html:364
 msgid "sur les chaises"
-msgstr ""
+msgstr "椅子に座って"
 
 #: translation/templates/translation/language.html:369
 #: translation/templates/translation/language.html:372
 msgid "sur le banc"
-msgstr ""
+msgstr "ベンチに座って"
 
 #: translation/templates/translation/language.html:377
 #: translation/templates/translation/language.html:380
 msgid "dans la salle d'attente"
-msgstr ""
+msgstr "待合室で"
 
 #: translation/templates/translation/language.html:385
 #: translation/templates/translation/language.html:388
@@ -359,31 +359,31 @@ msgstr ""
 
 #: translation/templates/translation/language.html:434
 msgid "ACCUEIL"
-msgstr ""
+msgstr "受付"
 
 #: translation/templates/translation/language.html:440
 #: translation/templates/translation/language.html:443
 msgid "Qu’est-ce qui vous arrive ?"
-msgstr ""
+msgstr "どうされましたか。"
 
 #: translation/templates/translation/language.html:448
 #: translation/templates/translation/language.html:451
 msgid "Avez-vous des douleurs ?"
-msgstr ""
+msgstr "痛みますか。"
 
 #: translation/templates/translation/language.html:456
 #: translation/templates/translation/language.html:459
 #: translation/templates/translation/language.html:3873
 #: translation/templates/translation/language.html:3876
 msgid "Oui"
-msgstr ""
+msgstr "はい"
 
 #: translation/templates/translation/language.html:464
 #: translation/templates/translation/language.html:467
 #: translation/templates/translation/language.html:3881
 #: translation/templates/translation/language.html:3884
 msgid "Non"
-msgstr ""
+msgstr "いいえ"
 
 #: translation/templates/translation/language.html:472
 #: translation/templates/translation/language.html:475
@@ -408,52 +408,52 @@ msgstr ""
 #: translation/templates/translation/language.html:504
 #: translation/templates/translation/language.html:507
 msgid "1"
-msgstr ""
+msgstr "一"
 
 #: translation/templates/translation/language.html:512
 #: translation/templates/translation/language.html:515
 msgid "2"
-msgstr ""
+msgstr "二"
 
 #: translation/templates/translation/language.html:520
 #: translation/templates/translation/language.html:523
 msgid "3"
-msgstr ""
+msgstr "三"
 
 #: translation/templates/translation/language.html:528
 #: translation/templates/translation/language.html:531
 msgid "4"
-msgstr ""
+msgstr "四"
 
 #: translation/templates/translation/language.html:536
 #: translation/templates/translation/language.html:539
 msgid "5"
-msgstr ""
+msgstr "五"
 
 #: translation/templates/translation/language.html:544
 #: translation/templates/translation/language.html:547
 msgid "6"
-msgstr ""
+msgstr "六"
 
 #: translation/templates/translation/language.html:552
 #: translation/templates/translation/language.html:555
 msgid "7"
-msgstr ""
+msgstr "七"
 
 #: translation/templates/translation/language.html:560
 #: translation/templates/translation/language.html:563
 msgid "8"
-msgstr ""
+msgstr "八"
 
 #: translation/templates/translation/language.html:568
 #: translation/templates/translation/language.html:571
 msgid "9"
-msgstr ""
+msgstr "九"
 
 #: translation/templates/translation/language.html:576
 #: translation/templates/translation/language.html:579
 msgid "10"
-msgstr ""
+msgstr "十"
 
 #: translation/templates/translation/language.html:584
 #: translation/templates/translation/language.html:587
@@ -482,7 +482,7 @@ msgstr ""
 
 #: translation/templates/translation/language.html:625
 msgid "NEUROLOGIE"
-msgstr ""
+msgstr "神経科"
 
 #: translation/templates/translation/language.html:631
 #: translation/templates/translation/language.html:634
@@ -492,7 +492,7 @@ msgstr ""
 #: translation/templates/translation/language.html:639
 #: translation/templates/translation/language.html:642
 msgid "Savez-vous quel jour nous sommes ?"
-msgstr ""
+msgstr "今日が何日かわかりますか。"
 
 #: translation/templates/translation/language.html:647
 #: translation/templates/translation/language.html:650
@@ -512,7 +512,7 @@ msgstr ""
 #: translation/templates/translation/language.html:671
 #: translation/templates/translation/language.html:674
 msgid "Je vais toucher vos mains et vos pieds, sentez-vous que je vous touche ?"
-msgstr ""
+msgstr "あなたの手と足を触ります。触られているのが分かりますか。"
 
 #: translation/templates/translation/language.html:679
 #: translation/templates/translation/language.html:682
@@ -537,7 +537,7 @@ msgstr ""
 #: translation/templates/translation/language.html:711
 #: translation/templates/translation/language.html:714
 msgid "Ouvrez la bouche"
-msgstr ""
+msgstr "口を開けてください。"
 
 #: translation/templates/translation/language.html:719
 #: translation/templates/translation/language.html:722
@@ -547,33 +547,33 @@ msgstr ""
 #: translation/templates/translation/language.html:727
 #: translation/templates/translation/language.html:730
 msgid "Avez-vous des douleurs à la tête ?"
-msgstr ""
+msgstr "頭が痛みますか？"
 
 #: translation/templates/translation/language.html:735
 #: translation/templates/translation/language.html:738
 #: translation/templates/translation/language.html:2697
 #: translation/templates/translation/language.html:2700
 msgid "La douleur est apparue :"
-msgstr ""
+msgstr "痛みは、いきなり／徐々に　きました。"
 
 #: translation/templates/translation/language.html:743
 #: translation/templates/translation/language.html:746
 #: translation/templates/translation/language.html:2713
 #: translation/templates/translation/language.html:2716
 msgid "Progressivement"
-msgstr ""
+msgstr "徐々に"
 
 #: translation/templates/translation/language.html:751
 #: translation/templates/translation/language.html:754
 #: translation/templates/translation/language.html:2705
 #: translation/templates/translation/language.html:2708
 msgid "Brutalement"
-msgstr ""
+msgstr "いきなり"
 
 #: translation/templates/translation/language.html:759
 #: translation/templates/translation/language.html:762
 msgid "Avez vous des douleurs dans la nuque ?"
-msgstr ""
+msgstr "首に痛みがありますか。"
 
 #: translation/templates/translation/language.html:767
 #: translation/templates/translation/language.html:770
@@ -588,7 +588,7 @@ msgstr ""
 #: translation/templates/translation/language.html:783
 #: translation/templates/translation/language.html:786
 msgid "Est ce que la lumière vous dérange ?"
-msgstr ""
+msgstr "光のまぶしさが気になりますか。"
 
 #: translation/templates/translation/language.html:791
 #: translation/templates/translation/language.html:794
@@ -661,28 +661,28 @@ msgstr ""
 #: translation/templates/translation/language.html:901
 #: translation/templates/translation/language.html:904
 msgid "Est-ce que votre douleur :"
-msgstr ""
+msgstr " 刺すような痛みですか、締め付けるような痛みですか、焼けるような痛みですか。"
 
 #: translation/templates/translation/language.html:909
 #: translation/templates/translation/language.html:912
 #: translation/templates/translation/language.html:3001
 #: translation/templates/translation/language.html:3004
 msgid "Serre"
-msgstr ""
+msgstr "締め付けるよう"
 
 #: translation/templates/translation/language.html:917
 #: translation/templates/translation/language.html:920
 #: translation/templates/translation/language.html:2993
 #: translation/templates/translation/language.html:2996
 msgid "Pique"
-msgstr ""
+msgstr "刺すよう"
 
 #: translation/templates/translation/language.html:925
 #: translation/templates/translation/language.html:928
 #: translation/templates/translation/language.html:3009
 #: translation/templates/translation/language.html:3012
 msgid "Brûle"
-msgstr ""
+msgstr "焼けるよう　です。"
 
 #: translation/templates/translation/language.html:933
 #: translation/templates/translation/language.html:936
@@ -697,17 +697,17 @@ msgstr ""
 #: translation/templates/translation/language.html:949
 #: translation/templates/translation/language.html:952
 msgid "Minutes"
-msgstr ""
+msgstr "分"
 
 #: translation/templates/translation/language.html:957
 #: translation/templates/translation/language.html:960
 msgid "Heures"
-msgstr ""
+msgstr "時間"
 
 #: translation/templates/translation/language.html:965
 #: translation/templates/translation/language.html:968
 msgid "Jours"
-msgstr ""
+msgstr "日"
 
 #: translation/templates/translation/language.html:973
 #: translation/templates/translation/language.html:976
@@ -742,7 +742,7 @@ msgstr ""
 #: translation/templates/translation/language.html:1021
 #: translation/templates/translation/language.html:1024
 msgid "Buvez-vous de l'alcool ?"
-msgstr ""
+msgstr " タバコは吸いますか。アルコールは飲みますか。   "
 
 #: translation/templates/translation/language.html:1029
 #: translation/templates/translation/language.html:1032
@@ -771,22 +771,22 @@ msgstr ""
 #: translation/templates/translation/language.html:1068
 #: translation/templates/translation/language.html:1071
 msgid "Qu’avez-vous ressenti pendant la malaise ?"
-msgstr ""
+msgstr "気分が悪くなった時、どんな風に感じましたか。"
 
 #: translation/templates/translation/language.html:1076
 #: translation/templates/translation/language.html:1079
 msgid "Fourmillement"
-msgstr ""
+msgstr "しびれ"
 
 #: translation/templates/translation/language.html:1084
 #: translation/templates/translation/language.html:1087
 msgid "Vertige"
-msgstr ""
+msgstr "めまい"
 
 #: translation/templates/translation/language.html:1092
 #: translation/templates/translation/language.html:1095
 msgid "Grande fatigue"
-msgstr ""
+msgstr "　疲労感"
 
 #: translation/templates/translation/language.html:1100
 #: translation/templates/translation/language.html:1103
@@ -830,7 +830,7 @@ msgstr ""
 
 #: translation/templates/translation/language.html:1165
 msgid "DIGESTIF"
-msgstr ""
+msgstr "　消化"
 
 #: translation/templates/translation/language.html:1171
 #: translation/templates/translation/language.html:1174
@@ -867,12 +867,12 @@ msgstr ""
 #: translation/templates/translation/language.html:1598
 #: translation/templates/translation/language.html:1601
 msgid "Etes vous enceinte ?"
-msgstr ""
+msgstr "あなたは妊娠していますか。"
 
 #: translation/templates/translation/language.html:1227
 #: translation/templates/translation/language.html:1230
 msgid "A quelle heure avez-vous uriné pour la dernière fois aujourd’hui ?"
-msgstr ""
+msgstr "今日最後に排尿したのは何時でしたか。"
 
 #: translation/templates/translation/language.html:1235
 #: translation/templates/translation/language.html:1238
@@ -882,27 +882,27 @@ msgstr ""
 #: translation/templates/translation/language.html:1243
 #: translation/templates/translation/language.html:1246
 msgid "Depuis combien de jours ?"
-msgstr ""
+msgstr "何日くらい続いていますか。"
 
 #: translation/templates/translation/language.html:1251
 #: translation/templates/translation/language.html:1254
 msgid "Avez-vous des nausées ?"
-msgstr ""
+msgstr "吐き気がしますか。"
 
 #: translation/templates/translation/language.html:1259
 #: translation/templates/translation/language.html:1262
 msgid "Avez-vous des diarrhées ?"
-msgstr ""
+msgstr "下痢ですか。"
 
 #: translation/templates/translation/language.html:1267
 #: translation/templates/translation/language.html:1270
 msgid "Avez-vous vomi ?"
-msgstr ""
+msgstr "嘔吐しましたか。"
 
 #: translation/templates/translation/language.html:1275
 #: translation/templates/translation/language.html:1278
 msgid "Y a-t-il du sang dans vos selles ?"
-msgstr ""
+msgstr "大便に血が混ざっていましたか。"
 
 #: translation/templates/translation/language.html:1283
 #: translation/templates/translation/language.html:1286
@@ -971,7 +971,7 @@ msgstr ""
 #: translation/templates/translation/language.html:1386
 #: translation/templates/translation/language.html:1389
 msgid "Je vais prendre votre température"
-msgstr ""
+msgstr "　熱をはかります。"
 
 #: translation/templates/translation/language.html:1395
 msgid "OPHTALMOLOGIE"
@@ -1004,7 +1004,7 @@ msgstr ""
 
 #: translation/templates/translation/language.html:1442
 msgid "ANTÉCÉDENTS"
-msgstr ""
+msgstr "既往症"
 
 #: translation/templates/translation/language.html:1448
 #: translation/templates/translation/language.html:1451
@@ -1058,42 +1058,42 @@ msgstr ""
 #: translation/templates/translation/language.html:1527
 #: translation/templates/translation/language.html:1530
 msgid "Le bébé a t il perdu du poids ? Combien de kilo ?"
-msgstr ""
+msgstr "お子さんは体重が減少しましたか。何キロ？"
 
 #: translation/templates/translation/language.html:1535
 #: translation/templates/translation/language.html:1538
 msgid "Est-ce que le bébé est à jour de ces vaccins ?"
-msgstr ""
+msgstr "　お子さんは受けるべき予防接種はすべて受けていますか。"
 
 #: translation/templates/translation/language.html:1543
 #: translation/templates/translation/language.html:1546
 msgid "Est-ce que ses frères et soeurs sont malades ?"
-msgstr ""
+msgstr "　この子の兄弟は病気ですか。"
 
 #: translation/templates/translation/language.html:1551
 #: translation/templates/translation/language.html:1554
 msgid "Est-ce qu’il mange bien ?"
-msgstr ""
+msgstr "よく食べますか。"
 
 #: translation/templates/translation/language.html:1559
 #: translation/templates/translation/language.html:1562
 msgid "Est-ce qu’il vomi ?"
-msgstr ""
+msgstr "　吐いたりしますか。"
 
 #: translation/templates/translation/language.html:1567
 #: translation/templates/translation/language.html:1570
 msgid "Est-ce qu’il semble plus agité que d’habitude ?"
-msgstr ""
+msgstr "普段と比べて、落ち着きがないですか。"
 
 #: translation/templates/translation/language.html:1575
 #: translation/templates/translation/language.html:1578
 msgid "Est-ce qu’il semble plus fatigué que d’habitude ?"
-msgstr ""
+msgstr "普段と比べて、疲れているようですか。"
 
 #: translation/templates/translation/language.html:1583
 #: translation/templates/translation/language.html:1586
 msgid "Est ce qu’il a la diarrhée ?"
-msgstr ""
+msgstr "下痢はしていますか。"
 
 #: translation/templates/translation/language.html:1592
 msgid "GYNECOLOGIE"
@@ -1102,47 +1102,47 @@ msgstr ""
 #: translation/templates/translation/language.html:1606
 #: translation/templates/translation/language.html:1609
 msgid "De combien de semaines ?"
-msgstr ""
+msgstr "　何週目ですか。何か月目ですか。"
 
 #: translation/templates/translation/language.html:1614
 #: translation/templates/translation/language.html:1617
 msgid "Avez vous vos règles ?"
-msgstr ""
+msgstr "生理はありますか。"
 
 #: translation/templates/translation/language.html:1622
 #: translation/templates/translation/language.html:1625
 msgid "Avez vous perdu du sang ?"
-msgstr ""
+msgstr "　出血しましたか。"
 
 #: translation/templates/translation/language.html:1630
 #: translation/templates/translation/language.html:1633
 msgid "Vos pertes étaient elles rouge ou noir ?"
-msgstr ""
+msgstr "　出血は赤かったですか、赤黒かったですか。"
 
 #: translation/templates/translation/language.html:1638
 #: translation/templates/translation/language.html:1641
 msgid "Avez vous eu des problèmes lors de vos précédentes grossesse ?"
-msgstr ""
+msgstr "　以前の妊娠時に何か問題がありましたか。"
 
 #: translation/templates/translation/language.html:1646
 #: translation/templates/translation/language.html:1649
 msgid "Avez vous des contractions ?"
-msgstr ""
+msgstr "　お腹が張っていますか。"
 
 #: translation/templates/translation/language.html:1654
 #: translation/templates/translation/language.html:1657
 msgid "Avez vous perdu les eaux ?"
-msgstr ""
+msgstr "　破水しましたか。"
 
 #: translation/templates/translation/language.html:1662
 #: translation/templates/translation/language.html:1665
 msgid "Sentez vous le bébé bouger ?"
-msgstr ""
+msgstr "　胎児が動いているのを感じますか。"
 
 #: translation/templates/translation/language.html:1670
 #: translation/templates/translation/language.html:1673
 msgid "Avez vous une contraception ?"
-msgstr ""
+msgstr "避妊はしていますか。"
 
 #: translation/templates/translation/language.html:1678
 #: translation/templates/translation/language.html:1681
@@ -1161,37 +1161,37 @@ msgstr ""
 #: translation/templates/translation/language.html:1701
 #: translation/templates/translation/language.html:1704
 msgid "Avez-vous été éjecté du véhicule ?"
-msgstr ""
+msgstr "乗り物から放り出されたのですか。"
 
 #: translation/templates/translation/language.html:1709
 #: translation/templates/translation/language.html:1712
 msgid "A quelle vitesse rouliez-vous ?"
-msgstr ""
+msgstr "時速何キロで走っていましたか。"
 
 #: translation/templates/translation/language.html:1717
 #: translation/templates/translation/language.html:1720
 msgid "Etiez-vous casqué ?"
-msgstr ""
+msgstr "ヘルメットはかぶっていましたか。"
 
 #: translation/templates/translation/language.html:1725
 #: translation/templates/translation/language.html:1728
 msgid "Aviez-vous votre ceinture de sécurité ?"
-msgstr ""
+msgstr "　シートベルトは締めていましたか。"
 
 #: translation/templates/translation/language.html:1733
 #: translation/templates/translation/language.html:1736
 msgid "Avez vous fait une chute ?"
-msgstr ""
+msgstr "どこかから落ちましたか。"
 
 #: translation/templates/translation/language.html:1741
 #: translation/templates/translation/language.html:1744
 msgid "De quelle hauteur êtes-vous tombé ?"
-msgstr ""
+msgstr "どのくらいの高さから落ちましたか。"
 
 #: translation/templates/translation/language.html:1749
 #: translation/templates/translation/language.html:1752
 msgid "Prenez vous des anticoagulants, des médicaments pour fluidifier le sang ?"
-msgstr ""
+msgstr "　血液を固まらせないようにする薬、抗凝固薬を飲んでいますか。"
 
 #: translation/templates/translation/language.html:1757
 #: translation/templates/translation/language.html:1760
@@ -1237,77 +1237,77 @@ msgstr ""
 
 #: translation/templates/translation/language.html:1822
 msgid "EXAMENS"
-msgstr ""
+msgstr "検査"
 
 #: translation/templates/translation/language.html:1828
 #: translation/templates/translation/language.html:1831
 msgid "Vous devez avoir :"
-msgstr ""
+msgstr "　.....しなければなりません。"
 
 #: translation/templates/translation/language.html:1836
 #: translation/templates/translation/language.html:1839
 msgid "Je vais vous faire :"
-msgstr ""
+msgstr "私はあなたに.....します。"
 
 #: translation/templates/translation/language.html:1844
 #: translation/templates/translation/language.html:1847
 msgid "une perfusion"
-msgstr ""
+msgstr "点滴"
 
 #: translation/templates/translation/language.html:1852
 #: translation/templates/translation/language.html:1855
 msgid "une prise de sang"
-msgstr ""
+msgstr "採血"
 
 #: translation/templates/translation/language.html:1860
 #: translation/templates/translation/language.html:1863
 msgid "un pansement"
-msgstr ""
+msgstr "ガーゼを当て包帯などでまくこと"
 
 #: translation/templates/translation/language.html:1868
 #: translation/templates/translation/language.html:1871
 msgid "une piqûre"
-msgstr ""
+msgstr "注射"
 
 #: translation/templates/translation/language.html:1876
 #: translation/templates/translation/language.html:1879
 msgid "votre toilette"
-msgstr ""
+msgstr "体を清潔にすること"
 
 #: translation/templates/translation/language.html:1884
 #: translation/templates/translation/language.html:1887
 msgid "un scanner"
-msgstr ""
+msgstr "CTスキャン"
 
 #: translation/templates/translation/language.html:1892
 #: translation/templates/translation/language.html:1895
 msgid "une radiographie"
-msgstr ""
+msgstr "レントゲン"
 
 #: translation/templates/translation/language.html:1900
 #: translation/templates/translation/language.html:1903
 msgid "un plâtre"
-msgstr ""
+msgstr "ギプス"
 
 #: translation/templates/translation/language.html:1908
 #: translation/templates/translation/language.html:1911
 msgid "une échographie"
-msgstr ""
+msgstr "エコー検査"
 
 #: translation/templates/translation/language.html:1916
 #: translation/templates/translation/language.html:1919
 msgid "une opération"
-msgstr ""
+msgstr "手術"
 
 #: translation/templates/translation/language.html:1924
 #: translation/templates/translation/language.html:1927
 msgid "Aujourd'hui"
-msgstr ""
+msgstr "今日"
 
 #: translation/templates/translation/language.html:1932
 #: translation/templates/translation/language.html:1935
 msgid "Demain"
-msgstr ""
+msgstr "　明日"
 
 #: translation/templates/translation/language.html:1940
 #: translation/templates/translation/language.html:1943
@@ -1322,27 +1322,27 @@ msgstr ""
 #: translation/templates/translation/language.html:1956
 #: translation/templates/translation/language.html:1959
 msgid "Après l'opération vous aurez :"
-msgstr ""
+msgstr "手術のあと（...)をつけます。"
 
 #: translation/templates/translation/language.html:1964
 #: translation/templates/translation/language.html:1967
 msgid "Une sonde urinaire"
-msgstr ""
+msgstr "尿道カテーテル"
 
 #: translation/templates/translation/language.html:1972
 #: translation/templates/translation/language.html:1975
 msgid "Une sonde gastrique"
-msgstr ""
+msgstr "胃管"
 
 #: translation/templates/translation/language.html:1980
 #: translation/templates/translation/language.html:1983
 msgid "Un drain"
-msgstr ""
+msgstr "カテーテル"
 
 #: translation/templates/translation/language.html:1988
 #: translation/templates/translation/language.html:1991
 msgid "Une cicatrice"
-msgstr ""
+msgstr "傷"
 
 #: translation/templates/translation/language.html:1996
 #: translation/templates/translation/language.html:1999
@@ -1362,56 +1362,56 @@ msgstr ""
 #: translation/templates/translation/language.html:2020
 #: translation/templates/translation/language.html:2023
 msgid "Dites nous si vous avez :"
-msgstr ""
+msgstr "次のものをつけているなら教えてください。"
 
 #: translation/templates/translation/language.html:2028
 #: translation/templates/translation/language.html:2031
 msgid "Un pace-maker"
-msgstr ""
+msgstr "ペースメーカー"
 
 #: translation/templates/translation/language.html:2036
 #: translation/templates/translation/language.html:2039
 msgid "Une valve cardiaque"
-msgstr ""
+msgstr "人工心臓弁"
 
 #: translation/templates/translation/language.html:2044
 #: translation/templates/translation/language.html:2047
 msgid "Un stent"
-msgstr ""
+msgstr "ステント"
 
 #: translation/templates/translation/language.html:2052
 #: translation/templates/translation/language.html:2055
 msgid "Une prothèse"
-msgstr ""
+msgstr "義肢"
 
 #: translation/templates/translation/language.html:2061
 msgid "TRAITEMENTS et CONSIGNES"
-msgstr ""
+msgstr "治療と説明"
 
 #: translation/templates/translation/language.html:2067
 #: translation/templates/translation/language.html:2070
 msgid "Je vous donne :"
-msgstr ""
+msgstr "あなたに....を与えます。"
 
 #: translation/templates/translation/language.html:2075
 #: translation/templates/translation/language.html:2078
 msgid "des médicaments"
-msgstr ""
+msgstr "薬"
 
 #: translation/templates/translation/language.html:2083
 #: translation/templates/translation/language.html:2086
 msgid "des antalgiques"
-msgstr ""
+msgstr "鎮痛剤"
 
 #: translation/templates/translation/language.html:2091
 #: translation/templates/translation/language.html:2094
 msgid "des antibiotiques"
-msgstr ""
+msgstr "抗生剤"
 
 #: translation/templates/translation/language.html:2099
 #: translation/templates/translation/language.html:2102
 msgid "Vous ne devez pas boire"
-msgstr ""
+msgstr "水分を摂ってはいけません。"
 
 #: translation/templates/translation/language.html:2107
 #: translation/templates/translation/language.html:2110
@@ -1460,7 +1460,7 @@ msgstr ""
 
 #: translation/templates/translation/language.html:2180
 msgid "CONCLUSION"
-msgstr ""
+msgstr "結果"
 
 #: translation/templates/translation/language.html:2186
 #: translation/templates/translation/language.html:2189
@@ -1480,12 +1480,12 @@ msgstr ""
 #: translation/templates/translation/language.html:2218
 #: translation/templates/translation/language.html:2221
 msgid "Vous devez revenir dans :"
-msgstr ""
+msgstr ".　X日後にもう一度来てください。"
 
 #: translation/templates/translation/language.html:2226
 #: translation/templates/translation/language.html:2229
 msgid "Vous devrez faire retirer les fils dans :"
-msgstr ""
+msgstr "X日後に抜糸しなくてはなりません。"
 
 #: translation/templates/translation/language.html:2234
 #: translation/templates/translation/language.html:2237
@@ -1505,7 +1505,7 @@ msgstr ""
 #: translation/templates/translation/language.html:2258
 #: translation/templates/translation/language.html:2261
 msgid "Vous devez aller à l'hôpital"
-msgstr ""
+msgstr "病院へ行かなくてはなりません。"
 
 #: translation/templates/translation/language.html:2266
 #: translation/templates/translation/language.html:2269
@@ -1519,67 +1519,67 @@ msgstr ""
 
 #: translation/templates/translation/language.html:2283
 msgid "PATIENT EN STRUCTURE"
-msgstr ""
+msgstr "患者の訴え"
 
 #: translation/templates/translation/language.html:2289
 #: translation/templates/translation/language.html:2292
 msgid "J’ai faim"
-msgstr ""
+msgstr "空腹です。"
 
 #: translation/templates/translation/language.html:2297
 #: translation/templates/translation/language.html:2300
 msgid "j’ai soif"
-msgstr ""
+msgstr "喉が渇きました。"
 
 #: translation/templates/translation/language.html:2305
 #: translation/templates/translation/language.html:2308
 msgid "j’ai mal"
-msgstr ""
+msgstr "痛いです。"
 
 #: translation/templates/translation/language.html:2313
 #: translation/templates/translation/language.html:2316
 msgid "j’ai froid"
-msgstr ""
+msgstr "　寒いです。"
 
 #: translation/templates/translation/language.html:2321
 #: translation/templates/translation/language.html:2324
 msgid "j’ai chaud"
-msgstr ""
+msgstr "暑いです。"
 
 #: translation/templates/translation/language.html:2329
 #: translation/templates/translation/language.html:2332
 msgid "j’ai des nausées"
-msgstr ""
+msgstr "むかむかします。"
 
 #: translation/templates/translation/language.html:2337
 #: translation/templates/translation/language.html:2340
 msgid "j’ai vomi"
-msgstr ""
+msgstr "吐きました。"
 
 #: translation/templates/translation/language.html:2345
 #: translation/templates/translation/language.html:2348
 msgid "j’ai uriné (je voudrais être changé)"
-msgstr ""
+msgstr "失禁しました（着替えたいです）"
 
 #: translation/templates/translation/language.html:2353
 #: translation/templates/translation/language.html:2356
 msgid "je voudrais uriner"
-msgstr ""
+msgstr "排尿したいです。"
 
 #: translation/templates/translation/language.html:2361
 #: translation/templates/translation/language.html:2364
 msgid "je voudrais déféquer"
-msgstr ""
+msgstr "排便したいです。"
 
 #: translation/templates/translation/language.html:2369
 #: translation/templates/translation/language.html:2372
 msgid "j’ai des vertiges"
-msgstr ""
+msgstr "　眩暈がします。"
 
 #: translation/templates/translation/language.html:2377
 #: translation/templates/translation/language.html:2380
 msgid "j’ai peur"
-msgstr ""
+msgstr "怖いです。"
 
 #: translation/templates/translation/language.html:2385
 #: translation/templates/translation/language.html:2388
@@ -1633,7 +1633,7 @@ msgstr ""
 #: translation/templates/translation/language.html:2537
 #: translation/templates/translation/language.html:2540
 msgid "Je roulais à “x” km/h"
-msgstr ""
+msgstr "時速Xキロで走っていました。"
 
 #: translation/templates/translation/language.html:2465
 #: translation/templates/translation/language.html:2468
@@ -1683,7 +1683,7 @@ msgstr ""
 #: translation/templates/translation/language.html:2545
 #: translation/templates/translation/language.html:2548
 msgid "J’avais un casque"
-msgstr ""
+msgstr "ヘルメットをかぶっていました。"
 
 #: translation/templates/translation/language.html:2553
 #: translation/templates/translation/language.html:2556
@@ -1708,47 +1708,47 @@ msgstr ""
 #: translation/templates/translation/language.html:2593
 #: translation/templates/translation/language.html:2596
 msgid "Ma tête n’a pas tapé pendant l’accident"
-msgstr ""
+msgstr "事故の時頭は打ちませんでした。"
 
 #: translation/templates/translation/language.html:2601
 #: translation/templates/translation/language.html:2604
 msgid "J’ai des douleurs :"
-msgstr ""
+msgstr "痛みがあります"
 
 #: translation/templates/translation/language.html:2609
 #: translation/templates/translation/language.html:2612
 msgid "à la tête"
-msgstr ""
+msgstr "頭"
 
 #: translation/templates/translation/language.html:2617
 #: translation/templates/translation/language.html:2620
 msgid "au cou"
-msgstr ""
+msgstr "首"
 
 #: translation/templates/translation/language.html:2625
 #: translation/templates/translation/language.html:2628
 msgid "au dos"
-msgstr ""
+msgstr "背中"
 
 #: translation/templates/translation/language.html:2633
 #: translation/templates/translation/language.html:2636
 msgid "au bras"
-msgstr ""
+msgstr "腕"
 
 #: translation/templates/translation/language.html:2641
 #: translation/templates/translation/language.html:2644
 msgid "à la jambe"
-msgstr ""
+msgstr "脚"
 
 #: translation/templates/translation/language.html:2649
 #: translation/templates/translation/language.html:2652
 msgid "au torse"
-msgstr ""
+msgstr "上半身"
 
 #: translation/templates/translation/language.html:2657
 #: translation/templates/translation/language.html:2660
 msgid "au ventre"
-msgstr ""
+msgstr "腹部"
 
 #: translation/templates/translation/language.html:2665
 #: translation/templates/translation/language.html:2668
@@ -1758,19 +1758,19 @@ msgstr ""
 #: translation/templates/translation/language.html:2673
 #: translation/templates/translation/language.html:2676
 msgid "Je ne prend pas d’anticoagulants (médicaments pour fluidifier le sang)"
-msgstr ""
+msgstr "抗凝固剤（血を固まらせないようにする薬）は飲んでいません。"
 
 #: translation/templates/translation/language.html:2681
 #: translation/templates/translation/language.html:2684
 msgid "Tête"
-msgstr ""
+msgstr "頭"
 
 #: translation/templates/translation/language.html:2689
 #: translation/templates/translation/language.html:2692
 #: translation/templates/translation/language.html:3553
 #: translation/templates/translation/language.html:3556
 msgid "J’ai des douleurs depuis :"
-msgstr ""
+msgstr "X分／時間／日前から痛みがあります。"
 
 #: translation/templates/translation/language.html:2721
 #: translation/templates/translation/language.html:2724
@@ -1780,7 +1780,7 @@ msgstr ""
 #: translation/templates/translation/language.html:2729
 #: translation/templates/translation/language.html:2732
 msgid "Je n’arrive pas a bouger un bras ou une jambe"
-msgstr ""
+msgstr "片腕あるいは片脚を動かせません。"
 
 #: translation/templates/translation/language.html:2737
 #: translation/templates/translation/language.html:2740
@@ -1915,7 +1915,7 @@ msgstr ""
 #: translation/templates/translation/language.html:2945
 #: translation/templates/translation/language.html:2948
 msgid "Torse"
-msgstr ""
+msgstr "上半身"
 
 #: translation/templates/translation/language.html:2953
 #: translation/templates/translation/language.html:2956
@@ -1940,17 +1940,17 @@ msgstr ""
 #: translation/templates/translation/language.html:2985
 #: translation/templates/translation/language.html:2988
 msgid "La douleur :"
-msgstr ""
+msgstr "痛みは、"
 
 #: translation/templates/translation/language.html:3017
 #: translation/templates/translation/language.html:3020
 msgid "La douleur irradie vers :"
-msgstr ""
+msgstr "痛みは　のほうに広がっています"
 
 #: translation/templates/translation/language.html:3025
 #: translation/templates/translation/language.html:3028
 msgid "Machoire"
-msgstr ""
+msgstr "顎"
 
 #: translation/templates/translation/language.html:3033
 #: translation/templates/translation/language.html:3036
@@ -2060,7 +2060,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3201
 #: translation/templates/translation/language.html:3204
 msgid "Ventre"
-msgstr ""
+msgstr "腹部"
 
 #: translation/templates/translation/language.html:3209
 #: translation/templates/translation/language.html:3212
@@ -2095,12 +2095,12 @@ msgstr ""
 #: translation/templates/translation/language.html:3257
 #: translation/templates/translation/language.html:3260
 msgid "1 fois"
-msgstr ""
+msgstr "1度"
 
 #: translation/templates/translation/language.html:3265
 #: translation/templates/translation/language.html:3268
 msgid "2 fois"
-msgstr ""
+msgstr "2度"
 
 #: translation/templates/translation/language.html:3273
 #: translation/templates/translation/language.html:3276
@@ -2130,7 +2130,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3313
 #: translation/templates/translation/language.html:3316
 msgid "Mes dernières urines étaient il y a :"
-msgstr ""
+msgstr "最後に排尿したのは X分／時間／日　前のことです。"
 
 #: translation/templates/translation/language.html:3321
 #: translation/templates/translation/language.html:3324
@@ -2155,7 +2155,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3353
 #: translation/templates/translation/language.html:3356
 msgid "Mes dernières selles étaient il y a :"
-msgstr ""
+msgstr "最後に排便したのは X分／時間／日　前のことです。"
 
 #: translation/templates/translation/language.html:3361
 #: translation/templates/translation/language.html:3364
@@ -2170,7 +2170,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3377
 #: translation/templates/translation/language.html:3380
 msgid "Mes dernières règles étaient il y a :"
-msgstr ""
+msgstr "最後の生理はX日前でした。"
 
 #: translation/templates/translation/language.html:3385
 #: translation/templates/translation/language.html:3388
@@ -2185,7 +2185,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3401
 #: translation/templates/translation/language.html:3404
 msgid "Depuis “x” semaines"
-msgstr ""
+msgstr "X週前から"
 
 #: translation/templates/translation/language.html:3409
 #: translation/templates/translation/language.html:3412
@@ -2200,7 +2200,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3425
 #: translation/templates/translation/language.html:3428
 msgid "Mes pertes étaient :"
-msgstr ""
+msgstr "出てきたものは　赤い／黒い　ものでした。"
 
 #: translation/templates/translation/language.html:3433
 #: translation/templates/translation/language.html:3436
@@ -2225,7 +2225,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3465
 #: translation/templates/translation/language.html:3468
 msgid "Dos / Cou"
-msgstr ""
+msgstr "背中／首"
 
 #: translation/templates/translation/language.html:3473
 #: translation/templates/translation/language.html:3476
@@ -2260,12 +2260,12 @@ msgstr ""
 #: translation/templates/translation/language.html:3521
 #: translation/templates/translation/language.html:3524
 msgid "Bras"
-msgstr ""
+msgstr "腕"
 
 #: translation/templates/translation/language.html:3529
 #: translation/templates/translation/language.html:3532
 msgid "Jambe"
-msgstr ""
+msgstr "脚"
 
 #: translation/templates/translation/language.html:3537
 #: translation/templates/translation/language.html:3540
@@ -2300,92 +2300,92 @@ msgstr ""
 #: translation/templates/translation/language.html:3593
 #: translation/templates/translation/language.html:3596
 msgid "Ma douleur est :"
-msgstr ""
+msgstr "痛みは弱い／強い／我慢できない　ものです。"
 
 #: translation/templates/translation/language.html:3601
 #: translation/templates/translation/language.html:3604
 msgid "Faible"
-msgstr ""
+msgstr "は弱い"
 
 #: translation/templates/translation/language.html:3609
 #: translation/templates/translation/language.html:3612
 msgid "Moyenne"
-msgstr ""
+msgstr "強い"
 
 #: translation/templates/translation/language.html:3617
 #: translation/templates/translation/language.html:3620
 msgid "Forte"
-msgstr ""
+msgstr "強く"
 
 #: translation/templates/translation/language.html:3625
 #: translation/templates/translation/language.html:3628
 msgid "Insupportable"
-msgstr ""
+msgstr "堪らない"
 
 #: translation/templates/translation/language.html:3633
 #: translation/templates/translation/language.html:3636
 msgid "Des clips intra-cranien"
-msgstr ""
+msgstr "脳内の インプラント"
 
 #: translation/templates/translation/language.html:3641
 #: translation/templates/translation/language.html:3644
 msgid "Un implant cochléaire"
-msgstr ""
+msgstr "蝸牛の インプラント"
 
 #: translation/templates/translation/language.html:3649
 #: translation/templates/translation/language.html:3652
 msgid "Un implant occulaire"
-msgstr ""
+msgstr "目に金属が入った医療機器"
 
 #: translation/templates/translation/language.html:3657
 #: translation/templates/translation/language.html:3660
 msgid "Du métal dans le corps"
-msgstr ""
+msgstr "身体に金属片がありますか？"
 
 #: translation/templates/translation/language.html:3665
 #: translation/templates/translation/language.html:3668
 msgid "Un défibrillateur"
-msgstr ""
+msgstr "じょさいどうき, 除細動機"
 
 #: translation/templates/translation/language.html:3673
 #: translation/templates/translation/language.html:3676
 msgid "Une chambre implantable"
-msgstr ""
+msgstr "皮膚の下のカテーテル"
 
 #: translation/templates/translation/language.html:3681
 #: translation/templates/translation/language.html:3684
 msgid "Allaitez-vous ?"
-msgstr ""
+msgstr "あなたが授乳しています"
 
 #: translation/templates/translation/language.html:3689
 #: translation/templates/translation/language.html:3692
 msgid "Où se trouve le médecin le plus proche ?"
-msgstr ""
+msgstr "一番近くの医者はどこにいますか？"
 
 #: translation/templates/translation/language.html:3697
 #: translation/templates/translation/language.html:3700
 msgid "Où se trouve l'hôpital le plus proche ?"
-msgstr ""
+msgstr "一番近くの病院はどこですか？"
 
 #: translation/templates/translation/language.html:3705
 #: translation/templates/translation/language.html:3708
 msgid "Où se trouve la pharmacie la plus proche ?"
-msgstr ""
+msgstr "一番近くの薬局はどこですか"
 
 #: translation/templates/translation/language.html:3713
 #: translation/templates/translation/language.html:3716
 msgid "J'ai besoin de secours, pouvez-vous les appeler ?"
-msgstr ""
+msgstr "(治療の)助けが必要です。救急車を呼んでいただけますか。"
 
 #: translation/templates/translation/language.html:3721
 #: translation/templates/translation/language.html:3724
 msgid "Une IRM"
-msgstr ""
+msgstr "磁気共鳴イメージング"
 
 #: translation/templates/translation/language.html:3729
 #: translation/templates/translation/language.html:3732
 msgid "L'examen est long. Il dure entre 15 et 40 minutes"
-msgstr ""
+msgstr "スキャンには時間がかかります。全部で１５から４０分ほどかかります。"
 
 #: translation/templates/translation/language.html:3737
 #: translation/templates/translation/language.html:3740
@@ -2400,27 +2400,27 @@ msgstr ""
 #: translation/templates/translation/language.html:3753
 #: translation/templates/translation/language.html:3756
 msgid "Des éclats métalliques dans les yeux?"
-msgstr ""
+msgstr "金属の破片が目に入っているのですか。"
 
 #: translation/templates/translation/language.html:3761
 #: translation/templates/translation/language.html:3764
 msgid "une valve mécanique"
-msgstr ""
+msgstr "人工心臓弁"
 
 #: translation/templates/translation/language.html:3769
 #: translation/templates/translation/language.html:3772
 msgid "un capteur de glycémie"
-msgstr ""
+msgstr "血糖値センサー"
 
 #: translation/templates/translation/language.html:3777
 #: translation/templates/translation/language.html:3780
 msgid "si oui, avez-vous une carte avec les références du matériel?"
-msgstr ""
+msgstr "もしそうであるなら、装置の照会番号が記載されているカードを持っていますか。"
 
 #: translation/templates/translation/language.html:3785
 #: translation/templates/translation/language.html:3788
 msgid "Quelle est votre taille et votre poids?"
-msgstr ""
+msgstr "あなたの身長と体重は何ですか？"
 
 #: translation/templates/translation/language.html:3793
 #: translation/templates/translation/language.html:3796
@@ -2435,22 +2435,22 @@ msgstr ""
 #: translation/templates/translation/language.html:3809
 #: translation/templates/translation/language.html:3812
 msgid "Prenez-vous un traitement pour la thyroïde ?"
-msgstr ""
+msgstr "甲状腺の治療方針に従っていますか。"
 
 #: translation/templates/translation/language.html:3817
 #: translation/templates/translation/language.html:3820
 msgid "Avez-vous des problèmes rénaux ?"
-msgstr ""
+msgstr "あなたは肝臓に問題を抱えていますか？"
 
 #: translation/templates/translation/language.html:3825
 #: translation/templates/translation/language.html:3828
 msgid "Pouvez-vous signer l’autorisation de soins ci-dessous ?"
-msgstr ""
+msgstr "治療の承認をする書類にご署名して頂けますか。"
 
 #: translation/templates/translation/language.html:3833
 #: translation/templates/translation/language.html:3836
 msgid "Nom :"
-msgstr ""
+msgstr "名字"
 
 #: translation/templates/translation/language.html:3841
 #: translation/templates/translation/language.html:3844
@@ -2460,12 +2460,12 @@ msgstr ""
 #: translation/templates/translation/language.html:3849
 #: translation/templates/translation/language.html:3852
 msgid "Date de naissance :"
-msgstr ""
+msgstr "生年月日"
 
 #: translation/templates/translation/language.html:3857
 #: translation/templates/translation/language.html:3860
 msgid "La taille :"
-msgstr ""
+msgstr "身長"
 
 #: translation/templates/translation/language.html:3865
 #: translation/templates/translation/language.html:3868

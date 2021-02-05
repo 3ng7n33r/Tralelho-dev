@@ -311,6 +311,30 @@ nav ul li a.current {
     background: black;
 }
 
+/* Searchbar */
+
+#countrybutton {
+    margin-left: -40px;
+    border: 0;
+    -webkit-appearance: none;
+    background: transparent;
+}
+
+#id_country_name {
+    padding-right: 50px;
+}
+
+#searchcontainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.errorlist {
+    list-style-type: none;
+    padding: 0px;
+}
+
 /* Translation tables */
 
 table {

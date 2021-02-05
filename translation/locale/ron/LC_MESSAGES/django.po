@@ -5,15 +5,15 @@ msgstr ""
 "POT-Creation-Date: 2021-01-22 17:17+0000\n"
 "PO-Revision-Date: 2021-02-04 09:41\n"
 "Last-Translator: \n"
-"Language-Team: French\n"
-"Language: fr\n"
+"Language-Team: Romanian\n"
+"Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);\n"
 "X-Crowdin-Project: 73d3b19e82fc460fd936796fc5b25f94\n"
 "X-Crowdin-Project-ID: 2\n"
-"X-Crowdin-Language: fr\n"
+"X-Crowdin-Language: ro\n"
 "X-Crowdin-File: /master/translation/locale/fra/LC_MESSAGES/django.po\n"
 "X-Crowdin-File-ID: 12\n"
 
@@ -192,7 +192,7 @@ msgstr ""
 
 #: translation/templates/translation/language.html:165
 msgid "PRESENTATION"
-msgstr ""
+msgstr "PREZENTARE"
 
 #: translation/templates/translation/language.html:171
 #: translation/templates/translation/language.html:174
@@ -202,47 +202,47 @@ msgstr ""
 #: translation/templates/translation/language.html:179
 #: translation/templates/translation/language.html:182
 msgid "Infirmière"
-msgstr ""
+msgstr "Infirmieră"
 
 #: translation/templates/translation/language.html:187
 #: translation/templates/translation/language.html:190
 msgid "Médecin"
-msgstr ""
+msgstr "Medic"
 
 #: translation/templates/translation/language.html:195
 #: translation/templates/translation/language.html:198
 msgid "Secouriste"
-msgstr ""
+msgstr "Agent prim ajutor"
 
 #: translation/templates/translation/language.html:203
 #: translation/templates/translation/language.html:206
 msgid "Bénévole"
-msgstr ""
+msgstr "Benevol"
 
 #: translation/templates/translation/language.html:211
 #: translation/templates/translation/language.html:214
 msgid "Agent d'accueil"
-msgstr ""
+msgstr "Agent de primire"
 
 #: translation/templates/translation/language.html:219
 #: translation/templates/translation/language.html:222
 msgid "Etudiant en médecine"
-msgstr ""
+msgstr "Student la medicină"
 
 #: translation/templates/translation/language.html:227
 #: translation/templates/translation/language.html:230
 msgid "Sage-femme"
-msgstr ""
+msgstr "Moașă"
 
 #: translation/templates/translation/language.html:235
 #: translation/templates/translation/language.html:238
 msgid "Secrétaire"
-msgstr ""
+msgstr "Secretară"
 
 #: translation/templates/translation/language.html:243
 #: translation/templates/translation/language.html:246
 msgid "Soignant"
-msgstr ""
+msgstr "Îngrijitor"
 
 #: translation/templates/translation/language.html:251
 #: translation/templates/translation/language.html:254
@@ -251,7 +251,7 @@ msgstr ""
 
 #: translation/templates/translation/language.html:260
 msgid "IDENTITÉ"
-msgstr ""
+msgstr "Identitate"
 
 #: translation/templates/translation/language.html:266
 #: translation/templates/translation/language.html:269
@@ -281,7 +281,7 @@ msgstr ""
 #: translation/templates/translation/language.html:306
 #: translation/templates/translation/language.html:309
 msgid "Les frais des soins seront à votre charge"
-msgstr ""
+msgstr "Veți plăti cheltuielile de îngrijire"
 
 #: translation/templates/translation/language.html:314
 #: translation/templates/translation/language.html:317
@@ -291,46 +291,46 @@ msgstr ""
 #: translation/templates/translation/language.html:322
 #: translation/templates/translation/language.html:325
 msgid "De quel pays venez-vous ?"
-msgstr ""
+msgstr "Din ce țară veniți?"
 
 #: translation/templates/translation/language.html:330
 #: translation/templates/translation/language.html:333
 msgid "A quelle adresse vivez-vous actuellement ?"
-msgstr ""
+msgstr "La ce adresă trăiți în momentul de față?"
 
 #: translation/templates/translation/language.html:338
 #: translation/templates/translation/language.html:341
 msgid "Avez-vous un numéro de téléphone où l’on peut vous joindre ?"
-msgstr ""
+msgstr "Aveți un număr de telefon la care vă putem suna?"
 
 #: translation/templates/translation/language.html:347
 msgid "ATTENTE"
-msgstr ""
+msgstr "AȘTEPTARE"
 
 #: translation/templates/translation/language.html:353
 #: translation/templates/translation/language.html:356
 msgid "Je vous laisse attendre :"
-msgstr ""
+msgstr "Vă las să așteptati"
 
 #: translation/templates/translation/language.html:361
 #: translation/templates/translation/language.html:364
 msgid "sur les chaises"
-msgstr ""
+msgstr "pe scaune"
 
 #: translation/templates/translation/language.html:369
 #: translation/templates/translation/language.html:372
 msgid "sur le banc"
-msgstr ""
+msgstr "pe bancă"
 
 #: translation/templates/translation/language.html:377
 #: translation/templates/translation/language.html:380
 msgid "dans la salle d'attente"
-msgstr ""
+msgstr "în sala de așteptare"
 
 #: translation/templates/translation/language.html:385
 #: translation/templates/translation/language.html:388
 msgid "Nous viendrons vous appeler"
-msgstr ""
+msgstr "Vă vom chema noi"
 
 #: translation/templates/translation/language.html:393
 #: translation/templates/translation/language.html:396
@@ -345,55 +345,56 @@ msgstr ""
 #: translation/templates/translation/language.html:409
 #: translation/templates/translation/language.html:412
 msgid "Selon votre état de santé, le médecin demandera parfois des soins, comme une prise de sang, un examen comme une radio ou un scanner, ou pourra demander de vous garder en observation pour surveiller votre état de santé"
-msgstr ""
+msgstr "În funcție de starea dumnevoastră de sănătate, medicul poate cere investigatii suplimentare cum ar fi o analiză de sânge, \n"
+"o radiografie, o scanare sau alt tip de investigatie. El poate cere să rămâneţi la spital, sub observaţie"
 
 #: translation/templates/translation/language.html:417
 #: translation/templates/translation/language.html:420
 msgid "Nous vous demandons de ne pas manger ou boire tant que le médecin ne vous y a pas autorisé, certains examens demandant de rester à jeun"
-msgstr ""
+msgstr "Vă cerem să nu mâncați nici să beți, până nu vă dă voie medicul, fiindcă unele investigaţii trebuie făcute pe nemâncate"
 
 #: translation/templates/translation/language.html:425
 #: translation/templates/translation/language.html:428
 msgid "Il faut attendre “1 heure” pour avoir les résultats de la prise de sang"
-msgstr ""
+msgstr "Trebuie să așteptați o oră pentru a avea rezultatele analizei de sânge"
 
 #: translation/templates/translation/language.html:434
 msgid "ACCUEIL"
-msgstr ""
+msgstr "RECEPŢIE"
 
 #: translation/templates/translation/language.html:440
 #: translation/templates/translation/language.html:443
 msgid "Qu’est-ce qui vous arrive ?"
-msgstr ""
+msgstr "Ce vă supără?"
 
 #: translation/templates/translation/language.html:448
 #: translation/templates/translation/language.html:451
 msgid "Avez-vous des douleurs ?"
-msgstr ""
+msgstr "Aveți dureri?"
 
 #: translation/templates/translation/language.html:456
 #: translation/templates/translation/language.html:459
 #: translation/templates/translation/language.html:3873
 #: translation/templates/translation/language.html:3876
 msgid "Oui"
-msgstr ""
+msgstr "da"
 
 #: translation/templates/translation/language.html:464
 #: translation/templates/translation/language.html:467
 #: translation/templates/translation/language.html:3881
 #: translation/templates/translation/language.html:3884
 msgid "Non"
-msgstr ""
+msgstr "Nu"
 
 #: translation/templates/translation/language.html:472
 #: translation/templates/translation/language.html:475
 msgid "Montrez-moi où vous avez mal"
-msgstr ""
+msgstr "Arătați-mi unde vă doare"
 
 #: translation/templates/translation/language.html:480
 #: translation/templates/translation/language.html:483
 msgid "Je vais vous examiner"
-msgstr ""
+msgstr "Am să vă examinez"
 
 #: translation/templates/translation/language.html:488
 #: translation/templates/translation/language.html:491
@@ -408,81 +409,81 @@ msgstr ""
 #: translation/templates/translation/language.html:504
 #: translation/templates/translation/language.html:507
 msgid "1"
-msgstr ""
+msgstr "unu"
 
 #: translation/templates/translation/language.html:512
 #: translation/templates/translation/language.html:515
 msgid "2"
-msgstr ""
+msgstr "doi"
 
 #: translation/templates/translation/language.html:520
 #: translation/templates/translation/language.html:523
 msgid "3"
-msgstr ""
+msgstr "trei"
 
 #: translation/templates/translation/language.html:528
 #: translation/templates/translation/language.html:531
 msgid "4"
-msgstr ""
+msgstr "patru"
 
 #: translation/templates/translation/language.html:536
 #: translation/templates/translation/language.html:539
 msgid "5"
-msgstr ""
+msgstr "cinci"
 
 #: translation/templates/translation/language.html:544
 #: translation/templates/translation/language.html:547
 msgid "6"
-msgstr ""
+msgstr "şase"
 
 #: translation/templates/translation/language.html:552
 #: translation/templates/translation/language.html:555
 msgid "7"
-msgstr ""
+msgstr "şapte"
 
 #: translation/templates/translation/language.html:560
 #: translation/templates/translation/language.html:563
 msgid "8"
-msgstr ""
+msgstr "opt"
 
 #: translation/templates/translation/language.html:568
 #: translation/templates/translation/language.html:571
 msgid "9"
-msgstr ""
+msgstr "nouă"
 
 #: translation/templates/translation/language.html:576
 #: translation/templates/translation/language.html:579
 msgid "10"
-msgstr ""
+msgstr "zece"
 
 #: translation/templates/translation/language.html:584
 #: translation/templates/translation/language.html:587
 msgid "Pouvez vous vous déshabiller pour que je vous examine ?"
-msgstr ""
+msgstr "Dezbracaţi-vă, vă rog, ca să vă pot examina ?"
 
 #: translation/templates/translation/language.html:592
 #: translation/templates/translation/language.html:595
 msgid "Vous pouvez garder vos sous-vêtements"
-msgstr ""
+msgstr "Nu e nevoie să vă dezbracaţi"
 
 #: translation/templates/translation/language.html:600
 #: translation/templates/translation/language.html:603
 msgid "Vous pouvez vous asseoir sur la chaise"
-msgstr ""
+msgstr "Puteti sa luaţi loc pe scaun"
 
 #: translation/templates/translation/language.html:608
 #: translation/templates/translation/language.html:611
 msgid "Vous pouvez vous allonger sur la table d'examen"
-msgstr ""
+msgstr "Vă rog întindeţi-vă pe masa de examinare"
 
 #: translation/templates/translation/language.html:616
 #: translation/templates/translation/language.html:619
 msgid "Vous pouvez vous allonger sur le brancard"
-msgstr ""
+msgstr "Vă rog întindeţi-vă pe targă"
 
 #: translation/templates/translation/language.html:625
 msgid "NEUROLOGIE"
-msgstr ""
+msgstr "NEUROLOGIE"
 
 #: translation/templates/translation/language.html:631
 #: translation/templates/translation/language.html:634
@@ -502,7 +503,7 @@ msgstr ""
 #: translation/templates/translation/language.html:655
 #: translation/templates/translation/language.html:658
 msgid "Suivez mon doigt du regard"
-msgstr ""
+msgstr "Urmăriți-mi degetul cu privirea"
 
 #: translation/templates/translation/language.html:663
 #: translation/templates/translation/language.html:666
@@ -512,12 +513,12 @@ msgstr ""
 #: translation/templates/translation/language.html:671
 #: translation/templates/translation/language.html:674
 msgid "Je vais toucher vos mains et vos pieds, sentez-vous que je vous touche ?"
-msgstr ""
+msgstr "O să vă ating mâinile şi picoarele, simţiţi că vă ating?"
 
 #: translation/templates/translation/language.html:679
 #: translation/templates/translation/language.html:682
 msgid "Regardez-moi dans les yeux, je vais observer vos pupilles"
-msgstr ""
+msgstr "Uitați-vă în ochii mei. Am să vă examinez pupilele"
 
 #: translation/templates/translation/language.html:687
 #: translation/templates/translation/language.html:690
@@ -527,22 +528,22 @@ msgstr ""
 #: translation/templates/translation/language.html:695
 #: translation/templates/translation/language.html:698
 msgid "Poussez sur mes mains"
-msgstr ""
+msgstr "Apăsaţi în mâinile mele"
 
 #: translation/templates/translation/language.html:703
 #: translation/templates/translation/language.html:706
 msgid "Ouvrez les yeux"
-msgstr ""
+msgstr "Deschideţi ochii"
 
 #: translation/templates/translation/language.html:711
 #: translation/templates/translation/language.html:714
 msgid "Ouvrez la bouche"
-msgstr ""
+msgstr "Deschideţi gura."
 
 #: translation/templates/translation/language.html:719
 #: translation/templates/translation/language.html:722
 msgid "Levez le bras droit"
-msgstr ""
+msgstr "Ridicaţi braţul drept"
 
 #: translation/templates/translation/language.html:727
 #: translation/templates/translation/language.html:730
@@ -554,21 +555,21 @@ msgstr ""
 #: translation/templates/translation/language.html:2697
 #: translation/templates/translation/language.html:2700
 msgid "La douleur est apparue :"
-msgstr ""
+msgstr "Durerea a apărut:"
 
 #: translation/templates/translation/language.html:743
 #: translation/templates/translation/language.html:746
 #: translation/templates/translation/language.html:2713
 #: translation/templates/translation/language.html:2716
 msgid "Progressivement"
-msgstr ""
+msgstr "Progresiv"
 
 #: translation/templates/translation/language.html:751
 #: translation/templates/translation/language.html:754
 #: translation/templates/translation/language.html:2705
 #: translation/templates/translation/language.html:2708
 msgid "Brutalement"
-msgstr ""
+msgstr "În mod brutal"
 
 #: translation/templates/translation/language.html:759
 #: translation/templates/translation/language.html:762
@@ -607,7 +608,7 @@ msgstr ""
 #: translation/templates/translation/language.html:814
 #: translation/templates/translation/language.html:817
 msgid "Je vais poser ma main sur votre ventre pour compter votre respiration, respirez normalement et ne parlez pas pendant ce temps"
-msgstr ""
+msgstr "Vă pun mâna pe burtă ca să vă număr respirația. Respirați normal și nu vorbiți în timpul ăsta"
 
 #: translation/templates/translation/language.html:822
 #: translation/templates/translation/language.html:825
@@ -617,17 +618,17 @@ msgstr ""
 #: translation/templates/translation/language.html:830
 #: translation/templates/translation/language.html:833
 msgid "Prenez une grande inspiration puis bloquez votre respiration"
-msgstr ""
+msgstr "Inspiraţi puternic, apoi blocaţi-vă respiraţia"
 
 #: translation/templates/translation/language.html:838
 #: translation/templates/translation/language.html:841
 msgid "Respirez normalement"
-msgstr ""
+msgstr "Respiraţi normal"
 
 #: translation/templates/translation/language.html:846
 #: translation/templates/translation/language.html:849
 msgid "Respirez profondément"
-msgstr ""
+msgstr "Respiraţi profund"
 
 #: translation/templates/translation/language.html:854
 #: translation/templates/translation/language.html:857
@@ -661,28 +662,28 @@ msgstr ""
 #: translation/templates/translation/language.html:901
 #: translation/templates/translation/language.html:904
 msgid "Est-ce que votre douleur :"
-msgstr ""
+msgstr "Durerea dumneavoastră:"
 
 #: translation/templates/translation/language.html:909
 #: translation/templates/translation/language.html:912
 #: translation/templates/translation/language.html:3001
 #: translation/templates/translation/language.html:3004
 msgid "Serre"
-msgstr ""
+msgstr "Strânge"
 
 #: translation/templates/translation/language.html:917
 #: translation/templates/translation/language.html:920
 #: translation/templates/translation/language.html:2993
 #: translation/templates/translation/language.html:2996
 msgid "Pique"
-msgstr ""
+msgstr "Înţeapă"
 
 #: translation/templates/translation/language.html:925
 #: translation/templates/translation/language.html:928
 #: translation/templates/translation/language.html:3009
 #: translation/templates/translation/language.html:3012
 msgid "Brûle"
-msgstr ""
+msgstr "Arde"
 
 #: translation/templates/translation/language.html:933
 #: translation/templates/translation/language.html:936
@@ -697,32 +698,32 @@ msgstr ""
 #: translation/templates/translation/language.html:949
 #: translation/templates/translation/language.html:952
 msgid "Minutes"
-msgstr ""
+msgstr "Minute"
 
 #: translation/templates/translation/language.html:957
 #: translation/templates/translation/language.html:960
 msgid "Heures"
-msgstr ""
+msgstr "Ore"
 
 #: translation/templates/translation/language.html:965
 #: translation/templates/translation/language.html:968
 msgid "Jours"
-msgstr ""
+msgstr "Zile"
 
 #: translation/templates/translation/language.html:973
 #: translation/templates/translation/language.html:976
 msgid "Je vais prendre votre pouls"
-msgstr ""
+msgstr "Vă iau pulsul"
 
 #: translation/templates/translation/language.html:981
 #: translation/templates/translation/language.html:984
 msgid "Je vais appuyer doucement sur votre ongle"
-msgstr ""
+msgstr "Vă apăs ușor unghiile"
 
 #: translation/templates/translation/language.html:989
 #: translation/templates/translation/language.html:992
 msgid "Je vais prendre votre pression artérielle"
-msgstr ""
+msgstr "Vă iau tensiunea"
 
 #: translation/templates/translation/language.html:997
 #: translation/templates/translation/language.html:1000
@@ -732,7 +733,7 @@ msgstr ""
 #: translation/templates/translation/language.html:1005
 #: translation/templates/translation/language.html:1008
 msgid "Ouvrez la bouche et soulevez la langue, je vais vous donner un traitement"
-msgstr ""
+msgstr "Deschideţi gura şi ridicaţi limba, vă voi da un tratament"
 
 #: translation/templates/translation/language.html:1013
 #: translation/templates/translation/language.html:1016
@@ -742,7 +743,7 @@ msgstr ""
 #: translation/templates/translation/language.html:1021
 #: translation/templates/translation/language.html:1024
 msgid "Buvez-vous de l'alcool ?"
-msgstr ""
+msgstr "Beți alcool ?"
 
 #: translation/templates/translation/language.html:1029
 #: translation/templates/translation/language.html:1032
@@ -771,22 +772,22 @@ msgstr ""
 #: translation/templates/translation/language.html:1068
 #: translation/templates/translation/language.html:1071
 msgid "Qu’avez-vous ressenti pendant la malaise ?"
-msgstr ""
+msgstr "Ce aţi simţit în timpul indispoziţiei ?"
 
 #: translation/templates/translation/language.html:1076
 #: translation/templates/translation/language.html:1079
 msgid "Fourmillement"
-msgstr ""
+msgstr "Furnicături"
 
 #: translation/templates/translation/language.html:1084
 #: translation/templates/translation/language.html:1087
 msgid "Vertige"
-msgstr ""
+msgstr "Ameţeli"
 
 #: translation/templates/translation/language.html:1092
 #: translation/templates/translation/language.html:1095
 msgid "Grande fatigue"
-msgstr ""
+msgstr "Oboseală intensă"
 
 #: translation/templates/translation/language.html:1100
 #: translation/templates/translation/language.html:1103
@@ -830,7 +831,7 @@ msgstr ""
 
 #: translation/templates/translation/language.html:1165
 msgid "DIGESTIF"
-msgstr ""
+msgstr "GASTROENTEROLOGIE"
 
 #: translation/templates/translation/language.html:1171
 #: translation/templates/translation/language.html:1174
@@ -867,7 +868,7 @@ msgstr ""
 #: translation/templates/translation/language.html:1598
 #: translation/templates/translation/language.html:1601
 msgid "Etes vous enceinte ?"
-msgstr ""
+msgstr "Sunteţi însărcinată ?"
 
 #: translation/templates/translation/language.html:1227
 #: translation/templates/translation/language.html:1230
@@ -882,27 +883,27 @@ msgstr ""
 #: translation/templates/translation/language.html:1243
 #: translation/templates/translation/language.html:1246
 msgid "Depuis combien de jours ?"
-msgstr ""
+msgstr "De câte zile ?"
 
 #: translation/templates/translation/language.html:1251
 #: translation/templates/translation/language.html:1254
 msgid "Avez-vous des nausées ?"
-msgstr ""
+msgstr "Aveţi senzaţie de greaţă ?"
 
 #: translation/templates/translation/language.html:1259
 #: translation/templates/translation/language.html:1262
 msgid "Avez-vous des diarrhées ?"
-msgstr ""
+msgstr "Aveţi diaree ?"
 
 #: translation/templates/translation/language.html:1267
 #: translation/templates/translation/language.html:1270
 msgid "Avez-vous vomi ?"
-msgstr ""
+msgstr "Aţi vomat ?"
 
 #: translation/templates/translation/language.html:1275
 #: translation/templates/translation/language.html:1278
 msgid "Y a-t-il du sang dans vos selles ?"
-msgstr ""
+msgstr "Aţi observat sânge în scaunul Dvs. ?"
 
 #: translation/templates/translation/language.html:1283
 #: translation/templates/translation/language.html:1286
@@ -917,12 +918,12 @@ msgstr ""
 #: translation/templates/translation/language.html:1299
 #: translation/templates/translation/language.html:1302
 msgid "Il faudra uriner dans ce pot pour réaliser un examen"
-msgstr ""
+msgstr "Ar trebui să urinaţi în acest recipient pentru a face o analiză"
 
 #: translation/templates/translation/language.html:1307
 #: translation/templates/translation/language.html:1310
 msgid "Il faudra réaliser une toilette intime avant d’uriner dans le pot"
-msgstr ""
+msgstr "Ar trebui făcută toaleta intimă înainte de a urina în acest recipient"
 
 #: translation/templates/translation/language.html:1316
 msgid "INFECTIEUX"
@@ -936,7 +937,7 @@ msgstr ""
 #: translation/templates/translation/language.html:1330
 #: translation/templates/translation/language.html:1333
 msgid "Montrez moi à quel endroit"
-msgstr ""
+msgstr "Arătaţi-mi în ce loc"
 
 #: translation/templates/translation/language.html:1338
 #: translation/templates/translation/language.html:1341
@@ -956,12 +957,12 @@ msgstr ""
 #: translation/templates/translation/language.html:1362
 #: translation/templates/translation/language.html:1365
 msgid "Il faut rester en isolement"
-msgstr ""
+msgstr "Ar trebui să rămâneţi izolat"
 
 #: translation/templates/translation/language.html:1370
 #: translation/templates/translation/language.html:1373
 msgid "Vous devez garder ce masque sur vous"
-msgstr ""
+msgstr "Trebuie să purtaţui această mască"
 
 #: translation/templates/translation/language.html:1378
 #: translation/templates/translation/language.html:1381
@@ -971,7 +972,7 @@ msgstr ""
 #: translation/templates/translation/language.html:1386
 #: translation/templates/translation/language.html:1389
 msgid "Je vais prendre votre température"
-msgstr ""
+msgstr "Vă voi lua temperatura."
 
 #: translation/templates/translation/language.html:1395
 msgid "OPHTALMOLOGIE"
@@ -1004,7 +1005,7 @@ msgstr ""
 
 #: translation/templates/translation/language.html:1442
 msgid "ANTÉCÉDENTS"
-msgstr ""
+msgstr "ANTECEDENTE"
 
 #: translation/templates/translation/language.html:1448
 #: translation/templates/translation/language.html:1451
@@ -1058,42 +1059,42 @@ msgstr ""
 #: translation/templates/translation/language.html:1527
 #: translation/templates/translation/language.html:1530
 msgid "Le bébé a t il perdu du poids ? Combien de kilo ?"
-msgstr ""
+msgstr "Bebele a pierdut din greutate ? Câte kilograme ?"
 
 #: translation/templates/translation/language.html:1535
 #: translation/templates/translation/language.html:1538
 msgid "Est-ce que le bébé est à jour de ces vaccins ?"
-msgstr ""
+msgstr "Este bebele la zi cu aceste vaccinuri ?"
 
 #: translation/templates/translation/language.html:1543
 #: translation/templates/translation/language.html:1546
 msgid "Est-ce que ses frères et soeurs sont malades ?"
-msgstr ""
+msgstr "Sunt fraţii / surorile sale bolnavi ?"
 
 #: translation/templates/translation/language.html:1551
 #: translation/templates/translation/language.html:1554
 msgid "Est-ce qu’il mange bien ?"
-msgstr ""
+msgstr "Mănâncă bine ?"
 
 #: translation/templates/translation/language.html:1559
 #: translation/templates/translation/language.html:1562
 msgid "Est-ce qu’il vomi ?"
-msgstr ""
+msgstr "Vomează ?"
 
 #: translation/templates/translation/language.html:1567
 #: translation/templates/translation/language.html:1570
 msgid "Est-ce qu’il semble plus agité que d’habitude ?"
-msgstr ""
+msgstr "Pare mai agitat ca de obicei ?"
 
 #: translation/templates/translation/language.html:1575
 #: translation/templates/translation/language.html:1578
 msgid "Est-ce qu’il semble plus fatigué que d’habitude ?"
-msgstr ""
+msgstr "Pare mai obosit ca de obicei?"
 
 #: translation/templates/translation/language.html:1583
 #: translation/templates/translation/language.html:1586
 msgid "Est ce qu’il a la diarrhée ?"
-msgstr ""
+msgstr "Are diaree?"
 
 #: translation/templates/translation/language.html:1592
 msgid "GYNECOLOGIE"
@@ -1102,47 +1103,47 @@ msgstr ""
 #: translation/templates/translation/language.html:1606
 #: translation/templates/translation/language.html:1609
 msgid "De combien de semaines ?"
-msgstr ""
+msgstr "De câte săptămâni ?"
 
 #: translation/templates/translation/language.html:1614
 #: translation/templates/translation/language.html:1617
 msgid "Avez vous vos règles ?"
-msgstr ""
+msgstr "Aveţi ciclu ?"
 
 #: translation/templates/translation/language.html:1622
 #: translation/templates/translation/language.html:1625
 msgid "Avez vous perdu du sang ?"
-msgstr ""
+msgstr "Aţi pierdut sânge ?"
 
 #: translation/templates/translation/language.html:1630
 #: translation/templates/translation/language.html:1633
 msgid "Vos pertes étaient elles rouge ou noir ?"
-msgstr ""
+msgstr "Scurgerile Dvs. au fost roşii sau negre ?"
 
 #: translation/templates/translation/language.html:1638
 #: translation/templates/translation/language.html:1641
 msgid "Avez vous eu des problèmes lors de vos précédentes grossesse ?"
-msgstr ""
+msgstr "Aţi avut probleme în timpul sarcinii Dvs. precedente ?"
 
 #: translation/templates/translation/language.html:1646
 #: translation/templates/translation/language.html:1649
 msgid "Avez vous des contractions ?"
-msgstr ""
+msgstr "Aveţi contracţii ?"
 
 #: translation/templates/translation/language.html:1654
 #: translation/templates/translation/language.html:1657
 msgid "Avez vous perdu les eaux ?"
-msgstr ""
+msgstr "Vi s-a rupt apa ?"
 
 #: translation/templates/translation/language.html:1662
 #: translation/templates/translation/language.html:1665
 msgid "Sentez vous le bébé bouger ?"
-msgstr ""
+msgstr "Simţiţi bebele mişcându-se ?"
 
 #: translation/templates/translation/language.html:1670
 #: translation/templates/translation/language.html:1673
 msgid "Avez vous une contraception ?"
-msgstr ""
+msgstr "Aveţi o contracepţie ?"
 
 #: translation/templates/translation/language.html:1678
 #: translation/templates/translation/language.html:1681
@@ -1152,162 +1153,162 @@ msgstr ""
 #: translation/templates/translation/language.html:1686
 #: translation/templates/translation/language.html:1689
 msgid "Il faut retirer vos sous-vêtements"
-msgstr ""
+msgstr "Trebuie să vă daţi jos lenjeria intimă"
 
 #: translation/templates/translation/language.html:1695
 msgid "TRAUMATOLOGIE"
-msgstr ""
+msgstr "TRAUMATOLOGIE"
 
 #: translation/templates/translation/language.html:1701
 #: translation/templates/translation/language.html:1704
 msgid "Avez-vous été éjecté du véhicule ?"
-msgstr ""
+msgstr "Aţi fost aruncat afară din vehicul ?"
 
 #: translation/templates/translation/language.html:1709
 #: translation/templates/translation/language.html:1712
 msgid "A quelle vitesse rouliez-vous ?"
-msgstr ""
+msgstr "Cu ce viteză rulaţi ?"
 
 #: translation/templates/translation/language.html:1717
 #: translation/templates/translation/language.html:1720
 msgid "Etiez-vous casqué ?"
-msgstr ""
+msgstr "Purtaţi cască ?"
 
 #: translation/templates/translation/language.html:1725
 #: translation/templates/translation/language.html:1728
 msgid "Aviez-vous votre ceinture de sécurité ?"
-msgstr ""
+msgstr "Aveaţi pusă centura de siguranţă ?"
 
 #: translation/templates/translation/language.html:1733
 #: translation/templates/translation/language.html:1736
 msgid "Avez vous fait une chute ?"
-msgstr ""
+msgstr "Aţi suferit o căzătură ?"
 
 #: translation/templates/translation/language.html:1741
 #: translation/templates/translation/language.html:1744
 msgid "De quelle hauteur êtes-vous tombé ?"
-msgstr ""
+msgstr "De la ce înălţime ?"
 
 #: translation/templates/translation/language.html:1749
 #: translation/templates/translation/language.html:1752
 msgid "Prenez vous des anticoagulants, des médicaments pour fluidifier le sang ?"
-msgstr ""
+msgstr "Luaţi anticoagulante, medicamente pentru fluidizarea sângelui ?"
 
 #: translation/templates/translation/language.html:1757
 #: translation/templates/translation/language.html:1760
 msgid "Je vais installer une collier afin de protéger votre colonne vertébrale"
-msgstr ""
+msgstr "Vă voi pune un guler cervical pentru protecţia coloanei vertebrale"
 
 #: translation/templates/translation/language.html:1765
 #: translation/templates/translation/language.html:1768
 msgid "Je dois mettre un antiseptique sur la plaie"
-msgstr ""
+msgstr "Trebuie să vă pun un antiseptic pe plagă"
 
 #: translation/templates/translation/language.html:1773
 #: translation/templates/translation/language.html:1776
 msgid "Je dois suturer la plaie"
-msgstr ""
+msgstr "Trebuie să vă cos plaga"
 
 #: translation/templates/translation/language.html:1781
 #: translation/templates/translation/language.html:1784
 msgid "Je dois faire un pansement"
-msgstr ""
+msgstr "Trebuie să fac un pansament"
 
 #: translation/templates/translation/language.html:1789
 #: translation/templates/translation/language.html:1792
 msgid "Je vais faire une anesthésie autour de la plaie"
-msgstr ""
+msgstr "Trebuie să vă fac o anestezie în jurul plăgii"
 
 #: translation/templates/translation/language.html:1797
 #: translation/templates/translation/language.html:1800
 msgid "Ne bougez pas"
-msgstr ""
+msgstr "Nu vă mişcaţi"
 
 #: translation/templates/translation/language.html:1805
 #: translation/templates/translation/language.html:1808
 msgid "Je dois vous faire un plâtre"
-msgstr ""
+msgstr "Trebuie să vă pun un plasture"
 
 #: translation/templates/translation/language.html:1813
 #: translation/templates/translation/language.html:1816
 #: translation/templates/translation/language.html:2202
 #: translation/templates/translation/language.html:2205
 msgid "Vous devez être opéré"
-msgstr ""
+msgstr "Trebuie să fiţi operat"
 
 #: translation/templates/translation/language.html:1822
 msgid "EXAMENS"
-msgstr ""
+msgstr "EXAMINĂRI"
 
 #: translation/templates/translation/language.html:1828
 #: translation/templates/translation/language.html:1831
 msgid "Vous devez avoir :"
-msgstr ""
+msgstr "Ar trebui să aveţi:"
 
 #: translation/templates/translation/language.html:1836
 #: translation/templates/translation/language.html:1839
 msgid "Je vais vous faire :"
-msgstr ""
+msgstr "Vă voi face:"
 
 #: translation/templates/translation/language.html:1844
 #: translation/templates/translation/language.html:1847
 msgid "une perfusion"
-msgstr ""
+msgstr "o perfuzie"
 
 #: translation/templates/translation/language.html:1852
 #: translation/templates/translation/language.html:1855
 msgid "une prise de sang"
-msgstr ""
+msgstr "o luare de sânge"
 
 #: translation/templates/translation/language.html:1860
 #: translation/templates/translation/language.html:1863
 msgid "un pansement"
-msgstr ""
+msgstr "un pansament"
 
 #: translation/templates/translation/language.html:1868
 #: translation/templates/translation/language.html:1871
 msgid "une piqûre"
-msgstr ""
+msgstr "o înţepătură"
 
 #: translation/templates/translation/language.html:1876
 #: translation/templates/translation/language.html:1879
 msgid "votre toilette"
-msgstr ""
+msgstr "toaleta"
 
 #: translation/templates/translation/language.html:1884
 #: translation/templates/translation/language.html:1887
 msgid "un scanner"
-msgstr ""
+msgstr "o scanare"
 
 #: translation/templates/translation/language.html:1892
 #: translation/templates/translation/language.html:1895
 msgid "une radiographie"
-msgstr ""
+msgstr "o radiografie"
 
 #: translation/templates/translation/language.html:1900
 #: translation/templates/translation/language.html:1903
 msgid "un plâtre"
-msgstr ""
+msgstr "un plasture"
 
 #: translation/templates/translation/language.html:1908
 #: translation/templates/translation/language.html:1911
 msgid "une échographie"
-msgstr ""
+msgstr "o ecografie"
 
 #: translation/templates/translation/language.html:1916
 #: translation/templates/translation/language.html:1919
 msgid "une opération"
-msgstr ""
+msgstr "Trebuie să fiţi operat."
 
 #: translation/templates/translation/language.html:1924
 #: translation/templates/translation/language.html:1927
 msgid "Aujourd'hui"
-msgstr ""
+msgstr "astăzi"
 
 #: translation/templates/translation/language.html:1932
 #: translation/templates/translation/language.html:1935
 msgid "Demain"
-msgstr ""
+msgstr "mâine"
 
 #: translation/templates/translation/language.html:1940
 #: translation/templates/translation/language.html:1943
@@ -1317,438 +1318,438 @@ msgstr ""
 #: translation/templates/translation/language.html:1948
 #: translation/templates/translation/language.html:1951
 msgid "L’examen n’est pas douloureux"
-msgstr ""
+msgstr "Examinarea nu e dureroasă"
 
 #: translation/templates/translation/language.html:1956
 #: translation/templates/translation/language.html:1959
 msgid "Après l'opération vous aurez :"
-msgstr ""
+msgstr "După operaţie veţi avea:"
 
 #: translation/templates/translation/language.html:1964
 #: translation/templates/translation/language.html:1967
 msgid "Une sonde urinaire"
-msgstr ""
+msgstr "O sondă urinară"
 
 #: translation/templates/translation/language.html:1972
 #: translation/templates/translation/language.html:1975
 msgid "Une sonde gastrique"
-msgstr ""
+msgstr "O sondă gastrică"
 
 #: translation/templates/translation/language.html:1980
 #: translation/templates/translation/language.html:1983
 msgid "Un drain"
-msgstr ""
+msgstr "Un drenaj"
 
 #: translation/templates/translation/language.html:1988
 #: translation/templates/translation/language.html:1991
 msgid "Une cicatrice"
-msgstr ""
+msgstr "O cicatrice"
 
 #: translation/templates/translation/language.html:1996
 #: translation/templates/translation/language.html:1999
 msgid "Vous devez retier tous vos bijoux et piercing"
-msgstr ""
+msgstr "Trebuie să vă daţi jos bijuteriile şi piercingurile"
 
 #: translation/templates/translation/language.html:2004
 #: translation/templates/translation/language.html:2007
 msgid "Vous devez retier votre vernis a ongles"
-msgstr ""
+msgstr "Trebuie să vă daţi jos lacul de unghii"
 
 #: translation/templates/translation/language.html:2012
 #: translation/templates/translation/language.html:2015
 msgid "Vous devez retier vos appareils dentaires et auditifs"
-msgstr ""
+msgstr "Trebuie să vă daţi jos aparatul dentar şi auditiv"
 
 #: translation/templates/translation/language.html:2020
 #: translation/templates/translation/language.html:2023
 msgid "Dites nous si vous avez :"
-msgstr ""
+msgstr "Spuneţi-ne dacă aveţi:"
 
 #: translation/templates/translation/language.html:2028
 #: translation/templates/translation/language.html:2031
 msgid "Un pace-maker"
-msgstr ""
+msgstr "Un stimulator cardiac"
 
 #: translation/templates/translation/language.html:2036
 #: translation/templates/translation/language.html:2039
 msgid "Une valve cardiaque"
-msgstr ""
+msgstr "O valvă cardiacă"
 
 #: translation/templates/translation/language.html:2044
 #: translation/templates/translation/language.html:2047
 msgid "Un stent"
-msgstr ""
+msgstr "Un stent"
 
 #: translation/templates/translation/language.html:2052
 #: translation/templates/translation/language.html:2055
 msgid "Une prothèse"
-msgstr ""
+msgstr "O proteză"
 
 #: translation/templates/translation/language.html:2061
 msgid "TRAITEMENTS et CONSIGNES"
-msgstr ""
+msgstr "TRATAMENTE ŞI RECOMANDĂRI"
 
 #: translation/templates/translation/language.html:2067
 #: translation/templates/translation/language.html:2070
 msgid "Je vous donne :"
-msgstr ""
+msgstr "Vă presciu:"
 
 #: translation/templates/translation/language.html:2075
 #: translation/templates/translation/language.html:2078
 msgid "des médicaments"
-msgstr ""
+msgstr "medicamente"
 
 #: translation/templates/translation/language.html:2083
 #: translation/templates/translation/language.html:2086
 msgid "des antalgiques"
-msgstr ""
+msgstr "antialgice"
 
 #: translation/templates/translation/language.html:2091
 #: translation/templates/translation/language.html:2094
 msgid "des antibiotiques"
-msgstr ""
+msgstr "antibiotice"
 
 #: translation/templates/translation/language.html:2099
 #: translation/templates/translation/language.html:2102
 msgid "Vous ne devez pas boire"
-msgstr ""
+msgstr "Trebuie să nu beţi."
 
 #: translation/templates/translation/language.html:2107
 #: translation/templates/translation/language.html:2110
 msgid "Vous ne devez pas manger"
-msgstr ""
+msgstr "Trebuie să nu mâncaţi"
 
 #: translation/templates/translation/language.html:2115
 #: translation/templates/translation/language.html:2118
 msgid "Vous ne devez pas vous lever"
-msgstr ""
+msgstr "Trebuie să nu vă ridicaţi"
 
 #: translation/templates/translation/language.html:2123
 #: translation/templates/translation/language.html:2126
 msgid "Vous devez rester sur le dos"
-msgstr ""
+msgstr "Trebuie să rămâneţi întins pe spate"
 
 #: translation/templates/translation/language.html:2131
 #: translation/templates/translation/language.html:2134
 msgid "Vous ne devez pas fumer"
-msgstr ""
+msgstr "Trebuie să nu fumaţi"
 
 #: translation/templates/translation/language.html:2139
 #: translation/templates/translation/language.html:2142
 msgid "Pour nous appeler appuyer ici"
-msgstr ""
+msgstr "Pentru a ne chema apăsaţi aici"
 
 #: translation/templates/translation/language.html:2147
 #: translation/templates/translation/language.html:2150
 msgid "Pour allumer ou éteindre les lumières appuyer ici"
-msgstr ""
+msgstr "Pentru a aprinde sau stinge luminile apăsaţi aici"
 
 #: translation/templates/translation/language.html:2155
 #: translation/templates/translation/language.html:2158
 msgid "Les toilettes sont ici"
-msgstr ""
+msgstr "Toaletele sunt aici"
 
 #: translation/templates/translation/language.html:2163
 #: translation/templates/translation/language.html:2166
 msgid "La salle de bain est ici"
-msgstr ""
+msgstr "Baia este aici"
 
 #: translation/templates/translation/language.html:2171
 #: translation/templates/translation/language.html:2174
 msgid "Votre chambre est ici"
-msgstr ""
+msgstr "Camera Dvs. este aici"
 
 #: translation/templates/translation/language.html:2180
 msgid "CONCLUSION"
-msgstr ""
+msgstr "CONCLUZIE"
 
 #: translation/templates/translation/language.html:2186
 #: translation/templates/translation/language.html:2189
 msgid "Il y a une fracture"
-msgstr ""
+msgstr "Este o fractură"
 
 #: translation/templates/translation/language.html:2194
 #: translation/templates/translation/language.html:2197
 msgid "Il n’y a pas de fracture"
-msgstr ""
+msgstr "Nu este fractură"
 
 #: translation/templates/translation/language.html:2210
 #: translation/templates/translation/language.html:2213
 msgid "Vous devez revenir demain matin"
-msgstr ""
+msgstr "Trebuie să reveniţi mâine dimineaţă"
 
 #: translation/templates/translation/language.html:2218
 #: translation/templates/translation/language.html:2221
 msgid "Vous devez revenir dans :"
-msgstr ""
+msgstr "Trebuie să reveniţi peste:"
 
 #: translation/templates/translation/language.html:2226
 #: translation/templates/translation/language.html:2229
 msgid "Vous devrez faire retirer les fils dans :"
-msgstr ""
+msgstr "Va trebui să aveţi firele scoase peste:"
 
 #: translation/templates/translation/language.html:2234
 #: translation/templates/translation/language.html:2237
 msgid "Vous devez avoir un plâtre"
-msgstr ""
+msgstr "Trebuie să aveţi un plasture"
 
 #: translation/templates/translation/language.html:2242
 #: translation/templates/translation/language.html:2245
 msgid "Vous devrez porter une attelle"
-msgstr ""
+msgstr "Va trebui să purtaţi o atelă"
 
 #: translation/templates/translation/language.html:2250
 #: translation/templates/translation/language.html:2253
 msgid "Vous pouvez rentrer chez vous"
-msgstr ""
+msgstr "Puteţi reintra la Dvs"
 
 #: translation/templates/translation/language.html:2258
 #: translation/templates/translation/language.html:2261
 msgid "Vous devez aller à l'hôpital"
-msgstr ""
+msgstr "Trebuie să mergeţi la spital."
 
 #: translation/templates/translation/language.html:2266
 #: translation/templates/translation/language.html:2269
 msgid "Vous devez rester à l'hôpital"
-msgstr ""
+msgstr "Trebuie să rămâneţi la spital"
 
 #: translation/templates/translation/language.html:2274
 #: translation/templates/translation/language.html:2277
 msgid "Vous allez être transféré dans un autre service"
-msgstr ""
+msgstr "Veţi fi transferat la o altă secţie"
 
 #: translation/templates/translation/language.html:2283
 msgid "PATIENT EN STRUCTURE"
-msgstr ""
+msgstr "PACIENT ÎN INTERNARE"
 
 #: translation/templates/translation/language.html:2289
 #: translation/templates/translation/language.html:2292
 msgid "J’ai faim"
-msgstr ""
+msgstr "Îmi este foame"
 
 #: translation/templates/translation/language.html:2297
 #: translation/templates/translation/language.html:2300
 msgid "j’ai soif"
-msgstr ""
+msgstr "Îmi este sete"
 
 #: translation/templates/translation/language.html:2305
 #: translation/templates/translation/language.html:2308
 msgid "j’ai mal"
-msgstr ""
+msgstr "Îmi este rău"
 
 #: translation/templates/translation/language.html:2313
 #: translation/templates/translation/language.html:2316
 msgid "j’ai froid"
-msgstr ""
+msgstr "Îmi este frig"
 
 #: translation/templates/translation/language.html:2321
 #: translation/templates/translation/language.html:2324
 msgid "j’ai chaud"
-msgstr ""
+msgstr "Îmi este cald"
 
 #: translation/templates/translation/language.html:2329
 #: translation/templates/translation/language.html:2332
 msgid "j’ai des nausées"
-msgstr ""
+msgstr "Am senzaţie de greaţă."
 
 #: translation/templates/translation/language.html:2337
 #: translation/templates/translation/language.html:2340
 msgid "j’ai vomi"
-msgstr ""
+msgstr "Am vomat."
 
 #: translation/templates/translation/language.html:2345
 #: translation/templates/translation/language.html:2348
 msgid "j’ai uriné (je voudrais être changé)"
-msgstr ""
+msgstr "Am urinat (ar trebui să fiu schimbat)"
 
 #: translation/templates/translation/language.html:2353
 #: translation/templates/translation/language.html:2356
 msgid "je voudrais uriner"
-msgstr ""
+msgstr "Aş dori să urinez."
 
 #: translation/templates/translation/language.html:2361
 #: translation/templates/translation/language.html:2364
 msgid "je voudrais déféquer"
-msgstr ""
+msgstr "Ar trebui să am scaun."
 
 #: translation/templates/translation/language.html:2369
 #: translation/templates/translation/language.html:2372
 msgid "j’ai des vertiges"
-msgstr ""
+msgstr "Am ameţeli."
 
 #: translation/templates/translation/language.html:2377
 #: translation/templates/translation/language.html:2380
 msgid "j’ai peur"
-msgstr ""
+msgstr "Mi-e frică."
 
 #: translation/templates/translation/language.html:2385
 #: translation/templates/translation/language.html:2388
 msgid "je voudrais être réinstallé"
-msgstr ""
+msgstr "Aş dori să fiu reinstalat"
 
 #: translation/templates/translation/language.html:2393
 #: translation/templates/translation/language.html:2396
 msgid "je voudrais des informations"
-msgstr ""
+msgstr "Aş dori informaţii"
 
 #: translation/templates/translation/language.html:2401
 #: translation/templates/translation/language.html:2404
 msgid "J’ai eu un accident"
-msgstr ""
+msgstr "Am avut un accident"
 
 #: translation/templates/translation/language.html:2409
 #: translation/templates/translation/language.html:2412
 msgid "J’étais piéton"
-msgstr ""
+msgstr "Eram pieton"
 
 #: translation/templates/translation/language.html:2417
 #: translation/templates/translation/language.html:2420
 msgid "J’ai été renversé"
-msgstr ""
+msgstr "Am fost doborât"
 
 #: translation/templates/translation/language.html:2425
 #: translation/templates/translation/language.html:2428
 msgid "Je n’ai pas été renversé"
-msgstr ""
+msgstr "Nu am fost doborât"
 
 #: translation/templates/translation/language.html:2433
 #: translation/templates/translation/language.html:2436
 #: translation/templates/translation/language.html:2561
 #: translation/templates/translation/language.html:2564
 msgid "Je suis tombé"
-msgstr ""
+msgstr "Am căzut"
 
 #: translation/templates/translation/language.html:2441
 #: translation/templates/translation/language.html:2444
 msgid "J’ai reçu un coup"
-msgstr ""
+msgstr "Am primit o lovitură"
 
 #: translation/templates/translation/language.html:2449
 #: translation/templates/translation/language.html:2452
 msgid "J’étais en voiture"
-msgstr ""
+msgstr "Eram în maşină"
 
 #: translation/templates/translation/language.html:2457
 #: translation/templates/translation/language.html:2460
 #: translation/templates/translation/language.html:2537
 #: translation/templates/translation/language.html:2540
 msgid "Je roulais à “x” km/h"
-msgstr ""
+msgstr "Rulam cu \"x\" km/h."
 
 #: translation/templates/translation/language.html:2465
 #: translation/templates/translation/language.html:2468
 msgid "J’avais ma ceinture de sécurité"
-msgstr ""
+msgstr "Aveam centura de siguranţă"
 
 #: translation/templates/translation/language.html:2473
 #: translation/templates/translation/language.html:2476
 msgid "Je n’avais pas de ceinture de sécurité"
-msgstr ""
+msgstr "Nu aveam centura de siguranţă"
 
 #: translation/templates/translation/language.html:2481
 #: translation/templates/translation/language.html:2484
 msgid "J’ai été éjecté pendant l’accident"
-msgstr ""
+msgstr "Am fost aruncat afară din vehicul în timpul accidentului"
 
 #: translation/templates/translation/language.html:2489
 #: translation/templates/translation/language.html:2492
 msgid "Je n’ai pas été éjecté pendant l’accident"
-msgstr ""
+msgstr "Nu am fost aruncat afară din vehicul în timpul accidentului"
 
 #: translation/templates/translation/language.html:2497
 #: translation/templates/translation/language.html:2500
 msgid "L’air-bag s’est déclenché"
-msgstr ""
+msgstr "Airbagul s-a declanşat"
 
 #: translation/templates/translation/language.html:2505
 #: translation/templates/translation/language.html:2508
 msgid "L’air-bag ne s’est pas déclenché"
-msgstr ""
+msgstr "Airbagul nu s-a declanşat"
 
 #: translation/templates/translation/language.html:2513
 #: translation/templates/translation/language.html:2516
 msgid "J’étais en vélo"
-msgstr ""
+msgstr "Eram pe bicicletă"
 
 #: translation/templates/translation/language.html:2521
 #: translation/templates/translation/language.html:2524
 msgid "J'étais en scooter"
-msgstr ""
+msgstr "Eram pe scuter"
 
 #: translation/templates/translation/language.html:2529
 #: translation/templates/translation/language.html:2532
 msgid "J'étais en moto"
-msgstr ""
+msgstr "Eram pe motocicletă"
 
 #: translation/templates/translation/language.html:2545
 #: translation/templates/translation/language.html:2548
 msgid "J’avais un casque"
-msgstr ""
+msgstr "Aveam cască."
 
 #: translation/templates/translation/language.html:2553
 #: translation/templates/translation/language.html:2556
 msgid "Je n’avais pas de casque"
-msgstr ""
+msgstr "Nu aveam cască"
 
 #: translation/templates/translation/language.html:2569
 #: translation/templates/translation/language.html:2572
 msgid "Je suis tombé de ma hauteur"
-msgstr ""
+msgstr "Am căzut de la înălţimea mea"
 
 #: translation/templates/translation/language.html:2577
 #: translation/templates/translation/language.html:2580
 msgid "Je suis tombé de “x” mètres de haut"
-msgstr ""
+msgstr "Am căzut de la o înălţime de \"x\" metri"
 
 #: translation/templates/translation/language.html:2585
 #: translation/templates/translation/language.html:2588
 msgid "Ma tête a tapé pendant l’accident"
-msgstr ""
+msgstr "M-am lovit la cap în timpul accidentului"
 
 #: translation/templates/translation/language.html:2593
 #: translation/templates/translation/language.html:2596
 msgid "Ma tête n’a pas tapé pendant l’accident"
-msgstr ""
+msgstr "Nu m-am lovit la cap în timpul accidentului."
 
 #: translation/templates/translation/language.html:2601
 #: translation/templates/translation/language.html:2604
 msgid "J’ai des douleurs :"
-msgstr ""
+msgstr "Am dureri:"
 
 #: translation/templates/translation/language.html:2609
 #: translation/templates/translation/language.html:2612
 msgid "à la tête"
-msgstr ""
+msgstr "la cap"
 
 #: translation/templates/translation/language.html:2617
 #: translation/templates/translation/language.html:2620
 msgid "au cou"
-msgstr ""
+msgstr "la gât"
 
 #: translation/templates/translation/language.html:2625
 #: translation/templates/translation/language.html:2628
 msgid "au dos"
-msgstr ""
+msgstr "la spate"
 
 #: translation/templates/translation/language.html:2633
 #: translation/templates/translation/language.html:2636
 msgid "au bras"
-msgstr ""
+msgstr "la braţ"
 
 #: translation/templates/translation/language.html:2641
 #: translation/templates/translation/language.html:2644
 msgid "à la jambe"
-msgstr ""
+msgstr "la picior"
 
 #: translation/templates/translation/language.html:2649
 #: translation/templates/translation/language.html:2652
 msgid "au torse"
-msgstr ""
+msgstr "la trunchi"
 
 #: translation/templates/translation/language.html:2657
 #: translation/templates/translation/language.html:2660
 msgid "au ventre"
-msgstr ""
+msgstr "la burtă"
 
 #: translation/templates/translation/language.html:2665
 #: translation/templates/translation/language.html:2668
@@ -1758,264 +1759,264 @@ msgstr ""
 #: translation/templates/translation/language.html:2673
 #: translation/templates/translation/language.html:2676
 msgid "Je ne prend pas d’anticoagulants (médicaments pour fluidifier le sang)"
-msgstr ""
+msgstr "Nu iau anticoagulante (medicamente pentru fluidizarea sângelui)"
 
 #: translation/templates/translation/language.html:2681
 #: translation/templates/translation/language.html:2684
 msgid "Tête"
-msgstr ""
+msgstr "Cap"
 
 #: translation/templates/translation/language.html:2689
 #: translation/templates/translation/language.html:2692
 #: translation/templates/translation/language.html:3553
 #: translation/templates/translation/language.html:3556
 msgid "J’ai des douleurs depuis :"
-msgstr ""
+msgstr "Am dureri de:"
 
 #: translation/templates/translation/language.html:2721
 #: translation/templates/translation/language.html:2724
 msgid "J’arrive bien à bouger mes bras et jambes"
-msgstr ""
+msgstr "Pot să îmi mişc bine braţele şi picioarele"
 
 #: translation/templates/translation/language.html:2729
 #: translation/templates/translation/language.html:2732
 msgid "Je n’arrive pas a bouger un bras ou une jambe"
-msgstr ""
+msgstr "Nu reuşesc să îmi mişc un braţ sau un picior."
 
 #: translation/templates/translation/language.html:2737
 #: translation/templates/translation/language.html:2740
 msgid "J’arrive bien à parler"
-msgstr ""
+msgstr "Reuşesc să vorbesc bine"
 
 #: translation/templates/translation/language.html:2745
 #: translation/templates/translation/language.html:2748
 msgid "J’ai des difficultés à parler"
-msgstr ""
+msgstr "Am dificultăţi la vorbire"
 
 #: translation/templates/translation/language.html:2753
 #: translation/templates/translation/language.html:2756
 msgid "La lumière me dérange"
-msgstr ""
+msgstr "Lumina mă deranjează"
 
 #: translation/templates/translation/language.html:2761
 #: translation/templates/translation/language.html:2764
 msgid "La lumière ne me dérange pas"
-msgstr ""
+msgstr "Lumina nu mă deranjează"
 
 #: translation/templates/translation/language.html:2769
 #: translation/templates/translation/language.html:2772
 msgid "J’ai de la fièvre"
-msgstr ""
+msgstr "Am febră"
 
 #: translation/templates/translation/language.html:2777
 #: translation/templates/translation/language.html:2780
 msgid "Je n’ai pas de fièvre"
-msgstr ""
+msgstr "Nu am febră"
 
 #: translation/templates/translation/language.html:2785
 #: translation/templates/translation/language.html:2788
 msgid "J’ai des douleurs à la nuque"
-msgstr ""
+msgstr "Mă doare ceafa"
 
 #: translation/templates/translation/language.html:2793
 #: translation/templates/translation/language.html:2796
 msgid "Je n’ai pas de douleurs à la nuque"
-msgstr ""
+msgstr "Nu mă doare ceafa"
 
 #: translation/templates/translation/language.html:2801
 #: translation/templates/translation/language.html:2804
 msgid "J’ai fais un malaise"
-msgstr ""
+msgstr "Am făcut o indispoziţie"
 
 #: translation/templates/translation/language.html:2809
 #: translation/templates/translation/language.html:2812
 msgid "Je n’ai pas fais de malaise"
-msgstr ""
+msgstr "Nu am făcut o indispoziţie"
 
 #: translation/templates/translation/language.html:2817
 #: translation/templates/translation/language.html:2820
 msgid "J’ai perdu connaissance"
-msgstr ""
+msgstr "Mi-am pierdut cunoştinţa"
 
 #: translation/templates/translation/language.html:2825
 #: translation/templates/translation/language.html:2828
 msgid "Je n’ai pas perdu connaissance"
-msgstr ""
+msgstr "Nu mi-am pierdut cunoştinţa"
 
 #: translation/templates/translation/language.html:2833
 #: translation/templates/translation/language.html:2836
 msgid "J’ai perdu mes urines"
-msgstr ""
+msgstr "Am avut pierderi de urină"
 
 #: translation/templates/translation/language.html:2841
 #: translation/templates/translation/language.html:2844
 msgid "Je n’ai pas perdu mes urines"
-msgstr ""
+msgstr "Nu am avut pierderi de urină"
 
 #: translation/templates/translation/language.html:2849
 #: translation/templates/translation/language.html:2852
 msgid "J’ai convulsé"
-msgstr ""
+msgstr "Am avut o convulsie"
 
 #: translation/templates/translation/language.html:2857
 #: translation/templates/translation/language.html:2860
 msgid "Je n’ai pas convulsé"
-msgstr ""
+msgstr "Nu am avut o convulsie"
 
 #: translation/templates/translation/language.html:2865
 #: translation/templates/translation/language.html:2868
 msgid "Je suis épileptique"
-msgstr ""
+msgstr "Sunt epileptic"
 
 #: translation/templates/translation/language.html:2873
 #: translation/templates/translation/language.html:2876
 msgid "Je ne suis pas épileptique"
-msgstr ""
+msgstr "Nu sunt epileptic"
 
 #: translation/templates/translation/language.html:2881
 #: translation/templates/translation/language.html:2884
 msgid "J’ai pris mes traitements aujourd’hui"
-msgstr ""
+msgstr "Mi-am luat tratamentele astăzi"
 
 #: translation/templates/translation/language.html:2889
 #: translation/templates/translation/language.html:2892
 msgid "Je n’ai pas prit mes traitements aujourd’hui"
-msgstr ""
+msgstr "Nu mi-am luat tratamentele astăzi"
 
 #: translation/templates/translation/language.html:2897
 #: translation/templates/translation/language.html:2900
 msgid "J’ai des vertiges"
-msgstr ""
+msgstr "Am ameţeli"
 
 #: translation/templates/translation/language.html:2905
 #: translation/templates/translation/language.html:2908
 msgid "Je n’ai pas de vertiges"
-msgstr ""
+msgstr "Nu am ameţeli"
 
 #: translation/templates/translation/language.html:2913
 #: translation/templates/translation/language.html:2916
 msgid "Je suis diabétique"
-msgstr ""
+msgstr "Sunt diabetic"
 
 #: translation/templates/translation/language.html:2921
 #: translation/templates/translation/language.html:2924
 msgid "Je ne suis pas diabétique"
-msgstr ""
+msgstr "Nu sunt diabetic"
 
 #: translation/templates/translation/language.html:2929
 #: translation/templates/translation/language.html:2932
 msgid "J’ai mangé aujourd’hui"
-msgstr ""
+msgstr "Am mâncat astăzi"
 
 #: translation/templates/translation/language.html:2937
 #: translation/templates/translation/language.html:2940
 msgid "Je n’ai pas mangé aujourd’hui"
-msgstr ""
+msgstr "Nu am mâncat astăzi"
 
 #: translation/templates/translation/language.html:2945
 #: translation/templates/translation/language.html:2948
 msgid "Torse"
-msgstr ""
+msgstr "Trunchi."
 
 #: translation/templates/translation/language.html:2953
 #: translation/templates/translation/language.html:2956
 msgid "J’ai eu un choc au torse récemment"
-msgstr ""
+msgstr "Am recepţionat un şoc asupra trunchiului recent"
 
 #: translation/templates/translation/language.html:2961
 #: translation/templates/translation/language.html:2964
 msgid "Je n’ai pas eu de choc au torse récemment"
-msgstr ""
+msgstr "Nu am recepţionat niciun şoc asupra trunchiului recent"
 
 #: translation/templates/translation/language.html:2969
 #: translation/templates/translation/language.html:2972
 msgid "La douleur est encore présente"
-msgstr ""
+msgstr "Durerea este încă prezentă"
 
 #: translation/templates/translation/language.html:2977
 #: translation/templates/translation/language.html:2980
 msgid "La douleur n’est plus présente"
-msgstr ""
+msgstr "Durerea nu mai este prezentă"
 
 #: translation/templates/translation/language.html:2985
 #: translation/templates/translation/language.html:2988
 msgid "La douleur :"
-msgstr ""
+msgstr "Durerea:"
 
 #: translation/templates/translation/language.html:3017
 #: translation/templates/translation/language.html:3020
 msgid "La douleur irradie vers :"
-msgstr ""
+msgstr "Durerea iradiază spre:"
 
 #: translation/templates/translation/language.html:3025
 #: translation/templates/translation/language.html:3028
 msgid "Machoire"
-msgstr ""
+msgstr "Falcă"
 
 #: translation/templates/translation/language.html:3033
 #: translation/templates/translation/language.html:3036
 msgid "Je ressent des palpitations"
-msgstr ""
+msgstr "Resimt palpitaţii"
 
 #: translation/templates/translation/language.html:3041
 #: translation/templates/translation/language.html:3044
 msgid "Je ne ressent pas de palpitations"
-msgstr ""
+msgstr "Nu resimt palpitaţii"
 
 #: translation/templates/translation/language.html:3049
 #: translation/templates/translation/language.html:3052
 msgid "Dans ma famille il y a des problèmes cardiaques"
-msgstr ""
+msgstr "În familia mea există probleme cardiace"
 
 #: translation/templates/translation/language.html:3057
 #: translation/templates/translation/language.html:3060
 msgid "Dans ma famille il n’y a pas de problème cardiaque"
-msgstr ""
+msgstr "În familia mea nu există probleme cardiace"
 
 #: translation/templates/translation/language.html:3065
 #: translation/templates/translation/language.html:3068
 msgid "La douleur est plus forte quand je respire"
-msgstr ""
+msgstr "Durerea e mai puternică atunci când respir"
 
 #: translation/templates/translation/language.html:3073
 #: translation/templates/translation/language.html:3076
 msgid "La douleur n’est pas plus forte quand je respire"
-msgstr ""
+msgstr "Durerea nu e mai puternică atunci când respir"
 
 #: translation/templates/translation/language.html:3081
 #: translation/templates/translation/language.html:3084
 msgid "Je crache du sang"
-msgstr ""
+msgstr "Scuip sânge"
 
 #: translation/templates/translation/language.html:3089
 #: translation/templates/translation/language.html:3092
 msgid "Je ne crache pas du sang"
-msgstr ""
+msgstr "Nu scuip sânge"
 
 #: translation/templates/translation/language.html:3097
 #: translation/templates/translation/language.html:3100
 msgid "Je tousse"
-msgstr ""
+msgstr "Am tuse"
 
 #: translation/templates/translation/language.html:3105
 #: translation/templates/translation/language.html:3108
 msgid "Je ne tousse pas"
-msgstr ""
+msgstr "Nu am tuse"
 
 #: translation/templates/translation/language.html:3113
 #: translation/templates/translation/language.html:3116
 msgid "J’ai des difficultés à respirer"
-msgstr ""
+msgstr "Am dificultăţi la respiraţie"
 
 #: translation/templates/translation/language.html:3121
 #: translation/templates/translation/language.html:3124
 msgid "Je n’ai pas de difficultés à respirer"
-msgstr ""
+msgstr "Nu am dificultăţi la respiraţie"
 
 #: translation/templates/translation/language.html:3129
 #: translation/templates/translation/language.html:3132
 msgid "J’ai respiré des fumées"
-msgstr ""
+msgstr "Am respirat fum"
 
 #: translation/templates/translation/language.html:3137
 #: translation/templates/translation/language.html:3140
@@ -2025,167 +2026,167 @@ msgstr ""
 #: translation/templates/translation/language.html:3145
 #: translation/templates/translation/language.html:3148
 msgid "Je ne fume pas"
-msgstr ""
+msgstr "Nu fumez"
 
 #: translation/templates/translation/language.html:3153
 #: translation/templates/translation/language.html:3156
 msgid "Je bois de l’alcool"
-msgstr ""
+msgstr "Beau alcool"
 
 #: translation/templates/translation/language.html:3161
 #: translation/templates/translation/language.html:3164
 msgid "Je ne bois pas d’alcool"
-msgstr ""
+msgstr "Nu beau alcool"
 
 #: translation/templates/translation/language.html:3169
 #: translation/templates/translation/language.html:3172
 msgid "J’ai du cholestérol"
-msgstr ""
+msgstr "Am colesterol"
 
 #: translation/templates/translation/language.html:3177
 #: translation/templates/translation/language.html:3180
 msgid "Je n’ai pas de cholestérol"
-msgstr ""
+msgstr "Nu am colesterol"
 
 #: translation/templates/translation/language.html:3185
 #: translation/templates/translation/language.html:3188
 msgid "Je suis asthmatique"
-msgstr ""
+msgstr "Sunt astmatic"
 
 #: translation/templates/translation/language.html:3193
 #: translation/templates/translation/language.html:3196
 msgid "Je ne suis pas asthmatique"
-msgstr ""
+msgstr "Nu sunt astmatic"
 
 #: translation/templates/translation/language.html:3201
 #: translation/templates/translation/language.html:3204
 msgid "Ventre"
-msgstr ""
+msgstr "Burtă."
 
 #: translation/templates/translation/language.html:3209
 #: translation/templates/translation/language.html:3212
 msgid "J'ai des nausées"
-msgstr ""
+msgstr "Am senzaţie de greaţă"
 
 #: translation/templates/translation/language.html:3217
 #: translation/templates/translation/language.html:3220
 msgid "Je n'ai pas de nausées"
-msgstr ""
+msgstr "Nu am senzaţie de greaţă"
 
 #: translation/templates/translation/language.html:3225
 #: translation/templates/translation/language.html:3228
 msgid "J’ai vomi"
-msgstr ""
+msgstr "Am vomat"
 
 #: translation/templates/translation/language.html:3233
 #: translation/templates/translation/language.html:3236
 msgid "Je n’ai pas vomi"
-msgstr ""
+msgstr "Nu am vomat"
 
 #: translation/templates/translation/language.html:3241
 #: translation/templates/translation/language.html:3244
 msgid "Des aliments"
-msgstr ""
+msgstr "Alimente"
 
 #: translation/templates/translation/language.html:3249
 #: translation/templates/translation/language.html:3252
 msgid "Du sang"
-msgstr ""
+msgstr "Sânge"
 
 #: translation/templates/translation/language.html:3257
 #: translation/templates/translation/language.html:3260
 msgid "1 fois"
-msgstr ""
+msgstr "O dată."
 
 #: translation/templates/translation/language.html:3265
 #: translation/templates/translation/language.html:3268
 msgid "2 fois"
-msgstr ""
+msgstr "De două ori."
 
 #: translation/templates/translation/language.html:3273
 #: translation/templates/translation/language.html:3276
 msgid "Plusieurs fois"
-msgstr ""
+msgstr "De mai multe ori"
 
 #: translation/templates/translation/language.html:3281
 #: translation/templates/translation/language.html:3284
 msgid "J’ai des diarrhées"
-msgstr ""
+msgstr "Am diaree"
 
 #: translation/templates/translation/language.html:3289
 #: translation/templates/translation/language.html:3292
 msgid "Je n’ai pas de diarrhées"
-msgstr ""
+msgstr "Nu am diaree"
 
 #: translation/templates/translation/language.html:3297
 #: translation/templates/translation/language.html:3300
 msgid "J’ai des gazs"
-msgstr ""
+msgstr "Am gaze"
 
 #: translation/templates/translation/language.html:3305
 #: translation/templates/translation/language.html:3308
 msgid "Je n’ai plus de gazs"
-msgstr ""
+msgstr "Nu am gaze"
 
 #: translation/templates/translation/language.html:3313
 #: translation/templates/translation/language.html:3316
 msgid "Mes dernières urines étaient il y a :"
-msgstr ""
+msgstr "Ultima mea urinare a fost în urmă cu:"
 
 #: translation/templates/translation/language.html:3321
 #: translation/templates/translation/language.html:3324
 msgid "Il y avait du sang dans mes urines"
-msgstr ""
+msgstr "A fost sânge în urina mea"
 
 #: translation/templates/translation/language.html:3329
 #: translation/templates/translation/language.html:3332
 msgid "Il n’y avait pas de sang dans mes urines"
-msgstr ""
+msgstr "Nu a fost sânge în urina mea"
 
 #: translation/templates/translation/language.html:3337
 #: translation/templates/translation/language.html:3340
 msgid "J’ai des brulures quand j’urine"
-msgstr ""
+msgstr "Am arsuri când urinez"
 
 #: translation/templates/translation/language.html:3345
 #: translation/templates/translation/language.html:3348
 msgid "Je n’ai pas de brulures quand j’urine"
-msgstr ""
+msgstr "Nu am arsuri când urinez"
 
 #: translation/templates/translation/language.html:3353
 #: translation/templates/translation/language.html:3356
 msgid "Mes dernières selles étaient il y a :"
-msgstr ""
+msgstr "Ultimua dată când am avut scaun a fost în urmă cu:"
 
 #: translation/templates/translation/language.html:3361
 #: translation/templates/translation/language.html:3364
 msgid "Il y avait du sang dans mes selles"
-msgstr ""
+msgstr "A fost sânge în scaunul meu"
 
 #: translation/templates/translation/language.html:3369
 #: translation/templates/translation/language.html:3372
 msgid "Il n’y avait pas de sang dans mes selles"
-msgstr ""
+msgstr "Nu a fost sânge în scaunul meu"
 
 #: translation/templates/translation/language.html:3377
 #: translation/templates/translation/language.html:3380
 msgid "Mes dernières règles étaient il y a :"
-msgstr ""
+msgstr "Ultima mea menstruaţie a fost."
 
 #: translation/templates/translation/language.html:3385
 #: translation/templates/translation/language.html:3388
 msgid "Je suis enceinte"
-msgstr ""
+msgstr "Sunt însarcinată"
 
 #: translation/templates/translation/language.html:3393
 #: translation/templates/translation/language.html:3396
 msgid "Je ne suis pas enceinte"
-msgstr ""
+msgstr "Nu sunt însărcinată"
 
 #: translation/templates/translation/language.html:3401
 #: translation/templates/translation/language.html:3404
 msgid "Depuis “x” semaines"
-msgstr ""
+msgstr "De \"x\" saptamani"
 
 #: translation/templates/translation/language.html:3409
 #: translation/templates/translation/language.html:3412
@@ -2200,7 +2201,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3425
 #: translation/templates/translation/language.html:3428
 msgid "Mes pertes étaient :"
-msgstr ""
+msgstr "Scurgerile erau:"
 
 #: translation/templates/translation/language.html:3433
 #: translation/templates/translation/language.html:3436
@@ -2215,172 +2216,172 @@ msgstr ""
 #: translation/templates/translation/language.html:3449
 #: translation/templates/translation/language.html:3452
 msgid "J’ai perdu du poids ces derniers temps"
-msgstr ""
+msgstr "Am pierdut în greutate în ultima vreme"
 
 #: translation/templates/translation/language.html:3457
 #: translation/templates/translation/language.html:3460
 msgid "Je n’ai pas perdu de poids ces derniers temps"
-msgstr ""
+msgstr "Nu am pierdut în greutate în ultima vreme"
 
 #: translation/templates/translation/language.html:3465
 #: translation/templates/translation/language.html:3468
 msgid "Dos / Cou"
-msgstr ""
+msgstr "Spate / Gât"
 
 #: translation/templates/translation/language.html:3473
 #: translation/templates/translation/language.html:3476
 msgid "Ma douleur n’irradie pas vers la fesse ou la jambe"
-msgstr ""
+msgstr "Durerea nu iradiază în fesă sau în gambă"
 
 #: translation/templates/translation/language.html:3481
 #: translation/templates/translation/language.html:3484
 msgid "Ma douleur irradie vers la fesse ou la jambe"
-msgstr ""
+msgstr "Durerea iradiază în fesă sau în gambă"
 
 #: translation/templates/translation/language.html:3489
 #: translation/templates/translation/language.html:3492
 msgid "Je n’ai pas le dos bloqué"
-msgstr ""
+msgstr "Nu am spatele blocat"
 
 #: translation/templates/translation/language.html:3497
 #: translation/templates/translation/language.html:3500
 msgid "J’ai le dos bloqué"
-msgstr ""
+msgstr "Am spatele blocat"
 
 #: translation/templates/translation/language.html:3505
 #: translation/templates/translation/language.html:3508
 msgid "J’ai mal surtout le soir"
-msgstr ""
+msgstr "Mi-e rău mai ales seara"
 
 #: translation/templates/translation/language.html:3513
 #: translation/templates/translation/language.html:3516
 msgid "J’ai mal surtout le matin"
-msgstr ""
+msgstr "Mi-e rău mai ales dimineaţa"
 
 #: translation/templates/translation/language.html:3521
 #: translation/templates/translation/language.html:3524
 msgid "Bras"
-msgstr ""
+msgstr "Braţ."
 
 #: translation/templates/translation/language.html:3529
 #: translation/templates/translation/language.html:3532
 msgid "Jambe"
-msgstr ""
+msgstr "Picior."
 
 #: translation/templates/translation/language.html:3537
 #: translation/templates/translation/language.html:3540
 msgid "J’ai reçu un coup récemment"
-msgstr ""
+msgstr "Am primit o lovitură recent"
 
 #: translation/templates/translation/language.html:3545
 #: translation/templates/translation/language.html:3548
 msgid "Je n’ai pas reçu de coup récemment"
-msgstr ""
+msgstr "Nu am primit nicio lovitură recent"
 
 #: translation/templates/translation/language.html:3561
 #: translation/templates/translation/language.html:3564
 msgid "J’ai été piqué ou mordu récemment"
-msgstr ""
+msgstr "Am fost înţepat sau muşcat recent"
 
 #: translation/templates/translation/language.html:3569
 #: translation/templates/translation/language.html:3572
 msgid "Je n’ai pas été piqué ou mordu récemment"
-msgstr ""
+msgstr "Nu am fost înţepat sau muşcat recent"
 
 #: translation/templates/translation/language.html:3577
 #: translation/templates/translation/language.html:3580
 msgid "Ca me démange"
-msgstr ""
+msgstr "Mă mănâncă"
 
 #: translation/templates/translation/language.html:3585
 #: translation/templates/translation/language.html:3588
 msgid "Ca ne me démange pas"
-msgstr ""
+msgstr "Nu mă mănâncă"
 
 #: translation/templates/translation/language.html:3593
 #: translation/templates/translation/language.html:3596
 msgid "Ma douleur est :"
-msgstr ""
+msgstr "Durerea mea este:"
 
 #: translation/templates/translation/language.html:3601
 #: translation/templates/translation/language.html:3604
 msgid "Faible"
-msgstr ""
+msgstr "Slabă"
 
 #: translation/templates/translation/language.html:3609
 #: translation/templates/translation/language.html:3612
 msgid "Moyenne"
-msgstr ""
+msgstr "Moderată"
 
 #: translation/templates/translation/language.html:3617
 #: translation/templates/translation/language.html:3620
 msgid "Forte"
-msgstr ""
+msgstr "Puternică"
 
 #: translation/templates/translation/language.html:3625
 #: translation/templates/translation/language.html:3628
 msgid "Insupportable"
-msgstr ""
+msgstr "Insuportabilă"
 
 #: translation/templates/translation/language.html:3633
 #: translation/templates/translation/language.html:3636
 msgid "Des clips intra-cranien"
-msgstr ""
+msgstr "Clipsuri intracraniene."
 
 #: translation/templates/translation/language.html:3641
 #: translation/templates/translation/language.html:3644
 msgid "Un implant cochléaire"
-msgstr ""
+msgstr "Un implant cohlear."
 
 #: translation/templates/translation/language.html:3649
 #: translation/templates/translation/language.html:3652
 msgid "Un implant occulaire"
-msgstr ""
+msgstr "Un implant ocular."
 
 #: translation/templates/translation/language.html:3657
 #: translation/templates/translation/language.html:3660
 msgid "Du métal dans le corps"
-msgstr ""
+msgstr "Metal în corp"
 
 #: translation/templates/translation/language.html:3665
 #: translation/templates/translation/language.html:3668
 msgid "Un défibrillateur"
-msgstr ""
+msgstr "Un defibrilator."
 
 #: translation/templates/translation/language.html:3673
 #: translation/templates/translation/language.html:3676
 msgid "Une chambre implantable"
-msgstr ""
+msgstr "O cameră implantabilă."
 
 #: translation/templates/translation/language.html:3681
 #: translation/templates/translation/language.html:3684
 msgid "Allaitez-vous ?"
-msgstr ""
+msgstr "Alăptaţi?"
 
 #: translation/templates/translation/language.html:3689
 #: translation/templates/translation/language.html:3692
 msgid "Où se trouve le médecin le plus proche ?"
-msgstr ""
+msgstr "Unde se află cel mai apropiat medic ?"
 
 #: translation/templates/translation/language.html:3697
 #: translation/templates/translation/language.html:3700
 msgid "Où se trouve l'hôpital le plus proche ?"
-msgstr ""
+msgstr "Unde se află cel mai apropiat spital ?"
 
 #: translation/templates/translation/language.html:3705
 #: translation/templates/translation/language.html:3708
 msgid "Où se trouve la pharmacie la plus proche ?"
-msgstr ""
+msgstr "Unde se află cea mai aproapiată farmacie?"
 
 #: translation/templates/translation/language.html:3713
 #: translation/templates/translation/language.html:3716
 msgid "J'ai besoin de secours, pouvez-vous les appeler ?"
-msgstr ""
+msgstr "Am nevoie de prim-ajutor, puteţi să îl chemaţi?"
 
 #: translation/templates/translation/language.html:3721
 #: translation/templates/translation/language.html:3724
 msgid "Une IRM"
-msgstr ""
+msgstr "Imagistica prin rezonanță magnetică (IRM)"
 
 #: translation/templates/translation/language.html:3729
 #: translation/templates/translation/language.html:3732
@@ -2390,42 +2391,42 @@ msgstr ""
 #: translation/templates/translation/language.html:3737
 #: translation/templates/translation/language.html:3740
 msgid "L'examen n'est pas douloureux mais il est très bruyant"
-msgstr ""
+msgstr "Scanarea nu este dureroasă, dar produce mult zgomot"
 
 #: translation/templates/translation/language.html:3745
 #: translation/templates/translation/language.html:3748
 msgid "Il faut rester immobile pendant toute la durée de l'examen"
-msgstr ""
+msgstr "Trebuie să rămâneți nemișcat/ă în timpul scanării"
 
 #: translation/templates/translation/language.html:3753
 #: translation/templates/translation/language.html:3756
 msgid "Des éclats métalliques dans les yeux?"
-msgstr ""
+msgstr "Aveți părți metalice/bucăți de metal în ochi?"
 
 #: translation/templates/translation/language.html:3761
 #: translation/templates/translation/language.html:3764
 msgid "une valve mécanique"
-msgstr ""
+msgstr "valvă aortică artificială/mecanică."
 
 #: translation/templates/translation/language.html:3769
 #: translation/templates/translation/language.html:3772
 msgid "un capteur de glycémie"
-msgstr ""
+msgstr "senzor de glicemie."
 
 #: translation/templates/translation/language.html:3777
 #: translation/templates/translation/language.html:3780
 msgid "si oui, avez-vous une carte avec les références du matériel?"
-msgstr ""
+msgstr "Dacă da, aveți un card ce conține numărul de referință pentru echipament?"
 
 #: translation/templates/translation/language.html:3785
 #: translation/templates/translation/language.html:3788
 msgid "Quelle est votre taille et votre poids?"
-msgstr ""
+msgstr "Ce înălțime și greutate aveți?"
 
 #: translation/templates/translation/language.html:3793
 #: translation/templates/translation/language.html:3796
 msgid "Durant l'examen, on vous demandera de gonfler et les poumons et de bloquer la respiration"
-msgstr ""
+msgstr "În timpul scanării/examinării, vă rugăm să inspirați adânc și să mențineți aerul în plămâni"
 
 #: translation/templates/translation/language.html:3801
 #: translation/templates/translation/language.html:3804
@@ -2435,47 +2436,47 @@ msgstr ""
 #: translation/templates/translation/language.html:3809
 #: translation/templates/translation/language.html:3812
 msgid "Prenez-vous un traitement pour la thyroïde ?"
-msgstr ""
+msgstr "Urmați tratament pentru tiroidă?"
 
 #: translation/templates/translation/language.html:3817
 #: translation/templates/translation/language.html:3820
 msgid "Avez-vous des problèmes rénaux ?"
-msgstr ""
+msgstr "Aveți probleme cu rinichii?"
 
 #: translation/templates/translation/language.html:3825
 #: translation/templates/translation/language.html:3828
 msgid "Pouvez-vous signer l’autorisation de soins ci-dessous ?"
-msgstr ""
+msgstr "Puteți semna autorizarea pentru tratamentul medical, vă rog?"
 
 #: translation/templates/translation/language.html:3833
 #: translation/templates/translation/language.html:3836
 msgid "Nom :"
-msgstr ""
+msgstr "Numele de familie :"
 
 #: translation/templates/translation/language.html:3841
 #: translation/templates/translation/language.html:3844
 msgid "Prénom :"
-msgstr ""
+msgstr "Nume :"
 
 #: translation/templates/translation/language.html:3849
 #: translation/templates/translation/language.html:3852
 msgid "Date de naissance :"
-msgstr ""
+msgstr "Data nasterii :"
 
 #: translation/templates/translation/language.html:3857
 #: translation/templates/translation/language.html:3860
 msgid "La taille :"
-msgstr ""
+msgstr "Înălțime:"
 
 #: translation/templates/translation/language.html:3865
 #: translation/templates/translation/language.html:3868
 msgid "Poids :"
-msgstr ""
+msgstr "Greutate :"
 
 #: translation/templates/translation/language.html:3889
 #: translation/templates/translation/language.html:3892
 msgid "Je ne sais pas"
-msgstr ""
+msgstr "Nu știu"
 
 msgid "Afghanistan"
 msgstr ""
