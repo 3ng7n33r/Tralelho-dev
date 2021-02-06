@@ -1,9 +1,12 @@
 from django.http import HttpResponse, HttpResponseRedirect, HttpResponseNotFound
 from django.utils.translation import ugettext as _
 from django.shortcuts import render
+from django.core.exceptions import ValidationError
 
 from .models import Country
 from translation.forms import searchcountryform
+import json
+
 
 # sort countries by continent
 AF = Country.objects.order_by('Name_eng').filter(Continent__iexact="AF")
@@ -22,6 +25,22 @@ continents = {
 }
 
 
+def autocompleteModel(request, base_language):
+    if request.is_ajax():
+        q = request.GET.get('term', '').capitalize()
+        search_qs = Country.objects.filter(Name_eng__startswith=q).filter(
+            spoken_languages__Translated=True).exclude(spoken_languages__langcode=base_language)
+        results = []
+        print(q)
+        for r in search_qs:
+            results.append(r.Name_eng)
+        data = json.dumps(results)
+    else:
+        data = 'fail'
+    mimetype = 'application/json'
+    return HttpResponse(data, mimetype)
+
+
 def index(request, base_language="fra", base_flag="fra"):
     if request.method == 'POST':
         # create a form instance and populate it with data from the request:
@@ -35,8 +54,11 @@ def index(request, base_language="fra", base_flag="fra"):
                 Translated=True).exclude(langcode=base_language)
             if len(language) == 1:
                 return HttpResponseRedirect("".join(('/', base_language, '/', base_flag, '/', language.first().langcode, '/', countryform.countrycode)))
-            else:
+            elif len(language) > 1:
                 return HttpResponseRedirect("".join(('/', base_language, '/', base_flag, '#', countryform.countrycode, 'target', )))
+            else:
+                raise ValidationError(
+                    _('Country not found. Please check spelling'))
 
     # if a GET (or any other method) we'll create a blank form
     else:

@@ -9,7 +9,7 @@ class searchcountryform(forms.Form):
     error_class = 'error'
     countrystring = _("Search for Country")
     country_name = forms.CharField(label="", max_length=50, widget=forms.TextInput(
-        attrs={'placeholder': countrystring, 'class': 'myfieldclass'}))
+        attrs={'placeholder': countrystring, 'class': 'form-control', 'id': 'txtSearch', 'name': 'txtSearch'}))
 
     def clean_country_name(self):
         data = self.cleaned_data['country_name']
