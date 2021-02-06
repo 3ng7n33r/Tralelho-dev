@@ -1,5 +1,6 @@
 
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/3ng7n33r/Tralelho-dev/tree/mob)
+[![Crowdin](https://badges.crowdin.net/e/e2d83becbd1744ad361a05e042ce9ab7/localized.svg)](https://tralelho.crowdin.com/tralelho)
 # Tralelho
 
 Tralelho is a tanslation service for medical professionals
