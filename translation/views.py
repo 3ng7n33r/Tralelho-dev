@@ -132,6 +132,17 @@ def documents(request, base_language, base_flag, target_language, target_flag):
     return render(request, 'translation/documents.html', context)
 
 
+def IRM(request, base_language, base_flag, target_language, target_flag):
+
+    context = {
+        'base_language': base_language,
+        'base_flag': base_flag,
+        'target_language': target_language,
+        'target_flag': target_flag,
+    }
+    return render(request, 'doctemplates/IRM.html', context)
+
+
 def support(request, base_language="fra", base_flag="fra"):
 
     context = {

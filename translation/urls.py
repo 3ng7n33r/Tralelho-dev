@@ -12,6 +12,8 @@ urlpatterns = [
          views.documents, name='documents'),
     path('<str:base_language>/<str:base_flag>/documents',
          views.docindex, name='docindex'),
+    path('<str:base_language>/<str:base_flag>/<str:target_language>/<str:target_flag>/IRM',
+         views.IRM, name='IRM'),
     path('support', views.support, name='support'),
     path('<str:base_language>/<str:base_flag>/support',
          views.support, name='support'),
