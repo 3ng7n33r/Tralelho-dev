@@ -1,0 +1,76 @@
+@page {
+    size: A4 landscape;
+    margin: 1cm;
+}
+
+.A4 {
+    width: 275mm;
+    height: 188mm;
+}
+
+:root {
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1.1rem;
+}
+
+.smallflag {
+    max-width: 100%;
+    max-height: 80px;
+}
+
+h1 {
+    width: 50%;
+}
+
+#titlecontainer {
+    width: 60%;
+}
+
+#flagcontainer {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    align-items: center;
+}
+
+/*table*/
+.tg {
+    border-collapse: collapse;
+    border-color: black;
+}
+
+.tg td {
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 5px 10px;
+    word-break: normal;
+}
+
+
+.tg th {
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 5px 10px;
+    word-break: normal;
+}
+
+.tg .tg-0lax {
+    text-align: left;
+}
+
+.boxfield {
+    text-align: center;
+}
