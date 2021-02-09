@@ -23,7 +23,7 @@ make_untranslated.short_description = "Mark language as not translated"
 
 class LanguageAdmin(admin.ModelAdmin):
     fields = ['Name_eng', 'Translated', 'Name_fr', 'langcode']
-    list_display = ('Name_eng', 'Translated')
+    list_display = ('Name_fr', 'Translated')
     list_filter = ['Translated']
     search_fields = ['Name_eng', 'Name_fr']
     actions = [make_translated, make_untranslated]
@@ -35,7 +35,7 @@ admin.site.register(Language, LanguageAdmin)
 class CountryAdmin(admin.ModelAdmin):
     fields = ['Name_eng', 'Name_fr', 'countrycode',
               'spoken_languages', 'Continent', 'Continent2']
-    list_display = ('Name_eng', 'Continent', 'translated_languages')
+    list_display = ('Name_fr', 'Continent', 'translated_languages')
     list_filter = ['Continent']
     search_fields = ['Name_eng', 'Name_fr']
 
