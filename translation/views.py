@@ -20,12 +20,12 @@ OC = Country.objects.order_by('Name_eng').filter(Continent__iexact="OC")
 AS = Country.objects.order_by('Name_eng').filter(Continent__iexact="AS")
 EU = Country.objects.order_by('Name_eng').filter(Continent__iexact="EU")
 continents = {
-    'Afrique': AF,
-    'Amerique du Nord': NA,
-    'Amerique du Sud': SA,
-    'Océanie': OC,
-    'Asie': AS,
-    'Europe': EU,
+    _('Afrique'): AF,
+    _('Amerique du Nord'): NA,
+    _('Amerique du Sud'): SA,
+    _('Océanie'): OC,
+    _('Asie'): AS,
+    _('Europe'): EU,
 }
 
 
@@ -119,7 +119,8 @@ def docindex(request, base_language="fra", base_flag="fra"):
 def documents(request, base_language, base_flag, target_language, target_flag):
 
     docs = {
-        "IRM": "irm",
+        _("IRM"): "irm",
+        _("Scanner"): "scn",
     }
     context = {
         'continents': continents,
