@@ -119,12 +119,8 @@ def docindex(request, base_language="fra", base_flag="fra"):
 def documents(request, base_language, base_flag, target_language, target_flag):
 
     docs = {
-        "Anesthésie": "ane",
         "IRM": "irm",
-        "Patient": "pat",
-        "Pédiatrie": "ped",
-        "Scanner": "scn",
-        "Secrétariat": "sec"}
+    }
     context = {
         'continents': continents,
         'base_language': base_language,
@@ -134,6 +130,16 @@ def documents(request, base_language, base_flag, target_language, target_flag):
         'docs': docs,
     }
     return render(request, 'translation/documents.html', context)
+
+
+'''     docs = {
+        "Anesthésie": "ane",
+        "IRM": "irm",
+        "Patient": "pat",
+        "Pédiatrie": "ped",
+        "Scanner": "scn",
+        "Secrétariat": "sec"
+        } '''
 
 
 def support(request, base_language="fra", base_flag="fra"):
