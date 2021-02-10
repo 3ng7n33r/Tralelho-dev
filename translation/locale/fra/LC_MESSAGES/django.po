@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 73d3b19e82fc460fd936796fc5b25f94\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-10 14:49+0000\n"
-"PO-Revision-Date: 2021-02-04 09:41\n"
+"PO-Revision-Date: 2021-02-10 15:02\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -49,16 +49,12 @@ msgstr ""
 
 #: translation/templates/doctemplates/irm.html:26
 #: translation/templates/doctemplates/irm.html:27
-msgid ""
-"Pour entrer dans la salle d’IRM, il faut retirer tout objet métallique "
-"(appareils dentaires et auditifs, montre, bijoux...)"
+msgid "Pour entrer dans la salle d’IRM, il faut retirer tout objet métallique (appareils dentaires et auditifs, montre, bijoux...)"
 msgstr ""
 
 #: translation/templates/doctemplates/irm.html:29
 #: translation/templates/doctemplates/irm.html:30
-msgid ""
-"Une perfusion va vous être posée pour injecter un produit de contraste au "
-"cours de l’examen"
+msgid "Une perfusion va vous être posée pour injecter un produit de contraste au cours de l’examen"
 msgstr ""
 
 #: translation/templates/doctemplates/irm.html:32
@@ -70,9 +66,7 @@ msgstr ""
 
 #: translation/templates/doctemplates/irm.html:35
 #: translation/templates/doctemplates/irm.html:36
-msgid ""
-"L'examen est long. Il dure entre 15 et 40 minutes. L'examen n'est pas "
-"douloureux mais il est très bruyant"
+msgid "L'examen est long. Il dure entre 15 et 40 minutes. L'examen n'est pas douloureux mais il est très bruyant"
 msgstr ""
 
 #: translation/templates/doctemplates/irm.html:38
@@ -80,9 +74,7 @@ msgstr ""
 #: translation/templates/doctemplates/scn.html:35
 #: translation/templates/doctemplates/scn.html:36
 #: translation/templates/translation/language.html:1912
-msgid ""
-"Durant l'examen, on vous demandera de gonfler et les poumons et de bloquer "
-"la respiration"
+msgid "Durant l'examen, on vous demandera de gonfler et les poumons et de bloquer la respiration"
 msgstr ""
 
 #: translation/templates/doctemplates/irm.html:41
@@ -260,16 +252,12 @@ msgstr ""
 
 #: translation/templates/doctemplates/scn.html:26
 #: translation/templates/doctemplates/scn.html:27
-msgid ""
-"Il faudra retirer tout objet métallique (appareils dentaires et auditifs)"
+msgid "Il faudra retirer tout objet métallique (appareils dentaires et auditifs)"
 msgstr ""
 
 #: translation/templates/doctemplates/scn.html:29
 #: translation/templates/doctemplates/scn.html:30
-msgid ""
-"Une perfusion va vous être posée pour injecter un produit de contraste au "
-"cours de l’examen. L’injection de ce produit de contraste peut donner une "
-"sensation de chaleur dans tout le corps"
+msgid "Une perfusion va vous être posée pour injecter un produit de contraste au cours de l’examen. L’injection de ce produit de contraste peut donner une sensation de chaleur dans tout le corps"
 msgstr ""
 
 #: translation/templates/doctemplates/scn.html:38
@@ -346,9 +334,7 @@ msgid "Please click a phrase to display"
 msgstr ""
 
 #: translation/templates/translation/language.html:74
-msgid ""
-"Je vais utiliser le téléphone pour traduire les questions que j'ai à vous "
-"poser, êtes vous d'accord ?"
+msgid "Je vais utiliser le téléphone pour traduire les questions que j'ai à vous poser, êtes vous d'accord ?"
 msgstr ""
 
 #: translation/templates/translation/language.html:78
@@ -456,16 +442,11 @@ msgid "Votre famille devra attendre ici"
 msgstr ""
 
 #: translation/templates/translation/language.html:192
-msgid ""
-"Selon votre état de santé, le médecin demandera parfois des soins, comme une "
-"prise de sang, un examen comme une radio ou un scanner, ou pourra demander "
-"de vous garder en observation pour surveiller votre état de santé"
+msgid "Selon votre état de santé, le médecin demandera parfois des soins, comme une prise de sang, un examen comme une radio ou un scanner, ou pourra demander de vous garder en observation pour surveiller votre état de santé"
 msgstr ""
 
 #: translation/templates/translation/language.html:196
-msgid ""
-"Nous vous demandons de ne pas manger ou boire tant que le médecin ne vous y "
-"a pas autorisé, certains examens demandant de rester à jeun"
+msgid "Nous vous demandons de ne pas manger ou boire tant que le médecin ne vous y a pas autorisé, certains examens demandant de rester à jeun"
 msgstr ""
 
 #: translation/templates/translation/language.html:200
@@ -581,8 +562,7 @@ msgid "Pouvez-vous bouger vos mains et vos pieds ?"
 msgstr ""
 
 #: translation/templates/translation/language.html:330
-msgid ""
-"Je vais toucher vos mains et vos pieds, sentez-vous que je vous touche ?"
+msgid "Je vais toucher vos mains et vos pieds, sentez-vous que je vous touche ?"
 msgstr ""
 
 #: translation/templates/translation/language.html:334
@@ -647,15 +627,11 @@ msgid "Est ce que le bruit vous dérange ?"
 msgstr ""
 
 #: translation/templates/translation/language.html:394
-msgid ""
-"Je vais faire une piqûre au bout de votre doigt pour connaître votre taux de "
-"sucre"
+msgid "Je vais faire une piqûre au bout de votre doigt pour connaître votre taux de sucre"
 msgstr ""
 
 #: translation/templates/translation/language.html:403
-msgid ""
-"Je vais poser ma main sur votre ventre pour compter votre respiration, "
-"respirez normalement et ne parlez pas pendant ce temps"
+msgid "Je vais poser ma main sur votre ventre pour compter votre respiration, respirez normalement et ne parlez pas pendant ce temps"
 msgstr ""
 
 #: translation/templates/translation/language.html:407
@@ -747,8 +723,7 @@ msgid "Ressentez-vous des palpitations ?"
 msgstr ""
 
 #: translation/templates/translation/language.html:500
-msgid ""
-"Ouvrez la bouche et soulevez la langue, je vais vous donner un traitement"
+msgid "Ouvrez la bouche et soulevez la langue, je vais vous donner un traitement"
 msgstr ""
 
 #: translation/templates/translation/language.html:504
@@ -768,9 +743,7 @@ msgid "Avez-vous du cholestérol ?"
 msgstr ""
 
 #: translation/templates/translation/language.html:520
-msgid ""
-"Je vais faire un enregistrement de votre coeur, ce n’est pas douloureux, ne "
-"bouger pas pendant quelques secondes"
+msgid "Je vais faire un enregistrement de votre coeur, ce n’est pas douloureux, ne bouger pas pendant quelques secondes"
 msgstr ""
 
 #: translation/templates/translation/language.html:529
@@ -1091,8 +1064,7 @@ msgid "De quelle hauteur êtes-vous tombé ?"
 msgstr ""
 
 #: translation/templates/translation/language.html:884
-msgid ""
-"Prenez vous des anticoagulants, des médicaments pour fluidifier le sang ?"
+msgid "Prenez vous des anticoagulants, des médicaments pour fluidifier le sang ?"
 msgstr ""
 
 #: translation/templates/translation/language.html:888
@@ -1185,9 +1157,7 @@ msgid "Demain"
 msgstr ""
 
 #: translation/templates/translation/language.html:981
-msgid ""
-"Vous devez prendre une douche avec un shampoing avant l'opération "
-"chirurgicale"
+msgid "Vous devez prendre une douche avec un shampoing avant l'opération chirurgicale"
 msgstr ""
 
 #: translation/templates/translation/language.html:985
@@ -2068,9 +2038,7 @@ msgid "Quelle est votre taille et votre poids ?"
 msgstr ""
 
 #: translation/templates/translation/language.html:1916
-msgid ""
-"Nous allons injecter un produit de contraste qui va vous donner chaud dans "
-"tout le corps, c'est normal ne vous inquiétez pas"
+msgid "Nous allons injecter un produit de contraste qui va vous donner chaud dans tout le corps, c'est normal ne vous inquiétez pas"
 msgstr ""
 
 #: translation/templates/translation/language.html:1920
@@ -3025,3 +2993,4 @@ msgstr ""
 
 msgid "Zoulou"
 msgstr ""
+
