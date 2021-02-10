@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 73d3b19e82fc460fd936796fc5b25f94\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-10 14:49+0000\n"
-"PO-Revision-Date: 2021-02-10 21:19\n"
+"POT-Creation-Date: 2021-02-10 21:16+0000\n"
+"PO-Revision-Date: 2021-02-10 21:24\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -21,8 +21,8 @@ msgstr ""
 msgid "Rechercher un pays"
 msgstr ""
 
-#: translation/forms.py:21
-msgid "Nous n'avons pas trouvé ce pays. Merci de verifier l'orthographe."
+#: translation/forms.py:21 translation/views.py:65
+msgid "Nous n'avons pas trouvé ce pays. Merci de verifier l'orthographe"
 msgstr ""
 
 #: translation/templates/base.html:13
@@ -73,13 +73,15 @@ msgstr ""
 #: translation/templates/doctemplates/irm.html:39
 #: translation/templates/doctemplates/scn.html:35
 #: translation/templates/doctemplates/scn.html:36
-#: translation/templates/translation/language.html:1912
+#: translation/templates/translation/language.html:3686
+#: translation/templates/translation/language.html:3689
 msgid "Durant l'examen, on vous demandera de gonfler et les poumons et de bloquer la respiration"
 msgstr ""
 
 #: translation/templates/doctemplates/irm.html:41
 #: translation/templates/doctemplates/irm.html:42
-#: translation/templates/translation/language.html:1082
+#: translation/templates/translation/language.html:2032
+#: translation/templates/translation/language.html:2035
 msgid "Pour nous appeler appuyer ici"
 msgstr "Чтобы позвать нас нажмите здесь"
 
@@ -128,8 +130,10 @@ msgstr ""
 #: translation/templates/doctemplates/irm.html:141
 #: translation/templates/doctemplates/scn.html:73
 #: translation/templates/doctemplates/scn.html:74
-#: translation/templates/translation/language.html:217
-#: translation/templates/translation/language.html:1952
+#: translation/templates/translation/language.html:349
+#: translation/templates/translation/language.html:352
+#: translation/templates/translation/language.html:3766
+#: translation/templates/translation/language.html:3769
 msgid "Oui"
 msgstr "да"
 
@@ -139,8 +143,10 @@ msgstr "да"
 #: translation/templates/doctemplates/irm.html:143
 #: translation/templates/doctemplates/scn.html:75
 #: translation/templates/doctemplates/scn.html:76
-#: translation/templates/translation/language.html:221
-#: translation/templates/translation/language.html:1956
+#: translation/templates/translation/language.html:357
+#: translation/templates/translation/language.html:360
+#: translation/templates/translation/language.html:3774
+#: translation/templates/translation/language.html:3777
 msgid "Non"
 msgstr "нет"
 
@@ -150,7 +156,8 @@ msgstr "нет"
 #: translation/templates/doctemplates/irm.html:145
 #: translation/templates/doctemplates/scn.html:77
 #: translation/templates/doctemplates/scn.html:78
-#: translation/templates/translation/language.html:1960
+#: translation/templates/translation/language.html:3782
+#: translation/templates/translation/language.html:3785
 msgid "Je ne sais pas"
 msgstr "Я не знаю"
 
@@ -206,7 +213,8 @@ msgstr ""
 
 #: translation/templates/doctemplates/irm.html:180
 #: translation/templates/doctemplates/irm.html:181
-#: translation/templates/translation/language.html:1892
+#: translation/templates/translation/language.html:3646
+#: translation/templates/translation/language.html:3649
 msgid "Avez-vous des éclats métalliques dans les yeux?"
 msgstr ""
 
@@ -229,7 +237,8 @@ msgstr ""
 
 #: translation/templates/doctemplates/irm.html:210
 #: translation/templates/doctemplates/irm.html:211
-#: translation/templates/translation/language.html:1904
+#: translation/templates/translation/language.html:3670
+#: translation/templates/translation/language.html:3673
 msgid "Si oui, avez-vous une carte avec les références du matériel?"
 msgstr ""
 
@@ -330,1746 +339,2248 @@ msgid "Qui-sommes nous?"
 msgstr ""
 
 #: translation/templates/translation/language.html:66
-msgid "Cliquez sur une phrase pour l'afficher"
+msgid "PRESENTATION"
 msgstr ""
 
-#: translation/templates/translation/language.html:74
+#: translation/templates/translation/language.html:72
+#: translation/templates/translation/language.html:75
 msgid "Je vais utiliser le téléphone pour traduire les questions que j'ai à vous poser, êtes vous d'accord ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:78
+#: translation/templates/translation/language.html:80
+#: translation/templates/translation/language.html:83
 msgid "Bonjour, je suis infirmière"
 msgstr ""
 
-#: translation/templates/translation/language.html:82
+#: translation/templates/translation/language.html:88
+#: translation/templates/translation/language.html:91
 msgid "Bonjour, je suis médecin"
 msgstr ""
 
-#: translation/templates/translation/language.html:86
+#: translation/templates/translation/language.html:96
+#: translation/templates/translation/language.html:99
 msgid "Bonjour, je suis secouriste"
 msgstr ""
 
-#: translation/templates/translation/language.html:90
+#: translation/templates/translation/language.html:104
+#: translation/templates/translation/language.html:107
 msgid "Bonjour, je suis bénévole"
 msgstr ""
 
-#: translation/templates/translation/language.html:94
+#: translation/templates/translation/language.html:112
+#: translation/templates/translation/language.html:115
 msgid "Bonjour, je suis agent d'accueil"
 msgstr ""
 
-#: translation/templates/translation/language.html:98
+#: translation/templates/translation/language.html:120
+#: translation/templates/translation/language.html:123
 msgid "Bonjour, je suis étudiant en médecine"
 msgstr ""
 
-#: translation/templates/translation/language.html:102
+#: translation/templates/translation/language.html:128
+#: translation/templates/translation/language.html:131
 msgid "Bonjour, je suis sage-femme"
 msgstr ""
 
-#: translation/templates/translation/language.html:106
+#: translation/templates/translation/language.html:136
+#: translation/templates/translation/language.html:139
 msgid "Bonjour, je suis secrétaire"
 msgstr ""
 
-#: translation/templates/translation/language.html:110
+#: translation/templates/translation/language.html:144
+#: translation/templates/translation/language.html:147
 msgid "Bonjour, je suis soignant"
 msgstr ""
 
-#: translation/templates/translation/language.html:119
+#: translation/templates/translation/language.html:153
+msgid "IDENTITÉ"
+msgstr ""
+
+#: translation/templates/translation/language.html:159
+#: translation/templates/translation/language.html:162
 msgid "Pouvez-vous me montrez votre passeport"
 msgstr ""
 
-#: translation/templates/translation/language.html:123
+#: translation/templates/translation/language.html:167
+#: translation/templates/translation/language.html:170
 msgid "Pouvez-vous me montrez une carte d’identité"
 msgstr ""
 
-#: translation/templates/translation/language.html:127
+#: translation/templates/translation/language.html:175
+#: translation/templates/translation/language.html:178
 msgid "Pouvez-vous me montrer des papiers avec votre nom"
 msgstr ""
 
-#: translation/templates/translation/language.html:131
+#: translation/templates/translation/language.html:183
+#: translation/templates/translation/language.html:186
 msgid "Pouvez-vous me montrer une carte Européenne de santé"
 msgstr ""
 
-#: translation/templates/translation/language.html:135
+#: translation/templates/translation/language.html:191
+#: translation/templates/translation/language.html:194
 msgid "Pouvez-vous me montre une carte d’assurance privée"
 msgstr ""
 
-#: translation/templates/translation/language.html:139
+#: translation/templates/translation/language.html:199
+#: translation/templates/translation/language.html:202
 msgid "Les frais des soins seront à votre charge"
 msgstr "Лечение будет осуществляться полностью за ваш счёт"
 
-#: translation/templates/translation/language.html:143
+#: translation/templates/translation/language.html:207
+#: translation/templates/translation/language.html:210
 msgid "Les frais des soins ne seront pas à votre charge"
 msgstr "Вам не нужно будет оплачивать лечение"
 
-#: translation/templates/translation/language.html:147
+#: translation/templates/translation/language.html:215
+#: translation/templates/translation/language.html:218
 msgid "De quel pays venez-vous ?"
 msgstr "Из какой страны вы прибыли?"
 
-#: translation/templates/translation/language.html:151
+#: translation/templates/translation/language.html:223
+#: translation/templates/translation/language.html:226
 msgid "A quelle adresse vivez-vous actuellement ?"
 msgstr "По какому адресу вы проживаете сейчас?"
 
-#: translation/templates/translation/language.html:155
+#: translation/templates/translation/language.html:231
+#: translation/templates/translation/language.html:234
 msgid "Avez-vous un numéro de téléphone où l’on peut vous joindre ?"
 msgstr "По какому номеру телефона мы могли бы с вами связаться?"
 
-#: translation/templates/translation/language.html:164
+#: translation/templates/translation/language.html:240
+msgid "ATTENTE"
+msgstr ""
+
+#: translation/templates/translation/language.html:246
+#: translation/templates/translation/language.html:249
 msgid "Je vous laisse attendre :"
 msgstr "Прошу вас подождать:"
 
-#: translation/templates/translation/language.html:168
+#: translation/templates/translation/language.html:254
+#: translation/templates/translation/language.html:257
 msgid "Je vous laisse attendre sur les chaises"
 msgstr ""
 
-#: translation/templates/translation/language.html:172
+#: translation/templates/translation/language.html:262
+#: translation/templates/translation/language.html:265
 msgid "Je vous laisse attendre sur le banc"
 msgstr ""
 
-#: translation/templates/translation/language.html:176
+#: translation/templates/translation/language.html:270
+#: translation/templates/translation/language.html:273
 msgid "Je vous laisse attendre dans la salle d'attente"
 msgstr ""
 
-#: translation/templates/translation/language.html:180
+#: translation/templates/translation/language.html:278
+#: translation/templates/translation/language.html:281
 msgid "Nous viendrons vous appeler"
 msgstr "Мы вам позвоним"
 
-#: translation/templates/translation/language.html:184
+#: translation/templates/translation/language.html:286
+#: translation/templates/translation/language.html:289
 msgid "Merci de ne pas manger, boire ou fumer pendant l’attente"
 msgstr "Просим вас воздержаться от еды, питья и курения во время ожидания"
 
-#: translation/templates/translation/language.html:188
+#: translation/templates/translation/language.html:294
+#: translation/templates/translation/language.html:297
 msgid "Votre famille devra attendre ici"
 msgstr "Ваша семья должна будет ожидать здесь"
 
-#: translation/templates/translation/language.html:192
+#: translation/templates/translation/language.html:302
+#: translation/templates/translation/language.html:305
 msgid "Selon votre état de santé, le médecin demandera parfois des soins, comme une prise de sang, un examen comme une radio ou un scanner, ou pourra demander de vous garder en observation pour surveiller votre état de santé"
 msgstr "В зависимости от состояния вашего здоровья ваш доктор иногда может попросить выполнить такие процедуры, как анализ крови, рентгеновское или томографическое сканирование или же может попросить о наблюдении за вашим состоянием в стационаре в течение определенного периода времени"
 
-#: translation/templates/translation/language.html:196
+#: translation/templates/translation/language.html:310
+#: translation/templates/translation/language.html:313
 msgid "Nous vous demandons de ne pas manger ou boire tant que le médecin ne vous y a pas autorisé, certains examens demandant de rester à jeun"
 msgstr "Просим вас воздержаться от еды и питья до получения особого разрешения от врача, так как некоторые анализы осуществляются только натощак"
 
-#: translation/templates/translation/language.html:200
+#: translation/templates/translation/language.html:318
+#: translation/templates/translation/language.html:321
 msgid "Il faut attendre 1 heure pour avoir les résultats de la prise de sang"
 msgstr ""
 
-#: translation/templates/translation/language.html:209
+#: translation/templates/translation/language.html:327
+msgid "ACCUEIL"
+msgstr ""
+
+#: translation/templates/translation/language.html:333
+#: translation/templates/translation/language.html:336
 msgid "Qu’est-ce qui vous arrive ?"
 msgstr "Что с вами произошло?"
 
-#: translation/templates/translation/language.html:213
+#: translation/templates/translation/language.html:341
+#: translation/templates/translation/language.html:344
 msgid "Avez-vous des douleurs ?"
 msgstr "У вас что-то болит?"
 
-#: translation/templates/translation/language.html:225
+#: translation/templates/translation/language.html:365
+#: translation/templates/translation/language.html:368
 msgid "Montrez-moi où vous avez mal"
 msgstr "Покажите, пожалуйста, где вы чувствуете боль"
 
-#: translation/templates/translation/language.html:229
+#: translation/templates/translation/language.html:373
+#: translation/templates/translation/language.html:376
 msgid "Je vais vous examiner"
 msgstr "Я вас осмотрю"
 
-#: translation/templates/translation/language.html:233
+#: translation/templates/translation/language.html:381
+#: translation/templates/translation/language.html:384
 msgid "Pourriez-vous chiffrer votre douleur entre 0 et 10 ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:237
+#: translation/templates/translation/language.html:389
+#: translation/templates/translation/language.html:392
 msgid "10 étant la note pour une douleur insupportable"
 msgstr ""
 
-#: translation/templates/translation/language.html:241
+#: translation/templates/translation/language.html:397
+#: translation/templates/translation/language.html:400
 msgid "0"
 msgstr ""
 
-#: translation/templates/translation/language.html:245
+#: translation/templates/translation/language.html:405
+#: translation/templates/translation/language.html:408
 msgid "1"
 msgstr "один"
 
-#: translation/templates/translation/language.html:249
+#: translation/templates/translation/language.html:413
+#: translation/templates/translation/language.html:416
 msgid "2"
 msgstr "два"
 
-#: translation/templates/translation/language.html:253
+#: translation/templates/translation/language.html:421
+#: translation/templates/translation/language.html:424
 msgid "3"
 msgstr "три"
 
-#: translation/templates/translation/language.html:257
+#: translation/templates/translation/language.html:429
+#: translation/templates/translation/language.html:432
 msgid "4"
 msgstr "четыре"
 
-#: translation/templates/translation/language.html:261
+#: translation/templates/translation/language.html:437
+#: translation/templates/translation/language.html:440
 msgid "5"
 msgstr "пять"
 
-#: translation/templates/translation/language.html:265
+#: translation/templates/translation/language.html:445
+#: translation/templates/translation/language.html:448
 msgid "6"
 msgstr "шесть"
 
-#: translation/templates/translation/language.html:269
+#: translation/templates/translation/language.html:453
+#: translation/templates/translation/language.html:456
 msgid "7"
 msgstr "семь"
 
-#: translation/templates/translation/language.html:273
+#: translation/templates/translation/language.html:461
+#: translation/templates/translation/language.html:464
 msgid "8"
 msgstr "восемь"
 
-#: translation/templates/translation/language.html:277
+#: translation/templates/translation/language.html:469
+#: translation/templates/translation/language.html:472
 msgid "9"
 msgstr "девять"
 
-#: translation/templates/translation/language.html:281
+#: translation/templates/translation/language.html:477
+#: translation/templates/translation/language.html:480
 msgid "10"
 msgstr "десять"
 
-#: translation/templates/translation/language.html:285
+#: translation/templates/translation/language.html:485
+#: translation/templates/translation/language.html:488
 msgid "Pouvez vous vous déshabiller pour que je vous examine"
 msgstr ""
 
-#: translation/templates/translation/language.html:289
+#: translation/templates/translation/language.html:493
+#: translation/templates/translation/language.html:496
 msgid "Vous pouvez garder vos sous-vêtements"
 msgstr "Вы можете не снимать нижнее бельё"
 
-#: translation/templates/translation/language.html:293
+#: translation/templates/translation/language.html:501
+#: translation/templates/translation/language.html:504
 msgid "Vous pouvez vous asseoir sur la chaise"
 msgstr "Присядьте, пожалуйста, на стул"
 
-#: translation/templates/translation/language.html:297
+#: translation/templates/translation/language.html:509
+#: translation/templates/translation/language.html:512
 msgid "Vous pouvez vous allonger sur la table d'examen"
 msgstr "Прилягте, пожалуйста, на кушетке"
 
-#: translation/templates/translation/language.html:301
+#: translation/templates/translation/language.html:517
+#: translation/templates/translation/language.html:520
 msgid "Vous pouvez vous allonger sur le brancard"
 msgstr "Прилягте, пожалуйста, на каталке"
 
-#: translation/templates/translation/language.html:310
+#: translation/templates/translation/language.html:526
+msgid "NEUROLOGIE"
+msgstr ""
+
+#: translation/templates/translation/language.html:532
+#: translation/templates/translation/language.html:535
 msgid "Avez-vous perdu connaissance ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:314
+#: translation/templates/translation/language.html:540
+#: translation/templates/translation/language.html:543
 msgid "Savez-vous quel jour nous sommes ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:318
+#: translation/templates/translation/language.html:548
+#: translation/templates/translation/language.html:551
 msgid "Savez-vous où vous êtes ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:322
+#: translation/templates/translation/language.html:556
+#: translation/templates/translation/language.html:559
 msgid "Suivez mon doigt du regard"
 msgstr ""
 
-#: translation/templates/translation/language.html:326
+#: translation/templates/translation/language.html:564
+#: translation/templates/translation/language.html:567
 msgid "Pouvez-vous bouger vos mains et vos pieds ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:330
+#: translation/templates/translation/language.html:572
+#: translation/templates/translation/language.html:575
 msgid "Je vais toucher vos mains et vos pieds, sentez-vous que je vous touche ?"
 msgstr "Я буду прикасаться к вашим рукам и ногам, чувствуете ли вы мои прикосновения?"
 
-#: translation/templates/translation/language.html:334
+#: translation/templates/translation/language.html:580
+#: translation/templates/translation/language.html:583
 msgid "Regardez-moi dans les yeux, je vais observer vos pupilles"
 msgstr "Посмотрите мне в глаза, пожалуйста, я осмотрю ваши зрачки"
 
-#: translation/templates/translation/language.html:338
+#: translation/templates/translation/language.html:588
+#: translation/templates/translation/language.html:591
 msgid "Avez vous des fourmillement ? Montrez moi où"
 msgstr ""
 
-#: translation/templates/translation/language.html:342
+#: translation/templates/translation/language.html:596
+#: translation/templates/translation/language.html:599
 msgid "Poussez sur mes mains"
 msgstr "Надавите на мои руки"
 
-#: translation/templates/translation/language.html:346
+#: translation/templates/translation/language.html:604
+#: translation/templates/translation/language.html:607
 msgid "Ouvrez les yeux"
 msgstr "Откройте глаза"
 
-#: translation/templates/translation/language.html:350
+#: translation/templates/translation/language.html:612
+#: translation/templates/translation/language.html:615
 msgid "Ouvrez la bouche"
 msgstr "Откройте рот."
 
-#: translation/templates/translation/language.html:354
+#: translation/templates/translation/language.html:620
+#: translation/templates/translation/language.html:623
 msgid "Levez le bras droit"
 msgstr "Поднимите правую руку"
 
-#: translation/templates/translation/language.html:358
+#: translation/templates/translation/language.html:628
+#: translation/templates/translation/language.html:631
 msgid "Avez-vous des douleurs à la tête ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:362
-#: translation/templates/translation/language.html:1364
+#: translation/templates/translation/language.html:636
+#: translation/templates/translation/language.html:639
+#: translation/templates/translation/language.html:2590
+#: translation/templates/translation/language.html:2593
 msgid "La douleur est apparue :"
 msgstr "Боли появились:"
 
-#: translation/templates/translation/language.html:366
+#: translation/templates/translation/language.html:644
+#: translation/templates/translation/language.html:647
 msgid "La douleur est apparue progressivement ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:370
+#: translation/templates/translation/language.html:652
+#: translation/templates/translation/language.html:655
 msgid "La douleur est apparue brutalement ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:374
+#: translation/templates/translation/language.html:660
+#: translation/templates/translation/language.html:663
 msgid "Avez vous des douleurs dans la nuque ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:378
+#: translation/templates/translation/language.html:668
+#: translation/templates/translation/language.html:671
 msgid "Avez-vous voyagez ces derniers mois ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:382
+#: translation/templates/translation/language.html:676
+#: translation/templates/translation/language.html:679
 msgid "Dans quel pays ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:386
+#: translation/templates/translation/language.html:684
+#: translation/templates/translation/language.html:687
 msgid "Est ce que la lumière vous dérange ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:390
+#: translation/templates/translation/language.html:692
+#: translation/templates/translation/language.html:695
 msgid "Est ce que le bruit vous dérange ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:394
+#: translation/templates/translation/language.html:700
+#: translation/templates/translation/language.html:703
 msgid "Je vais faire une piqûre au bout de votre doigt pour connaître votre taux de sucre"
 msgstr ""
 
-#: translation/templates/translation/language.html:403
+#: translation/templates/translation/language.html:709
+msgid "PNEUMOLOGIE"
+msgstr ""
+
+#: translation/templates/translation/language.html:715
+#: translation/templates/translation/language.html:718
 msgid "Je vais poser ma main sur votre ventre pour compter votre respiration, respirez normalement et ne parlez pas pendant ce temps"
 msgstr "Я положу мою руку вам на живот для изучения вашего дыхания, дышите как обычно и не говорите, пожалуйста"
 
-#: translation/templates/translation/language.html:407
+#: translation/templates/translation/language.html:723
+#: translation/templates/translation/language.html:726
 msgid "Etes-vous essoufflé ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:411
+#: translation/templates/translation/language.html:731
+#: translation/templates/translation/language.html:734
 msgid "Prenez une grande inspiration puis bloquez votre respiration"
 msgstr "Вдохните очень глубоко и задержите дыхание, пожалуйста"
 
-#: translation/templates/translation/language.html:415
+#: translation/templates/translation/language.html:739
+#: translation/templates/translation/language.html:742
 msgid "Respirez normalement"
 msgstr "Дышите как обычно"
 
-#: translation/templates/translation/language.html:419
+#: translation/templates/translation/language.html:747
+#: translation/templates/translation/language.html:750
 msgid "Respirez profondément"
 msgstr "Дышите глубоко"
 
-#: translation/templates/translation/language.html:423
+#: translation/templates/translation/language.html:755
+#: translation/templates/translation/language.html:758
 msgid "Fumez-vous ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:427
+#: translation/templates/translation/language.html:763
+#: translation/templates/translation/language.html:766
 msgid "Etes-vous asthmatique ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:431
+#: translation/templates/translation/language.html:771
+#: translation/templates/translation/language.html:774
 msgid "Avez vous pris votre traitement contre l’asthme ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:435
+#: translation/templates/translation/language.html:779
+#: translation/templates/translation/language.html:782
 msgid "Avez-vous respiré des fumées ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:439
+#: translation/templates/translation/language.html:787
+#: translation/templates/translation/language.html:790
 msgid "Je vous laisse vous moucher, pour savoir s’il y a des traces de suie"
 msgstr "Высморкайтесь, пожалуйста, необходимо посмотреть, есть ли следы сажи"
 
-#: translation/templates/translation/language.html:448
-msgid "Est-ce que votre douleur"
+#: translation/templates/translation/language.html:796
+msgid "CARDIOLOGIE"
 msgstr ""
 
-#: translation/templates/translation/language.html:452
+#: translation/templates/translation/language.html:802
+#: translation/templates/translation/language.html:805
 msgid "Est ce que votre douleur serre ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:456
+#: translation/templates/translation/language.html:810
+#: translation/templates/translation/language.html:813
 msgid "Est ce que votre douleur pique ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:460
+#: translation/templates/translation/language.html:818
+#: translation/templates/translation/language.html:821
 msgid "Est ce que votre douleur brûle ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:464
+#: translation/templates/translation/language.html:826
+#: translation/templates/translation/language.html:829
+#: translation/templates/translation/language.html:1001
+#: translation/templates/translation/language.html:1004
+#: translation/templates/translation/language.html:1072
+#: translation/templates/translation/language.html:1075
 msgid "Est-ce que votre douleur irradie ? Montrez-moi vers où"
 msgstr ""
 
-#: translation/templates/translation/language.html:468
+#: translation/templates/translation/language.html:834
+#: translation/templates/translation/language.html:837
 msgid "Depuis combien de temps avez vous cette douleur  ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:472
+#: translation/templates/translation/language.html:842
+#: translation/templates/translation/language.html:845
 msgid "Minutes"
 msgstr "Минуты"
 
-#: translation/templates/translation/language.html:476
+#: translation/templates/translation/language.html:850
+#: translation/templates/translation/language.html:853
 msgid "Heures"
 msgstr "Часы"
 
-#: translation/templates/translation/language.html:480
+#: translation/templates/translation/language.html:858
+#: translation/templates/translation/language.html:861
 msgid "Jours"
 msgstr "Дни"
 
-#: translation/templates/translation/language.html:484
+#: translation/templates/translation/language.html:866
+#: translation/templates/translation/language.html:869
 msgid "Je vais prendre votre pouls"
 msgstr "Я измерю ваш пульс"
 
-#: translation/templates/translation/language.html:488
+#: translation/templates/translation/language.html:874
+#: translation/templates/translation/language.html:877
 msgid "Je vais appuyer doucement sur votre ongle"
 msgstr "Я слегка нажму на ваш ноготь"
 
-#: translation/templates/translation/language.html:492
+#: translation/templates/translation/language.html:882
+#: translation/templates/translation/language.html:885
 msgid "Je vais prendre votre pression artérielle"
 msgstr "Я измерю ваше артериальное давление"
 
-#: translation/templates/translation/language.html:496
+#: translation/templates/translation/language.html:890
+#: translation/templates/translation/language.html:893
 msgid "Ressentez-vous des palpitations ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:500
+#: translation/templates/translation/language.html:898
+#: translation/templates/translation/language.html:901
 msgid "Ouvrez la bouche et soulevez la langue, je vais vous donner un traitement"
 msgstr "Откройте, пожалуйста, рот и приподнимите язык. Я дам вам лекарство"
 
-#: translation/templates/translation/language.html:504
+#: translation/templates/translation/language.html:906
+#: translation/templates/translation/language.html:909
 msgid "Est ce que ce médicament soulage votre douleur ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:508
+#: translation/templates/translation/language.html:914
+#: translation/templates/translation/language.html:917
 msgid "Buvez-vous de l'alcool ?"
 msgstr "Употребляете ли вы алкоголь?"
 
-#: translation/templates/translation/language.html:512
+#: translation/templates/translation/language.html:922
+#: translation/templates/translation/language.html:925
 msgid "Avez-vous du diabète ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:516
+#: translation/templates/translation/language.html:930
+#: translation/templates/translation/language.html:933
 msgid "Avez-vous du cholestérol ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:520
+#: translation/templates/translation/language.html:938
+#: translation/templates/translation/language.html:941
 msgid "Je vais faire un enregistrement de votre coeur, ce n’est pas douloureux, ne bouger pas pendant quelques secondes"
 msgstr "Я обследую ваше сердце, это не больно, не двигайтесь, пожалуйста, в течение нескольких секунд"
 
-#: translation/templates/translation/language.html:529
-msgid "Avez-vous senti votre malaise arriver ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:533
-msgid "Qu’avez-vous ressenti pendant la malaise ?"
-msgstr "Что вы чувствовали во время недомогания?"
-
-#: translation/templates/translation/language.html:537
-msgid "Avez-vous ressenti des fourmillements ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:541
-msgid "Avez-vous ressenti des vertiges ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:545
-msgid "Avez-vous ressenti une grande fatigue ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:549
-msgid "Avez vous des vertiges ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:553
-msgid "La douleur irradie-t-elle ? Vers où ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:557
-msgid "A quel endroit avez-vous ressenti ces signes ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:561
-msgid "Combien de temps à duré votre malaise ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:565
-msgid "Avez-vous perdu vos urines ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:569
-msgid "Vous êtes-vous mordu la langue ? Ouvrez la bouche"
-msgstr ""
-
-#: translation/templates/translation/language.html:573
-msgid "Avez vous convulsé ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:577
-msgid "Avez-vous mangé aujourd’hui ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:586
-msgid "Montrez moi ou vous avez mal"
-msgstr "Покажите, пожалуйста, где у вас болит"
-
-#: translation/templates/translation/language.html:590
-msgid "Est ce que la douleur irradie ? Si oui montrez moi vers où"
-msgstr ""
-
-#: translation/templates/translation/language.html:594
-msgid "Avez-vous perdu du poids ces derniers mois ? Combien de Kg ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:598
-msgid "Avez-vous des brûlures quand vous urinez ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:602
-msgid "Est-ce qu’il y a du sang dans vos urines ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:606
-msgid "Quelle est la date de vos dernières règles ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:610
-#: translation/templates/translation/language.html:807
-msgid "Etes vous enceinte ?"
-msgstr "Вы беременны?"
-
-#: translation/templates/translation/language.html:614
-msgid "A quelle heure avez-vous uriné pour la dernière fois aujourd’hui ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:618
-msgid "Êtes vous constipé ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:622
-msgid "Depuis combien de jours ?"
-msgstr "Уже сколько дней?"
-
-#: translation/templates/translation/language.html:626
-msgid "Avez-vous des nausées ?"
-msgstr "Есть ли у вас тошнота?"
-
-#: translation/templates/translation/language.html:630
-msgid "Avez-vous des diarrhées ?"
-msgstr "Есть ли у вас понос?"
-
-#: translation/templates/translation/language.html:634
-msgid "Avez-vous vomi ?"
-msgstr "Вас рвало?"
-
-#: translation/templates/translation/language.html:638
-msgid "Y a-t-il du sang dans vos selles ?"
-msgstr "Есть ли у вас кровь в кале?"
-
-#: translation/templates/translation/language.html:642
-msgid "Avez-vous des gazs ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:646
-msgid "Je dois vous faire un toucher rectal, êtes vous d’accord ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:650
-msgid "Il faudra uriner dans ce pot pour réaliser un examen"
-msgstr "Необходимо собрать мочу в этот контейнер для проведения исследования"
-
-#: translation/templates/translation/language.html:654
-msgid "Il faudra réaliser une toilette intime avant d’uriner dans le pot"
-msgstr "Вам следует подмыться перед сбором мочи в контейнер"
-
-#: translation/templates/translation/language.html:663
-msgid "Avez-vous été piqué ou mordu ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:667
-msgid "Montrez moi à quel endroit"
-msgstr "Покажите, пожалуйста, в каком месте"
-
-#: translation/templates/translation/language.html:671
-msgid "Montrez moi où étaient les premiers boutons"
-msgstr ""
-
-#: translation/templates/translation/language.html:675
-msgid "Depuis combien de temps la jambe est-elle rouge ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:679
-msgid "Est ce que ça vous démange ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:683
-msgid "Il faut rester en isolement"
-msgstr "Необходимо помещение в карантин"
-
-#: translation/templates/translation/language.html:687
-msgid "Vous devez garder ce masque sur vous"
-msgstr "Вы должны носить маску надетой"
-
-#: translation/templates/translation/language.html:691
-msgid "Avez-vous eu des rapports sexuels non protégés ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:695
-msgid "Je vais prendre votre température"
-msgstr "Я измерю вашу температуру."
-
-#: translation/templates/translation/language.html:704
-msgid "Est-ce que vous voyez flou ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:708
-msgid "Est-ce que vous voyez double ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:712
-msgid "Avez-vous mal à la tête ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:716
-msgid "Est ce que vous avez l’impression que la pièce tourne autour de vous ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:720
-msgid "Avez-vous reçu un coup à la tête récemment ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:729
-msgid "Avez-vous des maladies (diabète, hypertension) ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:733
-msgid "Avez-vous été hospitalisé récemment ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:737
-msgid "Avez-vous un traitement en cours ? lequel ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:741
-msgid "Avez-vous une ordonnance avec vos traitements ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:745
-msgid "Avez-vous des allergies ? lesquelles ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:749
-msgid "Y a-t-il des antécédents de maladie dans votre famille ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:753
-msgid "Pouvez-vous vous asseoir ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:757
-msgid "Pouvez-vous vous lever ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:761
-msgid "Pouvez-vous marcher ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:770
-msgid "Le bébé a t il perdu du poids ? Combien de kilo ?"
-msgstr "Малыш потерял в весе? Сколько килограммов?"
-
-#: translation/templates/translation/language.html:774
-msgid "Est-ce que le bébé est à jour de ces vaccins ?"
-msgstr "Получил ли малыш все необходимые на данный момент прививки?"
-
-#: translation/templates/translation/language.html:778
-msgid "Est-ce que ses frères et soeurs sont malades ?"
-msgstr "Болеют ли братья или сёстры малыша?"
-
-#: translation/templates/translation/language.html:782
-msgid "Est-ce qu’il mange bien ?"
-msgstr "Хорошо ли ест малыш?"
-
-#: translation/templates/translation/language.html:786
-msgid "Est-ce qu’il vomi ?"
-msgstr "Малыша рвёт?"
-
-#: translation/templates/translation/language.html:790
-msgid "Est-ce qu’il semble plus agité que d’habitude ?"
-msgstr "Выглядит ли малыш более беспокойным чем обычно?"
-
-#: translation/templates/translation/language.html:794
-msgid "Est-ce qu’il semble plus fatigué que d’habitude ?"
-msgstr "Не кажется ли, что у малыша слабость более обычного?"
-
-#: translation/templates/translation/language.html:798
-msgid "Est ce qu’il a la diarrhée ?"
-msgstr "Есть ли у малыша понос?"
-
-#: translation/templates/translation/language.html:811
-msgid "De combien de semaines ?"
-msgstr "Сколько недель?"
-
-#: translation/templates/translation/language.html:815
-msgid "Avez vous vos règles ?"
-msgstr "Есть ли у вас месячные?"
-
-#: translation/templates/translation/language.html:819
-msgid "Avez vous perdu du sang ?"
-msgstr "Были ли у вас кровотечения?"
-
-#: translation/templates/translation/language.html:823
-msgid "Vos pertes étaient elles rouge ou noir ?"
-msgstr "При кровотечениях цвет красный или черный?"
-
-#: translation/templates/translation/language.html:827
-msgid "Avez vous eu des problèmes lors de vos précédentes grossesses ?"
-msgstr ""
-
-#: translation/templates/translation/language.html:831
-msgid "Avez vous des contractions ?"
-msgstr "Есть ли у вас схватки?"
-
-#: translation/templates/translation/language.html:835
-msgid "Avez vous perdu les eaux ?"
-msgstr "Отошли ли воды?"
-
-#: translation/templates/translation/language.html:839
-msgid "Sentez vous le bébé bouger ?"
-msgstr "Чувствуете ли вы толчки ребёнка?"
-
-#: translation/templates/translation/language.html:843
-msgid "Avez vous une contraception ?"
-msgstr "Используете ли вы контрацепцию?"
-
-#: translation/templates/translation/language.html:847
-msgid "Je dois faire un examen gynécologique, allongez vous sur la table"
-msgstr "Я должен провести гинекологическое обследование, прилягте, пожалуйста, на кушетку"
-
-#: translation/templates/translation/language.html:851
-msgid "Il faut retirer vos sous-vêtements"
-msgstr "Вам следует снять нижнее бельё"
-
-#: translation/templates/translation/language.html:860
-msgid "Avez-vous été éjecté du véhicule ?"
-msgstr "Вас выбросило из автомобиля?"
-
-#: translation/templates/translation/language.html:864
-msgid "A quelle vitesse rouliez-vous ?"
-msgstr "С какой скоростью вы ехали?"
-
-#: translation/templates/translation/language.html:868
-msgid "Etiez-vous casqué ?"
-msgstr "Вы были в каске?"
-
-#: translation/templates/translation/language.html:872
-msgid "Aviez-vous votre ceinture de sécurité ?"
-msgstr "Вы были пристёгнуты?"
-
-#: translation/templates/translation/language.html:876
-msgid "Avez vous fait une chute ?"
-msgstr "Вы упали?"
-
-#: translation/templates/translation/language.html:880
-msgid "De quelle hauteur êtes-vous tombé ?"
-msgstr "С какой высоты вы упали?"
-
-#: translation/templates/translation/language.html:884
-msgid "Prenez vous des anticoagulants, des médicaments pour fluidifier le sang ?"
-msgstr "Принимаете ли вы противосвертывающие препараты или препараты для разжижения крови?"
-
-#: translation/templates/translation/language.html:888
-msgid "Je vais installer une collier afin de protéger votre colonne vertébrale"
-msgstr "Я установлю шейный корсет для защиты вашего позвоночника"
-
-#: translation/templates/translation/language.html:892
-msgid "Je dois mettre un antiseptique sur la plaie"
-msgstr "Я должен нанести антисептик на вашу рану"
-
-#: translation/templates/translation/language.html:896
-msgid "Je dois suturer la plaie"
-msgstr "Я должен зашить рану"
-
-#: translation/templates/translation/language.html:900
-msgid "Je dois faire un pansement"
-msgstr "Я должен наложить повязку"
-
-#: translation/templates/translation/language.html:904
-msgid "Je vais faire une anesthésie autour de la plaie"
-msgstr "Я должен сделать вам обезболивание вокруг раны"
-
-#: translation/templates/translation/language.html:908
-msgid "Ne bougez pas"
-msgstr "Не двигайтесь"
-
-#: translation/templates/translation/language.html:912
-msgid "Je dois vous faire un plâtre"
-msgstr "Я должен наложить вам гипс"
-
-#: translation/templates/translation/language.html:916
-#: translation/templates/translation/language.html:1115
-msgid "Vous devez être opéré"
-msgstr "Вы должны быть прооперированы"
-
-#: translation/templates/translation/language.html:925
-msgid "Vous devez avoir :"
-msgstr "Вам необходимо сделать:"
-
-#: translation/templates/translation/language.html:929
-msgid "Je vais vous faire :"
-msgstr "Я собираюсь вам сделать:"
-
-#: translation/templates/translation/language.html:933
-msgid "Je vais vous poser une perfusion"
-msgstr ""
-
-#: translation/templates/translation/language.html:937
-msgid "Je vais vous faire une prise de sang"
-msgstr ""
-
-#: translation/templates/translation/language.html:941
-msgid "Je vais vous faire un pansement"
-msgstr ""
-
-#: translation/templates/translation/language.html:945
-msgid "Je vais vous faire une piqûre"
-msgstr ""
-
-#: translation/templates/translation/language.html:949
-msgid "Je vais faire votre toilette"
+#: translation/templates/translation/language.html:947
+msgid "MALAISE"
 msgstr ""
 
 #: translation/templates/translation/language.html:953
-msgid "Vous allez avoir un scanner"
-msgstr ""
-
-#: translation/templates/translation/language.html:957
-msgid "Vous allez avoir une radio"
+#: translation/templates/translation/language.html:956
+msgid "Avez-vous senti votre malaise arriver ?"
 msgstr ""
 
 #: translation/templates/translation/language.html:961
-msgid "Je vais vous faire un plâtre"
-msgstr ""
-
-#: translation/templates/translation/language.html:965
-msgid "Vous allez avoir une échographie"
-msgstr ""
+#: translation/templates/translation/language.html:964
+msgid "Qu’avez-vous ressenti pendant la malaise ?"
+msgstr "Что вы чувствовали во время недомогания?"
 
 #: translation/templates/translation/language.html:969
-msgid "Vous allez avoir une opération chirurgicale"
+#: translation/templates/translation/language.html:972
+msgid "Avez-vous ressenti des fourmillements ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:973
-msgid "Aujourd'hui"
-msgstr "сегодня"
-
 #: translation/templates/translation/language.html:977
-msgid "Demain"
-msgstr "завтра"
-
-#: translation/templates/translation/language.html:981
-msgid "Vous devez prendre une douche avec un shampoing avant l'opération chirurgicale"
+#: translation/templates/translation/language.html:980
+msgid "Avez-vous ressenti des vertiges ?"
 msgstr ""
 
 #: translation/templates/translation/language.html:985
-msgid "L’examen n’est pas douloureux"
-msgstr "Исследование безболезненно"
-
-#: translation/templates/translation/language.html:989
-msgid "Après l'opération vous aurez :"
-msgstr "После операции у вас будет:"
+#: translation/templates/translation/language.html:988
+msgid "Avez-vous ressenti une grande fatigue ?"
+msgstr ""
 
 #: translation/templates/translation/language.html:993
-msgid "Après l'opération vous aurez une sonde urinaire"
-msgstr ""
-
-#: translation/templates/translation/language.html:997
-msgid "Après l'opération vous aurez une sonde gastrique"
-msgstr ""
-
-#: translation/templates/translation/language.html:1001
-msgid "Après l'opération vous aurez un drain"
-msgstr ""
-
-#: translation/templates/translation/language.html:1005
-msgid "Après l'opération vous aurez une cicatrice"
+#: translation/templates/translation/language.html:996
+msgid "Avez vous des vertiges ?"
 msgstr ""
 
 #: translation/templates/translation/language.html:1009
-msgid "Vous devez retier tous vos bijoux et piercing"
-msgstr "Вам необходимо снять все украшения и пирсинг"
-
-#: translation/templates/translation/language.html:1013
-msgid "Vous devez retier votre vernis a ongles"
-msgstr "Вам необходимо снять лак с ногтей"
-
-#: translation/templates/translation/language.html:1017
-msgid "Vous devez retier vos appareils dentaires et auditifs"
-msgstr "Вам необходимо снять все съёмные зубные и слуховые протезы"
-
-#: translation/templates/translation/language.html:1021
-msgid "Dites nous si vous avez :"
-msgstr "Скажите нам, если у вас есть:"
-
-#: translation/templates/translation/language.html:1025
-msgid "Avez-vous un pace-maker ?"
+#: translation/templates/translation/language.html:1012
+msgid "A quel endroit avez-vous ressenti ces signes ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:1029
-msgid "Avez-vous une valve cardiaque ?"
+#: translation/templates/translation/language.html:1017
+#: translation/templates/translation/language.html:1020
+msgid "Combien de temps à duré votre malaise ?"
+msgstr ""
+
+#: translation/templates/translation/language.html:1025
+#: translation/templates/translation/language.html:1028
+msgid "Avez-vous perdu vos urines ?"
 msgstr ""
 
 #: translation/templates/translation/language.html:1033
-msgid "Avez-vous un stent ?"
+#: translation/templates/translation/language.html:1036
+msgid "Vous êtes-vous mordu la langue ? Ouvrez la bouche"
 msgstr ""
 
-#: translation/templates/translation/language.html:1037
-msgid "Avez-vous une prothèse ?"
+#: translation/templates/translation/language.html:1041
+#: translation/templates/translation/language.html:1044
+msgid "Avez vous convulsé ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:1046
-msgid "Je vous donne :"
-msgstr "Я даю вам:"
-
-#: translation/templates/translation/language.html:1050
-msgid "Je vous donne des médicaments"
-msgstr ""
-
-#: translation/templates/translation/language.html:1054
-msgid "Je vous donne des antalgiques"
+#: translation/templates/translation/language.html:1049
+#: translation/templates/translation/language.html:1052
+msgid "Avez-vous mangé aujourd’hui ?"
 msgstr ""
 
 #: translation/templates/translation/language.html:1058
-msgid "Je vous donne des antibiotiques"
+msgid "DIGESTIF"
 msgstr ""
 
-#: translation/templates/translation/language.html:1062
-msgid "Vous ne devez pas boire"
-msgstr "Вы не должны пить."
+#: translation/templates/translation/language.html:1064
+#: translation/templates/translation/language.html:1067
+msgid "Montrez moi ou vous avez mal"
+msgstr "Покажите, пожалуйста, где у вас болит"
 
-#: translation/templates/translation/language.html:1066
-msgid "Vous ne devez pas manger"
-msgstr "Вы не должны есть"
+#: translation/templates/translation/language.html:1080
+#: translation/templates/translation/language.html:1083
+msgid "Avez-vous perdu du poids ces derniers mois ? Combien de Kg ?"
+msgstr ""
 
-#: translation/templates/translation/language.html:1070
-msgid "Vous ne devez pas vous lever"
-msgstr "Вам нельзя вставать"
+#: translation/templates/translation/language.html:1088
+#: translation/templates/translation/language.html:1091
+msgid "Avez-vous des brûlures quand vous urinez ?"
+msgstr ""
 
-#: translation/templates/translation/language.html:1074
-msgid "Vous devez rester sur le dos"
-msgstr "Вам нужно оставаться лежать на спине"
+#: translation/templates/translation/language.html:1096
+#: translation/templates/translation/language.html:1099
+msgid "Est-ce qu’il y a du sang dans vos urines ?"
+msgstr ""
 
-#: translation/templates/translation/language.html:1078
-msgid "Vous ne devez pas fumer"
-msgstr "Вам нельзя курить"
-
-#: translation/templates/translation/language.html:1086
-msgid "Pour allumer ou éteindre les lumières appuyer ici"
-msgstr "Для включения и выключения света нажмите здесь"
-
-#: translation/templates/translation/language.html:1090
-msgid "Les toilettes sont ici"
-msgstr "Туалет находится здесь"
-
-#: translation/templates/translation/language.html:1094
-msgid "La salle de bain est ici"
-msgstr "Ванная комната находится здесь"
-
-#: translation/templates/translation/language.html:1098
-msgid "Votre chambre est ici"
-msgstr "Ваша палата находится здесь"
-
+#: translation/templates/translation/language.html:1104
 #: translation/templates/translation/language.html:1107
-msgid "Il y a une fracture"
-msgstr "Обнаружен перелом"
+msgid "Quelle est la date de vos dernières règles ?"
+msgstr ""
 
-#: translation/templates/translation/language.html:1111
-msgid "Il n’y a pas de fracture"
-msgstr "Перелом не обнаружен"
+#: translation/templates/translation/language.html:1112
+#: translation/templates/translation/language.html:1115
+#: translation/templates/translation/language.html:1491
+#: translation/templates/translation/language.html:1494
+msgid "Etes vous enceinte ?"
+msgstr "Вы беременны?"
 
-#: translation/templates/translation/language.html:1119
-msgid "Vous devez revenir demain matin"
-msgstr "Вам нужно придти завтра утром"
-
+#: translation/templates/translation/language.html:1120
 #: translation/templates/translation/language.html:1123
-msgid "Vous devez revenir dans"
+msgid "A quelle heure avez-vous uriné pour la dernière fois aujourd’hui ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:1127
-msgid "Vous devrez faire retirer les fils dans"
-msgstr ""
-
+#: translation/templates/translation/language.html:1128
 #: translation/templates/translation/language.html:1131
-msgid "Vous devez avoir un plâtre"
-msgstr "У вас будет гипс"
+msgid "Êtes vous constipé ?"
+msgstr ""
 
-#: translation/templates/translation/language.html:1135
-msgid "Vous devrez porter une attelle"
-msgstr "Вам придётся носить шину"
-
+#: translation/templates/translation/language.html:1136
 #: translation/templates/translation/language.html:1139
-msgid "Vous pouvez rentrer chez vous"
-msgstr "Вы можете вернуться домой"
+msgid "Depuis combien de jours ?"
+msgstr "Уже сколько дней?"
 
-#: translation/templates/translation/language.html:1143
-msgid "Vous devez aller à l'hôpital"
-msgstr "Вам необходимо поехать в больницу."
-
+#: translation/templates/translation/language.html:1144
 #: translation/templates/translation/language.html:1147
-msgid "Vous devez rester à l'hôpital"
-msgstr "Вам необходимо оставаться в больнице"
+msgid "Avez-vous des nausées ?"
+msgstr "Есть ли у вас тошнота?"
 
-#: translation/templates/translation/language.html:1151
-msgid "Vous allez être transféré dans un autre service"
-msgstr "Вы будете переведены в другое отделение"
+#: translation/templates/translation/language.html:1152
+#: translation/templates/translation/language.html:1155
+msgid "Avez-vous des diarrhées ?"
+msgstr "Есть ли у вас понос?"
 
 #: translation/templates/translation/language.html:1160
-msgid "J’ai faim"
-msgstr "Я голоден."
-
-#: translation/templates/translation/language.html:1164
-msgid "J’ai soif"
-msgstr ""
+#: translation/templates/translation/language.html:1163
+msgid "Avez-vous vomi ?"
+msgstr "Вас рвало?"
 
 #: translation/templates/translation/language.html:1168
-msgid "J’ai mal"
-msgstr ""
-
-#: translation/templates/translation/language.html:1172
-msgid "J’ai froid"
-msgstr ""
+#: translation/templates/translation/language.html:1171
+msgid "Y a-t-il du sang dans vos selles ?"
+msgstr "Есть ли у вас кровь в кале?"
 
 #: translation/templates/translation/language.html:1176
-msgid "J’ai chaud"
-msgstr ""
-
-#: translation/templates/translation/language.html:1180
-msgid "J’ai des nausées"
+#: translation/templates/translation/language.html:1179
+msgid "Avez-vous des gazs ?"
 msgstr ""
 
 #: translation/templates/translation/language.html:1184
-#: translation/templates/translation/language.html:1628
-msgid "J’ai vomi"
-msgstr "Меня вырвало"
-
-#: translation/templates/translation/language.html:1188
-msgid "J’ai uriné (je voudrais être changé)"
+#: translation/templates/translation/language.html:1187
+msgid "Je dois vous faire un toucher rectal, êtes vous d’accord ?"
 msgstr ""
 
 #: translation/templates/translation/language.html:1192
+#: translation/templates/translation/language.html:1195
+msgid "Il faudra uriner dans ce pot pour réaliser un examen"
+msgstr "Необходимо собрать мочу в этот контейнер для проведения исследования"
+
+#: translation/templates/translation/language.html:1200
+#: translation/templates/translation/language.html:1203
+msgid "Il faudra réaliser une toilette intime avant d’uriner dans le pot"
+msgstr "Вам следует подмыться перед сбором мочи в контейнер"
+
+#: translation/templates/translation/language.html:1209
+msgid "INFECTIEUX"
+msgstr ""
+
+#: translation/templates/translation/language.html:1215
+#: translation/templates/translation/language.html:1218
+msgid "Avez-vous été piqué ou mordu ?"
+msgstr ""
+
+#: translation/templates/translation/language.html:1223
+#: translation/templates/translation/language.html:1226
+msgid "Montrez moi à quel endroit"
+msgstr "Покажите, пожалуйста, в каком месте"
+
+#: translation/templates/translation/language.html:1231
+#: translation/templates/translation/language.html:1234
+msgid "Montrez moi où étaient les premiers boutons"
+msgstr ""
+
+#: translation/templates/translation/language.html:1239
+#: translation/templates/translation/language.html:1242
+msgid "Depuis combien de temps la jambe est-elle rouge ?"
+msgstr ""
+
+#: translation/templates/translation/language.html:1247
+#: translation/templates/translation/language.html:1250
+msgid "Est ce que ça vous démange ?"
+msgstr ""
+
+#: translation/templates/translation/language.html:1255
+#: translation/templates/translation/language.html:1258
+msgid "Il faut rester en isolement"
+msgstr "Необходимо помещение в карантин"
+
+#: translation/templates/translation/language.html:1263
+#: translation/templates/translation/language.html:1266
+msgid "Vous devez garder ce masque sur vous"
+msgstr "Вы должны носить маску надетой"
+
+#: translation/templates/translation/language.html:1271
+#: translation/templates/translation/language.html:1274
+msgid "Avez-vous eu des rapports sexuels non protégés ?"
+msgstr ""
+
+#: translation/templates/translation/language.html:1279
+#: translation/templates/translation/language.html:1282
+msgid "Je vais prendre votre température"
+msgstr "Я измерю вашу температуру."
+
+#: translation/templates/translation/language.html:1288
+msgid "OPHTALMOLOGIE"
+msgstr ""
+
+#: translation/templates/translation/language.html:1294
+#: translation/templates/translation/language.html:1297
+msgid "Est-ce que vous voyez flou ?"
+msgstr ""
+
+#: translation/templates/translation/language.html:1302
+#: translation/templates/translation/language.html:1305
+msgid "Est-ce que vous voyez double ?"
+msgstr ""
+
+#: translation/templates/translation/language.html:1310
+#: translation/templates/translation/language.html:1313
+msgid "Avez-vous mal à la tête ?"
+msgstr ""
+
+#: translation/templates/translation/language.html:1318
+#: translation/templates/translation/language.html:1321
+msgid "Est ce que vous avez l’impression que la pièce tourne autour de vous ?"
+msgstr ""
+
+#: translation/templates/translation/language.html:1326
+#: translation/templates/translation/language.html:1329
+msgid "Avez-vous reçu un coup à la tête récemment ?"
+msgstr ""
+
+#: translation/templates/translation/language.html:1335
+msgid "ANTÉCÉDENTS"
+msgstr ""
+
+#: translation/templates/translation/language.html:1341
+#: translation/templates/translation/language.html:1344
+msgid "Avez-vous des maladies (diabète, hypertension) ?"
+msgstr ""
+
+#: translation/templates/translation/language.html:1349
+#: translation/templates/translation/language.html:1352
+msgid "Avez-vous été hospitalisé récemment ?"
+msgstr ""
+
+#: translation/templates/translation/language.html:1357
+#: translation/templates/translation/language.html:1360
+msgid "Avez-vous un traitement en cours ? lequel ?"
+msgstr ""
+
+#: translation/templates/translation/language.html:1365
+#: translation/templates/translation/language.html:1368
+msgid "Avez-vous une ordonnance avec vos traitements ?"
+msgstr ""
+
+#: translation/templates/translation/language.html:1373
+#: translation/templates/translation/language.html:1376
+msgid "Avez-vous des allergies ? lesquelles ?"
+msgstr ""
+
+#: translation/templates/translation/language.html:1381
+#: translation/templates/translation/language.html:1384
+msgid "Y a-t-il des antécédents de maladie dans votre famille ?"
+msgstr ""
+
+#: translation/templates/translation/language.html:1389
+#: translation/templates/translation/language.html:1392
+msgid "Pouvez-vous vous asseoir ?"
+msgstr ""
+
+#: translation/templates/translation/language.html:1397
+#: translation/templates/translation/language.html:1400
+msgid "Pouvez-vous vous lever ?"
+msgstr ""
+
+#: translation/templates/translation/language.html:1405
+#: translation/templates/translation/language.html:1408
+msgid "Pouvez-vous marcher ?"
+msgstr ""
+
+#: translation/templates/translation/language.html:1414
+msgid "PEDIATRIE"
+msgstr ""
+
+#: translation/templates/translation/language.html:1420
+#: translation/templates/translation/language.html:1423
+msgid "Le bébé a t il perdu du poids ? Combien de kilo ?"
+msgstr "Малыш потерял в весе? Сколько килограммов?"
+
+#: translation/templates/translation/language.html:1428
+#: translation/templates/translation/language.html:1431
+msgid "Est-ce que le bébé est à jour de ces vaccins ?"
+msgstr "Получил ли малыш все необходимые на данный момент прививки?"
+
+#: translation/templates/translation/language.html:1436
+#: translation/templates/translation/language.html:1439
+msgid "Est-ce que ses frères et soeurs sont malades ?"
+msgstr "Болеют ли братья или сёстры малыша?"
+
+#: translation/templates/translation/language.html:1444
+#: translation/templates/translation/language.html:1447
+msgid "Est-ce qu’il mange bien ?"
+msgstr "Хорошо ли ест малыш?"
+
+#: translation/templates/translation/language.html:1452
+#: translation/templates/translation/language.html:1455
+msgid "Est-ce qu’il vomi ?"
+msgstr "Малыша рвёт?"
+
+#: translation/templates/translation/language.html:1460
+#: translation/templates/translation/language.html:1463
+msgid "Est-ce qu’il semble plus agité que d’habitude ?"
+msgstr "Выглядит ли малыш более беспокойным чем обычно?"
+
+#: translation/templates/translation/language.html:1468
+#: translation/templates/translation/language.html:1471
+msgid "Est-ce qu’il semble plus fatigué que d’habitude ?"
+msgstr "Не кажется ли, что у малыша слабость более обычного?"
+
+#: translation/templates/translation/language.html:1476
+#: translation/templates/translation/language.html:1479
+msgid "Est ce qu’il a la diarrhée ?"
+msgstr "Есть ли у малыша понос?"
+
+#: translation/templates/translation/language.html:1485
+msgid "GYNECOLOGIE"
+msgstr ""
+
+#: translation/templates/translation/language.html:1499
+#: translation/templates/translation/language.html:1502
+msgid "De combien de semaines ?"
+msgstr "Сколько недель?"
+
+#: translation/templates/translation/language.html:1507
+#: translation/templates/translation/language.html:1510
+msgid "Avez vous vos règles ?"
+msgstr "Есть ли у вас месячные?"
+
+#: translation/templates/translation/language.html:1515
+#: translation/templates/translation/language.html:1518
+msgid "Avez vous perdu du sang ?"
+msgstr "Были ли у вас кровотечения?"
+
+#: translation/templates/translation/language.html:1523
+#: translation/templates/translation/language.html:1526
+msgid "Vos pertes étaient elles rouge ou noir ?"
+msgstr "При кровотечениях цвет красный или черный?"
+
+#: translation/templates/translation/language.html:1531
+#: translation/templates/translation/language.html:1534
+msgid "Avez vous eu des problèmes lors de vos précédentes grossesses ?"
+msgstr ""
+
+#: translation/templates/translation/language.html:1539
+#: translation/templates/translation/language.html:1542
+msgid "Avez vous des contractions ?"
+msgstr "Есть ли у вас схватки?"
+
+#: translation/templates/translation/language.html:1547
+#: translation/templates/translation/language.html:1550
+msgid "Avez vous perdu les eaux ?"
+msgstr "Отошли ли воды?"
+
+#: translation/templates/translation/language.html:1555
+#: translation/templates/translation/language.html:1558
+msgid "Sentez vous le bébé bouger ?"
+msgstr "Чувствуете ли вы толчки ребёнка?"
+
+#: translation/templates/translation/language.html:1563
+#: translation/templates/translation/language.html:1566
+msgid "Avez vous une contraception ?"
+msgstr "Используете ли вы контрацепцию?"
+
+#: translation/templates/translation/language.html:1571
+#: translation/templates/translation/language.html:1574
+msgid "Je dois faire un examen gynécologique, allongez vous sur la table"
+msgstr "Я должен провести гинекологическое обследование, прилягте, пожалуйста, на кушетку"
+
+#: translation/templates/translation/language.html:1579
+#: translation/templates/translation/language.html:1582
+msgid "Il faut retirer vos sous-vêtements"
+msgstr "Вам следует снять нижнее бельё"
+
+#: translation/templates/translation/language.html:1588
+msgid "TRAUMATOLOGIE"
+msgstr ""
+
+#: translation/templates/translation/language.html:1594
+#: translation/templates/translation/language.html:1597
+msgid "Avez-vous été éjecté du véhicule ?"
+msgstr "Вас выбросило из автомобиля?"
+
+#: translation/templates/translation/language.html:1602
+#: translation/templates/translation/language.html:1605
+msgid "A quelle vitesse rouliez-vous ?"
+msgstr "С какой скоростью вы ехали?"
+
+#: translation/templates/translation/language.html:1610
+#: translation/templates/translation/language.html:1613
+msgid "Etiez-vous casqué ?"
+msgstr "Вы были в каске?"
+
+#: translation/templates/translation/language.html:1618
+#: translation/templates/translation/language.html:1621
+msgid "Aviez-vous votre ceinture de sécurité ?"
+msgstr "Вы были пристёгнуты?"
+
+#: translation/templates/translation/language.html:1626
+#: translation/templates/translation/language.html:1629
+msgid "Avez vous fait une chute ?"
+msgstr "Вы упали?"
+
+#: translation/templates/translation/language.html:1634
+#: translation/templates/translation/language.html:1637
+msgid "De quelle hauteur êtes-vous tombé ?"
+msgstr "С какой высоты вы упали?"
+
+#: translation/templates/translation/language.html:1642
+#: translation/templates/translation/language.html:1645
+msgid "Prenez vous des anticoagulants, des médicaments pour fluidifier le sang ?"
+msgstr "Принимаете ли вы противосвертывающие препараты или препараты для разжижения крови?"
+
+#: translation/templates/translation/language.html:1650
+#: translation/templates/translation/language.html:1653
+msgid "Je vais installer une collier afin de protéger votre colonne vertébrale"
+msgstr "Я установлю шейный корсет для защиты вашего позвоночника"
+
+#: translation/templates/translation/language.html:1658
+#: translation/templates/translation/language.html:1661
+msgid "Je dois mettre un antiseptique sur la plaie"
+msgstr "Я должен нанести антисептик на вашу рану"
+
+#: translation/templates/translation/language.html:1666
+#: translation/templates/translation/language.html:1669
+msgid "Je dois suturer la plaie"
+msgstr "Я должен зашить рану"
+
+#: translation/templates/translation/language.html:1674
+#: translation/templates/translation/language.html:1677
+msgid "Je dois faire un pansement"
+msgstr "Я должен наложить повязку"
+
+#: translation/templates/translation/language.html:1682
+#: translation/templates/translation/language.html:1685
+msgid "Je vais faire une anesthésie autour de la plaie"
+msgstr "Я должен сделать вам обезболивание вокруг раны"
+
+#: translation/templates/translation/language.html:1690
+#: translation/templates/translation/language.html:1693
+msgid "Ne bougez pas"
+msgstr "Не двигайтесь"
+
+#: translation/templates/translation/language.html:1698
+#: translation/templates/translation/language.html:1701
+msgid "Je dois vous faire un plâtre"
+msgstr "Я должен наложить вам гипс"
+
+#: translation/templates/translation/language.html:1706
+#: translation/templates/translation/language.html:1709
+#: translation/templates/translation/language.html:2095
+#: translation/templates/translation/language.html:2098
+msgid "Vous devez être opéré"
+msgstr "Вы должны быть прооперированы"
+
+#: translation/templates/translation/language.html:1715
+msgid "EXAMENS"
+msgstr ""
+
+#: translation/templates/translation/language.html:1721
+#: translation/templates/translation/language.html:1724
+msgid "Vous devez avoir :"
+msgstr "Вам необходимо сделать:"
+
+#: translation/templates/translation/language.html:1729
+#: translation/templates/translation/language.html:1732
+msgid "Je vais vous faire :"
+msgstr "Я собираюсь вам сделать:"
+
+#: translation/templates/translation/language.html:1737
+#: translation/templates/translation/language.html:1740
+msgid "Je vais vous poser une perfusion"
+msgstr ""
+
+#: translation/templates/translation/language.html:1745
+#: translation/templates/translation/language.html:1748
+msgid "Je vais vous faire une prise de sang"
+msgstr ""
+
+#: translation/templates/translation/language.html:1753
+#: translation/templates/translation/language.html:1756
+msgid "Je vais vous faire un pansement"
+msgstr ""
+
+#: translation/templates/translation/language.html:1761
+#: translation/templates/translation/language.html:1764
+msgid "Je vais vous faire une piqûre"
+msgstr ""
+
+#: translation/templates/translation/language.html:1769
+#: translation/templates/translation/language.html:1772
+msgid "Je vais faire votre toilette"
+msgstr ""
+
+#: translation/templates/translation/language.html:1777
+#: translation/templates/translation/language.html:1780
+msgid "Vous allez avoir un scanner"
+msgstr ""
+
+#: translation/templates/translation/language.html:1785
+#: translation/templates/translation/language.html:1788
+msgid "Vous allez avoir une radio"
+msgstr ""
+
+#: translation/templates/translation/language.html:1793
+#: translation/templates/translation/language.html:1796
+msgid "Je vais vous faire un plâtre"
+msgstr ""
+
+#: translation/templates/translation/language.html:1801
+#: translation/templates/translation/language.html:1804
+msgid "Vous allez avoir une échographie"
+msgstr ""
+
+#: translation/templates/translation/language.html:1809
+#: translation/templates/translation/language.html:1812
+msgid "Vous allez avoir une opération chirurgicale"
+msgstr ""
+
+#: translation/templates/translation/language.html:1817
+#: translation/templates/translation/language.html:1820
+msgid "Aujourd'hui"
+msgstr "сегодня"
+
+#: translation/templates/translation/language.html:1825
+#: translation/templates/translation/language.html:1828
+msgid "Demain"
+msgstr "завтра"
+
+#: translation/templates/translation/language.html:1833
+#: translation/templates/translation/language.html:1836
+msgid "Vous devez prendre une douche avec un shampoing avant l'opération chirurgicale"
+msgstr ""
+
+#: translation/templates/translation/language.html:1841
+#: translation/templates/translation/language.html:1844
+msgid "L’examen n’est pas douloureux"
+msgstr "Исследование безболезненно"
+
+#: translation/templates/translation/language.html:1849
+#: translation/templates/translation/language.html:1852
+msgid "Après l'opération vous aurez :"
+msgstr "После операции у вас будет:"
+
+#: translation/templates/translation/language.html:1857
+#: translation/templates/translation/language.html:1860
+msgid "Après l'opération vous aurez une sonde urinaire"
+msgstr ""
+
+#: translation/templates/translation/language.html:1865
+#: translation/templates/translation/language.html:1868
+msgid "Après l'opération vous aurez une sonde gastrique"
+msgstr ""
+
+#: translation/templates/translation/language.html:1873
+#: translation/templates/translation/language.html:1876
+msgid "Après l'opération vous aurez un drain"
+msgstr ""
+
+#: translation/templates/translation/language.html:1881
+#: translation/templates/translation/language.html:1884
+msgid "Après l'opération vous aurez une cicatrice"
+msgstr ""
+
+#: translation/templates/translation/language.html:1889
+#: translation/templates/translation/language.html:1892
+msgid "Vous devez retier tous vos bijoux et piercing"
+msgstr "Вам необходимо снять все украшения и пирсинг"
+
+#: translation/templates/translation/language.html:1897
+#: translation/templates/translation/language.html:1900
+msgid "Vous devez retier votre vernis a ongles"
+msgstr "Вам необходимо снять лак с ногтей"
+
+#: translation/templates/translation/language.html:1905
+#: translation/templates/translation/language.html:1908
+msgid "Vous devez retier vos appareils dentaires et auditifs"
+msgstr "Вам необходимо снять все съёмные зубные и слуховые протезы"
+
+#: translation/templates/translation/language.html:1913
+#: translation/templates/translation/language.html:1916
+msgid "Dites nous si vous avez :"
+msgstr "Скажите нам, если у вас есть:"
+
+#: translation/templates/translation/language.html:1921
+#: translation/templates/translation/language.html:1924
+msgid "Avez-vous un pace-maker ?"
+msgstr ""
+
+#: translation/templates/translation/language.html:1929
+#: translation/templates/translation/language.html:1932
+msgid "Avez-vous une valve cardiaque ?"
+msgstr ""
+
+#: translation/templates/translation/language.html:1937
+#: translation/templates/translation/language.html:1940
+msgid "Avez-vous un stent ?"
+msgstr ""
+
+#: translation/templates/translation/language.html:1945
+#: translation/templates/translation/language.html:1948
+msgid "Avez-vous une prothèse ?"
+msgstr ""
+
+#: translation/templates/translation/language.html:1954
+msgid "TRAITEMENTS et CONSIGNES"
+msgstr ""
+
+#: translation/templates/translation/language.html:1960
+#: translation/templates/translation/language.html:1963
+msgid "Je vous donne :"
+msgstr "Я даю вам:"
+
+#: translation/templates/translation/language.html:1968
+#: translation/templates/translation/language.html:1971
+msgid "Je vous donne des médicaments"
+msgstr ""
+
+#: translation/templates/translation/language.html:1976
+#: translation/templates/translation/language.html:1979
+msgid "Je vous donne des antalgiques"
+msgstr ""
+
+#: translation/templates/translation/language.html:1984
+#: translation/templates/translation/language.html:1987
+msgid "Je vous donne des antibiotiques"
+msgstr ""
+
+#: translation/templates/translation/language.html:1992
+#: translation/templates/translation/language.html:1995
+msgid "Vous ne devez pas boire"
+msgstr "Вы не должны пить."
+
+#: translation/templates/translation/language.html:2000
+#: translation/templates/translation/language.html:2003
+msgid "Vous ne devez pas manger"
+msgstr "Вы не должны есть"
+
+#: translation/templates/translation/language.html:2008
+#: translation/templates/translation/language.html:2011
+msgid "Vous ne devez pas vous lever"
+msgstr "Вам нельзя вставать"
+
+#: translation/templates/translation/language.html:2016
+#: translation/templates/translation/language.html:2019
+msgid "Vous devez rester sur le dos"
+msgstr "Вам нужно оставаться лежать на спине"
+
+#: translation/templates/translation/language.html:2024
+#: translation/templates/translation/language.html:2027
+msgid "Vous ne devez pas fumer"
+msgstr "Вам нельзя курить"
+
+#: translation/templates/translation/language.html:2040
+#: translation/templates/translation/language.html:2043
+msgid "Pour allumer ou éteindre les lumières appuyer ici"
+msgstr "Для включения и выключения света нажмите здесь"
+
+#: translation/templates/translation/language.html:2048
+#: translation/templates/translation/language.html:2051
+msgid "Les toilettes sont ici"
+msgstr "Туалет находится здесь"
+
+#: translation/templates/translation/language.html:2056
+#: translation/templates/translation/language.html:2059
+msgid "La salle de bain est ici"
+msgstr "Ванная комната находится здесь"
+
+#: translation/templates/translation/language.html:2064
+#: translation/templates/translation/language.html:2067
+msgid "Votre chambre est ici"
+msgstr "Ваша палата находится здесь"
+
+#: translation/templates/translation/language.html:2073
+msgid "CONCLUSION"
+msgstr ""
+
+#: translation/templates/translation/language.html:2079
+#: translation/templates/translation/language.html:2082
+msgid "Il y a une fracture"
+msgstr "Обнаружен перелом"
+
+#: translation/templates/translation/language.html:2087
+#: translation/templates/translation/language.html:2090
+msgid "Il n’y a pas de fracture"
+msgstr "Перелом не обнаружен"
+
+#: translation/templates/translation/language.html:2103
+#: translation/templates/translation/language.html:2106
+msgid "Vous devez revenir demain matin"
+msgstr "Вам нужно придти завтра утром"
+
+#: translation/templates/translation/language.html:2111
+#: translation/templates/translation/language.html:2114
+msgid "Vous devez revenir dans"
+msgstr ""
+
+#: translation/templates/translation/language.html:2119
+#: translation/templates/translation/language.html:2122
+msgid "Vous devrez faire retirer les fils dans"
+msgstr ""
+
+#: translation/templates/translation/language.html:2127
+#: translation/templates/translation/language.html:2130
+msgid "Vous devez avoir un plâtre"
+msgstr "У вас будет гипс"
+
+#: translation/templates/translation/language.html:2135
+#: translation/templates/translation/language.html:2138
+msgid "Vous devrez porter une attelle"
+msgstr "Вам придётся носить шину"
+
+#: translation/templates/translation/language.html:2143
+#: translation/templates/translation/language.html:2146
+msgid "Vous pouvez rentrer chez vous"
+msgstr "Вы можете вернуться домой"
+
+#: translation/templates/translation/language.html:2151
+#: translation/templates/translation/language.html:2154
+msgid "Vous devez aller à l'hôpital"
+msgstr "Вам необходимо поехать в больницу."
+
+#: translation/templates/translation/language.html:2159
+#: translation/templates/translation/language.html:2162
+msgid "Vous devez rester à l'hôpital"
+msgstr "Вам необходимо оставаться в больнице"
+
+#: translation/templates/translation/language.html:2167
+#: translation/templates/translation/language.html:2170
+msgid "Vous allez être transféré dans un autre service"
+msgstr "Вы будете переведены в другое отделение"
+
+#: translation/templates/translation/language.html:2176
+msgid "PATIENT EN STRUCTURE"
+msgstr ""
+
+#: translation/templates/translation/language.html:2182
+#: translation/templates/translation/language.html:2185
+msgid "J’ai faim"
+msgstr "Я голоден."
+
+#: translation/templates/translation/language.html:2190
+#: translation/templates/translation/language.html:2193
+msgid "J’ai soif"
+msgstr ""
+
+#: translation/templates/translation/language.html:2198
+#: translation/templates/translation/language.html:2201
+msgid "J’ai mal"
+msgstr ""
+
+#: translation/templates/translation/language.html:2206
+#: translation/templates/translation/language.html:2209
+msgid "J’ai froid"
+msgstr ""
+
+#: translation/templates/translation/language.html:2214
+#: translation/templates/translation/language.html:2217
+msgid "J’ai chaud"
+msgstr ""
+
+#: translation/templates/translation/language.html:2222
+#: translation/templates/translation/language.html:2225
+msgid "J’ai des nausées"
+msgstr ""
+
+#: translation/templates/translation/language.html:2230
+#: translation/templates/translation/language.html:2233
+#: translation/templates/translation/language.html:3118
+#: translation/templates/translation/language.html:3121
+msgid "J’ai vomi"
+msgstr "Меня вырвало"
+
+#: translation/templates/translation/language.html:2238
+#: translation/templates/translation/language.html:2241
+msgid "J’ai uriné (je voudrais être changé)"
+msgstr ""
+
+#: translation/templates/translation/language.html:2246
+#: translation/templates/translation/language.html:2249
 msgid "Je voudrais uriner"
 msgstr ""
 
-#: translation/templates/translation/language.html:1196
+#: translation/templates/translation/language.html:2254
+#: translation/templates/translation/language.html:2257
 msgid "Je voudrais déféquer"
 msgstr ""
 
-#: translation/templates/translation/language.html:1200
-#: translation/templates/translation/language.html:1464
+#: translation/templates/translation/language.html:2262
+#: translation/templates/translation/language.html:2265
+#: translation/templates/translation/language.html:2790
+#: translation/templates/translation/language.html:2793
 msgid "J’ai des vertiges"
 msgstr "У меня головокружения"
 
-#: translation/templates/translation/language.html:1204
+#: translation/templates/translation/language.html:2270
+#: translation/templates/translation/language.html:2273
 msgid "J’ai peur"
 msgstr ""
 
-#: translation/templates/translation/language.html:1208
+#: translation/templates/translation/language.html:2278
+#: translation/templates/translation/language.html:2281
 msgid "Je voudrais être réinstallé"
 msgstr ""
 
-#: translation/templates/translation/language.html:1212
+#: translation/templates/translation/language.html:2286
+#: translation/templates/translation/language.html:2289
 msgid "Je voudrais des informations"
 msgstr ""
 
-#: translation/templates/translation/language.html:1216
+#: translation/templates/translation/language.html:2294
+#: translation/templates/translation/language.html:2297
 msgid "J’ai eu un accident"
 msgstr "Я попал/а в аварию"
 
-#: translation/templates/translation/language.html:1220
+#: translation/templates/translation/language.html:2302
+#: translation/templates/translation/language.html:2305
 msgid "J’étais piéton"
 msgstr "Я шел/шла по улице"
 
-#: translation/templates/translation/language.html:1224
+#: translation/templates/translation/language.html:2310
+#: translation/templates/translation/language.html:2313
 msgid "J’ai été renversé"
 msgstr "Я был/а сбит"
 
-#: translation/templates/translation/language.html:1228
+#: translation/templates/translation/language.html:2318
+#: translation/templates/translation/language.html:2321
 msgid "Je n’ai pas été renversé"
 msgstr "Меня не сбивали"
 
-#: translation/templates/translation/language.html:1232
-#: translation/templates/translation/language.html:1296
+#: translation/templates/translation/language.html:2326
+#: translation/templates/translation/language.html:2329
+#: translation/templates/translation/language.html:2454
+#: translation/templates/translation/language.html:2457
 msgid "Je suis tombé"
 msgstr "Я упал/а"
 
-#: translation/templates/translation/language.html:1236
+#: translation/templates/translation/language.html:2334
+#: translation/templates/translation/language.html:2337
 msgid "J’ai reçu un coup"
 msgstr "Я получил/а удар"
 
-#: translation/templates/translation/language.html:1240
+#: translation/templates/translation/language.html:2342
+#: translation/templates/translation/language.html:2345
 msgid "J’étais en voiture"
 msgstr "Я был/а в машине"
 
-#: translation/templates/translation/language.html:1244
-#: translation/templates/translation/language.html:1284
+#: translation/templates/translation/language.html:2350
+#: translation/templates/translation/language.html:2353
+#: translation/templates/translation/language.html:2430
+#: translation/templates/translation/language.html:2433
 msgid "Je roulais à “x” km/h"
 msgstr "Я ехал/а со скоростью \"x\" км/час."
 
-#: translation/templates/translation/language.html:1248
+#: translation/templates/translation/language.html:2358
+#: translation/templates/translation/language.html:2361
 msgid "J’avais ma ceinture de sécurité"
 msgstr "Я был/а пристёгнут"
 
-#: translation/templates/translation/language.html:1252
+#: translation/templates/translation/language.html:2366
+#: translation/templates/translation/language.html:2369
 msgid "Je n’avais pas de ceinture de sécurité"
 msgstr "Я не был/а пристёгнут"
 
-#: translation/templates/translation/language.html:1256
+#: translation/templates/translation/language.html:2374
+#: translation/templates/translation/language.html:2377
 msgid "J’ai été éjecté pendant l’accident"
 msgstr "Меня выбросило из машины во время аварии"
 
-#: translation/templates/translation/language.html:1260
+#: translation/templates/translation/language.html:2382
+#: translation/templates/translation/language.html:2385
 msgid "Je n’ai pas été éjecté pendant l’accident"
 msgstr "Я не был/а выброшен из машины время аварии"
 
-#: translation/templates/translation/language.html:1264
+#: translation/templates/translation/language.html:2390
+#: translation/templates/translation/language.html:2393
 msgid "L’air-bag s’est déclenché"
 msgstr "Подушка безопасности сработала"
 
-#: translation/templates/translation/language.html:1268
+#: translation/templates/translation/language.html:2398
+#: translation/templates/translation/language.html:2401
 msgid "L’air-bag ne s’est pas déclenché"
 msgstr "Подушка безопасности не сработала"
 
-#: translation/templates/translation/language.html:1272
+#: translation/templates/translation/language.html:2406
+#: translation/templates/translation/language.html:2409
 msgid "J’étais en vélo"
 msgstr "Я ехал/а на велосипеде"
 
-#: translation/templates/translation/language.html:1276
+#: translation/templates/translation/language.html:2414
+#: translation/templates/translation/language.html:2417
 msgid "J'étais en scooter"
 msgstr "Я ехал/а на мотороллере"
 
-#: translation/templates/translation/language.html:1280
+#: translation/templates/translation/language.html:2422
+#: translation/templates/translation/language.html:2425
 msgid "J'étais en moto"
 msgstr "Я ехал/а на мотоцикле"
 
-#: translation/templates/translation/language.html:1288
+#: translation/templates/translation/language.html:2438
+#: translation/templates/translation/language.html:2441
 msgid "J’avais un casque"
 msgstr "Я был/а в каске."
 
-#: translation/templates/translation/language.html:1292
+#: translation/templates/translation/language.html:2446
+#: translation/templates/translation/language.html:2449
 msgid "Je n’avais pas de casque"
 msgstr "Я был/а без каски"
 
-#: translation/templates/translation/language.html:1300
+#: translation/templates/translation/language.html:2462
+#: translation/templates/translation/language.html:2465
 msgid "Je suis tombé de ma hauteur"
 msgstr "Я упал/а с высоты собственного роста"
 
-#: translation/templates/translation/language.html:1304
+#: translation/templates/translation/language.html:2470
+#: translation/templates/translation/language.html:2473
 msgid "Je suis tombé de “x” mètres de hauteur"
 msgstr ""
 
-#: translation/templates/translation/language.html:1308
+#: translation/templates/translation/language.html:2478
+#: translation/templates/translation/language.html:2481
 msgid "Ma tête a tapé pendant l’accident"
 msgstr "Я ударился/ась головой во время происшествия"
 
-#: translation/templates/translation/language.html:1312
+#: translation/templates/translation/language.html:2486
+#: translation/templates/translation/language.html:2489
 msgid "Ma tête n’a pas tapé pendant l’accident"
 msgstr "Я не ударялся/ась головой во время происшествия."
 
-#: translation/templates/translation/language.html:1316
+#: translation/templates/translation/language.html:2494
+#: translation/templates/translation/language.html:2497
 msgid "J’ai des douleurs :"
 msgstr "У меня боли:"
 
-#: translation/templates/translation/language.html:1320
+#: translation/templates/translation/language.html:2502
+#: translation/templates/translation/language.html:2505
 msgid "J'ai des douleurs à la tête"
 msgstr ""
 
-#: translation/templates/translation/language.html:1324
+#: translation/templates/translation/language.html:2510
+#: translation/templates/translation/language.html:2513
 msgid "J'ai des douleurs au cou"
 msgstr ""
 
-#: translation/templates/translation/language.html:1328
+#: translation/templates/translation/language.html:2518
+#: translation/templates/translation/language.html:2521
 msgid "J'ai des douleurs au dos"
 msgstr ""
 
-#: translation/templates/translation/language.html:1332
+#: translation/templates/translation/language.html:2526
+#: translation/templates/translation/language.html:2529
 msgid "J'ai des douleurs au bras"
 msgstr ""
 
-#: translation/templates/translation/language.html:1336
+#: translation/templates/translation/language.html:2534
+#: translation/templates/translation/language.html:2537
 msgid "J'ai des douleurs à la jambe"
 msgstr ""
 
-#: translation/templates/translation/language.html:1340
+#: translation/templates/translation/language.html:2542
+#: translation/templates/translation/language.html:2545
 msgid "J'ai des douleurs au torse"
 msgstr ""
 
-#: translation/templates/translation/language.html:1344
+#: translation/templates/translation/language.html:2550
+#: translation/templates/translation/language.html:2553
 msgid "J'ai des douleurs au ventre"
 msgstr ""
 
-#: translation/templates/translation/language.html:1348
+#: translation/templates/translation/language.html:2558
+#: translation/templates/translation/language.html:2561
 msgid "Je prend des anticoagulants (médicaments pour fluidifier le sang)"
 msgstr "Я принимаю противосвертывающие препараты (препараты для разжижения крови)"
 
-#: translation/templates/translation/language.html:1352
+#: translation/templates/translation/language.html:2566
+#: translation/templates/translation/language.html:2569
 msgid "Je ne prend pas d’anticoagulants (médicaments pour fluidifier le sang)"
 msgstr "Я не принимаю противосвертывающие препараты (препараты для разжижения крови)."
 
-#: translation/templates/translation/language.html:1356
+#: translation/templates/translation/language.html:2574
+#: translation/templates/translation/language.html:2577
 msgid "Tête"
 msgstr "Голова"
 
-#: translation/templates/translation/language.html:1360
-#: translation/templates/translation/language.html:1792
+#: translation/templates/translation/language.html:2582
+#: translation/templates/translation/language.html:2585
+#: translation/templates/translation/language.html:3446
+#: translation/templates/translation/language.html:3449
 msgid "J’ai des douleurs depuis :"
 msgstr "У меня боли уже … часов/дней."
 
-#: translation/templates/translation/language.html:1368
+#: translation/templates/translation/language.html:2598
+#: translation/templates/translation/language.html:2601
 msgid "La douleur est apparue brutalement"
 msgstr ""
 
-#: translation/templates/translation/language.html:1372
+#: translation/templates/translation/language.html:2606
+#: translation/templates/translation/language.html:2609
 msgid "La douleur est apparue progressivement"
 msgstr ""
 
-#: translation/templates/translation/language.html:1376
+#: translation/templates/translation/language.html:2614
+#: translation/templates/translation/language.html:2617
 msgid "J’arrive bien à bouger mes bras et jambes"
 msgstr "Я могу нормально двигать руками и ногами"
 
-#: translation/templates/translation/language.html:1380
+#: translation/templates/translation/language.html:2622
+#: translation/templates/translation/language.html:2625
 msgid "Je n’arrive pas a bouger un bras ou une jambe"
 msgstr "Я не могу пошевелить рукой или ногой."
 
-#: translation/templates/translation/language.html:1384
+#: translation/templates/translation/language.html:2630
+#: translation/templates/translation/language.html:2633
 msgid "J’arrive bien à parler"
 msgstr "Я могу говорить"
 
-#: translation/templates/translation/language.html:1388
+#: translation/templates/translation/language.html:2638
+#: translation/templates/translation/language.html:2641
 msgid "J’ai des difficultés à parler"
 msgstr "У меня затруднения речи"
 
-#: translation/templates/translation/language.html:1392
+#: translation/templates/translation/language.html:2646
+#: translation/templates/translation/language.html:2649
 msgid "La lumière me dérange"
 msgstr "Меня раздражает свет"
 
-#: translation/templates/translation/language.html:1396
+#: translation/templates/translation/language.html:2654
+#: translation/templates/translation/language.html:2657
 msgid "La lumière ne me dérange pas"
 msgstr "Меня не раздражает свет"
 
-#: translation/templates/translation/language.html:1400
+#: translation/templates/translation/language.html:2662
+#: translation/templates/translation/language.html:2665
 msgid "J’ai de la fièvre"
 msgstr "У меня жар"
 
-#: translation/templates/translation/language.html:1404
+#: translation/templates/translation/language.html:2670
+#: translation/templates/translation/language.html:2673
 msgid "Je n’ai pas de fièvre"
 msgstr "У меня нет жара"
 
-#: translation/templates/translation/language.html:1408
+#: translation/templates/translation/language.html:2678
+#: translation/templates/translation/language.html:2681
 msgid "J’ai des douleurs à la nuque"
 msgstr "У меня боли в затылке"
 
-#: translation/templates/translation/language.html:1412
+#: translation/templates/translation/language.html:2686
+#: translation/templates/translation/language.html:2689
 msgid "Je n’ai pas de douleurs à la nuque"
 msgstr "У меня нет болей в затылке"
 
-#: translation/templates/translation/language.html:1416
+#: translation/templates/translation/language.html:2694
+#: translation/templates/translation/language.html:2697
 msgid "J’ai fais un malaise"
 msgstr "Мне было нехорошо"
 
-#: translation/templates/translation/language.html:1420
+#: translation/templates/translation/language.html:2702
+#: translation/templates/translation/language.html:2705
 msgid "Je n’ai pas fais de malaise"
 msgstr "Я не чувствовал себя плохо"
 
-#: translation/templates/translation/language.html:1424
+#: translation/templates/translation/language.html:2710
+#: translation/templates/translation/language.html:2713
 msgid "J’ai perdu connaissance"
 msgstr "Я потерял сознание"
 
-#: translation/templates/translation/language.html:1428
+#: translation/templates/translation/language.html:2718
+#: translation/templates/translation/language.html:2721
 msgid "Je n’ai pas perdu connaissance"
 msgstr "Я не терял сознание"
 
-#: translation/templates/translation/language.html:1432
+#: translation/templates/translation/language.html:2726
+#: translation/templates/translation/language.html:2729
 msgid "J’ai perdu mes urines"
 msgstr "Я обмочился"
 
-#: translation/templates/translation/language.html:1436
+#: translation/templates/translation/language.html:2734
+#: translation/templates/translation/language.html:2737
 msgid "Je n’ai pas perdu mes urines"
 msgstr "Я не обмочился"
 
-#: translation/templates/translation/language.html:1440
+#: translation/templates/translation/language.html:2742
+#: translation/templates/translation/language.html:2745
 msgid "J’ai convulsé"
 msgstr "У меня были судороги"
 
-#: translation/templates/translation/language.html:1444
+#: translation/templates/translation/language.html:2750
+#: translation/templates/translation/language.html:2753
 msgid "Je n’ai pas convulsé"
 msgstr "У меня не было судорог"
 
-#: translation/templates/translation/language.html:1448
+#: translation/templates/translation/language.html:2758
+#: translation/templates/translation/language.html:2761
 msgid "Je suis épileptique"
 msgstr "Я эпилептик"
 
-#: translation/templates/translation/language.html:1452
+#: translation/templates/translation/language.html:2766
+#: translation/templates/translation/language.html:2769
 msgid "Je ne suis pas épileptique"
 msgstr "Я не эпилептик"
 
-#: translation/templates/translation/language.html:1456
+#: translation/templates/translation/language.html:2774
+#: translation/templates/translation/language.html:2777
 msgid "J’ai pris mes traitements aujourd’hui"
 msgstr "Я принял сегодня мои лекарства"
 
-#: translation/templates/translation/language.html:1460
+#: translation/templates/translation/language.html:2782
+#: translation/templates/translation/language.html:2785
 msgid "Je n’ai pas pris mes traitements aujourd’hui"
 msgstr ""
 
-#: translation/templates/translation/language.html:1468
+#: translation/templates/translation/language.html:2798
+#: translation/templates/translation/language.html:2801
 msgid "Je n’ai pas de vertiges"
 msgstr "У меня нет головокружений"
 
-#: translation/templates/translation/language.html:1472
+#: translation/templates/translation/language.html:2806
+#: translation/templates/translation/language.html:2809
 msgid "Je suis diabétique"
 msgstr "Я диабетик"
 
-#: translation/templates/translation/language.html:1476
+#: translation/templates/translation/language.html:2814
+#: translation/templates/translation/language.html:2817
 msgid "Je ne suis pas diabétique"
 msgstr "Я не диабетик"
 
-#: translation/templates/translation/language.html:1480
+#: translation/templates/translation/language.html:2822
+#: translation/templates/translation/language.html:2825
 msgid "J’ai mangé aujourd’hui"
 msgstr "Я ел сегодня"
 
-#: translation/templates/translation/language.html:1484
+#: translation/templates/translation/language.html:2830
+#: translation/templates/translation/language.html:2833
 msgid "Je n’ai pas mangé aujourd’hui"
 msgstr "Я не ел сегодня"
 
-#: translation/templates/translation/language.html:1488
+#: translation/templates/translation/language.html:2838
+#: translation/templates/translation/language.html:2841
 msgid "Torse"
 msgstr "Торс"
 
-#: translation/templates/translation/language.html:1492
+#: translation/templates/translation/language.html:2846
+#: translation/templates/translation/language.html:2849
 msgid "J’ai eu un choc au torse récemment"
 msgstr "У меня был недавно удар в грудь"
 
-#: translation/templates/translation/language.html:1496
+#: translation/templates/translation/language.html:2854
+#: translation/templates/translation/language.html:2857
 msgid "Je n’ai pas eu de choc au torse récemment"
 msgstr "У меня не было удара в грудь недавно"
 
-#: translation/templates/translation/language.html:1500
+#: translation/templates/translation/language.html:2862
+#: translation/templates/translation/language.html:2865
 msgid "La douleur est encore présente"
 msgstr "Боль всё ещё есть"
 
-#: translation/templates/translation/language.html:1504
+#: translation/templates/translation/language.html:2870
+#: translation/templates/translation/language.html:2873
 msgid "La douleur n’est plus présente"
 msgstr "Боли больше нет"
 
-#: translation/templates/translation/language.html:1508
+#: translation/templates/translation/language.html:2878
+#: translation/templates/translation/language.html:2881
 msgid "La douleur :"
 msgstr "Боль:"
 
-#: translation/templates/translation/language.html:1512
+#: translation/templates/translation/language.html:2886
+#: translation/templates/translation/language.html:2889
 msgid "La douleur pique"
 msgstr ""
 
-#: translation/templates/translation/language.html:1516
+#: translation/templates/translation/language.html:2894
+#: translation/templates/translation/language.html:2897
 msgid "La douleur serre"
 msgstr ""
 
-#: translation/templates/translation/language.html:1520
+#: translation/templates/translation/language.html:2902
+#: translation/templates/translation/language.html:2905
 msgid "La douleur brûle"
 msgstr ""
 
-#: translation/templates/translation/language.html:1524
+#: translation/templates/translation/language.html:2910
+#: translation/templates/translation/language.html:2913
 msgid "La douleur irradie vers :"
 msgstr "Боль отдаёт в:"
 
-#: translation/templates/translation/language.html:1528
+#: translation/templates/translation/language.html:2918
+#: translation/templates/translation/language.html:2921
 msgid "Machoire"
 msgstr "челюсть"
 
-#: translation/templates/translation/language.html:1532
+#: translation/templates/translation/language.html:2926
+#: translation/templates/translation/language.html:2929
 msgid "Je ressent des palpitations"
 msgstr "Я ощущаю собственное сердцебиение"
 
-#: translation/templates/translation/language.html:1536
+#: translation/templates/translation/language.html:2934
+#: translation/templates/translation/language.html:2937
 msgid "Je ne ressent pas de palpitations"
 msgstr "Я не ощущаю собственное сердцебиение"
 
-#: translation/templates/translation/language.html:1540
+#: translation/templates/translation/language.html:2942
+#: translation/templates/translation/language.html:2945
 msgid "Dans ma famille il y a des problèmes cardiaques"
 msgstr "В моей семье есть кардиологические заболевания"
 
-#: translation/templates/translation/language.html:1544
+#: translation/templates/translation/language.html:2950
+#: translation/templates/translation/language.html:2953
 msgid "Dans ma famille il n’y a pas de problème cardiaque"
 msgstr "В моей семье нет кардиологических заболеваний"
 
-#: translation/templates/translation/language.html:1548
+#: translation/templates/translation/language.html:2958
+#: translation/templates/translation/language.html:2961
 msgid "La douleur est plus forte quand je respire"
 msgstr "Боль усиливается во время дыхания"
 
-#: translation/templates/translation/language.html:1552
+#: translation/templates/translation/language.html:2966
+#: translation/templates/translation/language.html:2969
 msgid "La douleur n’est pas plus forte quand je respire"
 msgstr "Боль не усиливается во время дыхания"
 
-#: translation/templates/translation/language.html:1556
+#: translation/templates/translation/language.html:2974
+#: translation/templates/translation/language.html:2977
 msgid "Je crache du sang"
 msgstr "Я кашляю кровью"
 
-#: translation/templates/translation/language.html:1560
+#: translation/templates/translation/language.html:2982
+#: translation/templates/translation/language.html:2985
 msgid "Je ne crache pas du sang"
 msgstr "Я не кашляю кровью"
 
-#: translation/templates/translation/language.html:1564
+#: translation/templates/translation/language.html:2990
+#: translation/templates/translation/language.html:2993
 msgid "Je tousse"
 msgstr "Я кашляю"
 
-#: translation/templates/translation/language.html:1568
+#: translation/templates/translation/language.html:2998
+#: translation/templates/translation/language.html:3001
 msgid "Je ne tousse pas"
 msgstr "Я не кашляю"
 
-#: translation/templates/translation/language.html:1572
+#: translation/templates/translation/language.html:3006
+#: translation/templates/translation/language.html:3009
 msgid "J’ai des difficultés à respirer"
 msgstr "Мне трудно дышать"
 
-#: translation/templates/translation/language.html:1576
+#: translation/templates/translation/language.html:3014
+#: translation/templates/translation/language.html:3017
 msgid "Je n’ai pas de difficultés à respirer"
 msgstr "Мне не трудно дышать"
 
-#: translation/templates/translation/language.html:1580
+#: translation/templates/translation/language.html:3022
+#: translation/templates/translation/language.html:3025
 msgid "J’ai respiré des fumées"
 msgstr "Я надышался дымом или парами"
 
-#: translation/templates/translation/language.html:1584
+#: translation/templates/translation/language.html:3030
+#: translation/templates/translation/language.html:3033
 msgid "Je fume."
 msgstr ""
 
-#: translation/templates/translation/language.html:1588
+#: translation/templates/translation/language.html:3038
+#: translation/templates/translation/language.html:3041
 msgid "Je ne fume pas"
 msgstr "Я не курю"
 
-#: translation/templates/translation/language.html:1592
+#: translation/templates/translation/language.html:3046
+#: translation/templates/translation/language.html:3049
 msgid "Je bois de l’alcool"
 msgstr "Я употребляю алкоголь"
 
-#: translation/templates/translation/language.html:1596
+#: translation/templates/translation/language.html:3054
+#: translation/templates/translation/language.html:3057
 msgid "Je ne bois pas d’alcool"
 msgstr "Я не употребляю алкоголь"
 
-#: translation/templates/translation/language.html:1600
+#: translation/templates/translation/language.html:3062
+#: translation/templates/translation/language.html:3065
 msgid "J’ai du cholestérol"
 msgstr "У меня повышенный уровень холестерина"
 
-#: translation/templates/translation/language.html:1604
+#: translation/templates/translation/language.html:3070
+#: translation/templates/translation/language.html:3073
 msgid "Je n’ai pas de cholestérol"
 msgstr "У меня нормальный уровень холестерина"
 
-#: translation/templates/translation/language.html:1608
+#: translation/templates/translation/language.html:3078
+#: translation/templates/translation/language.html:3081
 msgid "Je suis asthmatique"
 msgstr "Я астматик"
 
-#: translation/templates/translation/language.html:1612
+#: translation/templates/translation/language.html:3086
+#: translation/templates/translation/language.html:3089
 msgid "Je ne suis pas asthmatique"
 msgstr "У меня нет астмы"
 
-#: translation/templates/translation/language.html:1616
+#: translation/templates/translation/language.html:3094
+#: translation/templates/translation/language.html:3097
 msgid "Ventre"
 msgstr "Живот"
 
-#: translation/templates/translation/language.html:1620
+#: translation/templates/translation/language.html:3102
+#: translation/templates/translation/language.html:3105
 msgid "J'ai des nausées"
 msgstr "У меня тошнота"
 
-#: translation/templates/translation/language.html:1624
+#: translation/templates/translation/language.html:3110
+#: translation/templates/translation/language.html:3113
 msgid "Je n'ai pas de nausées"
 msgstr "У меня нет тошноты"
 
-#: translation/templates/translation/language.html:1632
+#: translation/templates/translation/language.html:3126
+#: translation/templates/translation/language.html:3129
 msgid "Je n’ai pas vomi"
 msgstr "Меня не рвало"
 
-#: translation/templates/translation/language.html:1636
+#: translation/templates/translation/language.html:3134
+#: translation/templates/translation/language.html:3137
 msgid "Des aliments"
 msgstr "Продуктами питания"
 
-#: translation/templates/translation/language.html:1640
+#: translation/templates/translation/language.html:3142
+#: translation/templates/translation/language.html:3145
 msgid "Du sang"
 msgstr "Кровью"
 
-#: translation/templates/translation/language.html:1644
+#: translation/templates/translation/language.html:3150
+#: translation/templates/translation/language.html:3153
 msgid "Une fois"
 msgstr ""
 
-#: translation/templates/translation/language.html:1648
+#: translation/templates/translation/language.html:3158
+#: translation/templates/translation/language.html:3161
 msgid "Deux fois"
 msgstr ""
 
-#: translation/templates/translation/language.html:1652
+#: translation/templates/translation/language.html:3166
+#: translation/templates/translation/language.html:3169
 msgid "Plusieurs fois"
 msgstr "многократно"
 
-#: translation/templates/translation/language.html:1656
+#: translation/templates/translation/language.html:3174
+#: translation/templates/translation/language.html:3177
 msgid "J’ai des diarrhées"
 msgstr "У меня понос"
 
-#: translation/templates/translation/language.html:1660
+#: translation/templates/translation/language.html:3182
+#: translation/templates/translation/language.html:3185
 msgid "Je n’ai pas de diarrhées"
 msgstr "У меня нет поноса"
 
-#: translation/templates/translation/language.html:1664
+#: translation/templates/translation/language.html:3190
+#: translation/templates/translation/language.html:3193
 msgid "J’ai des gazs"
 msgstr "У меня газы"
 
-#: translation/templates/translation/language.html:1668
+#: translation/templates/translation/language.html:3198
+#: translation/templates/translation/language.html:3201
 msgid "Je n’ai plus de gazs"
 msgstr "У меня больше нет газов"
 
-#: translation/templates/translation/language.html:1672
+#: translation/templates/translation/language.html:3206
+#: translation/templates/translation/language.html:3209
 msgid "Mes dernières urines étaient il y a :"
 msgstr "Моё последнее мочеиспускание было… назад."
 
-#: translation/templates/translation/language.html:1676
+#: translation/templates/translation/language.html:3214
+#: translation/templates/translation/language.html:3217
 msgid "Il y avait du sang dans mes urines"
 msgstr "В моей моче была кровь"
 
-#: translation/templates/translation/language.html:1680
+#: translation/templates/translation/language.html:3222
+#: translation/templates/translation/language.html:3225
 msgid "Il n’y avait pas de sang dans mes urines"
 msgstr "В моей моче не было крови"
 
-#: translation/templates/translation/language.html:1684
+#: translation/templates/translation/language.html:3230
+#: translation/templates/translation/language.html:3233
 msgid "J’ai des brûlures quand j’urine"
 msgstr ""
 
-#: translation/templates/translation/language.html:1688
+#: translation/templates/translation/language.html:3238
+#: translation/templates/translation/language.html:3241
 msgid "Je n’ai pas de brûlures quand j’urine"
 msgstr ""
 
-#: translation/templates/translation/language.html:1692
+#: translation/templates/translation/language.html:3246
+#: translation/templates/translation/language.html:3249
 msgid "Mes dernières selles étaient il y a :"
 msgstr "Последний раз я справил/а большую нужду … назад."
 
-#: translation/templates/translation/language.html:1696
+#: translation/templates/translation/language.html:3254
+#: translation/templates/translation/language.html:3257
 msgid "Il y avait du sang dans mes selles"
 msgstr "В моём кале была кровь"
 
-#: translation/templates/translation/language.html:1700
+#: translation/templates/translation/language.html:3262
+#: translation/templates/translation/language.html:3265
 msgid "Il n’y avait pas de sang dans mes selles"
 msgstr "В моём кале не было крови"
 
-#: translation/templates/translation/language.html:1704
+#: translation/templates/translation/language.html:3270
+#: translation/templates/translation/language.html:3273
 msgid "Mes dernières règles étaient il y a :"
 msgstr "Мои последние месячные были … назад."
 
-#: translation/templates/translation/language.html:1708
+#: translation/templates/translation/language.html:3278
+#: translation/templates/translation/language.html:3281
 msgid "Je suis enceinte"
 msgstr "Я беременна"
 
-#: translation/templates/translation/language.html:1712
+#: translation/templates/translation/language.html:3286
+#: translation/templates/translation/language.html:3289
 msgid "Je ne suis pas enceinte"
 msgstr "Я не беременна"
 
-#: translation/templates/translation/language.html:1716
+#: translation/templates/translation/language.html:3294
+#: translation/templates/translation/language.html:3297
 msgid "Depuis “x” semaines"
 msgstr "Уже \"x\" недель."
 
-#: translation/templates/translation/language.html:1720
+#: translation/templates/translation/language.html:3302
+#: translation/templates/translation/language.html:3305
 msgid "J’ai eu des pertes par voie basse"
 msgstr "У меня были вагинальные выделения"
 
-#: translation/templates/translation/language.html:1724
+#: translation/templates/translation/language.html:3310
+#: translation/templates/translation/language.html:3313
 msgid "Je n’ai pas eu de perte par voie basse"
 msgstr "У меня не было вагинальных выделений"
 
-#: translation/templates/translation/language.html:1728
+#: translation/templates/translation/language.html:3318
+#: translation/templates/translation/language.html:3321
 msgid "Mes pertes étaient :"
 msgstr "Мои выделения были:"
 
-#: translation/templates/translation/language.html:1732
+#: translation/templates/translation/language.html:3326
+#: translation/templates/translation/language.html:3329
 msgid "Mes pertes étaient de couleur rouge"
 msgstr ""
 
-#: translation/templates/translation/language.html:1736
+#: translation/templates/translation/language.html:3334
+#: translation/templates/translation/language.html:3337
 msgid "Mes pertes étaient de couleur noire"
 msgstr ""
 
-#: translation/templates/translation/language.html:1740
+#: translation/templates/translation/language.html:3342
+#: translation/templates/translation/language.html:3345
 msgid "J’ai perdu du poids ces derniers temps"
 msgstr "Я потерял/а в весе за последнее время"
 
-#: translation/templates/translation/language.html:1744
+#: translation/templates/translation/language.html:3350
+#: translation/templates/translation/language.html:3353
 msgid "Je n’ai pas perdu de poids ces derniers temps"
 msgstr "Я не потерял/а в весе за последнее время"
 
-#: translation/templates/translation/language.html:1748
+#: translation/templates/translation/language.html:3358
+#: translation/templates/translation/language.html:3361
 msgid "Dos / Cou"
 msgstr "Спина/Шея"
 
-#: translation/templates/translation/language.html:1752
+#: translation/templates/translation/language.html:3366
+#: translation/templates/translation/language.html:3369
 msgid "Ma douleur n’irradie pas vers la fesse ou la jambe"
 msgstr "Боль не отдаёт в ягодицы или в ноги"
 
-#: translation/templates/translation/language.html:1756
+#: translation/templates/translation/language.html:3374
+#: translation/templates/translation/language.html:3377
 msgid "Ma douleur irradie vers la fesse ou la jambe"
 msgstr "Боль отдаёт в ягодицы или в ноги"
 
-#: translation/templates/translation/language.html:1760
+#: translation/templates/translation/language.html:3382
+#: translation/templates/translation/language.html:3385
 msgid "Je n’ai pas le dos bloqué"
 msgstr "Мне не заблокировало спину"
 
-#: translation/templates/translation/language.html:1764
+#: translation/templates/translation/language.html:3390
+#: translation/templates/translation/language.html:3393
 msgid "J’ai le dos bloqué"
 msgstr "Мне заблокировало спину"
 
-#: translation/templates/translation/language.html:1768
+#: translation/templates/translation/language.html:3398
+#: translation/templates/translation/language.html:3401
 msgid "J’ai mal surtout le soir"
 msgstr "Мне больно прежде всего вечером"
 
-#: translation/templates/translation/language.html:1772
+#: translation/templates/translation/language.html:3406
+#: translation/templates/translation/language.html:3409
 msgid "J’ai mal surtout le matin"
 msgstr "Мне больно прежде всего утром"
 
-#: translation/templates/translation/language.html:1776
+#: translation/templates/translation/language.html:3414
+#: translation/templates/translation/language.html:3417
 msgid "Bras"
 msgstr "Рука"
 
-#: translation/templates/translation/language.html:1780
+#: translation/templates/translation/language.html:3422
+#: translation/templates/translation/language.html:3425
 msgid "Jambe"
 msgstr "Нога"
 
-#: translation/templates/translation/language.html:1784
+#: translation/templates/translation/language.html:3430
+#: translation/templates/translation/language.html:3433
 msgid "J’ai reçu un coup récemment"
 msgstr "Недавно я получил удар"
 
-#: translation/templates/translation/language.html:1788
+#: translation/templates/translation/language.html:3438
+#: translation/templates/translation/language.html:3441
 msgid "Je n’ai pas reçu de coup récemment"
 msgstr "В последнее время меня не ударяли"
 
-#: translation/templates/translation/language.html:1796
+#: translation/templates/translation/language.html:3454
+#: translation/templates/translation/language.html:3457
 msgid "J’ai été piqué ou mordu récemment"
 msgstr "Меня недавно укусили насекомые / животные"
 
-#: translation/templates/translation/language.html:1800
+#: translation/templates/translation/language.html:3462
+#: translation/templates/translation/language.html:3465
 msgid "Je n’ai pas été piqué ou mordu récemment"
 msgstr "В последнее время меня не кусали насекомые или животные"
 
-#: translation/templates/translation/language.html:1804
+#: translation/templates/translation/language.html:3470
+#: translation/templates/translation/language.html:3473
 msgid "Ca me démange"
 msgstr "Здесь у меня чешется"
 
-#: translation/templates/translation/language.html:1808
+#: translation/templates/translation/language.html:3478
+#: translation/templates/translation/language.html:3481
 msgid "Ca ne me démange pas"
 msgstr "Здесь у меня не чешется"
 
-#: translation/templates/translation/language.html:1812
+#: translation/templates/translation/language.html:3486
+#: translation/templates/translation/language.html:3489
 msgid "Ma douleur est :"
 msgstr "Моя боль:"
 
-#: translation/templates/translation/language.html:1816
+#: translation/templates/translation/language.html:3494
+#: translation/templates/translation/language.html:3497
 msgid "Ma douleur est faible"
 msgstr ""
 
-#: translation/templates/translation/language.html:1820
+#: translation/templates/translation/language.html:3502
+#: translation/templates/translation/language.html:3505
 msgid "Ma douleur est moyenne"
 msgstr ""
 
-#: translation/templates/translation/language.html:1824
+#: translation/templates/translation/language.html:3510
+#: translation/templates/translation/language.html:3513
 msgid "Ma douleur est forte"
 msgstr ""
 
-#: translation/templates/translation/language.html:1828
+#: translation/templates/translation/language.html:3518
+#: translation/templates/translation/language.html:3521
 msgid "Ma douleur est insuppotable"
 msgstr ""
 
-#: translation/templates/translation/language.html:1832
+#: translation/templates/translation/language.html:3526
+#: translation/templates/translation/language.html:3529
 msgid "Avez-vous des clips intra-cranien ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:1836
+#: translation/templates/translation/language.html:3534
+#: translation/templates/translation/language.html:3537
 msgid "Avez-vous un implant cochléaire ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:1840
+#: translation/templates/translation/language.html:3542
+#: translation/templates/translation/language.html:3545
 msgid "Avez-vous un implant oculaire ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:1844
+#: translation/templates/translation/language.html:3550
+#: translation/templates/translation/language.html:3553
 msgid "Avez-vous du métal dans le corps ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:1848
+#: translation/templates/translation/language.html:3558
+#: translation/templates/translation/language.html:3561
 msgid "Avez-vous un défibrillateur ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:1852
+#: translation/templates/translation/language.html:3566
+#: translation/templates/translation/language.html:3569
 msgid "Avez-vous une chambre implantable ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:1856
+#: translation/templates/translation/language.html:3574
+#: translation/templates/translation/language.html:3577
 msgid "Allaitez-vous ?"
 msgstr "Кормите ли вы грудью?"
 
-#: translation/templates/translation/language.html:1860
+#: translation/templates/translation/language.html:3582
+#: translation/templates/translation/language.html:3585
 msgid "Où se trouve le médecin le plus proche ?"
 msgstr "Где найти ближайшего врача?"
 
-#: translation/templates/translation/language.html:1864
+#: translation/templates/translation/language.html:3590
+#: translation/templates/translation/language.html:3593
 msgid "Où se trouve l'hôpital le plus proche ?"
 msgstr "Где находится ближайшая больница?"
 
-#: translation/templates/translation/language.html:1868
+#: translation/templates/translation/language.html:3598
+#: translation/templates/translation/language.html:3601
 msgid "Où se trouve la pharmacie la plus proche ?"
 msgstr "Где находится ближайшая аптека?"
 
-#: translation/templates/translation/language.html:1872
+#: translation/templates/translation/language.html:3606
+#: translation/templates/translation/language.html:3609
 msgid "J'ai besoin de secours, pouvez-vous les appeler ?"
 msgstr "Мне нужна неотложная медицинская помощь, могли бы вы их вызвать?"
 
-#: translation/templates/translation/language.html:1876
+#: translation/templates/translation/language.html:3614
+#: translation/templates/translation/language.html:3617
 msgid "Vous allez avoir une IRM"
 msgstr ""
 
-#: translation/templates/translation/language.html:1880
+#: translation/templates/translation/language.html:3622
+#: translation/templates/translation/language.html:3625
 msgid "L'examen est long. Il dure entre 15 et 40 minutes"
 msgstr "Процедура длительная. Занимает от пятнадцати до сорока минут."
 
-#: translation/templates/translation/language.html:1884
+#: translation/templates/translation/language.html:3630
+#: translation/templates/translation/language.html:3633
 msgid "L'examen n'est pas douloureux mais il est très bruyant"
 msgstr "Процедура безболезненная, но очень шумная"
 
-#: translation/templates/translation/language.html:1888
+#: translation/templates/translation/language.html:3638
+#: translation/templates/translation/language.html:3641
 msgid "Il faut rester immobile pendant toute la durée de l'examen"
 msgstr "Нужно не двигаться на протяжении всей процедуры"
 
-#: translation/templates/translation/language.html:1896
+#: translation/templates/translation/language.html:3654
+#: translation/templates/translation/language.html:3657
 msgid "Avez-vous une valve mécanique ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:1900
+#: translation/templates/translation/language.html:3662
+#: translation/templates/translation/language.html:3665
 msgid "Avez-vous un capteur de glycémie ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:1908
+#: translation/templates/translation/language.html:3678
+#: translation/templates/translation/language.html:3681
 msgid "Quelle est votre taille et votre poids ?"
 msgstr ""
 
-#: translation/templates/translation/language.html:1916
+#: translation/templates/translation/language.html:3694
+#: translation/templates/translation/language.html:3697
 msgid "Nous allons injecter un produit de contraste qui va vous donner chaud dans tout le corps, c'est normal ne vous inquiétez pas"
 msgstr "Мы введем контрастное вещество, от которого появится тепло по всему телу, это нормально, не волнуйтесь"
 
-#: translation/templates/translation/language.html:1920
+#: translation/templates/translation/language.html:3702
+#: translation/templates/translation/language.html:3705
 msgid "Prenez-vous un traitement pour la thyroïde ?"
 msgstr "Принимаете ли вы лпрепатары для щитовидной железы?"
 
-#: translation/templates/translation/language.html:1924
+#: translation/templates/translation/language.html:3710
+#: translation/templates/translation/language.html:3713
 msgid "Avez-vous des problèmes rénaux ?"
 msgstr "Есть ли у вас проблемы с почками?"
 
-#: translation/templates/translation/language.html:1928
+#: translation/templates/translation/language.html:3718
+#: translation/templates/translation/language.html:3721
 msgid "Pouvez-vous signer l’autorisation de soins ci-dessous ?"
 msgstr "Могли бы вы подписать разрешение на предоставление медицинских услуг внизу?"
 
-#: translation/templates/translation/language.html:1932
+#: translation/templates/translation/language.html:3726
+#: translation/templates/translation/language.html:3729
 msgid "Nom :"
 msgstr "Фамилия :"
 
-#: translation/templates/translation/language.html:1936
+#: translation/templates/translation/language.html:3734
+#: translation/templates/translation/language.html:3737
 msgid "Prénom :"
 msgstr "Имя :"
 
-#: translation/templates/translation/language.html:1940
+#: translation/templates/translation/language.html:3742
+#: translation/templates/translation/language.html:3745
 msgid "Date de naissance :"
 msgstr "Дата рождения :"
 
-#: translation/templates/translation/language.html:1944
+#: translation/templates/translation/language.html:3750
+#: translation/templates/translation/language.html:3753
 msgid "Taille :"
 msgstr ""
 
-#: translation/templates/translation/language.html:1948
+#: translation/templates/translation/language.html:3758
+#: translation/templates/translation/language.html:3761
 msgid "Poids :"
 msgstr "Вес :"
 
@@ -2095,10 +2606,6 @@ msgstr ""
 
 #: translation/views.py:28
 msgid "Europe"
-msgstr ""
-
-#: translation/views.py:65
-msgid "Nous n'avons pas trouvé ce pays. Merci de verifier l'orthographe"
 msgstr ""
 
 #: translation/views.py:122
