@@ -197,7 +197,7 @@ msgstr "VORSTELLUNG"
 #: translation/templates/translation/language.html:171
 #: translation/templates/translation/language.html:174
 msgid "Bonjour, je suis"
-msgstr ""
+msgstr "Guten Tag, ich bin"
 
 #: translation/templates/translation/language.html:179
 #: translation/templates/translation/language.html:182
