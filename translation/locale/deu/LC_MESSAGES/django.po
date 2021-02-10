@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 73d3b19e82fc460fd936796fc5b25f94\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-10 14:49+0000\n"
-"PO-Revision-Date: 2021-02-10 15:03\n"
+"PO-Revision-Date: 2021-02-10 21:19\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -330,7 +330,7 @@ msgid "Qui-sommes nous?"
 msgstr ""
 
 #: translation/templates/translation/language.html:66
-msgid "Please click a phrase to display"
+msgid "Cliquez sur une phrase pour l'afficher"
 msgstr ""
 
 #: translation/templates/translation/language.html:74
@@ -2098,7 +2098,7 @@ msgid "Europe"
 msgstr ""
 
 #: translation/views.py:65
-msgid "Country not found. Please check spelling"
+msgid "Nous n'avons pas trouvé ce pays. Merci de verifier l'orthographe"
 msgstr ""
 
 #: translation/views.py:122
