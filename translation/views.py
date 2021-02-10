@@ -1,3 +1,4 @@
+from django.template.loader import render_to_string
 from django.http import HttpResponse, HttpResponseRedirect, HttpResponseNotFound
 from django.utils.translation import ugettext as _
 from django.shortcuts import render
@@ -5,6 +6,9 @@ from django.core.exceptions import ValidationError
 
 from .models import Country
 from translation.forms import searchcountryform
+
+from weasyprint import HTML
+from weasyprint.fonts import FontConfiguration
 import json
 
 
@@ -16,12 +20,12 @@ OC = Country.objects.order_by('Name_eng').filter(Continent__iexact="OC")
 AS = Country.objects.order_by('Name_eng').filter(Continent__iexact="AS")
 EU = Country.objects.order_by('Name_eng').filter(Continent__iexact="EU")
 continents = {
-    'Afrique': AF,
-    'Amerique du Nord': NA,
-    'Amerique du Sud': SA,
-    'Océanie': OC,
-    'Asie': AS,
-    'Europe': EU,
+    _('Afrique'): AF,
+    _('Amerique du Nord'): NA,
+    _('Amerique du Sud'): SA,
+    _('Océanie'): OC,
+    _('Asie'): AS,
+    _('Europe'): EU,
 }
 
 
@@ -115,12 +119,9 @@ def docindex(request, base_language="fra", base_flag="fra"):
 def documents(request, base_language, base_flag, target_language, target_flag):
 
     docs = {
-        "Anesthésie": "ane",
-        "IRM": "irm",
-        "Patient": "pat",
-        "Pédiatrie": "ped",
-        "Scanner": "scn",
-        "Secrétariat": "sec"}
+        _("IRM"): "irm",
+        _("Scanner"): "scn",
+    }
     context = {
         'continents': continents,
         'base_language': base_language,
@@ -130,6 +131,16 @@ def documents(request, base_language, base_flag, target_language, target_flag):
         'docs': docs,
     }
     return render(request, 'translation/documents.html', context)
+
+
+'''     docs = {
+        "Anesthésie": "ane",
+        "IRM": "irm",
+        "Patient": "pat",
+        "Pédiatrie": "ped",
+        "Scanner": "scn",
+        "Secrétariat": "sec"
+        } '''
 
 
 def support(request, base_language="fra", base_flag="fra"):
@@ -160,3 +171,55 @@ def disclaimer(request, base_language="fra", base_flag="fra"):
         'base_flag': base_flag,
     }
     return render(request, 'translation/disclaimer.html', context)
+
+
+def generate_pdf(request, base_language, base_flag, target_language, target_flag, template):
+    context = {
+        'base_language': base_language,
+        'base_flag': base_flag,
+        'target_language': target_language,
+        'target_flag': target_flag,
+    }
+    response = HttpResponse(content_type="application/pdf")
+    response['Content-Disposition'] = "inline; filename={x}-{y}-IRM.pdf".format(
+        x=base_language,
+        y=target_language,
+    )
+    html = render_to_string(
+        'doctemplates/{template}.html'.format(template=template), context)
+
+    font_config = FontConfiguration()
+    HTML(string=html, base_url=request.build_absolute_uri()).write_pdf(
+        response, font_config=font_config)
+    return response
+
+
+def download_pdf(request, base_language, base_flag, target_language, target_flag, template):
+    context = {
+        'base_language': base_language,
+        'base_flag': base_flag,
+        'target_language': target_language,
+        'target_flag': target_flag,
+    }
+    response = HttpResponse(content_type="application/pdf")
+    response['Content-Disposition'] = "attachment; filename={x}-{y}-IRM.pdf".format(
+        x=base_language,
+        y=target_language,
+    )
+    html = render_to_string(
+        'doctemplates/{template}.html'.format(template=template), context)
+
+    font_config = FontConfiguration()
+    HTML(string=html).write_pdf(response, font_config=font_config)
+    return response
+
+
+def doctemplate(request, base_language, base_flag, target_language, target_flag, template):
+
+    context = {
+        'base_language': base_language,
+        'base_flag': base_flag,
+        'target_language': target_language,
+        'target_flag': target_flag,
+    }
+    return render(request, 'doctemplates/{template}.html'.format(template=template), context)

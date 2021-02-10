@@ -35,7 +35,7 @@
 	<section>
 	{% for string, short in docs.items %}
 		<article class="docarticle">
-			<a class="doccontainer" href="{% get_static_prefix %}translation/docs/{{ base_language }}-{{ target_language }}-{{ short }}.pdf">
+			<a class="doccontainer" href="/{{ base_language }}/{{ base_flag }}/{{ target_language }}/{{ target_flag }}/{{ short }}/pdf">
 				<h2>{% translate string %}</h2>
 				<img class="docicon" src="{% get_static_prefix %}translation/docs/icons/{{ short }}.png">
 			</a>

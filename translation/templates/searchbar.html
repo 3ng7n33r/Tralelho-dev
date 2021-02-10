@@ -2,7 +2,7 @@
 {% load static %}
 
 <div id="searchcontainer">
-  <form id=”search” action="" method="post">
+  <form id=”search” action="" method="post" style="text-align:center">
     {% csrf_token %}
     {{ form }}
     <button id="countrybutton" type="submit"><i class="fa fa-search" aria-hidden="true"></i>
