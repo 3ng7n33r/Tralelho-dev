@@ -1,0 +1,68 @@
+{% load static %}
+{% load i18n %}
+{% language base_language %}
+
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>{% translate "Tralelho - Traductions pour les Etrangers à l'Hopital" %}</title>
+		<meta name="description" property="og:description" content="Traductions pour les etrangers à l'hopital">
+		<meta name="keywords" content="Translations, hospital, Traductions, hopital, healthcare">
+		<meta name="author" content="Maximilian Blacher">
+
+		<meta property="og:url" content="https://www.tralelho.fr" />
+		<meta property="og:title" content="Tralelho - Traductions pour les Etrangers à l'Hopital" />
+		<meta property="og:image" content="{% static 'translation/Tralelho_og.png' %}" />
+		<meta property="og:image:alt" content="Tralelho" />
+
+		<link rel="stylesheet" type="text/css" href="{% static 'translation/style.css' %}">
+		<script src="{% static 'translation/app.js' %}" async></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- Favicons -->
+		<link rel="apple-touch-icon" sizes="180x180" href="{% static 'translation/favicon_io/apple-touch-icon.png' %}">
+		<link rel="icon" type="image/png" sizes="32x32" href="{% static 'translation/favicon_io/favicon-32x32.png' %}">
+		<link rel="icon" type="image/png" sizes="16x16" href="{% static 'translation/favicon_io/favicon-16x16.png' %}">
+		<link rel="manifest" href="{% static 'translation/favicon_io/site.webmanifest' %}">
+		<!-- jQuery -->
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.8.18/themes/base/jquery-ui.css" type="text/css" media="all" /> <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"> </script> <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+		<header>
+			{% block navbar %}
+			{% endblock %}
+			{% block flags %}
+			{% endblock %}
+			{% block changebase %}
+			{% endblock %}
+		</header>
+        {% block section %}
+ 		{% endblock %}
+		<footer>
+			<address>
+				<a href="mailto:info@tralelho.fr">Contact</a>
+			</address>
+			<a href="/{{ base_language }}/{{ base_flag }}/disclaimer">Disclaimer</a>
+		</footer>
+		{% endlanguage %}
+		<script
+		type="text/javascript"
+		src="https://crowdin.com/js/crowdjet/crowdjet.js">
+		</script>
+		<div
+		id="crowdjet-container"
+		data-organization-domain="Tralelho"
+		data-project-id="2"
+		style="bottom: 90px; right: 20px;">
+		</div>
+		<div
+		id="crowdjet-expand-container"
+		style="bottom: 10px; right: 20px;">
+		</div>
+	</body>
+</html>

@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block navbar %}
+	{% load i18n %}
+	{% load static %}
+	<div class="navbar">
+		<a class="anav" href="/{{ base_language }}/{{ base_flag }}"><img id="logo" src="{% static 'translation/iconmonstr-globe-5-240.png' %}"><p class="navtext">{% translate "Traductions" %}</p></a>
+		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/documents"><i class="fa fa-file" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">{% translate "Documents" %}</p></a>
+		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/support"><i class="fa fa-heart" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">{% translate "Soutenez-nous" %}</p></a>
+		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/about"><i class="fa fa-info-circle " style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">{% translate "Qui-sommes nous?" %}</p></a>
+	</div>
+{% endblock %}
+
+{% block flags %}
+	<div id="flagcontainer" onclick="switchVisibilityBlock('changebase')">
+		<img id="sourceflag" src="{% get_static_prefix %}translation/flags/{{ base_flag }}.png">
+	</div>
+{% endblock %}
+
+{% block changebase %}
+	{% load i18n %}
+	{% load static %}
+	{% include "changebase.html" with changebase="" %}
+{% endblock %}
+
+{% block section %}
+	{% load i18n %}
+	{% load static %}
+    <h2>Responsabilité</h2>
+    <p>Les sources des informations diffusées sur le site http://www.tralelho.fr sont réputées fiables mais le site ne garantit pas qu’il soit exempt de défauts, d’erreurs ou d’omissions.
+    Les informations communiquées sont présentées à titre indicatif et général sans valeur contractuelle. Malgré des mises à jour régulières, le site http://www.tralelho.fr ne peut être tenu responsable de la modification des dispositions administratives et juridiques survenant après la publication. De même, le site ne peut être tenue responsable de l’utilisation et de l’interprétation de l’information contenue dans ce site.
+    Le site http://www.tralelho.fr ne peut être tenu pour responsable d’éventuels virus qui pourraient infecter l’ordinateur ou tout matériel informatique de l’Internaute, suite à une utilisation, à l’accès, ou au téléchargement provenant de ce site.
+    La responsabilité du site ne peut être engagée en cas de force majeure ou du fait imprévisible et insurmontable d'un tiers.</p>
+
+    <h2>Liens hypertextes</h2>
+    <p>Des liens hypertextes peuvent être présents sur le site. L’Utilisateur est informé qu’en cliquant sur ces liens, il sortira du site http://www.tralelho.fr. Ce dernier n’a pas de contrôle sur les pages web sur lesquelles aboutissent ces liens et ne saurait, en aucun cas, être responsable de leur contenu.</p>
+
+    <h2>Cookies</h2>
+    <p>L’Utilisateur est informé que lors de ses visites sur le site, un cookie peut s’installer automatiquement sur son logiciel de navigation.
+    Les cookies sont de petits fichiers stockés temporairement sur le disque dur de l’ordinateur de l’Utilisateur par votre navigateur et qui sont nécessaires à l’utilisation du site http://www.tralelho.fr. Les cookies ne contiennent pas d’information personnelle et ne peuvent pas être utilisés pour identifier quelqu’un. Un cookie contient un identifiant unique, généré aléatoirement et donc anonyme. Certains cookies expirent à la fin de la visite de l’Utilisateur, d’autres restent.
+    L’information contenue dans les cookies est utilisée pour améliorer le site http://www.tralelho.fr.
+    En naviguant sur le site, L’Utilisateur les accepte.
+    L’Utilisateur doit toutefois donner son consentement quant à l’utilisation de certains cookies.
+    A défaut d’acceptation, l’Utilisateur est informé que certaines fonctionnalités ou pages risquent de lui être refusées.
+    L’Utilisateur pourra désactiver ces cookies par l’intermédiaire des paramètres figurant au sein de son logiciel de navigation.</p>
+{% endblock %}
