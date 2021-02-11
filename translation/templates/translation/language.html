@@ -38,25 +38,28 @@
 		<button onclick='collapsenav()' type="button" class="collapsible"></button>
 		<div class="content">
 			<ul>
-				<li><a onclick='collapsenav()' href='#PRESENTATION'>PRESENTATION</a></li>
-				<li><a onclick='collapsenav()' href='#IDENTITÉ'>IDENTITÉ</a></li>
-				<li><a onclick='collapsenav()' href='#ATTENTE'>ATTENTE</a></li>
-				<li><a onclick='collapsenav()' href='#ACCUEIL'>ACCUEIL</a></li>
-				<li><a onclick='collapsenav()' href='#NEUROLOGIE'>NEUROLOGIE</a></li>
-				<li><a onclick='collapsenav()' href='#PNEUMOLOGIE'>PNEUMOLOGIE</a></li>
-				<li><a onclick='collapsenav()' href='#CARDIOLOGIE'>CARDIOLOGIE</a></li>
-				<li><a onclick='collapsenav()' href='#MALAISE'>MALAISE</a></li>
-				<li><a onclick='collapsenav()' href='#DIGESTIF'>DIGESTIF</a></li>
-				<li><a onclick='collapsenav()' href='#INFECTIEUX'>INFECTIEUX</a></li>
-				<li><a onclick='collapsenav()' href='#OPHTALMOLOGIE'>OPHTALMOLOGIE</a></li>
-				<li><a onclick='collapsenav()' href='#ANTÉCÉDENTS'>ANTÉCÉDENTS</a></li>
-				<li><a onclick='collapsenav()' href='#PEDIATRIE'>PEDIATRIE</a></li>
-				<li><a onclick='collapsenav()' href='#GYNECOLOGIE'>GYNECOLOGIE</a></li>
-				<li><a onclick='collapsenav()' href='#TRAUMATOLOGIE'>TRAUMATOLOGIE</a></li>
-				<li><a onclick='collapsenav()' href='#EXAMENS'>EXAMENS</a></li>
-				<li><a onclick='collapsenav()' href='#TRAITEMENTS et CONSIGNES'>TRAITEMENTS et CONSIGNES</a></li>
-				<li><a onclick='collapsenav()' href='#CONCLUSION'>CONCLUSION</a></li>
-				<li><a onclick='collapsenav()' href='#PATIENT EN STRUCTURE'>PATIENT EN STRUCTURE</a></li>
+				{% language base_language %}
+				<h2 id='IDENTITÉ'>{% translate "IDENTITÉ" %} </h2>
+				<li><a onclick='collapsenav()' href='#PRESENTATION'>{% translate "PRESENTATION" %}</a></li>
+				<li><a onclick='collapsenav()' href='#IDENTITÉ'>{% translate "IDENTITÉ" %}</a></li>
+				<li><a onclick='collapsenav()' href='#ATTENTE'>{% translate "ATTENTE" %}</a></li>
+				<li><a onclick='collapsenav()' href='#ACCUEIL'>{% translate "ACCUEIL" %}</a></li>
+				<li><a onclick='collapsenav()' href='#NEUROLOGIE'>N{% translate "EUROLOGIE" %}</a></li>
+				<li><a onclick='collapsenav()' href='#PNEUMOLOGIE'>{% translate "PNEUMOLOGIE" %}</a></li>
+				<li><a onclick='collapsenav()' href='#CARDIOLOGIE'>{% translate "CARDIOLOGIE" %}</a></li>
+				<li><a onclick='collapsenav()' href='#MALAISE'>{% translate "MALAISE" %}</a></li>
+				<li><a onclick='collapsenav()' href='#DIGESTIF'>{% translate "DIGESTIF" %}</a></li>
+				<li><a onclick='collapsenav()' href='#INFECTIEUX'>{% translate "INFECTIEUX" %}</a></li>
+				<li><a onclick='collapsenav()' href='#OPHTALMOLOGIE'>{% translate "OPHTALMOLOGIE" %}</a></li>
+				<li><a onclick='collapsenav()' href='#ANTÉCÉDENTS'>{% translate "ANTÉCÉDENTS" %}</a></li>
+				<li><a onclick='collapsenav()' href='#PEDIATRIE'>{% translate "PEDIATRIE" %}</a></li>
+				<li><a onclick='collapsenav()' href='#GYNECOLOGIE'>{% translate "GYNECOLOGIE" %}</a></li>
+				<li><a onclick='collapsenav()' href='#TRAUMATOLOGIE'>{% translate "TRAUMATOLOGIE" %}</a></li>
+				<li><a onclick='collapsenav()' href='#EXAMENS'>{% translate "EXAMENS" %}</a></li>
+				<li><a onclick='collapsenav()' href='#TRAITEMENTS et CONSIGNES'>{% translate "TRAITEMENTS et CONSIGNES" %}</a></li>
+				<li><a onclick='collapsenav()' href='#CONCLUSION'>{% translate "CONCLUSION" %}</a></li>
+				<li><a onclick='collapsenav()' href='#PATIENT EN STRUCTURE'>{% translate "PATIENT EN STRUCTURE" %}</a></li>
+				{% endlanguage %}
 			</ul>
 		</div>
 	</nav>
