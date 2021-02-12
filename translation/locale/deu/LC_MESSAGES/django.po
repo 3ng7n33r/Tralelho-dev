@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 73d3b19e82fc460fd936796fc5b25f94\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-11 18:11+0000\n"
-"PO-Revision-Date: 2021-02-11 18:14\n"
+"PO-Revision-Date: 2021-02-12 13:43\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -19,55 +19,55 @@ msgstr ""
 
 #: translation/forms.py:10
 msgid "Rechercher un pays"
-msgstr ""
+msgstr "Suche nach Ländernamen"
 
 #: translation/forms.py:21 translation/views.py:65
 msgid "Nous n'avons pas trouvé ce pays. Merci de verifier l'orthographe"
-msgstr ""
+msgstr "Land nicht gefunden. Bitte Rechtschreibung überprüfen"
 
 #: translation/templates/base.html:13
 msgid "Tralelho - Traductions pour les Etrangers à l'Hopital"
-msgstr ""
+msgstr "Tralelho - Übersetzungen für das Krankenhaus"
 
 #: translation/templates/changebase.html:5
 msgid "Langue d'utilisation"
-msgstr ""
+msgstr "Benutzersprache"
 
 #: translation/templates/changebase.html:28
 #: translation/templates/changetarget.html:62
 msgid "Plusieurs langues disponibles"
-msgstr ""
+msgstr "Mehrere Sprachen verfügbar"
 
 #: translation/templates/changetarget.html:75
 msgid "Aucune traduction disponible"
-msgstr ""
+msgstr "Keine Übersetzung verfügbar"
 
 #: translation/templates/doctemplates/irm.html:23
 #: translation/templates/doctemplates/irm.html:24
 msgid "Vous allez passer une IRM"
-msgstr ""
+msgstr "Sie benötigen eine MRT Untersuchung"
 
 #: translation/templates/doctemplates/irm.html:26
 #: translation/templates/doctemplates/irm.html:27
 msgid "Pour entrer dans la salle d’IRM, il faut retirer tout objet métallique (appareils dentaires et auditifs, montre, bijoux...)"
-msgstr ""
+msgstr "Bevor sie eintreten müssen Sie alle metallischen Gegenstände ablegen (Zahnprothesen, Hörgerät, Schmuck, Piercings, ...)"
 
 #: translation/templates/doctemplates/irm.html:29
 #: translation/templates/doctemplates/irm.html:30
 msgid "Une perfusion va vous être posée pour injecter un produit de contraste au cours de l’examen"
-msgstr ""
+msgstr "Sie erhalten eine Infusion durch die ihnen das Kontrastmittel verabreicht wird"
 
 #: translation/templates/doctemplates/irm.html:32
 #: translation/templates/doctemplates/irm.html:33
 #: translation/templates/doctemplates/scn.html:32
 #: translation/templates/doctemplates/scn.html:33
 msgid "Il faudra rester immobile pendant tout l’examen"
-msgstr ""
+msgstr "Sie müssen während der gesamten Prüfung stillhalten"
 
 #: translation/templates/doctemplates/irm.html:35
 #: translation/templates/doctemplates/irm.html:36
 msgid "L'examen est long. Il dure entre 15 et 40 minutes. L'examen n'est pas douloureux mais il est très bruyant"
-msgstr ""
+msgstr "Die Untersuchung dauert lang, zwischen 15 und 40 Minuten. Sie ist nicht schmerzhaft aber sie ist laut"
 
 #: translation/templates/doctemplates/irm.html:38
 #: translation/templates/doctemplates/irm.html:39
@@ -87,35 +87,35 @@ msgstr "Um uns zu rufen, drücken Sie hier"
 
 #: translation/templates/doctemplates/irm.html:47
 msgid "Checklist IRM"
-msgstr ""
+msgstr "Checkliste MRT"
 
 #: translation/templates/doctemplates/irm.html:51
 #: translation/templates/doctemplates/irm.html:52
 #: translation/templates/doctemplates/scn.html:47
 #: translation/templates/doctemplates/scn.html:48
 msgid "Nom"
-msgstr ""
+msgstr "Name"
 
 #: translation/templates/doctemplates/irm.html:53
 #: translation/templates/doctemplates/irm.html:54
 #: translation/templates/doctemplates/scn.html:49
 #: translation/templates/doctemplates/scn.html:50
 msgid "Prénom"
-msgstr ""
+msgstr "Vorname"
 
 #: translation/templates/doctemplates/irm.html:55
 #: translation/templates/doctemplates/irm.html:56
 #: translation/templates/doctemplates/scn.html:51
 #: translation/templates/doctemplates/scn.html:52
 msgid "Date de naissance"
-msgstr ""
+msgstr "Geburtsdatum"
 
 #: translation/templates/doctemplates/irm.html:57
 #: translation/templates/doctemplates/irm.html:58
 #: translation/templates/doctemplates/scn.html:53
 #: translation/templates/doctemplates/scn.html:54
 msgid "Taille"
-msgstr ""
+msgstr "Größe"
 
 #: translation/templates/doctemplates/irm.html:59
 #: translation/templates/doctemplates/irm.html:60
@@ -164,64 +164,64 @@ msgstr "Ich weiß es nicht"
 #: translation/templates/doctemplates/irm.html:89
 #: translation/templates/doctemplates/irm.html:90
 msgid "Avez-vous un pace-maker?"
-msgstr ""
+msgstr "Haben Sie einen Herzschrittmacher?"
 
 #: translation/templates/doctemplates/irm.html:96
 #: translation/templates/doctemplates/irm.html:97
 msgid "Avez-vous une valve cardiaque?"
-msgstr ""
+msgstr "Haben Sie eine künstliche Herzklappe?"
 
 #: translation/templates/doctemplates/irm.html:103
 #: translation/templates/doctemplates/irm.html:104
 msgid "Avez-vous des stents coronaires?"
-msgstr ""
+msgstr "Haben Sie eine Gefäßstütze oder Stent?"
 
 #: translation/templates/doctemplates/irm.html:111
 #: translation/templates/doctemplates/irm.html:112
 msgid "Avez-vous un défibrillateur?"
-msgstr ""
+msgstr "Haben Sie einen implantierten Defibrillator?"
 
 #: translation/templates/doctemplates/irm.html:118
 #: translation/templates/doctemplates/irm.html:119
 msgid "Avez-vous une chambre implantable?"
-msgstr ""
+msgstr "Haben Sie einen Portkatheter?"
 
 #: translation/templates/doctemplates/irm.html:125
 #: translation/templates/doctemplates/irm.html:126
 msgid "Allaitez-vous?"
-msgstr ""
+msgstr "Stillen Sie?"
 
 #: translation/templates/doctemplates/irm.html:151
 #: translation/templates/doctemplates/irm.html:152
 msgid "Avez-vous des clips chirurgicaux intra crâniens (CI avant 1992)?"
-msgstr ""
+msgstr "Haben Sie intrakranielle Gefäßclips?"
 
 #: translation/templates/doctemplates/irm.html:158
 #: translation/templates/doctemplates/irm.html:159
 msgid "Avez-vous un implant cochléaire?"
-msgstr ""
+msgstr "Haben Sie ein Cochlea-Implantat?"
 
 #: translation/templates/doctemplates/irm.html:165
 #: translation/templates/doctemplates/irm.html:166
 msgid "Avez-vous un implant oculaire?"
-msgstr ""
+msgstr "Haben Sie eine Intraokularlinse implantiert?"
 
 #: translation/templates/doctemplates/irm.html:173
 #: translation/templates/doctemplates/irm.html:174
 msgid "Avez-vous du métal dans le corps?"
-msgstr ""
+msgstr "Haben Sie Metall im Körper?"
 
 #: translation/templates/doctemplates/irm.html:180
 #: translation/templates/doctemplates/irm.html:181
 #: translation/templates/translation/language.html:3561
 #: translation/templates/translation/language.html:3564
 msgid "Avez-vous des éclats métalliques dans les yeux?"
-msgstr ""
+msgstr "Haben Sie Metallsplitter in den Augen?"
 
 #: translation/templates/doctemplates/irm.html:188
 #: translation/templates/doctemplates/irm.html:189
 msgid "Avez-vous des prothèses?"
-msgstr ""
+msgstr "Haben Sie Prothesen?"
 
 #: translation/templates/doctemplates/irm.html:195
 #: translation/templates/doctemplates/irm.html:196
@@ -233,7 +233,7 @@ msgstr "Sind Sie schwanger?"
 #: translation/templates/doctemplates/irm.html:203
 #: translation/templates/doctemplates/irm.html:204
 msgid "Aves-vous un capteur de glycémie?"
-msgstr ""
+msgstr "Haben Sie einen implantierten Blutzuckersensor?"
 
 #: translation/templates/doctemplates/irm.html:210
 #: translation/templates/doctemplates/irm.html:211
@@ -245,58 +245,58 @@ msgstr "Wenn ja, besitzen Sie eine Karte mit der Referenz des Materials?"
 #: translation/templates/doctemplates/irm.html:218
 #: translation/templates/doctemplates/irm.html:219
 msgid "Avez-vous des allergies?"
-msgstr ""
+msgstr "Haben Sie Allergien?"
 
 #: translation/templates/doctemplates/irm.html:230
 #: translation/templates/doctemplates/irm.html:231
 #: translation/templates/doctemplates/scn.html:123
 #: translation/templates/doctemplates/scn.html:124
 msgid "Signez ici:"
-msgstr ""
+msgstr "Hier unterschreiben:"
 
 #: translation/templates/doctemplates/scn.html:23
 #: translation/templates/doctemplates/scn.html:24
 msgid "Vous allez passer une scanner"
-msgstr ""
+msgstr "Sie benötigen eine Computertomographie"
 
 #: translation/templates/doctemplates/scn.html:26
 #: translation/templates/doctemplates/scn.html:27
 msgid "Il faudra retirer tout objet métallique (appareils dentaires et auditifs)"
-msgstr ""
+msgstr "Jedes metallische Objekt (Zahnersatz, Hörgeräte) muss entfernt werden"
 
 #: translation/templates/doctemplates/scn.html:29
 #: translation/templates/doctemplates/scn.html:30
 msgid "Une perfusion va vous être posée pour injecter un produit de contraste au cours de l’examen. L’injection de ce produit de contraste peut donner une sensation de chaleur dans tout le corps"
-msgstr ""
+msgstr "Während der Untersuchung wird eine Infusion eingesetzt, um Ihnen ein Kontrastmittel zu verabreichen. Dieses Kontrastmittel kann ihnen ein warmes Gefühl im ganzen Körper geben"
 
 #: translation/templates/doctemplates/scn.html:38
 #: translation/templates/doctemplates/scn.html:39
 msgid "L'examen dure en moyenne 15 minutes"
-msgstr ""
+msgstr "Die Untersuchung dauert im Durchschnitt 15 Minuten"
 
 #: translation/templates/doctemplates/scn.html:43
 msgid "Checklist Scanner"
-msgstr ""
+msgstr "Checkliste CT"
 
 #: translation/templates/doctemplates/scn.html:90
 #: translation/templates/doctemplates/scn.html:91
 msgid "Avez-vous des allergies au produit de contraste?"
-msgstr ""
+msgstr "Haben Sie eine Allergie gegen Kontrastmittel?"
 
 #: translation/templates/doctemplates/scn.html:97
 #: translation/templates/doctemplates/scn.html:98
 msgid "Avez-vous une insuffisance ou maladie rénale?"
-msgstr ""
+msgstr "Haben Sie eine Niereninsuffizienz oder -erkrankung?"
 
 #: translation/templates/doctemplates/scn.html:104
 #: translation/templates/doctemplates/scn.html:105
 msgid "Prenez-vous un traitement pour la thyroïde?"
-msgstr ""
+msgstr "Werden Sie für Ihre Schilddrüse behandelt?"
 
 #: translation/templates/doctemplates/scn.html:111
 #: translation/templates/doctemplates/scn.html:112
 msgid "Avez-vous de l'asthme?"
-msgstr ""
+msgstr "Haben Sie Asthma?"
 
 #: translation/templates/translation/about.html:7
 #: translation/templates/translation/disclaimer.html:7
@@ -306,7 +306,7 @@ msgstr ""
 #: translation/templates/translation/language.html:7
 #: translation/templates/translation/support.html:7
 msgid "Traductions"
-msgstr ""
+msgstr "Übersetzungen"
 
 #: translation/templates/translation/about.html:8
 #: translation/templates/translation/disclaimer.html:8
@@ -316,7 +316,7 @@ msgstr ""
 #: translation/templates/translation/language.html:8
 #: translation/templates/translation/support.html:8
 msgid "Documents"
-msgstr ""
+msgstr "Dokumente"
 
 #: translation/templates/translation/about.html:9
 #: translation/templates/translation/disclaimer.html:9
@@ -326,7 +326,7 @@ msgstr ""
 #: translation/templates/translation/language.html:9
 #: translation/templates/translation/support.html:9
 msgid "Soutenez-nous"
-msgstr ""
+msgstr "Unterstütze uns"
 
 #: translation/templates/translation/about.html:10
 #: translation/templates/translation/disclaimer.html:10
@@ -336,69 +336,69 @@ msgstr ""
 #: translation/templates/translation/language.html:10
 #: translation/templates/translation/support.html:10
 msgid "Qui-sommes nous?"
-msgstr ""
+msgstr "Wer sind wir?"
 
 #: translation/templates/translation/language.html:65
 msgid "Cliquez sur une phrase pour l'afficher"
-msgstr ""
+msgstr "Klicke auf einen Satz um ihn zu sehen"
 
 #: translation/templates/translation/language.html:69
 msgid "PRESENTATION"
-msgstr ""
+msgstr "VORSTELLUNG"
 
 #: translation/templates/translation/language.html:75
 #: translation/templates/translation/language.html:78
 msgid "Je vais utiliser le téléphone pour traduire les questions que j'ai à vous poser, êtes vous d'accord ?"
-msgstr ""
+msgstr "Ich werde das Telefon verwenden, um die Fragen zu übersetzen die ich ihnen stelle, sind Sie einverstanden?"
 
 #: translation/templates/translation/language.html:83
 #: translation/templates/translation/language.html:86
 msgid "Bonjour, je suis infirmière"
-msgstr ""
+msgstr "Hallo, ich bin Krankenschwester"
 
 #: translation/templates/translation/language.html:91
 #: translation/templates/translation/language.html:94
 msgid "Bonjour, je suis médecin"
-msgstr ""
+msgstr "Hallo, ich bin Arzt"
 
 #: translation/templates/translation/language.html:99
 #: translation/templates/translation/language.html:102
 msgid "Bonjour, je suis secouriste"
-msgstr ""
+msgstr "Hallo, ich bin Rettungshelfer"
 
 #: translation/templates/translation/language.html:107
 #: translation/templates/translation/language.html:110
 msgid "Bonjour, je suis bénévole"
-msgstr ""
+msgstr "Hallo, ich bin ein freiwilliger Helfer"
 
 #: translation/templates/translation/language.html:115
 #: translation/templates/translation/language.html:118
 msgid "Bonjour, je suis agent d'accueil"
-msgstr ""
+msgstr "Hallo, ich bin ein Kundendienst-Mitarbeiter"
 
 #: translation/templates/translation/language.html:123
 #: translation/templates/translation/language.html:126
 msgid "Bonjour, je suis étudiant en médecine"
-msgstr ""
+msgstr "Hallo, ich bin Medizinstudent"
 
 #: translation/templates/translation/language.html:131
 #: translation/templates/translation/language.html:134
 msgid "Bonjour, je suis sage-femme"
-msgstr ""
+msgstr "Hallo, Ich bin Hebamme"
 
 #: translation/templates/translation/language.html:139
 #: translation/templates/translation/language.html:142
 msgid "Bonjour, je suis secrétaire"
-msgstr ""
+msgstr "Hallo, ich bin ein administrativer Mitarbeiter"
 
 #: translation/templates/translation/language.html:147
 #: translation/templates/translation/language.html:150
 msgid "Bonjour, je suis soignant"
-msgstr ""
+msgstr "Hallo, ich bin ein Pfleger"
 
 #: translation/templates/translation/language.html:156
 msgid "IDENTITÉ"
-msgstr ""
+msgstr "IDENTITÄT"
 
 #: translation/templates/translation/language.html:162
 #: translation/templates/translation/language.html:165
@@ -408,7 +408,7 @@ msgstr "Zeigen Sie mir bitte Ihren Reisepass."
 #: translation/templates/translation/language.html:170
 #: translation/templates/translation/language.html:173
 msgid "Pouvez-vous me montrez une carte d’identité"
-msgstr ""
+msgstr "Zeigen Sie mir bitte Ihren Personalausweis"
 
 #: translation/templates/translation/language.html:178
 #: translation/templates/translation/language.html:181
@@ -423,7 +423,7 @@ msgstr "Haben Sie eine Europäische Krankenversicherungskarte?"
 #: translation/templates/translation/language.html:194
 #: translation/templates/translation/language.html:197
 msgid "Pouvez-vous me montre une carte d’assurance privée"
-msgstr ""
+msgstr "Haben Sie Ihre Versicherungskarte mit sich?"
 
 #: translation/templates/translation/language.html:202
 #: translation/templates/translation/language.html:205
@@ -452,22 +452,22 @@ msgstr "Haben Sie eine Telefonnummer, unter der ich Sie erreichen kann?"
 
 #: translation/templates/translation/language.html:243
 msgid "ATTENTE"
-msgstr ""
+msgstr "WARTEZEIT"
 
 #: translation/templates/translation/language.html:249
 #: translation/templates/translation/language.html:252
 msgid "Je vous laisse attendre sur les chaises"
-msgstr ""
+msgstr "Bitte nehmen Sie während der Wartezeit auf den Stühlen Platz"
 
 #: translation/templates/translation/language.html:257
 #: translation/templates/translation/language.html:260
 msgid "Je vous laisse attendre sur le banc"
-msgstr ""
+msgstr "Bitte nehmen Sie während der Wartezeit auf der Bank Platz"
 
 #: translation/templates/translation/language.html:265
 #: translation/templates/translation/language.html:268
 msgid "Je vous laisse attendre dans la salle d'attente"
-msgstr ""
+msgstr "Bitte warten Sie im Wartezimmer"
 
 #: translation/templates/translation/language.html:273
 #: translation/templates/translation/language.html:276
@@ -501,7 +501,7 @@ msgstr "Sie müssen \"eine Stunde\" warten, um die Ergebnisse des Bluttests zu e
 
 #: translation/templates/translation/language.html:322
 msgid "ACCUEIL"
-msgstr ""
+msgstr "EMPFANG"
 
 #: translation/templates/translation/language.html:328
 #: translation/templates/translation/language.html:331
@@ -586,7 +586,7 @@ msgstr "zehn"
 #: translation/templates/translation/language.html:472
 #: translation/templates/translation/language.html:475
 msgid "Pouvez vous vous déshabiller pour que je vous examine"
-msgstr ""
+msgstr "Bitte ziehen Sie sich aus, damit ich Sie untersuchen kann"
 
 #: translation/templates/translation/language.html:480
 #: translation/templates/translation/language.html:483
@@ -610,7 +610,7 @@ msgstr "Bitte legen Sie sich auf die Trage"
 
 #: translation/templates/translation/language.html:513
 msgid "NEUROLOGIE"
-msgstr ""
+msgstr "NEUROLOGIE"
 
 #: translation/templates/translation/language.html:519
 #: translation/templates/translation/language.html:522
@@ -650,7 +650,7 @@ msgstr "Sehen Sie mir in die Augen. Ich werde Ihre Pupillen beobachten"
 #: translation/templates/translation/language.html:575
 #: translation/templates/translation/language.html:578
 msgid "Avez vous des fourmillement ? Montrez moi où"
-msgstr ""
+msgstr "Spüren Sie ein Kribbeln? Zeigen Sie mir wo"
 
 #: translation/templates/translation/language.html:583
 #: translation/templates/translation/language.html:586
@@ -680,12 +680,12 @@ msgstr "Haben Sie Kopfschmerzen?"
 #: translation/templates/translation/language.html:623
 #: translation/templates/translation/language.html:626
 msgid "La douleur est apparue progressivement ?"
-msgstr ""
+msgstr "Ist der Schmerz allmählich aufgetreten?"
 
 #: translation/templates/translation/language.html:631
 #: translation/templates/translation/language.html:634
 msgid "La douleur est apparue brutalement ?"
-msgstr ""
+msgstr "Ist der Schmerz plötzlich aufgetreten?"
 
 #: translation/templates/translation/language.html:639
 #: translation/templates/translation/language.html:642
@@ -719,7 +719,7 @@ msgstr "Ich werde das Ende Ihres Fingers anstechen, um Ihren Blutzuckerwert zu e
 
 #: translation/templates/translation/language.html:688
 msgid "PNEUMOLOGIE"
-msgstr ""
+msgstr "PNEUMOLOGIE"
 
 #: translation/templates/translation/language.html:694
 #: translation/templates/translation/language.html:697
@@ -729,7 +729,7 @@ msgstr "Ich werde meine Hand auf Ihren Bauch legen, um Ihren Atem zu fühlen. At
 #: translation/templates/translation/language.html:702
 #: translation/templates/translation/language.html:705
 msgid "Etes-vous essoufflé ?"
-msgstr ""
+msgstr "Haben Sie Atemprobleme?"
 
 #: translation/templates/translation/language.html:710
 #: translation/templates/translation/language.html:713
@@ -773,22 +773,22 @@ msgstr "Bitte schneuzen Sie sich die Nase, damit ich Spuren von Ruß erkennen ka
 
 #: translation/templates/translation/language.html:775
 msgid "CARDIOLOGIE"
-msgstr ""
+msgstr "KARDIOLOGIE"
 
 #: translation/templates/translation/language.html:781
 #: translation/templates/translation/language.html:784
 msgid "Est ce que votre douleur serre ?"
-msgstr ""
+msgstr "Ist es ein drückender Schmerz?"
 
 #: translation/templates/translation/language.html:789
 #: translation/templates/translation/language.html:792
 msgid "Est ce que votre douleur pique ?"
-msgstr ""
+msgstr "Ist es ein stechender Schmerz?"
 
 #: translation/templates/translation/language.html:797
 #: translation/templates/translation/language.html:800
 msgid "Est ce que votre douleur brûle ?"
-msgstr ""
+msgstr "Ist es ein brennender Schmerz?"
 
 #: translation/templates/translation/language.html:805
 #: translation/templates/translation/language.html:808
@@ -797,7 +797,7 @@ msgstr ""
 #: translation/templates/translation/language.html:1051
 #: translation/templates/translation/language.html:1054
 msgid "Est-ce que votre douleur irradie ? Montrez-moi vers où"
-msgstr ""
+msgstr "Strahlen die Schmerzen aus? Wenn ja, bitte zeigen Sie mir wohin"
 
 #: translation/templates/translation/language.html:813
 #: translation/templates/translation/language.html:816
@@ -837,7 +837,7 @@ msgstr "Ich werde Ihren Blutdruck messen"
 #: translation/templates/translation/language.html:869
 #: translation/templates/translation/language.html:872
 msgid "Ressentez-vous des palpitations ?"
-msgstr ""
+msgstr "Fühlen Sie ein Herzrasen?"
 
 #: translation/templates/translation/language.html:877
 #: translation/templates/translation/language.html:880
@@ -847,7 +847,7 @@ msgstr "Öffnen Sie den Mund und drücken Sie die Zunge gegen den Gaumen. Ich we
 #: translation/templates/translation/language.html:885
 #: translation/templates/translation/language.html:888
 msgid "Est ce que ce médicament soulage votre douleur ?"
-msgstr ""
+msgstr "Hilft dieses Medikament Ihre Schmerzen zu lindern?"
 
 #: translation/templates/translation/language.html:893
 #: translation/templates/translation/language.html:896
@@ -871,12 +871,12 @@ msgstr "Ich werde Ihre Herztöne aufnehmen. Das tut nicht weh, aber halten Sie b
 
 #: translation/templates/translation/language.html:926
 msgid "MALAISE"
-msgstr ""
+msgstr "SCHWINDEL / BEWUSSTSEINSVERLUST"
 
 #: translation/templates/translation/language.html:932
 #: translation/templates/translation/language.html:935
 msgid "Avez-vous senti votre malaise arriver ?"
-msgstr ""
+msgstr "Ist der Schwindel langsam aufgetreten?"
 
 #: translation/templates/translation/language.html:940
 #: translation/templates/translation/language.html:943
@@ -886,27 +886,27 @@ msgstr "Was haben Sie während des Unwohlseins gespürt (Kribbeln, Schmerz, wo)?
 #: translation/templates/translation/language.html:948
 #: translation/templates/translation/language.html:951
 msgid "Avez-vous ressenti des fourmillements ?"
-msgstr ""
+msgstr "Haben Sie ein Kribbeln gespürt?"
 
 #: translation/templates/translation/language.html:956
 #: translation/templates/translation/language.html:959
 msgid "Avez-vous ressenti des vertiges ?"
-msgstr ""
+msgstr "Hatten Sie ein Schwindelgefühl?"
 
 #: translation/templates/translation/language.html:964
 #: translation/templates/translation/language.html:967
 msgid "Avez-vous ressenti une grande fatigue ?"
-msgstr ""
+msgstr "Haben Sie sich erschöpft gefühlt?"
 
 #: translation/templates/translation/language.html:972
 #: translation/templates/translation/language.html:975
 msgid "Avez vous des vertiges ?"
-msgstr ""
+msgstr "Haben Sie ein Schwindelgefühl?"
 
 #: translation/templates/translation/language.html:988
 #: translation/templates/translation/language.html:991
 msgid "A quel endroit avez-vous ressenti ces signes ?"
-msgstr ""
+msgstr "Wo haben Sie diese Gefühle gespürt?"
 
 #: translation/templates/translation/language.html:996
 #: translation/templates/translation/language.html:999
@@ -935,7 +935,7 @@ msgstr "Haben Sie heute schon gegessen?"
 
 #: translation/templates/translation/language.html:1037
 msgid "DIGESTIF"
-msgstr ""
+msgstr "VERDAUUNGSPROBLEME"
 
 #: translation/templates/translation/language.html:1043
 #: translation/templates/translation/language.html:1046
@@ -1026,7 +1026,7 @@ msgstr "Bitte waschen Sie Ihren Genitalbereich, bevor Sie in dieses Glas urinier
 
 #: translation/templates/translation/language.html:1188
 msgid "INFECTIEUX"
-msgstr ""
+msgstr "INFEKTIONEN"
 
 #: translation/templates/translation/language.html:1194
 #: translation/templates/translation/language.html:1197
@@ -1075,7 +1075,7 @@ msgstr "Ich werde Ihre Körpertemperatur messen."
 
 #: translation/templates/translation/language.html:1267
 msgid "OPHTALMOLOGIE"
-msgstr ""
+msgstr "OPHTALMOLOGIE"
 
 #: translation/templates/translation/language.html:1273
 #: translation/templates/translation/language.html:1276
@@ -1095,65 +1095,65 @@ msgstr "Haben Sie Kopfschmerzen?"
 #: translation/templates/translation/language.html:1297
 #: translation/templates/translation/language.html:1300
 msgid "Est ce que vous avez l’impression que la pièce tourne autour de vous ?"
-msgstr ""
+msgstr "Haben Sie den Eindruck, als ob sich der Raum um Sie dreht?"
 
 #: translation/templates/translation/language.html:1305
 #: translation/templates/translation/language.html:1308
 msgid "Avez-vous reçu un coup à la tête récemment ?"
-msgstr ""
+msgstr "Haben Sie kürzlich einen Schlag auf den Kopf erlitten?"
 
 #: translation/templates/translation/language.html:1314
 msgid "ANTÉCÉDENTS"
-msgstr ""
+msgstr "VORGESCHICHTE"
 
 #: translation/templates/translation/language.html:1320
 #: translation/templates/translation/language.html:1323
 msgid "Avez-vous des maladies (diabète, hypertension) ?"
-msgstr ""
+msgstr "Leiden Sie an Krankheiten (Diabetes, Bluthochdruck)?"
 
 #: translation/templates/translation/language.html:1328
 #: translation/templates/translation/language.html:1331
 msgid "Avez-vous été hospitalisé récemment ?"
-msgstr ""
+msgstr "Hatten Sie in letzter Zeit einen Krankenhausaufenthalt ?"
 
 #: translation/templates/translation/language.html:1336
 #: translation/templates/translation/language.html:1339
 msgid "Avez-vous un traitement en cours ? lequel ?"
-msgstr ""
+msgstr "Sind Sie aktuell in Behandlung? Wenn ja, wofür?"
 
 #: translation/templates/translation/language.html:1344
 #: translation/templates/translation/language.html:1347
 msgid "Avez-vous une ordonnance avec vos traitements ?"
-msgstr ""
+msgstr "Hat der Arzt Ihnen Medikamente verschrieben?"
 
 #: translation/templates/translation/language.html:1352
 #: translation/templates/translation/language.html:1355
 msgid "Avez-vous des allergies ? lesquelles ?"
-msgstr ""
+msgstr "Haben Sie Allergien ? Welche ?"
 
 #: translation/templates/translation/language.html:1360
 #: translation/templates/translation/language.html:1363
 msgid "Y a-t-il des antécédents de maladie dans votre famille ?"
-msgstr ""
+msgstr "Sind in Ihrer Familie ähnliche Krankheitsfälle aufgetreten?"
 
 #: translation/templates/translation/language.html:1368
 #: translation/templates/translation/language.html:1371
 msgid "Pouvez-vous vous asseoir ?"
-msgstr ""
+msgstr "Können Sie sich hinsetzen ?"
 
 #: translation/templates/translation/language.html:1376
 #: translation/templates/translation/language.html:1379
 msgid "Pouvez-vous vous lever ?"
-msgstr ""
+msgstr "Können Sie aufstehen?"
 
 #: translation/templates/translation/language.html:1384
 #: translation/templates/translation/language.html:1387
 msgid "Pouvez-vous marcher ?"
-msgstr ""
+msgstr "Können Sie gehen?"
 
 #: translation/templates/translation/language.html:1393
 msgid "PEDIATRIE"
-msgstr ""
+msgstr "PEDIATRIE"
 
 #: translation/templates/translation/language.html:1399
 #: translation/templates/translation/language.html:1402
@@ -1197,7 +1197,7 @@ msgstr "Hat er/sie Durchfall?"
 
 #: translation/templates/translation/language.html:1464
 msgid "GYNECOLOGIE"
-msgstr ""
+msgstr "GYNÄKOLOGIE"
 
 #: translation/templates/translation/language.html:1478
 #: translation/templates/translation/language.html:1481
@@ -1256,7 +1256,7 @@ msgstr "Bitte ziehen Sie Ihre Unterwäsche aus"
 
 #: translation/templates/translation/language.html:1567
 msgid "TRAUMATOLOGIE"
-msgstr ""
+msgstr "TRAUMATOLOGIE"
 
 #: translation/templates/translation/language.html:1573
 #: translation/templates/translation/language.html:1576
@@ -1337,17 +1337,17 @@ msgstr "Sie müssen operiert werden"
 
 #: translation/templates/translation/language.html:1694
 msgid "EXAMENS"
-msgstr ""
+msgstr "UNTERSUCHUNGEN"
 
 #: translation/templates/translation/language.html:1700
 #: translation/templates/translation/language.html:1703
 msgid "Je vais vous poser une perfusion"
-msgstr ""
+msgstr "Ich werde Ihnen eine Infusion legen"
 
 #: translation/templates/translation/language.html:1708
 #: translation/templates/translation/language.html:1711
 msgid "Je vais vous faire une prise de sang"
-msgstr ""
+msgstr "Ich werde Ihnen etwas Blut abnehmen"
 
 #: translation/templates/translation/language.html:1716
 #: translation/templates/translation/language.html:1719
@@ -1367,12 +1367,12 @@ msgstr "Ich werde Sie waschen"
 #: translation/templates/translation/language.html:1740
 #: translation/templates/translation/language.html:1743
 msgid "Vous allez avoir un scanner"
-msgstr ""
+msgstr "Sie benötigen eine Computertomographie"
 
 #: translation/templates/translation/language.html:1748
 #: translation/templates/translation/language.html:1751
 msgid "Vous allez avoir une radio"
-msgstr ""
+msgstr "Sie benötigen eine Röntgen-Untersuchung"
 
 #: translation/templates/translation/language.html:1756
 #: translation/templates/translation/language.html:1759
@@ -1382,12 +1382,12 @@ msgstr "Ich muss Ihnen einen Gipsverband machen"
 #: translation/templates/translation/language.html:1764
 #: translation/templates/translation/language.html:1767
 msgid "Vous allez avoir une échographie"
-msgstr ""
+msgstr "Sie benötigen eine Ultraschalluntersuchung"
 
 #: translation/templates/translation/language.html:1772
 #: translation/templates/translation/language.html:1775
 msgid "Vous allez avoir une opération chirurgicale"
-msgstr ""
+msgstr "Sie müssen operiert werden"
 
 #: translation/templates/translation/language.html:1780
 #: translation/templates/translation/language.html:1783
@@ -1412,22 +1412,22 @@ msgstr "Die Untersuchung tut nicht weh"
 #: translation/templates/translation/language.html:1812
 #: translation/templates/translation/language.html:1815
 msgid "Après l'opération vous aurez une sonde urinaire"
-msgstr ""
+msgstr "Nach der Operation werden sie einen Blasenkatheter haben"
 
 #: translation/templates/translation/language.html:1820
 #: translation/templates/translation/language.html:1823
 msgid "Après l'opération vous aurez une sonde gastrique"
-msgstr ""
+msgstr "Nach der Operation werden Sie eine Magensonde haben"
 
 #: translation/templates/translation/language.html:1828
 #: translation/templates/translation/language.html:1831
 msgid "Après l'opération vous aurez un drain"
-msgstr ""
+msgstr "Nach der Operation werden Sie eine Drainage haben"
 
 #: translation/templates/translation/language.html:1836
 #: translation/templates/translation/language.html:1839
 msgid "Après l'opération vous aurez une cicatrice"
-msgstr ""
+msgstr "Nach der Operation werden Sie eine Narbe haben"
 
 #: translation/templates/translation/language.html:1844
 #: translation/templates/translation/language.html:1847
@@ -1447,41 +1447,41 @@ msgstr "Sie müssen Ihre Zahnspange, beweglichen Zahnprothesen und Ihr Hörgerä
 #: translation/templates/translation/language.html:1868
 #: translation/templates/translation/language.html:1871
 msgid "Avez-vous un pace-maker ?"
-msgstr ""
+msgstr "Haben Sie einen Herzschrittmacher ?"
 
 #: translation/templates/translation/language.html:1876
 #: translation/templates/translation/language.html:1879
 msgid "Avez-vous une valve cardiaque ?"
-msgstr ""
+msgstr "Haben Sie eine künstliche Herzklappe ?"
 
 #: translation/templates/translation/language.html:1884
 #: translation/templates/translation/language.html:1887
 msgid "Avez-vous un stent ?"
-msgstr ""
+msgstr "Haben Sie eine Gefäßstütze oder Stent?"
 
 #: translation/templates/translation/language.html:1892
 #: translation/templates/translation/language.html:1895
 msgid "Avez-vous une prothèse ?"
-msgstr ""
+msgstr "Haben Sie Prothesen ?"
 
 #: translation/templates/translation/language.html:1901
 msgid "TRAITEMENTS et CONSIGNES"
-msgstr ""
+msgstr "BEHANDLUNGEN UND ANWEISUNGEN"
 
 #: translation/templates/translation/language.html:1907
 #: translation/templates/translation/language.html:1910
 msgid "Je vous donne des médicaments"
-msgstr ""
+msgstr "Ich gebe Ihnen Medikamente"
 
 #: translation/templates/translation/language.html:1915
 #: translation/templates/translation/language.html:1918
 msgid "Je vous donne des antalgiques"
-msgstr ""
+msgstr "Ich gebe Ihnen Schmerzmittel"
 
 #: translation/templates/translation/language.html:1923
 #: translation/templates/translation/language.html:1926
 msgid "Je vous donne des antibiotiques"
-msgstr ""
+msgstr "Ich gebe Ihnen Antibiotika"
 
 #: translation/templates/translation/language.html:1931
 #: translation/templates/translation/language.html:1934
@@ -1550,7 +1550,7 @@ msgstr "Sie müssen morgen früh wiederkommen"
 #: translation/templates/translation/language.html:2050
 #: translation/templates/translation/language.html:2053
 msgid "Vous devez revenir dans"
-msgstr ""
+msgstr "Sie müssen wiederkommen"
 
 #: translation/templates/translation/language.html:2058
 #: translation/templates/translation/language.html:2061
@@ -1589,7 +1589,7 @@ msgstr "Sie werden in eine andere Abteilung verlegt"
 
 #: translation/templates/translation/language.html:2115
 msgid "PATIENT EN STRUCTURE"
-msgstr ""
+msgstr "PATIENT AUF DER STATION"
 
 #: translation/templates/translation/language.html:2121
 #: translation/templates/translation/language.html:2124
@@ -1636,7 +1636,7 @@ msgstr "Ich habe eingenässt (Bitte wechseln Sie meine Sachen)"
 #: translation/templates/translation/language.html:2185
 #: translation/templates/translation/language.html:2188
 msgid "Je voudrais uriner"
-msgstr ""
+msgstr "Ich möchte urinieren"
 
 #: translation/templates/translation/language.html:2193
 #: translation/templates/translation/language.html:2196
@@ -1772,7 +1772,7 @@ msgstr "Ich bin aus meiner eigenen Höhe gefallen"
 #: translation/templates/translation/language.html:2409
 #: translation/templates/translation/language.html:2412
 msgid "Je suis tombé de “x” mètres de hauteur"
-msgstr ""
+msgstr "Ich fiel von einer Höhe von „x“ Metern"
 
 #: translation/templates/translation/language.html:2417
 #: translation/templates/translation/language.html:2420
@@ -1787,37 +1787,37 @@ msgstr "Mein Kopf ist nicht beim Unfall aufgeschlagen."
 #: translation/templates/translation/language.html:2433
 #: translation/templates/translation/language.html:2436
 msgid "J'ai des douleurs à la tête"
-msgstr ""
+msgstr "Mein Kopf tut weh"
 
 #: translation/templates/translation/language.html:2441
 #: translation/templates/translation/language.html:2444
 msgid "J'ai des douleurs au cou"
-msgstr ""
+msgstr "Mein Nacken tut weh"
 
 #: translation/templates/translation/language.html:2449
 #: translation/templates/translation/language.html:2452
 msgid "J'ai des douleurs au dos"
-msgstr ""
+msgstr "Meine Rücken tut weh"
 
 #: translation/templates/translation/language.html:2457
 #: translation/templates/translation/language.html:2460
 msgid "J'ai des douleurs au bras"
-msgstr ""
+msgstr "Mein Arm tut weh"
 
 #: translation/templates/translation/language.html:2465
 #: translation/templates/translation/language.html:2468
 msgid "J'ai des douleurs à la jambe"
-msgstr ""
+msgstr "Mein Bein tut weh"
 
 #: translation/templates/translation/language.html:2473
 #: translation/templates/translation/language.html:2476
 msgid "J'ai des douleurs au torse"
-msgstr ""
+msgstr "Mein Brustkorb tut weh"
 
 #: translation/templates/translation/language.html:2481
 #: translation/templates/translation/language.html:2484
 msgid "J'ai des douleurs au ventre"
-msgstr ""
+msgstr "Ich habe Bauhschmerzen"
 
 #: translation/templates/translation/language.html:2489
 #: translation/templates/translation/language.html:2492
@@ -1849,12 +1849,12 @@ msgstr "Der Schmerz trat auf:"
 #: translation/templates/translation/language.html:2529
 #: translation/templates/translation/language.html:2532
 msgid "La douleur est apparue brutalement"
-msgstr ""
+msgstr "Der Schmerz trat plötzlich auf"
 
 #: translation/templates/translation/language.html:2537
 #: translation/templates/translation/language.html:2540
 msgid "La douleur est apparue progressivement"
-msgstr ""
+msgstr "Der Schmerz trat allmählich auf"
 
 #: translation/templates/translation/language.html:2545
 #: translation/templates/translation/language.html:2548
@@ -2019,17 +2019,17 @@ msgstr "Es tut nicht mehr weh"
 #: translation/templates/translation/language.html:2809
 #: translation/templates/translation/language.html:2812
 msgid "La douleur pique"
-msgstr ""
+msgstr "Es sind stechende Schmerzen"
 
 #: translation/templates/translation/language.html:2817
 #: translation/templates/translation/language.html:2820
 msgid "La douleur serre"
-msgstr ""
+msgstr "Es sind drückende Schmerzen"
 
 #: translation/templates/translation/language.html:2825
 #: translation/templates/translation/language.html:2828
 msgid "La douleur brûle"
-msgstr ""
+msgstr "Es ist ein brennender Schmerz"
 
 #: translation/templates/translation/language.html:2833
 #: translation/templates/translation/language.html:2836
@@ -2169,27 +2169,27 @@ msgstr "Ich habe nicht erbrochen"
 #: translation/templates/translation/language.html:3057
 #: translation/templates/translation/language.html:3060
 msgid "Des aliments"
-msgstr ""
+msgstr "Essen"
 
 #: translation/templates/translation/language.html:3065
 #: translation/templates/translation/language.html:3068
 msgid "Du sang"
-msgstr ""
+msgstr "Blut"
 
 #: translation/templates/translation/language.html:3073
 #: translation/templates/translation/language.html:3076
 msgid "Une fois"
-msgstr ""
+msgstr "Einmal"
 
 #: translation/templates/translation/language.html:3081
 #: translation/templates/translation/language.html:3084
 msgid "Deux fois"
-msgstr ""
+msgstr "Zweimal"
 
 #: translation/templates/translation/language.html:3089
 #: translation/templates/translation/language.html:3092
 msgid "Plusieurs fois"
-msgstr ""
+msgstr "Mehrmals"
 
 #: translation/templates/translation/language.html:3097
 #: translation/templates/translation/language.html:3100
@@ -2289,12 +2289,12 @@ msgstr "Mein Blutverlust war:"
 #: translation/templates/translation/language.html:3249
 #: translation/templates/translation/language.html:3252
 msgid "Mes pertes étaient de couleur rouge"
-msgstr ""
+msgstr "Mein Blutverlust war rot"
 
 #: translation/templates/translation/language.html:3257
 #: translation/templates/translation/language.html:3260
 msgid "Mes pertes étaient de couleur noire"
-msgstr ""
+msgstr "Mein Blutverlust war schwarz"
 
 #: translation/templates/translation/language.html:3265
 #: translation/templates/translation/language.html:3268
@@ -2384,52 +2384,52 @@ msgstr "Es juckt nicht"
 #: translation/templates/translation/language.html:3409
 #: translation/templates/translation/language.html:3412
 msgid "Ma douleur est faible"
-msgstr ""
+msgstr "Es ist ein schwacher Schmerz"
 
 #: translation/templates/translation/language.html:3417
 #: translation/templates/translation/language.html:3420
 msgid "Ma douleur est moyenne"
-msgstr ""
+msgstr "Meine Schmerzen sind mittelmäßig"
 
 #: translation/templates/translation/language.html:3425
 #: translation/templates/translation/language.html:3428
 msgid "Ma douleur est forte"
-msgstr ""
+msgstr "Meine Schmerzen sind stark"
 
 #: translation/templates/translation/language.html:3433
 #: translation/templates/translation/language.html:3436
 msgid "Ma douleur est insuppotable"
-msgstr ""
+msgstr "Die Schmerzen sind unerträglich"
 
 #: translation/templates/translation/language.html:3441
 #: translation/templates/translation/language.html:3444
 msgid "Avez-vous des clips intra-cranien ?"
-msgstr ""
+msgstr "Haben Sie intrakranielle Gefäßclips?"
 
 #: translation/templates/translation/language.html:3449
 #: translation/templates/translation/language.html:3452
 msgid "Avez-vous un implant cochléaire ?"
-msgstr ""
+msgstr "Haben Sie ein Cochlea-Implantat ?"
 
 #: translation/templates/translation/language.html:3457
 #: translation/templates/translation/language.html:3460
 msgid "Avez-vous un implant oculaire ?"
-msgstr ""
+msgstr "Haben Sie eine Intraokularlinse implantiert?"
 
 #: translation/templates/translation/language.html:3465
 #: translation/templates/translation/language.html:3468
 msgid "Avez-vous du métal dans le corps ?"
-msgstr ""
+msgstr "Haben Sie Metall im Körper ?"
 
 #: translation/templates/translation/language.html:3473
 #: translation/templates/translation/language.html:3476
 msgid "Avez-vous un défibrillateur ?"
-msgstr ""
+msgstr "Haben Sie einen implantierten Defibrillator ?"
 
 #: translation/templates/translation/language.html:3481
 #: translation/templates/translation/language.html:3484
 msgid "Avez-vous une chambre implantable ?"
-msgstr ""
+msgstr "Haben Sie einen Portkatheter ?"
 
 #: translation/templates/translation/language.html:3489
 #: translation/templates/translation/language.html:3492
@@ -2459,7 +2459,7 @@ msgstr "Ich brauche einen Notarzt, können Sie den Rettungsdienst anrufen?"
 #: translation/templates/translation/language.html:3529
 #: translation/templates/translation/language.html:3532
 msgid "Vous allez avoir une IRM"
-msgstr ""
+msgstr "Sie benötigen eine MRT Untersuchung"
 
 #: translation/templates/translation/language.html:3537
 #: translation/templates/translation/language.html:3540
@@ -2479,17 +2479,17 @@ msgstr "Während der gesamten Dauer der Untersuchung sollten Sie regungslos blei
 #: translation/templates/translation/language.html:3569
 #: translation/templates/translation/language.html:3572
 msgid "Avez-vous une valve mécanique ?"
-msgstr ""
+msgstr "Haben Sie eine künstliche Herzklappe ?"
 
 #: translation/templates/translation/language.html:3577
 #: translation/templates/translation/language.html:3580
 msgid "Avez-vous un capteur de glycémie ?"
-msgstr ""
+msgstr "Haben Sie einen implantierten Blutzuckersensor ?"
 
 #: translation/templates/translation/language.html:3593
 #: translation/templates/translation/language.html:3596
 msgid "Quelle est votre taille et votre poids ?"
-msgstr ""
+msgstr "Wie groß und schwer sind Sie ?"
 
 #: translation/templates/translation/language.html:3609
 #: translation/templates/translation/language.html:3612
@@ -2529,7 +2529,7 @@ msgstr "Geburtstag :"
 #: translation/templates/translation/language.html:3665
 #: translation/templates/translation/language.html:3668
 msgid "Taille :"
-msgstr ""
+msgstr "Größe :"
 
 #: translation/templates/translation/language.html:3673
 #: translation/templates/translation/language.html:3676
@@ -2538,27 +2538,27 @@ msgstr "Gewicht :"
 
 #: translation/views.py:23
 msgid "Afrique"
-msgstr ""
+msgstr "Afrika"
 
 #: translation/views.py:24
 msgid "Amerique du Nord"
-msgstr ""
+msgstr "Nordamerika"
 
 #: translation/views.py:25
 msgid "Amerique du Sud"
-msgstr ""
+msgstr "Südamerika"
 
 #: translation/views.py:26
 msgid "Océanie"
-msgstr ""
+msgstr "Ozeanien"
 
 #: translation/views.py:27
 msgid "Asie"
-msgstr ""
+msgstr "Asien"
 
 #: translation/views.py:28
 msgid "Europe"
-msgstr ""
+msgstr "Europa"
 
 #: translation/views.py:122
 msgid "IRM"
@@ -2566,890 +2566,890 @@ msgstr "MRT"
 
 #: translation/views.py:123
 msgid "Scanner"
-msgstr ""
+msgstr "Computertomografie"
 
 msgid "Afghanistan"
-msgstr ""
+msgstr "Afghanistan"
 
 msgid "Angola"
-msgstr ""
+msgstr "Angola"
 
 msgid "Albanie"
-msgstr ""
+msgstr "Albanien"
 
 msgid "Andorre"
-msgstr ""
+msgstr "Andorra"
 
 msgid "Émirats arabes unis"
-msgstr ""
+msgstr "Vereinigte Arabische Emirate"
 
 msgid "Argentine"
-msgstr ""
+msgstr "Argentinien"
 
 msgid "Arménie"
-msgstr ""
+msgstr "Armenien"
 
 msgid "Antigua-et-Barbuda"
-msgstr ""
+msgstr "Antigua und Barbuda"
 
 msgid "Australie"
-msgstr ""
+msgstr "Australien"
 
 msgid "Autriche"
-msgstr ""
+msgstr "Österreich"
 
 msgid "Azerbaïdjan"
-msgstr ""
+msgstr "Aserbaidschan"
 
 msgid "Burundi"
-msgstr ""
+msgstr "Burundi"
 
 msgid "Belgique"
-msgstr ""
+msgstr "Belgien"
 
 msgid "Bénin"
-msgstr ""
+msgstr "Benin"
 
 msgid "Burkina Faso"
-msgstr ""
+msgstr "Burkina Faso"
 
 msgid "Bangladesh"
-msgstr ""
+msgstr "Bangladesch"
 
 msgid "Bulgarie"
-msgstr ""
+msgstr "Bulgarien"
 
 msgid "Bahreïn"
-msgstr ""
+msgstr "Bahrain"
 
 msgid "Bahamas"
-msgstr ""
+msgstr "Bahamas"
 
 msgid "Bosnie-Herzégovine"
-msgstr ""
+msgstr "Bosnien und Herzegowina"
 
 msgid "Biélorussie"
-msgstr ""
+msgstr "Weißrussland"
 
 msgid "Belize"
-msgstr ""
+msgstr "Belize"
 
 msgid "Bolivie"
-msgstr ""
+msgstr "Bolivien"
 
 msgid "Brésil"
-msgstr ""
+msgstr "Brasilien"
 
 msgid "Barbade"
-msgstr ""
+msgstr "Barbados"
 
 msgid "Brunei"
-msgstr ""
+msgstr "Brunei"
 
 msgid "Bhoutan"
-msgstr ""
+msgstr "Bhutan"
 
 msgid "Botswana"
-msgstr ""
+msgstr "Botswana"
 
 msgid "République centrafricaine"
-msgstr ""
+msgstr "Zentralafrikanische Republik"
 
 msgid "Canada"
-msgstr ""
+msgstr "Kanada"
 
 msgid "Suisse"
-msgstr ""
+msgstr "Schweiz"
 
 msgid "Chili"
-msgstr ""
+msgstr "Chile"
 
 msgid "Chine"
-msgstr ""
+msgstr "China"
 
 msgid "Côte d'Ivoire"
-msgstr ""
+msgstr "Elfenbeinküste"
 
 msgid "Cameroun"
-msgstr ""
+msgstr "Kamerun"
 
 msgid "République démocratique du Congo"
-msgstr ""
+msgstr "Demokratische Republik Kongo"
 
 msgid "République du Congo"
-msgstr ""
+msgstr "Republik Kongo"
 
 msgid "Colombie"
-msgstr ""
+msgstr "Kolumbien"
 
 msgid "Comores"
-msgstr ""
+msgstr "Komoren"
 
 msgid "Cap-Vert"
-msgstr ""
+msgstr "Kap Verde"
 
 msgid "Costa Rica"
-msgstr ""
+msgstr "Costa Rica"
 
 msgid "Cuba"
-msgstr ""
+msgstr "Kuba"
 
 msgid "Chypre"
-msgstr ""
+msgstr "Zypern"
 
 msgid "Tchéquie"
-msgstr ""
+msgstr "Tschechien"
 
 msgid "Allemagne"
-msgstr ""
+msgstr "Deutschland"
 
 msgid "Djibouti"
-msgstr ""
+msgstr "Djibouti"
 
 msgid "Dominique"
-msgstr ""
+msgstr "Dominica"
 
 msgid "Danemark"
-msgstr ""
+msgstr "Dänemark"
 
 msgid "République dominicaine"
-msgstr ""
+msgstr "Dominikanische Republik"
 
 msgid "Algérie"
-msgstr ""
+msgstr "Algerien"
 
 msgid "Équateur"
-msgstr ""
+msgstr "Ecuador"
 
 msgid "Égypte"
 msgstr "Ägypten"
 
 msgid "Érythrée"
-msgstr ""
+msgstr "Eritrea"
 
 msgid "Espagne"
-msgstr ""
+msgstr "Spanien"
 
 msgid "Estonie"
-msgstr ""
+msgstr "Estland"
 
 msgid "Éthiopie"
-msgstr "Äthopien"
+msgstr "Äthiopien"
 
 msgid "Finlande"
-msgstr ""
+msgstr "Finnland"
 
 msgid "Fidji"
-msgstr ""
+msgstr "Fidschi"
 
 msgid "France"
-msgstr ""
+msgstr "Frankreich"
 
 msgid "États fédérés de Micronésie"
-msgstr ""
+msgstr "Föderierte Staaten von Mikronesien"
 
 msgid "Gabon"
-msgstr ""
+msgstr "Gabon"
 
 msgid "Royaume-Uni"
-msgstr ""
+msgstr "Großbritannien"
 
 msgid "Géorgie"
-msgstr ""
+msgstr "Georgien"
 
 msgid "Ghana"
-msgstr ""
+msgstr "Ghana"
 
 msgid "Guinée"
-msgstr ""
+msgstr "Guinea"
 
 msgid "Gambie"
-msgstr ""
+msgstr "Gambia"
 
 msgid "Guinée-Bissau"
-msgstr ""
+msgstr "Guinea-Bissau"
 
 msgid "Guinée équatoriale"
-msgstr ""
+msgstr "Equatorial Guinea"
 
 msgid "Grèce"
-msgstr ""
+msgstr "Griechenland"
 
 msgid "Grenade"
-msgstr ""
+msgstr "Grenada"
 
 msgid "Guatemala"
-msgstr ""
+msgstr "Guatemala"
 
 msgid "Guyana"
-msgstr ""
+msgstr "Guyana"
 
 msgid "Honduras"
-msgstr ""
+msgstr "Honduras"
 
 msgid "Croatie"
-msgstr ""
+msgstr "Kroatien"
 
 msgid "Haïti"
-msgstr ""
+msgstr "Haiti"
 
 msgid "Hongrie"
-msgstr ""
+msgstr "Ungarn"
 
 msgid "Indonésie"
-msgstr ""
+msgstr "Indonesien"
 
 msgid "Inde"
-msgstr ""
+msgstr "Indien"
 
 msgid "Irlande"
-msgstr ""
+msgstr "Irland"
 
 msgid "Iran"
-msgstr ""
+msgstr "Iran"
 
 msgid "Irak"
-msgstr ""
+msgstr "Irak"
 
 msgid "Islande"
-msgstr ""
+msgstr "Island"
 
 msgid "Israël"
-msgstr ""
+msgstr "Israel"
 
 msgid "Italie"
-msgstr ""
+msgstr "Italien"
 
 msgid "Jamaïque"
-msgstr ""
+msgstr "Jamaika"
 
 msgid "Jordanie"
-msgstr ""
+msgstr "Jordanien"
 
 msgid "Japon"
-msgstr ""
+msgstr "Japan"
 
 msgid "Kazakhstan"
-msgstr ""
+msgstr "Kasachstan"
 
 msgid "Kenya"
-msgstr ""
+msgstr "Kenia"
 
 msgid "Kirghizistan"
-msgstr ""
+msgstr "Kyrgyzstan"
 
 msgid "Cambodge"
-msgstr ""
+msgstr "Kambodscha"
 
 msgid "Kiribati"
-msgstr ""
+msgstr "Kiribati"
 
 msgid "Saint-Christophe-et-Niévès"
-msgstr ""
+msgstr "St. Kitts und Nevis"
 
 msgid "Corée du Sud"
-msgstr ""
+msgstr "Südkorea"
 
 msgid "Koweït"
-msgstr ""
+msgstr "Kuwait"
 
 msgid "Laos"
-msgstr ""
+msgstr "Laos"
 
 msgid "Liban"
-msgstr ""
+msgstr "Libanon"
 
 msgid "Liberia"
-msgstr ""
+msgstr "Liberia"
 
 msgid "Libye"
-msgstr ""
+msgstr "Libyen"
 
 msgid "Sainte-Lucie"
-msgstr ""
+msgstr "Sankt Lucia"
 
 msgid "Liechtenstein"
-msgstr ""
+msgstr "Liechtenstein"
 
 msgid "Sri Lanka"
-msgstr ""
+msgstr "Sri Lanka"
 
 msgid "Lesotho"
-msgstr ""
+msgstr "Lesotho"
 
 msgid "Lituanie"
-msgstr ""
+msgstr "Litauen"
 
 msgid "Luxembourg"
-msgstr ""
+msgstr "Luxembourg"
 
 msgid "Lettonie"
-msgstr ""
+msgstr "Lettland"
 
 msgid "Maroc"
-msgstr ""
+msgstr "Marokko"
 
 msgid "Monaco"
-msgstr ""
+msgstr "Monaco"
 
 msgid "Moldavie"
-msgstr ""
+msgstr "Moldawien"
 
 msgid "Madagascar"
 msgstr "Madagaskar"
 
 msgid "Maldives"
-msgstr ""
+msgstr "Malediven"
 
 msgid "Mexique"
-msgstr ""
+msgstr "Mexiko"
 
 msgid "Îles Marshall"
-msgstr ""
+msgstr "Marshall Inseln"
 
 msgid "Macédoine du Nord"
-msgstr ""
+msgstr "Nordmazedonien"
 
 msgid "Mali"
-msgstr ""
+msgstr "Mali"
 
 msgid "Malte"
-msgstr ""
+msgstr "Malta"
 
 msgid "Birmanie"
-msgstr ""
+msgstr "Birma"
 
 msgid "Monténégro"
-msgstr ""
+msgstr "Montenegro"
 
 msgid "Mongolie"
-msgstr ""
+msgstr "Mongolei"
 
 msgid "Mozambique"
-msgstr ""
+msgstr "Mosambik"
 
 msgid "Mauritanie"
-msgstr ""
+msgstr "Mauretanien"
 
 msgid "Maurice"
-msgstr ""
+msgstr "Mauritius"
 
 msgid "Malawi"
-msgstr ""
+msgstr "Malawi"
 
 msgid "Malaisie"
-msgstr ""
+msgstr "Malaysien"
 
 msgid "Namibie"
-msgstr ""
+msgstr "Namibia"
 
 msgid "Niger"
-msgstr ""
+msgstr "Niger"
 
 msgid "Nigeria"
-msgstr ""
+msgstr "Nigeria"
 
 msgid "Nicaragua"
-msgstr ""
+msgstr "Nicaragua"
 
 msgid "Pays-Bas"
-msgstr ""
+msgstr "Niederlande"
 
 msgid "Norvège"
-msgstr ""
+msgstr "Norwegen"
 
 msgid "Népal"
-msgstr ""
+msgstr "Nepal"
 
 msgid "Nauru"
-msgstr ""
+msgstr "Nauru"
 
 msgid "Nouvelle-Zélande"
-msgstr ""
+msgstr "Neuseeland"
 
 msgid "Oman"
-msgstr ""
+msgstr "Oman"
 
 msgid "Pakistan"
-msgstr ""
+msgstr "Pakistan"
 
 msgid "Panama"
-msgstr ""
+msgstr "Panama"
 
 msgid "Pérou"
-msgstr ""
+msgstr "Peru"
 
 msgid "Philippines"
-msgstr ""
+msgstr "Philippinen"
 
 msgid "Palaos"
-msgstr ""
+msgstr "Palaos"
 
 msgid "Papouasie-Nouvelle-Guinée"
-msgstr ""
+msgstr "Papua Neu Guinea"
 
 msgid "Pologne"
-msgstr ""
+msgstr "Polen"
 
 msgid "Corée du Nord"
-msgstr ""
+msgstr "Nordkorea"
 
 msgid "Portugal"
-msgstr ""
+msgstr "Portugal"
 
 msgid "Paraguay"
-msgstr ""
+msgstr "Paraguay"
 
 msgid "Qatar"
-msgstr ""
+msgstr "Qatar"
 
 msgid "Roumanie"
-msgstr ""
+msgstr "Rumänien"
 
 msgid "Russie"
-msgstr ""
+msgstr "Russland"
 
 msgid "Rwanda"
-msgstr ""
+msgstr "Ruanda"
 
 msgid "Arabie saoudite"
-msgstr ""
+msgstr "Saudi-Arabien"
 
 msgid "Soudan"
-msgstr ""
+msgstr "Sudan"
 
 msgid "Sénégal"
-msgstr ""
+msgstr "Senegal"
 
 msgid "Singapour"
-msgstr ""
+msgstr "Singapur"
 
 msgid "Salomon"
-msgstr ""
+msgstr "Salomonen"
 
 msgid "Sierra Leone"
-msgstr ""
+msgstr "Sierra Leone"
 
 msgid "Salvador"
-msgstr ""
+msgstr "El Salvador"
 
 msgid "Saint-Marin"
-msgstr ""
+msgstr "San Marino"
 
 msgid "Somalie"
-msgstr ""
+msgstr "Somalien"
 
 msgid "Serbie"
-msgstr ""
+msgstr "Serbien"
 
 msgid "Soudan du Sud"
-msgstr ""
+msgstr "Südsudan"
 
 msgid "Sao Tomé-et-Principe"
-msgstr ""
+msgstr "Sao Tome und Principe"
 
 msgid "Suriname"
-msgstr ""
+msgstr "Suriname"
 
 msgid "Slovaquie"
-msgstr ""
+msgstr "Slowakei"
 
 msgid "Slovénie"
-msgstr ""
+msgstr "Slowenien"
 
 msgid "Suède"
-msgstr ""
+msgstr "Schweden"
 
 msgid "Eswatini"
-msgstr ""
+msgstr "Eswatini"
 
 msgid "Seychelles"
-msgstr ""
+msgstr "Seychellen"
 
 msgid "Syrie"
-msgstr ""
+msgstr "Syrien"
 
 msgid "Tchad"
-msgstr ""
+msgstr "Tschad"
 
 msgid "Togo"
-msgstr ""
+msgstr "Togo"
 
 msgid "Thaïlande"
-msgstr ""
+msgstr "Thailand"
 
 msgid "Tadjikistan"
-msgstr ""
+msgstr "Tadschikistan"
 
 msgid "Turkménistan"
-msgstr ""
+msgstr "Turkmenistan"
 
 msgid "Timor oriental"
-msgstr ""
+msgstr "Osttimor"
 
 msgid "Tonga"
-msgstr ""
+msgstr "Tonga"
 
 msgid "Trinité-et-Tobago"
-msgstr ""
+msgstr "Trinidad und Tobago"
 
 msgid "Tunisie"
-msgstr ""
+msgstr "Tunesien"
 
 msgid "Turquie"
-msgstr ""
+msgstr "Türkei"
 
 msgid "Tuvalu"
-msgstr ""
+msgstr "Tuvalu"
 
 msgid "Tanzanie"
-msgstr ""
+msgstr "Tanzanien"
 
 msgid "Ouganda"
-msgstr ""
+msgstr "Uganda"
 
 msgid "Ukraine"
-msgstr ""
+msgstr "Ukraine"
 
 msgid "Uruguay"
-msgstr ""
+msgstr "Uruguay"
 
 msgid "États-Unis"
-msgstr ""
+msgstr "Vereinigte Staaten von Amerika"
 
 msgid "Ouzbékistan"
-msgstr ""
+msgstr "Uzbekistan"
 
 msgid "Saint-Vincent-et-les-Grenadines"
-msgstr ""
+msgstr "St. Vincent und die Grenadinen"
 
 msgid "Venezuela"
-msgstr ""
+msgstr "Venezuela"
 
 msgid "Viêt Nam"
-msgstr ""
+msgstr "Vietnam"
 
 msgid "Vanuatu"
-msgstr ""
+msgstr "Vanuatu"
 
 msgid "Samoa"
-msgstr ""
+msgstr "Samoa"
 
 msgid "Yémen"
-msgstr ""
+msgstr "Jemen"
 
 msgid "Afrique du Sud"
-msgstr ""
+msgstr "Südafrika"
 
 msgid "Zambie"
-msgstr ""
+msgstr "Zambia"
 
 msgid "Zimbabwe"
-msgstr ""
+msgstr "Zimbabwe"
 
 msgid "Afrikaans"
-msgstr ""
+msgstr "Afrikaans"
 
 msgid "Amharique"
-msgstr ""
+msgstr "Amharisch"
 
 msgid "Arabe"
-msgstr ""
+msgstr "Arabisch"
 
 msgid "Azeri"
-msgstr ""
+msgstr "Aserbaidschanisch"
 
 msgid "Biélorusse"
-msgstr ""
+msgstr "Weißrussisch"
 
 msgid "Bengali"
-msgstr ""
+msgstr "Bengalisch"
 
 msgid "Tamazight"
-msgstr ""
+msgstr "Tamazight"
 
 msgid "Bosnien"
-msgstr ""
+msgstr "Bosnisch"
 
 msgid "Bulgare"
-msgstr ""
+msgstr "Bulgarisch"
 
 msgid "Catalan"
-msgstr ""
+msgstr "Katalanisch"
 
 msgid "Monténégrin"
-msgstr ""
+msgstr "Montenegrin"
 
 msgid "Tchèque"
-msgstr ""
+msgstr "Tschechisch"
 
 msgid "Danois"
-msgstr ""
+msgstr "Dänisch"
 
 msgid "Allemand"
-msgstr ""
+msgstr "Deutsch"
 
 msgid "Maldivien"
-msgstr ""
+msgstr "Maledivisch"
 
 msgid "Dzongkha"
-msgstr ""
+msgstr "Dzongkha"
 
 msgid "Grec"
-msgstr ""
+msgstr "Griechisch"
 
 msgid "Anglais"
-msgstr ""
+msgstr "Englisch"
 
 msgid "Estonien"
-msgstr ""
+msgstr "Estnisch"
 
 msgid "Persan"
-msgstr ""
+msgstr "Persisch"
 
 msgid "Philippin"
-msgstr ""
+msgstr "Philippinisch"
 
 msgid "Finnois"
-msgstr ""
+msgstr "Finnisch"
 
 msgid "Fidjien"
-msgstr ""
+msgstr "Fiji"
 
 msgid "Français"
-msgstr ""
+msgstr "Französisch"
 
 msgid "Créole Haitien"
-msgstr ""
+msgstr "Haitianisch"
 
 msgid "Hébreu"
-msgstr ""
+msgstr "Hebräisch"
 
 msgid "Hindi"
-msgstr ""
+msgstr "Hindi"
 
 msgid "Croate"
-msgstr ""
+msgstr "Kroatisch"
 
 msgid "Hongrois"
-msgstr ""
+msgstr "Ungarisch"
 
 msgid "Arménien"
-msgstr ""
+msgstr "Armenisch"
 
 msgid "Indonésien"
-msgstr ""
+msgstr "Indonesisch"
 
 msgid "Islandais"
-msgstr ""
+msgstr "Isländisch"
 
 msgid "Italien"
-msgstr ""
+msgstr "Italienisch"
 
 msgid "Japonais"
-msgstr ""
+msgstr "Japanisch"
 
 msgid "Géorgien"
-msgstr ""
+msgstr "Georgisch"
 
 msgid "Kazakh"
-msgstr ""
+msgstr "Kazakhisch"
 
 msgid "Khmer"
-msgstr ""
+msgstr "Khmer"
 
 msgid "Kinyarwanda"
-msgstr ""
+msgstr "Kinyarwanda"
 
 msgid "Kirghize"
-msgstr ""
+msgstr "Kyrgysisch"
 
 msgid "Coréen"
-msgstr ""
+msgstr "Koreanisch"
 
 msgid "Kurde"
-msgstr ""
+msgstr "Kurdisch"
 
 msgid "Laotien"
-msgstr ""
+msgstr "Laotisch"
 
 msgid "Letton"
-msgstr ""
+msgstr "Lettisch"
 
 msgid "Lingala"
-msgstr ""
+msgstr "Lingala"
 
 msgid "Lituanien"
-msgstr ""
+msgstr "Litauisch"
 
 msgid "Luxembourgeois"
-msgstr ""
+msgstr "Luxemburgisch"
 
 msgid "Marshallais"
-msgstr ""
+msgstr "Marshallesisch"
 
 msgid "Malayalam"
-msgstr ""
+msgstr "Malayalam"
 
 msgid "Macédonien"
-msgstr ""
+msgstr "Makedonisch"
 
 msgid "Malgache"
-msgstr ""
+msgstr "Madagassisch"
 
 msgid "Maltais"
-msgstr ""
+msgstr "Maltesisch"
 
 msgid "Mongol"
-msgstr ""
+msgstr "Mongolisch"
 
 msgid "Maori"
-msgstr ""
+msgstr "Maori"
 
 msgid "Malais"
-msgstr ""
+msgstr "Malaiisch"
 
 msgid "Birman"
-msgstr ""
+msgstr "Birmanisch"
 
 msgid "Nauruan"
-msgstr ""
+msgstr "Nauruanisch"
 
 msgid "Népalais"
-msgstr ""
+msgstr "Nepalesisch"
 
 msgid "Néerlandais"
-msgstr ""
+msgstr "Niederländisch"
 
 msgid "Norvégien"
-msgstr ""
+msgstr "Norwegisch"
 
 msgid "Sotho du nord"
-msgstr ""
+msgstr "Nord-Sotholesich"
 
 msgid "Paluan"
-msgstr ""
+msgstr "Paluanisch"
 
 msgid "Polonais"
-msgstr ""
+msgstr "Polnisch"
 
 msgid "Portugais"
-msgstr ""
+msgstr "Portugiesisch"
 
 msgid "Dari"
-msgstr ""
+msgstr "Dari"
 
 msgid "Pachto"
-msgstr ""
+msgstr "Pashto"
 
 msgid "Roumain"
-msgstr ""
+msgstr "Rumänisch"
 
 msgid "Kirundi"
-msgstr ""
+msgstr "Kirundi"
 
 msgid "Russe"
-msgstr ""
+msgstr "Russisch"
 
 msgid "Sango"
-msgstr ""
+msgstr "Sango"
 
 msgid "Cingalais"
-msgstr ""
+msgstr "Sinhalesisch"
 
 msgid "Slovaque"
-msgstr ""
+msgstr "Slowakisch"
 
 msgid "Slovène"
-msgstr ""
+msgstr "Slowenisch"
 
 msgid "Samoan"
-msgstr ""
+msgstr "Samoanisch"
 
 msgid "Sindhi"
-msgstr ""
+msgstr "Sindhi"
 
 msgid "Somali"
-msgstr ""
+msgstr "Somali"
 
 msgid "Sotho du Sud"
-msgstr ""
+msgstr "Süd Sotho"
 
 msgid "Espagnol"
-msgstr ""
+msgstr "Spanisch"
 
 msgid "Albanais"
-msgstr ""
+msgstr "Albanisch"
 
 msgid "Serbe"
-msgstr ""
+msgstr "Serbisch"
 
 msgid "Swati"
-msgstr ""
+msgstr "Swati"
 
 msgid "Soussou"
-msgstr ""
+msgstr "Susu"
 
 msgid "Swahili"
-msgstr ""
+msgstr "Swahili"
 
 msgid "Mahorais"
-msgstr ""
+msgstr "Komorisch"
 
 msgid "Suédois"
-msgstr ""
+msgstr "Schwedisch"
 
 msgid "Tamoul"
-msgstr ""
+msgstr "Tamil"
 
 msgid "Tétoum"
-msgstr ""
+msgstr "Tetum"
 
 msgid "Tadjik"
-msgstr ""
+msgstr "Tadschikisch"
 
 msgid "Thaï"
-msgstr ""
+msgstr "Thailändisch"
 
 msgid "Tigrigna"
-msgstr ""
+msgstr "Tigrinya"
 
 msgid "Tswana"
-msgstr ""
+msgstr "Tswana"
 
 msgid "Tsonga"
-msgstr ""
+msgstr "Tsonga"
 
 msgid "Turkmène"
-msgstr ""
+msgstr "Turkmenisch"
 
 msgid "Turc"
-msgstr ""
+msgstr "Türkisch"
 
 msgid "Tuvaluan"
-msgstr ""
+msgstr "Tuvaluanisch"
 
 msgid "Ukrainien"
-msgstr ""
+msgstr "Ukrainisch"
 
 msgid "Ourdou"
-msgstr ""
+msgstr "Urdu"
 
 msgid "Ouzbek"
-msgstr ""
+msgstr "Uzbek"
 
 msgid "Vietnamien"
-msgstr ""
+msgstr "Vietnamesisch"
 
 msgid "Xhosa"
-msgstr ""
+msgstr "Xhosa"
 
 msgid "Chinois"
-msgstr ""
+msgstr "Chinesisch"
 
 msgid "Malaisien"
-msgstr ""
+msgstr "Malaysisch"
 
 msgid "Zoulou"
-msgstr ""
+msgstr "Zulu"
 
