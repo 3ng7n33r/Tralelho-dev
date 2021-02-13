@@ -64,7 +64,7 @@
 		</div>
 	</nav>
 	<main role="main">
-		<div class="txtUpsideDown">{% translate "Cliquez sur une phrase pour l'afficher" %}</div>
+		<div id="fittext" class="txtUpsideDown">{% translate "Cliquez sur une phrase pour l'afficher" %}</div>
 		{% comment %} Copy/Paste Area {% endcomment %}
 		{% language base_language %}
 		<h2 id='PRESENTATION'>{% translate "PRESENTATION" %} </h2>
@@ -3707,3 +3707,7 @@
 	</main>
 </traduction>
 {% endblock %}
+<script src="fittext.js"></script>
+<script type="text/javascript">
+	fitText(document.getElementById('fittext'), 1.2)
+</script>
