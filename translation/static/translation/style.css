@@ -404,6 +404,10 @@ footer {
         display: none;
     }
 
+    #crowdjet-expand-container {
+        display: none;
+    }
+
     #logo {
         margin-right: 0px;
     }
