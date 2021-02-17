@@ -382,7 +382,7 @@ td {
     background-color: white;
     width: 100%;
     height: 40vh;
-    font-size: 220%;
+    font-size: 50px;
     font-weight: bold;
     display: none;
     position: sticky;
@@ -404,6 +404,10 @@ footer {
         display: none;
     }
 
+    figcaption {
+        font-size: small;
+    }
+
     #crowdjet-expand-container {
         display: none;
     }
@@ -412,6 +416,13 @@ footer {
         margin-right: 0px;
     }
 }
+
+@media only screen and (max-device-width : 500px) {
+    figcaption {
+        font-size: x-small;
+    }
+}
+
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
