@@ -4,11 +4,30 @@
     box-sizing: border-box;
 }
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    word-break: break-word;
+}
+
 :root {
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
     --fs-body: 1.1rem;
+
+    --color-primary-0: #FFFBF6;
+    /* Main Primary color */
+    --color-primary-1: #FFE6C4;
+    --color-primary-2: #FFEFD9;
+    --color-primary-3: #FFF7EC;
+    --color-primary-4: #E9DFD3;
+
+    --color-complement-0: #D3D7DA;
+    /* Main Complement color */
+    --color-complement-1: #889DAE;
+    --color-complement-2: #A8B7C3;
+    --color-complement-3: #9DA3A9;
+    --color-complement-4: #889096;
 }
 
 h1 {
@@ -24,13 +43,12 @@ h2 {
 body {
     display: grid;
     grid-template-rows: auto auto auto;
-    font-family: Roboto, serif;
     margin: auto;
     max-width: 1024px;
 }
 
 html {
-    background-color: #fffbf0;
+    background-color: var(--color-primary-0);
     color: #000;
     scroll-behavior: smooth;
 }
@@ -47,6 +65,8 @@ header {
     grid-template-areas:
         "a b"
         "c c";
+    border-radius: 20px;
+    box-shadow: 0 0 5px 3px var(--color-complement-3);
 }
 
 .navbar {
@@ -55,7 +75,14 @@ header {
     align-items: center;
     min-height: 60px;
     max-height: 100px;
-    background-color: #efefef;
+    background-color: var(--color-primary-2);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.anav:first-child {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 .anav {
@@ -66,6 +93,22 @@ header {
     text-align: center;
     height: 100%;
     white-space: nowrap;
+}
+
+.anav i {
+    color: var(--color-complement-1);
+    font-size: min(10vw, 50px);
+    transition: transform 0.5s ease;
+}
+
+
+
+#active i {
+    color: var(--color-primary-1);
+}
+
+#active .fa-heart {
+    color: red;
 }
 
 .responsive-iframe {
@@ -84,11 +127,21 @@ header {
 }
 
 #active {
-    background-color: #b7b7b7;
+    background-color: var(--color-complement-2);
 }
 
 .navbar a:hover {
-    background-color: #FFF;
+    background-color: var(--color-complement-1);
+}
+
+.navbar a:hover i {
+    color: var(--color-primary-1);
+    transform: scale(1.12);
+}
+
+.navbar a:hover .fa-heart {
+    color: red;
+    transform: scale(1.12);
 }
 
 #logo {
@@ -106,6 +159,9 @@ header {
     max-width: 50%;
     max-height: 100px;
     margin: auto;
+    transition: transform 0.5s ease;
+    box-shadow: 0 0 5px 0 var(--color-complement-1);
+    border-radius: 10px;
 }
 
 .smallflag {
@@ -113,22 +169,31 @@ header {
     max-height: 80px;
 }
 
-figure:hover {
-    transform: scale(1.12);
-}
+
 
 #flagcontainer {
     display: grid;
     align-items: center;
     min-height: 60px;
     max-height: 100px;
-    background-color: #efefef;
+    background-color: var(--color-primary-2);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#flagcontainer:hover {
+    background-color: var(--color-complement-1);
+}
+
+#flagcontainer:hover>img {
+    transform: scale(1.12);
 }
 
 #changebase {
     display: none;
     grid-area: c;
-    background-color: #efefef;
+    background-color: var(--color-primary-2);
+    ;
 }
 
 /* Content */
@@ -143,9 +208,12 @@ section {
 }
 
 article {
-    background-color: #fce5cd;
+    background-color: var(--color-primary-1);
     border-radius: 20px;
-    box-shadow: 0 0 0.3em 0.3em #ccc;
+}
+
+section>article {
+    box-shadow: 0 0 5px 3px var(--color-complement-3);
 }
 
 article>h2 {
@@ -154,7 +222,7 @@ article>h2 {
 
 aside>div {
     margin: 10px auto;
-    background: #5E5E5E;
+    background: var(--color-complement-2);
 }
 
 .langcontainer {
@@ -172,18 +240,19 @@ aside>div {
 }
 
 .docarticle {
-    background-color: #fce5cd;
+    background-color: var(--color-primary-1);
     border-radius: 20px;
     margin: 10px auto;
 }
 
 .docarticle:hover {
-    background-color: #ccc;
+    background-color: var(--color-complement-1);
 }
 
 .langcontainer>a {
     text-align: center;
     text-decoration: none;
+    color: black;
 }
 
 .flag {
@@ -191,12 +260,23 @@ aside>div {
     max-width: 150px;
     height: calc(25vw / 1.5);
     max-height: calc(150px / 1.5);
+    box-shadow: 0 0 2px 2px var(--color-complement-4);
+    border-radius: 10px;
 }
 
 figure {
     display: table;
     width: 1px;
     margin: min(3vw, 8px);
+    transition: transform 0.5s ease;
+}
+
+figure:hover {
+    transform: scale(1.12);
+}
+
+figure:hover figcaption {
+    transform: scale(1.2);
 }
 
 img,
@@ -206,6 +286,7 @@ figcaption {
 
 figcaption {
     text-decoration: none;
+    transition: all 0.5s ease;
 }
 
 /* Sidenav */
@@ -219,7 +300,7 @@ figcaption {
 }
 
 .transbutton:hover {
-    background-color: #ccc;
+    background-color: var(--color-complement-2);
 }
 
 /* Style the button that is used to open and close the collapsible content */
@@ -235,7 +316,7 @@ figcaption {
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .collapsible:hover {
-    background-color: #ccc;
+    background-color: var(--color-complement-2);
 }
 
 /* Style the collapsible content. Note: hidden by default */
@@ -264,12 +345,8 @@ traduction {
     grid-template-columns: min-content 1fr;
 }
 
-.activerow td {
-    background-color: cadetblue;
-}
-
 nav {
-    background-color: #efefef;
+    background-color: var(--color-complement-0);
     margin: 10px 1vw 0 0;
 }
 
@@ -280,7 +357,7 @@ nav ul {
 }
 
 h3:hover {
-    background-color: #ccc;
+    background-color: var(--color-complement-0);
 }
 
 @media (min-height: 300px) {
@@ -314,7 +391,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #7a7a7a;
+    background-color: var(--color-complement-0);
 }
 
 nav ul li a.current {
@@ -345,6 +422,14 @@ nav ul li a.current {
     padding: 0px;
 }
 
+#txtSearch {
+    width: 100%;
+}
+
+#search {
+    width: max(60%, 300px)
+}
+
 /* Translation tables */
 
 table {
@@ -359,7 +444,11 @@ table {
 }
 
 tr:hover td {
-    background-color: #FEFEFE;
+    background-color: var(--color-complement-0);
+}
+
+.activerow td {
+    background-color: var(--color-complement-1);
 }
 
 td:first-child {
@@ -375,8 +464,9 @@ td:last-child {
 }
 
 td {
+    width: 45%;
     border: solid 0px;
-    background-color: #fce5cd;
+    background-color: var(--color-primary-1);
     padding: 0px 10px;
 }
 
@@ -397,12 +487,13 @@ td {
     display: none;
     position: sticky;
     top: 0;
+    margin-top: 1vh;
 }
 
 /* Footer */
 footer {
     padding: 2vw;
-    background: #ff8000;
+    background: var(--color-primary-4);
     width: 100%;
     margin: auto;
     text-align: right;
@@ -528,8 +619,7 @@ progress[value]::-webkit-progress-value:after {
 /* Firefox provides a single pseudo class to style the progress element value and not for container. -moz-progress-bar */
 
 progress[value]::-moz-progress-bar {
-    background-image:
-        -moz-linear-gradient(top,
+    background-image: -moz-linear-gradient(top,
             rgba(255, 255, 255, .25),
             rgba(0, 0, 0, .2)),
         -moz-linear-gradient(left, rgb(158, 158, 158), #ff8000);
@@ -583,21 +673,6 @@ p[data-value]:after {
     text-align: center;
 }
 
-.button {
-    font-size: 1em;
-    padding: 10px;
-    color: #fff;
-    border: 2px solid #06D85F;
-    border-radius: 20px/50px;
-    text-decoration: none;
-    cursor: pointer;
-    transition: all 0.3s ease-out;
-}
-
-.button:hover {
-    background: #06D85F;
-}
-
 .overlay {
     position: fixed;
     top: 0;
@@ -625,7 +700,7 @@ p[data-value]:after {
 .popup {
     margin: 70px auto;
     padding: 20px;
-    background: #fff;
+    background: var(--color-primary-0);
     border-radius: 5px;
     width: 30%;
     position: relative;
@@ -638,24 +713,11 @@ p[data-value]:after {
     font-family: Tahoma, Arial, sans-serif;
 }
 
-.popup .close {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    transition: all 200ms;
-    font-size: 30px;
-    font-weight: bold;
-    text-decoration: none;
-    color: #333;
-}
-
-.popup .close:hover {
-    color: #06D85F;
-}
-
 .popup .popcontent {
     max-height: 30%;
     overflow: auto;
+    background-color: var(--color-primary-1);
+    border-radius: 20px;
 }
 
 @media screen and (max-width: 700px) {
@@ -677,11 +739,10 @@ p[data-value]:after {
 }
 
 .poparticle {
-    background-color: #fce5cd;
     border-radius: 20px;
     margin: 10px auto;
 }
 
 .poparticle:hover {
-    background-color: #ccc;
+    background-color: var(--color-complement-0);
 }
