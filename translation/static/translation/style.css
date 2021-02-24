@@ -347,7 +347,8 @@ traduction {
 
 nav {
     background-color: var(--color-complement-0);
-    margin: 10px 1vw 0 0;
+    width: 100%;
+    height: 100%;
 }
 
 nav ul {
