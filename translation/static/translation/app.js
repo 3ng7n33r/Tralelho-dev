@@ -12,8 +12,8 @@ function collapsenav() {
 
 //Collapse and pop up upsidedown text in translation page
 function txtUpDown() {
-	let coll = document.getElementsByClassName("transbutton")[0];
-	coll.classList.toggle("active");
+	let coll = document.getElementById("transbutton");
+	coll.classList.toggle("neumorphic--pressed");
 	let content = document.getElementsByClassName("txtUpsideDown")[0];
     if (content.style.display === "block") {
 		content.style.display = "none";

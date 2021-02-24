@@ -60,13 +60,13 @@ header {
     grid-template-columns: 3fr 1fr;
     grid-template-rows: auto auto;
     height: max-content;
-    width: 100vw;
+    width: 98vw;
     max-width: 1024px;
-    grid-template-areas:
-        "a b"
-        "c c";
+    grid-template-areas: "a b""c c";
     border-radius: 20px;
-    box-shadow: 0 0 5px 3px var(--color-complement-3);
+    box-shadow: 0 0 0px 2px var(--color-complement-3);
+    margin-top: 1vh;
+    margin: 1vh 1vw 0 1vw;
 }
 
 .navbar {
@@ -93,10 +93,11 @@ header {
     text-align: center;
     height: 100%;
     white-space: nowrap;
+    padding: 5px;
 }
 
 .anav i {
-    color: var(--color-complement-1);
+    color: var(--color-complement-0);
     font-size: min(10vw, 50px);
     transition: transform 0.5s ease;
 }
@@ -104,7 +105,8 @@ header {
 
 
 #active i {
-    color: var(--color-primary-1);
+    color: var(--color-complement-1);
+    transform: scale(1.12);
 }
 
 #active .fa-heart {
@@ -127,15 +129,11 @@ header {
 }
 
 #active {
-    background-color: var(--color-complement-2);
-}
-
-.navbar a:hover {
-    background-color: var(--color-complement-1);
+    font-weight: bold;
 }
 
 .navbar a:hover i {
-    color: var(--color-primary-1);
+    color: var(--color-complement-2);
     transform: scale(1.12);
 }
 
@@ -179,10 +177,6 @@ header {
     background-color: var(--color-primary-2);
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-}
-
-#flagcontainer:hover {
-    background-color: var(--color-complement-1);
 }
 
 #flagcontainer:hover>img {
@@ -287,20 +281,6 @@ figcaption {
 figcaption {
     text-decoration: none;
     transition: all 0.5s ease;
-}
-
-/* Sidenav */
-.transbutton {
-    padding: 18px;
-    width: 100%;
-    background-color: inherit;
-    display: inline-block;
-    border: none;
-    outline: none;
-}
-
-.transbutton:hover {
-    background-color: var(--color-complement-2);
 }
 
 /* Style the button that is used to open and close the collapsible content */
@@ -520,11 +500,7 @@ footer {
     }
 }
 
-@media only screen and (max-device-width : 500px) {
-    figcaption {
-        font-size: x-small;
-    }
-}
+@media only screen and (max-device-width : 500px) {}
 
 
 /* iPads (portrait and landscape) ----------- */
@@ -746,4 +722,64 @@ p[data-value]:after {
 
 .poparticle:hover {
     background-color: var(--color-complement-0);
+}
+
+/* Neumorphic buttons experiment */
+.neumorphic {
+    box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2), -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
+    font-size: 1.6rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.neumorphic--pressed {
+    box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
+        inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+    color: #5ab9ea;
+}
+
+.variation2 {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.variation2 span {
+    display: block;
+    padding-bottom: 10px;
+    position: relative;
+    /* font-size: 3rem; */
+}
+
+.variation2 span::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    height: 0.3rem;
+    border-radius: 1rem;
+    width: 50%;
+    margin: 0 auto;
+    background-color: currentColor;
+}
+
+.transbutton {
+    padding: 18px;
+    width: 100%;
+    background-color: inherit;
+    display: inline-block;
+    border: none;
+    outline: none;
+}
+
+.transbutton:hover {
+    background-color: var(--color-complement-2);
 }
