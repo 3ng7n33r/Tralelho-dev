@@ -71,7 +71,7 @@ function togglerow(id) {
 	if (textbox.clientWidth < 400 || textbox.clientHeight < 250){
 		if (text.length > 170){
 			textbox.style.fontSize = "25px"
-		} else if (text.length > 85) {
+		} else if (text.length > 80) {
 			textbox.style.fontSize = "30px"
 		} else {
 			textbox.style.fontSize = "40px"
