@@ -14,11 +14,21 @@ function collapsenav() {
 function txtUpDown() {
 	let coll = document.getElementById("transbutton");
 	coll.classList.toggle("neumorphic--pressed");
+	let translation = document.querySelectorAll('td:last-child');
+	let baselanguage = document.querySelectorAll('td:first-child');
 	let content = document.getElementsByClassName("txtUpsideDown")[0];
     if (content.style.display === "block") {
 		content.style.display = "none";
+		for (let i=0, len = translation.length; i<len; i++) {
+			translation[i].style.removeProperty("display")
+			baselanguage[i].style.removeProperty("border-radius")
+		}
 	  } else {
 		content.style.display = "block";
+		for (let i=0, len = translation.length; i<len; i++) {
+			translation[i].style.display = "none";
+			baselanguage[i].style.borderRadius = "10px";
+		}
 	  }
 }
 
@@ -26,9 +36,11 @@ function switchVisibilityBlock(ID) {
 	let element = document.getElementById(ID);
 	if (element.style.display === "block") {
 		element.style.display = "none";
+
 		} else {
 		element.style.display = "block";
 		}
+	
   } 
 
 function switchVisibilityFlex(ID) {
