@@ -1,13 +1,11 @@
 //Collapse and pull out sidenav in translation page
 function collapsenav() {
-	let coll = document.getElementsByClassName("collapsible")[0];
-	coll.classList.toggle("active");
-	let content = document.getElementsByClassName("content")[0];
-    if (content.style.display === "block") {
-		content.style.display = "none";
-	  } else {
-		content.style.display = "block";
-	  }
+	let coll = document.getElementById("collapsebutton");
+	coll.classList.toggle("transbutton--pressed");
+	let content = document.getElementsByClassName("description");
+	for (let i=0, len=content.length; i<len; i++) {
+		content[i].classList.toggle("hidden")
+	}
 }
 
 //Collapse and pop up upsidedown text in translation page

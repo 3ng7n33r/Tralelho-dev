@@ -60,13 +60,18 @@ header {
     grid-template-columns: 3fr 1fr;
     grid-template-rows: auto auto;
     height: max-content;
-    width: 98vw;
     max-width: 1024px;
     grid-template-areas: "a b""c c";
     border-radius: 20px;
     box-shadow: 0 0 0px 2px var(--color-complement-3);
     margin-top: 1vh;
     margin: 1vh 1vw 0 1vw;
+    width: 96%;
+    margin: 1vh auto 0 auto;
+}
+
+a {
+    text-decoration: none;
 }
 
 .navbar {
@@ -78,6 +83,10 @@ header {
     background-color: var(--color-primary-2);
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+}
+
+.hidden {
+    display: none;
 }
 
 .anav:first-child {
@@ -237,6 +246,7 @@ aside>div {
     background-color: var(--color-primary-1);
     border-radius: 20px;
     margin: 10px auto;
+    box-shadow: 0 0 0 2px var(--color-complement-3);
 }
 
 .docarticle:hover {
@@ -283,50 +293,35 @@ figcaption {
     transition: all 0.5s ease;
 }
 
-/* Style the button that is used to open and close the collapsible content */
-.collapsible {
-    padding: 18px;
-    width: 100%;
-    background-color: inherit;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 13px;
+/* Style the collapsible content. Note: hidden by default */
+.content {
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-radius: 5px;
+    background-color: var(--color-complement-0);
+    box-shadow: 1px 1px 1px 0 var(--color-complement-4);
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.collapsible:hover {
+.description {
+    color: black;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    word-break: keep-all;
+}
+
+.description:hover {
     background-color: var(--color-complement-2);
 }
 
-/* Style the collapsible content. Note: hidden by default */
-.content {
-    display: none;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-}
-
-.collapsible:after {
-    content: '\02795';
-    /* Unicode character for "plus" sign (+) */
-    font-size: 13px;
-    float: right;
-    margin-left: 5px;
-}
-
-.active:after {
-    content: "\2796";
-    /* Unicode character for "minus" sign (-) */
-}
-
 traduction {
+    width: 96%;
     display: grid;
-    margin: 0 0px;
+    margin: 0 auto 0 auto;
     grid-template-columns: min-content 1fr;
+    height: 100%;
 }
 
 nav {
-    background-color: var(--color-complement-0);
     width: 100%;
     height: 100%;
 }
@@ -342,42 +337,31 @@ h3:hover {
 }
 
 @media (min-height: 300px) {
-    .transbutton {
+    #transbutton {
         position: -webkit-sticky;
         /* Safari */
         position: sticky;
         top: 0;
     }
 
-    .collapsible {
+    #collapsebutton {
         position: -webkit-sticky;
         /* Safari */
         position: sticky;
-        top: 50px;
+        top: 67px;
     }
 
     nav div {
         position: -webkit-sticky;
         /* Safari */
         position: sticky;
-        top: 100px;
+        top: 130px;
     }
+
 }
 
-nav ul li a {
-    color: black;
-    display: block;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-}
 
-nav ul li a:hover {
-    background-color: var(--color-complement-0);
-}
 
-nav ul li a.current {
-    background: black;
-}
 
 /* Searchbar */
 
@@ -449,6 +433,7 @@ td {
     border: solid 0px;
     background-color: var(--color-primary-1);
     padding: 0px 10px;
+    transition: all 0.5s ease;
 }
 
 .txtUpsideDown {
@@ -497,6 +482,11 @@ footer {
 
     #logo {
         margin-right: 0px;
+    }
+
+    traduction,
+    header {
+        width: 98%;
     }
 }
 
@@ -726,7 +716,6 @@ p[data-value]:after {
 
 /* Neumorphic buttons experiment */
 .neumorphic {
-    box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2), -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
     font-size: 1.6rem;
     width: 60px;
     height: 60px;
@@ -737,12 +726,38 @@ p[data-value]:after {
     align-items: center;
     margin-top: 1vh;
     margin-bottom: 1vh;
+    background-color: var(--color-complement-0);
 }
 
 .neumorphic--pressed {
     box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
         inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
-    color: #5ab9ea;
+}
+
+.transbutton {
+    font-size: 1.6rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    background-color: var(--color-complement-0);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.transbutton--pressed {
+    box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
+        inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+    width: 100%;
+}
+
+.neumorphic--pressed span::after {
+    color: chartreuse;
 }
 
 .variation2 {
@@ -771,7 +786,7 @@ p[data-value]:after {
     background-color: currentColor;
 }
 
-.transbutton {
+/* .transbutton {
     padding: 18px;
     width: 100%;
     background-color: inherit;
@@ -782,4 +797,4 @@ p[data-value]:after {
 
 .transbutton:hover {
     background-color: var(--color-complement-2);
-}
+} */
