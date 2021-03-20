@@ -2,6 +2,9 @@
 translation/static/translation/docs/_obsolete
 translation/static/translation/docs/backup
 
+#secret key
+secret_key.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

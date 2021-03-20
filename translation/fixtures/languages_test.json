@@ -1,0 +1,32 @@
+[
+    {
+        "pk": 1,
+        "model": "translation.Language",
+        "fields": {
+            "langcode": "deu",
+            "Name_fr": "Allemand",
+            "Name_eng": "German",
+            "Translated": "True"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "translation.Language",
+        "fields": {
+            "langcode": "eng",
+            "Name_fr": "Anglais",
+            "Name_eng": "English",
+            "Translated": "True"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "translation.Language",
+        "fields": {
+            "langcode": "fra",
+            "Name_fr": "Fran\u00e7ais",
+            "Name_eng": "French",
+            "Translated": "True"
+        }
+    }
+]

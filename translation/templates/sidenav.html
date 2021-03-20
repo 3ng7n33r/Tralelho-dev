@@ -1,0 +1,33 @@
+{% load i18n %}
+{% load static %}
+<div class="sidemenu">
+	<button onclick='txtUpDown()' type="button" id="transbutton" class="neumorphic variation2"><span><i class="fa fa-language fa-1g" aria-hidden="true"></i></span></button>
+	<nav>
+		<button onclick='collapsenav()' type="button" id="collapsebutton" class="transbutton"><span><i class="fa fa-angle-right fa-1g" aria-hidden="true"></i></span></button>
+		<div class="content">
+			<ul>
+				{% language base_language %}
+				<li><a onclick='collapsenav()' href='#PRESENTATION'><div class="description hidden">{% translate "PRESENTATION" %}</div></a></li>
+				<li><a onclick='collapsenav()' href='#IDENTITÉ'><div class="description hidden">{% translate "IDENTITÉ" %}</div></a></li>
+				<li><a onclick='collapsenav()' href='#ATTENTE'><div class="description hidden">{% translate "ATTENTE" %}</div></a></li>
+				<li><a onclick='collapsenav()' href='#ACCUEIL'><div class="description hidden">{% translate "ACCUEIL" %}</div></a></li>
+				<li><a onclick='collapsenav()' href='#NEUROLOGIE'><div class="description hidden">{% translate "NEUROLOGIE" %}</div></a></li>
+				<li><a onclick='collapsenav()' href='#PNEUMOLOGIE'><div class="description hidden">{% translate "PNEUMOLOGIE" %}</div></a></li>
+				<li><a onclick='collapsenav()' href='#CARDIOLOGIE'><div class="description hidden">{% translate "CARDIOLOGIE" %}</div></a></li>
+				<li><a onclick='collapsenav()' href='#MALAISE'><div class="description hidden">{% translate "MALAISE" %}</div></a></li>
+				<li><a onclick='collapsenav()' href='#DIGESTIF'><div class="description hidden">{% translate "DIGESTIF" %}</div></a></li>
+				<li><a onclick='collapsenav()' href='#INFECTIEUX'><div class="description hidden">{% translate "INFECTIEUX" %}</div></a></li>
+				<li><a onclick='collapsenav()' href='#OPHTALMOLOGIE'><div class="description hidden">{% translate "OPHTALMOLOGIE" %}</div></a></li>
+				<li><a onclick='collapsenav()' href='#ANTÉCÉDENTS'><div class="description hidden">{% translate "ANTÉCÉDENTS" %}</div></a></li>
+				<li><a onclick='collapsenav()' href='#PEDIATRIE'><div class="description hidden">{% translate "PEDIATRIE" %}</div></a></li>
+				<li><a onclick='collapsenav()' href='#GYNECOLOGIE'><div class="description hidden">{% translate "GYNECOLOGIE" %}</div></a></li>
+				<li><a onclick='collapsenav()' href='#TRAUMATOLOGIE'><div class="description hidden">{% translate "TRAUMATOLOGIE" %}</div></a></li>
+				<li><a onclick='collapsenav()' href='#EXAMENS'><div class="description hidden">{% translate "EXAMENS" %}</div></a></li>
+				<li><a onclick='collapsenav()' href='#TRAITEMENTS et CONSIGNES'><div class="description hidden">{% translate "TRAITEMENTS et CONSIGNES" %}</div></a></li>
+				<li><a onclick='collapsenav()' href='#CONCLUSION'><div class="description hidden">{% translate "CONCLUSION" %}</div></a></li>
+				<li><a onclick='collapsenav()' href='#PATIENT EN STRUCTURE'><div class="description hidden">{% translate "PATIENT EN STRUCTURE" %}</div></a></li>
+				{% endlanguage %}
+			</ul>
+		</div>
+	</nav>
+</div>

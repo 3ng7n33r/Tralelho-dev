@@ -4,10 +4,10 @@
 	{% load i18n %}
 	{% load static %}
 	<div class="navbar">
-		<a class="anav" href="/{{ base_language }}/{{ base_flag }}"><img id="logo" src="{% static 'translation/iconmonstr-globe-5-240.png' %}"><p class="navtext">{% translate "Traductions" %}</p></a>
-		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/documents"><i class="fa fa-file" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">{% translate "Documents" %}</p></a>
-		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/support"><i class="fa fa-heart" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">{% translate "Soutenez-nous" %}</p></a>
-		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/about"><i class="fa fa-info-circle " style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">{% translate "Qui-sommes nous?" %}</p></a>
+		<a class="anav" href="/{{ base_language }}/{{ base_flag }}"><i class="fa fa-globe" ></i><p class="navtext">{% translate "Traductions" %}</p></a>
+		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/documents"><i class="fa fa-file" ></i><p class="navtext">{% translate "Documents" %}</p></a>
+		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/support"><i class="fa fa-heart" ></i><p class="navtext">{% translate "Soutenez-nous" %}</p></a>
+		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/about"><i class="fa fa-info-circle " ></i><p class="navtext">{% translate "Qui-sommes nous?" %}</p></a>
 	</div>
 {% endblock %}
 

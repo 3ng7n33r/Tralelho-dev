@@ -1,0 +1,55 @@
+[
+    {
+        "pk": 1,
+        "model": "translation.Country",
+        "fields": {
+            "Name_eng": "Germany",
+            "Name_fr": "Allemagne",
+            "countrycode": "deu",
+            "Continent": "EU",
+            "spoken_languages": [
+                1
+            ]
+        }
+    },
+    {
+        "pk": 2,
+        "model": "translation.Country",
+        "fields": {
+            "Name_eng": "Madagascar",
+            "Name_fr": "Madagascar",
+            "countrycode": "mdg",
+            "Continent": "AF",
+            "spoken_languages": [
+                2,
+                3
+            ]
+        }
+    },
+    {
+        "pk": 3,
+        "model": "translation.Country",
+        "fields": {
+            "Name_eng": "France",
+            "Name_fr": "France",
+            "countrycode": "fra",
+            "Continent": "EU",
+            "spoken_languages": [
+                3
+            ]
+        }
+    },
+    {
+        "pk": 4,
+        "model": "translation.Country",
+        "fields": {
+            "Name_eng": "United States of America",
+            "Name_fr": "\u00c9tats-Unis",
+            "countrycode": "usa",
+            "Continent": "NA",
+            "spoken_languages": [
+                2
+            ]
+        }
+    }
+]

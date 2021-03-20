@@ -4,10 +4,10 @@
 	{% load i18n %}
 	{% load static %}
 	<div class="navbar">
-		<a class="anav" id="active" href="/{{ base_language }}/{{ base_flag }}"><img id="logo" src="{% static 'translation/iconmonstr-globe-5-240.png' %}"><p class="navtext">{% translate "Traductions" %}</p></a>
-		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/{{ target_language }}/{{ target_flag }}/documents"><i class="fa fa-file" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">{% translate "Documents" %}</p></a>
-		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/support"><i class="fa fa-heart" style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">{% translate "Soutenez-nous" %}</p></a>
-		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/about"><i class="fa fa-info-circle " style="color:#ff8000; font-size: min(10vw, 50px);"></i><p class="navtext">{% translate "Qui-sommes nous?" %}</p></a>
+		<a class="anav" id="active" href="/{{ base_language }}/{{ base_flag }}"><i class="fa fa-globe" ></i><p class="navtext">{% translate "Traductions" %}</p></a>
+		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/{{ target_language }}/{{ target_flag }}/documents"><i class="fa fa-file" ></i><p class="navtext">{% translate "Documents" %}</p></a>
+		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/support"><i class="fa fa-heart" ></i><p class="navtext">{% translate "Soutenez-nous" %}</p></a>
+		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/about"><i class="fa fa-info-circle " ></i><p class="navtext">{% translate "Qui-sommes nous?" %}</p></a>
 	</div>
 {% endblock %}
 
@@ -33,38 +33,9 @@
 {% load i18n %}
 {% load static %}
 <traduction>
-	<nav>
-		<button onclick='txtUpDown()' type="button" class="transbutton"><i class="fa fa-language fa-1g" aria-hidden="true"></i></button>
-		<button onclick='collapsenav()' type="button" class="collapsible"></button>
-		<div class="content">
-			<ul>
-				{% language base_language %}
-				<h2 id='IDENTITÉ'>{% translate "IDENTITÉ" %} </h2>
-				<li><a onclick='collapsenav()' href='#PRESENTATION'>{% translate "PRESENTATION" %}</a></li>
-				<li><a onclick='collapsenav()' href='#IDENTITÉ'>{% translate "IDENTITÉ" %}</a></li>
-				<li><a onclick='collapsenav()' href='#ATTENTE'>{% translate "ATTENTE" %}</a></li>
-				<li><a onclick='collapsenav()' href='#ACCUEIL'>{% translate "ACCUEIL" %}</a></li>
-				<li><a onclick='collapsenav()' href='#NEUROLOGIE'>N{% translate "EUROLOGIE" %}</a></li>
-				<li><a onclick='collapsenav()' href='#PNEUMOLOGIE'>{% translate "PNEUMOLOGIE" %}</a></li>
-				<li><a onclick='collapsenav()' href='#CARDIOLOGIE'>{% translate "CARDIOLOGIE" %}</a></li>
-				<li><a onclick='collapsenav()' href='#MALAISE'>{% translate "MALAISE" %}</a></li>
-				<li><a onclick='collapsenav()' href='#DIGESTIF'>{% translate "DIGESTIF" %}</a></li>
-				<li><a onclick='collapsenav()' href='#INFECTIEUX'>{% translate "INFECTIEUX" %}</a></li>
-				<li><a onclick='collapsenav()' href='#OPHTALMOLOGIE'>{% translate "OPHTALMOLOGIE" %}</a></li>
-				<li><a onclick='collapsenav()' href='#ANTÉCÉDENTS'>{% translate "ANTÉCÉDENTS" %}</a></li>
-				<li><a onclick='collapsenav()' href='#PEDIATRIE'>{% translate "PEDIATRIE" %}</a></li>
-				<li><a onclick='collapsenav()' href='#GYNECOLOGIE'>{% translate "GYNECOLOGIE" %}</a></li>
-				<li><a onclick='collapsenav()' href='#TRAUMATOLOGIE'>{% translate "TRAUMATOLOGIE" %}</a></li>
-				<li><a onclick='collapsenav()' href='#EXAMENS'>{% translate "EXAMENS" %}</a></li>
-				<li><a onclick='collapsenav()' href='#TRAITEMENTS et CONSIGNES'>{% translate "TRAITEMENTS et CONSIGNES" %}</a></li>
-				<li><a onclick='collapsenav()' href='#CONCLUSION'>{% translate "CONCLUSION" %}</a></li>
-				<li><a onclick='collapsenav()' href='#PATIENT EN STRUCTURE'>{% translate "PATIENT EN STRUCTURE" %}</a></li>
-				{% endlanguage %}
-			</ul>
-		</div>
-	</nav>
-	<main role="main">
-		<div class="txtUpsideDown">{% translate "Cliquez sur une phrase pour l'afficher" %}</div>
+	{% include "sidenav.html" %}
+	<main role="main" style="padding-left: 1vw">
+		<div id="fittext" class="txtUpsideDown">{% translate "Cliquez sur une phrase pour l'afficher" %}</div>
 		{% comment %} Copy/Paste Area {% endcomment %}
 		{% language base_language %}
 		<h2 id='PRESENTATION'>{% translate "PRESENTATION" %} </h2>
@@ -3707,3 +3678,7 @@
 	</main>
 </traduction>
 {% endblock %}
+<script src="fittext.js"></script>
+<script type="text/javascript">
+	fitText(document.getElementById('fittext'), 1.2)
+</script>
