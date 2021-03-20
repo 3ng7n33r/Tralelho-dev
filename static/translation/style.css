@@ -1,0 +1,801 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    word-break: break-word;
+}
+
+:root {
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1.1rem;
+
+    --color-primary-0: #FFFBF6;
+    /* Main Primary color */
+    --color-primary-1: #FFE6C4;
+    --color-primary-2: #FFEFD9;
+    --color-primary-3: #FFF7EC;
+    --color-primary-4: #E9DFD3;
+
+    --color-complement-0: #D3D7DA;
+    /* Main Complement color */
+    --color-complement-1: #889DAE;
+    --color-complement-2: #A8B7C3;
+    --color-complement-3: #9DA3A9;
+    --color-complement-4: #889096;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+h2 {
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    margin: auto;
+    max-width: 1024px;
+}
+
+html {
+    background-color: var(--color-primary-0);
+    color: #000;
+    scroll-behavior: smooth;
+}
+
+/* Header and Navbar */
+
+header {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto auto;
+    height: max-content;
+    max-width: 1024px;
+    grid-template-areas: "a b""c c";
+    border-radius: 20px;
+    box-shadow: 0 0 0px 2px var(--color-complement-3);
+    margin-top: 1vh;
+    margin: 1vh 1vw 0 1vw;
+    width: 96%;
+    margin: 1vh auto 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    min-height: 60px;
+    max-height: 100px;
+    background-color: var(--color-primary-2);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.anav:first-child {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.anav {
+    display: grid;
+    place-items: center;
+    color: inherit;
+    text-decoration: none;
+    text-align: center;
+    height: 100%;
+    white-space: nowrap;
+    padding: 5px;
+}
+
+.anav i {
+    color: var(--color-complement-0);
+    font-size: min(10vw, 50px);
+    transition: transform 0.5s ease;
+}
+
+
+
+#active i {
+    color: var(--color-complement-1);
+    transform: scale(1.12);
+}
+
+#active .fa-heart {
+    color: red;
+}
+
+.responsive-iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100px;
+    max-height: 500px;
+    height: 27vh;
+    width: 48vh;
+    max-width: 100%;
+}
+
+.centertext {
+    text-align: center;
+}
+
+#active {
+    font-weight: bold;
+}
+
+.navbar a:hover i {
+    color: var(--color-complement-2);
+    transform: scale(1.12);
+}
+
+.navbar a:hover .fa-heart {
+    color: red;
+    transform: scale(1.12);
+}
+
+#logo {
+    max-width: 50px;
+    width: 10vw;
+    vertical-align: middle;
+}
+
+.transflags {
+    max-width: 70%;
+    vertical-align: middle;
+}
+
+#sourceflag {
+    max-width: 50%;
+    max-height: 100px;
+    margin: auto;
+    transition: transform 0.5s ease;
+    box-shadow: 0 0 5px 0 var(--color-complement-1);
+    border-radius: 10px;
+}
+
+.smallflag {
+    max-width: 30%;
+    max-height: 80px;
+}
+
+
+
+#flagcontainer {
+    display: grid;
+    align-items: center;
+    min-height: 60px;
+    max-height: 100px;
+    background-color: var(--color-primary-2);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#flagcontainer:hover>img {
+    transform: scale(1.12);
+}
+
+#changebase {
+    display: none;
+    grid-area: c;
+    background-color: var(--color-primary-2);
+    ;
+}
+
+/* Content */
+
+.docicon {
+    max-width: 30%;
+    max-height: 80px;
+}
+
+section {
+    width: 96%;
+    margin: 0 auto 0 auto;
+}
+
+article {
+    background-color: var(--color-primary-1);
+    border-radius: 20px;
+}
+
+section>article {
+    box-shadow: 0 0 5px 3px var(--color-complement-3);
+}
+
+article>h2 {
+    text-align: center;
+}
+
+aside>div {
+    margin: 10px auto;
+    background: var(--color-complement-2);
+}
+
+.langcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.doccontainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.docarticle {
+    background-color: var(--color-primary-1);
+    border-radius: 20px;
+    margin: 10px auto;
+    box-shadow: 0 0 0 2px var(--color-complement-3);
+}
+
+.docarticle:hover {
+    background-color: var(--color-complement-1);
+}
+
+.langcontainer>a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.flag {
+    width: 25vw;
+    max-width: 150px;
+    height: calc(25vw / 1.5);
+    max-height: calc(150px / 1.5);
+    box-shadow: 0 0 2px 2px var(--color-complement-4);
+    border-radius: 10px;
+}
+
+figure {
+    display: table;
+    width: 1px;
+    margin: min(3vw, 8px);
+    transition: transform 0.5s ease;
+}
+
+figure:hover {
+    transform: scale(1.12);
+}
+
+figure:hover figcaption {
+    transform: scale(1.2);
+}
+
+img,
+figcaption {
+    display: table-row;
+}
+
+figcaption {
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-radius: 5px;
+    background-color: var(--color-complement-0);
+    box-shadow: 1px 1px 1px 0 var(--color-complement-4);
+}
+
+.description {
+    color: black;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    word-break: keep-all;
+}
+
+.description:hover {
+    background-color: var(--color-complement-2);
+}
+
+traduction {
+    width: 96%;
+    display: grid;
+    margin: 0 auto 0 auto;
+    grid-template-columns: min-content 1fr;
+    height: 100%;
+}
+
+nav {
+    width: 100%;
+    height: 100%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h3:hover {
+    background-color: var(--color-complement-0);
+}
+
+@media (min-height: 300px) {
+    #transbutton {
+        position: -webkit-sticky;
+        /* Safari */
+        position: sticky;
+        top: 0;
+    }
+
+    #collapsebutton {
+        position: -webkit-sticky;
+        /* Safari */
+        position: sticky;
+        top: 67px;
+    }
+
+    nav div {
+        position: -webkit-sticky;
+        /* Safari */
+        position: sticky;
+        top: 130px;
+    }
+
+}
+
+
+
+
+/* Searchbar */
+
+#countrybutton {
+    margin-left: -40px;
+    border: 0;
+    -webkit-appearance: none;
+    background: transparent;
+}
+
+#id_country_name {
+    padding-right: 50px;
+}
+
+#searchcontainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.errorlist {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#txtSearch {
+    width: 100%;
+}
+
+#search {
+    width: max(60%, 300px)
+}
+
+/* Translation tables */
+
+table {
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0px 5px;
+    padding: 10px 5px;
+}
+
+tr:hover td {
+    background-color: var(--color-complement-0);
+}
+
+.activerow td {
+    background-color: var(--color-complement-1);
+}
+
+td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-right: none;
+}
+
+td:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left: none;
+}
+
+td {
+    width: 45%;
+    border: solid 0px;
+    background-color: var(--color-primary-1);
+    padding: 0px 10px;
+    transition: all 0.5s ease;
+}
+
+.txtUpsideDown {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+    /* IE6,IE7 */
+    -moz-transform: rotate(-180deg);
+    /* FF3.5+ */
+    -o-transform: rotate(-180deg);
+    /* Opera 10.5 */
+    -webkit-transform: rotate(-180deg);
+    /* Safari 3.1+, Chrome */
+    background-color: white;
+    width: 100%;
+    height: 40vh;
+    font-size: 50px;
+    font-weight: bold;
+    display: none;
+    position: sticky;
+    top: 0;
+    margin-top: 1vh;
+}
+
+/* Footer */
+footer {
+    padding: 2vw;
+    background: var(--color-primary-4);
+    width: 100%;
+    margin: auto;
+    text-align: right;
+    margin-top: 2vh;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-device-width : 700px) {
+    .navtext {
+        display: none;
+    }
+
+    figcaption {
+        font-size: small;
+    }
+
+    #crowdjet-expand-container {
+        display: none;
+    }
+
+    #logo {
+        margin-right: 0px;
+    }
+
+    traduction,
+    header {
+        width: 98%;
+    }
+}
+
+@media only screen and (max-device-width : 500px) {}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    :root {
+        --fs-h1: 4.5rem;
+        --fs-h2: 3.75rem;
+        --fs-h3: 1.5rem;
+        --fs-body: 1.125rem;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+    /* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+    /* Styles */
+}
+
+/* Progress Bars */
+
+
+/* Styling an indeterminate progress bar */
+
+progress:not(value) {
+    /* Add your styles here. As part of this walkthrough we will focus only on determinate progress bars. */
+}
+
+/* Styling the determinate progress element */
+
+progress[value] {
+    /* Get rid of the default appearance */
+    appearance: none;
+
+    /* This unfortunately leaves a trail of border behind in Firefox and Opera. We can remove that by setting the border to none. */
+    border: none;
+
+    /* Add dimensions */
+    width: 70%;
+    height: 30px;
+
+    /* Although firefox doesn't provide any additional pseudo class to style the progress element container, any style applied here works on the container. */
+    background-color: whiteSmoke;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .5) inset;
+
+    /* Of all IE, only IE10 supports progress element that too partially. It only allows to change the background-color of the progress value using the 'color' attribute. */
+    color: royalblue;
+
+    position: relative;
+    margin: 0 0 1.5em;
+}
+
+/*
+  Webkit browsers provide two pseudo classes that can be use to style HTML5 progress element.
+  -webkit-progress-bar -> To style the progress element container
+  -webkit-progress-value -> To style the progress element value.
+  */
+
+progress[value]::-webkit-progress-bar {
+    background-color: whiteSmoke;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .5) inset;
+}
+
+progress[value]::-webkit-progress-value {
+    position: relative;
+
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+    border-radius: 3px;
+}
+
+/* Let's spice up things little bit by using pseudo elements. */
+
+progress[value]::-webkit-progress-value:after {
+    /* Only webkit/blink browsers understand pseudo elements on pseudo classes. A rare phenomenon! */
+    content: '';
+    position: absolute;
+
+    width: 5px;
+    height: 5px;
+    top: 7px;
+    right: 7px;
+
+    background-color: white;
+    border-radius: 100%;
+}
+
+/* Firefox provides a single pseudo class to style the progress element value and not for container. -moz-progress-bar */
+
+progress[value]::-moz-progress-bar {
+    background-image: -moz-linear-gradient(top,
+            rgba(255, 255, 255, .25),
+            rgba(0, 0, 0, .2)),
+        -moz-linear-gradient(left, rgb(158, 158, 158), #ff8000);
+
+    background-size: 35px 30px, 100% 100%, 100% 100%;
+    border-radius: 3px;
+
+    /* Firefox doesn't support CSS3 keyframe animations on progress element. Hence, we did not include animate-stripes in this code block */
+}
+
+/* Fallback technique styles */
+.progress-bar {
+    background-color: whiteSmoke;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .5) inset;
+
+    /* Dimensions should be similar to the parent progress element. */
+    width: 100%;
+    height: 20px;
+}
+
+.progress-bar span {
+    background-color: royalblue;
+    border-radius: 3px;
+
+    display: block;
+    text-indent: -9999px;
+}
+
+p[data-value] {
+
+    position: relative;
+}
+
+/* The percentage will automatically fall in place as soon as we make the width fluid. Now making widths fluid. */
+
+p[data-value]:after {
+    content: attr(data-value) '%';
+    position: absolute;
+    right: 0;
+}
+
+.box {
+    width: 40%;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 35px;
+    border: 2px solid #fff;
+    border-radius: 20px/50px;
+    background-clip: padding-box;
+    text-align: center;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.cancel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: default;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: var(--color-primary-0);
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+.popup .popcontent {
+    max-height: 30%;
+    overflow: auto;
+    background-color: var(--color-primary-1);
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .box {
+        width: 70%;
+    }
+
+    .popup {
+        width: 70%;
+    }
+}
+
+.popcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.poparticle {
+    border-radius: 20px;
+    margin: 10px auto;
+}
+
+.poparticle:hover {
+    background-color: var(--color-complement-0);
+}
+
+/* Neumorphic buttons experiment */
+.neumorphic {
+    font-size: 1.6rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    background-color: var(--color-complement-0);
+}
+
+.neumorphic--pressed {
+    box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
+        inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+}
+
+.transbutton {
+    font-size: 1.6rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    background-color: var(--color-complement-0);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.transbutton--pressed {
+    box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
+        inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+    width: 100%;
+}
+
+.neumorphic--pressed span::after {
+    color: chartreuse;
+}
+
+.variation2 {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.variation2 span {
+    display: block;
+    padding-bottom: 10px;
+    position: relative;
+    /* font-size: 3rem; */
+}
+
+.variation2 span::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    height: 0.3rem;
+    border-radius: 1rem;
+    width: 50%;
+    margin: 0 auto;
+    background-color: currentColor;
+}
+
+/* .transbutton {
+    padding: 18px;
+    width: 100%;
+    background-color: inherit;
+    display: inline-block;
+    border: none;
+    outline: none;
+}
+
+.transbutton:hover {
+    background-color: var(--color-complement-2);
+} */
