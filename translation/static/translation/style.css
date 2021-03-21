@@ -196,7 +196,9 @@ a {
     display: none;
     grid-area: c;
     background-color: var(--color-primary-2);
-    ;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-style: outset;
 }
 
 /* Content */
@@ -233,6 +235,7 @@ aside>div {
     display: flex;
     flex-wrap: wrap;
     padding: 5px;
+    justify-content: center;
 }
 
 .doccontainer {
@@ -258,6 +261,7 @@ aside>div {
     text-align: center;
     text-decoration: none;
     color: black;
+    padding: 5px;
 }
 
 .flag {
@@ -488,6 +492,10 @@ footer {
     traduction,
     header {
         width: 98%;
+    }
+
+    .langcontainer>a {
+        padding: 0px;
     }
 }
 

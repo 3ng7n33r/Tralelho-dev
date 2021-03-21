@@ -32,11 +32,18 @@ function txtUpDown() {
 
 function switchVisibilityBlock(ID) {
 	let element = document.getElementById(ID);
+	let flag = document.getElementById('flagcontainer');
+	let translate = document.getElementsByClassName('navbar')[0];
 	if (element.style.display === "block") {
 		element.style.display = "none";
+		flag.style.borderBottomRightRadius = "20px";
+		translate.style.borderBottomLeftRadius = "20px";
 
 		} else {
 		element.style.display = "block";
+		flag.style.borderBottomRightRadius = "0px";
+		translate.style.borderBottomLeftRadius = "0px";		
+
 		}
 	
   } 
