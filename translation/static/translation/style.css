@@ -44,7 +44,6 @@ body {
     display: grid;
     grid-template-rows: auto auto auto;
     margin: auto;
-    max-width: 1024px;
 }
 
 html {
@@ -57,17 +56,14 @@ html {
 
 header {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2fr 1fr;
     grid-template-rows: auto auto;
-    height: max-content;
-    max-width: 1024px;
     grid-template-areas: "a b""c c";
-    border-radius: 20px;
     box-shadow: 0 0 0px 2px var(--color-complement-3);
-    margin-top: 1vh;
-    margin: 1vh 1vw 0 1vw;
-    width: 96%;
-    margin: 1vh auto 0 auto;
+    width: 100vw;
+    margin: 0 auto 0 auto;
+    height: 60px;
+    background-color: var(--color-primary-2);
 }
 
 a {
@@ -76,22 +72,18 @@ a {
 
 .navbar {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    max-width: 874px;
+    width: 80vw;
+    grid-template-columns: repeat(5, 1fr);
     align-items: center;
-    min-height: 60px;
-    max-height: 100px;
+    height: 60px;
     background-color: var(--color-primary-2);
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    justify-self: end;
+    align-content: center;
 }
 
 .hidden {
     display: none;
-}
-
-.anav:first-child {
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
 }
 
 .anav {
@@ -107,11 +99,48 @@ a {
 
 .anav i {
     color: var(--color-complement-0);
-    font-size: min(10vw, 50px);
+    font-size: min(10vw, 30px);
     transition: transform 0.5s ease;
 }
 
+.navlogo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: inherit;
+    text-decoration: none;
+    text-align: center;
+    height: 100%;
+    white-space: nowrap;
+    padding: 5px;
+}
 
+.navlogo i {
+    color: rgb(255, 125, 19);
+    font-size: min(10vw, 30px);
+    transition: transform 0.5s ease;
+    align-self: center;
+    justify-self: end;
+}
+
+.navtext {
+    justify-self: start;
+    margin-left: 5px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#flagcontainer {
+    display: grid;
+    align-items: center;
+    height: 60px;
+    width: 150px;
+    background-color: var(--color-primary-2);
+    justify-self: start;
+}
+
+#flagcontainer:hover>img {
+    transform: scale(1.12);
+}
 
 #active i {
     color: var(--color-complement-1);
@@ -177,21 +206,6 @@ a {
 }
 
 
-
-#flagcontainer {
-    display: grid;
-    align-items: center;
-    min-height: 60px;
-    max-height: 100px;
-    background-color: var(--color-primary-2);
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-
-#flagcontainer:hover>img {
-    transform: scale(1.12);
-}
-
 #changebase {
     display: none;
     grid-area: c;
@@ -211,6 +225,7 @@ a {
 section {
     width: 96%;
     margin: 0 auto 0 auto;
+    max-width: 1024px;
 }
 
 article {
@@ -473,7 +488,7 @@ footer {
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (max-device-width : 700px) {
-    .navtext {
+    .navlogo i {
         display: none;
     }
 
