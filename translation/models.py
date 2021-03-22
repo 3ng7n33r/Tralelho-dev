@@ -7,6 +7,7 @@ class Language(models.Model):
     Name_fr = models.CharField(max_length=50, unique=True)
     Name_eng = models.CharField(max_length=50, unique=True)
     Translated = models.BooleanField(default=False)
+    Validated = models.BooleanField(default=False)
 
     def __str__(self):
         return self.Name_fr
