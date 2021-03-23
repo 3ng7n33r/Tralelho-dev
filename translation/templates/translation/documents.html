@@ -4,21 +4,22 @@
 	{% load i18n %}
 	{% load static %}
 	<div class="navbar">
-		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/{{ target_language }}/{{ target_flag }}"><i class="fa fa-globe" ></i><p class="navtext">{% translate "Traductions" %}</p></a>
-		<a class="anav" id="active" href="/{{ base_language }}/{{ base_flag }}/documents"><i class="fa fa-file" ></i><p class="navtext">{% translate "Documents" %}</p></a>
-		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/support"><i class="fa fa-heart" ></i><p class="navtext">{% translate "Soutenez-nous" %}</p></a>
-		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/about"><i class="fa fa-info-circle " ></i><p class="navtext">{% translate "Qui-sommes nous?" %}</p></a>
+		<a class="navlogo" href="/{{ base_language }}/{{ base_flag }}"><i class="fa fa-globe" ></i><p class="navtext">Tralelho</p></a>	
+		<a class="anav" href="/{{ base_language }}/{{ base_flag }}"><i class="fa fa-language" ></i></a>
+		<a class="anav" id="active" href="/{{ base_language }}/{{ base_flag }}/documents"><i class="fa fa-file" ></i></a>
+		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/support"><i class="fa fa-heart" ></i></a>
+		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/about"><i class="fa fa-info-circle " ></i></a>
 	</div>
 {% endblock %}
 
 {% block flags %}
 	{% load i18n %}
 	{% load static %}
-	<div id="flagcontainer" onclick="switchVisibilityBlock('changebase')">
-		<a class="anav">
-			<img class="smallflag" src="{% get_static_prefix %}translation/flags/{{ base_flag }}.png">
-			{% comment %} Make flag representation possible for multiple countries with same language {% endcomment %}
-			<img class="smallflag" src="{% get_static_prefix %}translation/flags/{{ target_flag }}.png">
+	<div id="flagscontainer">
+		<img onclick="switchVisibilityBlock('changebase')" class="navflags" src="{% get_static_prefix %}translation/flags/{{ base_flag }}.png">
+		<i id="navarrow" class="fa fa-arrow-right" aria-hidden="true"></i>
+		<a href="/{{ base_language }}/{{ base_flag }}">
+			<img class="navflags" src="{% get_static_prefix %}translation/flags/{{ target_flag }}.png">
 		</a>
 	</div>
 {% endblock %}

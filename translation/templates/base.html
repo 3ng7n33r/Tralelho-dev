@@ -35,12 +35,16 @@
 
 	<body>
 		<header>
-			{% block navbar %}
-			{% endblock %}
-			{% block flags %}
-			{% endblock %}
-			{% block changebase %}
-			{% endblock %}
+			<div style="height: 60px; width: 100vw; border-bottom-style: groove">
+			</div>
+			<div id="headcontainer">
+				{% block navbar %}
+				{% endblock %}
+				{% block flags %}
+				{% endblock %}
+				{% block changebase %}
+				{% endblock %}
+			</div>
 		</header>
         {% block section %}
  		{% endblock %}

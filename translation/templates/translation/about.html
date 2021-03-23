@@ -4,10 +4,11 @@
 	{% load i18n %}
 	{% load static %}
 	<div class="navbar">
-		<a class="anav" href="/{{ base_language }}/{{ base_flag }}"><i class="fa fa-globe" ></i><p class="navtext">{% translate "Traductions" %}</p></a>
-		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/documents"><i class="fa fa-file" ></i><p class="navtext">{% translate "Documents" %}</p></a>
-		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/support"><i class="fa fa-heart" ></i><p class="navtext">{% translate "Soutenez-nous" %}</p></a>
-		<a class="anav" id="active" href="/{{ base_language }}/{{ base_flag }}/about"><i class="fa fa-info-circle " ></i><p class="navtext">{% translate "Qui-sommes nous?" %}</p></a>
+		<a class="navlogo" href="/{{ base_language }}/{{ base_flag }}"><i class="fa fa-globe" ></i><p class="navtext">Tralelho</p></a>	
+		<a class="anav" href="/{{ base_language }}/{{ base_flag }}"><i class="fa fa-language" ></i></a>
+		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/documents"><i class="fa fa-file" ></i></a>
+		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/support"><i class="fa fa-heart" ></i></a>
+		<a class="anav" id="active" href="/{{ base_language }}/{{ base_flag }}/about"><i class="fa fa-info-circle " ></i></a>
 	</div>
 {% endblock %}
 

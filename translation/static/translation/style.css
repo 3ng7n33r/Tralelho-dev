@@ -55,15 +55,18 @@ html {
 /* Header and Navbar */
 
 header {
+    width: 100vw;
+    background-color: var(--color-primary-2);
+    border-bottom-style: groove;
+}
+
+#headcontainer {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 2fr;
     grid-template-rows: auto auto;
     grid-template-areas: "a b""c c";
-    box-shadow: 0 0 0px 2px var(--color-complement-3);
-    width: 100vw;
-    margin: 0 auto 0 auto;
-    height: 60px;
-    background-color: var(--color-primary-2);
+    margin: -63px auto 0 auto;
+    width: min(1024px, 100vw);
 }
 
 a {
@@ -138,12 +141,38 @@ a {
     justify-self: start;
 }
 
-#flagcontainer:hover>img {
+#flagscontainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    height: 60px;
+    width: 150px;
+    background-color: var(--color-primary-2);
+    justify-self: start;
+
+}
+
+img:hover {
     transform: scale(1.12);
 }
 
+#navarrow {
+    color: var(--color-complement-4);
+    justify-self: center;
+    font-size: x-large;
+}
+
+.navflags {
+    max-width: 100%;
+    max-height: 40px;
+    margin: auto;
+    transition: transform 0.5s ease;
+    box-shadow: 0 0 5px 0 var(--color-complement-1);
+    border-radius: 10px;
+}
+
 #active i {
-    color: var(--color-complement-1);
+    color: var(--color-complement-4);
     transform: scale(1.12);
 }
 
@@ -170,6 +199,11 @@ a {
     font-weight: bold;
 }
 
+.navbar a:hover .fa-globe {
+    color: rgb(255, 125, 19);
+    transform: scale(1.12);
+}
+
 .navbar a:hover i {
     color: var(--color-complement-2);
     transform: scale(1.12);
@@ -192,7 +226,7 @@ a {
 }
 
 #sourceflag {
-    max-width: 50%;
+    max-width: 40%;
     max-height: 100px;
     margin: auto;
     transition: transform 0.5s ease;
@@ -212,7 +246,7 @@ a {
     background-color: var(--color-primary-2);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    border-top-style: outset;
+    border-top-style: groove;
 }
 
 /* Content */
