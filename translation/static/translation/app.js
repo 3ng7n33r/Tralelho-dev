@@ -1,17 +1,7 @@
-//Collapse and pull out sidenav in translation page
-function collapsenav() {
-	let coll = document.getElementById("collapsebutton");
-	coll.classList.toggle("transbutton--pressed");
-	let content = document.getElementsByClassName("description");
-	for (let i=0, len=content.length; i<len; i++) {
-		content[i].classList.toggle("hidden")
-	}
-}
-
 //Collapse and pop up upsidedown text in translation page
 function txtUpDown() {
 	let coll = document.getElementById("transbutton");
-	coll.classList.toggle("neumorphic--pressed");
+	coll.classList.toggle("pressed");
 	let translation = document.querySelectorAll('td:last-child');
 	let baselanguage = document.querySelectorAll('td:first-child');
 	let content = document.getElementsByClassName("txtUpsideDown")[0];
@@ -32,17 +22,15 @@ function txtUpDown() {
 
 function switchVisibilityBlock(ID) {
 	let element = document.getElementById(ID);
-	let flag = document.getElementById('flagcontainer');
-	let translate = document.getElementsByClassName('navbar')[0];
+	let sidemenu = document.getElementsByClassName('sidemenu')[0];
 	if (element.style.display === "block") {
-		element.style.display = "none";
-		flag.style.borderBottomRightRadius = "20px";
-		translate.style.borderBottomLeftRadius = "20px";
+		element.style.width = "none";
+		sidemenu.classList.toggle("hidden")
 
 		} else {
 		element.style.display = "block";
-		flag.style.borderBottomRightRadius = "0px";
-		translate.style.borderBottomLeftRadius = "0px";		
+		sidemenu.classList.toggle("hidden")
+
 
 		}
 	

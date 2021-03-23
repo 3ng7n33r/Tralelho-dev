@@ -40,6 +40,15 @@ h2 {
     text-shadow: 1px 1px 1px #ccc;
 }
 
+main>h2::before {
+    display: block;
+    content: " ";
+    margin-top: -60px;
+    height: 60px;
+    visibility: hidden;
+    pointer-events: none;
+}
+
 body {
     display: grid;
     grid-template-rows: auto auto auto;
@@ -50,6 +59,7 @@ html {
     background-color: var(--color-primary-0);
     color: #000;
     scroll-behavior: smooth;
+    scrollbar-width: none;
 }
 
 /* Header and Navbar */
@@ -58,6 +68,7 @@ header {
     width: 100vw;
     background-color: var(--color-primary-2);
     border-bottom-style: groove;
+    position: fixed;
 }
 
 #headcontainer {
@@ -83,6 +94,7 @@ a {
     background-color: var(--color-primary-2);
     justify-self: end;
     align-content: center;
+    z-index: 1;
 }
 
 .hidden {
@@ -146,10 +158,9 @@ a {
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     height: 60px;
-    width: 150px;
     background-color: var(--color-primary-2);
     justify-self: start;
-
+    margin-right: 5px;
 }
 
 img:hover {
@@ -191,6 +202,40 @@ img:hover {
     max-width: 100%;
 }
 
+main {
+    max-width: 1024px;
+    margin: 0 auto 0 auto;
+}
+
+.sidemenu {
+    position: sticky;
+    top: 60px;
+    background-color: var(--color-primary-2);
+    width: 250px;
+    z-index: 0;
+    height: calc(100vh - 60px);
+}
+
+.navcontent {
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-radius: 5px;
+    overflow: scroll;
+    scrollbar-width: none;
+    height: 95%;
+}
+
+.sidenava {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidenava:hover {
+    background-color: var(--color-complement-2);
+}
+
 .centertext {
     text-align: center;
 }
@@ -229,6 +274,7 @@ img:hover {
     max-width: 40%;
     max-height: 100px;
     margin: auto;
+    margin-left: 0;
     transition: transform 0.5s ease;
     box-shadow: 0 0 5px 0 var(--color-complement-1);
     border-radius: 10px;
@@ -260,6 +306,7 @@ section {
     width: 96%;
     margin: 0 auto 0 auto;
     max-width: 1024px;
+    padding-top: 60px;
 }
 
 article {
@@ -347,13 +394,15 @@ figcaption {
     transition: all 0.5s ease;
 }
 
-/* Style the collapsible content. Note: hidden by default */
-.content {
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    border-radius: 5px;
-    background-color: var(--color-complement-0);
-    box-shadow: 1px 1px 1px 0 var(--color-complement-4);
+.justify-start {
+    justify-content: start;
+}
+
+
+.navicon {
+    height: 50px;
+    width: 50px;
+    padding: 5px;
 }
 
 .description {
@@ -361,18 +410,16 @@ figcaption {
     padding: 0.5rem 1rem;
     text-decoration: none;
     word-break: keep-all;
-}
-
-.description:hover {
-    background-color: var(--color-complement-2);
+    width: 200px;
 }
 
 traduction {
-    width: 96%;
+    width: 100vw;
     display: grid;
     margin: 0 auto 0 auto;
     grid-template-columns: min-content 1fr;
     height: 100%;
+    padding-top: 60px;
 }
 
 nav {
@@ -390,29 +437,58 @@ h3:hover {
     background-color: var(--color-complement-0);
 }
 
-@media (min-height: 300px) {
+#transbutton {
+    width: 60px;
+    height: 80px;
+    background-color: transparent;
+    border-style: none;
+}
+
+.pressed span::after {
+    color: chartreuse;
+}
+
+#transbutton span {
+    display: block;
+    padding-bottom: 10px;
+    position: relative;
+    font-size: 2rem;
+}
+
+#transbutton span::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    height: 0.3rem;
+    border-radius: 1rem;
+    width: 50%;
+    margin: 0 auto;
+    background-color: currentColor;
+}
+
+/* @media (min-height: 300px) {
     #transbutton {
         position: -webkit-sticky;
-        /* Safari */
-        position: sticky;
-        top: 0;
-    }
-
-    #collapsebutton {
-        position: -webkit-sticky;
-        /* Safari */
         position: sticky;
         top: 67px;
     }
 
-    nav div {
+    #collapsebutton {
         position: -webkit-sticky;
-        /* Safari */
         position: sticky;
-        top: 130px;
+        top: 127px;
     }
 
-}
+    nav div {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 190px;
+    }
+
+} */
 
 
 
@@ -526,6 +602,22 @@ footer {
         display: none;
     }
 
+    .description {
+        display: none;
+    }
+
+    .sidemenu {
+        width: 60px;
+    }
+
+    .navtext {
+        font-size: medium;
+    }
+
+    #navarrow {
+        font-size: medium;
+    }
+
     figcaption {
         font-size: small;
     }
@@ -536,11 +628,6 @@ footer {
 
     #logo {
         margin-right: 0px;
-    }
-
-    traduction,
-    header {
-        width: 98%;
     }
 
     .langcontainer>a {
@@ -771,88 +858,3 @@ p[data-value]:after {
 .poparticle:hover {
     background-color: var(--color-complement-0);
 }
-
-/* Neumorphic buttons experiment */
-.neumorphic {
-    font-size: 1.6rem;
-    width: 60px;
-    height: 60px;
-    border-radius: 5px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-    background-color: var(--color-complement-0);
-}
-
-.neumorphic--pressed {
-    box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
-        inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
-}
-
-.transbutton {
-    font-size: 1.6rem;
-    width: 60px;
-    height: 60px;
-    border-radius: 5px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-    background-color: var(--color-complement-0);
-    justify-content: space-around;
-    align-items: center;
-}
-
-.transbutton--pressed {
-    box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
-        inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
-    width: 100%;
-}
-
-.neumorphic--pressed span::after {
-    color: chartreuse;
-}
-
-.variation2 {
-    justify-content: space-around;
-    align-items: center;
-}
-
-.variation2 span {
-    display: block;
-    padding-bottom: 10px;
-    position: relative;
-    /* font-size: 3rem; */
-}
-
-.variation2 span::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: block;
-    height: 0.3rem;
-    border-radius: 1rem;
-    width: 50%;
-    margin: 0 auto;
-    background-color: currentColor;
-}
-
-/* .transbutton {
-    padding: 18px;
-    width: 100%;
-    background-color: inherit;
-    display: inline-block;
-    border: none;
-    outline: none;
-}
-
-.transbutton:hover {
-    background-color: var(--color-complement-2);
-} */
