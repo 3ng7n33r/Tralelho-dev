@@ -37,7 +37,7 @@
 	{% include "sidenav.html" %}
 	<main role="main" style="padding-left: 1vw">
 		<div id="fittext" class="txtUpsideDown">{% translate "Cliquez sur une phrase pour l'afficher" %}</div>	
-		{% if validated %}
+{% comment %} 		{% if validated %}
 			<div id="verified">
 				<h2 style="text-shadow: none">{% translate "Vérifié" %}</h2>
 				<p>{% blocktranslate %}Ces traductions ont été validées par un traducteur professionnel ou un locuteur natif{% endblocktranslate %}</p>
@@ -47,7 +47,7 @@
 				<h2 style="text-shadow: none">{% translate "Non Vérifié" %}</h2>
 				<p>{% blocktranslate %}Ces traductions n'ont pas été validées par un traducteur professionnel ou un locuteur natif{% endblocktranslate %}</p>
 			</div>		
-		{% endif%}
+		{% endif%} {% endcomment %}
 		{% comment %} Copy/Paste Area {% endcomment %}
 		{% language base_language %}
 		<h2 class="category" id='PRESENTATION'>{% translate "PRESENTATION" %} </h2>

@@ -28,27 +28,37 @@
 	{% load i18n %}
 	{% load static %}
 	<section class="about">
-		<h1>Soutenir TraLELHo</h1>
-		<h2>Traduction</h2>
-		<p>Soutenir TraLELHo c'est d'abord l'utiliser, le diffuser auprès de vos collègues, amis.</p>
-		<p>C'est aussi nous contacter si vous parlez une langue étrangère pour nous proposer une correction ou une nouvelle traduction.</p>
-		<p>  Text mentioning Crowdin as translation platform</p>
-		<h2>Faire un Don</h2>
-		<p>Enfin soutenir TraLELHo peut aussi passer par un don, afin d'aider le site à rester héberger aussi longtemps que possible, ou a obtenir de nouvelles traductions ou corrections.</p>
-		<p>Avec 4 euros vous permettez au site d'être hébergé un mois de plus, avec 50 euros vous permettez de traduire une nouvelle langue.</p>
-		<p style="width:80%" data-value="10">Dépenses d'hébergement 2021</p>
-		<progress max="100" value="10" class="hebergement">
-		<!-- Browsers that support HTML5 progress element will ignore the html inside `progress` element. Whereas older browsers will ignore the `progress` element and instead render the html inside it. -->
-			<div class="progress-bar">
-				<span style="width: 80%">80%</span>
-			</div>
-		</progress>
-		<p style="width:80%" data-value="40">Traduction en Suedois</p>
-		<progress max="100" value="40" class="hebergement">
-		<!-- Browsers that support HTML5 progress element will ignore the html inside `progress` element. Whereas older browsers will ignore the `progress` element and instead render the html inside it. -->
-			<div class="progress-bar">
-				<span style="width: 80%">80%</span>
-			</div>
-		</progress>
+		<h1><u>Soutenir TraLELHo</u></h1>
+		<article>
+			<h2>Traduction</h2>
+			<p>Soutenir TraLELHo c'est d'abord l'utiliser, le diffuser auprès de vos collègues, amis.</p>
+			<p>C'est aussi nous contacter si vous parlez une langue étrangère pour nous proposer une correction ou une nouvelle traduction.</p>
+			<p>  Text mentioning Crowdin as translation platform</p>
+		</article>
+		<article>
+			<h2>Faire un Don</h2>
+			<p>Enfin soutenir TraLELHo peut aussi passer par un don, afin d'aider le site à rester héberger aussi longtemps que possible, ou a obtenir de nouvelles traductions ou corrections.</p>
+			<p>Avec 4 euros vous permettez au site d'être hébergé un mois de plus, avec 50 euros vous permettez de traduire une nouvelle langue.</p>
+			<p style="width:80%" data-value="10">Dépenses d'hébergement 2021</p>
+			<progress max="100" value="10" class="hebergement">
+			<!-- Browsers that support HTML5 progress element will ignore the html inside `progress` element. Whereas older browsers will ignore the `progress` element and instead render the html inside it. -->
+				<div class="progress-bar">
+					<span style="width: 80%">80%</span>
+				</div>
+			</progress>
+			<form action="https://www.paypal.com/donate" method="post" target="_top">
+				<input type="hidden" name="hosted_button_id" value="E9RRZQHYKN5WA" />
+				<input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+				<img alt="" border="0" src="https://www.paypal.com/fr_FR/i/scr/pixel.gif" width="1" height="1" />
+			</form>
+
+			<p style="width:80%" data-value="40">Traduction en Suedois</p>
+			<progress max="100" value="40" class="hebergement">
+			<!-- Browsers that support HTML5 progress element will ignore the html inside `progress` element. Whereas older browsers will ignore the `progress` element and instead render the html inside it. -->
+				<div class="progress-bar">
+					<span style="width: 80%">80%</span>
+				</div>
+			</progress>
+		</article>
 	</section>
 {% endblock %}

@@ -68,7 +68,6 @@ html {
     background-color: var(--color-primary-0);
     color: #000;
     scroll-behavior: smooth;
-    scrollbar-width: none;
 }
 
 /* Header and Navbar */
@@ -101,7 +100,6 @@ a {
     grid-template-columns: repeat(5, 1fr);
     align-items: center;
     height: 60px;
-    background-color: var(--color-primary-2);
     justify-self: end;
     align-content: center;
     z-index: 1;
@@ -159,7 +157,6 @@ a {
     align-items: center;
     height: 60px;
     width: 150px;
-    background-color: var(--color-primary-2);
     justify-self: start;
 }
 
@@ -327,6 +324,20 @@ article {
     border-radius: 20px;
 }
 
+.about {
+    background-color: var(--color-primary-0);
+}
+
+.about>article {
+    padding: 1px 20px;
+    margin-bottom: 25px;
+}
+
+.about>h1 {
+    text-align: center;
+}
+
+
 section>article {
     box-shadow: 0 0 5px 3px var(--color-complement-3);
 }
@@ -435,8 +446,9 @@ figcaption {
     color: black;
     padding: 0.5rem 1rem;
     text-decoration: none;
-    word-break: keep-all;
     width: 200px;
+    font-size: small;
+    white-space: break-spaces;
 }
 
 traduction {
