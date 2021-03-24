@@ -6,7 +6,7 @@
 		<div class="navcontent">
 			<ul>
 				{% language base_language %}
-				<li><button onclick='txtUpDown()' type="button" id="transbutton"><span><i class="fa fa-language fa-2g" aria-hidden="true"></i></span></button></li>
+				<li style="text-align: center"><button onclick='txtUpDown()' type="button" id="transbutton"><span><img src="{% get_static_prefix %}translation/icons/iconmonstr-language-2.svg"></span></button></li>
 				<li><a class="sidenava" href='#PRESENTATION'><img class="navicon" src="{% get_static_prefix %}translation/flags/{{ target_flag }}.png"><div class="description">{% translate "PRESENTATION" %}</div></a></li>
 				<li><a class="sidenava" href='#IDENTITÉ'><img class="navicon" src="{% get_static_prefix %}translation/flags/{{ target_flag }}.png"><div class="description">{% translate "IDENTITÉ" %}</div></a></li>
 				<li><a class="sidenava" href='#ATTENTE'><img class="navicon" src="{% get_static_prefix %}translation/flags/{{ target_flag }}.png"><div class="description">{% translate "ATTENTE" %}</div></a></li>

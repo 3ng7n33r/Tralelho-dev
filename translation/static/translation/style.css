@@ -40,11 +40,20 @@ h2 {
     text-shadow: 1px 1px 1px #ccc;
 }
 
-main>h2::before {
+.category::before {
     display: block;
     content: " ";
     margin-top: -60px;
     height: 60px;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.transmode::before {
+    display: block;
+    content: " ";
+    margin-top: -40vh;
+    height: 40vh;
     visibility: hidden;
     pointer-events: none;
 }
@@ -214,6 +223,7 @@ main {
     width: 250px;
     z-index: 0;
     height: calc(100vh - 60px);
+    margin-right: -250px;
 }
 
 .navcontent {
@@ -594,6 +604,14 @@ footer {
     margin: auto;
     text-align: right;
     margin-top: 2vh;
+}
+
+
+
+@media only screen and (max-device-width : 1274px) {
+    .sidemenu {
+        margin-right: auto;
+    }
 }
 
 /* Smartphones (portrait and landscape) ----------- */
