@@ -31,18 +31,14 @@ function txtUpDown() {
 	  }
 }
 
+
 function switchVisibilityBlock(ID) {
 	let element = document.getElementById(ID);
-	let sidemenu = document.getElementsByClassName('sidemenu')[0];
 	if (element.style.display === "block") {
-		element.style.width = "none";
-		sidemenu.classList.toggle("hidden")
+		element.style.display = "none";
 
 		} else {
 		element.style.display = "block";
-		sidemenu.classList.toggle("hidden")
-
-
 		}
 	
   } 

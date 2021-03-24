@@ -78,6 +78,7 @@ header {
     background-color: var(--color-primary-2);
     border-bottom-style: groove;
     position: fixed;
+    z-index: 1;
 }
 
 #headcontainer {
@@ -189,6 +190,7 @@ img:hover {
     transition: transform 0.5s ease;
     box-shadow: 0 0 5px 0 var(--color-complement-1);
     border-radius: 10px;
+    z-index: 1;
 }
 
 #active i {
@@ -288,6 +290,7 @@ main {
     transition: transform 0.5s ease;
     box-shadow: 0 0 5px 0 var(--color-complement-1);
     border-radius: 10px;
+    z-index: 1;
 }
 
 .smallflag {
@@ -342,6 +345,19 @@ aside>div {
     flex-wrap: wrap;
     padding: 5px;
     justify-content: center;
+}
+
+#changebase {
+    width: 100vw;
+}
+
+#changebase>.langcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: center;
+    height: 400px;
+    overflow-y: scroll;
 }
 
 .doccontainer {
@@ -594,6 +610,7 @@ td {
     position: sticky;
     top: 0;
     margin-top: 1vh;
+    z-index: 2;
 }
 
 /* Footer */
