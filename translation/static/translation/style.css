@@ -82,7 +82,7 @@ header {
 
 #headcontainer {
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 4fr 3fr;
     grid-template-rows: auto auto;
     grid-template-areas: "a b""c c";
     margin: -63px auto 0 auto;
@@ -96,8 +96,8 @@ a {
 .navbar {
     display: grid;
     max-width: 874px;
-    width: 80vw;
-    grid-template-columns: repeat(5, 1fr);
+    width: 70vw;
+    grid-template-columns: repeat(4, 1fr);
     align-items: center;
     height: 60px;
     justify-self: end;
@@ -156,8 +156,8 @@ a {
     display: grid;
     align-items: center;
     height: 60px;
-    width: 150px;
-    justify-self: start;
+    width: 100%;
+    justify-self: center;
 }
 
 #flagscontainer {
@@ -168,6 +168,16 @@ a {
     background-color: var(--color-primary-2);
     justify-self: start;
     margin-right: 5px;
+}
+
+#sourceflag {
+    max-width: 50%;
+    max-height: 45px;
+    margin: auto;
+    transition: transform 0.5s ease;
+    box-shadow: 0 0 5px 0 var(--color-complement-1);
+    border-radius: 10px;
+    z-index: 1;
 }
 
 img:hover {
@@ -277,17 +287,6 @@ main {
 .transflags {
     max-width: 70%;
     vertical-align: middle;
-}
-
-#sourceflag {
-    max-width: 40%;
-    max-height: 100px;
-    margin: auto;
-    margin-left: 0;
-    transition: transform 0.5s ease;
-    box-shadow: 0 0 5px 0 var(--color-complement-1);
-    border-radius: 10px;
-    z-index: 1;
 }
 
 .smallflag {
@@ -426,6 +425,12 @@ figcaption {
     display: table-row;
 }
 
+.crop {
+    height: 40px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
 figcaption {
     text-decoration: none;
     transition: all 0.5s ease;
@@ -438,8 +443,7 @@ figcaption {
 
 .navicon {
     height: 50px;
-    width: 50px;
-    padding: 5px;
+    filter: invert(56%) sepia(7%) saturate(355%) hue-rotate(163deg) brightness(99%) contrast(86%);
 }
 
 .description {
