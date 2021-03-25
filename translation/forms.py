@@ -7,7 +7,7 @@ from translation.models import Country
 
 class searchcountryform(forms.Form):
     error_class = 'error'
-    countrystring = _("Rechercher un pays")
+    countrystring = _("Rechercher un pays (anglais)")
     country_name = forms.CharField(label="", max_length=50, widget=forms.TextInput(
         attrs={'placeholder': countrystring, 'id': 'txtSearch', 'name': 'txtSearch'}))
 

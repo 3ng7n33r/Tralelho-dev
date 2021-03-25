@@ -4,7 +4,7 @@ from django.utils.translation import ugettext as _
 from django.shortcuts import render
 from django.core.exceptions import ValidationError
 
-from .models import Country
+from .models import Country, Language
 from translation.forms import searchcountryform
 
 from weasyprint import HTML
@@ -84,7 +84,9 @@ def index(request, base_language="fra", base_flag="fra"):
 def translation(request, base_language, base_flag, target_language, target_flag):
     if (Country.objects.filter(countrycode=base_flag).filter(spoken_languages__langcode=base_language).exists() and
             Country.objects.filter(countrycode=target_flag).filter(spoken_languages__langcode=target_language).exists()):
+        validated = Language.objects.get(langcode=target_language).Validated
         context = {
+            'validated': validated,
             'continents': continents,
             'base_language': base_language,
             'base_flag': base_flag,

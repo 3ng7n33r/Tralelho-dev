@@ -22,9 +22,9 @@ make_untranslated.short_description = "Mark language as not translated"
 
 
 class LanguageAdmin(admin.ModelAdmin):
-    fields = ['Name_eng', 'Translated', 'Name_fr', 'langcode']
-    list_display = ('Name_fr', 'Translated')
-    list_filter = ['Translated']
+    fields = ['Name_eng', 'Translated', 'Validated', 'Name_fr', 'langcode']
+    list_display = ('Name_fr', 'Translated', 'Validated')
+    list_filter = ['Translated', 'Validated']
     search_fields = ['Name_eng', 'Name_fr']
     actions = [make_translated, make_untranslated]
 

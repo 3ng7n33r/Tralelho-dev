@@ -4,10 +4,10 @@
 	{% load i18n %}
 	{% load static %}
 	<div class="navbar">
-		<a class="anav" href="/{{ base_language }}/{{ base_flag }}"><i class="fa fa-globe" ></i><p class="navtext">{% translate "Traductions" %}</p></a>
-		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/documents"><i class="fa fa-file" ></i><p class="navtext">{% translate "Documents" %}</p></a>
-		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/support"><i class="fa fa-heart" ></i><p class="navtext">{% translate "Soutenez-nous" %}</p></a>
-		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/about"><i class="fa fa-info-circle " ></i><p class="navtext">{% translate "Qui-sommes nous?" %}</p></a>
+		<a class="navlogo" href="/{{ base_language }}/{{ base_flag }}/about"><i class="fa fa-globe" ></i><p class="navtext">Tralelho</p></a>	
+		<a class="anav" id="active" href="/{{ base_language }}/{{ base_flag }}"><i class="fa fa-language" ></i></a>
+		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/documents"><i class="fa fa-file" ></i></a>
+		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/support"><i class="fa fa-heart" ></i></a>
 	</div>
 {% endblock %}
 
@@ -26,6 +26,7 @@
 {% block section %}
 	{% load i18n %}
 	{% load static %}
+	<div style="padding-top: 70px"></div>
     <h2>Responsabilité</h2>
     <p>Les sources des informations diffusées sur le site http://www.tralelho.fr sont réputées fiables mais le site ne garantit pas qu’il soit exempt de défauts, d’erreurs ou d’omissions.
     Les informations communiquées sont présentées à titre indicatif et général sans valeur contractuelle. Malgré des mises à jour régulières, le site http://www.tralelho.fr ne peut être tenu responsable de la modification des dispositions administratives et juridiques survenant après la publication. De même, le site ne peut être tenue responsable de l’utilisation et de l’interprétation de l’information contenue dans ce site.
@@ -43,4 +44,30 @@
     L’Utilisateur doit toutefois donner son consentement quant à l’utilisation de certains cookies.
     A défaut d’acceptation, l’Utilisateur est informé que certaines fonctionnalités ou pages risquent de lui être refusées.
     L’Utilisateur pourra désactiver ces cookies par l’intermédiaire des paramètres figurant au sein de son logiciel de navigation.</p>
+
+	<h2>Attribution</h2>
+	<h3>Icons</h3>
+	<p>Icon made by [author link] from www.freeicons.io </p>
+	<p>hindi by Jonathan Coutiño from the Noun Project</p>
+	<p>id by Adrien Coquet from the Noun Project</p>
+	<p>Time by ignation from the Noun Project</p>
+	<p>Enter by Mutualism from the Noun Project</p>
+	<p>Brain by Creative Stall from the Noun Project</p>
+	<p>Lungs by rizky ramadhan from the Noun Project</p>
+	<p>heartbeat by Vectors Point from the Noun Project</p>
+	<p>dizziness by Chanut is Industries from the Noun Project</p>
+	<p>gastroenterologist by VM from the Noun Project</p>
+	<p>Bacteria by Adrien Coquet from the Noun Project</p>
+	<p>Eye by Pagi from the Noun Project</p>
+	<p>Medical Folder by Laymik from the Noun Project</p>
+	<p>Baby by Vectorstall from the Noun Project</p>
+	<p>Female by Chanut is Industries from the Noun Project</p>
+	<p>Bone by Vectorstall from the Noun Project</p>
+	<p>Radiology by Minh Do from the Noun Project</p>
+	<p>Medicine book by mambu from the Noun Project</p>
+	<p>conclusion by Adrien Coquet from the Noun Project</p>
+	<p>report by Pauel Tepikin from the Noun Project</p>
+	<h3>Photos</h3>
+	<p>Photo by <a href="https://unsplash.com/@nci?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">National Cancer Institute</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+  <p>Photo by <a href="https://unsplash.com/@sharonmccutcheon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sharon McCutcheon</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
 {% endblock %}

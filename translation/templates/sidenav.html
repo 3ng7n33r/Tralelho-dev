@@ -1,31 +1,30 @@
 {% load i18n %}
 {% load static %}
 <div class="sidemenu">
-	<button onclick='txtUpDown()' type="button" id="transbutton" class="neumorphic variation2"><span><i class="fa fa-language fa-1g" aria-hidden="true"></i></span></button>
+	
 	<nav>
-		<button onclick='collapsenav()' type="button" id="collapsebutton" class="transbutton"><span><i class="fa fa-angle-right fa-1g" aria-hidden="true"></i></span></button>
-		<div class="content">
+		<div class="navcontent">
 			<ul>
 				{% language base_language %}
-				<li><a onclick='collapsenav()' href='#PRESENTATION'><div class="description hidden">{% translate "PRESENTATION" %}</div></a></li>
-				<li><a onclick='collapsenav()' href='#IDENTITÉ'><div class="description hidden">{% translate "IDENTITÉ" %}</div></a></li>
-				<li><a onclick='collapsenav()' href='#ATTENTE'><div class="description hidden">{% translate "ATTENTE" %}</div></a></li>
-				<li><a onclick='collapsenav()' href='#ACCUEIL'><div class="description hidden">{% translate "ACCUEIL" %}</div></a></li>
-				<li><a onclick='collapsenav()' href='#NEUROLOGIE'><div class="description hidden">{% translate "NEUROLOGIE" %}</div></a></li>
-				<li><a onclick='collapsenav()' href='#PNEUMOLOGIE'><div class="description hidden">{% translate "PNEUMOLOGIE" %}</div></a></li>
-				<li><a onclick='collapsenav()' href='#CARDIOLOGIE'><div class="description hidden">{% translate "CARDIOLOGIE" %}</div></a></li>
-				<li><a onclick='collapsenav()' href='#MALAISE'><div class="description hidden">{% translate "MALAISE" %}</div></a></li>
-				<li><a onclick='collapsenav()' href='#DIGESTIF'><div class="description hidden">{% translate "DIGESTIF" %}</div></a></li>
-				<li><a onclick='collapsenav()' href='#INFECTIEUX'><div class="description hidden">{% translate "INFECTIEUX" %}</div></a></li>
-				<li><a onclick='collapsenav()' href='#OPHTALMOLOGIE'><div class="description hidden">{% translate "OPHTALMOLOGIE" %}</div></a></li>
-				<li><a onclick='collapsenav()' href='#ANTÉCÉDENTS'><div class="description hidden">{% translate "ANTÉCÉDENTS" %}</div></a></li>
-				<li><a onclick='collapsenav()' href='#PEDIATRIE'><div class="description hidden">{% translate "PEDIATRIE" %}</div></a></li>
-				<li><a onclick='collapsenav()' href='#GYNECOLOGIE'><div class="description hidden">{% translate "GYNECOLOGIE" %}</div></a></li>
-				<li><a onclick='collapsenav()' href='#TRAUMATOLOGIE'><div class="description hidden">{% translate "TRAUMATOLOGIE" %}</div></a></li>
-				<li><a onclick='collapsenav()' href='#EXAMENS'><div class="description hidden">{% translate "EXAMENS" %}</div></a></li>
-				<li><a onclick='collapsenav()' href='#TRAITEMENTS et CONSIGNES'><div class="description hidden">{% translate "TRAITEMENTS et CONSIGNES" %}</div></a></li>
-				<li><a onclick='collapsenav()' href='#CONCLUSION'><div class="description hidden">{% translate "CONCLUSION" %}</div></a></li>
-				<li><a onclick='collapsenav()' href='#PATIENT EN STRUCTURE'><div class="description hidden">{% translate "PATIENT EN STRUCTURE" %}</div></a></li>
+				<li style="text-align: center"><button onclick='txtUpDown()' type="button" id="transbutton"><span><img src="{% get_static_prefix %}translation/icons/iconmonstr-language-2.svg"></span></button></li>
+				<li><a class="sidenava" href='#PRESENTATION'><div class="crop"><img class="navicon" src="{% get_static_prefix %}translation/icons/PRESENTATION.png"></div><p class="description">{% translate "PRESENTATION" %}</p></a></li>
+				<li><a class="sidenava" href='#IDENTITÉ'><div class="crop"><img class="navicon" src="{% get_static_prefix %}translation/icons/IDENTITÉ.png"></div><p class="description">{% translate "IDENTITÉ" %}</p></a></li>
+				<li><a class="sidenava" href='#ATTENTE'><div class="crop"><img class="navicon" src="{% get_static_prefix %}translation/icons/ATTENTE.png"></div><p class="description">{% translate "ATTENTE" %}</p></a></li>
+				<li><a class="sidenava" href='#ACCUEIL'><div class="crop"><img class="navicon" src="{% get_static_prefix %}translation/icons/ACCUEIL.png"></div><p class="description">{% translate "ACCUEIL" %}</p></a></li>
+				<li><a class="sidenava" href='#ANTÉCÉDENTS'><div class="crop"><img class="navicon" src="{% get_static_prefix %}translation/icons/ANTÉCÉDENTS.png"></div><p class="description">{% translate "ANTÉCÉDENTS" %}</p></a></li>				
+				<li><a class="sidenava" href='#NEUROLOGIE'><div class="crop"><img class="navicon" src="{% get_static_prefix %}translation/icons/NEUROLOGIE.png"></div><p class="description">{% translate "NEUROLOGIE" %}</p></a></li>
+				<li><a class="sidenava" href='#PNEUMOLOGIE'><div class="crop"><img class="navicon" src="{% get_static_prefix %}translation/icons/PNEUMOLOGIE.png"></div><p class="description">{% translate "PNEUMOLOGIE" %}</p></a></li>
+				<li><a class="sidenava" href='#CARDIOLOGIE'><div class="crop"><img class="navicon" src="{% get_static_prefix %}translation/icons/CARDIOLOGIE.png"></div><p class="description">{% translate "CARDIOLOGIE" %}</p></a></li>
+				<li><a class="sidenava" href='#MALAISE'><div class="crop"><img class="navicon" src="{% get_static_prefix %}translation/icons/MALAISE.png"></div><p class="description">{% translate "MALAISE" %}</p></a></li>
+				<li><a class="sidenava" href='#DIGESTIF'><div class="crop"><img class="navicon" src="{% get_static_prefix %}translation/icons/DIGESTIF.png"></div><p class="description">{% translate "DIGESTIF" %}</p></a></li>
+				<li><a class="sidenava" href='#INFECTIEUX'><div class="crop"><img class="navicon" src="{% get_static_prefix %}translation/icons/INFECTIEUX.png"></div><p class="description">{% translate "INFECTIEUX" %}</p></a></li>
+				<li><a class="sidenava" href='#OPHTALMOLOGIE'><div class="crop"><img class="navicon" src="{% get_static_prefix %}translation/icons/OPHTALMOLOGIE.png"></div><p class="description">{% translate "OPHTALMOLOGIE" %}</p></a></li>
+				<li><a class="sidenava" href='#PEDIATRIE'><div class="crop"><img class="navicon" src="{% get_static_prefix %}translation/icons/PEDIATRIE.png"></div><p class="description">{% translate "PEDIATRIE" %}</p></a></li>
+				<li><a class="sidenava" href='#GYNECOLOGIE'><div class="crop"><img class="navicon" src="{% get_static_prefix %}translation/icons/GYNECOLOGIE.png"></div><p class="description">{% translate "GYNECOLOGIE" %}</p></a></li>
+				<li><a class="sidenava" href='#TRAUMATOLOGIE'><div class="crop"><img class="navicon" src="{% get_static_prefix %}translation/icons/TRAUMATOLOGIE.png"></div><p class="description">{% translate "TRAUMATOLOGIE" %}</p></a></li>
+				<li><a class="sidenava" href='#EXAMENS'><div class="crop"><img class="navicon" src="{% get_static_prefix %}translation/icons/EXAMENS.png"></div><p class="description">{% translate "EXAMENS" %}</p></a></li>
+				<li><a class="sidenava" href='#TRAITEMENTS et CONSIGNES'><div class="crop"><img class="navicon" src="{% get_static_prefix %}translation/icons/TRAITEMENTS.png"></div><p class="description">{% translate "TRAITEMENTS et CONSIGNES" %}</p></a></li>
+				<li><a class="sidenava" href='#CONCLUSION'><div class="crop"><img class="navicon" src="{% get_static_prefix %}translation/icons/CONCLUSION.png"></div><p class="description">{% translate "CONCLUSION" %}</p></a></li>
 				{% endlanguage %}
 			</ul>
 		</div>
