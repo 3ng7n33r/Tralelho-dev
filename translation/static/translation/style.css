@@ -180,7 +180,11 @@ a {
     z-index: 1;
 }
 
-img:hover {
+figure>img:hover {
+    transform: scale(1.12);
+}
+
+.navflags:hover {
     transform: scale(1.12);
 }
 
@@ -323,16 +327,16 @@ article {
     border-radius: 20px;
 }
 
-.about {
+.support {
     background-color: var(--color-primary-0);
 }
 
-.about>article {
+.support>article {
     padding: 1px 20px;
     margin-bottom: 25px;
 }
 
-.about>h1 {
+.support>h1 {
     text-align: center;
 }
 
@@ -357,16 +361,13 @@ aside>div {
     justify-content: center;
 }
 
-#changebase {
-    width: 100vw;
-}
-
 #changebase>.langcontainer {
     display: flex;
     flex-wrap: wrap;
     padding: 5px;
     justify-content: center;
-    height: 400px;
+    min-height: 1px;
+    max-height: 60vh;
     overflow-y: scroll;
 }
 
@@ -475,7 +476,7 @@ nav ul {
     padding: 0;
 }
 
-h3:hover {
+#changebase h3:hover {
     background-color: var(--color-complement-0);
 }
 
@@ -908,4 +909,72 @@ p[data-value]:after {
 
 .poparticle:hover {
     background-color: var(--color-complement-0);
+}
+
+#aboutheader {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutheader i {
+    color: rgb(255, 125, 19);
+    font-size: min(10vw, 30px);
+}
+
+.about {
+    background-color: var(--color-primary-0);
+}
+
+.about>article {
+    padding: 20px 20px;
+    margin-bottom: 25px;
+}
+
+.about>h1 {
+    text-align: center;
+}
+
+.artsection {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.artsection img {
+    border-radius: 10px;
+    width: 45%;
+}
+
+.artsection p {
+    width: 45%;
+    font-size: larger;
+}
+
+.artsection ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: larger;
+}
+
+.artsection li {
+    margin: 0 0 15px 0;
+}
+
+.artsection a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: larger;
+}
+
+.artsection a:hover {
+    color: var(--color-complement-2)
+}
+
+.artsection h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: var(--fs-h3);
 }
