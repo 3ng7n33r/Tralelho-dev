@@ -316,7 +316,7 @@ main {
 }
 
 section {
-    width: 96%;
+    width: 96vw;
     margin: 0 auto 0 auto;
     max-width: 1024px;
     padding-top: 60px;
@@ -325,6 +325,15 @@ section {
 article {
     background-color: var(--color-primary-1);
     border-radius: 20px;
+}
+
+#don {
+    display: table;
+    margin: 0 auto;
+}
+
+#don>img {
+    width: 300px;
 }
 
 .support {
@@ -920,9 +929,6 @@ p[data-value]:after {
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (max-device-width : 700px) {
-    .navlogo i {
-        display: none;
-    }
 
     #aboutheader i {
         display: none;
