@@ -1,6 +1,7 @@
 #Unfinished documents
 translation/static/translation/docs/_obsolete
 translation/static/translation/docs/backup
+static
 
 #secret key
 secret_key.txt
