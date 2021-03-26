@@ -1,34 +1,36 @@
-//Collapse and pull out sidenav in translation page
-function collapsenav() {
-	let coll = document.getElementById("collapsebutton");
-	coll.classList.toggle("transbutton--pressed");
-	let content = document.getElementsByClassName("description");
-	for (let i=0, len=content.length; i<len; i++) {
-		content[i].classList.toggle("hidden")
-	}
-}
-
 //Collapse and pop up upsidedown text in translation page
 function txtUpDown() {
 	let coll = document.getElementById("transbutton");
-	coll.classList.toggle("neumorphic--pressed");
+	coll.classList.toggle("pressed");
 	let translation = document.querySelectorAll('td:last-child');
 	let baselanguage = document.querySelectorAll('td:first-child');
 	let content = document.getElementsByClassName("txtUpsideDown")[0];
+	let h2 = document.getElementsByClassName("category")
     if (content.style.display === "block") {
 		content.style.display = "none";
+
+		for (var i = 0; i < h2.length; i++) {
+			h2[i].classList.toggle("transmode")
+		  }
+
 		for (let i=0, len = translation.length; i<len; i++) {
 			translation[i].style.removeProperty("display")
 			baselanguage[i].style.removeProperty("border-radius")
 		}
 	  } else {
 		content.style.display = "block";
+
+		for (var i = 0; i < h2.length; i++) {
+			h2[i].classList.toggle("transmode")
+		  }
+
 		for (let i=0, len = translation.length; i<len; i++) {
 			translation[i].style.display = "none";
 			baselanguage[i].style.borderRadius = "10px";
 		}
 	  }
 }
+
 
 function switchVisibilityBlock(ID) {
 	let element = document.getElementById(ID);
@@ -67,8 +69,19 @@ function togglerow(id) {
 
 	let textbox = document.getElementById("fittext")
 
+	// adjust font to fit container on a tablet
+	if (textbox.clientWidth < 800 || textbox.clientHeight < 800){
+		if (text.length > 170){
+			textbox.style.fontSize = "30px"
+		} else if (text.length > 80) {
+			textbox.style.fontSize = "40px"
+		} else {
+			textbox.style.fontSize = "50px"
+		}
+	}
+
 	// adjust font to fit container on mobile
-	if (textbox.clientWidth < 400 || textbox.clientHeight < 250){
+	if (textbox.clientWidth < 400 || textbox.clientHeight < 400){
 		if (text.length > 170){
 			textbox.style.fontSize = "25px"
 		} else if (text.length > 80) {
