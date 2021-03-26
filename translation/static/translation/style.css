@@ -642,75 +642,6 @@ footer {
 
 
 
-@media only screen and (max-device-width : 1274px) {
-    .sidemenu {
-        margin-right: auto;
-    }
-}
-
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (max-device-width : 700px) {
-    .navlogo i {
-        display: none;
-    }
-
-    .description {
-        display: none;
-    }
-
-    .sidemenu {
-        width: 60px;
-    }
-
-    .navtext {
-        font-size: medium;
-    }
-
-    #navarrow {
-        font-size: medium;
-    }
-
-    figcaption {
-        font-size: small;
-    }
-
-    #crowdjet-expand-container {
-        display: none;
-    }
-
-    #logo {
-        margin-right: 0px;
-    }
-
-    .langcontainer>a {
-        padding: 0px;
-    }
-}
-
-@media only screen and (max-device-width : 500px) {}
-
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    :root {
-        --fs-h1: 4.5rem;
-        --fs-h2: 3.75rem;
-        --fs-h3: 1.5rem;
-        --fs-body: 1.125rem;
-    }
-}
-
-/* Desktops and laptops ----------- */
-@media only screen and (min-width : 1224px) {
-    /* Styles */
-}
-
-/* iPhone 4 ----------- */
-@media only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-    /* Styles */
-}
-
 /* Progress Bars */
 
 
@@ -977,4 +908,88 @@ p[data-value]:after {
     text-align: center;
     margin-bottom: 15px;
     font-size: var(--fs-h3);
+}
+
+
+
+@media only screen and (max-device-width : 1274px) {
+    .sidemenu {
+        margin-right: auto;
+    }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-device-width : 700px) {
+    .navlogo i {
+        display: none;
+    }
+
+    #aboutheader i {
+        display: none;
+    }
+
+    .artsection img {
+        display: none;
+    }
+
+    .artsection p {
+        width: 90%;
+        font-size: larger;
+    }
+
+    .description {
+        display: none;
+    }
+
+    .sidemenu {
+        width: 60px;
+    }
+
+    .navtext {
+        font-size: medium;
+    }
+
+    #navarrow {
+        font-size: medium;
+    }
+
+    figcaption {
+        font-size: small;
+    }
+
+    #crowdjet-expand-container {
+        display: none;
+    }
+
+    #logo {
+        margin-right: 0px;
+    }
+
+    .langcontainer>a {
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-device-width : 500px) {}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    :root {
+        --fs-h1: 4.5rem;
+        --fs-h2: 3.75rem;
+        --fs-h3: 1.5rem;
+        --fs-body: 1.125rem;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+    /* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+    /* Styles */
 }
