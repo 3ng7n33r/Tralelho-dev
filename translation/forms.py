@@ -15,7 +15,7 @@ class searchcountryform(forms.Form):
         data = self.cleaned_data['country_name']
 
         try:
-            Country.objects.get(Name_eng__iexact=data)
+            Country.objects.get(Name_eng__istartswith=data)
         except:
             raise ValidationError(
                 _("Nous n'avons pas trouvé ce pays. Merci de verifier l'orthographe"))

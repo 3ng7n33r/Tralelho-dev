@@ -33,11 +33,13 @@ def autocompleteModel(request, base_language):
     if request.is_ajax():
         q = request.GET.get('term', '').capitalize()
         search_qs = Country.objects.filter(Name_eng__startswith=q).filter(
-            spoken_languages__Translated=True).exclude(spoken_languages__langcode=base_language)
+            spoken_languages__Translated=True).distinct()
         results = []
         print(q)
         for r in search_qs:
-            results.append(r.Name_eng)
+            for lang in r.spoken_languages.all():
+                if lang.langcode != base_language and lang.Translated:
+                    results.append(r.Name_eng + ' (' + lang.Name_eng + ')')
         data = json.dumps(results)
     else:
         data = 'fail'
@@ -53,7 +55,8 @@ def index(request, base_language="fra", base_flag="fra"):
             # check whether it's valid:
             if form.is_valid():
                 Name_form = form.cleaned_data['country_name']
-                countryform = Country.objects.get(Name_eng__iexact=Name_form)
+                countryform = Country.objects.get(
+                    Name_eng__istartswith=Name_form)
 
                 language = countryform.spoken_languages.filter(
                     Translated=True).exclude(langcode=base_language)
