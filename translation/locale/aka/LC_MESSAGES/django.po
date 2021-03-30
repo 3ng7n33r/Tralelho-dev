@@ -3,17 +3,17 @@ msgstr ""
 "Project-Id-Version: 73d3b19e82fc460fd936796fc5b25f94\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-11 15:45+0000\n"
-"PO-Revision-Date: 2021-03-30 10:31\n"
+"PO-Revision-Date: 2021-03-30 10:32\n"
 "Last-Translator: \n"
-"Language-Team: Norwegian\n"
-"Language: no\n"
+"Language-Team: Akan\n"
+"Language: ak\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Crowdin-Project: 73d3b19e82fc460fd936796fc5b25f94\n"
 "X-Crowdin-Project-ID: 2\n"
-"X-Crowdin-Language: no\n"
+"X-Crowdin-Language: ak\n"
 "X-Crowdin-File: /master/translation/locale/fra/LC_MESSAGES/django.po\n"
 "X-Crowdin-File-ID: 12\n"
 
@@ -76,14 +76,14 @@ msgstr ""
 #: translation/templates/translation/language.html:3671
 #: translation/templates/translation/language.html:3674
 msgid "Durant l'examen, on vous demandera de gonfler et les poumons et de bloquer la respiration"
-msgstr "Under prosedyren vil du bli bedt om å puste inn dypt og holde lungene fylt med luft"
+msgstr "During the scan/examination, we will ask you to breath in deeply and keep your lungs filled with air."
 
 #: translation/templates/doctemplates/irm.html:41
 #: translation/templates/doctemplates/irm.html:42
 #: translation/templates/translation/language.html:2017
 #: translation/templates/translation/language.html:2020
 msgid "Pour nous appeler appuyer ici"
-msgstr "For å tilkalle oss trykk her"
+msgstr "To call us, press here."
 
 #: translation/templates/doctemplates/irm.html:47
 msgid "Checklist IRM"
@@ -135,7 +135,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3751
 #: translation/templates/translation/language.html:3754
 msgid "Oui"
-msgstr "Ja"
+msgstr "Yes"
 
 #: translation/templates/doctemplates/irm.html:80
 #: translation/templates/doctemplates/irm.html:81
@@ -148,7 +148,7 @@ msgstr "Ja"
 #: translation/templates/translation/language.html:3759
 #: translation/templates/translation/language.html:3762
 msgid "Non"
-msgstr "Nei"
+msgstr "No"
 
 #: translation/templates/doctemplates/irm.html:82
 #: translation/templates/doctemplates/irm.html:83
@@ -159,7 +159,7 @@ msgstr "Nei"
 #: translation/templates/translation/language.html:3767
 #: translation/templates/translation/language.html:3770
 msgid "Je ne sais pas"
-msgstr ""
+msgstr "I don't know."
 
 #: translation/templates/doctemplates/irm.html:89
 #: translation/templates/doctemplates/irm.html:90
@@ -216,7 +216,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3631
 #: translation/templates/translation/language.html:3634
 msgid "Avez-vous des éclats métalliques dans les yeux?"
-msgstr ""
+msgstr "Do you have metal shards in your eyes ?"
 
 #: translation/templates/doctemplates/irm.html:188
 #: translation/templates/doctemplates/irm.html:189
@@ -228,7 +228,7 @@ msgstr ""
 #: translation/templates/doctemplates/scn.html:83
 #: translation/templates/doctemplates/scn.html:84
 msgid "Êtes-vous enceinte?"
-msgstr "Er du gravid?"
+msgstr ""
 
 #: translation/templates/doctemplates/irm.html:203
 #: translation/templates/doctemplates/irm.html:204
@@ -240,7 +240,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3655
 #: translation/templates/translation/language.html:3658
 msgid "Si oui, avez-vous une carte avec les références du matériel?"
-msgstr "Hvis ja, har du et kort med referansenummer til utstyret?"
+msgstr "If yes, do you have a card containing the equipment reference numbers?"
 
 #: translation/templates/doctemplates/irm.html:218
 #: translation/templates/doctemplates/irm.html:219
@@ -301,97 +301,97 @@ msgstr ""
 #: translation/templates/sidenav.html:10
 #: translation/templates/translation/language.html:43
 msgid "PRESENTATION"
-msgstr "OVERSIKT"
+msgstr "Introduction"
 
 #: translation/templates/sidenav.html:11
 #: translation/templates/translation/language.html:130
 msgid "IDENTITÉ"
-msgstr "Identitet"
+msgstr "identity"
 
 #: translation/templates/sidenav.html:12
 #: translation/templates/translation/language.html:217
 msgid "ATTENTE"
-msgstr "Venter"
+msgstr "Waiting"
 
 #: translation/templates/sidenav.html:13
 #: translation/templates/translation/language.html:304
 msgid "ACCUEIL"
-msgstr "Resepsjon"
+msgstr "Reception"
 
 #: translation/templates/sidenav.html:14
 #: translation/templates/translation/language.html:503
 msgid "NEUROLOGIE"
-msgstr "Nevrologi"
+msgstr "Neurology"
 
 #: translation/templates/sidenav.html:15
 #: translation/templates/translation/language.html:686
 msgid "PNEUMOLOGIE"
-msgstr ""
+msgstr "Pulmonology"
 
 #: translation/templates/sidenav.html:16
 #: translation/templates/translation/language.html:773
 msgid "CARDIOLOGIE"
-msgstr ""
+msgstr "Cardiology"
 
 #: translation/templates/sidenav.html:17
 #: translation/templates/translation/language.html:932
 msgid "MALAISE"
-msgstr ""
+msgstr "Dizziness/loss of consciousness"
 
 #: translation/templates/sidenav.html:18
 #: translation/templates/translation/language.html:1043
 msgid "DIGESTIF"
-msgstr "Fordøyelsesproblemer"
+msgstr "digestive problems"
 
 #: translation/templates/sidenav.html:19
 #: translation/templates/translation/language.html:1194
 msgid "INFECTIEUX"
-msgstr ""
+msgstr "infectious problems"
 
 #: translation/templates/sidenav.html:20
 #: translation/templates/translation/language.html:1273
 msgid "OPHTALMOLOGIE"
-msgstr ""
+msgstr "Ophthalmology"
 
 #: translation/templates/sidenav.html:21
 #: translation/templates/translation/language.html:1320
 msgid "ANTÉCÉDENTS"
-msgstr "Medisinsk historie"
+msgstr "Medical History"
 
 #: translation/templates/sidenav.html:22
 #: translation/templates/translation/language.html:1399
 msgid "PEDIATRIE"
-msgstr ""
+msgstr "Peaditric problems"
 
 #: translation/templates/sidenav.html:23
 #: translation/templates/translation/language.html:1470
 msgid "GYNECOLOGIE"
-msgstr ""
+msgstr "Gynacology"
 
 #: translation/templates/sidenav.html:24
 #: translation/templates/translation/language.html:1573
 msgid "TRAUMATOLOGIE"
-msgstr ""
+msgstr "Traumatology"
 
 #: translation/templates/sidenav.html:25
 #: translation/templates/translation/language.html:1700
 msgid "EXAMENS"
-msgstr "Prøver"
+msgstr "Tests"
 
 #: translation/templates/sidenav.html:26
 #: translation/templates/translation/language.html:1939
 msgid "TRAITEMENTS et CONSIGNES"
-msgstr "Behandling og instruksjoner"
+msgstr "Treatment and instructions"
 
 #: translation/templates/sidenav.html:27
 #: translation/templates/translation/language.html:2058
 msgid "CONCLUSION"
-msgstr "KONKLUSJON"
+msgstr "CONCLUSION"
 
 #: translation/templates/sidenav.html:28
 #: translation/templates/translation/language.html:2161
 msgid "PATIENT EN STRUCTURE"
-msgstr ""
+msgstr "Patient in Hospital"
 
 #: translation/templates/translation/about.html:7
 #: translation/templates/translation/disclaimer.html:7
@@ -440,350 +440,350 @@ msgstr ""
 #: translation/templates/translation/language.html:49
 #: translation/templates/translation/language.html:52
 msgid "Je vais utiliser le téléphone pour traduire les questions que j'ai à vous poser, êtes vous d'accord ?"
-msgstr ""
+msgstr "Hello, I am a nurse.  Do you mind if I use my phone to translate the questions that I'll be asking you?"
 
 #: translation/templates/translation/language.html:57
 #: translation/templates/translation/language.html:60
 msgid "Bonjour, je suis infirmière"
-msgstr ""
+msgstr "Nurse"
 
 #: translation/templates/translation/language.html:65
 #: translation/templates/translation/language.html:68
 msgid "Bonjour, je suis médecin"
-msgstr ""
+msgstr "Doctor"
 
 #: translation/templates/translation/language.html:73
 #: translation/templates/translation/language.html:76
 msgid "Bonjour, je suis secouriste"
-msgstr ""
+msgstr "first aider"
 
 #: translation/templates/translation/language.html:81
 #: translation/templates/translation/language.html:84
 msgid "Bonjour, je suis bénévole"
-msgstr ""
+msgstr "volunteer"
 
 #: translation/templates/translation/language.html:89
 #: translation/templates/translation/language.html:92
 msgid "Bonjour, je suis agent d'accueil"
-msgstr ""
+msgstr "customer service representative"
 
 #: translation/templates/translation/language.html:97
 #: translation/templates/translation/language.html:100
 msgid "Bonjour, je suis étudiant en médecine"
-msgstr ""
+msgstr "Medical student"
 
 #: translation/templates/translation/language.html:105
 #: translation/templates/translation/language.html:108
 msgid "Bonjour, je suis sage-femme"
-msgstr ""
+msgstr "Midwife"
 
 #: translation/templates/translation/language.html:113
 #: translation/templates/translation/language.html:116
 msgid "Bonjour, je suis secrétaire"
-msgstr ""
+msgstr "secretary"
 
 #: translation/templates/translation/language.html:121
 #: translation/templates/translation/language.html:124
 msgid "Bonjour, je suis soignant"
-msgstr "Støttekontakt"
+msgstr "nursing staff"
 
 #: translation/templates/translation/language.html:136
 #: translation/templates/translation/language.html:139
 msgid "Pouvez-vous me montrez votre passeport"
-msgstr "Kan du vise meg passet ditt?"
+msgstr "Can you show me your passport?"
 
 #: translation/templates/translation/language.html:144
 #: translation/templates/translation/language.html:147
 msgid "Pouvez-vous me montrez une carte d’identité"
-msgstr ""
+msgstr "Would I be able to see some ID?"
 
 #: translation/templates/translation/language.html:152
 #: translation/templates/translation/language.html:155
 msgid "Pouvez-vous me montrer des papiers avec votre nom"
-msgstr "Kunne jeg få se noen papirer med navnet ditt på?"
+msgstr "Would I be able to see some papers with your name on?"
 
 #: translation/templates/translation/language.html:160
 #: translation/templates/translation/language.html:163
 msgid "Pouvez-vous me montrer une carte Européenne de santé"
-msgstr "Har du europeisk helsetrygdkort?"
+msgstr "Do you have a European health card?"
 
 #: translation/templates/translation/language.html:168
 #: translation/templates/translation/language.html:171
 msgid "Pouvez-vous me montre une carte d’assurance privée"
-msgstr ""
+msgstr "Do you have any private insurance? Do you have your card with you?"
 
 #: translation/templates/translation/language.html:176
 #: translation/templates/translation/language.html:179
 msgid "Les frais des soins seront à votre charge"
-msgstr "Kostnadene til pleie dekkes ikke av forsikringen og du vil måtte betale full pris"
+msgstr "The cost of care will not be covered by insurance and you will need to pay in full."
 
 #: translation/templates/translation/language.html:184
 #: translation/templates/translation/language.html:187
 msgid "Les frais des soins ne seront pas à votre charge"
-msgstr "Kostnadene til pleie dekkes av forsikring. Du trenger ikke betale noe"
+msgstr "The cost of care will be covered by insurance.  You will not need to pay anything."
 
 #: translation/templates/translation/language.html:192
 #: translation/templates/translation/language.html:195
 msgid "De quel pays venez-vous ?"
-msgstr "Hvilket land er du fra?"
+msgstr "What country do you come from?"
 
 #: translation/templates/translation/language.html:200
 #: translation/templates/translation/language.html:203
 msgid "A quelle adresse vivez-vous actuellement ?"
-msgstr "Hva er din nåværende adresse?"
+msgstr "What is your current address?"
 
 #: translation/templates/translation/language.html:208
 #: translation/templates/translation/language.html:211
 msgid "Avez-vous un numéro de téléphone où l’on peut vous joindre ?"
-msgstr "Har du et telefonnummer jeg kan kontakte deg på?"
+msgstr "Do you have a phone number that I can contact you on?"
 
 #: translation/templates/translation/language.html:223
 #: translation/templates/translation/language.html:226
 msgid "Je vous laisse attendre :"
-msgstr "Vennligst vent"
+msgstr ""
 
 #: translation/templates/translation/language.html:231
 #: translation/templates/translation/language.html:234
 msgid "Je vous laisse attendre sur les chaises"
-msgstr ""
+msgstr "on the chairs"
 
 #: translation/templates/translation/language.html:239
 #: translation/templates/translation/language.html:242
 msgid "Je vous laisse attendre sur le banc"
-msgstr ""
+msgstr "on the bench"
 
 #: translation/templates/translation/language.html:247
 #: translation/templates/translation/language.html:250
 msgid "Je vous laisse attendre dans la salle d'attente"
-msgstr ""
+msgstr "in the waiting room"
 
 #: translation/templates/translation/language.html:255
 #: translation/templates/translation/language.html:258
 msgid "Nous viendrons vous appeler"
-msgstr ""
+msgstr "We will come and get you."
 
 #: translation/templates/translation/language.html:263
 #: translation/templates/translation/language.html:266
 msgid "Merci de ne pas manger, boire ou fumer pendant l’attente"
-msgstr ""
+msgstr "No eating, drinking or smoking in the waiting areas."
 
 #: translation/templates/translation/language.html:271
 #: translation/templates/translation/language.html:274
 msgid "Votre famille devra attendre ici"
-msgstr "Familien din må vente her"
+msgstr "Your family needs to wait here."
 
 #: translation/templates/translation/language.html:279
 #: translation/templates/translation/language.html:282
 msgid "Selon votre état de santé, le médecin demandera parfois des soins, comme une prise de sang, un examen comme une radio ou un scanner, ou pourra demander de vous garder en observation pour surveiller votre état de santé"
-msgstr "Avhengig av din helsetilstand vil legen noen ganger spørre om å få kunne ta blodprøve, radiologisk undersøkelse (MR-scan, røntgen, og lignende) eller be om at du blir her slik at de kan overvåke helsetilstanden din"
+msgstr "Depending on you status of health, the doctor will sometimes ask for further investigations, like blood tests, radiographies, scans, or they could request to keep you here for observation."
 
 #: translation/templates/translation/language.html:287
 #: translation/templates/translation/language.html:290
 msgid "Nous vous demandons de ne pas manger ou boire tant que le médecin ne vous y a pas autorisé, certains examens demandant de rester à jeun"
-msgstr "Vi ber deg om å avstå fra å spise og drikke til legen din sier noe annet. Visse tester krever at du er på tom mage"
+msgstr "We ask that you refrain from eating or drinking until otherwise stated by the doctor.  Certain tests require an empty stomach."
 
 #: translation/templates/translation/language.html:295
 #: translation/templates/translation/language.html:298
 msgid "Il faut attendre 1 heure pour avoir les résultats de la prise de sang"
-msgstr "Du må vente en time før du kan motta blodprøveresultatene"
+msgstr "You need to wait 1 hour to receive the blood test results."
 
 #: translation/templates/translation/language.html:310
 #: translation/templates/translation/language.html:313
 #| msgid "Est-ce que vous voyez flou ?"
 msgid "Qu’est-ce qui vous arrive ?"
-msgstr "Hva skjedde med deg?"
+msgstr ""
 
 #: translation/templates/translation/language.html:318
 #: translation/templates/translation/language.html:321
 msgid "Avez-vous des douleurs ?"
-msgstr "Har du smerter?"
+msgstr "Are you in pain?"
 
 #: translation/templates/translation/language.html:342
 #: translation/templates/translation/language.html:345
 msgid "Montrez-moi où vous avez mal"
-msgstr "Vis meg hvor det gjør vondt"
+msgstr "Show me where it hurts."
 
 #: translation/templates/translation/language.html:350
 #: translation/templates/translation/language.html:353
 msgid "Je vais vous examiner"
-msgstr "Jeg skal undersøke deg"
+msgstr "I am going to examine you."
 
 #: translation/templates/translation/language.html:358
 #: translation/templates/translation/language.html:361
 msgid "Pourriez-vous chiffrer votre douleur entre 0 et 10 ?"
-msgstr "På en skala fra 1 til 10, hvor vondt har du det?"
+msgstr "On a scale of 1 to 10, can you rate your pain level?"
 
 #: translation/templates/translation/language.html:366
 #: translation/templates/translation/language.html:369
 msgid "10 étant la note pour une douleur insupportable"
-msgstr "10 er helt uutholdelig."
+msgstr "10 being absolutely unbearable"
 
 #: translation/templates/translation/language.html:374
 #: translation/templates/translation/language.html:377
 msgid "0"
-msgstr "Null"
+msgstr ""
 
 #: translation/templates/translation/language.html:382
 #: translation/templates/translation/language.html:385
 msgid "1"
-msgstr "En"
+msgstr "one"
 
 #: translation/templates/translation/language.html:390
 #: translation/templates/translation/language.html:393
 msgid "2"
-msgstr "To"
+msgstr "two"
 
 #: translation/templates/translation/language.html:398
 #: translation/templates/translation/language.html:401
 msgid "3"
-msgstr "Tre"
+msgstr "three"
 
 #: translation/templates/translation/language.html:406
 #: translation/templates/translation/language.html:409
 msgid "4"
-msgstr "Fire"
+msgstr "four"
 
 #: translation/templates/translation/language.html:414
 #: translation/templates/translation/language.html:417
 msgid "5"
-msgstr "Fem"
+msgstr "five"
 
 #: translation/templates/translation/language.html:422
 #: translation/templates/translation/language.html:425
 msgid "6"
-msgstr "Seks"
+msgstr "six"
 
 #: translation/templates/translation/language.html:430
 #: translation/templates/translation/language.html:433
 msgid "7"
-msgstr "Sju"
+msgstr "seven"
 
 #: translation/templates/translation/language.html:438
 #: translation/templates/translation/language.html:441
 msgid "8"
-msgstr "Åtte"
+msgstr "eight"
 
 #: translation/templates/translation/language.html:446
 #: translation/templates/translation/language.html:449
 msgid "9"
-msgstr "Ni"
+msgstr "nine"
 
 #: translation/templates/translation/language.html:454
 #: translation/templates/translation/language.html:457
 msgid "10"
-msgstr "Ti"
+msgstr "ten"
 
 #: translation/templates/translation/language.html:462
 #: translation/templates/translation/language.html:465
 msgid "Pouvez vous vous déshabiller pour que je vous examine"
-msgstr "Kan du kle av deg, så jeg kan få undersøkt deg"
+msgstr "Can you please undress so I can examine you?"
 
 #: translation/templates/translation/language.html:470
 #: translation/templates/translation/language.html:473
 msgid "Vous pouvez garder vos sous-vêtements"
-msgstr "Du kan beholde undertøyet på"
+msgstr "You can keep your underwear on."
 
 #: translation/templates/translation/language.html:478
 #: translation/templates/translation/language.html:481
 msgid "Vous pouvez vous asseoir sur la chaise"
-msgstr "Du kan sitte på stolen"
+msgstr "You can sit on the chair."
 
 #: translation/templates/translation/language.html:486
 #: translation/templates/translation/language.html:489
 msgid "Vous pouvez vous allonger sur la table d'examen"
-msgstr "Du kan ligge på bordet"
+msgstr "You can lie on the table."
 
 #: translation/templates/translation/language.html:494
 #: translation/templates/translation/language.html:497
 msgid "Vous pouvez vous allonger sur le brancard"
-msgstr "Du kan ligge på båren"
+msgstr "You can lie on the stretcher."
 
 #: translation/templates/translation/language.html:509
 #: translation/templates/translation/language.html:512
 msgid "Avez-vous perdu connaissance ?"
-msgstr "Mistet du bevisstheten?"
+msgstr ""
 
 #: translation/templates/translation/language.html:517
 #: translation/templates/translation/language.html:520
 msgid "Savez-vous quel jour nous sommes ?"
-msgstr "Vet du hvilken dag det er?"
+msgstr ""
 
 #: translation/templates/translation/language.html:525
 #: translation/templates/translation/language.html:528
 msgid "Savez-vous où vous êtes ?"
-msgstr "Vet du hvor du er?"
+msgstr ""
 
 #: translation/templates/translation/language.html:533
 #: translation/templates/translation/language.html:536
 msgid "Suivez mon doigt du regard"
-msgstr "Følg fingeren min"
+msgstr "Follow my finger."
 
 #: translation/templates/translation/language.html:541
 #: translation/templates/translation/language.html:544
 msgid "Pouvez-vous bouger vos mains et vos pieds ?"
-msgstr "Kan du bevege hender og føtter?"
+msgstr ""
 
 #: translation/templates/translation/language.html:549
 #: translation/templates/translation/language.html:552
 msgid "Je vais toucher vos mains et vos pieds, sentez-vous que je vous touche ?"
-msgstr "Jeg skal ta på hendene og føttene dine. Kan du kjenne det?"
+msgstr "I am going to touch you hands and feet.  Do you feel it?"
 
 #: translation/templates/translation/language.html:557
 #: translation/templates/translation/language.html:560
 msgid "Regardez-moi dans les yeux, je vais observer vos pupilles"
-msgstr "Se meg i øynene"
+msgstr "Look me in the eyes.  I want to observe your pupils."
 
 #: translation/templates/translation/language.html:565
 #: translation/templates/translation/language.html:568
 msgid "Avez vous des fourmillement ? Montrez moi où"
-msgstr ""
+msgstr "Do you have any pins and needles?  Show me where."
 
 #: translation/templates/translation/language.html:573
 #: translation/templates/translation/language.html:576
 msgid "Poussez sur mes mains"
-msgstr "Press på hendene mine"
+msgstr "Push on my hands."
 
 #: translation/templates/translation/language.html:581
 #: translation/templates/translation/language.html:584
 msgid "Ouvrez les yeux"
-msgstr "Åpne øynene dine"
+msgstr "Open your eyes."
 
 #: translation/templates/translation/language.html:589
 #: translation/templates/translation/language.html:592
 msgid "Ouvrez la bouche"
-msgstr "Åpne munnen din."
+msgstr "Open your mouth."
 
 #: translation/templates/translation/language.html:597
 #: translation/templates/translation/language.html:600
 msgid "Levez le bras droit"
-msgstr "Løft høyre arm"
+msgstr "Lift your right arm."
 
 #: translation/templates/translation/language.html:605
 #: translation/templates/translation/language.html:608
 msgid "Avez-vous des douleurs à la tête ?"
-msgstr "Har du vondt i hodet?"
+msgstr ""
 
 #: translation/templates/translation/language.html:613
 #: translation/templates/translation/language.html:616
 #: translation/templates/translation/language.html:2575
 #: translation/templates/translation/language.html:2578
 msgid "La douleur est apparue :"
-msgstr "Smerten kom:"
+msgstr ""
 
 #: translation/templates/translation/language.html:621
 #: translation/templates/translation/language.html:624
 msgid "La douleur est apparue progressivement ?"
-msgstr ""
+msgstr "little by little"
 
 #: translation/templates/translation/language.html:629
 #: translation/templates/translation/language.html:632
 msgid "La douleur est apparue brutalement ?"
-msgstr ""
+msgstr "suddenly"
 
 #: translation/templates/translation/language.html:637
 #: translation/templates/translation/language.html:640
 msgid "Avez vous des douleurs dans la nuque ?"
-msgstr "Har du noen smerter i nakken?"
+msgstr ""
 
 #: translation/templates/translation/language.html:645
 #: translation/templates/translation/language.html:648
@@ -798,22 +798,22 @@ msgstr ""
 #: translation/templates/translation/language.html:661
 #: translation/templates/translation/language.html:664
 msgid "Est ce que la lumière vous dérange ?"
-msgstr "Plager lyset deg?"
+msgstr ""
 
 #: translation/templates/translation/language.html:669
 #: translation/templates/translation/language.html:672
 msgid "Est ce que le bruit vous dérange ?"
-msgstr "Plager bråket deg?"
+msgstr ""
 
 #: translation/templates/translation/language.html:677
 #: translation/templates/translation/language.html:680
 msgid "Je vais faire une piqûre au bout de votre doigt pour connaître votre taux de sucre"
-msgstr "Jeg skal stikke deg i enden av fingeren for å sjekke blodsukkernivået"
+msgstr "I am going to prick the end of your finger to check your blood sugar level."
 
 #: translation/templates/translation/language.html:692
 #: translation/templates/translation/language.html:695
 msgid "Je vais poser ma main sur votre ventre pour compter votre respiration, respirez normalement et ne parlez pas pendant ce temps"
-msgstr "Jeg skal legge hånden på magen og sjekke pusten din. Pust normalt og ikke snakk"
+msgstr "I am going to put my hand on your stomach to check your breathing.  Just breathe normally and don't talk"
 
 #: translation/templates/translation/language.html:700
 #: translation/templates/translation/language.html:703
@@ -823,103 +823,103 @@ msgstr ""
 #: translation/templates/translation/language.html:708
 #: translation/templates/translation/language.html:711
 msgid "Prenez une grande inspiration puis bloquez votre respiration"
-msgstr "Pust dypt inn og hold pusten"
+msgstr "Take a deep breath in and hold it."
 
 #: translation/templates/translation/language.html:716
 #: translation/templates/translation/language.html:719
 msgid "Respirez normalement"
-msgstr "Pust normalt"
+msgstr "Breathe normally."
 
 #: translation/templates/translation/language.html:724
 #: translation/templates/translation/language.html:727
 msgid "Respirez profondément"
-msgstr "Pust dypt inn"
+msgstr "Breathe deeply."
 
 #: translation/templates/translation/language.html:732
 #: translation/templates/translation/language.html:735
 msgid "Fumez-vous ?"
-msgstr "Røyker du?"
+msgstr ""
 
 #: translation/templates/translation/language.html:740
 #: translation/templates/translation/language.html:743
 msgid "Etes-vous asthmatique ?"
-msgstr "Har du astma?"
+msgstr ""
 
 #: translation/templates/translation/language.html:748
 #: translation/templates/translation/language.html:751
 msgid "Avez vous pris votre traitement contre l’asthme ?"
-msgstr "Har du tatt astmamedisinen?"
+msgstr ""
 
 #: translation/templates/translation/language.html:756
 #: translation/templates/translation/language.html:759
 msgid "Avez-vous respiré des fumées ?"
-msgstr "Har du røyket inn noen form for røyk?"
+msgstr ""
 
 #: translation/templates/translation/language.html:764
 #: translation/templates/translation/language.html:767
 msgid "Je vous laisse vous moucher, pour savoir s’il y a des traces de suie"
-msgstr "Kan du være så snill å snyte deg slik at jeg kan se om du har noen spor etter sot"
+msgstr "Can you please blow your nose so I can see I there is any soot?"
 
 #: translation/templates/translation/language.html:779
 #: translation/templates/translation/language.html:782
 #| msgid "Est-ce que vous voyez double ?"
 msgid "Est-ce que votre douleur"
-msgstr ""
+msgstr "Describe your pain."
 
 #: translation/templates/translation/language.html:787
 #: translation/templates/translation/language.html:790
 msgid "Est ce que votre douleur serre ?"
-msgstr ""
+msgstr "Is it a tight sensation?"
 
 #: translation/templates/translation/language.html:795
 #: translation/templates/translation/language.html:798
 msgid "Est ce que votre douleur pique ?"
-msgstr ""
+msgstr "Is it a sharp sensation?"
 
 #: translation/templates/translation/language.html:803
 #: translation/templates/translation/language.html:806
 msgid "Est ce que votre douleur brûle ?"
-msgstr ""
+msgstr "Is it a burning sensation?"
 
 #: translation/templates/translation/language.html:811
 #: translation/templates/translation/language.html:814
 msgid "Est-ce que votre douleur irradie ? Montrez-moi vers où"
-msgstr ""
+msgstr "Is your pain referring to any other part of your body?  Can you show me where?"
 
 #: translation/templates/translation/language.html:819
 #: translation/templates/translation/language.html:822
 msgid "Depuis combien de temps avez vous cette douleur  ?"
-msgstr "Hvor lenge har du hatt denne smerten?"
+msgstr "How long have you experienced this pain?"
 
 #: translation/templates/translation/language.html:827
 #: translation/templates/translation/language.html:830
 msgid "Minutes"
-msgstr "Minutter"
+msgstr "Minutes"
 
 #: translation/templates/translation/language.html:835
 #: translation/templates/translation/language.html:838
 msgid "Heures"
-msgstr "Timer"
+msgstr "hours"
 
 #: translation/templates/translation/language.html:843
 #: translation/templates/translation/language.html:846
 msgid "Jours"
-msgstr "Dager"
+msgstr "days"
 
 #: translation/templates/translation/language.html:851
 #: translation/templates/translation/language.html:854
 msgid "Je vais prendre votre pouls"
-msgstr "Jeg skal ta pulsen din"
+msgstr "I am going to take your pulse."
 
 #: translation/templates/translation/language.html:859
 #: translation/templates/translation/language.html:862
 msgid "Je vais appuyer doucement sur votre ongle"
-msgstr "jeg skal ta deg forsiktig på neglene dine"
+msgstr "I am going to press lightly on your nail."
 
 #: translation/templates/translation/language.html:867
 #: translation/templates/translation/language.html:870
 msgid "Je vais prendre votre pression artérielle"
-msgstr "Jeg skal ta blodtrykket ditt"
+msgstr "I am going to take your blood pressure."
 
 #: translation/templates/translation/language.html:875
 #: translation/templates/translation/language.html:878
@@ -929,7 +929,7 @@ msgstr ""
 #: translation/templates/translation/language.html:883
 #: translation/templates/translation/language.html:886
 msgid "Ouvrez la bouche et soulevez la langue, je vais vous donner un traitement"
-msgstr "Åpne munnen og løft tunga. Jeg skal gi deg noe medisin"
+msgstr "Open your mouth and lift your tongue.  I am going to give you some medication."
 
 #: translation/templates/translation/language.html:891
 #: translation/templates/translation/language.html:894
@@ -939,22 +939,22 @@ msgstr ""
 #: translation/templates/translation/language.html:899
 #: translation/templates/translation/language.html:902
 msgid "Buvez-vous de l'alcool ?"
-msgstr "Drikker du alkohol?"
+msgstr "Do you drink alcohol?"
 
 #: translation/templates/translation/language.html:907
 #: translation/templates/translation/language.html:910
 msgid "Avez-vous du diabète ?"
-msgstr "Har du diabetes?"
+msgstr ""
 
 #: translation/templates/translation/language.html:915
 #: translation/templates/translation/language.html:918
 msgid "Avez-vous du cholestérol ?"
-msgstr "Har du høyt kolesterol?"
+msgstr ""
 
 #: translation/templates/translation/language.html:923
 #: translation/templates/translation/language.html:926
 msgid "Je vais faire un enregistrement de votre coeur, ce n’est pas douloureux, ne bouger pas pendant quelques secondes"
-msgstr "eg skal måle hjertet ditt. Det gjør ikke vondt, men prøv i noen sekunder å ikke bevege deg"
+msgstr "I am going to record your heart.  It won't hurt, but try and avoid moving for several seconds."
 
 #: translation/templates/translation/language.html:938
 #: translation/templates/translation/language.html:941
@@ -964,22 +964,22 @@ msgstr ""
 #: translation/templates/translation/language.html:946
 #: translation/templates/translation/language.html:949
 msgid "Qu’avez-vous ressenti pendant la malaise ?"
-msgstr "Hvordan føltes smerten din ? Som nålestikk, gnissende følelse, trykkende eller stikkende, etc ?"
+msgstr "What did you experience during the dizzy spell?"
 
 #: translation/templates/translation/language.html:954
 #: translation/templates/translation/language.html:957
 msgid "Avez-vous ressenti des fourmillements ?"
-msgstr ""
+msgstr "pins and needles"
 
 #: translation/templates/translation/language.html:962
 #: translation/templates/translation/language.html:965
 msgid "Avez-vous ressenti des vertiges ?"
-msgstr ""
+msgstr "vertigo"
 
 #: translation/templates/translation/language.html:970
 #: translation/templates/translation/language.html:973
 msgid "Avez-vous ressenti une grande fatigue ?"
-msgstr ""
+msgstr "exhaustion"
 
 #: translation/templates/translation/language.html:978
 #: translation/templates/translation/language.html:981
@@ -1000,179 +1000,179 @@ msgstr ""
 #: translation/templates/translation/language.html:1002
 #: translation/templates/translation/language.html:1005
 msgid "Combien de temps à duré votre malaise ?"
-msgstr "Hvor lenge har du hatt disse smertene/ubehaget?"
+msgstr ""
 
 #: translation/templates/translation/language.html:1010
 #: translation/templates/translation/language.html:1013
 msgid "Avez-vous perdu vos urines ?"
-msgstr "Har du opplevd inkontinens?"
+msgstr ""
 
 #: translation/templates/translation/language.html:1018
 #: translation/templates/translation/language.html:1021
 msgid "Vous êtes-vous mordu la langue ? Ouvrez la bouche"
-msgstr "Beit du tunga? Åpne munnen"
+msgstr ""
 
 #: translation/templates/translation/language.html:1026
 #: translation/templates/translation/language.html:1029
 msgid "Avez vous convulsé ?"
-msgstr "Har du opplevd kramper?"
+msgstr ""
 
 #: translation/templates/translation/language.html:1034
 #: translation/templates/translation/language.html:1037
 msgid "Avez-vous mangé aujourd’hui ?"
-msgstr "Har du spist i dag?"
+msgstr ""
 
 #: translation/templates/translation/language.html:1049
 #: translation/templates/translation/language.html:1052
 msgid "Montrez moi ou vous avez mal"
-msgstr "Vis meg hvor det gjør vondt"
+msgstr "Show me where it hurts."
 
 #: translation/templates/translation/language.html:1057
 #: translation/templates/translation/language.html:1060
 msgid "Est ce que la douleur irradie ? Si oui montrez moi vers où"
-msgstr ""
+msgstr "Does the pain spread elsewhere?  Where to?"
 
 #: translation/templates/translation/language.html:1065
 #: translation/templates/translation/language.html:1068
 msgid "Avez-vous perdu du poids ces derniers mois ? Combien de Kg ?"
-msgstr "Har du gått ned i vekt i løpet av de siste månedene? Hvor mange kg?"
+msgstr ""
 
 #: translation/templates/translation/language.html:1073
 #: translation/templates/translation/language.html:1076
 msgid "Avez-vous des brûlures quand vous urinez ?"
-msgstr "Har du opplevd at det svir når du urinerer?"
+msgstr ""
 
 #: translation/templates/translation/language.html:1081
 #: translation/templates/translation/language.html:1084
 msgid "Est-ce qu’il y a du sang dans vos urines ?"
-msgstr "Har du lagt merke til noe blod i urinen din?"
+msgstr ""
 
 #: translation/templates/translation/language.html:1089
 #: translation/templates/translation/language.html:1092
 msgid "Quelle est la date de vos dernières règles ?"
-msgstr "Når var sist du hadde mensen?"
+msgstr ""
 
 #: translation/templates/translation/language.html:1097
 #: translation/templates/translation/language.html:1100
 #: translation/templates/translation/language.html:1476
 #: translation/templates/translation/language.html:1479
 msgid "Etes vous enceinte ?"
-msgstr "Er du gravid?"
+msgstr "Are you pregnant?"
 
 #: translation/templates/translation/language.html:1105
 #: translation/templates/translation/language.html:1108
 msgid "A quelle heure avez-vous uriné pour la dernière fois aujourd’hui ?"
-msgstr "Når var sist gang du urinerte i dag?"
+msgstr ""
 
 #: translation/templates/translation/language.html:1113
 #: translation/templates/translation/language.html:1116
 msgid "Êtes vous constipé ?"
-msgstr "Har du forstoppelse?"
+msgstr ""
 
 #: translation/templates/translation/language.html:1121
 #: translation/templates/translation/language.html:1124
 msgid "Depuis combien de jours ?"
-msgstr "I hvor mange dager?"
+msgstr "For how many days?"
 
 #: translation/templates/translation/language.html:1129
 #: translation/templates/translation/language.html:1132
 msgid "Avez-vous des nausées ?"
-msgstr "Har du hatt noe kvalme?"
+msgstr "Have you experienced any nausea?"
 
 #: translation/templates/translation/language.html:1137
 #: translation/templates/translation/language.html:1140
 msgid "Avez-vous des diarrhées ?"
-msgstr "Har du vært plaget med diaré?"
+msgstr "Have you had any bouts of diarrhea?"
 
 #: translation/templates/translation/language.html:1145
 #: translation/templates/translation/language.html:1148
 msgid "Avez-vous vomi ?"
-msgstr "Har du kastet opp?"
+msgstr "Have you vomited?"
 
 #: translation/templates/translation/language.html:1153
 #: translation/templates/translation/language.html:1156
 msgid "Y a-t-il du sang dans vos selles ?"
-msgstr "Har du lagt merke til noe blod i avføringen?"
+msgstr "Have you noticed any blood in your stool?"
 
 #: translation/templates/translation/language.html:1161
 #: translation/templates/translation/language.html:1164
 msgid "Avez-vous des gazs ?"
-msgstr "Har du luft i magen?"
+msgstr ""
 
 #: translation/templates/translation/language.html:1169
 #: translation/templates/translation/language.html:1172
 msgid "Je dois vous faire un toucher rectal, êtes vous d’accord ?"
-msgstr "Jeg må foreta en rektalundersøkelse. Går det greit for deg?"
+msgstr ""
 
 #: translation/templates/translation/language.html:1177
 #: translation/templates/translation/language.html:1180
 msgid "Il faudra uriner dans ce pot pour réaliser un examen"
-msgstr "Du må urinere i dette glasset, så vi kan ta en prøve"
+msgstr "You need to urinate in this jar so we can test it."
 
 #: translation/templates/translation/language.html:1185
 #: translation/templates/translation/language.html:1188
 msgid "Il faudra réaliser une toilette intime avant d’uriner dans le pot"
-msgstr "Du må vaske underlivet før du urinere i glasset"
+msgstr "You'll need to wash your genitals before urinating in the jar."
 
 #: translation/templates/translation/language.html:1200
 #: translation/templates/translation/language.html:1203
 msgid "Avez-vous été piqué ou mordu ?"
-msgstr "Har du blitt bitt eller stukket?"
+msgstr ""
 
 #: translation/templates/translation/language.html:1208
 #: translation/templates/translation/language.html:1211
 msgid "Montrez moi à quel endroit"
-msgstr "Vis meg hvor"
+msgstr "Show me where."
 
 #: translation/templates/translation/language.html:1216
 #: translation/templates/translation/language.html:1219
 msgid "Montrez moi où étaient les premiers boutons"
-msgstr "Vis meg hvor merkene først dukket opp"
+msgstr "Show me where the first spots appeared."
 
 #: translation/templates/translation/language.html:1224
 #: translation/templates/translation/language.html:1227
 msgid "Depuis combien de temps la jambe est-elle rouge ?"
-msgstr "Hvor lenge har beinet vært rødt?"
+msgstr ""
 
 #: translation/templates/translation/language.html:1232
 #: translation/templates/translation/language.html:1235
 msgid "Est ce que ça vous démange ?"
-msgstr "Klør det?"
+msgstr ""
 
 #: translation/templates/translation/language.html:1240
 #: translation/templates/translation/language.html:1243
 msgid "Il faut rester en isolement"
-msgstr "Du må fortsatt være i isolasjon"
+msgstr "You need to remain in isolation."
 
 #: translation/templates/translation/language.html:1248
 #: translation/templates/translation/language.html:1251
 msgid "Vous devez garder ce masque sur vous"
-msgstr "Du må holde denne masken på"
+msgstr "You need to keep this mask on."
 
 #: translation/templates/translation/language.html:1256
 #: translation/templates/translation/language.html:1259
 msgid "Avez-vous eu des rapports sexuels non protégés ?"
-msgstr "Har du hatt ubeskyttet sex?"
+msgstr ""
 
 #: translation/templates/translation/language.html:1264
 #: translation/templates/translation/language.html:1267
 msgid "Je vais prendre votre température"
-msgstr "Jeg skal ta temperaturen din."
+msgstr "I am going to take your temperature."
 
 #: translation/templates/translation/language.html:1279
 #: translation/templates/translation/language.html:1282
 msgid "Est-ce que vous voyez flou ?"
-msgstr "Er synet ditt uskarpt?"
+msgstr ""
 
 #: translation/templates/translation/language.html:1287
 #: translation/templates/translation/language.html:1290
 msgid "Est-ce que vous voyez double ?"
-msgstr "Ser du dobbelt?"
+msgstr ""
 
 #: translation/templates/translation/language.html:1295
 #: translation/templates/translation/language.html:1298
 msgid "Avez-vous mal à la tête ?"
-msgstr "Har du vondt i hodet?"
+msgstr ""
 
 #: translation/templates/translation/language.html:1303
 #: translation/templates/translation/language.html:1306
@@ -1202,12 +1202,12 @@ msgstr ""
 #: translation/templates/translation/language.html:1350
 #: translation/templates/translation/language.html:1353
 msgid "Avez-vous une ordonnance avec vos traitements ?"
-msgstr ""
+msgstr "Do you have a prescription for your treatment?"
 
 #: translation/templates/translation/language.html:1358
 #: translation/templates/translation/language.html:1361
 msgid "Avez-vous des allergies ? lesquelles ?"
-msgstr ""
+msgstr "Do you have any allergies? What are you allergic to?"
 
 #: translation/templates/translation/language.html:1366
 #: translation/templates/translation/language.html:1369
@@ -1232,1401 +1232,1401 @@ msgstr ""
 #: translation/templates/translation/language.html:1405
 #: translation/templates/translation/language.html:1408
 msgid "Le bébé a t il perdu du poids ? Combien de kilo ?"
-msgstr "Har babyen gått ned i vekt? Hvor mye?"
+msgstr "Has the baby lost any weight?  How much?"
 
 #: translation/templates/translation/language.html:1413
 #: translation/templates/translation/language.html:1416
 msgid "Est-ce que le bébé est à jour de ces vaccins ?"
-msgstr "Har babyen fått alle vaksinene det er meningen at hun skal ha?"
+msgstr "Is the baby up-to-date with his/her vaccinations?"
 
 #: translation/templates/translation/language.html:1421
 #: translation/templates/translation/language.html:1424
 msgid "Est-ce que ses frères et soeurs sont malades ?"
-msgstr "Er de andre barna dine syke?"
+msgstr "Are your other children sick?"
 
 #: translation/templates/translation/language.html:1429
 #: translation/templates/translation/language.html:1432
 msgid "Est-ce qu’il mange bien ?"
-msgstr "Spiser han/hun bra?"
+msgstr "Is he/she eating well?"
 
 #: translation/templates/translation/language.html:1437
 #: translation/templates/translation/language.html:1440
 msgid "Est-ce qu’il vomi ?"
-msgstr "Kaster han/hun opp?"
+msgstr "Is he/she vomiting?"
 
 #: translation/templates/translation/language.html:1445
 #: translation/templates/translation/language.html:1448
 msgid "Est-ce qu’il semble plus agité que d’habitude ?"
-msgstr "Virker han/hun mer frustrert enn vanlig?"
+msgstr "Does he/she seem more upset than normal?"
 
 #: translation/templates/translation/language.html:1453
 #: translation/templates/translation/language.html:1456
 msgid "Est-ce qu’il semble plus fatigué que d’habitude ?"
-msgstr "Virker han/hun trøttere enn vanlig?"
+msgstr "Does he/she seem more tired than usual?"
 
 #: translation/templates/translation/language.html:1461
 #: translation/templates/translation/language.html:1464
 msgid "Est ce qu’il a la diarrhée ?"
-msgstr "Har han/hun diaré?"
+msgstr "Does he/she have any diarrhea?"
 
 #: translation/templates/translation/language.html:1484
 #: translation/templates/translation/language.html:1487
 msgid "De combien de semaines ?"
-msgstr "Hvor langt på vei er du?"
+msgstr "How far along are you?"
 
 #: translation/templates/translation/language.html:1492
 #: translation/templates/translation/language.html:1495
 msgid "Avez vous vos règles ?"
-msgstr "Har du mensen?"
+msgstr "Are you menstruating?"
 
 #: translation/templates/translation/language.html:1500
 #: translation/templates/translation/language.html:1503
 msgid "Avez vous perdu du sang ?"
-msgstr "Har du mistet noe blod?"
+msgstr "Have you lost any blood?"
 
 #: translation/templates/translation/language.html:1508
 #: translation/templates/translation/language.html:1511
 msgid "Vos pertes étaient elles rouge ou noir ?"
-msgstr "Var blodet rødt eller svart?"
+msgstr "Was the blood red or black?"
 
 #: translation/templates/translation/language.html:1516
 #: translation/templates/translation/language.html:1519
 msgid "Avez vous eu des problèmes lors de vos précédentes grossesses ?"
-msgstr "Oppsto det noen problemer under din siste graviditet?"
+msgstr "Did you have any problems during your last pregnancy?"
 
 #: translation/templates/translation/language.html:1524
 #: translation/templates/translation/language.html:1527
 msgid "Avez vous des contractions ?"
-msgstr "Har du veer?"
+msgstr "Do you have any contractions?"
 
 #: translation/templates/translation/language.html:1532
 #: translation/templates/translation/language.html:1535
 msgid "Avez vous perdu les eaux ?"
-msgstr "Har vannet gått?"
+msgstr "Has your water broken?"
 
 #: translation/templates/translation/language.html:1540
 #: translation/templates/translation/language.html:1543
 msgid "Sentez vous le bébé bouger ?"
-msgstr "Kan du kjenne barnet bevege seg?"
+msgstr "Do you feel the baby moving?"
 
 #: translation/templates/translation/language.html:1548
 #: translation/templates/translation/language.html:1551
 msgid "Avez vous une contraception ?"
-msgstr "Har du et prevensjonsmiddel?"
+msgstr "Do you have any contraception?"
 
 #: translation/templates/translation/language.html:1556
 #: translation/templates/translation/language.html:1559
 msgid "Je dois faire un examen gynécologique, allongez vous sur la table"
-msgstr ""
+msgstr "I need to do a gynacological exam.  Can you please lie on the table?"
 
 #: translation/templates/translation/language.html:1564
 #: translation/templates/translation/language.html:1567
 msgid "Il faut retirer vos sous-vêtements"
-msgstr "Du må ta av deg undertøyet"
+msgstr "You need to remove your underwear."
 
 #: translation/templates/translation/language.html:1579
 #: translation/templates/translation/language.html:1582
 msgid "Avez-vous été éjecté du véhicule ?"
-msgstr "Ble du kastet ut av kjøretøyet?"
+msgstr "Were you thrown from the vehicle?"
 
 #: translation/templates/translation/language.html:1587
 #: translation/templates/translation/language.html:1590
 msgid "A quelle vitesse rouliez-vous ?"
-msgstr "Hvilken hastighet kjørte du i?"
+msgstr "What speed were you going?"
 
 #: translation/templates/translation/language.html:1595
 #: translation/templates/translation/language.html:1598
 msgid "Etiez-vous casqué ?"
-msgstr "Hadde du hjelm på?"
+msgstr "Were you wearing a helmet?"
 
 #: translation/templates/translation/language.html:1603
 #: translation/templates/translation/language.html:1606
 msgid "Aviez-vous votre ceinture de sécurité ?"
-msgstr "Hadde du på deg setebelte?"
+msgstr "Were you wearing a seatbelt?"
 
 #: translation/templates/translation/language.html:1611
 #: translation/templates/translation/language.html:1614
 msgid "Avez vous fait une chute ?"
-msgstr "Falt du ned?"
+msgstr "Did you fall down?"
 
 #: translation/templates/translation/language.html:1619
 #: translation/templates/translation/language.html:1622
 msgid "De quelle hauteur êtes-vous tombé ?"
-msgstr "Hvor høyt falt du ned?"
+msgstr "From what height did you fall?"
 
 #: translation/templates/translation/language.html:1627
 #: translation/templates/translation/language.html:1630
 msgid "Prenez vous des anticoagulants, des médicaments pour fluidifier le sang ?"
-msgstr "Tar du noen antikoagulanter eller noe blodfortynnende medisin?"
+msgstr "Do you take any anticoagulants or any medication to thin the blood?"
 
 #: translation/templates/translation/language.html:1635
 #: translation/templates/translation/language.html:1638
 msgid "Je vais installer une collier afin de protéger votre colonne vertébrale"
-msgstr "Jeg kommer til å sette på en nakkekrage for å beskytte ryggraden din"
+msgstr "I am going to give you a neck brace to protect your spine."
 
 #: translation/templates/translation/language.html:1643
 #: translation/templates/translation/language.html:1646
 msgid "Je dois mettre un antiseptique sur la plaie"
-msgstr "Jeg behøver å ta litt antiseptisk væske på såret ditt"
+msgstr "I need to add some antiseptic solution to the wound."
 
 #: translation/templates/translation/language.html:1651
 #: translation/templates/translation/language.html:1654
 msgid "Je dois suturer la plaie"
-msgstr "Jeg behøver å sy sammen såret ditt"
+msgstr "I need to stitch up the wound."
 
 #: translation/templates/translation/language.html:1659
 #: translation/templates/translation/language.html:1662
 msgid "Je dois faire un pansement"
-msgstr "Jeg behøver å gi deg bandasje"
+msgstr "I need to apply a dressing."
 
 #: translation/templates/translation/language.html:1667
 #: translation/templates/translation/language.html:1670
 msgid "Je vais faire une anesthésie autour de la plaie"
-msgstr "Jeg behøver å gi deg lokalbedøvelse for såret ditt"
+msgstr "I am going to give you a local anaesthetic for your wound."
 
 #: translation/templates/translation/language.html:1675
 #: translation/templates/translation/language.html:1678
 msgid "Ne bougez pas"
-msgstr "Vennligst ikke beveg deg"
+msgstr "Please don't move."
 
 #: translation/templates/translation/language.html:1683
 #: translation/templates/translation/language.html:1686
 msgid "Je dois vous faire un plâtre"
-msgstr "Jeg behøver å gi deg gips"
+msgstr "I am going to have to place you in a cast."
 
 #: translation/templates/translation/language.html:1691
 #: translation/templates/translation/language.html:1694
 #: translation/templates/translation/language.html:2080
 #: translation/templates/translation/language.html:2083
 msgid "Vous devez être opéré"
-msgstr "Du må ha en operasjon"
+msgstr "You need an operation."
 
 #: translation/templates/translation/language.html:1706
 #: translation/templates/translation/language.html:1709
 #| msgid "Vous devez avoir un plâtre"
 msgid "Vous devez avoir :"
-msgstr "Du må gjennomgå:"
+msgstr ""
 
 #: translation/templates/translation/language.html:1714
 #: translation/templates/translation/language.html:1717
 #| msgid "Je vais vous examiner"
 msgid "Je vais vous faire :"
-msgstr "Jeg skal gi deg:"
+msgstr ""
 
 #: translation/templates/translation/language.html:1722
 #: translation/templates/translation/language.html:1725
 msgid "Je vais vous poser une perfusion"
-msgstr ""
+msgstr "I am going to put you on a drip."
 
 #: translation/templates/translation/language.html:1730
 #: translation/templates/translation/language.html:1733
 msgid "Je vais vous faire une prise de sang"
-msgstr ""
+msgstr "I am going to take some blood."
 
 #: translation/templates/translation/language.html:1738
 #: translation/templates/translation/language.html:1741
 msgid "Je vais vous faire un pansement"
-msgstr ""
+msgstr "I am going to apply a dressing."
 
 #: translation/templates/translation/language.html:1746
 #: translation/templates/translation/language.html:1749
 msgid "Je vais vous faire une piqûre"
-msgstr ""
+msgstr "I am going to give you an injection."
 
 #: translation/templates/translation/language.html:1754
 #: translation/templates/translation/language.html:1757
 msgid "Je vais faire votre toilette"
-msgstr ""
+msgstr "I am going to give you a wash down/sponge bath."
 
 #: translation/templates/translation/language.html:1762
 #: translation/templates/translation/language.html:1765
 msgid "Vous allez avoir un scanner"
-msgstr ""
+msgstr "a scan"
 
 #: translation/templates/translation/language.html:1770
 #: translation/templates/translation/language.html:1773
 msgid "Vous allez avoir une radio"
-msgstr ""
+msgstr "an x-ray"
 
 #: translation/templates/translation/language.html:1778
 #: translation/templates/translation/language.html:1781
 msgid "Je vais vous faire un plâtre"
-msgstr "Jeg behøver å gi deg gips"
+msgstr "a cast"
 
 #: translation/templates/translation/language.html:1786
 #: translation/templates/translation/language.html:1789
 msgid "Vous allez avoir une échographie"
-msgstr ""
+msgstr "an ultrasound"
 
 #: translation/templates/translation/language.html:1794
 #: translation/templates/translation/language.html:1797
 msgid "Vous allez avoir une opération chirurgicale"
-msgstr ""
+msgstr "an operation"
 
 #: translation/templates/translation/language.html:1802
 #: translation/templates/translation/language.html:1805
 msgid "Aujourd'hui"
-msgstr "I dag"
+msgstr "today"
 
 #: translation/templates/translation/language.html:1810
 #: translation/templates/translation/language.html:1813
 msgid "Demain"
-msgstr "I morgen"
+msgstr "tomorrow"
 
 #: translation/templates/translation/language.html:1818
 #: translation/templates/translation/language.html:1821
 msgid "Vous devez prendre une douche avec un shampoing avant l'opération chirurgicale"
-msgstr "Du må ta en dusj og vaske håret før operasjonen"
+msgstr "You need to take a shower and wash your hair before the operation."
 
 #: translation/templates/translation/language.html:1826
 #: translation/templates/translation/language.html:1829
 msgid "L’examen n’est pas douloureux"
-msgstr "Undersøkelsen er ikke smertefull"
+msgstr "The test is not painful."
 
 #: translation/templates/translation/language.html:1834
 #: translation/templates/translation/language.html:1837
 msgid "Après l'opération vous aurez :"
-msgstr "Etter operasjonen vil du ha:"
+msgstr ""
 
 #: translation/templates/translation/language.html:1842
 #: translation/templates/translation/language.html:1845
 msgid "Après l'opération vous aurez une sonde urinaire"
-msgstr ""
+msgstr "a catheter"
 
 #: translation/templates/translation/language.html:1850
 #: translation/templates/translation/language.html:1853
 msgid "Après l'opération vous aurez une sonde gastrique"
-msgstr ""
+msgstr "a feeding tube"
 
 #: translation/templates/translation/language.html:1858
 #: translation/templates/translation/language.html:1861
 msgid "Après l'opération vous aurez un drain"
-msgstr ""
+msgstr "a pus drainage tube"
 
 #: translation/templates/translation/language.html:1866
 #: translation/templates/translation/language.html:1869
 msgid "Après l'opération vous aurez une cicatrice"
-msgstr ""
+msgstr "a scar"
 
 #: translation/templates/translation/language.html:1874
 #: translation/templates/translation/language.html:1877
 msgid "Vous devez retier tous vos bijoux et piercing"
-msgstr "Du må ta av smykker og piercinger"
+msgstr "You need to remove your jewellry and piercings."
 
 #: translation/templates/translation/language.html:1882
 #: translation/templates/translation/language.html:1885
 msgid "Vous devez retier votre vernis a ongles"
-msgstr "Vennligst fjern neglakk"
+msgstr "You need to remove your nail polish."
 
 #: translation/templates/translation/language.html:1890
 #: translation/templates/translation/language.html:1893
 msgid "Vous devez retier vos appareils dentaires et auditifs"
-msgstr "Vennligst gjern gebiss og øreapparat"
+msgstr "You need to remove your dentures and hearing aids."
 
 #: translation/templates/translation/language.html:1898
 #: translation/templates/translation/language.html:1901
 #| msgid "Montrez moi ou vous avez mal"
 msgid "Dites nous si vous avez :"
-msgstr "Fortell meg om du har:"
+msgstr ""
 
 #: translation/templates/translation/language.html:1906
 #: translation/templates/translation/language.html:1909
 msgid "Avez-vous un pace-maker ?"
-msgstr ""
+msgstr "a pace-maker"
 
 #: translation/templates/translation/language.html:1914
 #: translation/templates/translation/language.html:1917
 msgid "Avez-vous une valve cardiaque ?"
-msgstr ""
+msgstr "a cardiac valve"
 
 #: translation/templates/translation/language.html:1922
 #: translation/templates/translation/language.html:1925
 msgid "Avez-vous un stent ?"
-msgstr ""
+msgstr "a stent"
 
 #: translation/templates/translation/language.html:1930
 #: translation/templates/translation/language.html:1933
 msgid "Avez-vous une prothèse ?"
-msgstr ""
+msgstr "a prosthesis"
 
 #: translation/templates/translation/language.html:1945
 #: translation/templates/translation/language.html:1948
 #| msgid "Etes vous enceinte ?"
 msgid "Je vous donne :"
-msgstr "Jeg gir deg:"
+msgstr ""
 
 #: translation/templates/translation/language.html:1953
 #: translation/templates/translation/language.html:1956
 msgid "Je vous donne des médicaments"
-msgstr ""
+msgstr "some medication"
 
 #: translation/templates/translation/language.html:1961
 #: translation/templates/translation/language.html:1964
 msgid "Je vous donne des antalgiques"
-msgstr ""
+msgstr "some analgesics"
 
 #: translation/templates/translation/language.html:1969
 #: translation/templates/translation/language.html:1972
 msgid "Je vous donne des antibiotiques"
-msgstr ""
+msgstr "some antibiotics"
 
 #: translation/templates/translation/language.html:1977
 #: translation/templates/translation/language.html:1980
 msgid "Vous ne devez pas boire"
-msgstr "Du må ikke drikke."
+msgstr "You must not drink."
 
 #: translation/templates/translation/language.html:1985
 #: translation/templates/translation/language.html:1988
 msgid "Vous ne devez pas manger"
-msgstr "Du må ikke spise"
+msgstr "You must not eat."
 
 #: translation/templates/translation/language.html:1993
 #: translation/templates/translation/language.html:1996
 msgid "Vous ne devez pas vous lever"
-msgstr "Du må ikke stå opp"
+msgstr "You must not get up."
 
 #: translation/templates/translation/language.html:2001
 #: translation/templates/translation/language.html:2004
 msgid "Vous devez rester sur le dos"
-msgstr "Du må fortsette å ligge på ryggen"
+msgstr "You must remain lying on your back."
 
 #: translation/templates/translation/language.html:2009
 #: translation/templates/translation/language.html:2012
 msgid "Vous ne devez pas fumer"
-msgstr "Du må ikke røyke"
+msgstr "You must not smoke."
 
 #: translation/templates/translation/language.html:2025
 #: translation/templates/translation/language.html:2028
 msgid "Pour allumer ou éteindre les lumières appuyer ici"
-msgstr "For å skru av eller på lysene trykk her"
+msgstr "To turn on or turn off the lights, press here."
 
 #: translation/templates/translation/language.html:2033
 #: translation/templates/translation/language.html:2036
 msgid "Les toilettes sont ici"
-msgstr "Toalettene er her"
+msgstr "The toilets are here."
 
 #: translation/templates/translation/language.html:2041
 #: translation/templates/translation/language.html:2044
 msgid "La salle de bain est ici"
-msgstr "Badet er her"
+msgstr "The bathroom is here."
 
 #: translation/templates/translation/language.html:2049
 #: translation/templates/translation/language.html:2052
 msgid "Votre chambre est ici"
-msgstr "Rommet ditt er her"
+msgstr "You room is here."
 
 #: translation/templates/translation/language.html:2064
 #: translation/templates/translation/language.html:2067
 msgid "Il y a une fracture"
-msgstr "Du har et brudd/han/hun har et brudd"
+msgstr "You have a fracture/He or she has a fracture."
 
 #: translation/templates/translation/language.html:2072
 #: translation/templates/translation/language.html:2075
 msgid "Il n’y a pas de fracture"
-msgstr "Du har ikke et brudd/han/hun har ikke et brudd"
+msgstr "You don't have a fracture/He or she doesn't have a fracture."
 
 #: translation/templates/translation/language.html:2088
 #: translation/templates/translation/language.html:2091
 msgid "Vous devez revenir demain matin"
-msgstr "Du må komme tilbake i morgen"
+msgstr "You need to come back tomorrow."
 
 #: translation/templates/translation/language.html:2096
 #: translation/templates/translation/language.html:2099
 msgid "Vous devez revenir dans"
-msgstr "Du må komme tilbake om"
+msgstr "You need to come back in:"
 
 #: translation/templates/translation/language.html:2104
 #: translation/templates/translation/language.html:2107
 msgid "Vous devrez faire retirer les fils dans"
-msgstr "Du må få stingene fjernet om"
+msgstr ""
 
 #: translation/templates/translation/language.html:2112
 #: translation/templates/translation/language.html:2115
 msgid "Vous devez avoir un plâtre"
-msgstr "Du må ha gips"
+msgstr "You need a cast."
 
 #: translation/templates/translation/language.html:2120
 #: translation/templates/translation/language.html:2123
 msgid "Vous devrez porter une attelle"
-msgstr "Du trenger krykker"
+msgstr "You need a splint"
 
 #: translation/templates/translation/language.html:2128
 #: translation/templates/translation/language.html:2131
 msgid "Vous pouvez rentrer chez vous"
-msgstr "Du kan dra hjem"
+msgstr "You can go home."
 
 #: translation/templates/translation/language.html:2136
 #: translation/templates/translation/language.html:2139
 msgid "Vous devez aller à l'hôpital"
-msgstr "Du må dra på sykehus."
+msgstr "You need to go to the hospital."
 
 #: translation/templates/translation/language.html:2144
 #: translation/templates/translation/language.html:2147
 msgid "Vous devez rester à l'hôpital"
-msgstr "Du må bli på sykehuset"
+msgstr "You need to stay in hospital."
 
 #: translation/templates/translation/language.html:2152
 #: translation/templates/translation/language.html:2155
 msgid "Vous allez être transféré dans un autre service"
-msgstr "Du skal bli overført til en annen avdeling"
+msgstr "You are going to be transferred to another department."
 
 #: translation/templates/translation/language.html:2167
 #: translation/templates/translation/language.html:2170
 msgid "J’ai faim"
-msgstr "Jeg er sulten."
+msgstr "I am hungry."
 
 #: translation/templates/translation/language.html:2175
 #: translation/templates/translation/language.html:2178
 msgid "J’ai soif"
-msgstr "Jeg er tørst"
+msgstr "I am thirsty."
 
 #: translation/templates/translation/language.html:2183
 #: translation/templates/translation/language.html:2186
 msgid "J’ai mal"
-msgstr "Jeg har smerter"
+msgstr "I am in pain."
 
 #: translation/templates/translation/language.html:2191
 #: translation/templates/translation/language.html:2194
 msgid "J’ai froid"
-msgstr "Jeg er kald"
+msgstr "I am cold."
 
 #: translation/templates/translation/language.html:2199
 #: translation/templates/translation/language.html:2202
 msgid "J’ai chaud"
-msgstr "Jeg er varm"
+msgstr "I am hot."
 
 #: translation/templates/translation/language.html:2207
 #: translation/templates/translation/language.html:2210
 msgid "J’ai des nausées"
-msgstr "Jeg føler meg kvalm"
+msgstr "I am nauseous./I feel like vomiting."
 
 #: translation/templates/translation/language.html:2215
 #: translation/templates/translation/language.html:2218
 #: translation/templates/translation/language.html:3103
 #: translation/templates/translation/language.html:3106
 msgid "J’ai vomi"
-msgstr "Jeg kastet opp"
+msgstr "I vomited/threw up."
 
 #: translation/templates/translation/language.html:2223
 #: translation/templates/translation/language.html:2226
 msgid "J’ai uriné (je voudrais être changé)"
-msgstr ""
+msgstr "I wet myself (I would like to be changed)."
 
 #: translation/templates/translation/language.html:2231
 #: translation/templates/translation/language.html:2234
 msgid "Je voudrais uriner"
-msgstr ""
+msgstr "I need to go and urinate."
 
 #: translation/templates/translation/language.html:2239
 #: translation/templates/translation/language.html:2242
 msgid "Je voudrais déféquer"
-msgstr "Jeg har avføring"
+msgstr "I need to pass a bowel movement."
 
 #: translation/templates/translation/language.html:2247
 #: translation/templates/translation/language.html:2250
 #: translation/templates/translation/language.html:2775
 #: translation/templates/translation/language.html:2778
 msgid "J’ai des vertiges"
-msgstr "Jeg føler meg svimmel"
+msgstr "I feel dizzy."
 
 #: translation/templates/translation/language.html:2255
 #: translation/templates/translation/language.html:2258
 msgid "J’ai peur"
-msgstr "Jeg er redd"
+msgstr "I am scared."
 
 #: translation/templates/translation/language.html:2263
 #: translation/templates/translation/language.html:2266
 msgid "Je voudrais être réinstallé"
-msgstr "Jeg kunne tenke meg å bytte rom"
+msgstr "I would like to move rooms."
 
 #: translation/templates/translation/language.html:2271
 #: translation/templates/translation/language.html:2274
 msgid "Je voudrais des informations"
-msgstr "Jeg kunne tenke meg å få litt informasjon"
+msgstr "I would like some information."
 
 #: translation/templates/translation/language.html:2279
 #: translation/templates/translation/language.html:2282
 msgid "J’ai eu un accident"
-msgstr "Jeg var utsatt for en ulykke"
+msgstr "I had an accident."
 
 #: translation/templates/translation/language.html:2287
 #: translation/templates/translation/language.html:2290
 msgid "J’étais piéton"
-msgstr "Jeg var fotgjenger"
+msgstr "I was a pedestrian."
 
 #: translation/templates/translation/language.html:2295
 #: translation/templates/translation/language.html:2298
 msgid "J’ai été renversé"
-msgstr "Jeg ble påkjørt (av et kjøretøy)"
+msgstr "I was hit (by a vehicle)."
 
 #: translation/templates/translation/language.html:2303
 #: translation/templates/translation/language.html:2306
 msgid "Je n’ai pas été renversé"
-msgstr "Jeg ble ikke påkjørt (av et kjøretøy)"
+msgstr "I wasn't hit (by a vehicle)."
 
 #: translation/templates/translation/language.html:2311
 #: translation/templates/translation/language.html:2314
 #: translation/templates/translation/language.html:2439
 #: translation/templates/translation/language.html:2442
 msgid "Je suis tombé"
-msgstr "Jeg falt (av)"
+msgstr "I fell (off)."
 
 #: translation/templates/translation/language.html:2319
 #: translation/templates/translation/language.html:2322
 msgid "J’ai reçu un coup"
-msgstr "Noen slo meg"
+msgstr "I was hit."
 
 #: translation/templates/translation/language.html:2327
 #: translation/templates/translation/language.html:2330
 msgid "J’étais en voiture"
-msgstr "Jeg var i bilen/jeg kjørte"
+msgstr "I was in the car/I was driving."
 
 #: translation/templates/translation/language.html:2335
 #: translation/templates/translation/language.html:2338
 #: translation/templates/translation/language.html:2415
 #: translation/templates/translation/language.html:2418
 msgid "Je roulais à “x” km/h"
-msgstr "Jeg kjørte i XX km/t."
+msgstr "I was riding at XX km/h."
 
 #: translation/templates/translation/language.html:2343
 #: translation/templates/translation/language.html:2346
 msgid "J’avais ma ceinture de sécurité"
-msgstr "Jeg hadde setebelte på"
+msgstr "I had my seatbelt on."
 
 #: translation/templates/translation/language.html:2351
 #: translation/templates/translation/language.html:2354
 msgid "Je n’avais pas de ceinture de sécurité"
-msgstr "Jeg hadde ikke setebelte på"
+msgstr "I didn't have my seatbelt on."
 
 #: translation/templates/translation/language.html:2359
 #: translation/templates/translation/language.html:2362
 msgid "J’ai été éjecté pendant l’accident"
-msgstr "Jeg ble kastet ut av bilen under ulykken"
+msgstr "I was thrown from the car during the accident."
 
 #: translation/templates/translation/language.html:2367
 #: translation/templates/translation/language.html:2370
 msgid "Je n’ai pas été éjecté pendant l’accident"
-msgstr "Jeg ble ikke kastet ut av bilen under ulykken"
+msgstr "I wasn't thrown from the car during the accident."
 
 #: translation/templates/translation/language.html:2375
 #: translation/templates/translation/language.html:2378
 msgid "L’air-bag s’est déclenché"
-msgstr "Airbagen ble utløst"
+msgstr "The air bag was deployed."
 
 #: translation/templates/translation/language.html:2383
 #: translation/templates/translation/language.html:2386
 msgid "L’air-bag ne s’est pas déclenché"
-msgstr "Airbagen ble ikke utløst"
+msgstr "The air bag was not deployed."
 
 #: translation/templates/translation/language.html:2391
 #: translation/templates/translation/language.html:2394
 msgid "J’étais en vélo"
-msgstr "Jeg syklet/jeg var på sykkelen"
+msgstr "I was riding the bike./I was on my bike."
 
 #: translation/templates/translation/language.html:2399
 #: translation/templates/translation/language.html:2402
 msgid "J'étais en scooter"
-msgstr "Jeg kjørte scooter/jeg var på scooteren"
+msgstr "I was riding the scooter./I was on my scooter."
 
 #: translation/templates/translation/language.html:2407
 #: translation/templates/translation/language.html:2410
 msgid "J'étais en moto"
-msgstr "Jeg kjørte motorsykkel/jeg var på motorsykkelen"
+msgstr "I was riding the motorbike./I was on my motorbike."
 
 #: translation/templates/translation/language.html:2423
 #: translation/templates/translation/language.html:2426
 msgid "J’avais un casque"
-msgstr "Jeg hadde hjelm på."
+msgstr "I had a helmet on."
 
 #: translation/templates/translation/language.html:2431
 #: translation/templates/translation/language.html:2434
 msgid "Je n’avais pas de casque"
-msgstr "Jeg hadde ikke hjelm på"
+msgstr "I didn't have a helmet on."
 
 #: translation/templates/translation/language.html:2447
 #: translation/templates/translation/language.html:2450
 msgid "Je suis tombé de ma hauteur"
-msgstr ""
+msgstr "I fell from the same height as me."
 
 #: translation/templates/translation/language.html:2455
 #: translation/templates/translation/language.html:2458
 msgid "Je suis tombé de “x” mètres de hauteur"
-msgstr ""
+msgstr "I fell from XX metres high."
 
 #: translation/templates/translation/language.html:2463
 #: translation/templates/translation/language.html:2466
 msgid "Ma tête a tapé pendant l’accident"
-msgstr "Jeg slo hodet i ulykken"
+msgstr "I hit my head in the accident."
 
 #: translation/templates/translation/language.html:2471
 #: translation/templates/translation/language.html:2474
 msgid "Ma tête n’a pas tapé pendant l’accident"
-msgstr "Jeg slo ikke hodet i ulykken."
+msgstr "My head was not hit in the accident."
 
 #: translation/templates/translation/language.html:2479
 #: translation/templates/translation/language.html:2482
 #| msgid "J’ai des douleurs depuis :"
 msgid "J’ai des douleurs :"
-msgstr "Jeg har smerter."
+msgstr ""
 
 #: translation/templates/translation/language.html:2487
 #: translation/templates/translation/language.html:2490
 msgid "J'ai des douleurs à la tête"
-msgstr "Jeg har vondt i hodet"
+msgstr "My head hurts."
 
 #: translation/templates/translation/language.html:2495
 #: translation/templates/translation/language.html:2498
 msgid "J'ai des douleurs au cou"
-msgstr "Jeg har vondt i nakken"
+msgstr "My neck hurts."
 
 #: translation/templates/translation/language.html:2503
 #: translation/templates/translation/language.html:2506
 msgid "J'ai des douleurs au dos"
-msgstr "Jeg har vondt i ryggen"
+msgstr "My back hurts."
 
 #: translation/templates/translation/language.html:2511
 #: translation/templates/translation/language.html:2514
 msgid "J'ai des douleurs au bras"
-msgstr ""
+msgstr "My arm hurts."
 
 #: translation/templates/translation/language.html:2519
 #: translation/templates/translation/language.html:2522
 msgid "J'ai des douleurs à la jambe"
-msgstr ""
+msgstr "My leg hurts."
 
 #: translation/templates/translation/language.html:2527
 #: translation/templates/translation/language.html:2530
 msgid "J'ai des douleurs au torse"
-msgstr ""
+msgstr "My torso hurts."
 
 #: translation/templates/translation/language.html:2535
 #: translation/templates/translation/language.html:2538
 msgid "J'ai des douleurs au ventre"
-msgstr "Jeg har vondt i magen"
+msgstr "My stomach hurts."
 
 #: translation/templates/translation/language.html:2543
 #: translation/templates/translation/language.html:2546
 msgid "Je prend des anticoagulants (médicaments pour fluidifier le sang)"
-msgstr ""
+msgstr "I take anticoagulants to thin my blood."
 
 #: translation/templates/translation/language.html:2551
 #: translation/templates/translation/language.html:2554
 msgid "Je ne prend pas d’anticoagulants (médicaments pour fluidifier le sang)"
-msgstr ""
+msgstr "I don't take anticoagulants."
 
 #: translation/templates/translation/language.html:2559
 #: translation/templates/translation/language.html:2562
 msgid "Tête"
-msgstr "Hode"
+msgstr "Head"
 
 #: translation/templates/translation/language.html:2567
 #: translation/templates/translation/language.html:2570
 #: translation/templates/translation/language.html:3431
 #: translation/templates/translation/language.html:3434
 msgid "J’ai des douleurs depuis :"
-msgstr "Jeg har hatt smerter siden:"
+msgstr "I have been in pain since:"
 
 #: translation/templates/translation/language.html:2583
 #: translation/templates/translation/language.html:2586
 msgid "La douleur est apparue brutalement"
-msgstr ""
+msgstr "suddenly"
 
 #: translation/templates/translation/language.html:2591
 #: translation/templates/translation/language.html:2594
 msgid "La douleur est apparue progressivement"
-msgstr ""
+msgstr "Gradually"
 
 #: translation/templates/translation/language.html:2599
 #: translation/templates/translation/language.html:2602
 msgid "J’arrive bien à bouger mes bras et jambes"
-msgstr "Jeg kan lett bevege armer og bein"
+msgstr "I can easily move my arms and legs."
 
 #: translation/templates/translation/language.html:2607
 #: translation/templates/translation/language.html:2610
 msgid "Je n’arrive pas a bouger un bras ou une jambe"
-msgstr "Jeg kan ikke bevege armer og bein."
+msgstr "I can't move my arms or legs."
 
 #: translation/templates/translation/language.html:2615
 #: translation/templates/translation/language.html:2618
 msgid "J’arrive bien à parler"
-msgstr "Jeg kan snakke"
+msgstr "I can speak."
 
 #: translation/templates/translation/language.html:2623
 #: translation/templates/translation/language.html:2626
 msgid "J’ai des difficultés à parler"
-msgstr "Jeg har vansker med å snakke"
+msgstr "I am having trouble speaking."
 
 #: translation/templates/translation/language.html:2631
 #: translation/templates/translation/language.html:2634
 msgid "La lumière me dérange"
-msgstr "Lyset forstyrrer meg"
+msgstr "The light annoys me/Light annoys me."
 
 #: translation/templates/translation/language.html:2639
 #: translation/templates/translation/language.html:2642
 msgid "La lumière ne me dérange pas"
-msgstr "Lyset forstyrrer meg ikke"
+msgstr "The light doesn't annoy me/Light doesn't annoy me."
 
 #: translation/templates/translation/language.html:2647
 #: translation/templates/translation/language.html:2650
 msgid "J’ai de la fièvre"
-msgstr "Jeg har feber"
+msgstr "I have a fever."
 
 #: translation/templates/translation/language.html:2655
 #: translation/templates/translation/language.html:2658
 msgid "Je n’ai pas de fièvre"
-msgstr "Jeg har ikke feber"
+msgstr "I don't have a fever."
 
 #: translation/templates/translation/language.html:2663
 #: translation/templates/translation/language.html:2666
 msgid "J’ai des douleurs à la nuque"
-msgstr "Jeg har nakkesmerter"
+msgstr "the back of my neck hurts."
 
 #: translation/templates/translation/language.html:2671
 #: translation/templates/translation/language.html:2674
 msgid "Je n’ai pas de douleurs à la nuque"
-msgstr "Jeg har ikke nakkesmerter"
+msgstr "The back of my neck doesn't hurt."
 
 #: translation/templates/translation/language.html:2679
 #: translation/templates/translation/language.html:2682
 msgid "J’ai fais un malaise"
-msgstr ""
+msgstr "I had a dizzy spell."
 
 #: translation/templates/translation/language.html:2687
 #: translation/templates/translation/language.html:2690
 msgid "Je n’ai pas fais de malaise"
-msgstr ""
+msgstr "I didn't have a dizzy spell."
 
 #: translation/templates/translation/language.html:2695
 #: translation/templates/translation/language.html:2698
 msgid "J’ai perdu connaissance"
-msgstr "Jeg mistet bevisstheten"
+msgstr "I lost consciousness."
 
 #: translation/templates/translation/language.html:2703
 #: translation/templates/translation/language.html:2706
 msgid "Je n’ai pas perdu connaissance"
-msgstr "Jeg mistet ikke bevisstheten"
+msgstr "I didn't lose consciousness."
 
 #: translation/templates/translation/language.html:2711
 #: translation/templates/translation/language.html:2714
 msgid "J’ai perdu mes urines"
-msgstr ""
+msgstr "I wet myself."
 
 #: translation/templates/translation/language.html:2719
 #: translation/templates/translation/language.html:2722
 msgid "Je n’ai pas perdu mes urines"
-msgstr ""
+msgstr "I didn't wet myself."
 
 #: translation/templates/translation/language.html:2727
 #: translation/templates/translation/language.html:2730
 msgid "J’ai convulsé"
-msgstr "Jeg hadde noen anfall"
+msgstr "I had some seizures."
 
 #: translation/templates/translation/language.html:2735
 #: translation/templates/translation/language.html:2738
 msgid "Je n’ai pas convulsé"
-msgstr "Jeg hadde ikke noen anfall"
+msgstr "I didn't have any seizures."
 
 #: translation/templates/translation/language.html:2743
 #: translation/templates/translation/language.html:2746
 msgid "Je suis épileptique"
-msgstr "Jeg har epilepsi"
+msgstr "I am epileptic."
 
 #: translation/templates/translation/language.html:2751
 #: translation/templates/translation/language.html:2754
 msgid "Je ne suis pas épileptique"
-msgstr "Jeg har ikke epilepsi"
+msgstr "I am not epileptic."
 
 #: translation/templates/translation/language.html:2759
 #: translation/templates/translation/language.html:2762
 msgid "J’ai pris mes traitements aujourd’hui"
-msgstr "Jeg tok medisinen i dag"
+msgstr "I took my medication today."
 
 #: translation/templates/translation/language.html:2767
 #: translation/templates/translation/language.html:2770
 msgid "Je n’ai pas pris mes traitements aujourd’hui"
-msgstr "Jeg tok ikke medisinen i dag"
+msgstr "I didn't take my medication today."
 
 #: translation/templates/translation/language.html:2783
 #: translation/templates/translation/language.html:2786
 msgid "Je n’ai pas de vertiges"
-msgstr "Jeg føler meg ikke svimmel"
+msgstr "I don't feel dizzy."
 
 #: translation/templates/translation/language.html:2791
 #: translation/templates/translation/language.html:2794
 msgid "Je suis diabétique"
-msgstr "Jeg har diabetes"
+msgstr "I am diabetic."
 
 #: translation/templates/translation/language.html:2799
 #: translation/templates/translation/language.html:2802
 msgid "Je ne suis pas diabétique"
-msgstr "Jeg har ikke diabetes"
+msgstr "I am not diabetic."
 
 #: translation/templates/translation/language.html:2807
 #: translation/templates/translation/language.html:2810
 msgid "J’ai mangé aujourd’hui"
-msgstr "Jeg har spist i dag"
+msgstr "I have eaten today."
 
 #: translation/templates/translation/language.html:2815
 #: translation/templates/translation/language.html:2818
 msgid "Je n’ai pas mangé aujourd’hui"
-msgstr "Jeg har ikke spist i dag"
+msgstr "I haven't eaten today."
 
 #: translation/templates/translation/language.html:2823
 #: translation/templates/translation/language.html:2826
 msgid "Torse"
-msgstr "Brystpartiet, ryggen og magepartiet."
+msgstr "Torso"
 
 #: translation/templates/translation/language.html:2831
 #: translation/templates/translation/language.html:2834
 msgid "J’ai eu un choc au torse récemment"
-msgstr "Jeg ble slått i brystpartiet, ryggen eller magepartiet nylig"
+msgstr "I got hit in the torso recently."
 
 #: translation/templates/translation/language.html:2839
 #: translation/templates/translation/language.html:2842
 msgid "Je n’ai pas eu de choc au torse récemment"
-msgstr "Jeg ble ikke slått i brystpartiet, ryggen eller magepartiet nylig"
+msgstr "I wasn't hit in the torso recently."
 
 #: translation/templates/translation/language.html:2847
 #: translation/templates/translation/language.html:2850
 msgid "La douleur est encore présente"
-msgstr "Det gjør fortsatt vondt"
+msgstr "The pain is still there."
 
 #: translation/templates/translation/language.html:2855
 #: translation/templates/translation/language.html:2858
 msgid "La douleur n’est plus présente"
-msgstr "Det gjør ikke vondt lenger"
+msgstr "The pain is no longer there."
 
 #: translation/templates/translation/language.html:2863
 #: translation/templates/translation/language.html:2866
 #| msgid "La douleur irradie vers :"
 msgid "La douleur :"
-msgstr "Smerten:"
+msgstr ""
 
 #: translation/templates/translation/language.html:2871
 #: translation/templates/translation/language.html:2874
 msgid "La douleur pique"
-msgstr ""
+msgstr "It stings."
 
 #: translation/templates/translation/language.html:2879
 #: translation/templates/translation/language.html:2882
 msgid "La douleur serre"
-msgstr ""
+msgstr "It feels tight."
 
 #: translation/templates/translation/language.html:2887
 #: translation/templates/translation/language.html:2890
 msgid "La douleur brûle"
-msgstr ""
+msgstr "It burns."
 
 #: translation/templates/translation/language.html:2895
 #: translation/templates/translation/language.html:2898
 msgid "La douleur irradie vers :"
-msgstr ""
+msgstr "The pain is referring to my:"
 
 #: translation/templates/translation/language.html:2903
 #: translation/templates/translation/language.html:2906
 msgid "Machoire"
-msgstr "Kjeve"
+msgstr "jaw"
 
 #: translation/templates/translation/language.html:2911
 #: translation/templates/translation/language.html:2914
 msgid "Je ressent des palpitations"
-msgstr "Jeg har hjertebank"
+msgstr "I am having palpitations"
 
 #: translation/templates/translation/language.html:2919
 #: translation/templates/translation/language.html:2922
 msgid "Je ne ressent pas de palpitations"
-msgstr "Jeg har ikke hjertebank"
+msgstr "I am not having any palpitations."
 
 #: translation/templates/translation/language.html:2927
 #: translation/templates/translation/language.html:2930
 msgid "Dans ma famille il y a des problèmes cardiaques"
-msgstr "Det er hjerte- og karsykdommer i familien min"
+msgstr "My family has a history of cardiac problems."
 
 #: translation/templates/translation/language.html:2935
 #: translation/templates/translation/language.html:2938
 msgid "Dans ma famille il n’y a pas de problème cardiaque"
-msgstr "Det er ikke hjerte- og karsykdommer i familien min"
+msgstr "My family has no history of cardiac problems."
 
 #: translation/templates/translation/language.html:2943
 #: translation/templates/translation/language.html:2946
 msgid "La douleur est plus forte quand je respire"
-msgstr "Smerten er sterkere når jeg puster inn"
+msgstr "The pain is stronger when I inhale."
 
 #: translation/templates/translation/language.html:2951
 #: translation/templates/translation/language.html:2954
 msgid "La douleur n’est pas plus forte quand je respire"
-msgstr "Smerten er ikke sterkere når jeg puster inn"
+msgstr "The pain is not stronger when I inhale."
 
 #: translation/templates/translation/language.html:2959
 #: translation/templates/translation/language.html:2962
 msgid "Je crache du sang"
-msgstr "Jeg hoster blod"
+msgstr "I am coughing blood."
 
 #: translation/templates/translation/language.html:2967
 #: translation/templates/translation/language.html:2970
 msgid "Je ne crache pas du sang"
-msgstr "Jeg hoster ikke blod"
+msgstr "I am not coughing blood."
 
 #: translation/templates/translation/language.html:2975
 #: translation/templates/translation/language.html:2978
 msgid "Je tousse"
-msgstr "Jeg hoster"
+msgstr "I am coughing."
 
 #: translation/templates/translation/language.html:2983
 #: translation/templates/translation/language.html:2986
 msgid "Je ne tousse pas"
-msgstr "Jeg hoster ikke"
+msgstr "I am not coughing."
 
 #: translation/templates/translation/language.html:2991
 #: translation/templates/translation/language.html:2994
 msgid "J’ai des difficultés à respirer"
-msgstr "Jeg har vansker med å puste"
+msgstr "I am having trouble breathing."
 
 #: translation/templates/translation/language.html:2999
 #: translation/templates/translation/language.html:3002
 msgid "Je n’ai pas de difficultés à respirer"
-msgstr "Jeg har ikke vansker med å puste"
+msgstr "I am not having any trouble breathing."
 
 #: translation/templates/translation/language.html:3007
 #: translation/templates/translation/language.html:3010
 msgid "J’ai respiré des fumées"
-msgstr "Jeg har pustet røyk"
+msgstr "I inhaled some fumes."
 
 #: translation/templates/translation/language.html:3015
 #: translation/templates/translation/language.html:3018
 msgid "Je fume."
-msgstr "Jeg røyker"
+msgstr "I smoke."
 
 #: translation/templates/translation/language.html:3023
 #: translation/templates/translation/language.html:3026
 msgid "Je ne fume pas"
-msgstr "Jeg røyker ikke"
+msgstr "I don't smoke."
 
 #: translation/templates/translation/language.html:3031
 #: translation/templates/translation/language.html:3034
 msgid "Je bois de l’alcool"
-msgstr "Jeg drikker alkohol"
+msgstr "I drink alcohol."
 
 #: translation/templates/translation/language.html:3039
 #: translation/templates/translation/language.html:3042
 msgid "Je ne bois pas d’alcool"
-msgstr "Jeg drikker ikke alkohol"
+msgstr "I don't drink alcohol."
 
 #: translation/templates/translation/language.html:3047
 #: translation/templates/translation/language.html:3050
 msgid "J’ai du cholestérol"
-msgstr "Jeg har høyt kolesterol"
+msgstr "I have high cholesterol."
 
 #: translation/templates/translation/language.html:3055
 #: translation/templates/translation/language.html:3058
 msgid "Je n’ai pas de cholestérol"
-msgstr "Jeg har ikke høyt kolesterol"
+msgstr "I don't have high cholesterol."
 
 #: translation/templates/translation/language.html:3063
 #: translation/templates/translation/language.html:3066
 msgid "Je suis asthmatique"
-msgstr "Jeg har astma"
+msgstr "I am asthmatic."
 
 #: translation/templates/translation/language.html:3071
 #: translation/templates/translation/language.html:3074
 msgid "Je ne suis pas asthmatique"
-msgstr "Jeg har ikke astma"
+msgstr "I am not asthmatic."
 
 #: translation/templates/translation/language.html:3079
 #: translation/templates/translation/language.html:3082
 msgid "Ventre"
-msgstr "Mage"
+msgstr "Stomach"
 
 #: translation/templates/translation/language.html:3087
 #: translation/templates/translation/language.html:3090
 msgid "J'ai des nausées"
-msgstr "Jeg føler meg kvalm"
+msgstr "I feel nauseous."
 
 #: translation/templates/translation/language.html:3095
 #: translation/templates/translation/language.html:3098
 msgid "Je n'ai pas de nausées"
-msgstr "Jeg føler meg ikke kvalm"
+msgstr "I don't feel nauseous."
 
 #: translation/templates/translation/language.html:3111
 #: translation/templates/translation/language.html:3114
 msgid "Je n’ai pas vomi"
-msgstr "Jeg kastet ikke opp"
+msgstr "I didn't throw up/vomit."
 
 #: translation/templates/translation/language.html:3119
 #: translation/templates/translation/language.html:3122
 msgid "Des aliments"
-msgstr ""
+msgstr "food"
 
 #: translation/templates/translation/language.html:3127
 #: translation/templates/translation/language.html:3130
 msgid "Du sang"
-msgstr ""
+msgstr "blood"
 
 #: translation/templates/translation/language.html:3135
 #: translation/templates/translation/language.html:3138
 msgid "Une fois"
-msgstr ""
+msgstr "once"
 
 #: translation/templates/translation/language.html:3143
 #: translation/templates/translation/language.html:3146
 msgid "Deux fois"
-msgstr ""
+msgstr "twice"
 
 #: translation/templates/translation/language.html:3151
 #: translation/templates/translation/language.html:3154
 msgid "Plusieurs fois"
-msgstr ""
+msgstr "several times"
 
 #: translation/templates/translation/language.html:3159
 #: translation/templates/translation/language.html:3162
 msgid "J’ai des diarrhées"
-msgstr "Jeg har diaré"
+msgstr "I have diarrhea."
 
 #: translation/templates/translation/language.html:3167
 #: translation/templates/translation/language.html:3170
 msgid "Je n’ai pas de diarrhées"
-msgstr "Jeg har ikke diaré"
+msgstr "I don't have diarrhea."
 
 #: translation/templates/translation/language.html:3175
 #: translation/templates/translation/language.html:3178
 msgid "J’ai des gazs"
-msgstr "Jeg har luft i magen"
+msgstr "I have gas."
 
 #: translation/templates/translation/language.html:3183
 #: translation/templates/translation/language.html:3186
 msgid "Je n’ai plus de gazs"
-msgstr "Jeg har ikke luft i magen lenger"
+msgstr "I no longer have gas."
 
 #: translation/templates/translation/language.html:3191
 #: translation/templates/translation/language.html:3194
 msgid "Mes dernières urines étaient il y a :"
-msgstr "Sist gang jeg urinerte var:"
+msgstr "The last I urinated was:"
 
 #: translation/templates/translation/language.html:3199
 #: translation/templates/translation/language.html:3202
 msgid "Il y avait du sang dans mes urines"
-msgstr "Det var blod i urinen"
+msgstr "The was blood in my urine."
 
 #: translation/templates/translation/language.html:3207
 #: translation/templates/translation/language.html:3210
 msgid "Il n’y avait pas de sang dans mes urines"
-msgstr "Det var ikke noe blod i urinen"
+msgstr "There was no blood in my urine."
 
 #: translation/templates/translation/language.html:3215
 #: translation/templates/translation/language.html:3218
 msgid "J’ai des brûlures quand j’urine"
-msgstr "Det svir når jeg urinerer"
+msgstr "It burns when I urinate."
 
 #: translation/templates/translation/language.html:3223
 #: translation/templates/translation/language.html:3226
 msgid "Je n’ai pas de brûlures quand j’urine"
-msgstr "Det svir ikke når jeg urinerer"
+msgstr "It doesn't burn when I urinate."
 
 #: translation/templates/translation/language.html:3231
 #: translation/templates/translation/language.html:3234
 msgid "Mes dernières selles étaient il y a :"
-msgstr "Sist gang jeg hadde avføring var:"
+msgstr "My last bowel motion was :"
 
 #: translation/templates/translation/language.html:3239
 #: translation/templates/translation/language.html:3242
 msgid "Il y avait du sang dans mes selles"
-msgstr "Det var blod i avføringen"
+msgstr "There was blood in my stool."
 
 #: translation/templates/translation/language.html:3247
 #: translation/templates/translation/language.html:3250
 msgid "Il n’y avait pas de sang dans mes selles"
-msgstr "Det var ikke blod i avføringen"
+msgstr "There was no blood in my stool."
 
 #: translation/templates/translation/language.html:3255
 #: translation/templates/translation/language.html:3258
 msgid "Mes dernières règles étaient il y a :"
-msgstr "Sist gang jeg hadde mensen var:"
+msgstr "My last period was:"
 
 #: translation/templates/translation/language.html:3263
 #: translation/templates/translation/language.html:3266
 msgid "Je suis enceinte"
-msgstr "Jeg er gravid"
+msgstr "I am pregnant."
 
 #: translation/templates/translation/language.html:3271
 #: translation/templates/translation/language.html:3274
 msgid "Je ne suis pas enceinte"
-msgstr "Jeg er ikke gravid"
+msgstr "I am not pregnant."
 
 #: translation/templates/translation/language.html:3279
 #: translation/templates/translation/language.html:3282
 msgid "Depuis “x” semaines"
-msgstr "I XX uker."
+msgstr "Since X weeks."
 
 #: translation/templates/translation/language.html:3287
 #: translation/templates/translation/language.html:3290
 msgid "J’ai eu des pertes par voie basse"
-msgstr "Jeg hadde blodtap under den vaginale/naturlige fødselen"
+msgstr "I had blood loss during vaginal delivery/natural birth."
 
 #: translation/templates/translation/language.html:3295
 #: translation/templates/translation/language.html:3298
 msgid "Je n’ai pas eu de perte par voie basse"
-msgstr "Jeg hadde ikke noe blodtap under den vaginale/naturlige fødselen"
+msgstr "I had no blood loss during vaginal delivery/natural birth."
 
 #: translation/templates/translation/language.html:3303
 #: translation/templates/translation/language.html:3306
 msgid "Mes pertes étaient :"
-msgstr "Blodtapet mitt var:"
+msgstr "My blood loss was:"
 
 #: translation/templates/translation/language.html:3311
 #: translation/templates/translation/language.html:3314
 msgid "Mes pertes étaient de couleur rouge"
-msgstr ""
+msgstr "red"
 
 #: translation/templates/translation/language.html:3319
 #: translation/templates/translation/language.html:3322
 msgid "Mes pertes étaient de couleur noire"
-msgstr ""
+msgstr "black"
 
 #: translation/templates/translation/language.html:3327
 #: translation/templates/translation/language.html:3330
 msgid "J’ai perdu du poids ces derniers temps"
-msgstr "Jeg har gått ned i vekt i det siste"
+msgstr "I have lost weight recently."
 
 #: translation/templates/translation/language.html:3335
 #: translation/templates/translation/language.html:3338
 msgid "Je n’ai pas perdu de poids ces derniers temps"
-msgstr "Jeg har ikke gått ned i vekt i det siste"
+msgstr "I have not lost weight recently."
 
 #: translation/templates/translation/language.html:3343
 #: translation/templates/translation/language.html:3346
 msgid "Dos / Cou"
-msgstr "Rygg/nakke"
+msgstr "Back/Neck"
 
 #: translation/templates/translation/language.html:3351
 #: translation/templates/translation/language.html:3354
 msgid "Ma douleur n’irradie pas vers la fesse ou la jambe"
-msgstr ""
+msgstr "The pain doesn't refer to anywhere else."
 
 #: translation/templates/translation/language.html:3359
 #: translation/templates/translation/language.html:3362
 msgid "Ma douleur irradie vers la fesse ou la jambe"
-msgstr ""
+msgstr "The pain refers down into my backside/down my leg."
 
 #: translation/templates/translation/language.html:3367
 #: translation/templates/translation/language.html:3370
 msgid "Je n’ai pas le dos bloqué"
-msgstr ""
+msgstr "My back doesn't feel blocked."
 
 #: translation/templates/translation/language.html:3375
 #: translation/templates/translation/language.html:3378
 msgid "J’ai le dos bloqué"
-msgstr ""
+msgstr "my back feels blocked."
 
 #: translation/templates/translation/language.html:3383
 #: translation/templates/translation/language.html:3386
 msgid "J’ai mal surtout le soir"
-msgstr "Jeg lider av spesielt om kveld"
+msgstr "I feel sick especially at night."
 
 #: translation/templates/translation/language.html:3391
 #: translation/templates/translation/language.html:3394
 msgid "J’ai mal surtout le matin"
-msgstr "Jeg lider av spesielt om morgen"
+msgstr "I feel sick, especially in the morning."
 
 #: translation/templates/translation/language.html:3399
 #: translation/templates/translation/language.html:3402
 msgid "Bras"
-msgstr ""
+msgstr "Arm"
 
 #: translation/templates/translation/language.html:3407
 #: translation/templates/translation/language.html:3410
 msgid "Jambe"
-msgstr ""
+msgstr "Leg"
 
 #: translation/templates/translation/language.html:3415
 #: translation/templates/translation/language.html:3418
 msgid "J’ai reçu un coup récemment"
-msgstr ""
+msgstr "I received a knock recently/I was hit recently."
 
 #: translation/templates/translation/language.html:3423
 #: translation/templates/translation/language.html:3426
 msgid "Je n’ai pas reçu de coup récemment"
-msgstr ""
+msgstr "I have not been hit/received any blows recently."
 
 #: translation/templates/translation/language.html:3439
 #: translation/templates/translation/language.html:3442
 msgid "J’ai été piqué ou mordu récemment"
-msgstr "Jeg ble stukket/bitt nylig"
+msgstr "I was stung/bitten recently."
 
 #: translation/templates/translation/language.html:3447
 #: translation/templates/translation/language.html:3450
 msgid "Je n’ai pas été piqué ou mordu récemment"
-msgstr "Jeg ble ikke stukket/bitt nylig"
+msgstr "I wasn't stung/bitten recently."
 
 #: translation/templates/translation/language.html:3455
 #: translation/templates/translation/language.html:3458
 msgid "Ca me démange"
-msgstr "Det klør"
+msgstr "It itches."
 
 #: translation/templates/translation/language.html:3463
 #: translation/templates/translation/language.html:3466
 msgid "Ca ne me démange pas"
-msgstr "Det klør ikke"
+msgstr "It doesn't itch."
 
 #: translation/templates/translation/language.html:3471
 #: translation/templates/translation/language.html:3474
 #| msgid "La douleur irradie vers :"
 msgid "Ma douleur est :"
-msgstr "Smerten min er"
+msgstr ""
 
 #: translation/templates/translation/language.html:3479
 #: translation/templates/translation/language.html:3482
 msgid "Ma douleur est faible"
-msgstr ""
+msgstr "weak"
 
 #: translation/templates/translation/language.html:3487
 #: translation/templates/translation/language.html:3490
 msgid "Ma douleur est moyenne"
-msgstr ""
+msgstr "average"
 
 #: translation/templates/translation/language.html:3495
 #: translation/templates/translation/language.html:3498
 msgid "Ma douleur est forte"
-msgstr ""
+msgstr "strong"
 
 #: translation/templates/translation/language.html:3503
 #: translation/templates/translation/language.html:3506
 msgid "Ma douleur est insuppotable"
-msgstr ""
+msgstr "unbearable"
 
 #: translation/templates/translation/language.html:3511
 #: translation/templates/translation/language.html:3514
 msgid "Avez-vous des clips intra-cranien ?"
-msgstr ""
+msgstr "intracranial clips"
 
 #: translation/templates/translation/language.html:3519
 #: translation/templates/translation/language.html:3522
 msgid "Avez-vous un implant cochléaire ?"
-msgstr ""
+msgstr "a cochlear implant"
 
 #: translation/templates/translation/language.html:3527
 #: translation/templates/translation/language.html:3530
 msgid "Avez-vous un implant oculaire ?"
-msgstr ""
+msgstr "an intraocular lens implant"
 
 #: translation/templates/translation/language.html:3535
 #: translation/templates/translation/language.html:3538
 msgid "Avez-vous du métal dans le corps ?"
-msgstr ""
+msgstr "Some metal in the body"
 
 #: translation/templates/translation/language.html:3543
 #: translation/templates/translation/language.html:3546
 msgid "Avez-vous un défibrillateur ?"
-msgstr ""
+msgstr "A defibrillator"
 
 #: translation/templates/translation/language.html:3551
 #: translation/templates/translation/language.html:3554
 msgid "Avez-vous une chambre implantable ?"
-msgstr ""
+msgstr "a PICC line (Peripherally Inserted Central Catheter)"
 
 #: translation/templates/translation/language.html:3559
 #: translation/templates/translation/language.html:3562
 msgid "Allaitez-vous ?"
-msgstr "Ammer du?"
+msgstr "Are you breastfeeding? Do you breastfeed?"
 
 #: translation/templates/translation/language.html:3567
 #: translation/templates/translation/language.html:3570
 msgid "Où se trouve le médecin le plus proche ?"
-msgstr "Jeg trenger en lege"
+msgstr "Where is the closest doctor?"
 
 #: translation/templates/translation/language.html:3575
 #: translation/templates/translation/language.html:3578
 msgid "Où se trouve l'hôpital le plus proche ?"
-msgstr "Jeg må på sykehus"
+msgstr "Where is the closest hospital?"
 
 #: translation/templates/translation/language.html:3583
 #: translation/templates/translation/language.html:3586
 msgid "Où se trouve la pharmacie la plus proche ?"
-msgstr "Hvor er nærmeste apotek?"
+msgstr "Where is the closest pharmacy?"
 
 #: translation/templates/translation/language.html:3591
 #: translation/templates/translation/language.html:3594
 msgid "J'ai besoin de secours, pouvez-vous les appeler ?"
-msgstr "Jeg trenge hjelp, kan du ringer dem?"
+msgstr "I need (medical) assistance, could you please call an ambulance?"
 
 #: translation/templates/translation/language.html:3599
 #: translation/templates/translation/language.html:3602
 msgid "Vous allez avoir une IRM"
-msgstr ""
+msgstr "a MRI (Magnetic resonance imaging)"
 
 #: translation/templates/translation/language.html:3607
 #: translation/templates/translation/language.html:3610
 msgid "L'examen est long. Il dure entre 15 et 40 minutes"
-msgstr "Hjerne scanningen kan ta langt tid, alt mellom 15 til 45 minutter totalt."
+msgstr "The scan takes a long time. About 15 to 40 minutes in total."
 
 #: translation/templates/translation/language.html:3615
 #: translation/templates/translation/language.html:3618
 msgid "L'examen n'est pas douloureux mais il est très bruyant"
-msgstr "Scanningen er ikke smertefull, men det blir mye støy"
+msgstr "The scan isn’t painful but it is very loud."
 
 #: translation/templates/translation/language.html:3623
 #: translation/templates/translation/language.html:3626
 msgid "Il faut rester immobile pendant toute la durée de l'examen"
-msgstr "Vennligst ligg rolig under hele scanningen, unngå bevegelse mens scannen pågår"
+msgstr "You must remain still during the entire scan "
 
 #: translation/templates/translation/language.html:3639
 #: translation/templates/translation/language.html:3642
 msgid "Avez-vous une valve mécanique ?"
-msgstr ""
+msgstr "Mechanical heart valve"
 
 #: translation/templates/translation/language.html:3647
 #: translation/templates/translation/language.html:3650
 msgid "Avez-vous un capteur de glycémie ?"
-msgstr ""
+msgstr "a bloodsugar sensor"
 
 #: translation/templates/translation/language.html:3663
 #: translation/templates/translation/language.html:3666
 msgid "Quelle est votre taille et votre poids ?"
-msgstr "Hva er din høyde og vekt ?"
+msgstr "What is your height and weight"
 
 #: translation/templates/translation/language.html:3679
 #: translation/templates/translation/language.html:3682
 msgid "Nous allons injecter un produit de contraste qui va vous donner chaud dans tout le corps, c'est normal ne vous inquiétez pas"
-msgstr "Vi vil sprøyte inn med fargestoff. Dersom du føler deg varm, så er dette normalt og ingenting å uroe seg over"
+msgstr "We will inject you with intravenous dye which will create a warm feeling in your body. This reaction is normal and you should not worry about it."
 
 #: translation/templates/translation/language.html:3687
 #: translation/templates/translation/language.html:3690
 msgid "Prenez-vous un traitement pour la thyroïde ?"
-msgstr "Er du under behandling for Skjoldkjertel?"
+msgstr "Are you following a treatment for thyroid?"
 
 #: translation/templates/translation/language.html:3695
 #: translation/templates/translation/language.html:3698
 msgid "Avez-vous des problèmes rénaux ?"
-msgstr "Har du noen problemer med nyrene?"
+msgstr "Do you have kidney problems/issues ?"
 
 #: translation/templates/translation/language.html:3703
 #: translation/templates/translation/language.html:3706
 msgid "Pouvez-vous signer l’autorisation de soins ci-dessous ?"
-msgstr "Kan du vennligst signere godkjennelse for behandling?"
+msgstr "Could you please sign the authorization for medical treatment ?"
 
 #: translation/templates/translation/language.html:3711
 #: translation/templates/translation/language.html:3714
 msgid "Nom :"
-msgstr ""
+msgstr "Last Name :"
 
 #: translation/templates/translation/language.html:3719
 #: translation/templates/translation/language.html:3722
 msgid "Prénom :"
-msgstr ""
+msgstr "First Name:"
 
 #: translation/templates/translation/language.html:3727
 #: translation/templates/translation/language.html:3730
 msgid "Date de naissance :"
-msgstr ""
+msgstr "Birth date :"
 
 #: translation/templates/translation/language.html:3735
 #: translation/templates/translation/language.html:3738
 msgid "Taille :"
-msgstr ""
+msgstr "Height :"
 
 #: translation/templates/translation/language.html:3743
 #: translation/templates/translation/language.html:3746
 msgid "Poids :"
-msgstr ""
+msgstr "Weight:"
 
 #: translation/views.py:23
 msgid "Afrique"
