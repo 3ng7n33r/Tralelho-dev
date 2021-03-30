@@ -5,7 +5,7 @@ msgstr ""
 "POT-Creation-Date: 2021-03-11 15:45+0000\n"
 "PO-Revision-Date: 2021-03-30 10:31\n"
 "Last-Translator: \n"
-"Language-Team: Portuguese, Brazilian\n"
+"Language-Team: Portuguese\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: 73d3b19e82fc460fd936796fc5b25f94\n"
 "X-Crowdin-Project-ID: 2\n"
-"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-Language: pt\n"
 "X-Crowdin-File: /master/translation/locale/fra/LC_MESSAGES/django.po\n"
 "X-Crowdin-File-ID: 12\n"
 
@@ -341,7 +341,7 @@ msgstr ""
 #: translation/templates/sidenav.html:18
 #: translation/templates/translation/language.html:1043
 msgid "DIGESTIF"
-msgstr "SISTEMA DIGESTIVO"
+msgstr "Digestivo"
 
 #: translation/templates/sidenav.html:19
 #: translation/templates/translation/language.html:1194
@@ -495,17 +495,17 @@ msgstr "A senhora(fem) O senhor (masc) pode me mostra o seu passaporte?"
 #: translation/templates/translation/language.html:144
 #: translation/templates/translation/language.html:147
 msgid "Pouvez-vous me montrez une carte d’identité"
-msgstr ""
+msgstr "A senhora(fem) O senhor (masc) pode me mostrar a seu bilhete d' identidade"
 
 #: translation/templates/translation/language.html:152
 #: translation/templates/translation/language.html:155
 msgid "Pouvez-vous me montrer des papiers avec votre nom"
-msgstr "A senhora(fem) O senhor (masc) pode me mostrar o documentos com seu nome?"
+msgstr "A senhora(fem) O senhor (masc) pode me mostrar os seus papéis ?"
 
 #: translation/templates/translation/language.html:160
 #: translation/templates/translation/language.html:163
 msgid "Pouvez-vous me montrer une carte Européenne de santé"
-msgstr "A senhora(fem) O senhor (masc) pode me mostrar o seu Cartão Europeu de Saúde ou Cartão Europeu de Seguro de Doença?"
+msgstr "A senhora(fem) O senhor (masc) pode me mostrar a sua carte Europeia de saúde?"
 
 #: translation/templates/translation/language.html:168
 #: translation/templates/translation/language.html:171
@@ -525,12 +525,12 @@ msgstr "Os custos do atendimento não serão pagos pelo senhor"
 #: translation/templates/translation/language.html:192
 #: translation/templates/translation/language.html:195
 msgid "De quel pays venez-vous ?"
-msgstr "O senhor(a) vem de qual país?"
+msgstr "De qual país o senhor vem?"
 
 #: translation/templates/translation/language.html:200
 #: translation/templates/translation/language.html:203
 msgid "A quelle adresse vivez-vous actuellement ?"
-msgstr "Qual é o endreço que você mora atualmente?"
+msgstr "Qual é a morada do denhor neste momento?"
 
 #: translation/templates/translation/language.html:208
 #: translation/templates/translation/language.html:211
@@ -540,7 +540,7 @@ msgstr "A senhora(fem) O senhor(masc) tem algum número de telefone que podemos 
 #: translation/templates/translation/language.html:223
 #: translation/templates/translation/language.html:226
 msgid "Je vous laisse attendre :"
-msgstr "Aguarde"
+msgstr "Por favor aguarde"
 
 #: translation/templates/translation/language.html:231
 #: translation/templates/translation/language.html:234
@@ -560,32 +560,32 @@ msgstr ""
 #: translation/templates/translation/language.html:255
 #: translation/templates/translation/language.html:258
 msgid "Nous viendrons vous appeler"
-msgstr "Nós vamos te chamar/ligar"
+msgstr ""
 
 #: translation/templates/translation/language.html:263
 #: translation/templates/translation/language.html:266
 msgid "Merci de ne pas manger, boire ou fumer pendant l’attente"
-msgstr "Agradecemos que não coma, beba nem fuma durante o atendimento"
+msgstr "Agradecemos que não coma, beba ou fume enquanto aguarda pela sua vez"
 
 #: translation/templates/translation/language.html:271
 #: translation/templates/translation/language.html:274
 msgid "Votre famille devra attendre ici"
-msgstr "A sua família terá que aguardar aqui"
+msgstr "A sua família deve aguardar aqui"
 
 #: translation/templates/translation/language.html:279
 #: translation/templates/translation/language.html:282
 msgid "Selon votre état de santé, le médecin demandera parfois des soins, comme une prise de sang, un examen comme une radio ou un scanner, ou pourra demander de vous garder en observation pour surveiller votre état de santé"
-msgstr "Dependendo do seu estado de saúde, o médico pode pedir exame de sangue, uma radiografia, uma ressonância magnética ou poderá pedir para ficar em observação para acompanhar o seu estado de saúde"
+msgstr "Dependendo do seu estado de saúde, o médico pode pedir análises ao sangue, uma radiografia ou uma ressonância magnética. Pode também pedir para ficar em observação de forma analisar o seu estado de saúde"
 
 #: translation/templates/translation/language.html:287
 #: translation/templates/translation/language.html:290
 msgid "Nous vous demandons de ne pas manger ou boire tant que le médecin ne vous y a pas autorisé, certains examens demandant de rester à jeun"
-msgstr "Pedimos que não coma nem beba nada até que o seu médico autorize, certos exames são feitos em jejum"
+msgstr "Por favor não coma ou beba até que o médico lhe dê autorização para tal. Alguns exames terão de ser efectuados em jejum"
 
 #: translation/templates/translation/language.html:295
 #: translation/templates/translation/language.html:298
 msgid "Il faut attendre 1 heure pour avoir les résultats de la prise de sang"
-msgstr "Terá de aguardar 1hora para receber o resultado do exame de sangue"
+msgstr "Terá de aguardar 1hora para receber o resultado das análises"
 
 #: translation/templates/translation/language.html:310
 #: translation/templates/translation/language.html:313
@@ -601,17 +601,17 @@ msgstr "Você sente dor?"
 #: translation/templates/translation/language.html:342
 #: translation/templates/translation/language.html:345
 msgid "Montrez-moi où vous avez mal"
-msgstr "Me mostra onde dói"
+msgstr "Mostra me aonde ficam as dores"
 
 #: translation/templates/translation/language.html:350
 #: translation/templates/translation/language.html:353
 msgid "Je vais vous examiner"
-msgstr "Vou examinar você"
+msgstr "Vou examinar o senhor"
 
 #: translation/templates/translation/language.html:358
 #: translation/templates/translation/language.html:361
 msgid "Pourriez-vous chiffrer votre douleur entre 0 et 10 ?"
-msgstr "De 0 a 10, qual o nível da sua dor?"
+msgstr "De 0 a 10, onde está a sua dor?"
 
 #: translation/templates/translation/language.html:366
 #: translation/templates/translation/language.html:369
@@ -621,57 +621,57 @@ msgstr "( Sendo 10 a nota para uma dor insuportável )"
 #: translation/templates/translation/language.html:374
 #: translation/templates/translation/language.html:377
 msgid "0"
-msgstr ""
+msgstr "0 zero"
 
 #: translation/templates/translation/language.html:382
 #: translation/templates/translation/language.html:385
 msgid "1"
-msgstr "1"
+msgstr "1 um"
 
 #: translation/templates/translation/language.html:390
 #: translation/templates/translation/language.html:393
 msgid "2"
-msgstr "2"
+msgstr "2 dois"
 
 #: translation/templates/translation/language.html:398
 #: translation/templates/translation/language.html:401
 msgid "3"
-msgstr "3"
+msgstr "3 três"
 
 #: translation/templates/translation/language.html:406
 #: translation/templates/translation/language.html:409
 msgid "4"
-msgstr "4"
+msgstr "4 quatro"
 
 #: translation/templates/translation/language.html:414
 #: translation/templates/translation/language.html:417
 msgid "5"
-msgstr "5"
+msgstr "5 cinco"
 
 #: translation/templates/translation/language.html:422
 #: translation/templates/translation/language.html:425
 msgid "6"
-msgstr "6"
+msgstr "6 seis"
 
 #: translation/templates/translation/language.html:430
 #: translation/templates/translation/language.html:433
 msgid "7"
-msgstr "7"
+msgstr "7 sete"
 
 #: translation/templates/translation/language.html:438
 #: translation/templates/translation/language.html:441
 msgid "8"
-msgstr "8"
+msgstr "8 oito"
 
 #: translation/templates/translation/language.html:446
 #: translation/templates/translation/language.html:449
 msgid "9"
-msgstr "9"
+msgstr "9 novo"
 
 #: translation/templates/translation/language.html:454
 #: translation/templates/translation/language.html:457
 msgid "10"
-msgstr "10"
+msgstr "10 dez"
 
 #: translation/templates/translation/language.html:462
 #: translation/templates/translation/language.html:465
@@ -701,37 +701,37 @@ msgstr ""
 #: translation/templates/translation/language.html:509
 #: translation/templates/translation/language.html:512
 msgid "Avez-vous perdu connaissance ?"
-msgstr "Você perdeu a consciência?"
+msgstr "Perderam conhecimento ?"
 
 #: translation/templates/translation/language.html:517
 #: translation/templates/translation/language.html:520
 msgid "Savez-vous quel jour nous sommes ?"
-msgstr "Você sabe que dia é hoje?"
+msgstr "Em que dia estamos?"
 
 #: translation/templates/translation/language.html:525
 #: translation/templates/translation/language.html:528
 msgid "Savez-vous où vous êtes ?"
-msgstr "Você sabe onde você está?"
+msgstr "Sabe onde você está?"
 
 #: translation/templates/translation/language.html:533
 #: translation/templates/translation/language.html:536
 msgid "Suivez mon doigt du regard"
-msgstr "Siga com os olhos o meu dedo"
+msgstr ""
 
 #: translation/templates/translation/language.html:541
 #: translation/templates/translation/language.html:544
 msgid "Pouvez-vous bouger vos mains et vos pieds ?"
-msgstr "Você consegue mover suas mãos e pés"
+msgstr "Pode mexer as vossas mãos e os vossos pés ?"
 
 #: translation/templates/translation/language.html:549
 #: translation/templates/translation/language.html:552
 msgid "Je vais toucher vos mains et vos pieds, sentez-vous que je vous touche ?"
-msgstr "Vou tocar suas mãos e pés, você sente meu toque?"
+msgstr "Sente quando eu toco as suas mãos e os seus pés?"
 
 #: translation/templates/translation/language.html:557
 #: translation/templates/translation/language.html:560
 msgid "Regardez-moi dans les yeux, je vais observer vos pupilles"
-msgstr "Olhe nos meus olhos, observarei suas pupilas"
+msgstr "Olha para mim, vou examinar suas pupilas"
 
 #: translation/templates/translation/language.html:565
 #: translation/templates/translation/language.html:568
@@ -741,7 +741,7 @@ msgstr ""
 #: translation/templates/translation/language.html:573
 #: translation/templates/translation/language.html:576
 msgid "Poussez sur mes mains"
-msgstr "Empurre minhas mãos"
+msgstr ""
 
 #: translation/templates/translation/language.html:581
 #: translation/templates/translation/language.html:584
@@ -756,7 +756,7 @@ msgstr "Abra a boca."
 #: translation/templates/translation/language.html:597
 #: translation/templates/translation/language.html:600
 msgid "Levez le bras droit"
-msgstr "Levante seu braço direito"
+msgstr "Levanta o braço direito"
 
 #: translation/templates/translation/language.html:605
 #: translation/templates/translation/language.html:608
@@ -768,7 +768,7 @@ msgstr "Voce esta com dor de cabeça?"
 #: translation/templates/translation/language.html:2575
 #: translation/templates/translation/language.html:2578
 msgid "La douleur est apparue :"
-msgstr "A dor apareceu:"
+msgstr "A dor apareceu"
 
 #: translation/templates/translation/language.html:621
 #: translation/templates/translation/language.html:624
@@ -783,7 +783,7 @@ msgstr ""
 #: translation/templates/translation/language.html:637
 #: translation/templates/translation/language.html:640
 msgid "Avez vous des douleurs dans la nuque ?"
-msgstr "Você tem dores na nuca?"
+msgstr "Tens dores na nuca?"
 
 #: translation/templates/translation/language.html:645
 #: translation/templates/translation/language.html:648
@@ -798,22 +798,22 @@ msgstr ""
 #: translation/templates/translation/language.html:661
 #: translation/templates/translation/language.html:664
 msgid "Est ce que la lumière vous dérange ?"
-msgstr "A luz incomoda você?"
+msgstr "A luz incomodando o senhor?"
 
 #: translation/templates/translation/language.html:669
 #: translation/templates/translation/language.html:672
 msgid "Est ce que le bruit vous dérange ?"
-msgstr "O barulho incomoda você?"
+msgstr "O barulho está te incomodando?"
 
 #: translation/templates/translation/language.html:677
 #: translation/templates/translation/language.html:680
 msgid "Je vais faire une piqûre au bout de votre doigt pour connaître votre taux de sucre"
-msgstr "Vou fazer um furo no seu dedo para aferir / saber sua taxa de açúcar"
+msgstr "Vou ter que picar-lhe o dedo para ver a sua glicémia"
 
 #: translation/templates/translation/language.html:692
 #: translation/templates/translation/language.html:695
 msgid "Je vais poser ma main sur votre ventre pour compter votre respiration, respirez normalement et ne parlez pas pendant ce temps"
-msgstr "Vou pôr a minha mão na sua barriga para avaliar sua respiração, respire normalmente e não fale durante o exame"
+msgstr "Vou pôr a minha mão na sua barriga para avaliar sua respiração, respira normalmente e não fala durante este tempo"
 
 #: translation/templates/translation/language.html:700
 #: translation/templates/translation/language.html:703
@@ -823,7 +823,7 @@ msgstr ""
 #: translation/templates/translation/language.html:708
 #: translation/templates/translation/language.html:711
 msgid "Prenez une grande inspiration puis bloquez votre respiration"
-msgstr "Inspire fundo e segure a respiração"
+msgstr ""
 
 #: translation/templates/translation/language.html:716
 #: translation/templates/translation/language.html:719
@@ -853,7 +853,7 @@ msgstr "Tomou alguma medicação para a asma?"
 #: translation/templates/translation/language.html:756
 #: translation/templates/translation/language.html:759
 msgid "Avez-vous respiré des fumées ?"
-msgstr "Respirou fumaça ?"
+msgstr "Respirou fumos?"
 
 #: translation/templates/translation/language.html:764
 #: translation/templates/translation/language.html:767
@@ -864,7 +864,7 @@ msgstr "Poderia assoar o nariz, para ver se há vestígios de fuligem"
 #: translation/templates/translation/language.html:782
 #| msgid "Est-ce que vous voyez double ?"
 msgid "Est-ce que votre douleur"
-msgstr ""
+msgstr "É sua dor"
 
 #: translation/templates/translation/language.html:787
 #: translation/templates/translation/language.html:790
@@ -889,7 +889,7 @@ msgstr ""
 #: translation/templates/translation/language.html:819
 #: translation/templates/translation/language.html:822
 msgid "Depuis combien de temps avez vous cette douleur  ?"
-msgstr "Há quanto tempo você sente essa dor ?"
+msgstr "Quanto tempo?"
 
 #: translation/templates/translation/language.html:827
 #: translation/templates/translation/language.html:830
@@ -909,12 +909,12 @@ msgstr "Dias"
 #: translation/templates/translation/language.html:851
 #: translation/templates/translation/language.html:854
 msgid "Je vais prendre votre pouls"
-msgstr "Vou verificar o seu pulso/pulsação"
+msgstr "Vou verificar o seu pulso"
 
 #: translation/templates/translation/language.html:859
 #: translation/templates/translation/language.html:862
 msgid "Je vais appuyer doucement sur votre ongle"
-msgstr "Vou apertar devagar a sua unha"
+msgstr "Vou pressionar devagar sobre a sua unha"
 
 #: translation/templates/translation/language.html:867
 #: translation/templates/translation/language.html:870
@@ -929,7 +929,7 @@ msgstr ""
 #: translation/templates/translation/language.html:883
 #: translation/templates/translation/language.html:886
 msgid "Ouvrez la bouche et soulevez la langue, je vais vous donner un traitement"
-msgstr "Abra a boca e levante a língua. Vou examiná-la"
+msgstr "Abra a boca e deite a língua de fora. Vou passar alguns medicamentos"
 
 #: translation/templates/translation/language.html:891
 #: translation/templates/translation/language.html:894
@@ -939,7 +939,7 @@ msgstr ""
 #: translation/templates/translation/language.html:899
 #: translation/templates/translation/language.html:902
 msgid "Buvez-vous de l'alcool ?"
-msgstr "Bebe bebida alcólica?"
+msgstr "Você bebe álcool?"
 
 #: translation/templates/translation/language.html:907
 #: translation/templates/translation/language.html:910
@@ -949,12 +949,12 @@ msgstr "Tem diabetes?"
 #: translation/templates/translation/language.html:915
 #: translation/templates/translation/language.html:918
 msgid "Avez-vous du cholestérol ?"
-msgstr "Tem colesterol alto?"
+msgstr "Tem colesterol elevado?"
 
 #: translation/templates/translation/language.html:923
 #: translation/templates/translation/language.html:926
 msgid "Je vais faire un enregistrement de votre coeur, ce n’est pas douloureux, ne bouger pas pendant quelques secondes"
-msgstr "Eu vou auscutar o seu coração. Não vai doer, mas tente não se mexer por alguns segundos"
+msgstr "Eu vou gravar o seu coração. Não vai doer, mas tente não se mover por alguns segundos"
 
 #: translation/templates/translation/language.html:938
 #: translation/templates/translation/language.html:941
@@ -964,7 +964,7 @@ msgstr ""
 #: translation/templates/translation/language.html:946
 #: translation/templates/translation/language.html:949
 msgid "Qu’avez-vous ressenti pendant la malaise ?"
-msgstr "O que você sentiu durante o desconforto/crise da doença ?"
+msgstr "O que sente durante sua indisposição (formigamento, dor, outra coisa ?)"
 
 #: translation/templates/translation/language.html:954
 #: translation/templates/translation/language.html:957
@@ -1000,12 +1000,12 @@ msgstr ""
 #: translation/templates/translation/language.html:1002
 #: translation/templates/translation/language.html:1005
 msgid "Combien de temps à duré votre malaise ?"
-msgstr "Quanto tempo dura seu desconforto/ crise da doença?"
+msgstr "Quanto tempo dura sua indisposição?"
 
 #: translation/templates/translation/language.html:1010
 #: translation/templates/translation/language.html:1013
 msgid "Avez-vous perdu vos urines ?"
-msgstr "Você se urinou?"
+msgstr "Você se urina quando passa mal?"
 
 #: translation/templates/translation/language.html:1018
 #: translation/templates/translation/language.html:1021
@@ -1015,17 +1015,17 @@ msgstr ""
 #: translation/templates/translation/language.html:1026
 #: translation/templates/translation/language.html:1029
 msgid "Avez vous convulsé ?"
-msgstr "Você teve convulsões?"
+msgstr "Você convulsionado?"
 
 #: translation/templates/translation/language.html:1034
 #: translation/templates/translation/language.html:1037
 msgid "Avez-vous mangé aujourd’hui ?"
-msgstr "Você comeu alguma coisa hoje ?"
+msgstr "Já comeu alguma coisa , hoje?"
 
 #: translation/templates/translation/language.html:1049
 #: translation/templates/translation/language.html:1052
 msgid "Montrez moi ou vous avez mal"
-msgstr "Me mostra onde dói"
+msgstr "Mostra me aonde ficam as dores"
 
 #: translation/templates/translation/language.html:1057
 #: translation/templates/translation/language.html:1060
@@ -1067,22 +1067,22 @@ msgstr "À que hora urinou pela última vez hoje?"
 #: translation/templates/translation/language.html:1113
 #: translation/templates/translation/language.html:1116
 msgid "Êtes vous constipé ?"
-msgstr "Está com constipação? (Dificuldades de evacuar)"
+msgstr "Está com obstipação?"
 
 #: translation/templates/translation/language.html:1121
 #: translation/templates/translation/language.html:1124
 msgid "Depuis combien de jours ?"
-msgstr "Há quantos dias ?"
+msgstr "À quantos dias?"
 
 #: translation/templates/translation/language.html:1129
 #: translation/templates/translation/language.html:1132
 msgid "Avez-vous des nausées ?"
-msgstr "Teve náuseas?"
+msgstr "Já sentiu /teve alguma náusea?"
 
 #: translation/templates/translation/language.html:1137
 #: translation/templates/translation/language.html:1140
 msgid "Avez-vous des diarrhées ?"
-msgstr "Teve diarréia?"
+msgstr "Tem diarreia?"
 
 #: translation/templates/translation/language.html:1145
 #: translation/templates/translation/language.html:1148
@@ -1102,22 +1102,22 @@ msgstr "Tem gases?"
 #: translation/templates/translation/language.html:1169
 #: translation/templates/translation/language.html:1172
 msgid "Je dois vous faire un toucher rectal, êtes vous d’accord ?"
-msgstr "Eu preciso fazer um exame retal. Você concorda?"
+msgstr "Eu tenho que fazer um exame retal digital, você concorda?"
 
 #: translation/templates/translation/language.html:1177
 #: translation/templates/translation/language.html:1180
 msgid "Il faudra uriner dans ce pot pour réaliser un examen"
-msgstr "Você precisa urinar neste frasco para que possamos fazer um exame"
+msgstr "Você precisa urinar neste frasco para que possamos testá-lo"
 
 #: translation/templates/translation/language.html:1185
 #: translation/templates/translation/language.html:1188
 msgid "Il faudra réaliser une toilette intime avant d’uriner dans le pot"
-msgstr "Você precisará higienizar sua genitália antes de urinar no frasco"
+msgstr "Você precisará lavar suas genitálias antes de urinar no frasco"
 
 #: translation/templates/translation/language.html:1200
 #: translation/templates/translation/language.html:1203
 msgid "Avez-vous été piqué ou mordu ?"
-msgstr "Voce foi picado ou mordido?"
+msgstr "Voce foi mordido?"
 
 #: translation/templates/translation/language.html:1208
 #: translation/templates/translation/language.html:1211
@@ -1127,7 +1127,7 @@ msgstr "Mostre-me onde"
 #: translation/templates/translation/language.html:1216
 #: translation/templates/translation/language.html:1219
 msgid "Montrez moi où étaient les premiers boutons"
-msgstr "Mostre-me onde foram as primeiras marcas/manchas"
+msgstr "Mostre-me onde os primeiros pontos (verrugas, pintas) apareceram"
 
 #: translation/templates/translation/language.html:1224
 #: translation/templates/translation/language.html:1227
@@ -1137,22 +1137,22 @@ msgstr "Há quanto tempo a perna tem ficado vermelha?"
 #: translation/templates/translation/language.html:1232
 #: translation/templates/translation/language.html:1235
 msgid "Est ce que ça vous démange ?"
-msgstr "Isso te dá coceiras ?"
+msgstr "Tem comichão?"
 
 #: translation/templates/translation/language.html:1240
 #: translation/templates/translation/language.html:1243
 msgid "Il faut rester en isolement"
-msgstr "Voce tem que ficar em isolamento"
+msgstr ""
 
 #: translation/templates/translation/language.html:1248
 #: translation/templates/translation/language.html:1251
 msgid "Vous devez garder ce masque sur vous"
-msgstr "Deve usar a máscara com você"
+msgstr "Deve colocar esta máscara"
 
 #: translation/templates/translation/language.html:1256
 #: translation/templates/translation/language.html:1259
 msgid "Avez-vous eu des rapports sexuels non protégés ?"
-msgstr "Teve relações sexuais sem proteção?"
+msgstr "Teve relações sexuais não protegidas?"
 
 #: translation/templates/translation/language.html:1264
 #: translation/templates/translation/language.html:1267
@@ -1162,12 +1162,12 @@ msgstr "Vou medir-lhe a temperatura."
 #: translation/templates/translation/language.html:1279
 #: translation/templates/translation/language.html:1282
 msgid "Est-ce que vous voyez flou ?"
-msgstr "Você enxerga embassado?"
+msgstr "Você vê borrada?"
 
 #: translation/templates/translation/language.html:1287
 #: translation/templates/translation/language.html:1290
 msgid "Est-ce que vous voyez double ?"
-msgstr "Você enxerga duplicado?"
+msgstr "Vê duplicado?"
 
 #: translation/templates/translation/language.html:1295
 #: translation/templates/translation/language.html:1298
@@ -1232,22 +1232,22 @@ msgstr ""
 #: translation/templates/translation/language.html:1405
 #: translation/templates/translation/language.html:1408
 msgid "Le bébé a t il perdu du poids ? Combien de kilo ?"
-msgstr "O bebê perdeu peso? Quantos kilos?"
+msgstr "O bebê perdeu peso? Quantos quilos?"
 
 #: translation/templates/translation/language.html:1413
 #: translation/templates/translation/language.html:1416
 msgid "Est-ce que le bébé est à jour de ces vaccins ?"
-msgstr "O bebê está com as vacinas em dia ?"
+msgstr "O bebê está atualizado com essas vacinas?"
 
 #: translation/templates/translation/language.html:1421
 #: translation/templates/translation/language.html:1424
 msgid "Est-ce que ses frères et soeurs sont malades ?"
-msgstr "Os irmãos ou irmãs do bebê estão doentes?"
+msgstr "Seus irmãos e irmãs estão doentes?"
 
 #: translation/templates/translation/language.html:1429
 #: translation/templates/translation/language.html:1432
 msgid "Est-ce qu’il mange bien ?"
-msgstr "Ele está comendo bem?"
+msgstr "Ele come bem?"
 
 #: translation/templates/translation/language.html:1437
 #: translation/templates/translation/language.html:1440
@@ -1257,22 +1257,22 @@ msgstr "Ele vomita?"
 #: translation/templates/translation/language.html:1445
 #: translation/templates/translation/language.html:1448
 msgid "Est-ce qu’il semble plus agité que d’habitude ?"
-msgstr "Ele parece mais agitado que de costume ?"
+msgstr "Ele parece mais agitado do que o habitual?"
 
 #: translation/templates/translation/language.html:1453
 #: translation/templates/translation/language.html:1456
 msgid "Est-ce qu’il semble plus fatigué que d’habitude ?"
-msgstr "Ele parece mais cansado que de costume ?"
+msgstr "Ele parece mais cansado que o normal?"
 
 #: translation/templates/translation/language.html:1461
 #: translation/templates/translation/language.html:1464
 msgid "Est ce qu’il a la diarrhée ?"
-msgstr "Ele está com diarréia?"
+msgstr "Ele tem diarréia?"
 
 #: translation/templates/translation/language.html:1484
 #: translation/templates/translation/language.html:1487
 msgid "De combien de semaines ?"
-msgstr "De quantas semanas?"
+msgstr "Quantas semanas/meses?"
 
 #: translation/templates/translation/language.html:1492
 #: translation/templates/translation/language.html:1495
@@ -1282,12 +1282,12 @@ msgstr "Voce fica mestruada?"
 #: translation/templates/translation/language.html:1500
 #: translation/templates/translation/language.html:1503
 msgid "Avez vous perdu du sang ?"
-msgstr "Você perde sangue?"
+msgstr "Voce sangra?"
 
 #: translation/templates/translation/language.html:1508
 #: translation/templates/translation/language.html:1511
 msgid "Vos pertes étaient elles rouge ou noir ?"
-msgstr "Quando menstrua, seu sangue é vermelho vivo ou escuro ?"
+msgstr "Vermelho ou preto?"
 
 #: translation/templates/translation/language.html:1516
 #: translation/templates/translation/language.html:1519
@@ -1302,47 +1302,47 @@ msgstr "Voce esta sentindo contraçoes?"
 #: translation/templates/translation/language.html:1532
 #: translation/templates/translation/language.html:1535
 msgid "Avez vous perdu les eaux ?"
-msgstr "Você perdeu líquido? Rompeu a bolsa? Está em trabalho de parto?"
+msgstr "Voce rompeu a bolsa?"
 
 #: translation/templates/translation/language.html:1540
 #: translation/templates/translation/language.html:1543
 msgid "Sentez vous le bébé bouger ?"
-msgstr "Você sente o bebê se mexer?"
+msgstr "Você sente os movimentos do bebê?"
 
 #: translation/templates/translation/language.html:1548
 #: translation/templates/translation/language.html:1551
 msgid "Avez vous une contraception ?"
-msgstr "Faz uso de um método contraceptivo?"
+msgstr "Você tem contraceptivos?"
 
 #: translation/templates/translation/language.html:1556
 #: translation/templates/translation/language.html:1559
 msgid "Je dois faire un examen gynécologique, allongez vous sur la table"
-msgstr "Preciso fazer um exame ginecológico, deite-se na maca, por favor"
+msgstr "Devo fazer-lhe um exame ginecológico, deite-se na maca, por favor"
 
 #: translation/templates/translation/language.html:1564
 #: translation/templates/translation/language.html:1567
 msgid "Il faut retirer vos sous-vêtements"
-msgstr "É necessário retirar a roupa íntima também"
+msgstr "Necessito que tire a sua roupa interior"
 
 #: translation/templates/translation/language.html:1579
 #: translation/templates/translation/language.html:1582
 msgid "Avez-vous été éjecté du véhicule ?"
-msgstr "Você foi jogado para fora do veículo ?"
+msgstr "Você foi ejetado do veículo?"
 
 #: translation/templates/translation/language.html:1587
 #: translation/templates/translation/language.html:1590
 msgid "A quelle vitesse rouliez-vous ?"
-msgstr "A que velocidade você estava?"
+msgstr "Quão rápido você rolou?"
 
 #: translation/templates/translation/language.html:1595
 #: translation/templates/translation/language.html:1598
 msgid "Etiez-vous casqué ?"
-msgstr "Estava usando capacete?"
+msgstr "Você estava de capacete?"
 
 #: translation/templates/translation/language.html:1603
 #: translation/templates/translation/language.html:1606
 msgid "Aviez-vous votre ceinture de sécurité ?"
-msgstr "Estava usando cinto de segurança?"
+msgstr "Você teve seu cinto de segurança?"
 
 #: translation/templates/translation/language.html:1611
 #: translation/templates/translation/language.html:1614
@@ -1352,22 +1352,22 @@ msgstr "Você caiu?"
 #: translation/templates/translation/language.html:1619
 #: translation/templates/translation/language.html:1622
 msgid "De quelle hauteur êtes-vous tombé ?"
-msgstr "De que altura você caiu ?"
+msgstr "Quão alto você caiu?"
 
 #: translation/templates/translation/language.html:1627
 #: translation/templates/translation/language.html:1630
 msgid "Prenez vous des anticoagulants, des médicaments pour fluidifier le sang ?"
-msgstr "O senhor(a) toma algum anticoagulante (medicamento para \"afinar\" o sangue)?"
+msgstr "Você toma anticoagulantes, remédios para afinar o sangue?"
 
 #: translation/templates/translation/language.html:1635
 #: translation/templates/translation/language.html:1638
 msgid "Je vais installer une collier afin de protéger votre colonne vertébrale"
-msgstr "Eu vou colocar um colar cervical para proteger a sua coluna"
+msgstr "Vou instalar uma coleira para proteger sua coluna"
 
 #: translation/templates/translation/language.html:1643
 #: translation/templates/translation/language.html:1646
 msgid "Je dois mettre un antiseptique sur la plaie"
-msgstr ""
+msgstr "Eu tenho que colocar um anti-séptico na ferida"
 
 #: translation/templates/translation/language.html:1651
 #: translation/templates/translation/language.html:1654
@@ -1377,7 +1377,7 @@ msgstr ""
 #: translation/templates/translation/language.html:1659
 #: translation/templates/translation/language.html:1662
 msgid "Je dois faire un pansement"
-msgstr ""
+msgstr "Eu tenho que fazer um curativo"
 
 #: translation/templates/translation/language.html:1667
 #: translation/templates/translation/language.html:1670
@@ -1411,7 +1411,7 @@ msgstr "O senhor(a) deveria ter:"
 #: translation/templates/translation/language.html:1717
 #| msgid "Je vais vous examiner"
 msgid "Je vais vous faire :"
-msgstr "Eu vou fazer/dar/aplicar:"
+msgstr "Eu vou fazer"
 
 #: translation/templates/translation/language.html:1722
 #: translation/templates/translation/language.html:1725
@@ -1573,7 +1573,7 @@ msgstr ""
 #: translation/templates/translation/language.html:1977
 #: translation/templates/translation/language.html:1980
 msgid "Vous ne devez pas boire"
-msgstr "O senhor(a) não deve beber"
+msgstr "você nao deve beber"
 
 #: translation/templates/translation/language.html:1985
 #: translation/templates/translation/language.html:1988
@@ -1603,7 +1603,7 @@ msgstr "Para ligar ou desligar as luzes, aperte aqui"
 #: translation/templates/translation/language.html:2033
 #: translation/templates/translation/language.html:2036
 msgid "Les toilettes sont ici"
-msgstr "O vaso sanitário é aqui"
+msgstr ""
 
 #: translation/templates/translation/language.html:2041
 #: translation/templates/translation/language.html:2044
@@ -1683,7 +1683,7 @@ msgstr ""
 #: translation/templates/translation/language.html:2183
 #: translation/templates/translation/language.html:2186
 msgid "J’ai mal"
-msgstr ""
+msgstr "Dói aqui"
 
 #: translation/templates/translation/language.html:2191
 #: translation/templates/translation/language.html:2194
@@ -1705,7 +1705,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3103
 #: translation/templates/translation/language.html:3106
 msgid "J’ai vomi"
-msgstr ""
+msgstr "Vomitei"
 
 #: translation/templates/translation/language.html:2223
 #: translation/templates/translation/language.html:2226
@@ -1747,7 +1747,7 @@ msgstr "Gostaria de informações"
 #: translation/templates/translation/language.html:2279
 #: translation/templates/translation/language.html:2282
 msgid "J’ai eu un accident"
-msgstr ""
+msgstr "Eu estava lesionado"
 
 #: translation/templates/translation/language.html:2287
 #: translation/templates/translation/language.html:2290
@@ -1757,7 +1757,7 @@ msgstr ""
 #: translation/templates/translation/language.html:2295
 #: translation/templates/translation/language.html:2298
 msgid "J’ai été renversé"
-msgstr "Eu fui atropelado"
+msgstr "Eu fui atropelado por um carro"
 
 #: translation/templates/translation/language.html:2303
 #: translation/templates/translation/language.html:2306
@@ -1774,7 +1774,7 @@ msgstr "Eu caí"
 #: translation/templates/translation/language.html:2319
 #: translation/templates/translation/language.html:2322
 msgid "J’ai reçu un coup"
-msgstr "Eu recebi um golpe"
+msgstr "Alguem me bateu"
 
 #: translation/templates/translation/language.html:2327
 #: translation/templates/translation/language.html:2330
@@ -1786,7 +1786,7 @@ msgstr ""
 #: translation/templates/translation/language.html:2415
 #: translation/templates/translation/language.html:2418
 msgid "Je roulais à “x” km/h"
-msgstr "Eu digiria à \"X\" km/h."
+msgstr "Digiria me à  \"X\" km/h."
 
 #: translation/templates/translation/language.html:2343
 #: translation/templates/translation/language.html:2346
@@ -1801,22 +1801,22 @@ msgstr ""
 #: translation/templates/translation/language.html:2359
 #: translation/templates/translation/language.html:2362
 msgid "J’ai été éjecté pendant l’accident"
-msgstr ""
+msgstr "Foi ejetar durante o acidente"
 
 #: translation/templates/translation/language.html:2367
 #: translation/templates/translation/language.html:2370
 msgid "Je n’ai pas été éjecté pendant l’accident"
-msgstr ""
+msgstr "Nao foi ejetada durante o acidente"
 
 #: translation/templates/translation/language.html:2375
 #: translation/templates/translation/language.html:2378
 msgid "L’air-bag s’est déclenché"
-msgstr "O air-bag abriu/funcionou"
+msgstr "O air-bag acionou"
 
 #: translation/templates/translation/language.html:2383
 #: translation/templates/translation/language.html:2386
 msgid "L’air-bag ne s’est pas déclenché"
-msgstr "O air-bag não abriu/funcionou"
+msgstr "O air-bag nao acionou"
 
 #: translation/templates/translation/language.html:2391
 #: translation/templates/translation/language.html:2394
@@ -1836,12 +1836,12 @@ msgstr ""
 #: translation/templates/translation/language.html:2423
 #: translation/templates/translation/language.html:2426
 msgid "J’avais un casque"
-msgstr "Eu estava de capacete"
+msgstr "Tinha um capacete."
 
 #: translation/templates/translation/language.html:2431
 #: translation/templates/translation/language.html:2434
 msgid "Je n’avais pas de casque"
-msgstr ""
+msgstr "Nao tinha de capacete"
 
 #: translation/templates/translation/language.html:2447
 #: translation/templates/translation/language.html:2450
@@ -1856,18 +1856,18 @@ msgstr ""
 #: translation/templates/translation/language.html:2463
 #: translation/templates/translation/language.html:2466
 msgid "Ma tête a tapé pendant l’accident"
-msgstr ""
+msgstr "Minha cabeça bateu durante o acidente"
 
 #: translation/templates/translation/language.html:2471
 #: translation/templates/translation/language.html:2474
 msgid "Ma tête n’a pas tapé pendant l’accident"
-msgstr "Minha cabeça não bateu durante o acidente"
+msgstr "Minha cabeça nao bateu durante o acidente."
 
 #: translation/templates/translation/language.html:2479
 #: translation/templates/translation/language.html:2482
 #| msgid "J’ai des douleurs depuis :"
 msgid "J’ai des douleurs :"
-msgstr "Eu tenho dor:"
+msgstr "Dói aqui."
 
 #: translation/templates/translation/language.html:2487
 #: translation/templates/translation/language.html:2490
@@ -1907,12 +1907,12 @@ msgstr ""
 #: translation/templates/translation/language.html:2543
 #: translation/templates/translation/language.html:2546
 msgid "Je prend des anticoagulants (médicaments pour fluidifier le sang)"
-msgstr ""
+msgstr "Tomo anticoagulantes"
 
 #: translation/templates/translation/language.html:2551
 #: translation/templates/translation/language.html:2554
 msgid "Je ne prend pas d’anticoagulants (médicaments pour fluidifier le sang)"
-msgstr "Eu não tomo anticoagulantes (remédios para \"afinar\" o sangue)"
+msgstr "Nao tomo anticoagulantes."
 
 #: translation/templates/translation/language.html:2559
 #: translation/templates/translation/language.html:2562
@@ -1939,17 +1939,17 @@ msgstr ""
 #: translation/templates/translation/language.html:2599
 #: translation/templates/translation/language.html:2602
 msgid "J’arrive bien à bouger mes bras et jambes"
-msgstr ""
+msgstr "Consegue bem mexer meus braços e pernas"
 
 #: translation/templates/translation/language.html:2607
 #: translation/templates/translation/language.html:2610
 msgid "Je n’arrive pas a bouger un bras ou une jambe"
-msgstr "Não consigo mexer meus braços ou pernas"
+msgstr "O meu/minha.... está paralizada(o)"
 
 #: translation/templates/translation/language.html:2615
 #: translation/templates/translation/language.html:2618
 msgid "J’arrive bien à parler"
-msgstr ""
+msgstr "Consegue falar normalemente"
 
 #: translation/templates/translation/language.html:2623
 #: translation/templates/translation/language.html:2626
@@ -1959,12 +1959,12 @@ msgstr ""
 #: translation/templates/translation/language.html:2631
 #: translation/templates/translation/language.html:2634
 msgid "La lumière me dérange"
-msgstr ""
+msgstr "A luz incomoda me"
 
 #: translation/templates/translation/language.html:2639
 #: translation/templates/translation/language.html:2642
 msgid "La lumière ne me dérange pas"
-msgstr ""
+msgstr "A luz nao me incomoda"
 
 #: translation/templates/translation/language.html:2647
 #: translation/templates/translation/language.html:2650
@@ -1974,7 +1974,7 @@ msgstr ""
 #: translation/templates/translation/language.html:2655
 #: translation/templates/translation/language.html:2658
 msgid "Je n’ai pas de fièvre"
-msgstr ""
+msgstr "Nao tenho febre"
 
 #: translation/templates/translation/language.html:2663
 #: translation/templates/translation/language.html:2666
@@ -1984,7 +1984,7 @@ msgstr "Tenho dores na nuca"
 #: translation/templates/translation/language.html:2671
 #: translation/templates/translation/language.html:2674
 msgid "Je n’ai pas de douleurs à la nuque"
-msgstr "Não tenho dores na nuca"
+msgstr "Nao tenho dores na nuca"
 
 #: translation/templates/translation/language.html:2679
 #: translation/templates/translation/language.html:2682
@@ -1994,7 +1994,7 @@ msgstr ""
 #: translation/templates/translation/language.html:2687
 #: translation/templates/translation/language.html:2690
 msgid "Je n’ai pas fais de malaise"
-msgstr ""
+msgstr "Nao me senti ma"
 
 #: translation/templates/translation/language.html:2695
 #: translation/templates/translation/language.html:2698
@@ -2004,7 +2004,7 @@ msgstr ""
 #: translation/templates/translation/language.html:2703
 #: translation/templates/translation/language.html:2706
 msgid "Je n’ai pas perdu connaissance"
-msgstr ""
+msgstr "Nao estive inconsciente"
 
 #: translation/templates/translation/language.html:2711
 #: translation/templates/translation/language.html:2714
@@ -2019,12 +2019,12 @@ msgstr ""
 #: translation/templates/translation/language.html:2727
 #: translation/templates/translation/language.html:2730
 msgid "J’ai convulsé"
-msgstr ""
+msgstr "Eu convulsionei"
 
 #: translation/templates/translation/language.html:2735
 #: translation/templates/translation/language.html:2738
 msgid "Je n’ai pas convulsé"
-msgstr ""
+msgstr "Eu nao convulsionei"
 
 #: translation/templates/translation/language.html:2743
 #: translation/templates/translation/language.html:2746
@@ -2034,22 +2034,22 @@ msgstr ""
 #: translation/templates/translation/language.html:2751
 #: translation/templates/translation/language.html:2754
 msgid "Je ne suis pas épileptique"
-msgstr ""
+msgstr "Nao tenho epilepsia"
 
 #: translation/templates/translation/language.html:2759
 #: translation/templates/translation/language.html:2762
 msgid "J’ai pris mes traitements aujourd’hui"
-msgstr ""
+msgstr "Tomei os meus remedios hoje"
 
 #: translation/templates/translation/language.html:2767
 #: translation/templates/translation/language.html:2770
 msgid "Je n’ai pas pris mes traitements aujourd’hui"
-msgstr ""
+msgstr "Nao tomei os meus remedios hoje"
 
 #: translation/templates/translation/language.html:2783
 #: translation/templates/translation/language.html:2786
 msgid "Je n’ai pas de vertiges"
-msgstr "Não me sinto tonto"
+msgstr ""
 
 #: translation/templates/translation/language.html:2791
 #: translation/templates/translation/language.html:2794
@@ -2064,37 +2064,37 @@ msgstr ""
 #: translation/templates/translation/language.html:2807
 #: translation/templates/translation/language.html:2810
 msgid "J’ai mangé aujourd’hui"
-msgstr ""
+msgstr "Comi hoje"
 
 #: translation/templates/translation/language.html:2815
 #: translation/templates/translation/language.html:2818
 msgid "Je n’ai pas mangé aujourd’hui"
-msgstr "Eu não comi hoje"
+msgstr "Nao comi hoje"
 
 #: translation/templates/translation/language.html:2823
 #: translation/templates/translation/language.html:2826
 msgid "Torse"
-msgstr "Peito"
+msgstr "peito"
 
 #: translation/templates/translation/language.html:2831
 #: translation/templates/translation/language.html:2834
 msgid "J’ai eu un choc au torse récemment"
-msgstr ""
+msgstr "Eu tive um choque no peito hà pouco tempo"
 
 #: translation/templates/translation/language.html:2839
 #: translation/templates/translation/language.html:2842
 msgid "Je n’ai pas eu de choc au torse récemment"
-msgstr ""
+msgstr "Nao tive choque no peito recentemente"
 
 #: translation/templates/translation/language.html:2847
 #: translation/templates/translation/language.html:2850
 msgid "La douleur est encore présente"
-msgstr ""
+msgstr "A dor ainda està presente"
 
 #: translation/templates/translation/language.html:2855
 #: translation/templates/translation/language.html:2858
 msgid "La douleur n’est plus présente"
-msgstr ""
+msgstr "A dor nao està mais presente"
 
 #: translation/templates/translation/language.html:2863
 #: translation/templates/translation/language.html:2866
@@ -2120,22 +2120,22 @@ msgstr ""
 #: translation/templates/translation/language.html:2895
 #: translation/templates/translation/language.html:2898
 msgid "La douleur irradie vers :"
-msgstr "A dor irradia até:"
+msgstr "A dor irradia até"
 
 #: translation/templates/translation/language.html:2903
 #: translation/templates/translation/language.html:2906
 msgid "Machoire"
-msgstr "a mandíbula"
+msgstr "A mandibula"
 
 #: translation/templates/translation/language.html:2911
 #: translation/templates/translation/language.html:2914
 msgid "Je ressent des palpitations"
-msgstr "Eu sinto palpitações"
+msgstr "O meu batimento cardíaco é irregular"
 
 #: translation/templates/translation/language.html:2919
 #: translation/templates/translation/language.html:2922
 msgid "Je ne ressent pas de palpitations"
-msgstr ""
+msgstr "Nao sinto palpitaçoes"
 
 #: translation/templates/translation/language.html:2927
 #: translation/templates/translation/language.html:2930
@@ -2150,12 +2150,12 @@ msgstr ""
 #: translation/templates/translation/language.html:2943
 #: translation/templates/translation/language.html:2946
 msgid "La douleur est plus forte quand je respire"
-msgstr ""
+msgstr "A dor aumenta quando respiro"
 
 #: translation/templates/translation/language.html:2951
 #: translation/templates/translation/language.html:2954
 msgid "La douleur n’est pas plus forte quand je respire"
-msgstr ""
+msgstr "A dor nao aumenta quando respiro"
 
 #: translation/templates/translation/language.html:2959
 #: translation/templates/translation/language.html:2962
@@ -2165,7 +2165,7 @@ msgstr ""
 #: translation/templates/translation/language.html:2967
 #: translation/templates/translation/language.html:2970
 msgid "Je ne crache pas du sang"
-msgstr ""
+msgstr "Nao tusso sangue"
 
 #: translation/templates/translation/language.html:2975
 #: translation/templates/translation/language.html:2978
@@ -2175,7 +2175,7 @@ msgstr ""
 #: translation/templates/translation/language.html:2983
 #: translation/templates/translation/language.html:2986
 msgid "Je ne tousse pas"
-msgstr ""
+msgstr "Nao tosse"
 
 #: translation/templates/translation/language.html:2991
 #: translation/templates/translation/language.html:2994
@@ -2190,7 +2190,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3007
 #: translation/templates/translation/language.html:3010
 msgid "J’ai respiré des fumées"
-msgstr ""
+msgstr "Respirei fumo"
 
 #: translation/templates/translation/language.html:3015
 #: translation/templates/translation/language.html:3018
@@ -2245,12 +2245,12 @@ msgstr ""
 #: translation/templates/translation/language.html:3095
 #: translation/templates/translation/language.html:3098
 msgid "Je n'ai pas de nausées"
-msgstr ""
+msgstr "Nao estou com nauseas"
 
 #: translation/templates/translation/language.html:3111
 #: translation/templates/translation/language.html:3114
 msgid "Je n’ai pas vomi"
-msgstr ""
+msgstr "Nao vomitei"
 
 #: translation/templates/translation/language.html:3119
 #: translation/templates/translation/language.html:3122
@@ -2285,22 +2285,22 @@ msgstr ""
 #: translation/templates/translation/language.html:3167
 #: translation/templates/translation/language.html:3170
 msgid "Je n’ai pas de diarrhées"
-msgstr ""
+msgstr "nao tenho diarréia"
 
 #: translation/templates/translation/language.html:3175
 #: translation/templates/translation/language.html:3178
 msgid "J’ai des gazs"
-msgstr ""
+msgstr "Tenho gases"
 
 #: translation/templates/translation/language.html:3183
 #: translation/templates/translation/language.html:3186
 msgid "Je n’ai plus de gazs"
-msgstr ""
+msgstr "Nao tenho gases"
 
 #: translation/templates/translation/language.html:3191
 #: translation/templates/translation/language.html:3194
 msgid "Mes dernières urines étaient il y a :"
-msgstr "A última vez que urinei foi há:"
+msgstr "A ultima vez que urinei foi hà :"
 
 #: translation/templates/translation/language.html:3199
 #: translation/templates/translation/language.html:3202
@@ -2310,7 +2310,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3207
 #: translation/templates/translation/language.html:3210
 msgid "Il n’y avait pas de sang dans mes urines"
-msgstr ""
+msgstr "Nao havia sangue na minha urina"
 
 #: translation/templates/translation/language.html:3215
 #: translation/templates/translation/language.html:3218
@@ -2320,12 +2320,12 @@ msgstr ""
 #: translation/templates/translation/language.html:3223
 #: translation/templates/translation/language.html:3226
 msgid "Je n’ai pas de brûlures quand j’urine"
-msgstr ""
+msgstr "Tenho queimaduras urinarias"
 
 #: translation/templates/translation/language.html:3231
 #: translation/templates/translation/language.html:3234
 msgid "Mes dernières selles étaient il y a :"
-msgstr "A ultima vez que evacuei foi há:"
+msgstr "A ultima vez que evacuei foi hà"
 
 #: translation/templates/translation/language.html:3239
 #: translation/templates/translation/language.html:3242
@@ -2335,22 +2335,22 @@ msgstr ""
 #: translation/templates/translation/language.html:3247
 #: translation/templates/translation/language.html:3250
 msgid "Il n’y avait pas de sang dans mes selles"
-msgstr ""
+msgstr "Nao havia sangue nas minhas fezes"
 
 #: translation/templates/translation/language.html:3255
 #: translation/templates/translation/language.html:3258
 msgid "Mes dernières règles étaient il y a :"
-msgstr "A última vez que menstruei foi há:"
+msgstr "A ultima vez que foi menstruei foi hà"
 
 #: translation/templates/translation/language.html:3263
 #: translation/templates/translation/language.html:3266
 msgid "Je suis enceinte"
-msgstr ""
+msgstr "Estou gravida"
 
 #: translation/templates/translation/language.html:3271
 #: translation/templates/translation/language.html:3274
 msgid "Je ne suis pas enceinte"
-msgstr ""
+msgstr "Nao estou gravida"
 
 #: translation/templates/translation/language.html:3279
 #: translation/templates/translation/language.html:3282
@@ -2360,12 +2360,12 @@ msgstr "De \"X\" semanas"
 #: translation/templates/translation/language.html:3287
 #: translation/templates/translation/language.html:3290
 msgid "J’ai eu des pertes par voie basse"
-msgstr ""
+msgstr "Tive vazamento por via  vaginal"
 
 #: translation/templates/translation/language.html:3295
 #: translation/templates/translation/language.html:3298
 msgid "Je n’ai pas eu de perte par voie basse"
-msgstr ""
+msgstr "Nao tive vazamento por via vaginal"
 
 #: translation/templates/translation/language.html:3303
 #: translation/templates/translation/language.html:3306
@@ -2385,12 +2385,12 @@ msgstr ""
 #: translation/templates/translation/language.html:3327
 #: translation/templates/translation/language.html:3330
 msgid "J’ai perdu du poids ces derniers temps"
-msgstr ""
+msgstr "Perdi peso recentemente"
 
 #: translation/templates/translation/language.html:3335
 #: translation/templates/translation/language.html:3338
 msgid "Je n’ai pas perdu de poids ces derniers temps"
-msgstr ""
+msgstr "Nao perdi peso recentemente"
 
 #: translation/templates/translation/language.html:3343
 #: translation/templates/translation/language.html:3346
@@ -2400,32 +2400,32 @@ msgstr "Costas/pescoço"
 #: translation/templates/translation/language.html:3351
 #: translation/templates/translation/language.html:3354
 msgid "Ma douleur n’irradie pas vers la fesse ou la jambe"
-msgstr "A minha dor não se irradia para a nádega ou para a perna"
+msgstr "A minha dor nao se irradia para a nàdega ou para a perna"
 
 #: translation/templates/translation/language.html:3359
 #: translation/templates/translation/language.html:3362
 msgid "Ma douleur irradie vers la fesse ou la jambe"
-msgstr "A minha dor se irradia para a nádega ou para a perna"
+msgstr "A minha dor se irradia para a nàdega ou para a perna"
 
 #: translation/templates/translation/language.html:3367
 #: translation/templates/translation/language.html:3370
 msgid "Je n’ai pas le dos bloqué"
-msgstr ""
+msgstr "As minhas costas nao estao bloqueadas"
 
 #: translation/templates/translation/language.html:3375
 #: translation/templates/translation/language.html:3378
 msgid "J’ai le dos bloqué"
-msgstr ""
+msgstr "Estou com as costas travadas"
 
 #: translation/templates/translation/language.html:3383
 #: translation/templates/translation/language.html:3386
 msgid "J’ai mal surtout le soir"
-msgstr ""
+msgstr "Tenho dores princilmente à noite"
 
 #: translation/templates/translation/language.html:3391
 #: translation/templates/translation/language.html:3394
 msgid "J’ai mal surtout le matin"
-msgstr ""
+msgstr "Tenho dores princilmente à manha"
 
 #: translation/templates/translation/language.html:3399
 #: translation/templates/translation/language.html:3402
@@ -2440,12 +2440,12 @@ msgstr "perna"
 #: translation/templates/translation/language.html:3415
 #: translation/templates/translation/language.html:3418
 msgid "J’ai reçu un coup récemment"
-msgstr ""
+msgstr "Recebi um golpe recentemente"
 
 #: translation/templates/translation/language.html:3423
 #: translation/templates/translation/language.html:3426
 msgid "Je n’ai pas reçu de coup récemment"
-msgstr ""
+msgstr "Nao recebi um golpe recentemente"
 
 #: translation/templates/translation/language.html:3439
 #: translation/templates/translation/language.html:3442
@@ -2455,7 +2455,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3447
 #: translation/templates/translation/language.html:3450
 msgid "Je n’ai pas été piqué ou mordu récemment"
-msgstr ""
+msgstr "Nao fui picacdo ou mordido recentemente"
 
 #: translation/templates/translation/language.html:3455
 #: translation/templates/translation/language.html:3458
@@ -2531,17 +2531,17 @@ msgstr "Está amamentando?"
 #: translation/templates/translation/language.html:3567
 #: translation/templates/translation/language.html:3570
 msgid "Où se trouve le médecin le plus proche ?"
-msgstr "Onde encontro um médico mais próximo?"
+msgstr "Preciso de um médico."
 
 #: translation/templates/translation/language.html:3575
 #: translation/templates/translation/language.html:3578
 msgid "Où se trouve l'hôpital le plus proche ?"
-msgstr "Onde encontro o hospital mais próximo?"
+msgstr "Preciso ir para o hospital."
 
 #: translation/templates/translation/language.html:3583
 #: translation/templates/translation/language.html:3586
 msgid "Où se trouve la pharmacie la plus proche ?"
-msgstr "Onde encontro a farmácia mais próxima?"
+msgstr "Onde se encontra a farmácia mais próxima?"
 
 #: translation/templates/translation/language.html:3591
 #: translation/templates/translation/language.html:3594
@@ -2606,7 +2606,7 @@ msgstr "Você poderia assinar essa autorização de cuidados na parte de baixo?"
 #: translation/templates/translation/language.html:3711
 #: translation/templates/translation/language.html:3714
 msgid "Nom :"
-msgstr "Último nome :"
+msgstr "Nome:"
 
 #: translation/templates/translation/language.html:3719
 #: translation/templates/translation/language.html:3722
