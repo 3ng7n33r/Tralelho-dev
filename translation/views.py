@@ -39,8 +39,8 @@ def autocompleteModel(request, base_language):
         for r in search_qs:
             for lang in r.spoken_languages.all():
                 if lang.langcode != base_language and lang.Translated:
-                    results.append(r.Name_eng + ' (' + lang.Name_eng + ')')
-        data = json.dumps(results)
+                    results.append(r.Name_eng)
+        data = json.dumps(list(set(results)))
     else:
         data = 'fail'
     mimetype = 'application/json'
