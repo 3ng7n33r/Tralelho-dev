@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 73d3b19e82fc460fd936796fc5b25f94\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-11 15:45+0000\n"
-"PO-Revision-Date: 2021-03-30 10:31\n"
+"PO-Revision-Date: 2021-05-25 12:40\n"
 "Last-Translator: \n"
 "Language-Team: Dutch\n"
 "Language: nl\n"
@@ -1486,7 +1486,7 @@ msgstr ""
 #: translation/templates/translation/language.html:1834
 #: translation/templates/translation/language.html:1837
 msgid "Après l'opération vous aurez :"
-msgstr ""
+msgstr "Na de operatie kunt U het volgende hebben:"
 
 #: translation/templates/translation/language.html:1842
 #: translation/templates/translation/language.html:1845

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 73d3b19e82fc460fd936796fc5b25f94\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-11 15:45+0000\n"
-"PO-Revision-Date: 2021-03-30 10:32\n"
+"PO-Revision-Date: 2021-05-25 12:40\n"
 "Last-Translator: \n"
 "Language-Team: Czech\n"
 "Language: cs\n"
@@ -2556,7 +2556,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3607
 #: translation/templates/translation/language.html:3610
 msgid "L'examen est long. Il dure entre 15 et 40 minutes"
-msgstr "Vyšetření je dlouhé. Trvá 15 až 40 minut."
+msgstr "Vyšetření je dlouhé. Trvá 15 až 40 minut"
 
 #: translation/templates/translation/language.html:3615
 #: translation/templates/translation/language.html:3618
