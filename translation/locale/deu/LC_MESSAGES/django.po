@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 73d3b19e82fc460fd936796fc5b25f94\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-11 15:45+0000\n"
-"PO-Revision-Date: 2021-03-30 10:32\n"
+"PO-Revision-Date: 2021-05-25 12:40\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -435,7 +435,7 @@ msgstr "Wer sind wir?"
 
 #: translation/templates/translation/language.html:39
 msgid "Cliquez sur une phrase pour l'afficher"
-msgstr ""
+msgstr "Klicke auf einen Satz um ihn zu sehen"
 
 #: translation/templates/translation/language.html:49
 #: translation/templates/translation/language.html:52
