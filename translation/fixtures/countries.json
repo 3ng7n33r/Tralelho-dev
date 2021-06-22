@@ -819,7 +819,7 @@
         "pk": 62,
         "model": "translation.Country",
         "fields": {
-            "Name_eng": "United Kingdom of Great Britain and Northern Ireland",
+            "Name_eng": "UK",
             "Name_fr": "Royaume-Uni",
             "countrycode": "gbr",
             "Continent": "EU",

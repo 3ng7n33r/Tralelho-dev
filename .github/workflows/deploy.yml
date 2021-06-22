@@ -1,0 +1,29 @@
+name: Deploy
+
+# Controls when the action will run. workflow_dispatch: manual action.
+on: workflow_dispatch
+
+jobs:
+  setup-build-deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Set environment variables in app.yaml
+          uses: ./.github/actions/replace
+          with:
+            files: app.yaml
+            replacements: '%DJANGO_SECRET_KEY%=${{ secrets.DJANGO_SECRET_KEY }},%GCP_SQL_USER%=${{ secrets.GCP_SQL_USER}},%GCP_SQL_PWD%=${{ secrets.GCP_SQL_PWD}}'
+
+      - name: Deploy to App Engine
+        uses: google-github-actions/deploy-appengine@v0.4.0
+        with:
+          deliverables: app.yaml
+          project_id: ${{ secrets.GCP_PROJECT }}
+          credentials: ${{ secrets.GCP_SA_KEY }}
+          promote: true
+          version: v0
+
