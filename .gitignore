@@ -4,7 +4,7 @@ translation/static/translation/docs/backup
 static
 
 #secret key
-#secret_key.txt
+secret_key.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -149,4 +149,3 @@ cython_debug/
 
 cloud_sql_proxy
 pwd
-secret_key.txt
