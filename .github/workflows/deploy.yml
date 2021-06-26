@@ -1,0 +1,60 @@
+name: Deploy
+
+# Controls when the action will run. workflow_dispatch: manual action.
+on: workflow_dispatch
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup Python version
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+
+      - name: Create and start virtual environment
+        run: |
+          python3 -m venv venv
+          source venv/bin/activate
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Collect static
+        run: python manage.py collectstatic
+
+      - name: Upload artifact for deployment jobs
+        uses: actions/upload-artifact@v2
+        with:
+          name: python-app
+          path: |
+            .
+            !venv/
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v2
+        with:
+          name: python-app
+          path: .
+
+      - name: Set environment variables in app.yaml
+        uses: datamonsters/replace-action
+        with:
+          files: app.yaml
+          replacements: '%DJANGO_SECRET_KEY%=${{ secrets.DJANGO_SECRET_KEY }},%GCP_SQL_USER%=${{ secrets.GCP_SQL_USER}},%GCP_SQL_PWD%=${{ secrets.GCP_SQL_PWD}}'
+
+      - name: Deploy to App Engine
+        uses: google-github-actions/deploy-appengine@v0.4.0
+        with:
+          deliverables: app.yaml
+          project_id: ${{ secrets.GCP_PROJECT }}
+          credentials: ${{ secrets.GCP_SA_KEY }}
+          promote: true
+          version: v0

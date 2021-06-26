@@ -11,25 +11,18 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
-with open(BASE_DIR / 'secret_key.txt') as f:
-    SECRET_KEY = f.read().strip()
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['135.125.182.106',
-                 '2001:41d0:701:1100::5333',
-                 '127.0.0.1']
-
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -79,12 +72,26 @@ WSGI_APPLICATION = 'tralelho.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+if os.getenv('GAE_APPLICATION', None):
+    SECRET_KEY = os.getenv('DJANGO_SECRET_KEY')
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.mysql',
+            'HOST': '/cloudsql/tralelho:europe-west1:tralelho',
+            'USER': os.getenv('GCP_SQL_USER'),
+            'PASSWORD': os.getenv('GCP_SQL_PWD'),
+            'NAME': 'tralelho',
+        }
     }
-}
+else:
+    with open(BASE_DIR / 'secret_key.txt') as f:
+        SECRET_KEY = f.read().strip()
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
+    }
 
 
 # Password validation

@@ -146,3 +146,6 @@ dmypy.json
 cython_debug/
 
 .vscode
+
+cloud_sql_proxy
+pwd
