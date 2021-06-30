@@ -47,25 +47,13 @@ jobs:
           path: .
 
       - name: replace DJANGO_SECRET_KEY
-        uses: jacobtomlinson/gha-find-replace@master
-        with:
-          include: "app.yaml"
-          find: "%DJANGO_SECRET_KEY%"
-          replace: "${{ secrets.DJANGO_SECRET_KEY }}"
+        run: sed -i 's/%DJANGO_SECRET_KEY%/${{ secrets.DJANGO_SECRET_KEY }}/g' app.yaml
 
       - name: replace GCP_SQL_USER
-        uses: jacobtomlinson/gha-find-replace@master
-        with:
-          include: "app.yaml"
-          find: "%GCP_SQL_USER%"
-          replace: "${{ secrets.GCP_SQL_USER }}"
+        run: sed -i 's/%GCP_SQL_USER%/${{ secrets.GCP_SQL_USER }}/g' app.yaml
 
       - name: replace GCP_SQL_PWD
-        uses: jacobtomlinson/gha-find-replace@master
-        with:
-          include: "app.yaml"
-          find: "%GCP_SQL_PWD%"
-          replace: "${{ secrets.GCP_SQL_PWD }}"
+        run: sed -i 's/%GCP_SQL_PWD%/${{ secrets.GCP_SQL_PWD }}/g' app.yaml  
 
       - name: Deploy to App Engine
         uses: google-github-actions/deploy-appengine@v0.4.0
