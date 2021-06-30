@@ -46,11 +46,26 @@ jobs:
           name: python-app
           path: .
 
-      - name: Set environment variables in app.yaml
-        uses: datamonsters/replace-action@v2
+      - name: replace DJANGO_SECRET_KEY
+        uses: jwsi/secret-parser@v1
         with:
-          files: app.yaml
-          replacements: '%DJANGO_SECRET_KEY%="${{ secrets.DJANGO_SECRET_KEY }}",%GCP_SQL_USER%="${{ secrets.GCP_SQL_USER}}",%GCP_SQL_PWD%="${{ secrets.GCP_SQL_PWD}}"'
+          filename: app.yaml
+          secret-name: %DJANGO_SECRET_KEY%
+          secret-value: ${{ secrets.DJANGO_SECRET_KEY }}
+
+      - name: replace GCP_SQL_USER
+        uses: jwsi/secret-parser@v1
+        with:
+          filename: app.yaml
+          secret-name: %GCP_SQL_USER%
+          secret-value: ${{ secrets.GCP_SQL_USER }}
+
+      - name: replace GCP_SQL_PWD
+        uses: jwsi/secret-parser@v1
+        with:
+          filename: app.yaml
+          secret-name: %GCP_SQL_PWD%
+          secret-value: ${{ secrets.GCP_SQL_PWD }}
 
       - name: Deploy to App Engine
         uses: google-github-actions/deploy-appengine@v0.4.0
