@@ -50,21 +50,21 @@ jobs:
         uses: jwsi/secret-parser@v1
         with:
           filename: app.yaml
-          secret-name: %DJANGO_SECRET_KEY%
+          secret-name: DJANGO_SECRET_KEY
           secret-value: ${{ secrets.DJANGO_SECRET_KEY }}
 
       - name: replace GCP_SQL_USER
         uses: jwsi/secret-parser@v1
         with:
           filename: app.yaml
-          secret-name: %GCP_SQL_USER%
+          secret-name: GCP_SQL_USER
           secret-value: ${{ secrets.GCP_SQL_USER }}
 
       - name: replace GCP_SQL_PWD
         uses: jwsi/secret-parser@v1
         with:
           filename: app.yaml
-          secret-name: %GCP_SQL_PWD%
+          secret-name: GCP_SQL_PWD
           secret-value: ${{ secrets.GCP_SQL_PWD }}
 
       - name: Deploy to App Engine
