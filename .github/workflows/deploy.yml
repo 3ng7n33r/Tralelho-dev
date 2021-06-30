@@ -47,25 +47,25 @@ jobs:
           path: .
 
       - name: replace DJANGO_SECRET_KEY
-        uses: jwsi/secret-parser@v1
+        uses: jacobtomlinson/gha-find-replace@master
         with:
-          filename: app.yaml
-          secret-name: DJANGO_SECRET_KEY
-          secret-value: ${{ secrets.DJANGO_SECRET_KEY }}
+          include: "app.yaml"
+          find: "%DJANGO_SECRET_KEY%"
+          replace: "${{ secrets.DJANGO_SECRET_KEY }}"
 
       - name: replace GCP_SQL_USER
         uses: jwsi/secret-parser@v1
         with:
-          filename: app.yaml
-          secret-name: GCP_SQL_USER
-          secret-value: ${{ secrets.GCP_SQL_USER }}
+          include: "app.yaml"
+          find: "%GCP_SQL_USER%"
+          replace: "${{ secrets.GCP_SQL_USER }}"
 
       - name: replace GCP_SQL_PWD
         uses: jwsi/secret-parser@v1
         with:
-          filename: app.yaml
-          secret-name: GCP_SQL_PWD
-          secret-value: ${{ secrets.GCP_SQL_PWD }}
+          include: "app.yaml"
+          find: "%GCP_SQL_PWD%"
+          replace: "${{ secrets.GCP_SQL_PWD }}"
 
       - name: Deploy to App Engine
         uses: google-github-actions/deploy-appengine@v0.4.0
