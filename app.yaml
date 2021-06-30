@@ -6,7 +6,7 @@ automatic_scaling:
 instance_class: F1
 
 env_variables:
-  DJANGO_SECRET_KEY: "%DJANGO_SECRET_KEY%"
+  DJANGO_SECRET_KEY: "toto"
   GCP_SQL_USER: "%GCP_SQL_USER%"
   GCP_SQL_PWD: "%GCP_SQL_PWD%"
 
