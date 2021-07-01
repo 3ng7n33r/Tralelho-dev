@@ -25,6 +25,8 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Collect static
+        env:
+          DJANGO_SECRET_KEY: ${{ secrets.DJANGO_SECRET_KEY }}
         run: python manage.py collectstatic
 
       - name: Upload artifact for deployment jobs
@@ -44,11 +46,14 @@ jobs:
           name: python-app
           path: .
 
-      - name: Set environment variables in app.yaml
-        uses: datamonsters/replace-action@v2
-        with:
-          files: app.yaml
-          replacements: '%DJANGO_SECRET_KEY%=${{ secrets.DJANGO_SECRET_KEY }},%GCP_SQL_USER%=${{ secrets.GCP_SQL_USER}},%GCP_SQL_PWD%=${{ secrets.GCP_SQL_PWD}}'
+      - name: replace DJANGO_SECRET_KEY
+        run: sed -i 's|%DJANGO_SECRET_KEY%|${{ secrets.DJANGO_SECRET_KEY }}|g' app.yaml
+
+      - name: replace GCP_SQL_USER
+        run: sed -i 's|%GCP_SQL_USER%|${{ secrets.GCP_SQL_USER }}|g' app.yaml
+
+      - name: replace GCP_SQL_PWD
+        run: sed -i 's|%GCP_SQL_PWD%|${{ secrets.GCP_SQL_PWD }}|g' app.yaml
 
       - name: Deploy to App Engine
         uses: google-github-actions/deploy-appengine@v0.4.0
