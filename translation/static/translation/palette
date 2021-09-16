@@ -7,7 +7,7 @@
 
 /* As hex codes */
 
-.color-primary-0 { color: #99CCFF }	/* Main Primary color */
+.color-primary-0 { color: FFFBF6 }	/* Main Primary color */
 .color-primary-1 { color: #77AAFF }
 .color-primary-2 { color: #FFEFD9 }
 .color-primary-3 { color: #FFF7EC }
