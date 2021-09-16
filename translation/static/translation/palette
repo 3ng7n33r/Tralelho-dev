@@ -8,7 +8,7 @@
 /* As hex codes */
 
 .color-primary-0 { color: #99CCFF }	/* Main Primary color */
-.color-primary-1 { color: #FFE6C4 }
+.color-primary-1 { color: #77AAFF }
 .color-primary-2 { color: #FFEFD9 }
 .color-primary-3 { color: #FFF7EC }
 .color-primary-4 { color: #E9DFD3 }
