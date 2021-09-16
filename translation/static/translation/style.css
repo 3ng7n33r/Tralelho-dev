@@ -15,19 +15,19 @@
     --fs-h3: 1.25rem;
     --fs-body: 1.1rem;
 
-    --color-primary-0: #889DAE;  /* Body */    
+    --color-primary-0: #318CE7;  /* Body */    
        /* Main Primary color */
-    --color-primary-1: #318CE7; /* Cadre intérieur*/
+    --color-primary-1: #77B5FE; /* Cadre intérieur*/
     --color-primary-2: #26619C; /*Head*/
     --color-primary-3: #c6e2ff;
     --color-primary-4: #4ca3dd;
 
-    --color-complement-0: #003366; /* Icones head et fond des phrases */
+    --color-complement-0: #77B5FE; /* Icones head et fond des phrases */
     /* Main Complement color */
-    --color-complement-1: #77B5FE; /* Fond derniere phrase cliquee et ombre drapeaux*/#77B5FE
+    --color-complement-1: #77B5FE; /* Fond derriere phrase cliquee et ombre drapeaux*/#77B5FE
     --color-complement-2: #26619C;  /* Fond MENU */ 
     --color-complement-3: #9DA3A9;
-    --color-complement-4: #003366; /* Head couleur fleche et changement langue*/
+    --color-complement-4: #77B5FE; /* Head couleur fleche et changement langue*/
 }
 
 h1 {
@@ -268,7 +268,7 @@ main {
 }
 
 .navbar a:hover .fa-globe {
-    color: rgb(255, 125, 19);
+    color: #26C4EC;
     transform: scale(1.12);
 }
 
@@ -630,7 +630,7 @@ td {
     background-color:#77B5FE;
     width: 100%;
     height: 40vh;
-    margin-richt: 10px;
+    margin-right: 10px;
     font-size: 50px;
     font-weight: bold;
     display: none;
