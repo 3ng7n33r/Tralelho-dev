@@ -7,17 +7,17 @@
 
 /* As hex codes */
 
-.color-primary-0 { color: #77B5FE }	/* Main Primary color */
-.color-primary-1 { color: #318CE7 }
-.color-primary-2 { color: #22427C }
+.color-primary-0 { color: #77B5FE }	/* Body */
+.color-primary-1 { color: #318CE7 } /* Cadre intérieur*/
+.color-primary-2 { color: #8DB6C7 } /*Head*/
 .color-primary-3 { color: #FFF7EC }
 .color-primary-4 { color: #E9DFD3 }
 
-.color-complement-0 { color: #D3D7DA }	/* Main Complement color */
-.color-complement-1 { color: #889DAE }
-.color-complement-2 { color: #A8B7C3 }
-.color-complement-3 { color: #9DA3A9 }
-.color-complement-4 { color: #889096 }
+.color-complement-0 { color: #22427C }	/* Icones head et fond des phrases */
+.color-complement-1 { color: #889DAE } /* Fond derniere phrase cliquee et ombre drapeaux*/
+.color-complement-2 { color: #A8B7C3 } /* Fond MENU */
+.color-complement-3 { color: #9DA3A9 } /*  */
+.color-complement-4 { color: #22427C } /* Head couleur fleche et changement langue*/
 
 
 
