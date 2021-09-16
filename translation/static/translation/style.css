@@ -15,19 +15,19 @@
     --fs-h3: 1.25rem;
     --fs-body: 1.1rem;
 
-    --color-primary-0: #77B5FE;  /* Body */    
+    --color-primary-0: #889DAE;  /* Body */    
        /* Main Primary color */
     --color-primary-1: #318CE7; /* Cadre intérieur*/
-    --color-primary-2: #8DB6C7; /*Head*/
+    --color-primary-2: #26619C; /*Head*/
     --color-primary-3: #c6e2ff;
     --color-primary-4: #4ca3dd;
 
-    --color-complement-0: #22427C ; /* Icones head et fond des phrases */
+    --color-complement-0: #003366; /* Icones head et fond des phrases */
     /* Main Complement color */
-    --color-complement-1: #889DAE; /* Fond derniere phrase cliquee et ombre drapeaux*/
-    --color-complement-2: #A8B7C3;  /* Fond MENU */
+    --color-complement-1: #77B5FE; /* Fond derniere phrase cliquee et ombre drapeaux*/#77B5FE
+    --color-complement-2: #26619C;  /* Fond MENU */ 
     --color-complement-3: #9DA3A9;
-    --color-complement-4: #889096; /* Head couleur fleche et changement langue*/
+    --color-complement-4: #003366; /* Head couleur fleche et changement langue*/
 }
 
 h1 {
@@ -627,9 +627,10 @@ td {
     /* Opera 10.5 */
     -webkit-transform: rotate(-180deg);
     /* Safari 3.1+, Chrome */
-    background-color: white;
+    background-color:#77B5FE;
     width: 100%;
     height: 40vh;
+    margin-richt: 10px;
     font-size: 50px;
     font-weight: bold;
     display: none;
