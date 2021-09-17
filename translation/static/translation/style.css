@@ -15,14 +15,14 @@
     --fs-h3: 1.25rem;
     --fs-body: 1.1rem;
 
-    --color-primary-0: #1560BD;  /* Body */    
+    --color-primary-0: #3A8EBA;  /* Body */    
        /* Main Primary color */
-    --color-primary-1: #3A8EBA; /* Cadre intérieur*/
+    --color-primary-1: #3A8EBA; /* Cadre phrases intérieur*/
     --color-primary-2: #26619C; /*Head*/
     --color-primary-3: #c6e2ff;
     --color-primary-4: #4ca3dd;
 
-    --color-complement-0: #318CE7; /* Icones head et fond des phrases */
+    --color-complement-0: #FFC0CB; /* Icones head et fond des phrases */
     /* Main Complement color */
     --color-complement-1: #77B5FE; /* Fond derriere phrase cliquee et ombre drapeaux*/#77B5FE
     --color-complement-2: #26619C;  /* Fond MENU */ 
