@@ -138,7 +138,7 @@ a {
 }
 
 .navlogo i {
-    color: rgb(255, 125, 19);
+    color: #87CEFA;
     font-size: min(10vw, 30px);
     transition: transform 0.5s ease;
     align-self: center;
@@ -636,9 +636,8 @@ td {
     font-weight: bold;
     display: none;
     position: sticky;
-    top: 10%;
+    top: 8%;
     text-align: center;
-    vertical-align: middle;
     z-index: 2;
 }
 
