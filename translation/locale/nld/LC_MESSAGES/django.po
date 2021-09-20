@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 73d3b19e82fc460fd936796fc5b25f94\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-11 15:45+0000\n"
-"PO-Revision-Date: 2021-05-25 12:40\n"
+"PO-Revision-Date: 2021-09-20 09:36\n"
 "Last-Translator: \n"
 "Language-Team: Dutch\n"
 "Language: nl\n"
@@ -76,14 +76,14 @@ msgstr ""
 #: translation/templates/translation/language.html:3671
 #: translation/templates/translation/language.html:3674
 msgid "Durant l'examen, on vous demandera de gonfler et les poumons et de bloquer la respiration"
-msgstr ""
+msgstr "Tijdens de scan/ het onderzoek vragen we je, of je diep wil inademen en je longen vol met lucht wil houden."
 
 #: translation/templates/doctemplates/irm.html:41
 #: translation/templates/doctemplates/irm.html:42
 #: translation/templates/translation/language.html:2017
 #: translation/templates/translation/language.html:2020
 msgid "Pour nous appeler appuyer ici"
-msgstr ""
+msgstr "Om ons te bellen drukt U hier op"
 
 #: translation/templates/doctemplates/irm.html:47
 msgid "Checklist IRM"
@@ -135,7 +135,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3751
 #: translation/templates/translation/language.html:3754
 msgid "Oui"
-msgstr ""
+msgstr "Ja"
 
 #: translation/templates/doctemplates/irm.html:80
 #: translation/templates/doctemplates/irm.html:81
@@ -148,7 +148,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3759
 #: translation/templates/translation/language.html:3762
 msgid "Non"
-msgstr ""
+msgstr "Neen"
 
 #: translation/templates/doctemplates/irm.html:82
 #: translation/templates/doctemplates/irm.html:83
@@ -159,7 +159,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3767
 #: translation/templates/translation/language.html:3770
 msgid "Je ne sais pas"
-msgstr ""
+msgstr "Ik weet het niet"
 
 #: translation/templates/doctemplates/irm.html:89
 #: translation/templates/doctemplates/irm.html:90
@@ -216,7 +216,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3631
 #: translation/templates/translation/language.html:3634
 msgid "Avez-vous des éclats métalliques dans les yeux?"
-msgstr ""
+msgstr "Heb je metaale scherven in je oog?"
 
 #: translation/templates/doctemplates/irm.html:188
 #: translation/templates/doctemplates/irm.html:189
@@ -228,7 +228,7 @@ msgstr ""
 #: translation/templates/doctemplates/scn.html:83
 #: translation/templates/doctemplates/scn.html:84
 msgid "Êtes-vous enceinte?"
-msgstr ""
+msgstr "Bent U in verwachting?"
 
 #: translation/templates/doctemplates/irm.html:203
 #: translation/templates/doctemplates/irm.html:204
@@ -240,7 +240,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3655
 #: translation/templates/translation/language.html:3658
 msgid "Si oui, avez-vous une carte avec les références du matériel?"
-msgstr ""
+msgstr "Zo ja, heb je een kaart met het referentie nummer van het materiaal?"
 
 #: translation/templates/doctemplates/irm.html:218
 #: translation/templates/doctemplates/irm.html:219
@@ -306,47 +306,47 @@ msgstr ""
 #: translation/templates/sidenav.html:11
 #: translation/templates/translation/language.html:130
 msgid "IDENTITÉ"
-msgstr ""
+msgstr "Identiteit"
 
 #: translation/templates/sidenav.html:12
 #: translation/templates/translation/language.html:217
 msgid "ATTENTE"
-msgstr ""
+msgstr "Wachttijd"
 
 #: translation/templates/sidenav.html:13
 #: translation/templates/translation/language.html:304
 msgid "ACCUEIL"
-msgstr ""
+msgstr "RECEPTIE"
 
 #: translation/templates/sidenav.html:14
 #: translation/templates/translation/language.html:503
 msgid "NEUROLOGIE"
-msgstr ""
+msgstr "Neurologie"
 
 #: translation/templates/sidenav.html:15
 #: translation/templates/translation/language.html:686
 msgid "PNEUMOLOGIE"
-msgstr ""
+msgstr "Pneumologie"
 
 #: translation/templates/sidenav.html:16
 #: translation/templates/translation/language.html:773
 msgid "CARDIOLOGIE"
-msgstr ""
+msgstr "Cardiologie"
 
 #: translation/templates/sidenav.html:17
 #: translation/templates/translation/language.html:932
 msgid "MALAISE"
-msgstr ""
+msgstr "Beroerte"
 
 #: translation/templates/sidenav.html:18
 #: translation/templates/translation/language.html:1043
 msgid "DIGESTIF"
-msgstr ""
+msgstr "Spijsvertering"
 
 #: translation/templates/sidenav.html:19
 #: translation/templates/translation/language.html:1194
 msgid "INFECTIEUX"
-msgstr ""
+msgstr "Aanstekelijk"
 
 #: translation/templates/sidenav.html:20
 #: translation/templates/translation/language.html:1273
@@ -356,7 +356,7 @@ msgstr ""
 #: translation/templates/sidenav.html:21
 #: translation/templates/translation/language.html:1320
 msgid "ANTÉCÉDENTS"
-msgstr ""
+msgstr "MEDISCHE ACHTERGROND"
 
 #: translation/templates/sidenav.html:22
 #: translation/templates/translation/language.html:1399
@@ -376,22 +376,22 @@ msgstr ""
 #: translation/templates/sidenav.html:25
 #: translation/templates/translation/language.html:1700
 msgid "EXAMENS"
-msgstr ""
+msgstr "EXAMENS"
 
 #: translation/templates/sidenav.html:26
 #: translation/templates/translation/language.html:1939
 msgid "TRAITEMENTS et CONSIGNES"
-msgstr ""
+msgstr "BEHANDELING EN RECEPTEN"
 
 #: translation/templates/sidenav.html:27
 #: translation/templates/translation/language.html:2058
 msgid "CONCLUSION"
-msgstr ""
+msgstr "CONCLUSIE"
 
 #: translation/templates/sidenav.html:28
 #: translation/templates/translation/language.html:2161
 msgid "PATIENT EN STRUCTURE"
-msgstr ""
+msgstr "PATIENT EN STRUCTUUR"
 
 #: translation/templates/translation/about.html:7
 #: translation/templates/translation/disclaimer.html:7
@@ -440,27 +440,27 @@ msgstr ""
 #: translation/templates/translation/language.html:49
 #: translation/templates/translation/language.html:52
 msgid "Je vais utiliser le téléphone pour traduire les questions que j'ai à vous poser, êtes vous d'accord ?"
-msgstr ""
+msgstr "Ik zal de telefoon gebruiken om de vragen te vertalen die ik U ga stellen."
 
 #: translation/templates/translation/language.html:57
 #: translation/templates/translation/language.html:60
 msgid "Bonjour, je suis infirmière"
-msgstr ""
+msgstr "Goedendag, ik ben hulpverlener"
 
 #: translation/templates/translation/language.html:65
 #: translation/templates/translation/language.html:68
 msgid "Bonjour, je suis médecin"
-msgstr ""
+msgstr "Goedendag, ik ben dokter"
 
 #: translation/templates/translation/language.html:73
 #: translation/templates/translation/language.html:76
 msgid "Bonjour, je suis secouriste"
-msgstr ""
+msgstr "Goedendag, ik ben ambulancier"
 
 #: translation/templates/translation/language.html:81
 #: translation/templates/translation/language.html:84
 msgid "Bonjour, je suis bénévole"
-msgstr ""
+msgstr "Goedendag, ik ben vrijwilliger"
 
 #: translation/templates/translation/language.html:89
 #: translation/templates/translation/language.html:92
@@ -470,72 +470,72 @@ msgstr ""
 #: translation/templates/translation/language.html:97
 #: translation/templates/translation/language.html:100
 msgid "Bonjour, je suis étudiant en médecine"
-msgstr ""
+msgstr "Goedendag, ik ben student in medicijnen"
 
 #: translation/templates/translation/language.html:105
 #: translation/templates/translation/language.html:108
 msgid "Bonjour, je suis sage-femme"
-msgstr ""
+msgstr "Goedendag, ik ben vroedvrouw"
 
 #: translation/templates/translation/language.html:113
 #: translation/templates/translation/language.html:116
 msgid "Bonjour, je suis secrétaire"
-msgstr ""
+msgstr "Goedendag, ik ben secretaresse"
 
 #: translation/templates/translation/language.html:121
 #: translation/templates/translation/language.html:124
 msgid "Bonjour, je suis soignant"
-msgstr ""
+msgstr "Goedendag, ik ben hulpverlener"
 
 #: translation/templates/translation/language.html:136
 #: translation/templates/translation/language.html:139
 msgid "Pouvez-vous me montrez votre passeport"
-msgstr ""
+msgstr "Kunt U mij uw paspoort laten zien ?"
 
 #: translation/templates/translation/language.html:144
 #: translation/templates/translation/language.html:147
 msgid "Pouvez-vous me montrez une carte d’identité"
-msgstr ""
+msgstr "Kunt U mij een identiteitskaart laten zien?"
 
 #: translation/templates/translation/language.html:152
 #: translation/templates/translation/language.html:155
 msgid "Pouvez-vous me montrer des papiers avec votre nom"
-msgstr ""
+msgstr "Kunt U mij papieren op Uw naam laten zien?"
 
 #: translation/templates/translation/language.html:160
 #: translation/templates/translation/language.html:163
 msgid "Pouvez-vous me montrer une carte Européenne de santé"
-msgstr ""
+msgstr "Kunt U mij een Europeese ziekteverzekeringskaart laten zien?"
 
 #: translation/templates/translation/language.html:168
 #: translation/templates/translation/language.html:171
 msgid "Pouvez-vous me montre une carte d’assurance privée"
-msgstr ""
+msgstr "Kunt U mij een ziektekostenverzekeringskaart laten zien?"
 
 #: translation/templates/translation/language.html:176
 #: translation/templates/translation/language.html:179
 msgid "Les frais des soins seront à votre charge"
-msgstr ""
+msgstr "De zorgkosten zijn voor Uw rekening"
 
 #: translation/templates/translation/language.html:184
 #: translation/templates/translation/language.html:187
 msgid "Les frais des soins ne seront pas à votre charge"
-msgstr ""
+msgstr "De zorgkosten zijn niet voor Uw rekening"
 
 #: translation/templates/translation/language.html:192
 #: translation/templates/translation/language.html:195
 msgid "De quel pays venez-vous ?"
-msgstr ""
+msgstr "Uit welk land komt U vandaan?"
 
 #: translation/templates/translation/language.html:200
 #: translation/templates/translation/language.html:203
 msgid "A quelle adresse vivez-vous actuellement ?"
-msgstr ""
+msgstr "Wat is Uw huidige qdres?"
 
 #: translation/templates/translation/language.html:208
 #: translation/templates/translation/language.html:211
 msgid "Avez-vous un numéro de téléphone où l’on peut vous joindre ?"
-msgstr ""
+msgstr "Heeft U een telefoonnummer waarmee wij U kunnen bereiken?"
 
 #: translation/templates/translation/language.html:223
 #: translation/templates/translation/language.html:226
@@ -545,47 +545,47 @@ msgstr ""
 #: translation/templates/translation/language.html:231
 #: translation/templates/translation/language.html:234
 msgid "Je vous laisse attendre sur les chaises"
-msgstr ""
+msgstr "Ik laat U wachten op de stoelen"
 
 #: translation/templates/translation/language.html:239
 #: translation/templates/translation/language.html:242
 msgid "Je vous laisse attendre sur le banc"
-msgstr ""
+msgstr "Ik laat U wachten op de bank"
 
 #: translation/templates/translation/language.html:247
 #: translation/templates/translation/language.html:250
 msgid "Je vous laisse attendre dans la salle d'attente"
-msgstr ""
+msgstr "Ik laat U wachten in de wachtkamer"
 
 #: translation/templates/translation/language.html:255
 #: translation/templates/translation/language.html:258
 msgid "Nous viendrons vous appeler"
-msgstr ""
+msgstr "Wij zullen U oproepen"
 
 #: translation/templates/translation/language.html:263
 #: translation/templates/translation/language.html:266
 msgid "Merci de ne pas manger, boire ou fumer pendant l’attente"
-msgstr ""
+msgstr "Wij verzoeken U om niet te eten, drinken en te roken terwijl U wacht"
 
 #: translation/templates/translation/language.html:271
 #: translation/templates/translation/language.html:274
 msgid "Votre famille devra attendre ici"
-msgstr ""
+msgstr "Uw familie moet hier wachten"
 
 #: translation/templates/translation/language.html:279
 #: translation/templates/translation/language.html:282
 msgid "Selon votre état de santé, le médecin demandera parfois des soins, comme une prise de sang, un examen comme une radio ou un scanner, ou pourra demander de vous garder en observation pour surveiller votre état de santé"
-msgstr ""
+msgstr "Naargelang Uw gezondheidstoestand kan de dokter om een bloedproef, een onderzoek zoals een rontgenfoto of een scanner vragen"
 
 #: translation/templates/translation/language.html:287
 #: translation/templates/translation/language.html:290
 msgid "Nous vous demandons de ne pas manger ou boire tant que le médecin ne vous y a pas autorisé, certains examens demandant de rester à jeun"
-msgstr ""
+msgstr "De dokter kan beslissen om U ter observatie te houden en wij vragen U om niets te eten en te drinken voordat wij het zeggen"
 
 #: translation/templates/translation/language.html:295
 #: translation/templates/translation/language.html:298
 msgid "Il faut attendre 1 heure pour avoir les résultats de la prise de sang"
-msgstr ""
+msgstr "De uitslag van de bloedproef duurt één uur"
 
 #: translation/templates/translation/language.html:310
 #: translation/templates/translation/language.html:313
@@ -596,27 +596,27 @@ msgstr ""
 #: translation/templates/translation/language.html:318
 #: translation/templates/translation/language.html:321
 msgid "Avez-vous des douleurs ?"
-msgstr ""
+msgstr "Heeft U pijn?"
 
 #: translation/templates/translation/language.html:342
 #: translation/templates/translation/language.html:345
 msgid "Montrez-moi où vous avez mal"
-msgstr ""
+msgstr "Laat mij zien waar het pijn doet"
 
 #: translation/templates/translation/language.html:350
 #: translation/templates/translation/language.html:353
 msgid "Je vais vous examiner"
-msgstr ""
+msgstr "Ik zal U onderzoeken"
 
 #: translation/templates/translation/language.html:358
 #: translation/templates/translation/language.html:361
 msgid "Pourriez-vous chiffrer votre douleur entre 0 et 10 ?"
-msgstr ""
+msgstr "Kunt U een cijfer geven voor de pijn tussen 0 en 10?"
 
 #: translation/templates/translation/language.html:366
 #: translation/templates/translation/language.html:369
 msgid "10 étant la note pour une douleur insupportable"
-msgstr ""
+msgstr "10 voor als het heel erg pijn doet"
 
 #: translation/templates/translation/language.html:374
 #: translation/templates/translation/language.html:377
@@ -626,142 +626,142 @@ msgstr ""
 #: translation/templates/translation/language.html:382
 #: translation/templates/translation/language.html:385
 msgid "1"
-msgstr ""
+msgstr "Eén"
 
 #: translation/templates/translation/language.html:390
 #: translation/templates/translation/language.html:393
 msgid "2"
-msgstr ""
+msgstr "Twee"
 
 #: translation/templates/translation/language.html:398
 #: translation/templates/translation/language.html:401
 msgid "3"
-msgstr ""
+msgstr "Drie"
 
 #: translation/templates/translation/language.html:406
 #: translation/templates/translation/language.html:409
 msgid "4"
-msgstr ""
+msgstr "Vier"
 
 #: translation/templates/translation/language.html:414
 #: translation/templates/translation/language.html:417
 msgid "5"
-msgstr ""
+msgstr "Vijf"
 
 #: translation/templates/translation/language.html:422
 #: translation/templates/translation/language.html:425
 msgid "6"
-msgstr ""
+msgstr "Zes"
 
 #: translation/templates/translation/language.html:430
 #: translation/templates/translation/language.html:433
 msgid "7"
-msgstr ""
+msgstr "Zeven"
 
 #: translation/templates/translation/language.html:438
 #: translation/templates/translation/language.html:441
 msgid "8"
-msgstr ""
+msgstr "Acht"
 
 #: translation/templates/translation/language.html:446
 #: translation/templates/translation/language.html:449
 msgid "9"
-msgstr ""
+msgstr "Negen"
 
 #: translation/templates/translation/language.html:454
 #: translation/templates/translation/language.html:457
 msgid "10"
-msgstr ""
+msgstr "Tien"
 
 #: translation/templates/translation/language.html:462
 #: translation/templates/translation/language.html:465
 msgid "Pouvez vous vous déshabiller pour que je vous examine"
-msgstr ""
+msgstr "Kunt U zich uitkleden voor het onderzoek?"
 
 #: translation/templates/translation/language.html:470
 #: translation/templates/translation/language.html:473
 msgid "Vous pouvez garder vos sous-vêtements"
-msgstr ""
+msgstr "U mag het ondergoed aan houden"
 
 #: translation/templates/translation/language.html:478
 #: translation/templates/translation/language.html:481
 msgid "Vous pouvez vous asseoir sur la chaise"
-msgstr ""
+msgstr "U kunt op de stoel gaan zitten"
 
 #: translation/templates/translation/language.html:486
 #: translation/templates/translation/language.html:489
 msgid "Vous pouvez vous allonger sur la table d'examen"
-msgstr ""
+msgstr "U kunt op de onderzoektafel gaan liggen"
 
 #: translation/templates/translation/language.html:494
 #: translation/templates/translation/language.html:497
 msgid "Vous pouvez vous allonger sur le brancard"
-msgstr ""
+msgstr "U kunt op de brancard gaan liggen"
 
 #: translation/templates/translation/language.html:509
 #: translation/templates/translation/language.html:512
 msgid "Avez-vous perdu connaissance ?"
-msgstr ""
+msgstr "Hebt U het bewustzijn verloren"
 
 #: translation/templates/translation/language.html:517
 #: translation/templates/translation/language.html:520
 msgid "Savez-vous quel jour nous sommes ?"
-msgstr ""
+msgstr "Weet U welke dag het vandaag is?"
 
 #: translation/templates/translation/language.html:525
 #: translation/templates/translation/language.html:528
 msgid "Savez-vous où vous êtes ?"
-msgstr ""
+msgstr "Weet U waar U bent?"
 
 #: translation/templates/translation/language.html:533
 #: translation/templates/translation/language.html:536
 msgid "Suivez mon doigt du regard"
-msgstr ""
+msgstr "Volg mijn vinger met Uw ogen"
 
 #: translation/templates/translation/language.html:541
 #: translation/templates/translation/language.html:544
 msgid "Pouvez-vous bouger vos mains et vos pieds ?"
-msgstr ""
+msgstr "Kunt U Uw handen en voeten bewegen?"
 
 #: translation/templates/translation/language.html:549
 #: translation/templates/translation/language.html:552
 msgid "Je vais toucher vos mains et vos pieds, sentez-vous que je vous touche ?"
-msgstr ""
+msgstr "Ik zal Uw handen en voeten aanraken, voelt U het?"
 
 #: translation/templates/translation/language.html:557
 #: translation/templates/translation/language.html:560
 msgid "Regardez-moi dans les yeux, je vais observer vos pupilles"
-msgstr ""
+msgstr "Kijk mij in de ogen, ik zal Uw pupillen onderzoeken"
 
 #: translation/templates/translation/language.html:565
 #: translation/templates/translation/language.html:568
 msgid "Avez vous des fourmillement ? Montrez moi où"
-msgstr ""
+msgstr "Heeft U tintelingen? Waar ?"
 
 #: translation/templates/translation/language.html:573
 #: translation/templates/translation/language.html:576
 msgid "Poussez sur mes mains"
-msgstr ""
+msgstr "Druk op mijn handen"
 
 #: translation/templates/translation/language.html:581
 #: translation/templates/translation/language.html:584
 msgid "Ouvrez les yeux"
-msgstr ""
+msgstr "Open de ogen"
 
 #: translation/templates/translation/language.html:589
 #: translation/templates/translation/language.html:592
 msgid "Ouvrez la bouche"
-msgstr ""
+msgstr "Open de mond"
 
 #: translation/templates/translation/language.html:597
 #: translation/templates/translation/language.html:600
 msgid "Levez le bras droit"
-msgstr ""
+msgstr "Doe de rechterarm omhoog"
 
 #: translation/templates/translation/language.html:605
 #: translation/templates/translation/language.html:608
 msgid "Avez-vous des douleurs à la tête ?"
-msgstr ""
+msgstr "Heeft U pijn aan Uw hoofd?"
 
 #: translation/templates/translation/language.html:613
 #: translation/templates/translation/language.html:616
@@ -783,7 +783,7 @@ msgstr ""
 #: translation/templates/translation/language.html:637
 #: translation/templates/translation/language.html:640
 msgid "Avez vous des douleurs dans la nuque ?"
-msgstr ""
+msgstr "Heeft U pijn in de nek?"
 
 #: translation/templates/translation/language.html:645
 #: translation/templates/translation/language.html:648
@@ -798,22 +798,22 @@ msgstr ""
 #: translation/templates/translation/language.html:661
 #: translation/templates/translation/language.html:664
 msgid "Est ce que la lumière vous dérange ?"
-msgstr ""
+msgstr "Heeft U last van het licht?"
 
 #: translation/templates/translation/language.html:669
 #: translation/templates/translation/language.html:672
 msgid "Est ce que le bruit vous dérange ?"
-msgstr ""
+msgstr "Heeft U last van geluid?"
 
 #: translation/templates/translation/language.html:677
 #: translation/templates/translation/language.html:680
 msgid "Je vais faire une piqûre au bout de votre doigt pour connaître votre taux de sucre"
-msgstr ""
+msgstr "Ik zal U in het vingertopje prikken om Uw suikergehalte te kennen"
 
 #: translation/templates/translation/language.html:692
 #: translation/templates/translation/language.html:695
 msgid "Je vais poser ma main sur votre ventre pour compter votre respiration, respirez normalement et ne parlez pas pendant ce temps"
-msgstr ""
+msgstr "Ik zal mijn hand op Uw buik doen om Uw ademhaling te tellen.    Adem gewoon en praat niet ondertussen"
 
 #: translation/templates/translation/language.html:700
 #: translation/templates/translation/language.html:703
@@ -823,48 +823,48 @@ msgstr ""
 #: translation/templates/translation/language.html:708
 #: translation/templates/translation/language.html:711
 msgid "Prenez une grande inspiration puis bloquez votre respiration"
-msgstr ""
+msgstr "Adem goed in en blokkeer Uw ademhaling"
 
 #: translation/templates/translation/language.html:716
 #: translation/templates/translation/language.html:719
 msgid "Respirez normalement"
-msgstr ""
+msgstr "Adem normaal in"
 
 #: translation/templates/translation/language.html:724
 #: translation/templates/translation/language.html:727
 msgid "Respirez profondément"
-msgstr ""
+msgstr "Adem heel diep in"
 
 #: translation/templates/translation/language.html:732
 #: translation/templates/translation/language.html:735
 msgid "Fumez-vous ?"
-msgstr ""
+msgstr "Rookt U?"
 
 #: translation/templates/translation/language.html:740
 #: translation/templates/translation/language.html:743
 msgid "Etes-vous asthmatique ?"
-msgstr ""
+msgstr "Hebt U astma?"
 
 #: translation/templates/translation/language.html:748
 #: translation/templates/translation/language.html:751
 msgid "Avez vous pris votre traitement contre l’asthme ?"
-msgstr ""
+msgstr "Heeft U de medicijnen voor astma ingenomen?"
 
 #: translation/templates/translation/language.html:756
 #: translation/templates/translation/language.html:759
 msgid "Avez-vous respiré des fumées ?"
-msgstr ""
+msgstr "Heeft U giftige dampen ingeademd?"
 
 #: translation/templates/translation/language.html:764
 #: translation/templates/translation/language.html:767
 msgid "Je vous laisse vous moucher, pour savoir s’il y a des traces de suie"
-msgstr ""
+msgstr "Wilt U Uw neus snuiten om te zien of er roetresten zijn"
 
 #: translation/templates/translation/language.html:779
 #: translation/templates/translation/language.html:782
 #| msgid "Est-ce que vous voyez double ?"
 msgid "Est-ce que votre douleur"
-msgstr ""
+msgstr "Hoe is de pijn :"
 
 #: translation/templates/translation/language.html:787
 #: translation/templates/translation/language.html:790
@@ -884,42 +884,42 @@ msgstr ""
 #: translation/templates/translation/language.html:811
 #: translation/templates/translation/language.html:814
 msgid "Est-ce que votre douleur irradie ? Montrez-moi vers où"
-msgstr ""
+msgstr "Straalt de pijn uit? Laat zien waar?"
 
 #: translation/templates/translation/language.html:819
 #: translation/templates/translation/language.html:822
 msgid "Depuis combien de temps avez vous cette douleur  ?"
-msgstr ""
+msgstr "Hoe lang heeft U deze pijn ?"
 
 #: translation/templates/translation/language.html:827
 #: translation/templates/translation/language.html:830
 msgid "Minutes"
-msgstr ""
+msgstr "Minuten"
 
 #: translation/templates/translation/language.html:835
 #: translation/templates/translation/language.html:838
 msgid "Heures"
-msgstr ""
+msgstr "Uren"
 
 #: translation/templates/translation/language.html:843
 #: translation/templates/translation/language.html:846
 msgid "Jours"
-msgstr ""
+msgstr "Dagen"
 
 #: translation/templates/translation/language.html:851
 #: translation/templates/translation/language.html:854
 msgid "Je vais prendre votre pouls"
-msgstr ""
+msgstr "Ik zal Uw pols voelen"
 
 #: translation/templates/translation/language.html:859
 #: translation/templates/translation/language.html:862
 msgid "Je vais appuyer doucement sur votre ongle"
-msgstr ""
+msgstr "Ik zal zachtjes op Uw nagel drukken"
 
 #: translation/templates/translation/language.html:867
 #: translation/templates/translation/language.html:870
 msgid "Je vais prendre votre pression artérielle"
-msgstr ""
+msgstr "Ik zal Uw bloeddruk opmeten"
 
 #: translation/templates/translation/language.html:875
 #: translation/templates/translation/language.html:878
@@ -929,7 +929,7 @@ msgstr ""
 #: translation/templates/translation/language.html:883
 #: translation/templates/translation/language.html:886
 msgid "Ouvrez la bouche et soulevez la langue, je vais vous donner un traitement"
-msgstr ""
+msgstr "Open de mond en doe de tong omhoog, ik zal U een medicijn geven"
 
 #: translation/templates/translation/language.html:891
 #: translation/templates/translation/language.html:894
@@ -939,22 +939,22 @@ msgstr ""
 #: translation/templates/translation/language.html:899
 #: translation/templates/translation/language.html:902
 msgid "Buvez-vous de l'alcool ?"
-msgstr ""
+msgstr "Drinkt U alcohol?"
 
 #: translation/templates/translation/language.html:907
 #: translation/templates/translation/language.html:910
 msgid "Avez-vous du diabète ?"
-msgstr ""
+msgstr "Heeft U suikerziekte?"
 
 #: translation/templates/translation/language.html:915
 #: translation/templates/translation/language.html:918
 msgid "Avez-vous du cholestérol ?"
-msgstr ""
+msgstr "Heeft U cholesterol"
 
 #: translation/templates/translation/language.html:923
 #: translation/templates/translation/language.html:926
 msgid "Je vais faire un enregistrement de votre coeur, ce n’est pas douloureux, ne bouger pas pendant quelques secondes"
-msgstr ""
+msgstr "Ik zal Uw hart meten, het doet geen pijn en U moet niet bewegen"
 
 #: translation/templates/translation/language.html:938
 #: translation/templates/translation/language.html:941
@@ -964,7 +964,7 @@ msgstr ""
 #: translation/templates/translation/language.html:946
 #: translation/templates/translation/language.html:949
 msgid "Qu’avez-vous ressenti pendant la malaise ?"
-msgstr ""
+msgstr "Wat heeft U gevoeld tijdens de beroerte?"
 
 #: translation/templates/translation/language.html:954
 #: translation/templates/translation/language.html:957
@@ -1005,7 +1005,7 @@ msgstr ""
 #: translation/templates/translation/language.html:1010
 #: translation/templates/translation/language.html:1013
 msgid "Avez-vous perdu vos urines ?"
-msgstr ""
+msgstr "Heeft U urine verloren?"
 
 #: translation/templates/translation/language.html:1018
 #: translation/templates/translation/language.html:1021
@@ -1015,174 +1015,174 @@ msgstr ""
 #: translation/templates/translation/language.html:1026
 #: translation/templates/translation/language.html:1029
 msgid "Avez vous convulsé ?"
-msgstr ""
+msgstr "Heeft U last van stuiptrekkingen gehad?"
 
 #: translation/templates/translation/language.html:1034
 #: translation/templates/translation/language.html:1037
 msgid "Avez-vous mangé aujourd’hui ?"
-msgstr ""
+msgstr "Heeft U vandaag gegeten?"
 
 #: translation/templates/translation/language.html:1049
 #: translation/templates/translation/language.html:1052
 msgid "Montrez moi ou vous avez mal"
-msgstr ""
+msgstr "Laat mij zien waar het pijn doet"
 
 #: translation/templates/translation/language.html:1057
 #: translation/templates/translation/language.html:1060
 msgid "Est ce que la douleur irradie ? Si oui montrez moi vers où"
-msgstr ""
+msgstr "Straalt de pijn uit? Laat zien waar?"
 
 #: translation/templates/translation/language.html:1065
 #: translation/templates/translation/language.html:1068
 msgid "Avez-vous perdu du poids ces derniers mois ? Combien de Kg ?"
-msgstr ""
+msgstr "Bent U de laatste tijd afgevallen? Hoeveel kg?"
 
 #: translation/templates/translation/language.html:1073
 #: translation/templates/translation/language.html:1076
 msgid "Avez-vous des brûlures quand vous urinez ?"
-msgstr ""
+msgstr "Heeft U last van een brandend gevoel bij het plassen?"
 
 #: translation/templates/translation/language.html:1081
 #: translation/templates/translation/language.html:1084
 msgid "Est-ce qu’il y a du sang dans vos urines ?"
-msgstr ""
+msgstr "Heeft U bloed in de urine?"
 
 #: translation/templates/translation/language.html:1089
 #: translation/templates/translation/language.html:1092
 msgid "Quelle est la date de vos dernières règles ?"
-msgstr ""
+msgstr "Wanner was U voor het laatst ongesteld?"
 
 #: translation/templates/translation/language.html:1097
 #: translation/templates/translation/language.html:1100
 #: translation/templates/translation/language.html:1476
 #: translation/templates/translation/language.html:1479
 msgid "Etes vous enceinte ?"
-msgstr ""
+msgstr "Bent U in verwachting?"
 
 #: translation/templates/translation/language.html:1105
 #: translation/templates/translation/language.html:1108
 msgid "A quelle heure avez-vous uriné pour la dernière fois aujourd’hui ?"
-msgstr ""
+msgstr "Hoe laat hebt U vandaag geplast?"
 
 #: translation/templates/translation/language.html:1113
 #: translation/templates/translation/language.html:1116
 msgid "Êtes vous constipé ?"
-msgstr ""
+msgstr "Hebt U last van constipatie ?"
 
 #: translation/templates/translation/language.html:1121
 #: translation/templates/translation/language.html:1124
 msgid "Depuis combien de jours ?"
-msgstr ""
+msgstr "Hoe lang ?"
 
 #: translation/templates/translation/language.html:1129
 #: translation/templates/translation/language.html:1132
 msgid "Avez-vous des nausées ?"
-msgstr ""
+msgstr "Bent U misselijk?"
 
 #: translation/templates/translation/language.html:1137
 #: translation/templates/translation/language.html:1140
 msgid "Avez-vous des diarrhées ?"
-msgstr ""
+msgstr "Heeft U last van diarree"
 
 #: translation/templates/translation/language.html:1145
 #: translation/templates/translation/language.html:1148
 msgid "Avez-vous vomi ?"
-msgstr ""
+msgstr "Heeft U overgegeven?"
 
 #: translation/templates/translation/language.html:1153
 #: translation/templates/translation/language.html:1156
 msgid "Y a-t-il du sang dans vos selles ?"
-msgstr ""
+msgstr "Heeft U bloed in de ontlasting?"
 
 #: translation/templates/translation/language.html:1161
 #: translation/templates/translation/language.html:1164
 msgid "Avez-vous des gazs ?"
-msgstr ""
+msgstr "Heeft U last van winden?"
 
 #: translation/templates/translation/language.html:1169
 #: translation/templates/translation/language.html:1172
 msgid "Je dois vous faire un toucher rectal, êtes vous d’accord ?"
-msgstr ""
+msgstr "Ik moet U een rectaal onderzoek doen, bent U hiermee akkoord?"
 
 #: translation/templates/translation/language.html:1177
 #: translation/templates/translation/language.html:1180
 msgid "Il faudra uriner dans ce pot pour réaliser un examen"
-msgstr ""
+msgstr "U moet in deze pot plassen om te onderzoeken"
 
 #: translation/templates/translation/language.html:1185
 #: translation/templates/translation/language.html:1188
 msgid "Il faudra réaliser une toilette intime avant d’uriner dans le pot"
-msgstr ""
+msgstr "U moet U even wassen voordat U plast"
 
 #: translation/templates/translation/language.html:1200
 #: translation/templates/translation/language.html:1203
 msgid "Avez-vous été piqué ou mordu ?"
-msgstr ""
+msgstr "Heeft iets U geprikt of gebeten?"
 
 #: translation/templates/translation/language.html:1208
 #: translation/templates/translation/language.html:1211
 msgid "Montrez moi à quel endroit"
-msgstr ""
+msgstr "Laat mij zien waar"
 
 #: translation/templates/translation/language.html:1216
 #: translation/templates/translation/language.html:1219
 msgid "Montrez moi où étaient les premiers boutons"
-msgstr ""
+msgstr "Laat mij zien waar de uitslag verscheen"
 
 #: translation/templates/translation/language.html:1224
 #: translation/templates/translation/language.html:1227
 msgid "Depuis combien de temps la jambe est-elle rouge ?"
-msgstr ""
+msgstr "Sinds wanneer is Uw been rood?"
 
 #: translation/templates/translation/language.html:1232
 #: translation/templates/translation/language.html:1235
 msgid "Est ce que ça vous démange ?"
-msgstr ""
+msgstr "Jeukt het?"
 
 #: translation/templates/translation/language.html:1240
 #: translation/templates/translation/language.html:1243
 msgid "Il faut rester en isolement"
-msgstr ""
+msgstr "U moet in isolering"
 
 #: translation/templates/translation/language.html:1248
 #: translation/templates/translation/language.html:1251
 msgid "Vous devez garder ce masque sur vous"
-msgstr ""
+msgstr "U moet dit masker ophouden"
 
 #: translation/templates/translation/language.html:1256
 #: translation/templates/translation/language.html:1259
 msgid "Avez-vous eu des rapports sexuels non protégés ?"
-msgstr ""
+msgstr "Heeft U een niet veilig sexueel contact gehad?"
 
 #: translation/templates/translation/language.html:1264
 #: translation/templates/translation/language.html:1267
 msgid "Je vais prendre votre température"
-msgstr ""
+msgstr "Ik zal Uw temperatuur nemen"
 
 #: translation/templates/translation/language.html:1279
 #: translation/templates/translation/language.html:1282
 msgid "Est-ce que vous voyez flou ?"
-msgstr ""
+msgstr "Kijkt U wazig?"
 
 #: translation/templates/translation/language.html:1287
 #: translation/templates/translation/language.html:1290
 msgid "Est-ce que vous voyez double ?"
-msgstr ""
+msgstr "Kijkt U dubbel?"
 
 #: translation/templates/translation/language.html:1295
 #: translation/templates/translation/language.html:1298
 msgid "Avez-vous mal à la tête ?"
-msgstr ""
+msgstr "Heeft U pijn aan Uw hoofd?"
 
 #: translation/templates/translation/language.html:1303
 #: translation/templates/translation/language.html:1306
 msgid "Est ce que vous avez l’impression que la pièce tourne autour de vous ?"
-msgstr ""
+msgstr "Heeft U het idee dat alles om U heen draait?"
 
 #: translation/templates/translation/language.html:1311
 #: translation/templates/translation/language.html:1314
 msgid "Avez-vous reçu un coup à la tête récemment ?"
-msgstr ""
+msgstr "Heeft U kortgeleden een klap op Uw hoofd gehad"
 
 #: translation/templates/translation/language.html:1326
 #: translation/templates/translation/language.html:1329
@@ -1202,17 +1202,17 @@ msgstr ""
 #: translation/templates/translation/language.html:1350
 #: translation/templates/translation/language.html:1353
 msgid "Avez-vous une ordonnance avec vos traitements ?"
-msgstr ""
+msgstr "Heeft U het voorschrift van Uw behandeling?"
 
 #: translation/templates/translation/language.html:1358
 #: translation/templates/translation/language.html:1361
 msgid "Avez-vous des allergies ? lesquelles ?"
-msgstr ""
+msgstr "Bent U ergens allergisch voor ? Zo ja, waarvoor?"
 
 #: translation/templates/translation/language.html:1366
 #: translation/templates/translation/language.html:1369
 msgid "Y a-t-il des antécédents de maladie dans votre famille ?"
-msgstr ""
+msgstr "Zijn er ziekten in Uw familie?"
 
 #: translation/templates/translation/language.html:1374
 #: translation/templates/translation/language.html:1377
@@ -1222,184 +1222,184 @@ msgstr ""
 #: translation/templates/translation/language.html:1382
 #: translation/templates/translation/language.html:1385
 msgid "Pouvez-vous vous lever ?"
-msgstr ""
+msgstr "Kunt U gaan staan?"
 
 #: translation/templates/translation/language.html:1390
 #: translation/templates/translation/language.html:1393
 msgid "Pouvez-vous marcher ?"
-msgstr ""
+msgstr "Kunt U lopen?"
 
 #: translation/templates/translation/language.html:1405
 #: translation/templates/translation/language.html:1408
 msgid "Le bébé a t il perdu du poids ? Combien de kilo ?"
-msgstr ""
+msgstr "Heeft de baby gewicht verloren? Hoeveel kilo?"
 
 #: translation/templates/translation/language.html:1413
 #: translation/templates/translation/language.html:1416
 msgid "Est-ce que le bébé est à jour de ces vaccins ?"
-msgstr ""
+msgstr "Is de vaccinatie an de baby in orde?"
 
 #: translation/templates/translation/language.html:1421
 #: translation/templates/translation/language.html:1424
 msgid "Est-ce que ses frères et soeurs sont malades ?"
-msgstr ""
+msgstr "Zijn zijn broers en zusters ook ziek?"
 
 #: translation/templates/translation/language.html:1429
 #: translation/templates/translation/language.html:1432
 msgid "Est-ce qu’il mange bien ?"
-msgstr ""
+msgstr "Eet hij goed?"
 
 #: translation/templates/translation/language.html:1437
 #: translation/templates/translation/language.html:1440
 msgid "Est-ce qu’il vomi ?"
-msgstr ""
+msgstr "Heeft hij overgegeven?"
 
 #: translation/templates/translation/language.html:1445
 #: translation/templates/translation/language.html:1448
 msgid "Est-ce qu’il semble plus agité que d’habitude ?"
-msgstr ""
+msgstr "Is hij beweeglijker dan gewoon?"
 
 #: translation/templates/translation/language.html:1453
 #: translation/templates/translation/language.html:1456
 msgid "Est-ce qu’il semble plus fatigué que d’habitude ?"
-msgstr ""
+msgstr "Is hij moe?"
 
 #: translation/templates/translation/language.html:1461
 #: translation/templates/translation/language.html:1464
 msgid "Est ce qu’il a la diarrhée ?"
-msgstr ""
+msgstr "Heeft hij diarree?"
 
 #: translation/templates/translation/language.html:1484
 #: translation/templates/translation/language.html:1487
 msgid "De combien de semaines ?"
-msgstr ""
+msgstr "Hoeveel weken?"
 
 #: translation/templates/translation/language.html:1492
 #: translation/templates/translation/language.html:1495
 msgid "Avez vous vos règles ?"
-msgstr ""
+msgstr "Bent U ongesteld?"
 
 #: translation/templates/translation/language.html:1500
 #: translation/templates/translation/language.html:1503
 msgid "Avez vous perdu du sang ?"
-msgstr ""
+msgstr "Heeft U bloed verloren?"
 
 #: translation/templates/translation/language.html:1508
 #: translation/templates/translation/language.html:1511
 msgid "Vos pertes étaient elles rouge ou noir ?"
-msgstr ""
+msgstr "Was het rood of zwart ?"
 
 #: translation/templates/translation/language.html:1516
 #: translation/templates/translation/language.html:1519
 msgid "Avez vous eu des problèmes lors de vos précédentes grossesses ?"
-msgstr ""
+msgstr "Heeft U problemen gehad met Uw voorgaande zwangerschappen?"
 
 #: translation/templates/translation/language.html:1524
 #: translation/templates/translation/language.html:1527
 msgid "Avez vous des contractions ?"
-msgstr ""
+msgstr "Heeft U weeen?"
 
 #: translation/templates/translation/language.html:1532
 #: translation/templates/translation/language.html:1535
 msgid "Avez vous perdu les eaux ?"
-msgstr ""
+msgstr "Zijn de vliezen gebroken?"
 
 #: translation/templates/translation/language.html:1540
 #: translation/templates/translation/language.html:1543
 msgid "Sentez vous le bébé bouger ?"
-msgstr ""
+msgstr "Kunt U de baby voelen bewegen?"
 
 #: translation/templates/translation/language.html:1548
 #: translation/templates/translation/language.html:1551
 msgid "Avez vous une contraception ?"
-msgstr ""
+msgstr "Gebruikt U anticonceptie?"
 
 #: translation/templates/translation/language.html:1556
 #: translation/templates/translation/language.html:1559
 msgid "Je dois faire un examen gynécologique, allongez vous sur la table"
-msgstr ""
+msgstr "Ik zal U beneden onderzoeken, gaat U liggen"
 
 #: translation/templates/translation/language.html:1564
 #: translation/templates/translation/language.html:1567
 msgid "Il faut retirer vos sous-vêtements"
-msgstr ""
+msgstr "U moet het ondergoed uitdoen"
 
 #: translation/templates/translation/language.html:1579
 #: translation/templates/translation/language.html:1582
 msgid "Avez-vous été éjecté du véhicule ?"
-msgstr ""
+msgstr "Bent U uit de auto gestoten?"
 
 #: translation/templates/translation/language.html:1587
 #: translation/templates/translation/language.html:1590
 msgid "A quelle vitesse rouliez-vous ?"
-msgstr ""
+msgstr "Hoe hard reed U?"
 
 #: translation/templates/translation/language.html:1595
 #: translation/templates/translation/language.html:1598
 msgid "Etiez-vous casqué ?"
-msgstr ""
+msgstr "Had U een helm op?"
 
 #: translation/templates/translation/language.html:1603
 #: translation/templates/translation/language.html:1606
 msgid "Aviez-vous votre ceinture de sécurité ?"
-msgstr ""
+msgstr "Had U de veiligheidsriem om?"
 
 #: translation/templates/translation/language.html:1611
 #: translation/templates/translation/language.html:1614
 msgid "Avez vous fait une chute ?"
-msgstr ""
+msgstr "Bent U gevallen?"
 
 #: translation/templates/translation/language.html:1619
 #: translation/templates/translation/language.html:1622
 msgid "De quelle hauteur êtes-vous tombé ?"
-msgstr ""
+msgstr "Van welke hoogte bent U gevallen?"
 
 #: translation/templates/translation/language.html:1627
 #: translation/templates/translation/language.html:1630
 msgid "Prenez vous des anticoagulants, des médicaments pour fluidifier le sang ?"
-msgstr ""
+msgstr "Neemt U anticoagulantia, of medicijnen die het bloed verdunnen?"
 
 #: translation/templates/translation/language.html:1635
 #: translation/templates/translation/language.html:1638
 msgid "Je vais installer une collier afin de protéger votre colonne vertébrale"
-msgstr ""
+msgstr "Ik zal U een brace omdoen om Uw ruggengraat te beschermen"
 
 #: translation/templates/translation/language.html:1643
 #: translation/templates/translation/language.html:1646
 msgid "Je dois mettre un antiseptique sur la plaie"
-msgstr ""
+msgstr "Ik moet een antisepticum op de wond doen"
 
 #: translation/templates/translation/language.html:1651
 #: translation/templates/translation/language.html:1654
 msgid "Je dois suturer la plaie"
-msgstr ""
+msgstr "Ik moet de wond hechten"
 
 #: translation/templates/translation/language.html:1659
 #: translation/templates/translation/language.html:1662
 msgid "Je dois faire un pansement"
-msgstr ""
+msgstr "Ik zal er een verband op doen"
 
 #: translation/templates/translation/language.html:1667
 #: translation/templates/translation/language.html:1670
 msgid "Je vais faire une anesthésie autour de la plaie"
-msgstr ""
+msgstr "Ik zal U rondom de wond verdoven"
 
 #: translation/templates/translation/language.html:1675
 #: translation/templates/translation/language.html:1678
 msgid "Ne bougez pas"
-msgstr ""
+msgstr "Niet bewegen"
 
 #: translation/templates/translation/language.html:1683
 #: translation/templates/translation/language.html:1686
 msgid "Je dois vous faire un plâtre"
-msgstr ""
+msgstr "Ik zal er gips omheen doen"
 
 #: translation/templates/translation/language.html:1691
 #: translation/templates/translation/language.html:1694
 #: translation/templates/translation/language.html:2080
 #: translation/templates/translation/language.html:2083
 msgid "Vous devez être opéré"
-msgstr ""
+msgstr "U moet geopereerd worden"
 
 #: translation/templates/translation/language.html:1706
 #: translation/templates/translation/language.html:1709
@@ -1466,22 +1466,22 @@ msgstr ""
 #: translation/templates/translation/language.html:1802
 #: translation/templates/translation/language.html:1805
 msgid "Aujourd'hui"
-msgstr ""
+msgstr "Vandaag"
 
 #: translation/templates/translation/language.html:1810
 #: translation/templates/translation/language.html:1813
 msgid "Demain"
-msgstr ""
+msgstr "Morgen"
 
 #: translation/templates/translation/language.html:1818
 #: translation/templates/translation/language.html:1821
 msgid "Vous devez prendre une douche avec un shampoing avant l'opération chirurgicale"
-msgstr ""
+msgstr "U moet douchen en haarwassen met speciale shampoo"
 
 #: translation/templates/translation/language.html:1826
 #: translation/templates/translation/language.html:1829
 msgid "L’examen n’est pas douloureux"
-msgstr ""
+msgstr "Het onderzoek is pijnloos"
 
 #: translation/templates/translation/language.html:1834
 #: translation/templates/translation/language.html:1837
@@ -1511,17 +1511,17 @@ msgstr ""
 #: translation/templates/translation/language.html:1874
 #: translation/templates/translation/language.html:1877
 msgid "Vous devez retier tous vos bijoux et piercing"
-msgstr ""
+msgstr "U moet al Uw sieraden en piercingen af doen"
 
 #: translation/templates/translation/language.html:1882
 #: translation/templates/translation/language.html:1885
 msgid "Vous devez retier votre vernis a ongles"
-msgstr ""
+msgstr "U moet de nagellak eraf doen"
 
 #: translation/templates/translation/language.html:1890
 #: translation/templates/translation/language.html:1893
 msgid "Vous devez retier vos appareils dentaires et auditifs"
-msgstr ""
+msgstr "U moet Uw gebit en gehoorapparaat uitdoen"
 
 #: translation/templates/translation/language.html:1898
 #: translation/templates/translation/language.html:1901
@@ -1532,17 +1532,17 @@ msgstr ""
 #: translation/templates/translation/language.html:1906
 #: translation/templates/translation/language.html:1909
 msgid "Avez-vous un pace-maker ?"
-msgstr ""
+msgstr "Zeg ons als dit U betreft een pacemaker"
 
 #: translation/templates/translation/language.html:1914
 #: translation/templates/translation/language.html:1917
 msgid "Avez-vous une valve cardiaque ?"
-msgstr ""
+msgstr "Zeg ons als dit U betreft een hartklep"
 
 #: translation/templates/translation/language.html:1922
 #: translation/templates/translation/language.html:1925
 msgid "Avez-vous un stent ?"
-msgstr ""
+msgstr "Zeg ons als dit U betreft stent"
 
 #: translation/templates/translation/language.html:1930
 #: translation/templates/translation/language.html:1933
@@ -1558,310 +1558,310 @@ msgstr ""
 #: translation/templates/translation/language.html:1953
 #: translation/templates/translation/language.html:1956
 msgid "Je vous donne des médicaments"
-msgstr ""
+msgstr "Ik geef U medicijnen"
 
 #: translation/templates/translation/language.html:1961
 #: translation/templates/translation/language.html:1964
 msgid "Je vous donne des antalgiques"
-msgstr ""
+msgstr "Ik geef U pijnstillers"
 
 #: translation/templates/translation/language.html:1969
 #: translation/templates/translation/language.html:1972
 msgid "Je vous donne des antibiotiques"
-msgstr ""
+msgstr "Ik geef U antibiotica"
 
 #: translation/templates/translation/language.html:1977
 #: translation/templates/translation/language.html:1980
 msgid "Vous ne devez pas boire"
-msgstr ""
+msgstr "U mag niet drinken"
 
 #: translation/templates/translation/language.html:1985
 #: translation/templates/translation/language.html:1988
 msgid "Vous ne devez pas manger"
-msgstr ""
+msgstr "U mag niet eten"
 
 #: translation/templates/translation/language.html:1993
 #: translation/templates/translation/language.html:1996
 msgid "Vous ne devez pas vous lever"
-msgstr ""
+msgstr "U mag niet van bed af"
 
 #: translation/templates/translation/language.html:2001
 #: translation/templates/translation/language.html:2004
 msgid "Vous devez rester sur le dos"
-msgstr ""
+msgstr "U moet op de rug blijven liggen"
 
 #: translation/templates/translation/language.html:2009
 #: translation/templates/translation/language.html:2012
 msgid "Vous ne devez pas fumer"
-msgstr ""
+msgstr "U mag niet roken"
 
 #: translation/templates/translation/language.html:2025
 #: translation/templates/translation/language.html:2028
 msgid "Pour allumer ou éteindre les lumières appuyer ici"
-msgstr ""
+msgstr "Om het licht aan te doen drukt U hier op"
 
 #: translation/templates/translation/language.html:2033
 #: translation/templates/translation/language.html:2036
 msgid "Les toilettes sont ici"
-msgstr ""
+msgstr "De W.C. Is hier"
 
 #: translation/templates/translation/language.html:2041
 #: translation/templates/translation/language.html:2044
 msgid "La salle de bain est ici"
-msgstr ""
+msgstr "De badkamer is hier"
 
 #: translation/templates/translation/language.html:2049
 #: translation/templates/translation/language.html:2052
 msgid "Votre chambre est ici"
-msgstr ""
+msgstr "Uw kamer is hier"
 
 #: translation/templates/translation/language.html:2064
 #: translation/templates/translation/language.html:2067
 msgid "Il y a une fracture"
-msgstr ""
+msgstr "Er is een breuk"
 
 #: translation/templates/translation/language.html:2072
 #: translation/templates/translation/language.html:2075
 msgid "Il n’y a pas de fracture"
-msgstr ""
+msgstr "Er is geen breuk"
 
 #: translation/templates/translation/language.html:2088
 #: translation/templates/translation/language.html:2091
 msgid "Vous devez revenir demain matin"
-msgstr ""
+msgstr "U moet morgen terugkomen"
 
 #: translation/templates/translation/language.html:2096
 #: translation/templates/translation/language.html:2099
 msgid "Vous devez revenir dans"
-msgstr ""
+msgstr "U moet terugkomen"
 
 #: translation/templates/translation/language.html:2104
 #: translation/templates/translation/language.html:2107
 msgid "Vous devrez faire retirer les fils dans"
-msgstr ""
+msgstr "De draadjes moeten eruit"
 
 #: translation/templates/translation/language.html:2112
 #: translation/templates/translation/language.html:2115
 msgid "Vous devez avoir un plâtre"
-msgstr ""
+msgstr "U moet in het gips"
 
 #: translation/templates/translation/language.html:2120
 #: translation/templates/translation/language.html:2123
 msgid "Vous devrez porter une attelle"
-msgstr ""
+msgstr "U moet een spalk"
 
 #: translation/templates/translation/language.html:2128
 #: translation/templates/translation/language.html:2131
 msgid "Vous pouvez rentrer chez vous"
-msgstr ""
+msgstr "U kunt naar huis"
 
 #: translation/templates/translation/language.html:2136
 #: translation/templates/translation/language.html:2139
 msgid "Vous devez aller à l'hôpital"
-msgstr ""
+msgstr "U moet naar het ziekenhuis"
 
 #: translation/templates/translation/language.html:2144
 #: translation/templates/translation/language.html:2147
 msgid "Vous devez rester à l'hôpital"
-msgstr ""
+msgstr "U moet in het ziekenhuis blijven"
 
 #: translation/templates/translation/language.html:2152
 #: translation/templates/translation/language.html:2155
 msgid "Vous allez être transféré dans un autre service"
-msgstr ""
+msgstr "U wordt naar een andere afdeling gebracht"
 
 #: translation/templates/translation/language.html:2167
 #: translation/templates/translation/language.html:2170
 msgid "J’ai faim"
-msgstr ""
+msgstr "Ik heb honger"
 
 #: translation/templates/translation/language.html:2175
 #: translation/templates/translation/language.html:2178
 msgid "J’ai soif"
-msgstr ""
+msgstr "Ik heb dorst"
 
 #: translation/templates/translation/language.html:2183
 #: translation/templates/translation/language.html:2186
 msgid "J’ai mal"
-msgstr ""
+msgstr "ik heb pijn"
 
 #: translation/templates/translation/language.html:2191
 #: translation/templates/translation/language.html:2194
 msgid "J’ai froid"
-msgstr ""
+msgstr "Ik heb het koud"
 
 #: translation/templates/translation/language.html:2199
 #: translation/templates/translation/language.html:2202
 msgid "J’ai chaud"
-msgstr ""
+msgstr "Ik heb het warm"
 
 #: translation/templates/translation/language.html:2207
 #: translation/templates/translation/language.html:2210
 msgid "J’ai des nausées"
-msgstr ""
+msgstr "Ik ben misselijk"
 
 #: translation/templates/translation/language.html:2215
 #: translation/templates/translation/language.html:2218
 #: translation/templates/translation/language.html:3103
 #: translation/templates/translation/language.html:3106
 msgid "J’ai vomi"
-msgstr ""
+msgstr "Ik heb overgegeven"
 
 #: translation/templates/translation/language.html:2223
 #: translation/templates/translation/language.html:2226
 msgid "J’ai uriné (je voudrais être changé)"
-msgstr ""
+msgstr "Ik heb geplast, kunt U mij verschonen?"
 
 #: translation/templates/translation/language.html:2231
 #: translation/templates/translation/language.html:2234
 msgid "Je voudrais uriner"
-msgstr ""
+msgstr "Ik moet plassen"
 
 #: translation/templates/translation/language.html:2239
 #: translation/templates/translation/language.html:2242
 msgid "Je voudrais déféquer"
-msgstr ""
+msgstr "Ik moet poepen"
 
 #: translation/templates/translation/language.html:2247
 #: translation/templates/translation/language.html:2250
 #: translation/templates/translation/language.html:2775
 #: translation/templates/translation/language.html:2778
 msgid "J’ai des vertiges"
-msgstr ""
+msgstr "Ik ben duizelig"
 
 #: translation/templates/translation/language.html:2255
 #: translation/templates/translation/language.html:2258
 msgid "J’ai peur"
-msgstr ""
+msgstr "Ik ben bang"
 
 #: translation/templates/translation/language.html:2263
 #: translation/templates/translation/language.html:2266
 msgid "Je voudrais être réinstallé"
-msgstr ""
+msgstr "Ik wil van positie veranderen"
 
 #: translation/templates/translation/language.html:2271
 #: translation/templates/translation/language.html:2274
 msgid "Je voudrais des informations"
-msgstr ""
+msgstr "Ik wil graag informatie"
 
 #: translation/templates/translation/language.html:2279
 #: translation/templates/translation/language.html:2282
 msgid "J’ai eu un accident"
-msgstr ""
+msgstr "Ik heb een ongeluk gehad"
 
 #: translation/templates/translation/language.html:2287
 #: translation/templates/translation/language.html:2290
 msgid "J’étais piéton"
-msgstr ""
+msgstr "Ik was voetganger"
 
 #: translation/templates/translation/language.html:2295
 #: translation/templates/translation/language.html:2298
 msgid "J’ai été renversé"
-msgstr ""
+msgstr "Ik ben omver gereden"
 
 #: translation/templates/translation/language.html:2303
 #: translation/templates/translation/language.html:2306
 msgid "Je n’ai pas été renversé"
-msgstr ""
+msgstr "Ik ben niet omver gereden"
 
 #: translation/templates/translation/language.html:2311
 #: translation/templates/translation/language.html:2314
 #: translation/templates/translation/language.html:2439
 #: translation/templates/translation/language.html:2442
 msgid "Je suis tombé"
-msgstr ""
+msgstr "Ik ben gevallen"
 
 #: translation/templates/translation/language.html:2319
 #: translation/templates/translation/language.html:2322
 msgid "J’ai reçu un coup"
-msgstr ""
+msgstr "Ik heb een klap gekregen"
 
 #: translation/templates/translation/language.html:2327
 #: translation/templates/translation/language.html:2330
 msgid "J’étais en voiture"
-msgstr ""
+msgstr "Ik was met de auto"
 
 #: translation/templates/translation/language.html:2335
 #: translation/templates/translation/language.html:2338
 #: translation/templates/translation/language.html:2415
 #: translation/templates/translation/language.html:2418
 msgid "Je roulais à “x” km/h"
-msgstr ""
+msgstr "Ik reed km/uur"
 
 #: translation/templates/translation/language.html:2343
 #: translation/templates/translation/language.html:2346
 msgid "J’avais ma ceinture de sécurité"
-msgstr ""
+msgstr "Ik had mijn veiligheidsgordel"
 
 #: translation/templates/translation/language.html:2351
 #: translation/templates/translation/language.html:2354
 msgid "Je n’avais pas de ceinture de sécurité"
-msgstr ""
+msgstr "Ik had geen veiligheidsgordel"
 
 #: translation/templates/translation/language.html:2359
 #: translation/templates/translation/language.html:2362
 msgid "J’ai été éjecté pendant l’accident"
-msgstr ""
+msgstr "Ik ben eruit geworpen tijdens het ongeluk"
 
 #: translation/templates/translation/language.html:2367
 #: translation/templates/translation/language.html:2370
 msgid "Je n’ai pas été éjecté pendant l’accident"
-msgstr ""
+msgstr "Ik ben er niet uit geworpen tijdens het ongeluk"
 
 #: translation/templates/translation/language.html:2375
 #: translation/templates/translation/language.html:2378
 msgid "L’air-bag s’est déclenché"
-msgstr ""
+msgstr "De airbag is uitgeklapt"
 
 #: translation/templates/translation/language.html:2383
 #: translation/templates/translation/language.html:2386
 msgid "L’air-bag ne s’est pas déclenché"
-msgstr ""
+msgstr "De airbag, is niet uitgelkpat"
 
 #: translation/templates/translation/language.html:2391
 #: translation/templates/translation/language.html:2394
 msgid "J’étais en vélo"
-msgstr ""
+msgstr "Ik was op de fiets"
 
 #: translation/templates/translation/language.html:2399
 #: translation/templates/translation/language.html:2402
 msgid "J'étais en scooter"
-msgstr ""
+msgstr "Ik was op de scooter"
 
 #: translation/templates/translation/language.html:2407
 #: translation/templates/translation/language.html:2410
 msgid "J'étais en moto"
-msgstr ""
+msgstr "Ik was op de moter"
 
 #: translation/templates/translation/language.html:2423
 #: translation/templates/translation/language.html:2426
 msgid "J’avais un casque"
-msgstr ""
+msgstr "Ik had een helm op"
 
 #: translation/templates/translation/language.html:2431
 #: translation/templates/translation/language.html:2434
 msgid "Je n’avais pas de casque"
-msgstr ""
+msgstr "Ik had geen helm op"
 
 #: translation/templates/translation/language.html:2447
 #: translation/templates/translation/language.html:2450
 msgid "Je suis tombé de ma hauteur"
-msgstr ""
+msgstr "Ik ben languit gevallen"
 
 #: translation/templates/translation/language.html:2455
 #: translation/templates/translation/language.html:2458
 msgid "Je suis tombé de “x” mètres de hauteur"
-msgstr ""
+msgstr "Ik ben van meter hoog gevallen"
 
 #: translation/templates/translation/language.html:2463
 #: translation/templates/translation/language.html:2466
 msgid "Ma tête a tapé pendant l’accident"
-msgstr ""
+msgstr "Mijn hoofd is geraakt tijdens het ongeluk"
 
 #: translation/templates/translation/language.html:2471
 #: translation/templates/translation/language.html:2474
 msgid "Ma tête n’a pas tapé pendant l’accident"
-msgstr ""
+msgstr "Mijn hoofd is niet geraakt tijdens het ongeluk"
 
 #: translation/templates/translation/language.html:2479
 #: translation/templates/translation/language.html:2482
@@ -1872,59 +1872,59 @@ msgstr ""
 #: translation/templates/translation/language.html:2487
 #: translation/templates/translation/language.html:2490
 msgid "J'ai des douleurs à la tête"
-msgstr ""
+msgstr "Hoofdpijn"
 
 #: translation/templates/translation/language.html:2495
 #: translation/templates/translation/language.html:2498
 msgid "J'ai des douleurs au cou"
-msgstr ""
+msgstr "Keel"
 
 #: translation/templates/translation/language.html:2503
 #: translation/templates/translation/language.html:2506
 msgid "J'ai des douleurs au dos"
-msgstr ""
+msgstr "Rug"
 
 #: translation/templates/translation/language.html:2511
 #: translation/templates/translation/language.html:2514
 msgid "J'ai des douleurs au bras"
-msgstr ""
+msgstr "Arm"
 
 #: translation/templates/translation/language.html:2519
 #: translation/templates/translation/language.html:2522
 msgid "J'ai des douleurs à la jambe"
-msgstr ""
+msgstr "Been"
 
 #: translation/templates/translation/language.html:2527
 #: translation/templates/translation/language.html:2530
 msgid "J'ai des douleurs au torse"
-msgstr ""
+msgstr "Borstkas"
 
 #: translation/templates/translation/language.html:2535
 #: translation/templates/translation/language.html:2538
 msgid "J'ai des douleurs au ventre"
-msgstr ""
+msgstr "Buik"
 
 #: translation/templates/translation/language.html:2543
 #: translation/templates/translation/language.html:2546
 msgid "Je prend des anticoagulants (médicaments pour fluidifier le sang)"
-msgstr ""
+msgstr "Ik gebruik bloedverdunners"
 
 #: translation/templates/translation/language.html:2551
 #: translation/templates/translation/language.html:2554
 msgid "Je ne prend pas d’anticoagulants (médicaments pour fluidifier le sang)"
-msgstr ""
+msgstr "Ik gebruik geen bloedverdunners"
 
 #: translation/templates/translation/language.html:2559
 #: translation/templates/translation/language.html:2562
 msgid "Tête"
-msgstr ""
+msgstr "HOOFD"
 
 #: translation/templates/translation/language.html:2567
 #: translation/templates/translation/language.html:2570
 #: translation/templates/translation/language.html:3431
 #: translation/templates/translation/language.html:3434
 msgid "J’ai des douleurs depuis :"
-msgstr ""
+msgstr "Ik heb pijn sinds:"
 
 #: translation/templates/translation/language.html:2583
 #: translation/templates/translation/language.html:2586
@@ -1939,162 +1939,162 @@ msgstr ""
 #: translation/templates/translation/language.html:2599
 #: translation/templates/translation/language.html:2602
 msgid "J’arrive bien à bouger mes bras et jambes"
-msgstr ""
+msgstr "Ik kan mijn armen en benen goed bewegen"
 
 #: translation/templates/translation/language.html:2607
 #: translation/templates/translation/language.html:2610
 msgid "Je n’arrive pas a bouger un bras ou une jambe"
-msgstr ""
+msgstr "Ik kan mijn armen en benen niet bewegen"
 
 #: translation/templates/translation/language.html:2615
 #: translation/templates/translation/language.html:2618
 msgid "J’arrive bien à parler"
-msgstr ""
+msgstr "Ik kan goed praten"
 
 #: translation/templates/translation/language.html:2623
 #: translation/templates/translation/language.html:2626
 msgid "J’ai des difficultés à parler"
-msgstr ""
+msgstr "Ik heb moeite met praten"
 
 #: translation/templates/translation/language.html:2631
 #: translation/templates/translation/language.html:2634
 msgid "La lumière me dérange"
-msgstr ""
+msgstr "Ik verdraag het licht niet"
 
 #: translation/templates/translation/language.html:2639
 #: translation/templates/translation/language.html:2642
 msgid "La lumière ne me dérange pas"
-msgstr ""
+msgstr "Ik verdraag het licht"
 
 #: translation/templates/translation/language.html:2647
 #: translation/templates/translation/language.html:2650
 msgid "J’ai de la fièvre"
-msgstr ""
+msgstr "Ik heb koorts"
 
 #: translation/templates/translation/language.html:2655
 #: translation/templates/translation/language.html:2658
 msgid "Je n’ai pas de fièvre"
-msgstr ""
+msgstr "Ik heb geen koorts"
 
 #: translation/templates/translation/language.html:2663
 #: translation/templates/translation/language.html:2666
 msgid "J’ai des douleurs à la nuque"
-msgstr ""
+msgstr "Mijn nek doet pijn"
 
 #: translation/templates/translation/language.html:2671
 #: translation/templates/translation/language.html:2674
 msgid "Je n’ai pas de douleurs à la nuque"
-msgstr ""
+msgstr "Mijn nek doet geen pijn"
 
 #: translation/templates/translation/language.html:2679
 #: translation/templates/translation/language.html:2682
 msgid "J’ai fais un malaise"
-msgstr ""
+msgstr "Ik voel me niet goed"
 
 #: translation/templates/translation/language.html:2687
 #: translation/templates/translation/language.html:2690
 msgid "Je n’ai pas fais de malaise"
-msgstr ""
+msgstr "Ik voel me me goed"
 
 #: translation/templates/translation/language.html:2695
 #: translation/templates/translation/language.html:2698
 msgid "J’ai perdu connaissance"
-msgstr ""
+msgstr "Ik ben buiten bewustzijn geweest"
 
 #: translation/templates/translation/language.html:2703
 #: translation/templates/translation/language.html:2706
 msgid "Je n’ai pas perdu connaissance"
-msgstr ""
+msgstr "Ik ben niet buiten bewustzijn geweest"
 
 #: translation/templates/translation/language.html:2711
 #: translation/templates/translation/language.html:2714
 msgid "J’ai perdu mes urines"
-msgstr ""
+msgstr "Ik heb urine verloren"
 
 #: translation/templates/translation/language.html:2719
 #: translation/templates/translation/language.html:2722
 msgid "Je n’ai pas perdu mes urines"
-msgstr ""
+msgstr "Ik heb geen urine verloren"
 
 #: translation/templates/translation/language.html:2727
 #: translation/templates/translation/language.html:2730
 msgid "J’ai convulsé"
-msgstr ""
+msgstr "Ik heb een toeval gehad"
 
 #: translation/templates/translation/language.html:2735
 #: translation/templates/translation/language.html:2738
 msgid "Je n’ai pas convulsé"
-msgstr ""
+msgstr "Ik heb geen toeval gehad"
 
 #: translation/templates/translation/language.html:2743
 #: translation/templates/translation/language.html:2746
 msgid "Je suis épileptique"
-msgstr ""
+msgstr "Ik ben epileptisch"
 
 #: translation/templates/translation/language.html:2751
 #: translation/templates/translation/language.html:2754
 msgid "Je ne suis pas épileptique"
-msgstr ""
+msgstr "Ik ben niet epileptisch"
 
 #: translation/templates/translation/language.html:2759
 #: translation/templates/translation/language.html:2762
 msgid "J’ai pris mes traitements aujourd’hui"
-msgstr ""
+msgstr "Ik heb mijn medicijnen vandaag ingenomen"
 
 #: translation/templates/translation/language.html:2767
 #: translation/templates/translation/language.html:2770
 msgid "Je n’ai pas pris mes traitements aujourd’hui"
-msgstr ""
+msgstr "Ik heb geen medicijnen ingenomen vandaag"
 
 #: translation/templates/translation/language.html:2783
 #: translation/templates/translation/language.html:2786
 msgid "Je n’ai pas de vertiges"
-msgstr ""
+msgstr "Ik ben niet duizelig"
 
 #: translation/templates/translation/language.html:2791
 #: translation/templates/translation/language.html:2794
 msgid "Je suis diabétique"
-msgstr ""
+msgstr "Ik heb suikerziekte"
 
 #: translation/templates/translation/language.html:2799
 #: translation/templates/translation/language.html:2802
 msgid "Je ne suis pas diabétique"
-msgstr ""
+msgstr "Ik heb geen suikerziekte"
 
 #: translation/templates/translation/language.html:2807
 #: translation/templates/translation/language.html:2810
 msgid "J’ai mangé aujourd’hui"
-msgstr ""
+msgstr "Ik heb vandaag gegeten"
 
 #: translation/templates/translation/language.html:2815
 #: translation/templates/translation/language.html:2818
 msgid "Je n’ai pas mangé aujourd’hui"
-msgstr ""
+msgstr "Ik heb vandaag niet gegeten"
 
 #: translation/templates/translation/language.html:2823
 #: translation/templates/translation/language.html:2826
 msgid "Torse"
-msgstr ""
+msgstr "Borstkas"
 
 #: translation/templates/translation/language.html:2831
 #: translation/templates/translation/language.html:2834
 msgid "J’ai eu un choc au torse récemment"
-msgstr ""
+msgstr "Ik heb onlangs een klap op mijn borstkas gehad"
 
 #: translation/templates/translation/language.html:2839
 #: translation/templates/translation/language.html:2842
 msgid "Je n’ai pas eu de choc au torse récemment"
-msgstr ""
+msgstr "Ik heb geen klap op mijn borstkas gehad"
 
 #: translation/templates/translation/language.html:2847
 #: translation/templates/translation/language.html:2850
 msgid "La douleur est encore présente"
-msgstr ""
+msgstr "Ik heb nog steeds pijn"
 
 #: translation/templates/translation/language.html:2855
 #: translation/templates/translation/language.html:2858
 msgid "La douleur n’est plus présente"
-msgstr ""
+msgstr "Ik heb geen pijn meer"
 
 #: translation/templates/translation/language.html:2863
 #: translation/templates/translation/language.html:2866
@@ -2120,257 +2120,257 @@ msgstr ""
 #: translation/templates/translation/language.html:2895
 #: translation/templates/translation/language.html:2898
 msgid "La douleur irradie vers :"
-msgstr ""
+msgstr "De pijn gaat uit naar de:"
 
 #: translation/templates/translation/language.html:2903
 #: translation/templates/translation/language.html:2906
 msgid "Machoire"
-msgstr ""
+msgstr "Kaak"
 
 #: translation/templates/translation/language.html:2911
 #: translation/templates/translation/language.html:2914
 msgid "Je ressent des palpitations"
-msgstr ""
+msgstr "Ik heb hartkloppingen"
 
 #: translation/templates/translation/language.html:2919
 #: translation/templates/translation/language.html:2922
 msgid "Je ne ressent pas de palpitations"
-msgstr ""
+msgstr "Ik heb geen hartkloppingen"
 
 #: translation/templates/translation/language.html:2927
 #: translation/templates/translation/language.html:2930
 msgid "Dans ma famille il y a des problèmes cardiaques"
-msgstr ""
+msgstr "In mijn familie komen hartklachten voor"
 
 #: translation/templates/translation/language.html:2935
 #: translation/templates/translation/language.html:2938
 msgid "Dans ma famille il n’y a pas de problème cardiaque"
-msgstr ""
+msgstr "In mijn familie komen geen hartklachten voor"
 
 #: translation/templates/translation/language.html:2943
 #: translation/templates/translation/language.html:2946
 msgid "La douleur est plus forte quand je respire"
-msgstr ""
+msgstr "De pijn wordt erger als ik ademhaal"
 
 #: translation/templates/translation/language.html:2951
 #: translation/templates/translation/language.html:2954
 msgid "La douleur n’est pas plus forte quand je respire"
-msgstr ""
+msgstr "De pijn wordt niet erger als ik ademhaal"
 
 #: translation/templates/translation/language.html:2959
 #: translation/templates/translation/language.html:2962
 msgid "Je crache du sang"
-msgstr ""
+msgstr "Ik spuug bloed uit"
 
 #: translation/templates/translation/language.html:2967
 #: translation/templates/translation/language.html:2970
 msgid "Je ne crache pas du sang"
-msgstr ""
+msgstr "Ik spuug geen bloed uit"
 
 #: translation/templates/translation/language.html:2975
 #: translation/templates/translation/language.html:2978
 msgid "Je tousse"
-msgstr ""
+msgstr "Ik hoest"
 
 #: translation/templates/translation/language.html:2983
 #: translation/templates/translation/language.html:2986
 msgid "Je ne tousse pas"
-msgstr ""
+msgstr "Ik hoest niet"
 
 #: translation/templates/translation/language.html:2991
 #: translation/templates/translation/language.html:2994
 msgid "J’ai des difficultés à respirer"
-msgstr ""
+msgstr "Ik heb moete met ademhalen"
 
 #: translation/templates/translation/language.html:2999
 #: translation/templates/translation/language.html:3002
 msgid "Je n’ai pas de difficultés à respirer"
-msgstr ""
+msgstr "Ik heb geen moeite met ademhalen"
 
 #: translation/templates/translation/language.html:3007
 #: translation/templates/translation/language.html:3010
 msgid "J’ai respiré des fumées"
-msgstr ""
+msgstr "Ik heb giftige stoffen ingeademd"
 
 #: translation/templates/translation/language.html:3015
 #: translation/templates/translation/language.html:3018
 msgid "Je fume."
-msgstr ""
+msgstr "Ik rook"
 
 #: translation/templates/translation/language.html:3023
 #: translation/templates/translation/language.html:3026
 msgid "Je ne fume pas"
-msgstr ""
+msgstr "Ik rook niet"
 
 #: translation/templates/translation/language.html:3031
 #: translation/templates/translation/language.html:3034
 msgid "Je bois de l’alcool"
-msgstr ""
+msgstr "Ik drink alcohol"
 
 #: translation/templates/translation/language.html:3039
 #: translation/templates/translation/language.html:3042
 msgid "Je ne bois pas d’alcool"
-msgstr ""
+msgstr "Ik drink geen alcohol"
 
 #: translation/templates/translation/language.html:3047
 #: translation/templates/translation/language.html:3050
 msgid "J’ai du cholestérol"
-msgstr ""
+msgstr "Ik hen cholestorol"
 
 #: translation/templates/translation/language.html:3055
 #: translation/templates/translation/language.html:3058
 msgid "Je n’ai pas de cholestérol"
-msgstr ""
+msgstr "Ik heb geen cholestorol"
 
 #: translation/templates/translation/language.html:3063
 #: translation/templates/translation/language.html:3066
 msgid "Je suis asthmatique"
-msgstr ""
+msgstr "Ik heb astma"
 
 #: translation/templates/translation/language.html:3071
 #: translation/templates/translation/language.html:3074
 msgid "Je ne suis pas asthmatique"
-msgstr ""
+msgstr "Ik hen geen astma"
 
 #: translation/templates/translation/language.html:3079
 #: translation/templates/translation/language.html:3082
 msgid "Ventre"
-msgstr ""
+msgstr "Buik"
 
 #: translation/templates/translation/language.html:3087
 #: translation/templates/translation/language.html:3090
 msgid "J'ai des nausées"
-msgstr ""
+msgstr "Ik ben misselijk"
 
 #: translation/templates/translation/language.html:3095
 #: translation/templates/translation/language.html:3098
 msgid "Je n'ai pas de nausées"
-msgstr ""
+msgstr "Ik ben niet misselijk"
 
 #: translation/templates/translation/language.html:3111
 #: translation/templates/translation/language.html:3114
 msgid "Je n’ai pas vomi"
-msgstr ""
+msgstr "Ik heb niet overgegeven"
 
 #: translation/templates/translation/language.html:3119
 #: translation/templates/translation/language.html:3122
 msgid "Des aliments"
-msgstr ""
+msgstr "Voeding"
 
 #: translation/templates/translation/language.html:3127
 #: translation/templates/translation/language.html:3130
 msgid "Du sang"
-msgstr ""
+msgstr "Bloed"
 
 #: translation/templates/translation/language.html:3135
 #: translation/templates/translation/language.html:3138
 msgid "Une fois"
-msgstr ""
+msgstr "1 keer"
 
 #: translation/templates/translation/language.html:3143
 #: translation/templates/translation/language.html:3146
 msgid "Deux fois"
-msgstr ""
+msgstr "2 keer"
 
 #: translation/templates/translation/language.html:3151
 #: translation/templates/translation/language.html:3154
 msgid "Plusieurs fois"
-msgstr ""
+msgstr "Meerdere keren"
 
 #: translation/templates/translation/language.html:3159
 #: translation/templates/translation/language.html:3162
 msgid "J’ai des diarrhées"
-msgstr ""
+msgstr "Ik heb diarree"
 
 #: translation/templates/translation/language.html:3167
 #: translation/templates/translation/language.html:3170
 msgid "Je n’ai pas de diarrhées"
-msgstr ""
+msgstr "Ik heb geen diarree"
 
 #: translation/templates/translation/language.html:3175
 #: translation/templates/translation/language.html:3178
 msgid "J’ai des gazs"
-msgstr ""
+msgstr "Ik heb gas"
 
 #: translation/templates/translation/language.html:3183
 #: translation/templates/translation/language.html:3186
 msgid "Je n’ai plus de gazs"
-msgstr ""
+msgstr "Ik heb geen gas"
 
 #: translation/templates/translation/language.html:3191
 #: translation/templates/translation/language.html:3194
 msgid "Mes dernières urines étaient il y a :"
-msgstr ""
+msgstr "Mijn laatste plas was:"
 
 #: translation/templates/translation/language.html:3199
 #: translation/templates/translation/language.html:3202
 msgid "Il y avait du sang dans mes urines"
-msgstr ""
+msgstr "Er zat bloed in mijn urine"
 
 #: translation/templates/translation/language.html:3207
 #: translation/templates/translation/language.html:3210
 msgid "Il n’y avait pas de sang dans mes urines"
-msgstr ""
+msgstr "Er zat geen bloed in mijn urine"
 
 #: translation/templates/translation/language.html:3215
 #: translation/templates/translation/language.html:3218
 msgid "J’ai des brûlures quand j’urine"
-msgstr ""
+msgstr "Het brandt als ik plas"
 
 #: translation/templates/translation/language.html:3223
 #: translation/templates/translation/language.html:3226
 msgid "Je n’ai pas de brûlures quand j’urine"
-msgstr ""
+msgstr "Het brandt niet als ik plas"
 
 #: translation/templates/translation/language.html:3231
 #: translation/templates/translation/language.html:3234
 msgid "Mes dernières selles étaient il y a :"
-msgstr ""
+msgstr "Mijn laatste ontlasting was:"
 
 #: translation/templates/translation/language.html:3239
 #: translation/templates/translation/language.html:3242
 msgid "Il y avait du sang dans mes selles"
-msgstr ""
+msgstr "Er zat bloed in mijn ontlasting"
 
 #: translation/templates/translation/language.html:3247
 #: translation/templates/translation/language.html:3250
 msgid "Il n’y avait pas de sang dans mes selles"
-msgstr ""
+msgstr "Er zat geen bloed in mijn ontlasting"
 
 #: translation/templates/translation/language.html:3255
 #: translation/templates/translation/language.html:3258
 msgid "Mes dernières règles étaient il y a :"
-msgstr ""
+msgstr "De laatste keer dat ik ongesteld was:"
 
 #: translation/templates/translation/language.html:3263
 #: translation/templates/translation/language.html:3266
 msgid "Je suis enceinte"
-msgstr ""
+msgstr "Ik ben in verwachting"
 
 #: translation/templates/translation/language.html:3271
 #: translation/templates/translation/language.html:3274
 msgid "Je ne suis pas enceinte"
-msgstr ""
+msgstr "Ik ben niet in verwachting"
 
 #: translation/templates/translation/language.html:3279
 #: translation/templates/translation/language.html:3282
 msgid "Depuis “x” semaines"
-msgstr ""
+msgstr "Sinds weken"
 
 #: translation/templates/translation/language.html:3287
 #: translation/templates/translation/language.html:3290
 msgid "J’ai eu des pertes par voie basse"
-msgstr ""
+msgstr "Ik heb beneden afscheiding gehad"
 
 #: translation/templates/translation/language.html:3295
 #: translation/templates/translation/language.html:3298
 msgid "Je n’ai pas eu de perte par voie basse"
-msgstr ""
+msgstr "Ik heb beneden geen afscheiding gehad"
 
 #: translation/templates/translation/language.html:3303
 #: translation/templates/translation/language.html:3306
 msgid "Mes pertes étaient :"
-msgstr ""
+msgstr "Mijn afscheiding was:"
 
 #: translation/templates/translation/language.html:3311
 #: translation/templates/translation/language.html:3314
@@ -2385,87 +2385,87 @@ msgstr ""
 #: translation/templates/translation/language.html:3327
 #: translation/templates/translation/language.html:3330
 msgid "J’ai perdu du poids ces derniers temps"
-msgstr ""
+msgstr "Ik ben onlangs afgevallen"
 
 #: translation/templates/translation/language.html:3335
 #: translation/templates/translation/language.html:3338
 msgid "Je n’ai pas perdu de poids ces derniers temps"
-msgstr ""
+msgstr "Ik ben niet afgevallen"
 
 #: translation/templates/translation/language.html:3343
 #: translation/templates/translation/language.html:3346
 msgid "Dos / Cou"
-msgstr ""
+msgstr "RUG/NEK"
 
 #: translation/templates/translation/language.html:3351
 #: translation/templates/translation/language.html:3354
 msgid "Ma douleur n’irradie pas vers la fesse ou la jambe"
-msgstr ""
+msgstr "Mijn pijn gaat niet naar de bips of het been"
 
 #: translation/templates/translation/language.html:3359
 #: translation/templates/translation/language.html:3362
 msgid "Ma douleur irradie vers la fesse ou la jambe"
-msgstr ""
+msgstr "De pijn straalt uit naar mijn bips en been"
 
 #: translation/templates/translation/language.html:3367
 #: translation/templates/translation/language.html:3370
 msgid "Je n’ai pas le dos bloqué"
-msgstr ""
+msgstr "Ik heb geen stijve rug"
 
 #: translation/templates/translation/language.html:3375
 #: translation/templates/translation/language.html:3378
 msgid "J’ai le dos bloqué"
-msgstr ""
+msgstr "Ik heb een stijve rug"
 
 #: translation/templates/translation/language.html:3383
 #: translation/templates/translation/language.html:3386
 msgid "J’ai mal surtout le soir"
-msgstr ""
+msgstr "Ik heb vooral s'avonds pijn"
 
 #: translation/templates/translation/language.html:3391
 #: translation/templates/translation/language.html:3394
 msgid "J’ai mal surtout le matin"
-msgstr ""
+msgstr "Ik heb vooral 'smorgens pijn"
 
 #: translation/templates/translation/language.html:3399
 #: translation/templates/translation/language.html:3402
 msgid "Bras"
-msgstr ""
+msgstr "ARMEN"
 
 #: translation/templates/translation/language.html:3407
 #: translation/templates/translation/language.html:3410
 msgid "Jambe"
-msgstr ""
+msgstr "BENEN"
 
 #: translation/templates/translation/language.html:3415
 #: translation/templates/translation/language.html:3418
 msgid "J’ai reçu un coup récemment"
-msgstr ""
+msgstr "Ik heb kort geleden een klap gehad"
 
 #: translation/templates/translation/language.html:3423
 #: translation/templates/translation/language.html:3426
 msgid "Je n’ai pas reçu de coup récemment"
-msgstr ""
+msgstr "Ik heb kort geleden geen klap gehad"
 
 #: translation/templates/translation/language.html:3439
 #: translation/templates/translation/language.html:3442
 msgid "J’ai été piqué ou mordu récemment"
-msgstr ""
+msgstr "Kort geleden heeft iets mij gepikt of gebeten"
 
 #: translation/templates/translation/language.html:3447
 #: translation/templates/translation/language.html:3450
 msgid "Je n’ai pas été piqué ou mordu récemment"
-msgstr ""
+msgstr "Kort geleden heeft niets mij gepikt of gebeten"
 
 #: translation/templates/translation/language.html:3455
 #: translation/templates/translation/language.html:3458
 msgid "Ca me démange"
-msgstr ""
+msgstr "Het jeukt"
 
 #: translation/templates/translation/language.html:3463
 #: translation/templates/translation/language.html:3466
 msgid "Ca ne me démange pas"
-msgstr ""
+msgstr "Het jeukt niet"
 
 #: translation/templates/translation/language.html:3471
 #: translation/templates/translation/language.html:3474
@@ -2526,47 +2526,47 @@ msgstr ""
 #: translation/templates/translation/language.html:3559
 #: translation/templates/translation/language.html:3562
 msgid "Allaitez-vous ?"
-msgstr ""
+msgstr "Geeft U borstvoeding?"
 
 #: translation/templates/translation/language.html:3567
 #: translation/templates/translation/language.html:3570
 msgid "Où se trouve le médecin le plus proche ?"
-msgstr ""
+msgstr "Waar is de dichtstbijzijnde doktor?"
 
 #: translation/templates/translation/language.html:3575
 #: translation/templates/translation/language.html:3578
 msgid "Où se trouve l'hôpital le plus proche ?"
-msgstr ""
+msgstr "Waar is het dichtsbijzijnde ziekenhuiis ?"
 
 #: translation/templates/translation/language.html:3583
 #: translation/templates/translation/language.html:3586
 msgid "Où se trouve la pharmacie la plus proche ?"
-msgstr ""
+msgstr "Waar id de dichtsbijzijnde apotheek?"
 
 #: translation/templates/translation/language.html:3591
 #: translation/templates/translation/language.html:3594
 msgid "J'ai besoin de secours, pouvez-vous les appeler ?"
-msgstr ""
+msgstr "Ik heb hulp nodig, kunt U ze opbellen?"
 
 #: translation/templates/translation/language.html:3599
 #: translation/templates/translation/language.html:3602
 msgid "Vous allez avoir une IRM"
-msgstr ""
+msgstr "Een MRI (-Scan)"
 
 #: translation/templates/translation/language.html:3607
 #: translation/templates/translation/language.html:3610
 msgid "L'examen est long. Il dure entre 15 et 40 minutes"
-msgstr ""
+msgstr "De scan duurt best lang. Ongeveer 15-40 Minuten in het totaal"
 
 #: translation/templates/translation/language.html:3615
 #: translation/templates/translation/language.html:3618
 msgid "L'examen n'est pas douloureux mais il est très bruyant"
-msgstr ""
+msgstr "De scan doet niet pijn maar is best luid/lawaaierig."
 
 #: translation/templates/translation/language.html:3623
 #: translation/templates/translation/language.html:3626
 msgid "Il faut rester immobile pendant toute la durée de l'examen"
-msgstr ""
+msgstr "Je moet still blijven gedurende de hele scan."
 
 #: translation/templates/translation/language.html:3639
 #: translation/templates/translation/language.html:3642
@@ -2581,52 +2581,52 @@ msgstr ""
 #: translation/templates/translation/language.html:3663
 #: translation/templates/translation/language.html:3666
 msgid "Quelle est votre taille et votre poids ?"
-msgstr ""
+msgstr "Wat is je hoogte en gewicht?"
 
 #: translation/templates/translation/language.html:3679
 #: translation/templates/translation/language.html:3682
 msgid "Nous allons injecter un produit de contraste qui va vous donner chaud dans tout le corps, c'est normal ne vous inquiétez pas"
-msgstr ""
+msgstr "We gaan u nu met intraveneuze kleurstof injecteren, wat een warm gevoel in uw lichaam veroorzaakt. Dat is heel normaal en u moet zich geen zorgen erover maken."
 
 #: translation/templates/translation/language.html:3687
 #: translation/templates/translation/language.html:3690
 msgid "Prenez-vous un traitement pour la thyroïde ?"
-msgstr ""
+msgstr "Volgt u een schildklierbehandeling."
 
 #: translation/templates/translation/language.html:3695
 #: translation/templates/translation/language.html:3698
 msgid "Avez-vous des problèmes rénaux ?"
-msgstr ""
+msgstr "Heeft u nierproblemen?"
 
 #: translation/templates/translation/language.html:3703
 #: translation/templates/translation/language.html:3706
 msgid "Pouvez-vous signer l’autorisation de soins ci-dessous ?"
-msgstr ""
+msgstr "Kunt u alsjeblieft de toestemming voor de medische behandeling ondertekenen?"
 
 #: translation/templates/translation/language.html:3711
 #: translation/templates/translation/language.html:3714
 msgid "Nom :"
-msgstr ""
+msgstr "Naam :"
 
 #: translation/templates/translation/language.html:3719
 #: translation/templates/translation/language.html:3722
 msgid "Prénom :"
-msgstr ""
+msgstr "Voornaam:"
 
 #: translation/templates/translation/language.html:3727
 #: translation/templates/translation/language.html:3730
 msgid "Date de naissance :"
-msgstr ""
+msgstr "Geboortedatum:"
 
 #: translation/templates/translation/language.html:3735
 #: translation/templates/translation/language.html:3738
 msgid "Taille :"
-msgstr ""
+msgstr "Hoogte:"
 
 #: translation/templates/translation/language.html:3743
 #: translation/templates/translation/language.html:3746
 msgid "Poids :"
-msgstr ""
+msgstr "Ggewicht:"
 
 #: translation/views.py:23
 msgid "Afrique"
