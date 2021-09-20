@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 73d3b19e82fc460fd936796fc5b25f94\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-11 15:45+0000\n"
-"PO-Revision-Date: 2021-03-30 10:32\n"
+"PO-Revision-Date: 2021-09-20 09:36\n"
 "Last-Translator: \n"
 "Language-Team: Catalan\n"
 "Language: ca\n"
@@ -135,7 +135,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3751
 #: translation/templates/translation/language.html:3754
 msgid "Oui"
-msgstr ""
+msgstr "si"
 
 #: translation/templates/doctemplates/irm.html:80
 #: translation/templates/doctemplates/irm.html:81
@@ -148,7 +148,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3759
 #: translation/templates/translation/language.html:3762
 msgid "Non"
-msgstr ""
+msgstr "no"
 
 #: translation/templates/doctemplates/irm.html:82
 #: translation/templates/doctemplates/irm.html:83
@@ -306,22 +306,22 @@ msgstr ""
 #: translation/templates/sidenav.html:11
 #: translation/templates/translation/language.html:130
 msgid "IDENTITÉ"
-msgstr ""
+msgstr "identitat"
 
 #: translation/templates/sidenav.html:12
 #: translation/templates/translation/language.html:217
 msgid "ATTENTE"
-msgstr ""
+msgstr "espera"
 
 #: translation/templates/sidenav.html:13
 #: translation/templates/translation/language.html:304
 msgid "ACCUEIL"
-msgstr ""
+msgstr "recepcio"
 
 #: translation/templates/sidenav.html:14
 #: translation/templates/translation/language.html:503
 msgid "NEUROLOGIE"
-msgstr ""
+msgstr "neurologia"
 
 #: translation/templates/sidenav.html:15
 #: translation/templates/translation/language.html:686
@@ -440,102 +440,102 @@ msgstr ""
 #: translation/templates/translation/language.html:49
 #: translation/templates/translation/language.html:52
 msgid "Je vais utiliser le téléphone pour traduire les questions que j'ai à vous poser, êtes vous d'accord ?"
-msgstr ""
+msgstr "Utilitzaré el telèfon per a traduir les preguntes que tinc que fer-li, esta d'acord?"
 
 #: translation/templates/translation/language.html:57
 #: translation/templates/translation/language.html:60
 msgid "Bonjour, je suis infirmière"
-msgstr ""
+msgstr "Bon dia, soc cuidador"
 
 #: translation/templates/translation/language.html:65
 #: translation/templates/translation/language.html:68
 msgid "Bonjour, je suis médecin"
-msgstr ""
+msgstr "Bon dia, soc metge"
 
 #: translation/templates/translation/language.html:73
 #: translation/templates/translation/language.html:76
 msgid "Bonjour, je suis secouriste"
-msgstr ""
+msgstr "Bon dia, soc socorrista"
 
 #: translation/templates/translation/language.html:81
 #: translation/templates/translation/language.html:84
 msgid "Bonjour, je suis bénévole"
-msgstr ""
+msgstr "Bon dia, soc voluntari"
 
 #: translation/templates/translation/language.html:89
 #: translation/templates/translation/language.html:92
 msgid "Bonjour, je suis agent d'accueil"
-msgstr ""
+msgstr "Bon dia, soc personal de recepcio"
 
 #: translation/templates/translation/language.html:97
 #: translation/templates/translation/language.html:100
 msgid "Bonjour, je suis étudiant en médecine"
-msgstr ""
+msgstr "Bon dia, soc estudiant en medecina"
 
 #: translation/templates/translation/language.html:105
 #: translation/templates/translation/language.html:108
 msgid "Bonjour, je suis sage-femme"
-msgstr ""
+msgstr "Bon dia, soc llevadora"
 
 #: translation/templates/translation/language.html:113
 #: translation/templates/translation/language.html:116
 msgid "Bonjour, je suis secrétaire"
-msgstr ""
+msgstr "Bon dia, soc secretaria"
 
 #: translation/templates/translation/language.html:121
 #: translation/templates/translation/language.html:124
 msgid "Bonjour, je suis soignant"
-msgstr ""
+msgstr "Bon dia, soc cuidador"
 
 #: translation/templates/translation/language.html:136
 #: translation/templates/translation/language.html:139
 msgid "Pouvez-vous me montrez votre passeport"
-msgstr ""
+msgstr "em pot ensenyar el pasaport?"
 
 #: translation/templates/translation/language.html:144
 #: translation/templates/translation/language.html:147
 msgid "Pouvez-vous me montrez une carte d’identité"
-msgstr ""
+msgstr "em pot ensenyar una targeta d'identitat?"
 
 #: translation/templates/translation/language.html:152
 #: translation/templates/translation/language.html:155
 msgid "Pouvez-vous me montrer des papiers avec votre nom"
-msgstr ""
+msgstr "Em pot ensenyar papers al vostre nom?"
 
 #: translation/templates/translation/language.html:160
 #: translation/templates/translation/language.html:163
 msgid "Pouvez-vous me montrer une carte Européenne de santé"
-msgstr ""
+msgstr "em pot ensenyar una targeta europea sanitaria?"
 
 #: translation/templates/translation/language.html:168
 #: translation/templates/translation/language.html:171
 msgid "Pouvez-vous me montre une carte d’assurance privée"
-msgstr ""
+msgstr "em pot ensenyar una targeta d'assegurança privada?"
 
 #: translation/templates/translation/language.html:176
 #: translation/templates/translation/language.html:179
 msgid "Les frais des soins seront à votre charge"
-msgstr ""
+msgstr "les despeses d'atencio mèdica son al seu carrec"
 
 #: translation/templates/translation/language.html:184
 #: translation/templates/translation/language.html:187
 msgid "Les frais des soins ne seront pas à votre charge"
-msgstr ""
+msgstr "les despeses d'atencio mèdica no son al seu carrec"
 
 #: translation/templates/translation/language.html:192
 #: translation/templates/translation/language.html:195
 msgid "De quel pays venez-vous ?"
-msgstr ""
+msgstr "de quin pais ve voste?"
 
 #: translation/templates/translation/language.html:200
 #: translation/templates/translation/language.html:203
 msgid "A quelle adresse vivez-vous actuellement ?"
-msgstr ""
+msgstr "on viu actualment?"
 
 #: translation/templates/translation/language.html:208
 #: translation/templates/translation/language.html:211
 msgid "Avez-vous un numéro de téléphone où l’on peut vous joindre ?"
-msgstr ""
+msgstr "te un numero de telèfon on contactar-lo?"
 
 #: translation/templates/translation/language.html:223
 #: translation/templates/translation/language.html:226
@@ -545,47 +545,47 @@ msgstr ""
 #: translation/templates/translation/language.html:231
 #: translation/templates/translation/language.html:234
 msgid "Je vous laisse attendre sur les chaises"
-msgstr ""
+msgstr "a les cadires"
 
 #: translation/templates/translation/language.html:239
 #: translation/templates/translation/language.html:242
 msgid "Je vous laisse attendre sur le banc"
-msgstr ""
+msgstr "al banc"
 
 #: translation/templates/translation/language.html:247
 #: translation/templates/translation/language.html:250
 msgid "Je vous laisse attendre dans la salle d'attente"
-msgstr ""
+msgstr "a la sala d'espera"
 
 #: translation/templates/translation/language.html:255
 #: translation/templates/translation/language.html:258
 msgid "Nous viendrons vous appeler"
-msgstr ""
+msgstr "vindrem a buscar-lo"
 
 #: translation/templates/translation/language.html:263
 #: translation/templates/translation/language.html:266
 msgid "Merci de ne pas manger, boire ou fumer pendant l’attente"
-msgstr ""
+msgstr "gracies de no menjar, beure ni fumar mentres espera"
 
 #: translation/templates/translation/language.html:271
 #: translation/templates/translation/language.html:274
 msgid "Votre famille devra attendre ici"
-msgstr ""
+msgstr "la seva familia haura d'esperar aqui"
 
 #: translation/templates/translation/language.html:279
 #: translation/templates/translation/language.html:282
 msgid "Selon votre état de santé, le médecin demandera parfois des soins, comme une prise de sang, un examen comme une radio ou un scanner, ou pourra demander de vous garder en observation pour surveiller votre état de santé"
-msgstr ""
+msgstr "segons el seu estat de salut, el metge demanara de vegades alguns analisis, com un analisi de sang, una radio o un escaner, tambe pot demanr que us quedeu en observacio per vigilar el vostre estat de salut"
 
 #: translation/templates/translation/language.html:287
 #: translation/templates/translation/language.html:290
 msgid "Nous vous demandons de ne pas manger ou boire tant que le médecin ne vous y a pas autorisé, certains examens demandant de rester à jeun"
-msgstr ""
+msgstr "us demanem no menjar ni beure mentre el metge no us hi autoritzi, per a alguns examens s'ha de estar en dejuni"
 
 #: translation/templates/translation/language.html:295
 #: translation/templates/translation/language.html:298
 msgid "Il faut attendre 1 heure pour avoir les résultats de la prise de sang"
-msgstr ""
+msgstr "s'ha d'esperar una hora per als resultats de l'analisi de sang"
 
 #: translation/templates/translation/language.html:310
 #: translation/templates/translation/language.html:313
@@ -596,142 +596,142 @@ msgstr ""
 #: translation/templates/translation/language.html:318
 #: translation/templates/translation/language.html:321
 msgid "Avez-vous des douleurs ?"
-msgstr ""
+msgstr "l'hi fa mal algo?"
 
 #: translation/templates/translation/language.html:342
 #: translation/templates/translation/language.html:345
 msgid "Montrez-moi où vous avez mal"
-msgstr ""
+msgstr "ensenyim on l'hi fa mal"
 
 #: translation/templates/translation/language.html:350
 #: translation/templates/translation/language.html:353
 msgid "Je vais vous examiner"
-msgstr ""
+msgstr "vaig a examinar-lo"
 
 #: translation/templates/translation/language.html:358
 #: translation/templates/translation/language.html:361
 msgid "Pourriez-vous chiffrer votre douleur entre 0 et 10 ?"
-msgstr ""
+msgstr "en una escala de l'u al deu, diguim com l'hi fa mal"
 
 #: translation/templates/translation/language.html:366
 #: translation/templates/translation/language.html:369
 msgid "10 étant la note pour une douleur insupportable"
-msgstr ""
+msgstr "deu es un dolor insuportable"
 
 #: translation/templates/translation/language.html:374
 #: translation/templates/translation/language.html:377
 msgid "0"
-msgstr ""
+msgstr "zero"
 
 #: translation/templates/translation/language.html:382
 #: translation/templates/translation/language.html:385
 msgid "1"
-msgstr ""
+msgstr "u"
 
 #: translation/templates/translation/language.html:390
 #: translation/templates/translation/language.html:393
 msgid "2"
-msgstr ""
+msgstr "dos"
 
 #: translation/templates/translation/language.html:398
 #: translation/templates/translation/language.html:401
 msgid "3"
-msgstr ""
+msgstr "tres"
 
 #: translation/templates/translation/language.html:406
 #: translation/templates/translation/language.html:409
 msgid "4"
-msgstr ""
+msgstr "quatre"
 
 #: translation/templates/translation/language.html:414
 #: translation/templates/translation/language.html:417
 msgid "5"
-msgstr ""
+msgstr "cinc"
 
 #: translation/templates/translation/language.html:422
 #: translation/templates/translation/language.html:425
 msgid "6"
-msgstr ""
+msgstr "sis"
 
 #: translation/templates/translation/language.html:430
 #: translation/templates/translation/language.html:433
 msgid "7"
-msgstr ""
+msgstr "set"
 
 #: translation/templates/translation/language.html:438
 #: translation/templates/translation/language.html:441
 msgid "8"
-msgstr ""
+msgstr "vuit"
 
 #: translation/templates/translation/language.html:446
 #: translation/templates/translation/language.html:449
 msgid "9"
-msgstr ""
+msgstr "nou"
 
 #: translation/templates/translation/language.html:454
 #: translation/templates/translation/language.html:457
 msgid "10"
-msgstr ""
+msgstr "deu"
 
 #: translation/templates/translation/language.html:462
 #: translation/templates/translation/language.html:465
 msgid "Pouvez vous vous déshabiller pour que je vous examine"
-msgstr ""
+msgstr "pot despullar-se perque l'examini?"
 
 #: translation/templates/translation/language.html:470
 #: translation/templates/translation/language.html:473
 msgid "Vous pouvez garder vos sous-vêtements"
-msgstr ""
+msgstr "quedis amb la roba interior"
 
 #: translation/templates/translation/language.html:478
 #: translation/templates/translation/language.html:481
 msgid "Vous pouvez vous asseoir sur la chaise"
-msgstr ""
+msgstr "es pot asseure a la cadira?"
 
 #: translation/templates/translation/language.html:486
 #: translation/templates/translation/language.html:489
 msgid "Vous pouvez vous allonger sur la table d'examen"
-msgstr ""
+msgstr "es pot estirar a la taula d'examen?"
 
 #: translation/templates/translation/language.html:494
 #: translation/templates/translation/language.html:497
 msgid "Vous pouvez vous allonger sur le brancard"
-msgstr ""
+msgstr "es pot estirar a la camilla?"
 
 #: translation/templates/translation/language.html:509
 #: translation/templates/translation/language.html:512
 msgid "Avez-vous perdu connaissance ?"
-msgstr ""
+msgstr "a perdut el coneixement?"
 
 #: translation/templates/translation/language.html:517
 #: translation/templates/translation/language.html:520
 msgid "Savez-vous quel jour nous sommes ?"
-msgstr ""
+msgstr "sap quin dia es avui?"
 
 #: translation/templates/translation/language.html:525
 #: translation/templates/translation/language.html:528
 msgid "Savez-vous où vous êtes ?"
-msgstr ""
+msgstr "sap on esta?"
 
 #: translation/templates/translation/language.html:533
 #: translation/templates/translation/language.html:536
 msgid "Suivez mon doigt du regard"
-msgstr ""
+msgstr "segueixi el meu dit amb els ulls"
 
 #: translation/templates/translation/language.html:541
 #: translation/templates/translation/language.html:544
 msgid "Pouvez-vous bouger vos mains et vos pieds ?"
-msgstr ""
+msgstr "Pot moure les mans i els peus?"
 
 #: translation/templates/translation/language.html:549
 #: translation/templates/translation/language.html:552
 msgid "Je vais toucher vos mains et vos pieds, sentez-vous que je vous touche ?"
-msgstr ""
+msgstr "Vaig a tocar-li les mans i els peus, ho sent?"
 
 #: translation/templates/translation/language.html:557
 #: translation/templates/translation/language.html:560
 msgid "Regardez-moi dans les yeux, je vais observer vos pupilles"
-msgstr ""
+msgstr "Mirim els ulls, vaig a obervar les vostres pupiles"
 
 #: translation/templates/translation/language.html:565
 #: translation/templates/translation/language.html:568
@@ -3327,7 +3327,7 @@ msgid "Fidjien"
 msgstr ""
 
 msgid "Français"
-msgstr ""
+msgstr "Catalan"
 
 msgid "Créole Haitien"
 msgstr ""
