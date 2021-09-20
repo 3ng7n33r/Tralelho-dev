@@ -58,6 +58,20 @@ h1 {
     line-height: 15px;
 }
 
+.circle{
+    margin:10px;
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    background-color:#3D6AA2;
+    color:#fff;
+    text-align:center;
+    font-size:25px;
+    overflow:hidden;
+}
+
+.circle.multi-line{    padding-top:30px;    height:70px;}
+
 /*second page*/
 
 .secondpagetitle {
