@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 73d3b19e82fc460fd936796fc5b25f94\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-11 15:45+0000\n"
-"PO-Revision-Date: 2021-03-30 10:31\n"
+"PO-Revision-Date: 2021-09-20 09:36\n"
 "Last-Translator: \n"
 "Language-Team: Hebrew\n"
 "Language: he\n"
@@ -76,7 +76,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3671
 #: translation/templates/translation/language.html:3674
 msgid "Durant l'examen, on vous demandera de gonfler et les poumons et de bloquer la respiration"
-msgstr ""
+msgstr ".בזמן הבדיקה, אנחנו נבקש ממך לנשום עמוק ולעצור את הנשימה"
 
 #: translation/templates/doctemplates/irm.html:41
 #: translation/templates/doctemplates/irm.html:42
@@ -216,7 +216,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3631
 #: translation/templates/translation/language.html:3634
 msgid "Avez-vous des éclats métalliques dans les yeux?"
-msgstr ""
+msgstr "?יש רסיסים מתכתיים בעיניים"
 
 #: translation/templates/doctemplates/irm.html:188
 #: translation/templates/doctemplates/irm.html:189
@@ -240,7 +240,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3655
 #: translation/templates/translation/language.html:3658
 msgid "Si oui, avez-vous une carte avec les références du matériel?"
-msgstr ""
+msgstr "אם כן, האם יש לך כרטיס עם"
 
 #: translation/templates/doctemplates/irm.html:218
 #: translation/templates/doctemplates/irm.html:219
@@ -326,17 +326,17 @@ msgstr "נוירולוגיה"
 #: translation/templates/sidenav.html:15
 #: translation/templates/translation/language.html:686
 msgid "PNEUMOLOGIE"
-msgstr ""
+msgstr "פולמונולוגיה"
 
 #: translation/templates/sidenav.html:16
 #: translation/templates/translation/language.html:773
 msgid "CARDIOLOGIE"
-msgstr ""
+msgstr "קרדיולוגיה"
 
 #: translation/templates/sidenav.html:17
 #: translation/templates/translation/language.html:932
 msgid "MALAISE"
-msgstr ""
+msgstr "חולשה"
 
 #: translation/templates/sidenav.html:18
 #: translation/templates/translation/language.html:1043
@@ -346,12 +346,12 @@ msgstr "בעיות עיכול"
 #: translation/templates/sidenav.html:19
 #: translation/templates/translation/language.html:1194
 msgid "INFECTIEUX"
-msgstr ""
+msgstr "בעיות זיהומיות"
 
 #: translation/templates/sidenav.html:20
 #: translation/templates/translation/language.html:1273
 msgid "OPHTALMOLOGIE"
-msgstr ""
+msgstr "אופטלמולוגיה"
 
 #: translation/templates/sidenav.html:21
 #: translation/templates/translation/language.html:1320
@@ -361,17 +361,17 @@ msgstr "היסטוריה רפואית"
 #: translation/templates/sidenav.html:22
 #: translation/templates/translation/language.html:1399
 msgid "PEDIATRIE"
-msgstr ""
+msgstr "בעיות ילדים"
 
 #: translation/templates/sidenav.html:23
 #: translation/templates/translation/language.html:1470
 msgid "GYNECOLOGIE"
-msgstr ""
+msgstr "גינקולוגיה"
 
 #: translation/templates/sidenav.html:24
 #: translation/templates/translation/language.html:1573
 msgid "TRAUMATOLOGIE"
-msgstr ""
+msgstr "טראומה ואורתופדיה"
 
 #: translation/templates/sidenav.html:25
 #: translation/templates/translation/language.html:1700
@@ -440,12 +440,12 @@ msgstr ""
 #: translation/templates/translation/language.html:49
 #: translation/templates/translation/language.html:52
 msgid "Je vais utiliser le téléphone pour traduire les questions que j'ai à vous poser, êtes vous d'accord ?"
-msgstr ""
+msgstr "אני יכולה להשתמש בטלפון בכדי לתרגם את השאלות שאשאל אותך?"
 
 #: translation/templates/translation/language.html:57
 #: translation/templates/translation/language.html:60
 msgid "Bonjour, je suis infirmière"
-msgstr ""
+msgstr "צוות אחיות"
 
 #: translation/templates/translation/language.html:65
 #: translation/templates/translation/language.html:68
@@ -495,7 +495,7 @@ msgstr "אתה יכול להראות לי את הדרכון"
 #: translation/templates/translation/language.html:144
 #: translation/templates/translation/language.html:147
 msgid "Pouvez-vous me montrez une carte d’identité"
-msgstr ""
+msgstr "האם אני יכול לראות איזה תעודה מזהה"
 
 #: translation/templates/translation/language.html:152
 #: translation/templates/translation/language.html:155
@@ -510,17 +510,17 @@ msgstr "האם יש לך ביטוח רפואי אירופאי"
 #: translation/templates/translation/language.html:168
 #: translation/templates/translation/language.html:171
 msgid "Pouvez-vous me montre une carte d’assurance privée"
-msgstr ""
+msgstr "האם יש לך ביטוח רפואי פרטי"
 
 #: translation/templates/translation/language.html:176
 #: translation/templates/translation/language.html:179
 msgid "Les frais des soins seront à votre charge"
-msgstr ""
+msgstr "העלות אינה מכוסה על ידי הביטוח ואתה צריך לשלם הכל"
 
 #: translation/templates/translation/language.html:184
 #: translation/templates/translation/language.html:187
 msgid "Les frais des soins ne seront pas à votre charge"
-msgstr ""
+msgstr "העלות מכוסה על ידי הביטוח ואתה צריך לשלם הכל"
 
 #: translation/templates/translation/language.html:192
 #: translation/templates/translation/language.html:195
@@ -560,22 +560,22 @@ msgstr ""
 #: translation/templates/translation/language.html:255
 #: translation/templates/translation/language.html:258
 msgid "Nous viendrons vous appeler"
-msgstr ""
+msgstr "אנחו נבוא וניקח אותך"
 
 #: translation/templates/translation/language.html:263
 #: translation/templates/translation/language.html:266
 msgid "Merci de ne pas manger, boire ou fumer pendant l’attente"
-msgstr ""
+msgstr "לא לאכול לשתות או לעשן באזור ההמתנה"
 
 #: translation/templates/translation/language.html:271
 #: translation/templates/translation/language.html:274
 msgid "Votre famille devra attendre ici"
-msgstr ""
+msgstr "המשפחה שלך צריכה להמתין כאן"
 
 #: translation/templates/translation/language.html:279
 #: translation/templates/translation/language.html:282
 msgid "Selon votre état de santé, le médecin demandera parfois des soins, comme une prise de sang, un examen comme une radio ou un scanner, ou pourra demander de vous garder en observation pour surveiller votre état de santé"
-msgstr ""
+msgstr "על פי מצבך הבריאות, הרופא לפעמים יבקש בדיקות רפואיות נוספות כגון בדיקת דם, רדיוגרפיה, סורק. הוא גם עשוי לבקש להשאיר אותך כאן תחת פיקוח רפואי כדי לפקח על בריאותך"
 
 #: translation/templates/translation/language.html:287
 #: translation/templates/translation/language.html:290
@@ -585,7 +585,7 @@ msgstr "אנו מבקשים לא לאכול ולשתות עד להוראה אח�
 #: translation/templates/translation/language.html:295
 #: translation/templates/translation/language.html:298
 msgid "Il faut attendre 1 heure pour avoir les résultats de la prise de sang"
-msgstr ""
+msgstr "עליך להמתין שעה אחת עד לקבלת תוצאות בדיקת הדם"
 
 #: translation/templates/translation/language.html:310
 #: translation/templates/translation/language.html:313
@@ -601,12 +601,12 @@ msgstr "כואב לך?"
 #: translation/templates/translation/language.html:342
 #: translation/templates/translation/language.html:345
 msgid "Montrez-moi où vous avez mal"
-msgstr ""
+msgstr "איפה כואב לך?"
 
 #: translation/templates/translation/language.html:350
 #: translation/templates/translation/language.html:353
 msgid "Je vais vous examiner"
-msgstr ""
+msgstr "אני הולכ/ת לבדוק אותך"
 
 #: translation/templates/translation/language.html:358
 #: translation/templates/translation/language.html:361
@@ -681,17 +681,17 @@ msgstr "את/ה יכול/ה בבקשה להתפשט כדי שאוכל לבדוק
 #: translation/templates/translation/language.html:470
 #: translation/templates/translation/language.html:473
 msgid "Vous pouvez garder vos sous-vêtements"
-msgstr ""
+msgstr "את/ה יכול/ה להשאר בתחתונים"
 
 #: translation/templates/translation/language.html:478
 #: translation/templates/translation/language.html:481
 msgid "Vous pouvez vous asseoir sur la chaise"
-msgstr ""
+msgstr "אפשר לשבת על הכסא"
 
 #: translation/templates/translation/language.html:486
 #: translation/templates/translation/language.html:489
 msgid "Vous pouvez vous allonger sur la table d'examen"
-msgstr ""
+msgstr "אפשר לשכב על השולחן"
 
 #: translation/templates/translation/language.html:494
 #: translation/templates/translation/language.html:497
@@ -716,7 +716,7 @@ msgstr "את/ה יודע איפה אתה נמצא?"
 #: translation/templates/translation/language.html:533
 #: translation/templates/translation/language.html:536
 msgid "Suivez mon doigt du regard"
-msgstr ""
+msgstr "עקוב אחר האצבע שלי"
 
 #: translation/templates/translation/language.html:541
 #: translation/templates/translation/language.html:544
@@ -731,22 +731,22 @@ msgstr "אני הולכ/ת לגעת בידיים וברגליים שלך .האם
 #: translation/templates/translation/language.html:557
 #: translation/templates/translation/language.html:560
 msgid "Regardez-moi dans les yeux, je vais observer vos pupilles"
-msgstr ""
+msgstr "הסתכל לי בעיניים. אני רוצה לבדוק את האישונים שלך ."
 
 #: translation/templates/translation/language.html:565
 #: translation/templates/translation/language.html:568
 msgid "Avez vous des fourmillement ? Montrez moi où"
-msgstr ""
+msgstr "אתה מרגיש נמלים? איפה?"
 
 #: translation/templates/translation/language.html:573
 #: translation/templates/translation/language.html:576
 msgid "Poussez sur mes mains"
-msgstr ""
+msgstr "דחוף את הידיים שלי"
 
 #: translation/templates/translation/language.html:581
 #: translation/templates/translation/language.html:584
 msgid "Ouvrez les yeux"
-msgstr ""
+msgstr "פתח/י את העיניים"
 
 #: translation/templates/translation/language.html:589
 #: translation/templates/translation/language.html:592
@@ -756,7 +756,7 @@ msgstr "פתח/י את הפה"
 #: translation/templates/translation/language.html:597
 #: translation/templates/translation/language.html:600
 msgid "Levez le bras droit"
-msgstr ""
+msgstr "הרם/הרימי את היד הימנית"
 
 #: translation/templates/translation/language.html:605
 #: translation/templates/translation/language.html:608
@@ -823,17 +823,17 @@ msgstr ""
 #: translation/templates/translation/language.html:708
 #: translation/templates/translation/language.html:711
 msgid "Prenez une grande inspiration puis bloquez votre respiration"
-msgstr ""
+msgstr "קח שאיפה עמוקה והחזק בפנים"
 
 #: translation/templates/translation/language.html:716
 #: translation/templates/translation/language.html:719
 msgid "Respirez normalement"
-msgstr ""
+msgstr "נשום רגיל"
 
 #: translation/templates/translation/language.html:724
 #: translation/templates/translation/language.html:727
 msgid "Respirez profondément"
-msgstr ""
+msgstr "נשום עמוק"
 
 #: translation/templates/translation/language.html:732
 #: translation/templates/translation/language.html:735
@@ -864,7 +864,7 @@ msgstr "תוכל בבקשה לנשוף מהאף כדי שאוכל לראות א�
 #: translation/templates/translation/language.html:782
 #| msgid "Est-ce que vous voyez double ?"
 msgid "Est-ce que votre douleur"
-msgstr ""
+msgstr "תאר את הכאב שלך."
 
 #: translation/templates/translation/language.html:787
 #: translation/templates/translation/language.html:790
@@ -884,7 +884,7 @@ msgstr ""
 #: translation/templates/translation/language.html:811
 #: translation/templates/translation/language.html:814
 msgid "Est-ce que votre douleur irradie ? Montrez-moi vers où"
-msgstr ""
+msgstr "האם הכאב עובר לחלק אחר בגוף שלך? את\\ה יכול\\ה להראות לי איפה?"
 
 #: translation/templates/translation/language.html:819
 #: translation/templates/translation/language.html:822
@@ -909,17 +909,17 @@ msgstr "יום"
 #: translation/templates/translation/language.html:851
 #: translation/templates/translation/language.html:854
 msgid "Je vais prendre votre pouls"
-msgstr ""
+msgstr "אני אמדוד לך דופק"
 
 #: translation/templates/translation/language.html:859
 #: translation/templates/translation/language.html:862
 msgid "Je vais appuyer doucement sur votre ongle"
-msgstr ""
+msgstr "אני אלחץ בעדינות על הציפורן שלך"
 
 #: translation/templates/translation/language.html:867
 #: translation/templates/translation/language.html:870
 msgid "Je vais prendre votre pression artérielle"
-msgstr ""
+msgstr "אני אמדוד לך לחץ דם"
 
 #: translation/templates/translation/language.html:875
 #: translation/templates/translation/language.html:878
@@ -1025,12 +1025,12 @@ msgstr "אתה אוכל?"
 #: translation/templates/translation/language.html:1049
 #: translation/templates/translation/language.html:1052
 msgid "Montrez moi ou vous avez mal"
-msgstr ""
+msgstr "תראה היכן כואב לך"
 
 #: translation/templates/translation/language.html:1057
 #: translation/templates/translation/language.html:1060
 msgid "Est ce que la douleur irradie ? Si oui montrez moi vers où"
-msgstr ""
+msgstr "האם הכאב עובר לחלק אחר בגוף שלך? את\\ה יכול\\ה להראות לי איפה?"
 
 #: translation/templates/translation/language.html:1065
 #: translation/templates/translation/language.html:1068
@@ -1107,12 +1107,12 @@ msgstr "אני הולך לעשות בדיקה רקטלית עם האצבע. בס
 #: translation/templates/translation/language.html:1177
 #: translation/templates/translation/language.html:1180
 msgid "Il faudra uriner dans ce pot pour réaliser un examen"
-msgstr ""
+msgstr "אנחנו צריכים בדיקת שתן"
 
 #: translation/templates/translation/language.html:1185
 #: translation/templates/translation/language.html:1188
 msgid "Il faudra réaliser une toilette intime avant d’uriner dans le pot"
-msgstr ""
+msgstr "לפני שאתה תשתין במכל ,עליך לשטוף את איבריך המין"
 
 #: translation/templates/translation/language.html:1200
 #: translation/templates/translation/language.html:1203
@@ -1122,17 +1122,17 @@ msgstr "נעקצת?"
 #: translation/templates/translation/language.html:1208
 #: translation/templates/translation/language.html:1211
 msgid "Montrez moi à quel endroit"
-msgstr ""
+msgstr "תראה לי איפה"
 
 #: translation/templates/translation/language.html:1216
 #: translation/templates/translation/language.html:1219
 msgid "Montrez moi où étaient les premiers boutons"
-msgstr ""
+msgstr "תראה לי איפה הפצעונים הראשונים הופיעו"
 
 #: translation/templates/translation/language.html:1224
 #: translation/templates/translation/language.html:1227
 msgid "Depuis combien de temps la jambe est-elle rouge ?"
-msgstr ""
+msgstr "כמה זמן הרגל הייתה אדומה ?"
 
 #: translation/templates/translation/language.html:1232
 #: translation/templates/translation/language.html:1235
@@ -1142,12 +1142,12 @@ msgstr "זה מגרד?"
 #: translation/templates/translation/language.html:1240
 #: translation/templates/translation/language.html:1243
 msgid "Il faut rester en isolement"
-msgstr ""
+msgstr "אתה צריך להישאר בבידוד"
 
 #: translation/templates/translation/language.html:1248
 #: translation/templates/translation/language.html:1251
 msgid "Vous devez garder ce masque sur vous"
-msgstr ""
+msgstr "אתה צריך ללבוש את המסכה הזו"
 
 #: translation/templates/translation/language.html:1256
 #: translation/templates/translation/language.html:1259
@@ -1177,12 +1177,12 @@ msgstr "יש לך כאב ראש"
 #: translation/templates/translation/language.html:1303
 #: translation/templates/translation/language.html:1306
 msgid "Est ce que vous avez l’impression que la pièce tourne autour de vous ?"
-msgstr ""
+msgstr "האם אתה מרגיש שהחדר מסתובב סביבך"
 
 #: translation/templates/translation/language.html:1311
 #: translation/templates/translation/language.html:1314
 msgid "Avez-vous reçu un coup à la tête récemment ?"
-msgstr ""
+msgstr "לאחרונה ,האם נפגעת בראש"
 
 #: translation/templates/translation/language.html:1326
 #: translation/templates/translation/language.html:1329
@@ -1202,17 +1202,17 @@ msgstr ""
 #: translation/templates/translation/language.html:1350
 #: translation/templates/translation/language.html:1353
 msgid "Avez-vous une ordonnance avec vos traitements ?"
-msgstr ""
+msgstr "האם יש לך מרשם לתרופות ?"
 
 #: translation/templates/translation/language.html:1358
 #: translation/templates/translation/language.html:1361
 msgid "Avez-vous des allergies ? lesquelles ?"
-msgstr ""
+msgstr "האם את/ה סובל/ת מאלרגיות? אם כן אילו?"
 
 #: translation/templates/translation/language.html:1366
 #: translation/templates/translation/language.html:1369
 msgid "Y a-t-il des antécédents de maladie dans votre famille ?"
-msgstr ""
+msgstr "האם ידוע לך על היסטוריה של בעיות רפואיות במשפחה?"
 
 #: translation/templates/translation/language.html:1374
 #: translation/templates/translation/language.html:1377
@@ -1222,52 +1222,52 @@ msgstr ""
 #: translation/templates/translation/language.html:1382
 #: translation/templates/translation/language.html:1385
 msgid "Pouvez-vous vous lever ?"
-msgstr ""
+msgstr "האם את/ה יכול/ה לעמוד?"
 
 #: translation/templates/translation/language.html:1390
 #: translation/templates/translation/language.html:1393
 msgid "Pouvez-vous marcher ?"
-msgstr ""
+msgstr "האם את/ה יכול/ה ללכת ?"
 
 #: translation/templates/translation/language.html:1405
 #: translation/templates/translation/language.html:1408
 msgid "Le bébé a t il perdu du poids ? Combien de kilo ?"
-msgstr ""
+msgstr "האם התינוק איבד משקל ? כמה ?"
 
 #: translation/templates/translation/language.html:1413
 #: translation/templates/translation/language.html:1416
 msgid "Est-ce que le bébé est à jour de ces vaccins ?"
-msgstr ""
+msgstr "האם התינוק מעודכן בחיסונים שלו ?"
 
 #: translation/templates/translation/language.html:1421
 #: translation/templates/translation/language.html:1424
 msgid "Est-ce que ses frères et soeurs sont malades ?"
-msgstr ""
+msgstr "האם שאר הילדים שלך חולים ?"
 
 #: translation/templates/translation/language.html:1429
 #: translation/templates/translation/language.html:1432
 msgid "Est-ce qu’il mange bien ?"
-msgstr ""
+msgstr "האם הוא/היא אוכל/ת טוב ?"
 
 #: translation/templates/translation/language.html:1437
 #: translation/templates/translation/language.html:1440
 msgid "Est-ce qu’il vomi ?"
-msgstr ""
+msgstr "האם הוא/היא מקיא/ה ?"
 
 #: translation/templates/translation/language.html:1445
 #: translation/templates/translation/language.html:1448
 msgid "Est-ce qu’il semble plus agité que d’habitude ?"
-msgstr ""
+msgstr "האם הוא/היא נסער/ת יותר מהרגיל ?"
 
 #: translation/templates/translation/language.html:1453
 #: translation/templates/translation/language.html:1456
 msgid "Est-ce qu’il semble plus fatigué que d’habitude ?"
-msgstr ""
+msgstr "האם הוא/היא נראה/נראית עייפ/ה מהרגיל ?"
 
 #: translation/templates/translation/language.html:1461
 #: translation/templates/translation/language.html:1464
 msgid "Est ce qu’il a la diarrhée ?"
-msgstr ""
+msgstr "האם יש לו/לה שלשול ?"
 
 #: translation/templates/translation/language.html:1484
 #: translation/templates/translation/language.html:1487
@@ -1292,7 +1292,7 @@ msgstr "דם אדום או שחור?"
 #: translation/templates/translation/language.html:1516
 #: translation/templates/translation/language.html:1519
 msgid "Avez vous eu des problèmes lors de vos précédentes grossesses ?"
-msgstr ""
+msgstr "האםהיו לך בעיות במהלך הריונך האחרון ?"
 
 #: translation/templates/translation/language.html:1524
 #: translation/templates/translation/language.html:1527
@@ -1317,82 +1317,82 @@ msgstr "את נוטלת גלולות?"
 #: translation/templates/translation/language.html:1556
 #: translation/templates/translation/language.html:1559
 msgid "Je dois faire un examen gynécologique, allongez vous sur la table"
-msgstr ""
+msgstr "אני צריך לעשות בדיקה גינקולוגית. בבקשה את יכולה לשכב על השולחן ?"
 
 #: translation/templates/translation/language.html:1564
 #: translation/templates/translation/language.html:1567
 msgid "Il faut retirer vos sous-vêtements"
-msgstr ""
+msgstr "עליך להסיר את התחתונים שלך"
 
 #: translation/templates/translation/language.html:1579
 #: translation/templates/translation/language.html:1582
 msgid "Avez-vous été éjecté du véhicule ?"
-msgstr ""
+msgstr "האם נזרקת מהרכב ?"
 
 #: translation/templates/translation/language.html:1587
 #: translation/templates/translation/language.html:1590
 msgid "A quelle vitesse rouliez-vous ?"
-msgstr ""
+msgstr "לאיזו מהירות נהגת ?"
 
 #: translation/templates/translation/language.html:1595
 #: translation/templates/translation/language.html:1598
 msgid "Etiez-vous casqué ?"
-msgstr ""
+msgstr "האם חבשת קסדה ?"
 
 #: translation/templates/translation/language.html:1603
 #: translation/templates/translation/language.html:1606
 msgid "Aviez-vous votre ceinture de sécurité ?"
-msgstr ""
+msgstr "האם הייתה לך חגורת בטיחות ?"
 
 #: translation/templates/translation/language.html:1611
 #: translation/templates/translation/language.html:1614
 msgid "Avez vous fait une chute ?"
-msgstr ""
+msgstr "האם נפלת ?"
 
 #: translation/templates/translation/language.html:1619
 #: translation/templates/translation/language.html:1622
 msgid "De quelle hauteur êtes-vous tombé ?"
-msgstr ""
+msgstr "מאיזה גובה נפלת ?"
 
 #: translation/templates/translation/language.html:1627
 #: translation/templates/translation/language.html:1630
 msgid "Prenez vous des anticoagulants, des médicaments pour fluidifier le sang ?"
-msgstr ""
+msgstr "האם אתה לוקח נוגדי קרישה או תרופות כדי לדלל את הדם ?"
 
 #: translation/templates/translation/language.html:1635
 #: translation/templates/translation/language.html:1638
 msgid "Je vais installer une collier afin de protéger votre colonne vertébrale"
-msgstr ""
+msgstr "אני אניח לך סד צוואר כדי להגן על עמוד השדרה שלך"
 
 #: translation/templates/translation/language.html:1643
 #: translation/templates/translation/language.html:1646
 msgid "Je dois mettre un antiseptique sur la plaie"
-msgstr ""
+msgstr "אני צריך להוסיף חומר חיטוי על הפצע"
 
 #: translation/templates/translation/language.html:1651
 #: translation/templates/translation/language.html:1654
 msgid "Je dois suturer la plaie"
-msgstr ""
+msgstr "אני צריך לתפור את הפצע"
 
 #: translation/templates/translation/language.html:1659
 #: translation/templates/translation/language.html:1662
 msgid "Je dois faire un pansement"
-msgstr ""
+msgstr "אני צריך לשים פלסטר"
 
 #: translation/templates/translation/language.html:1667
 #: translation/templates/translation/language.html:1670
 msgid "Je vais faire une anesthésie autour de la plaie"
-msgstr ""
+msgstr "אני מרדים אותך"
 
 #: translation/templates/translation/language.html:1675
 #: translation/templates/translation/language.html:1678
 msgid "Ne bougez pas"
-msgstr ""
+msgstr "אל תזוז"
 
 #: translation/templates/translation/language.html:1683
 #: translation/templates/translation/language.html:1686
 msgid "Je dois vous faire un plâtre"
-msgstr ""
+msgstr "אני צריך לשים לך גבס"
 
 #: translation/templates/translation/language.html:1691
 #: translation/templates/translation/language.html:1694
@@ -1491,22 +1491,22 @@ msgstr "לאחר הפעולה יהיה לך:"
 #: translation/templates/translation/language.html:1842
 #: translation/templates/translation/language.html:1845
 msgid "Après l'opération vous aurez une sonde urinaire"
-msgstr ""
+msgstr "קטטר שתן"
 
 #: translation/templates/translation/language.html:1850
 #: translation/templates/translation/language.html:1853
 msgid "Après l'opération vous aurez une sonde gastrique"
-msgstr ""
+msgstr "צינור קיבה"
 
 #: translation/templates/translation/language.html:1858
 #: translation/templates/translation/language.html:1861
 msgid "Après l'opération vous aurez un drain"
-msgstr ""
+msgstr "ניקוז דם"
 
 #: translation/templates/translation/language.html:1866
 #: translation/templates/translation/language.html:1869
 msgid "Après l'opération vous aurez une cicatrice"
-msgstr ""
+msgstr "צלקת"
 
 #: translation/templates/translation/language.html:1874
 #: translation/templates/translation/language.html:1877
@@ -1593,7 +1593,7 @@ msgstr "אתה צריך להישאר על הגב"
 #: translation/templates/translation/language.html:2009
 #: translation/templates/translation/language.html:2012
 msgid "Vous ne devez pas fumer"
-msgstr ""
+msgstr "אסור לעשן כאן"
 
 #: translation/templates/translation/language.html:2025
 #: translation/templates/translation/language.html:2028
@@ -1638,17 +1638,17 @@ msgstr "אתה צריך לחזור"
 #: translation/templates/translation/language.html:2104
 #: translation/templates/translation/language.html:2107
 msgid "Vous devrez faire retirer les fils dans"
-msgstr ""
+msgstr "עליךלהסיר את התפרים בעוד"
 
 #: translation/templates/translation/language.html:2112
 #: translation/templates/translation/language.html:2115
 msgid "Vous devez avoir un plâtre"
-msgstr ""
+msgstr "אני צריך לשים לך גבס"
 
 #: translation/templates/translation/language.html:2120
 #: translation/templates/translation/language.html:2123
 msgid "Vous devrez porter une attelle"
-msgstr ""
+msgstr "אתה צריך קביים"
 
 #: translation/templates/translation/language.html:2128
 #: translation/templates/translation/language.html:2131
@@ -1668,7 +1668,7 @@ msgstr "אתה צריך להישאר בבית חולים"
 #: translation/templates/translation/language.html:2152
 #: translation/templates/translation/language.html:2155
 msgid "Vous allez être transféré dans un autre service"
-msgstr ""
+msgstr "אנחנו נעביר אותך למחלקה אחרת"
 
 #: translation/templates/translation/language.html:2167
 #: translation/templates/translation/language.html:2170
@@ -1698,46 +1698,46 @@ msgstr "אני חם"
 #: translation/templates/translation/language.html:2207
 #: translation/templates/translation/language.html:2210
 msgid "J’ai des nausées"
-msgstr ""
+msgstr "אני בחילה."
 
 #: translation/templates/translation/language.html:2215
 #: translation/templates/translation/language.html:2218
 #: translation/templates/translation/language.html:3103
 #: translation/templates/translation/language.html:3106
 msgid "J’ai vomi"
-msgstr ""
+msgstr "הקאתי"
 
 #: translation/templates/translation/language.html:2223
 #: translation/templates/translation/language.html:2226
 msgid "J’ai uriné (je voudrais être changé)"
-msgstr ""
+msgstr "השתנתי (אני רוצה שיחליפו לי את הבגדים)"
 
 #: translation/templates/translation/language.html:2231
 #: translation/templates/translation/language.html:2234
 msgid "Je voudrais uriner"
-msgstr ""
+msgstr "אני רוצה להשתין"
 
 #: translation/templates/translation/language.html:2239
 #: translation/templates/translation/language.html:2242
 msgid "Je voudrais déféquer"
-msgstr ""
+msgstr "אני רוצה להתרוקן"
 
 #: translation/templates/translation/language.html:2247
 #: translation/templates/translation/language.html:2250
 #: translation/templates/translation/language.html:2775
 #: translation/templates/translation/language.html:2778
 msgid "J’ai des vertiges"
-msgstr ""
+msgstr "אני מרגיש/ה סחרחורת"
 
 #: translation/templates/translation/language.html:2255
 #: translation/templates/translation/language.html:2258
 msgid "J’ai peur"
-msgstr ""
+msgstr "אני מפחד"
 
 #: translation/templates/translation/language.html:2263
 #: translation/templates/translation/language.html:2266
 msgid "Je voudrais être réinstallé"
-msgstr ""
+msgstr "אני רוצה שיעבירו אותי לחדר אחר"
 
 #: translation/templates/translation/language.html:2271
 #: translation/templates/translation/language.html:2274
@@ -1747,76 +1747,76 @@ msgstr "הייתי רוצה מידע"
 #: translation/templates/translation/language.html:2279
 #: translation/templates/translation/language.html:2282
 msgid "J’ai eu un accident"
-msgstr ""
+msgstr "הייתה לי תאונה"
 
 #: translation/templates/translation/language.html:2287
 #: translation/templates/translation/language.html:2290
 msgid "J’étais piéton"
-msgstr ""
+msgstr "הייתי הולך רגל"
 
 #: translation/templates/translation/language.html:2295
 #: translation/templates/translation/language.html:2298
 msgid "J’ai été renversé"
-msgstr ""
+msgstr "נפגעתי מרכב"
 
 #: translation/templates/translation/language.html:2303
 #: translation/templates/translation/language.html:2306
 msgid "Je n’ai pas été renversé"
-msgstr ""
+msgstr "לא נפגעתי מרכב"
 
 #: translation/templates/translation/language.html:2311
 #: translation/templates/translation/language.html:2314
 #: translation/templates/translation/language.html:2439
 #: translation/templates/translation/language.html:2442
 msgid "Je suis tombé"
-msgstr ""
+msgstr "נפלתי"
 
 #: translation/templates/translation/language.html:2319
 #: translation/templates/translation/language.html:2322
 msgid "J’ai reçu un coup"
-msgstr ""
+msgstr "נפגעתי"
 
 #: translation/templates/translation/language.html:2327
 #: translation/templates/translation/language.html:2330
 msgid "J’étais en voiture"
-msgstr ""
+msgstr "היתי במכונית"
 
 #: translation/templates/translation/language.html:2335
 #: translation/templates/translation/language.html:2338
 #: translation/templates/translation/language.html:2415
 #: translation/templates/translation/language.html:2418
 msgid "Je roulais à “x” km/h"
-msgstr ""
+msgstr "נסעתי במהירות של XX קמ״ש"
 
 #: translation/templates/translation/language.html:2343
 #: translation/templates/translation/language.html:2346
 msgid "J’avais ma ceinture de sécurité"
-msgstr ""
+msgstr "היתה לי חגורת בטיחות"
 
 #: translation/templates/translation/language.html:2351
 #: translation/templates/translation/language.html:2354
 msgid "Je n’avais pas de ceinture de sécurité"
-msgstr ""
+msgstr "לא היתה לי חגורת בטיחות"
 
 #: translation/templates/translation/language.html:2359
 #: translation/templates/translation/language.html:2362
 msgid "J’ai été éjecté pendant l’accident"
-msgstr ""
+msgstr "נזרקתי מהרכב במהלך התאונה"
 
 #: translation/templates/translation/language.html:2367
 #: translation/templates/translation/language.html:2370
 msgid "Je n’ai pas été éjecté pendant l’accident"
-msgstr ""
+msgstr "לא נזרקתי מהרכב במהלך התאונה"
 
 #: translation/templates/translation/language.html:2375
 #: translation/templates/translation/language.html:2378
 msgid "L’air-bag s’est déclenché"
-msgstr ""
+msgstr "כרית אוויר נפרסה"
 
 #: translation/templates/translation/language.html:2383
 #: translation/templates/translation/language.html:2386
 msgid "L’air-bag ne s’est pas déclenché"
-msgstr ""
+msgstr "כרית אוויר לא נפרסה"
 
 #: translation/templates/translation/language.html:2391
 #: translation/templates/translation/language.html:2394
@@ -1836,32 +1836,32 @@ msgstr "הייתי על האופנוע שלי"
 #: translation/templates/translation/language.html:2423
 #: translation/templates/translation/language.html:2426
 msgid "J’avais un casque"
-msgstr ""
+msgstr "היתה לי קסדה"
 
 #: translation/templates/translation/language.html:2431
 #: translation/templates/translation/language.html:2434
 msgid "Je n’avais pas de casque"
-msgstr ""
+msgstr "לא היתה לי קסדה"
 
 #: translation/templates/translation/language.html:2447
 #: translation/templates/translation/language.html:2450
 msgid "Je suis tombé de ma hauteur"
-msgstr ""
+msgstr "נפלתי מהגובה שלי"
 
 #: translation/templates/translation/language.html:2455
 #: translation/templates/translation/language.html:2458
 msgid "Je suis tombé de “x” mètres de hauteur"
-msgstr ""
+msgstr "נפלתי מגובה של XX מטר"
 
 #: translation/templates/translation/language.html:2463
 #: translation/templates/translation/language.html:2466
 msgid "Ma tête a tapé pendant l’accident"
-msgstr ""
+msgstr "ראשי נפגע במהלך התאונה"
 
 #: translation/templates/translation/language.html:2471
 #: translation/templates/translation/language.html:2474
 msgid "Ma tête n’a pas tapé pendant l’accident"
-msgstr ""
+msgstr "ראשי לא נפגע במהלך התאונה"
 
 #: translation/templates/translation/language.html:2479
 #: translation/templates/translation/language.html:2482
@@ -1907,24 +1907,24 @@ msgstr "הבטן שלי כואבת"
 #: translation/templates/translation/language.html:2543
 #: translation/templates/translation/language.html:2546
 msgid "Je prend des anticoagulants (médicaments pour fluidifier le sang)"
-msgstr ""
+msgstr "אני לוקח/ת נוגדי קרישה כדי לדלל את הדם"
 
 #: translation/templates/translation/language.html:2551
 #: translation/templates/translation/language.html:2554
 msgid "Je ne prend pas d’anticoagulants (médicaments pour fluidifier le sang)"
-msgstr ""
+msgstr "אני לא לוקח/ת נוגדי קרישה"
 
 #: translation/templates/translation/language.html:2559
 #: translation/templates/translation/language.html:2562
 msgid "Tête"
-msgstr ""
+msgstr "ראש"
 
 #: translation/templates/translation/language.html:2567
 #: translation/templates/translation/language.html:2570
 #: translation/templates/translation/language.html:3431
 #: translation/templates/translation/language.html:3434
 msgid "J’ai des douleurs depuis :"
-msgstr ""
+msgstr "כואב לי מאז"
 
 #: translation/templates/translation/language.html:2583
 #: translation/templates/translation/language.html:2586
@@ -1939,162 +1939,162 @@ msgstr ""
 #: translation/templates/translation/language.html:2599
 #: translation/templates/translation/language.html:2602
 msgid "J’arrive bien à bouger mes bras et jambes"
-msgstr ""
+msgstr "אני יכול/ה להזיז את הידיים והרגליים בקלות"
 
 #: translation/templates/translation/language.html:2607
 #: translation/templates/translation/language.html:2610
 msgid "Je n’arrive pas a bouger un bras ou une jambe"
-msgstr ""
+msgstr "אני לא יכול/ה להזיז את הידיים והרגליים"
 
 #: translation/templates/translation/language.html:2615
 #: translation/templates/translation/language.html:2618
 msgid "J’arrive bien à parler"
-msgstr ""
+msgstr "אני יכול/ה לדבר"
 
 #: translation/templates/translation/language.html:2623
 #: translation/templates/translation/language.html:2626
 msgid "J’ai des difficultés à parler"
-msgstr ""
+msgstr "קשה לי לדבר"
 
 #: translation/templates/translation/language.html:2631
 #: translation/templates/translation/language.html:2634
 msgid "La lumière me dérange"
-msgstr ""
+msgstr "האור מפריע לי"
 
 #: translation/templates/translation/language.html:2639
 #: translation/templates/translation/language.html:2642
 msgid "La lumière ne me dérange pas"
-msgstr ""
+msgstr "האור לא מפריע לי"
 
 #: translation/templates/translation/language.html:2647
 #: translation/templates/translation/language.html:2650
 msgid "J’ai de la fièvre"
-msgstr ""
+msgstr "יש לי חום"
 
 #: translation/templates/translation/language.html:2655
 #: translation/templates/translation/language.html:2658
 msgid "Je n’ai pas de fièvre"
-msgstr ""
+msgstr "אין לי חום"
 
 #: translation/templates/translation/language.html:2663
 #: translation/templates/translation/language.html:2666
 msgid "J’ai des douleurs à la nuque"
-msgstr ""
+msgstr "כואב לי העורף"
 
 #: translation/templates/translation/language.html:2671
 #: translation/templates/translation/language.html:2674
 msgid "Je n’ai pas de douleurs à la nuque"
-msgstr ""
+msgstr "לא כואב לי העורף"
 
 #: translation/templates/translation/language.html:2679
 #: translation/templates/translation/language.html:2682
 msgid "J’ai fais un malaise"
-msgstr ""
+msgstr "התעלפתי"
 
 #: translation/templates/translation/language.html:2687
 #: translation/templates/translation/language.html:2690
 msgid "Je n’ai pas fais de malaise"
-msgstr ""
+msgstr "לא התעלפתי"
 
 #: translation/templates/translation/language.html:2695
 #: translation/templates/translation/language.html:2698
 msgid "J’ai perdu connaissance"
-msgstr ""
+msgstr "איבדתי את ההכרה"
 
 #: translation/templates/translation/language.html:2703
 #: translation/templates/translation/language.html:2706
 msgid "Je n’ai pas perdu connaissance"
-msgstr ""
+msgstr "לא איבדתי את ההכרה"
 
 #: translation/templates/translation/language.html:2711
 #: translation/templates/translation/language.html:2714
 msgid "J’ai perdu mes urines"
-msgstr ""
+msgstr "הייתה לי דליפת שתן"
 
 #: translation/templates/translation/language.html:2719
 #: translation/templates/translation/language.html:2722
 msgid "Je n’ai pas perdu mes urines"
-msgstr ""
+msgstr "לא הייתה לי דליפת שתן"
 
 #: translation/templates/translation/language.html:2727
 #: translation/templates/translation/language.html:2730
 msgid "J’ai convulsé"
-msgstr ""
+msgstr "היו לי כמה התקפים"
 
 #: translation/templates/translation/language.html:2735
 #: translation/templates/translation/language.html:2738
 msgid "Je n’ai pas convulsé"
-msgstr ""
+msgstr "לא היו לי כמה התקפים"
 
 #: translation/templates/translation/language.html:2743
 #: translation/templates/translation/language.html:2746
 msgid "Je suis épileptique"
-msgstr ""
+msgstr "אני אפילפטי"
 
 #: translation/templates/translation/language.html:2751
 #: translation/templates/translation/language.html:2754
 msgid "Je ne suis pas épileptique"
-msgstr ""
+msgstr "אני לא אפילפטי"
 
 #: translation/templates/translation/language.html:2759
 #: translation/templates/translation/language.html:2762
 msgid "J’ai pris mes traitements aujourd’hui"
-msgstr ""
+msgstr "לקחתי את התרופות שלי היום"
 
 #: translation/templates/translation/language.html:2767
 #: translation/templates/translation/language.html:2770
 msgid "Je n’ai pas pris mes traitements aujourd’hui"
-msgstr ""
+msgstr "לא לקחתי את התרופות שלי היום"
 
 #: translation/templates/translation/language.html:2783
 #: translation/templates/translation/language.html:2786
 msgid "Je n’ai pas de vertiges"
-msgstr ""
+msgstr "אני לא מרגיש/ה סחרחורת"
 
 #: translation/templates/translation/language.html:2791
 #: translation/templates/translation/language.html:2794
 msgid "Je suis diabétique"
-msgstr ""
+msgstr "אני סוכרתי"
 
 #: translation/templates/translation/language.html:2799
 #: translation/templates/translation/language.html:2802
 msgid "Je ne suis pas diabétique"
-msgstr ""
+msgstr "אני לא סוכרתי"
 
 #: translation/templates/translation/language.html:2807
 #: translation/templates/translation/language.html:2810
 msgid "J’ai mangé aujourd’hui"
-msgstr ""
+msgstr "אכלתי היום"
 
 #: translation/templates/translation/language.html:2815
 #: translation/templates/translation/language.html:2818
 msgid "Je n’ai pas mangé aujourd’hui"
-msgstr ""
+msgstr "לא אכלתי היום"
 
 #: translation/templates/translation/language.html:2823
 #: translation/templates/translation/language.html:2826
 msgid "Torse"
-msgstr ""
+msgstr "חזה / טורסו"
 
 #: translation/templates/translation/language.html:2831
 #: translation/templates/translation/language.html:2834
 msgid "J’ai eu un choc au torse récemment"
-msgstr ""
+msgstr "לאחרונה נפגעתי בחזה / בטורסו"
 
 #: translation/templates/translation/language.html:2839
 #: translation/templates/translation/language.html:2842
 msgid "Je n’ai pas eu de choc au torse récemment"
-msgstr ""
+msgstr "לאחרונה לא נפגעתי בחזה / בטורסו"
 
 #: translation/templates/translation/language.html:2847
 #: translation/templates/translation/language.html:2850
 msgid "La douleur est encore présente"
-msgstr ""
+msgstr "עדיין כואב לי"
 
 #: translation/templates/translation/language.html:2855
 #: translation/templates/translation/language.html:2858
 msgid "La douleur n’est plus présente"
-msgstr ""
+msgstr "הכאב כבר לא כאן"
 
 #: translation/templates/translation/language.html:2863
 #: translation/templates/translation/language.html:2866
@@ -2120,257 +2120,257 @@ msgstr ""
 #: translation/templates/translation/language.html:2895
 #: translation/templates/translation/language.html:2898
 msgid "La douleur irradie vers :"
-msgstr ""
+msgstr "הכאב מתפשט ל"
 
 #: translation/templates/translation/language.html:2903
 #: translation/templates/translation/language.html:2906
 msgid "Machoire"
-msgstr ""
+msgstr "לסת"
 
 #: translation/templates/translation/language.html:2911
 #: translation/templates/translation/language.html:2914
 msgid "Je ressent des palpitations"
-msgstr ""
+msgstr "אני מרגיש/ה דפיקות לב"
 
 #: translation/templates/translation/language.html:2919
 #: translation/templates/translation/language.html:2922
 msgid "Je ne ressent pas de palpitations"
-msgstr ""
+msgstr "אני לא מרגיש/ה דפיקות לב"
 
 #: translation/templates/translation/language.html:2927
 #: translation/templates/translation/language.html:2930
 msgid "Dans ma famille il y a des problèmes cardiaques"
-msgstr ""
+msgstr "למשפחה שלי יש בעיות לב"
 
 #: translation/templates/translation/language.html:2935
 #: translation/templates/translation/language.html:2938
 msgid "Dans ma famille il n’y a pas de problème cardiaque"
-msgstr ""
+msgstr "למשפחה שלי אין בעיות לב"
 
 #: translation/templates/translation/language.html:2943
 #: translation/templates/translation/language.html:2946
 msgid "La douleur est plus forte quand je respire"
-msgstr ""
+msgstr "הכאב חזק יותר כשאני נושם/ת"
 
 #: translation/templates/translation/language.html:2951
 #: translation/templates/translation/language.html:2954
 msgid "La douleur n’est pas plus forte quand je respire"
-msgstr ""
+msgstr "הכאב לא חזק יותר כשאני נושם/ת"
 
 #: translation/templates/translation/language.html:2959
 #: translation/templates/translation/language.html:2962
 msgid "Je crache du sang"
-msgstr ""
+msgstr "אני משתעל/ת דם"
 
 #: translation/templates/translation/language.html:2967
 #: translation/templates/translation/language.html:2970
 msgid "Je ne crache pas du sang"
-msgstr ""
+msgstr "אני לא משתעל/ת דם"
 
 #: translation/templates/translation/language.html:2975
 #: translation/templates/translation/language.html:2978
 msgid "Je tousse"
-msgstr ""
+msgstr "אני משתעל/ת"
 
 #: translation/templates/translation/language.html:2983
 #: translation/templates/translation/language.html:2986
 msgid "Je ne tousse pas"
-msgstr ""
+msgstr "אני לא משתעל/ת"
 
 #: translation/templates/translation/language.html:2991
 #: translation/templates/translation/language.html:2994
 msgid "J’ai des difficultés à respirer"
-msgstr ""
+msgstr "קשה לי לנשום"
 
 #: translation/templates/translation/language.html:2999
 #: translation/templates/translation/language.html:3002
 msgid "Je n’ai pas de difficultés à respirer"
-msgstr ""
+msgstr "לא קשה לי לנשום"
 
 #: translation/templates/translation/language.html:3007
 #: translation/templates/translation/language.html:3010
 msgid "J’ai respiré des fumées"
-msgstr ""
+msgstr "שאפתי כמה אדים"
 
 #: translation/templates/translation/language.html:3015
 #: translation/templates/translation/language.html:3018
 msgid "Je fume."
-msgstr ""
+msgstr "אני מעשן/ת"
 
 #: translation/templates/translation/language.html:3023
 #: translation/templates/translation/language.html:3026
 msgid "Je ne fume pas"
-msgstr ""
+msgstr "אני לא מעשן/ת"
 
 #: translation/templates/translation/language.html:3031
 #: translation/templates/translation/language.html:3034
 msgid "Je bois de l’alcool"
-msgstr ""
+msgstr "אני שותה כוהל"
 
 #: translation/templates/translation/language.html:3039
 #: translation/templates/translation/language.html:3042
 msgid "Je ne bois pas d’alcool"
-msgstr ""
+msgstr "אני לא שותה כוהל"
 
 #: translation/templates/translation/language.html:3047
 #: translation/templates/translation/language.html:3050
 msgid "J’ai du cholestérol"
-msgstr ""
+msgstr "יש לי כולסטרול"
 
 #: translation/templates/translation/language.html:3055
 #: translation/templates/translation/language.html:3058
 msgid "Je n’ai pas de cholestérol"
-msgstr ""
+msgstr "אין לי כולסטרול"
 
 #: translation/templates/translation/language.html:3063
 #: translation/templates/translation/language.html:3066
 msgid "Je suis asthmatique"
-msgstr ""
+msgstr "אני אסתמטי"
 
 #: translation/templates/translation/language.html:3071
 #: translation/templates/translation/language.html:3074
 msgid "Je ne suis pas asthmatique"
-msgstr ""
+msgstr "אני לא אסתמטי"
 
 #: translation/templates/translation/language.html:3079
 #: translation/templates/translation/language.html:3082
 msgid "Ventre"
-msgstr ""
+msgstr "בטן"
 
 #: translation/templates/translation/language.html:3087
 #: translation/templates/translation/language.html:3090
 msgid "J'ai des nausées"
-msgstr ""
+msgstr "יש לי בחילה"
 
 #: translation/templates/translation/language.html:3095
 #: translation/templates/translation/language.html:3098
 msgid "Je n'ai pas de nausées"
-msgstr ""
+msgstr "אין לי בחילה"
 
 #: translation/templates/translation/language.html:3111
 #: translation/templates/translation/language.html:3114
 msgid "Je n’ai pas vomi"
-msgstr ""
+msgstr "לא הקאתי"
 
 #: translation/templates/translation/language.html:3119
 #: translation/templates/translation/language.html:3122
 msgid "Des aliments"
-msgstr ""
+msgstr "מזון"
 
 #: translation/templates/translation/language.html:3127
 #: translation/templates/translation/language.html:3130
 msgid "Du sang"
-msgstr ""
+msgstr "דם"
 
 #: translation/templates/translation/language.html:3135
 #: translation/templates/translation/language.html:3138
 msgid "Une fois"
-msgstr ""
+msgstr "פעם אחת"
 
 #: translation/templates/translation/language.html:3143
 #: translation/templates/translation/language.html:3146
 msgid "Deux fois"
-msgstr ""
+msgstr "פעמיים"
 
 #: translation/templates/translation/language.html:3151
 #: translation/templates/translation/language.html:3154
 msgid "Plusieurs fois"
-msgstr ""
+msgstr "מספר פעמים"
 
 #: translation/templates/translation/language.html:3159
 #: translation/templates/translation/language.html:3162
 msgid "J’ai des diarrhées"
-msgstr ""
+msgstr "יש לי שלשול"
 
 #: translation/templates/translation/language.html:3167
 #: translation/templates/translation/language.html:3170
 msgid "Je n’ai pas de diarrhées"
-msgstr ""
+msgstr "אין לי שלשול"
 
 #: translation/templates/translation/language.html:3175
 #: translation/templates/translation/language.html:3178
 msgid "J’ai des gazs"
-msgstr ""
+msgstr "יש לי גזים"
 
 #: translation/templates/translation/language.html:3183
 #: translation/templates/translation/language.html:3186
 msgid "Je n’ai plus de gazs"
-msgstr ""
+msgstr "כבר אין לי גזים"
 
 #: translation/templates/translation/language.html:3191
 #: translation/templates/translation/language.html:3194
 msgid "Mes dernières urines étaient il y a :"
-msgstr ""
+msgstr "השתנתי לפעם האחרונה לפני"
 
 #: translation/templates/translation/language.html:3199
 #: translation/templates/translation/language.html:3202
 msgid "Il y avait du sang dans mes urines"
-msgstr ""
+msgstr "היה דם בשתן שלי"
 
 #: translation/templates/translation/language.html:3207
 #: translation/templates/translation/language.html:3210
 msgid "Il n’y avait pas de sang dans mes urines"
-msgstr ""
+msgstr "לא היה דם בשתן שלי"
 
 #: translation/templates/translation/language.html:3215
 #: translation/templates/translation/language.html:3218
 msgid "J’ai des brûlures quand j’urine"
-msgstr ""
+msgstr "זה נשרף כשאני משתין/ה"
 
 #: translation/templates/translation/language.html:3223
 #: translation/templates/translation/language.html:3226
 msgid "Je n’ai pas de brûlures quand j’urine"
-msgstr ""
+msgstr "זה לא נשרף כשאני משתין/ה"
 
 #: translation/templates/translation/language.html:3231
 #: translation/templates/translation/language.html:3234
 msgid "Mes dernières selles étaient il y a :"
-msgstr ""
+msgstr "הצואה האחרונה שלי היתה לפני"
 
 #: translation/templates/translation/language.html:3239
 #: translation/templates/translation/language.html:3242
 msgid "Il y avait du sang dans mes selles"
-msgstr ""
+msgstr "היה דם בצואה שלי"
 
 #: translation/templates/translation/language.html:3247
 #: translation/templates/translation/language.html:3250
 msgid "Il n’y avait pas de sang dans mes selles"
-msgstr ""
+msgstr "לא היה דם בצואה שלי"
 
 #: translation/templates/translation/language.html:3255
 #: translation/templates/translation/language.html:3258
 msgid "Mes dernières règles étaient il y a :"
-msgstr ""
+msgstr "המחזור האחרון שלי היה"
 
 #: translation/templates/translation/language.html:3263
 #: translation/templates/translation/language.html:3266
 msgid "Je suis enceinte"
-msgstr ""
+msgstr "אני בהריון"
 
 #: translation/templates/translation/language.html:3271
 #: translation/templates/translation/language.html:3274
 msgid "Je ne suis pas enceinte"
-msgstr ""
+msgstr "אני לא בהריון"
 
 #: translation/templates/translation/language.html:3279
 #: translation/templates/translation/language.html:3282
 msgid "Depuis “x” semaines"
-msgstr ""
+msgstr "כבר X שבועות"
 
 #: translation/templates/translation/language.html:3287
 #: translation/templates/translation/language.html:3290
 msgid "J’ai eu des pertes par voie basse"
-msgstr ""
+msgstr "היה לי דימום במהלך הלידה הטבעית"
 
 #: translation/templates/translation/language.html:3295
 #: translation/templates/translation/language.html:3298
 msgid "Je n’ai pas eu de perte par voie basse"
-msgstr ""
+msgstr "לא היה לי דימום במהלך הלידה הטבעית"
 
 #: translation/templates/translation/language.html:3303
 #: translation/templates/translation/language.html:3306
 msgid "Mes pertes étaient :"
-msgstr ""
+msgstr "הדימום שלי היה"
 
 #: translation/templates/translation/language.html:3311
 #: translation/templates/translation/language.html:3314
@@ -2385,87 +2385,87 @@ msgstr ""
 #: translation/templates/translation/language.html:3327
 #: translation/templates/translation/language.html:3330
 msgid "J’ai perdu du poids ces derniers temps"
-msgstr ""
+msgstr "לאחרונה ירדתי במשקל"
 
 #: translation/templates/translation/language.html:3335
 #: translation/templates/translation/language.html:3338
 msgid "Je n’ai pas perdu de poids ces derniers temps"
-msgstr ""
+msgstr "לאחרונה לא ירדתי במשקל"
 
 #: translation/templates/translation/language.html:3343
 #: translation/templates/translation/language.html:3346
 msgid "Dos / Cou"
-msgstr ""
+msgstr "גב / צוואר"
 
 #: translation/templates/translation/language.html:3351
 #: translation/templates/translation/language.html:3354
 msgid "Ma douleur n’irradie pas vers la fesse ou la jambe"
-msgstr ""
+msgstr "הכאב לא מתפשט לעכוז / לרגל"
 
 #: translation/templates/translation/language.html:3359
 #: translation/templates/translation/language.html:3362
 msgid "Ma douleur irradie vers la fesse ou la jambe"
-msgstr ""
+msgstr "הכאב מתפשט לעכוז / לרגל"
 
 #: translation/templates/translation/language.html:3367
 #: translation/templates/translation/language.html:3370
 msgid "Je n’ai pas le dos bloqué"
-msgstr ""
+msgstr "הגב שלי לא מרגיש חסום"
 
 #: translation/templates/translation/language.html:3375
 #: translation/templates/translation/language.html:3378
 msgid "J’ai le dos bloqué"
-msgstr ""
+msgstr "הגב שלי מרגיש חסום"
 
 #: translation/templates/translation/language.html:3383
 #: translation/templates/translation/language.html:3386
 msgid "J’ai mal surtout le soir"
-msgstr ""
+msgstr "כואב לי במיוחד בלילה"
 
 #: translation/templates/translation/language.html:3391
 #: translation/templates/translation/language.html:3394
 msgid "J’ai mal surtout le matin"
-msgstr ""
+msgstr "כואב לי במיוחד בבוקר"
 
 #: translation/templates/translation/language.html:3399
 #: translation/templates/translation/language.html:3402
 msgid "Bras"
-msgstr ""
+msgstr "יד / זרוע"
 
 #: translation/templates/translation/language.html:3407
 #: translation/templates/translation/language.html:3410
 msgid "Jambe"
-msgstr ""
+msgstr "רגל"
 
 #: translation/templates/translation/language.html:3415
 #: translation/templates/translation/language.html:3418
 msgid "J’ai reçu un coup récemment"
-msgstr ""
+msgstr "קיבלתי מכה לאחרונה"
 
 #: translation/templates/translation/language.html:3423
 #: translation/templates/translation/language.html:3426
 msgid "Je n’ai pas reçu de coup récemment"
-msgstr ""
+msgstr "לא קיבלתי מכה לאחרונה"
 
 #: translation/templates/translation/language.html:3439
 #: translation/templates/translation/language.html:3442
 msgid "J’ai été piqué ou mordu récemment"
-msgstr ""
+msgstr "נעקצתי / ננשכתי לאחרונה"
 
 #: translation/templates/translation/language.html:3447
 #: translation/templates/translation/language.html:3450
 msgid "Je n’ai pas été piqué ou mordu récemment"
-msgstr ""
+msgstr "לא נעקצתי / ננשכתי לאחרונה"
 
 #: translation/templates/translation/language.html:3455
 #: translation/templates/translation/language.html:3458
 msgid "Ca me démange"
-msgstr ""
+msgstr "זה מגרד"
 
 #: translation/templates/translation/language.html:3463
 #: translation/templates/translation/language.html:3466
 msgid "Ca ne me démange pas"
-msgstr ""
+msgstr "זה לא מגרד"
 
 #: translation/templates/translation/language.html:3471
 #: translation/templates/translation/language.html:3474
@@ -2546,27 +2546,27 @@ msgstr "איפה בית המרקחת הקרוב ביותר?"
 #: translation/templates/translation/language.html:3591
 #: translation/templates/translation/language.html:3594
 msgid "J'ai besoin de secours, pouvez-vous les appeler ?"
-msgstr ""
+msgstr "הצטרך הצלה אתה יכול להיתקשׁ"
 
 #: translation/templates/translation/language.html:3599
 #: translation/templates/translation/language.html:3602
 msgid "Vous allez avoir une IRM"
-msgstr ""
+msgstr "MRI"
 
 #: translation/templates/translation/language.html:3607
 #: translation/templates/translation/language.html:3610
 msgid "L'examen est long. Il dure entre 15 et 40 minutes"
-msgstr ""
+msgstr ".הבדיקה ארוכה. היא אורכת בין 15-40 דקות"
 
 #: translation/templates/translation/language.html:3615
 #: translation/templates/translation/language.html:3618
 msgid "L'examen n'est pas douloureux mais il est très bruyant"
-msgstr ""
+msgstr ".הבדיקה לא כואבת אבל היא מאוד רועשת"
 
 #: translation/templates/translation/language.html:3623
 #: translation/templates/translation/language.html:3626
 msgid "Il faut rester immobile pendant toute la durée de l'examen"
-msgstr ""
+msgstr ".הבדיקה לא כואבת אבל היא מאוד רועשת"
 
 #: translation/templates/translation/language.html:3639
 #: translation/templates/translation/language.html:3642
@@ -2581,27 +2581,27 @@ msgstr ""
 #: translation/templates/translation/language.html:3663
 #: translation/templates/translation/language.html:3666
 msgid "Quelle est votre taille et votre poids ?"
-msgstr ""
+msgstr "?מה הם הגובה והמשקל שלך"
 
 #: translation/templates/translation/language.html:3679
 #: translation/templates/translation/language.html:3682
 msgid "Nous allons injecter un produit de contraste qui va vous donner chaud dans tout le corps, c'est normal ne vous inquiétez pas"
-msgstr ""
+msgstr ".שיגרום לך להרגיש חמימות בכל הגוף. זה נורמלי אל תדאג de contraste אנחנו נזריק לך חומר"
 
 #: translation/templates/translation/language.html:3687
 #: translation/templates/translation/language.html:3690
 msgid "Prenez-vous un traitement pour la thyroïde ?"
-msgstr ""
+msgstr "?האם אתה נוקט איזשהו טיפול עבור בלוטת התריס"
 
 #: translation/templates/translation/language.html:3695
 #: translation/templates/translation/language.html:3698
 msgid "Avez-vous des problèmes rénaux ?"
-msgstr ""
+msgstr "?האם יש לך בעיות בכליות"
 
 #: translation/templates/translation/language.html:3703
 #: translation/templates/translation/language.html:3706
 msgid "Pouvez-vous signer l’autorisation de soins ci-dessous ?"
-msgstr ""
+msgstr "?האם אתה יכול לחתום על טופס אישור טיפול רפואי"
 
 #: translation/templates/translation/language.html:3711
 #: translation/templates/translation/language.html:3714
@@ -3327,7 +3327,7 @@ msgid "Fidjien"
 msgstr ""
 
 msgid "Français"
-msgstr ""
+msgstr "Translation in hebreu"
 
 msgid "Créole Haitien"
 msgstr ""
