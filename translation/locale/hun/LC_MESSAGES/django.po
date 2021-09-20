@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 73d3b19e82fc460fd936796fc5b25f94\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-11 15:45+0000\n"
-"PO-Revision-Date: 2021-03-30 10:31\n"
+"PO-Revision-Date: 2021-09-20 09:36\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Language: hu\n"
@@ -83,7 +83,7 @@ msgstr "A vizsgálat során kérni fogjuk önt, hogy vegyen egy nagy levegőt é
 #: translation/templates/translation/language.html:2017
 #: translation/templates/translation/language.html:2020
 msgid "Pour nous appeler appuyer ici"
-msgstr ""
+msgstr "Ahhoz, hogy hívjon minket, itt nyomja meg a gombot!"
 
 #: translation/templates/doctemplates/irm.html:47
 msgid "Checklist IRM"
@@ -216,7 +216,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3631
 #: translation/templates/translation/language.html:3634
 msgid "Avez-vous des éclats métalliques dans les yeux?"
-msgstr ""
+msgstr "Fém szilánkok a szemében?"
 
 #: translation/templates/doctemplates/irm.html:188
 #: translation/templates/doctemplates/irm.html:189
@@ -326,17 +326,17 @@ msgstr "Neurológia"
 #: translation/templates/sidenav.html:15
 #: translation/templates/translation/language.html:686
 msgid "PNEUMOLOGIE"
-msgstr ""
+msgstr "Pulmanológia"
 
 #: translation/templates/sidenav.html:16
 #: translation/templates/translation/language.html:773
 msgid "CARDIOLOGIE"
-msgstr ""
+msgstr "Kardiológia"
 
 #: translation/templates/sidenav.html:17
 #: translation/templates/translation/language.html:932
 msgid "MALAISE"
-msgstr ""
+msgstr "Szédülés"
 
 #: translation/templates/sidenav.html:18
 #: translation/templates/translation/language.html:1043
@@ -346,12 +346,12 @@ msgstr "emésztési problémák"
 #: translation/templates/sidenav.html:19
 #: translation/templates/translation/language.html:1194
 msgid "INFECTIEUX"
-msgstr ""
+msgstr "fertőző problémák"
 
 #: translation/templates/sidenav.html:20
 #: translation/templates/translation/language.html:1273
 msgid "OPHTALMOLOGIE"
-msgstr ""
+msgstr "Szemészet"
 
 #: translation/templates/sidenav.html:21
 #: translation/templates/translation/language.html:1320
@@ -361,17 +361,17 @@ msgstr "Kórtörténet"
 #: translation/templates/sidenav.html:22
 #: translation/templates/translation/language.html:1399
 msgid "PEDIATRIE"
-msgstr ""
+msgstr "Gyermekgyógyászati problémák"
 
 #: translation/templates/sidenav.html:23
 #: translation/templates/translation/language.html:1470
 msgid "GYNECOLOGIE"
-msgstr ""
+msgstr "Nőgyógyászat"
 
 #: translation/templates/sidenav.html:24
 #: translation/templates/translation/language.html:1573
 msgid "TRAUMATOLOGIE"
-msgstr ""
+msgstr "Traumatológia"
 
 #: translation/templates/sidenav.html:25
 #: translation/templates/translation/language.html:1700
@@ -440,47 +440,47 @@ msgstr ""
 #: translation/templates/translation/language.html:49
 #: translation/templates/translation/language.html:52
 msgid "Je vais utiliser le téléphone pour traduire les questions que j'ai à vous poser, êtes vous d'accord ?"
-msgstr ""
+msgstr "Nem bánja, ha használom a telefonomat a fordításhoz?"
 
 #: translation/templates/translation/language.html:57
 #: translation/templates/translation/language.html:60
 msgid "Bonjour, je suis infirmière"
-msgstr ""
+msgstr "Jó napot kívánok, Én ápoló személyzet"
 
 #: translation/templates/translation/language.html:65
 #: translation/templates/translation/language.html:68
 msgid "Bonjour, je suis médecin"
-msgstr ""
+msgstr "Jó napot kívánok, Én orvos"
 
 #: translation/templates/translation/language.html:73
 #: translation/templates/translation/language.html:76
 msgid "Bonjour, je suis secouriste"
-msgstr ""
+msgstr "Jó napot kívánok, Én első segélynyújtó"
 
 #: translation/templates/translation/language.html:81
 #: translation/templates/translation/language.html:84
 msgid "Bonjour, je suis bénévole"
-msgstr ""
+msgstr "Jó napot kívánok, Én Önkéntes"
 
 #: translation/templates/translation/language.html:89
 #: translation/templates/translation/language.html:92
 msgid "Bonjour, je suis agent d'accueil"
-msgstr ""
+msgstr "Jó napot kívánok, Én recepciós"
 
 #: translation/templates/translation/language.html:97
 #: translation/templates/translation/language.html:100
 msgid "Bonjour, je suis étudiant en médecine"
-msgstr ""
+msgstr "Jó napot kívánok, Én orvostan hallgató"
 
 #: translation/templates/translation/language.html:105
 #: translation/templates/translation/language.html:108
 msgid "Bonjour, je suis sage-femme"
-msgstr ""
+msgstr "Jó napot kívánok, Én szülésznő (vagy régiesen bába)"
 
 #: translation/templates/translation/language.html:113
 #: translation/templates/translation/language.html:116
 msgid "Bonjour, je suis secrétaire"
-msgstr ""
+msgstr "Jó napot kívánok, Én titkárnő"
 
 #: translation/templates/translation/language.html:121
 #: translation/templates/translation/language.html:124
@@ -495,7 +495,7 @@ msgstr "Megmutatná az útlevelét?"
 #: translation/templates/translation/language.html:144
 #: translation/templates/translation/language.html:147
 msgid "Pouvez-vous me montrez une carte d’identité"
-msgstr ""
+msgstr "Láthatnám a személy igazolványát?"
 
 #: translation/templates/translation/language.html:152
 #: translation/templates/translation/language.html:155
@@ -510,12 +510,12 @@ msgstr "Van-e Európai egészség kártyája?"
 #: translation/templates/translation/language.html:168
 #: translation/templates/translation/language.html:171
 msgid "Pouvez-vous me montre une carte d’assurance privée"
-msgstr ""
+msgstr "Rendelkezik-e bármilyen magán biztosítással? Önnél van a kártyája?"
 
 #: translation/templates/translation/language.html:176
 #: translation/templates/translation/language.html:179
 msgid "Les frais des soins seront à votre charge"
-msgstr ""
+msgstr "Az ellátás költségét a biztosítás nem fogja fedezi, és önnek kell majd"
 
 #: translation/templates/translation/language.html:184
 #: translation/templates/translation/language.html:187
@@ -545,17 +545,17 @@ msgstr "Kérem várjon"
 #: translation/templates/translation/language.html:231
 #: translation/templates/translation/language.html:234
 msgid "Je vous laisse attendre sur les chaises"
-msgstr ""
+msgstr "Kérem várjon a széken"
 
 #: translation/templates/translation/language.html:239
 #: translation/templates/translation/language.html:242
 msgid "Je vous laisse attendre sur le banc"
-msgstr ""
+msgstr "Kérem várjon a padon"
 
 #: translation/templates/translation/language.html:247
 #: translation/templates/translation/language.html:250
 msgid "Je vous laisse attendre dans la salle d'attente"
-msgstr ""
+msgstr "Kérem várjon váróterem"
 
 #: translation/templates/translation/language.html:255
 #: translation/templates/translation/language.html:258
@@ -686,7 +686,7 @@ msgstr "Az alsóneműt magán hagyhatja"
 #: translation/templates/translation/language.html:478
 #: translation/templates/translation/language.html:481
 msgid "Vous pouvez vous asseoir sur la chaise"
-msgstr ""
+msgstr "Kérem üljön le a székre"
 
 #: translation/templates/translation/language.html:486
 #: translation/templates/translation/language.html:489
@@ -716,7 +716,7 @@ msgstr "Tudja, hol van?"
 #: translation/templates/translation/language.html:533
 #: translation/templates/translation/language.html:536
 msgid "Suivez mon doigt du regard"
-msgstr ""
+msgstr "Kövesse az ujjamat a tekintetével!"
 
 #: translation/templates/translation/language.html:541
 #: translation/templates/translation/language.html:544
@@ -736,7 +736,7 @@ msgstr "Nézze meg a szemét"
 #: translation/templates/translation/language.html:565
 #: translation/templates/translation/language.html:568
 msgid "Avez vous des fourmillement ? Montrez moi où"
-msgstr ""
+msgstr "Zsibbad valahol? Mutassa meg hol."
 
 #: translation/templates/translation/language.html:573
 #: translation/templates/translation/language.html:576
@@ -788,12 +788,12 @@ msgstr "Fáj a nyaka?"
 #: translation/templates/translation/language.html:645
 #: translation/templates/translation/language.html:648
 msgid "Avez-vous voyagez ces derniers mois ?"
-msgstr ""
+msgstr "Utazott az utóbbi néhány hónapban?"
 
 #: translation/templates/translation/language.html:653
 #: translation/templates/translation/language.html:656
 msgid "Dans quel pays ?"
-msgstr ""
+msgstr "Utazott a tengeren túlra? Hova?"
 
 #: translation/templates/translation/language.html:661
 #: translation/templates/translation/language.html:664
@@ -864,27 +864,27 @@ msgstr "Kifújná az orrát kérem, hogy megnézzem van-e benne korom"
 #: translation/templates/translation/language.html:782
 #| msgid "Est-ce que vous voyez double ?"
 msgid "Est-ce que votre douleur"
-msgstr ""
+msgstr "Írja körül a fájdalmát!"
 
 #: translation/templates/translation/language.html:787
 #: translation/templates/translation/language.html:790
 msgid "Est ce que votre douleur serre ?"
-msgstr ""
+msgstr "Érzel szúró fájdalmat? / Érez szúró fájdalmat?"
 
 #: translation/templates/translation/language.html:795
 #: translation/templates/translation/language.html:798
 msgid "Est ce que votre douleur pique ?"
-msgstr ""
+msgstr "Ez egy szúró fájdalom?"
 
 #: translation/templates/translation/language.html:803
 #: translation/templates/translation/language.html:806
 msgid "Est ce que votre douleur brûle ?"
-msgstr ""
+msgstr "Égő jellegű fájdalom?"
 
 #: translation/templates/translation/language.html:811
 #: translation/templates/translation/language.html:814
 msgid "Est-ce que votre douleur irradie ? Montrez-moi vers où"
-msgstr ""
+msgstr "Kisugárzik-e a fájdalom? Mutassa meg, hogy merre!"
 
 #: translation/templates/translation/language.html:819
 #: translation/templates/translation/language.html:822
@@ -924,7 +924,7 @@ msgstr "Megmérem a vérnyomását"
 #: translation/templates/translation/language.html:875
 #: translation/templates/translation/language.html:878
 msgid "Ressentez-vous des palpitations ?"
-msgstr ""
+msgstr "Érez-e túl gyors szívdobogást?"
 
 #: translation/templates/translation/language.html:883
 #: translation/templates/translation/language.html:886
@@ -934,7 +934,7 @@ msgstr "Nyissa ki a száját és nyújtsa ki a nyelvét! Gyógyszert szeretnék 
 #: translation/templates/translation/language.html:891
 #: translation/templates/translation/language.html:894
 msgid "Est ce que ce médicament soulage votre douleur ?"
-msgstr ""
+msgstr "Segít ez a gyógyszer csökkenteni a fájdalmat?"
 
 #: translation/templates/translation/language.html:899
 #: translation/templates/translation/language.html:902
@@ -959,7 +959,7 @@ msgstr "Most csinálok egy szívvizsgálatot.Nem fog fájni, de kérem ne mozogj
 #: translation/templates/translation/language.html:938
 #: translation/templates/translation/language.html:941
 msgid "Avez-vous senti votre malaise arriver ?"
-msgstr ""
+msgstr "Előre érezte, hogy rosszul lesz?"
 
 #: translation/templates/translation/language.html:946
 #: translation/templates/translation/language.html:949
@@ -984,7 +984,7 @@ msgstr ""
 #: translation/templates/translation/language.html:978
 #: translation/templates/translation/language.html:981
 msgid "Avez vous des vertiges ?"
-msgstr ""
+msgstr "Szédül?"
 
 #: translation/templates/translation/language.html:986
 #: translation/templates/translation/language.html:989
@@ -995,7 +995,7 @@ msgstr ""
 #: translation/templates/translation/language.html:994
 #: translation/templates/translation/language.html:997
 msgid "A quel endroit avez-vous ressenti ces signes ?"
-msgstr ""
+msgstr "Hol érezte ezt?"
 
 #: translation/templates/translation/language.html:1002
 #: translation/templates/translation/language.html:1005
@@ -1030,7 +1030,7 @@ msgstr "Mutassa meg hol fáj"
 #: translation/templates/translation/language.html:1057
 #: translation/templates/translation/language.html:1060
 msgid "Est ce que la douleur irradie ? Si oui montrez moi vers où"
-msgstr ""
+msgstr "Másfelé is kiterjedt a fájdalom? Ha igen hová?"
 
 #: translation/templates/translation/language.html:1065
 #: translation/templates/translation/language.html:1068
@@ -1147,7 +1147,7 @@ msgstr "El kell különítenünk"
 #: translation/templates/translation/language.html:1248
 #: translation/templates/translation/language.html:1251
 msgid "Vous devez garder ce masque sur vous"
-msgstr ""
+msgstr "Ne vegye le a maszkot!"
 
 #: translation/templates/translation/language.html:1256
 #: translation/templates/translation/language.html:1259
@@ -1177,57 +1177,57 @@ msgstr "Fáj a feje?"
 #: translation/templates/translation/language.html:1303
 #: translation/templates/translation/language.html:1306
 msgid "Est ce que vous avez l’impression que la pièce tourne autour de vous ?"
-msgstr ""
+msgstr "Úgy érzi, hogy forog a szoba?"
 
 #: translation/templates/translation/language.html:1311
 #: translation/templates/translation/language.html:1314
 msgid "Avez-vous reçu un coup à la tête récemment ?"
-msgstr ""
+msgstr "Érte ütés a fejét az mostanában?"
 
 #: translation/templates/translation/language.html:1326
 #: translation/templates/translation/language.html:1329
 msgid "Avez-vous des maladies (diabète, hypertension) ?"
-msgstr ""
+msgstr "Van-e valamilyen betegsége (cukorbetegség, magas vérnyomás)?"
 
 #: translation/templates/translation/language.html:1334
 #: translation/templates/translation/language.html:1337
 msgid "Avez-vous été hospitalisé récemment ?"
-msgstr ""
+msgstr "Volt-e kórházba utalva nemrég?"
 
 #: translation/templates/translation/language.html:1342
 #: translation/templates/translation/language.html:1345
 msgid "Avez-vous un traitement en cours ? lequel ?"
-msgstr ""
+msgstr "Folytat-e valamilyen kezelést? (Milyet?)"
 
 #: translation/templates/translation/language.html:1350
 #: translation/templates/translation/language.html:1353
 msgid "Avez-vous une ordonnance avec vos traitements ?"
-msgstr ""
+msgstr "Van-e önnél recept a kezelésére?"
 
 #: translation/templates/translation/language.html:1358
 #: translation/templates/translation/language.html:1361
 msgid "Avez-vous des allergies ? lesquelles ?"
-msgstr ""
+msgstr "Allergiás-e? (Mire?)"
 
 #: translation/templates/translation/language.html:1366
 #: translation/templates/translation/language.html:1369
 msgid "Y a-t-il des antécédents de maladie dans votre famille ?"
-msgstr ""
+msgstr "Van családi kórtörténete?"
 
 #: translation/templates/translation/language.html:1374
 #: translation/templates/translation/language.html:1377
 msgid "Pouvez-vous vous asseoir ?"
-msgstr ""
+msgstr "Le tud-e ülni?"
 
 #: translation/templates/translation/language.html:1382
 #: translation/templates/translation/language.html:1385
 msgid "Pouvez-vous vous lever ?"
-msgstr ""
+msgstr "Fel tud-e állni?"
 
 #: translation/templates/translation/language.html:1390
 #: translation/templates/translation/language.html:1393
 msgid "Pouvez-vous marcher ?"
-msgstr ""
+msgstr "Tud-e járni?"
 
 #: translation/templates/translation/language.html:1405
 #: translation/templates/translation/language.html:1408
@@ -1387,7 +1387,7 @@ msgstr "Érzésteleníteni fogom"
 #: translation/templates/translation/language.html:1675
 #: translation/templates/translation/language.html:1678
 msgid "Ne bougez pas"
-msgstr ""
+msgstr "Ne mozogjon!"
 
 #: translation/templates/translation/language.html:1683
 #: translation/templates/translation/language.html:1686
@@ -1598,7 +1598,7 @@ msgstr "Nem szabad dohányoznia"
 #: translation/templates/translation/language.html:2025
 #: translation/templates/translation/language.html:2028
 msgid "Pour allumer ou éteindre les lumières appuyer ici"
-msgstr ""
+msgstr "Itt kapcsolja le és fel a villanyt!"
 
 #: translation/templates/translation/language.html:2033
 #: translation/templates/translation/language.html:2036
@@ -1633,12 +1633,12 @@ msgstr "Vissza kell jönnie holnap reggel"
 #: translation/templates/translation/language.html:2096
 #: translation/templates/translation/language.html:2099
 msgid "Vous devez revenir dans"
-msgstr ""
+msgstr "Vissza kell jönnie."
 
 #: translation/templates/translation/language.html:2104
 #: translation/templates/translation/language.html:2107
 msgid "Vous devrez faire retirer les fils dans"
-msgstr ""
+msgstr "El kell távolítani a kapcsokat."
 
 #: translation/templates/translation/language.html:2112
 #: translation/templates/translation/language.html:2115
@@ -1678,7 +1678,7 @@ msgstr "Éhes vagyok"
 #: translation/templates/translation/language.html:2175
 #: translation/templates/translation/language.html:2178
 msgid "J’ai soif"
-msgstr ""
+msgstr "Szomjas vagyok"
 
 #: translation/templates/translation/language.html:2183
 #: translation/templates/translation/language.html:2186
@@ -1710,17 +1710,17 @@ msgstr "Hánytam"
 #: translation/templates/translation/language.html:2223
 #: translation/templates/translation/language.html:2226
 msgid "J’ai uriné (je voudrais être changé)"
-msgstr ""
+msgstr "Bepisiltem."
 
 #: translation/templates/translation/language.html:2231
 #: translation/templates/translation/language.html:2234
 msgid "Je voudrais uriner"
-msgstr ""
+msgstr "Wc-re kell mennem/ pisilnem kell"
 
 #: translation/templates/translation/language.html:2239
 #: translation/templates/translation/language.html:2242
 msgid "Je voudrais déféquer"
-msgstr ""
+msgstr "Nagy wc-re kell mennem/ szeklet"
 
 #: translation/templates/translation/language.html:2247
 #: translation/templates/translation/language.html:2250
@@ -1737,12 +1737,12 @@ msgstr "Félek"
 #: translation/templates/translation/language.html:2263
 #: translation/templates/translation/language.html:2266
 msgid "Je voudrais être réinstallé"
-msgstr ""
+msgstr "Szeretném ha áthelyeznének"
 
 #: translation/templates/translation/language.html:2271
 #: translation/templates/translation/language.html:2274
 msgid "Je voudrais des informations"
-msgstr ""
+msgstr "Kaphatnek tobb informaciot..."
 
 #: translation/templates/translation/language.html:2279
 #: translation/templates/translation/language.html:2282
@@ -1752,7 +1752,7 @@ msgstr "Megsérültem"
 #: translation/templates/translation/language.html:2287
 #: translation/templates/translation/language.html:2290
 msgid "J’étais piéton"
-msgstr ""
+msgstr "Jarokelo voltam"
 
 #: translation/templates/translation/language.html:2295
 #: translation/templates/translation/language.html:2298
@@ -1762,7 +1762,7 @@ msgstr "Elütött egy autó"
 #: translation/templates/translation/language.html:2303
 #: translation/templates/translation/language.html:2306
 msgid "Je n’ai pas été renversé"
-msgstr ""
+msgstr "Nem utott el engem a jarmû"
 
 #: translation/templates/translation/language.html:2311
 #: translation/templates/translation/language.html:2314
@@ -1779,7 +1779,7 @@ msgstr "Megütöttek"
 #: translation/templates/translation/language.html:2327
 #: translation/templates/translation/language.html:2330
 msgid "J’étais en voiture"
-msgstr ""
+msgstr "Az autoban voltam/ vezettem"
 
 #: translation/templates/translation/language.html:2335
 #: translation/templates/translation/language.html:2338
@@ -1791,12 +1791,12 @@ msgstr "Körülbelül XX-szel mentem./ XX kilométer per órával mentem."
 #: translation/templates/translation/language.html:2343
 #: translation/templates/translation/language.html:2346
 msgid "J’avais ma ceinture de sécurité"
-msgstr ""
+msgstr "Be volt kötve a biztonsági övem"
 
 #: translation/templates/translation/language.html:2351
 #: translation/templates/translation/language.html:2354
 msgid "Je n’avais pas de ceinture de sécurité"
-msgstr ""
+msgstr "Nem volt bekötve a biztonsági övem"
 
 #: translation/templates/translation/language.html:2359
 #: translation/templates/translation/language.html:2362
@@ -1806,7 +1806,7 @@ msgstr "Kiestem a baleset során"
 #: translation/templates/translation/language.html:2367
 #: translation/templates/translation/language.html:2370
 msgid "Je n’ai pas été éjecté pendant l’accident"
-msgstr ""
+msgstr "Nem estem ki a baleset során"
 
 #: translation/templates/translation/language.html:2375
 #: translation/templates/translation/language.html:2378
@@ -1821,17 +1821,17 @@ msgstr "A Légzsák nem lépett működésbe"
 #: translation/templates/translation/language.html:2391
 #: translation/templates/translation/language.html:2394
 msgid "J’étais en vélo"
-msgstr ""
+msgstr "Bicikliztem"
 
 #: translation/templates/translation/language.html:2399
 #: translation/templates/translation/language.html:2402
 msgid "J'étais en scooter"
-msgstr ""
+msgstr "Rollereztem"
 
 #: translation/templates/translation/language.html:2407
 #: translation/templates/translation/language.html:2410
 msgid "J'étais en moto"
-msgstr ""
+msgstr "Motoroztam"
 
 #: translation/templates/translation/language.html:2423
 #: translation/templates/translation/language.html:2426
@@ -1851,7 +1851,7 @@ msgstr "Olyan magasról estem le mint én vagyok"
 #: translation/templates/translation/language.html:2455
 #: translation/templates/translation/language.html:2458
 msgid "Je suis tombé de “x” mètres de hauteur"
-msgstr ""
+msgstr "XX méter magasból estem le."
 
 #: translation/templates/translation/language.html:2463
 #: translation/templates/translation/language.html:2466
@@ -1929,12 +1929,12 @@ msgstr "... óta vannak fájdalmaim."
 #: translation/templates/translation/language.html:2583
 #: translation/templates/translation/language.html:2586
 msgid "La douleur est apparue brutalement"
-msgstr ""
+msgstr "Hirtelen kezdett el fájni."
 
 #: translation/templates/translation/language.html:2591
 #: translation/templates/translation/language.html:2594
 msgid "La douleur est apparue progressivement"
-msgstr ""
+msgstr "Fokozatosan kezdett el fájni."
 
 #: translation/templates/translation/language.html:2599
 #: translation/templates/translation/language.html:2602
@@ -2265,17 +2265,17 @@ msgstr "Véreset hányok"
 #: translation/templates/translation/language.html:3135
 #: translation/templates/translation/language.html:3138
 msgid "Une fois"
-msgstr ""
+msgstr "egyszer"
 
 #: translation/templates/translation/language.html:3143
 #: translation/templates/translation/language.html:3146
 msgid "Deux fois"
-msgstr ""
+msgstr "kétszer"
 
 #: translation/templates/translation/language.html:3151
 #: translation/templates/translation/language.html:3154
 msgid "Plusieurs fois"
-msgstr ""
+msgstr "többször"
 
 #: translation/templates/translation/language.html:3159
 #: translation/templates/translation/language.html:3162
@@ -2551,7 +2551,7 @@ msgstr "segíts, fel tudod hívni őket?"
 #: translation/templates/translation/language.html:3599
 #: translation/templates/translation/language.html:3602
 msgid "Vous allez avoir une IRM"
-msgstr ""
+msgstr "MRI ( Mágneses rezonancia képalkotás)"
 
 #: translation/templates/translation/language.html:3607
 #: translation/templates/translation/language.html:3610
@@ -2621,7 +2621,7 @@ msgstr "Születési dátuma:"
 #: translation/templates/translation/language.html:3735
 #: translation/templates/translation/language.html:3738
 msgid "Taille :"
-msgstr ""
+msgstr "Magassága:"
 
 #: translation/templates/translation/language.html:3743
 #: translation/templates/translation/language.html:3746
