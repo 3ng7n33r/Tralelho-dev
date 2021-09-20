@@ -66,11 +66,11 @@ h1 {
     background-color:#3D6AA2;
     color:#fff;
     text-align:center;
-    font-size:25px;
+    font-size:20px;
     overflow:hidden;
 }
 
-.circle.multi-line{    padding-top:5px;    height:30px;}
+.circle.multi-line{    padding-top:5px;    height:200px;}
 
 /*second page*/
 
