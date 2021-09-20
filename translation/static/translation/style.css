@@ -27,7 +27,7 @@
     --color-complement-1: #77B5FE; /* Fond derriere phrase cliquee et ombre drapeaux*/#77B5FE
     --color-complement-2: #26619C;  /* Fond MENU */ 
     --color-complement-3: #9DA3A9;
-    --color-complement-4: #77B5FE; /* Head couleur fleche et changement langue*/
+    --color-complement-4: #FFC0CB; /* Head couleur fleche et changement langue*/
 }
 
 h1 {
@@ -256,7 +256,7 @@ main {
 }
 
 .sidenava:hover {
-    background-color: var(--color-complement-2);
+    background-color: var(--color-primary-0);
 }
 
 .centertext {
@@ -632,13 +632,13 @@ td {
     background-color:#FFC0CB;
     width: 100%;
     height: 40vh;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bold;
     display: none;
     position: sticky;
     top: 8%;
     text-align: center;
-    z-index: 2;
+    z-index: 0;
 }
 
 /* Footer */
