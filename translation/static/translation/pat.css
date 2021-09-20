@@ -60,8 +60,8 @@ h1 {
 
 .circle{
     margin:10px;
-    width:100px;
-    height:100px;
+    width:200px;
+    height:200px;
     border-radius:100%;
     background-color:#3D6AA2;
     color:#fff;
@@ -70,7 +70,7 @@ h1 {
     overflow:hidden;
 }
 
-.circle.multi-line{    padding-top:30px;    height:70px;}
+.circle.multi-line{    padding-top:5px;    height:30px;}
 
 /*second page*/
 
