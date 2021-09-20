@@ -22,47 +22,23 @@
   <div class="textwrapper">
 	  
  <div class="circle multi-line">
-         <p>{% language target_language %}<b>{% translate "Vous allez passer une scanner" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Vous allez passer une scanner" %}{% endlanguage %}</p>
+         <p>{% language target_language %}<b>{% translate "J’ai soif" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "J’ai soif" %}{% endlanguage %}</p>
 </div>
 	  
-    <p>{% language target_language %}<b>{% translate "Il faudra retirer tout objet métallique (appareils dentaires et auditifs)" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Il faudra retirer tout objet métallique (appareils dentaires et auditifs)" %}{% endlanguage %}</p>
-
-    <p>{% language target_language %}<b>{% translate "Une perfusion va vous être posée pour injecter un produit de contraste au cours de l’examen. L’injection de ce produit de contraste peut donner une sensation de chaleur dans tout le corps" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Une perfusion va vous être posée pour injecter un produit de contraste au cours de l’examen. L’injection de ce produit de contraste peut donner une sensation de chaleur dans tout le corps" %}{% endlanguage %}</p>
-
-    <p>{% language target_language %}<b>{% translate "Il faudra rester immobile pendant tout l’examen" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Il faudra rester immobile pendant tout l’examen" %}{% endlanguage %}</p>
-
-    <p>{% language target_language %}<b>{% translate "Durant l'examen, on vous demandera de gonfler et les poumons et de bloquer la respiration" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Durant l'examen, on vous demandera de gonfler et les poumons et de bloquer la respiration" %}{% endlanguage %}</p>
-
-    <p>{% language target_language %}<b>{% translate "L'examen dure en moyenne 15 minutes" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "L'examen dure en moyenne 15 minutes" %}{% endlanguage %}</p>
+	<div class="circle multi-line">
+         <p>{% language target_language %}<b>{% translate "J’ai mal" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "J’ai mal" %}{% endlanguage %}</p>
+</div>  
+	  
+	  
+	  
+	  
+	  
+    
   </div>
 
-
-  <h2 class="secondpagetitle">{% language base_language %}{% translate "Checklist Scanner" %}{% endlanguage %}</h2>
-  <div>
-    <div class="half">
-      <ul class="questions">
-        <li>  <p>{% language target_language %}<b>{% translate "Nom" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Nom" %}{% endlanguage %}</p></li>
-          <li>  <p>{% language target_language %}<b>{% translate "Prénom" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Prénom" %}{% endlanguage %}</p></li>
-          <li>  <p>{% language target_language %}<b>{% translate "Date de naissance" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Date de naissance" %}{% endlanguage %}</p></li>
-          <li>  <p>{% language target_language %}<b>{% translate "Taille" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Taille" %}{% endlanguage %}</p></li>
-          <li>  <p>{% language target_language %}<b>{% translate "Poids" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Poids" %}{% endlanguage %}</p></li>
-      </ul>
-    </div>
-   
-  </div>
-
-                
+               
                 </tbody>
 				</table>
 				{% language base_language %}
@@ -70,6 +46,7 @@
 				{% endlanguage %}
 				<table class='tg'>
 				<tbody>
+					<div class="circle multi-line">
 				<tr id='240' onclick='togglerow("240")'> 
 				{% language base_language %}
 				<td><p> {% translate "J’ai faim" %} </p></td> 
@@ -78,6 +55,8 @@
 				<td><p> {% translate "J’ai faim" %} </p></td>
 				{% endlanguage %}
 				</tr> 
+					</div>
+					
 				<tr id='241' onclick='togglerow("241")'> 
 				{% language base_language %}
 				<td><p> {% translate "J’ai soif" %} </p></td> 
