@@ -58,6 +58,9 @@ h1 {
     line-height: 15px;
 }
 
+.fleur {position: relative;
+    text-align: center;}
+
 .circle{
     margin:10px;
     width:200px;
@@ -70,7 +73,7 @@ h1 {
     overflow:hidden;
 }
 
-.circle.multi-line{    padding-top:5px;    height:200px;}
+.circle.multi-line{    position: absolute; padding-top:5px;    height:200px;}
 
 /*second page*/
 
