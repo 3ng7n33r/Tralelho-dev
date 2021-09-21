@@ -26,7 +26,7 @@ h1 {
     width: 50%;
 }
 
-#fleur {backgrounf-image:url ("icons/fleur.png");}
+#fleur {background-image:url ("icons/fleur.png");}
 
 #header {
     width: 700px;
