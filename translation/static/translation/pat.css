@@ -8,7 +8,6 @@
     width: 188mm;
     overflow: hidden;
     font-size: 12px;
-    background-image:url ("icons/fleur.png");
 }
 
 :root {
@@ -59,6 +58,7 @@ h1 {
 
 .textwrapper {
     line-height: 15px;
+    background-image: url("icons/flower.png");
    
 }
 
