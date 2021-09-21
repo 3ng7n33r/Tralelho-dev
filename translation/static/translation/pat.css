@@ -8,6 +8,7 @@
     width: 188mm;
     overflow: hidden;
     font-size: 12px;
+    background-image:url ("icons/fleur.png");
 }
 
 :root {
@@ -26,7 +27,7 @@ h1 {
     width: 50%;
 }
 
-#fleur {background-image:url ("icons/fleur.png");}
+
 
 #header {
     width: 700px;
@@ -58,7 +59,7 @@ h1 {
 
 .textwrapper {
     line-height: 15px;
-    background-image:url ("icons/flower.png");
+   
 }
 
 
@@ -78,7 +79,7 @@ h1 {
 .circle.multi-line1{    
 position: absolute;
 padding-top:5px;
-height:200px;
+height:100px;
 transform: rotate(20deg);
 -moz-transform: rotate(20deg);
 -webkit-transform: rotate(20deg);
