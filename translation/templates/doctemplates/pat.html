@@ -10,8 +10,7 @@
       <p><b>{% language target_language%}Patient{% endlanguage %}</b><br>{% language base_language%}Patient{% endlanguage %}</p>
     </div>
     </th>
-    <th>
-    </th>
+   
     <th class="tg-0lax">
     <div id="flagcontainer">
       <img class="smallflag" src="{% get_static_prefix %}translation/flags/{{ base_flag }}.png">
@@ -22,20 +21,20 @@
   <div class="textwrapper">
 	  
 	   <div class="fleur">
-<IMG USEMAP="#fleur" SRC=".../.../static/translation/icons/fleur.png" WIDTH="100%" HEIGHT="100%" >
+<IMG class="fleur" src="{% static'translation/icons/flower.png' %}" WIDTH="100%" HEIGHT="100%" >
 
-	  
+	  </img>
  <div class="circle multi-line">
          <p>{% language target_language %}<b>{% translate "J’ai soif" %}</b>{% endlanguage %}<br>
     {% language base_language %}{% translate "J’ai soif" %}{% endlanguage %}</p>
 </div>
-	  
+	  <br><br><br>
 	<div class="circle multi-line">
          <p>{% language target_language %}<b>{% translate "J’ai mal" %}</b>{% endlanguage %}<br>
     {% language base_language %}{% translate "J’ai mal" %}{% endlanguage %}</p>
 </div>  
-	  
-	</img>
+	  <br><br><br>
+	
 	 </div> 
 	  
 	  
@@ -44,7 +43,9 @@
   </div>
 
                
-                </tbody>
+             	  <br><br><br>
+	  <br><br><br>
+
 				</table>
 				{% language base_language %}
 				<h2 class="category" id='PATIENT EN STRUCTURE'>{% translate "PATIENT EN STRUCTURE" %} </h2>
