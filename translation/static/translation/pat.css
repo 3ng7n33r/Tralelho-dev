@@ -58,14 +58,15 @@ h1 {
 
 .textwrapper {
     line-height: 15px;
+    background-image:url ("icons/flower.png");
 }
 
 
 
 .circle{
     margin:10px;
-    width:200px;
-    height:200px;
+    width:100px;
+    height:100px;
     border-radius:100%;
     background-color:#3D6AA2;
     color:#fff;
@@ -130,7 +131,6 @@ transform: rotate(20deg);
 }
 
 .tg td {
-    background-color: white;
     border-color: black;
     border-style: solid;
     border-width: 2px;
@@ -144,7 +144,7 @@ transform: rotate(20deg);
 
 
 .tg th {
-    background-color: white;
+    
     border-color: black;
     border-style: solid;
     border-width: 2px;
