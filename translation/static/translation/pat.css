@@ -6,7 +6,10 @@
 .A4 {
     height: 275mm;
     width: 188mm;
-    overflow: hidden;
+    overflow: hidden
+    background-image: url("icons/flower.png");
+    background-position: center;
+    background-repeat: no-repeat;
     font-size: 12px;
 }
 
@@ -82,6 +85,8 @@ h1 {
 
 .circle.multi-line1{    
 position: absolute;
+    top: 14mm;
+  left: 20mm;
 padding-top:5px;
 height:100px;
 transform: rotate(20deg);
@@ -89,7 +94,58 @@ transform: rotate(20deg);
 -webkit-transform: rotate(20deg);
 -khtml-transform: rotate(20deg);
 -ms-transform: rotate(20deg);
+}
 
+.circle.multi-line2{    
+position: absolute;
+    top: 34mm;
+  left: 100mm;
+padding-top:5px;
+height:100px;
+transform: rotate(20deg);
+-moz-transform: rotate(20deg);
+-webkit-transform: rotate(20deg);
+-khtml-transform: rotate(20deg);
+-ms-transform: rotate(20deg);
+}
+
+.circle.multi-line3{    
+position: absolute;
+    top: 154mm;
+  left: 20mm;
+padding-top:5px;
+height:100px;
+transform: rotate(20deg);
+-moz-transform: rotate(20deg);
+-webkit-transform: rotate(20deg);
+-khtml-transform: rotate(20deg);
+-ms-transform: rotate(20deg);
+}
+
+.circle.multi-line4{    
+position: absolute;
+    top: 104mm;
+  left: 120mm;
+padding-top:5px;
+height:100px;
+transform: rotate(20deg);
+-moz-transform: rotate(20deg);
+-webkit-transform: rotate(20deg);
+-khtml-transform: rotate(20deg);
+-ms-transform: rotate(20deg);
+}
+
+.circle.multi-line5{    
+position: absolute;
+    top: 114mm;
+  left: 120mm;
+padding-top:5px;
+height:100px;
+transform: rotate(-20deg);
+-moz-transform: rotate(-20deg);
+-webkit-transform: rotate(-20deg);
+-khtml-transform: rotate(-20deg);
+-ms-transform: rotate(-20deg);
 }
 
 /*second page*/
