@@ -26,6 +26,8 @@ h1 {
     width: 50%;
 }
 
+#fleur {backgrounf-image:url ("icons/fleur.png");}
+
 #header {
     width: 700px;
     height: 60px;
@@ -58,8 +60,7 @@ h1 {
     line-height: 15px;
 }
 
-.fleur {position: relative;
-    text-align: center;}
+
 
 .circle{
     margin:10px;
