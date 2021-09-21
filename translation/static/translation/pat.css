@@ -59,6 +59,10 @@ h1 {
 .textwrapper {
     line-height: 15px;
     background-image: url("icons/flower.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 240mm;
+    width: 188mm;
    
 }
 
