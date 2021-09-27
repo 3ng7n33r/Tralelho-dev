@@ -32,10 +32,10 @@ h1 {
 
 #header {
     width: 700px;
-    height: 60px;
+    height: 40px;
     white-space: nowrap;
     overflow: clip;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 #titlecontainer {
