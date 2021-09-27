@@ -73,7 +73,7 @@ h1 {
     width:100px;
     height:100px;
     border-radius:100%;
-    background-color:#3D6AA2;
+    background-color:11ffee00;
     color:#fff;
     text-align:center;
     font-size:20px;
@@ -133,6 +133,84 @@ transform: rotate(20deg);
 }
 
 .circle.multi-line5{    
+position: absolute;
+    top: 114mm;
+  left: 120mm;
+padding-top:5px;
+height:100px;
+transform: rotate(-20deg);
+-moz-transform: rotate(-20deg);
+-webkit-transform: rotate(-20deg);
+-khtml-transform: rotate(-20deg);
+-ms-transform: rotate(-20deg);
+}
+
+.circle.multi-line6{    
+position: absolute;
+    top: 104mm;
+  left: 120mm;
+padding-top:5px;
+height:100px;
+transform: rotate(-20deg);
+-moz-transform: rotate(-20deg);
+-webkit-transform: rotate(-20deg);
+-khtml-transform: rotate(-20deg);
+-ms-transform: rotate(-20deg);
+}
+
+.circle.multi-line7{    
+position: absolute;
+    top: 114mm;
+  left: 100mm;
+padding-top:5px;
+height:100px;
+transform: rotate(-20deg);
+-moz-transform: rotate(-20deg);
+-webkit-transform: rotate(-20deg);
+-khtml-transform: rotate(-20deg);
+-ms-transform: rotate(-20deg);
+}
+
+.circle.multi-line8{    
+position: absolute;
+    top: 114mm;
+  left: 120mm;
+padding-top:5px;
+height:100px;
+transform: rotate(-20deg);
+-moz-transform: rotate(-20deg);
+-webkit-transform: rotate(-20deg);
+-khtml-transform: rotate(-20deg);
+-ms-transform: rotate(-20deg);
+}
+
+.circle.multi-line9{    
+position: absolute;
+    top: 54mm;
+  left: 150mm;
+padding-top:5px;
+height:100px;
+transform: rotate(-20deg);
+-moz-transform: rotate(-20deg);
+-webkit-transform: rotate(-20deg);
+-khtml-transform: rotate(-20deg);
+-ms-transform: rotate(-20deg);
+}
+
+.circle.multi-line10{    
+position: absolute;
+    top: 114mm;
+  left: 120mm;
+padding-top:5px;
+height:100px;
+transform: rotate(-20deg);
+-moz-transform: rotate(-20deg);
+-webkit-transform: rotate(-20deg);
+-khtml-transform: rotate(-20deg);
+-ms-transform: rotate(-20deg);
+}
+
+.circle.multi-line11{    
 position: absolute;
     top: 114mm;
   left: 120mm;
