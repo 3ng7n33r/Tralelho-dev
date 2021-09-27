@@ -1,11 +1,11 @@
 @page {
-    size: A4 portrait;
+    size: A4 landscape;
     margin: 1cm;
 }
 
 .A4 {
-    height: 275mm;
-    width: 188mm;
+    height: 188mm;
+    width: 275mm;
     overflow: hidden
     background-position: center;
     background-repeat: no-repeat;
@@ -73,17 +73,16 @@ h1 {
     width:100px;
     height:100px;
     border-radius:100%;
-    background-color:11ffee00;
-    color:#fff;
+    background-color:transparent;
     text-align:center;
     font-size:20px;
-    overflow:hidden;
+    overflow:visible;
 }
 
 .circle.multi-line1{    
 position: absolute;
-    top: 14mm;
-  left: 20mm;
+    top: 0mm;
+  left: 0mm;
 padding-top:5px;
 height:100px;
 transform: rotate(20deg);
@@ -95,8 +94,8 @@ transform: rotate(20deg);
 
 .circle.multi-line2{    
 position: absolute;
-    top: 34mm;
-  left: 100mm;
+    top: 50mm;
+  left: 0mm;
 padding-top:5px;
 height:100px;
 transform: rotate(20deg);
@@ -108,8 +107,8 @@ transform: rotate(20deg);
 
 .circle.multi-line3{    
 position: absolute;
-    top: 154mm;
-  left: 20mm;
+    top: 100mm;
+  left: 0mm;
 padding-top:5px;
 height:100px;
 transform: rotate(20deg);
@@ -121,8 +120,8 @@ transform: rotate(20deg);
 
 .circle.multi-line4{    
 position: absolute;
-    top: 104mm;
-  left: 120mm;
+    top: 150mm;
+  left: 0mm;
 padding-top:5px;
 height:100px;
 transform: rotate(20deg);
@@ -134,8 +133,8 @@ transform: rotate(20deg);
 
 .circle.multi-line5{    
 position: absolute;
-    top: 114mm;
-  left: 120mm;
+    top: 200mm;
+  left: 0mm;
 padding-top:5px;
 height:100px;
 transform: rotate(-20deg);
@@ -147,8 +146,8 @@ transform: rotate(-20deg);
 
 .circle.multi-line6{    
 position: absolute;
-    top: 104mm;
-  left: 120mm;
+    top: 50mm;
+  left: 50mm;
 padding-top:5px;
 height:100px;
 transform: rotate(-20deg);
@@ -160,7 +159,7 @@ transform: rotate(-20deg);
 
 .circle.multi-line7{    
 position: absolute;
-    top: 114mm;
+    top: 100mm;
   left: 100mm;
 padding-top:5px;
 height:100px;
@@ -173,8 +172,8 @@ transform: rotate(-20deg);
 
 .circle.multi-line8{    
 position: absolute;
-    top: 114mm;
-  left: 120mm;
+    top: 150mm;
+  left: 150mm;
 padding-top:5px;
 height:100px;
 transform: rotate(-20deg);
@@ -186,8 +185,8 @@ transform: rotate(-20deg);
 
 .circle.multi-line9{    
 position: absolute;
-    top: 54mm;
-  left: 150mm;
+    top: 150mm;
+  left: 50mm;
 padding-top:5px;
 height:100px;
 transform: rotate(-20deg);
@@ -199,8 +198,8 @@ transform: rotate(-20deg);
 
 .circle.multi-line10{    
 position: absolute;
-    top: 114mm;
-  left: 120mm;
+    top: 50mm;
+  left: 150mm;
 padding-top:5px;
 height:100px;
 transform: rotate(-20deg);
@@ -212,8 +211,8 @@ transform: rotate(-20deg);
 
 .circle.multi-line11{    
 position: absolute;
-    top: 114mm;
-  left: 120mm;
+    top: 100mm;
+  left: 150mm;
 padding-top:5px;
 height:100px;
 transform: rotate(-20deg);
