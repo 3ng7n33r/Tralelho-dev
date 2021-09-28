@@ -1,6 +1,7 @@
 @page {
     size: A4 portrait;
     margin: 1cm;
+     background-image:url ('https://coloriage.info/images/ccovers/1523461041fleur-facile-simple.png');
 }
 
 .A4 {
@@ -27,7 +28,7 @@ h1 {
 }
 
 #body {
-     background-image:url ("icons/flower.png");
+     background-image:url ('https://coloriage.info/images/ccovers/1523461041fleur-facile-simple.png');
 }
 
 #header {
@@ -36,6 +37,7 @@ h1 {
     white-space: nowrap;
     overflow: clip;
     padding-bottom: 40px;
+     background-image:url ('https://coloriage.info/images/ccovers/1523461041fleur-facile-simple.png');
 }
 
 #titlecontainer {
@@ -59,6 +61,7 @@ h1 {
 }
 
 .textwrapper {
+     background-image:url ('https://coloriage.info/images/ccovers/1523461041fleur-facile-simple.png');
     line-height: 15px;
   }
 
@@ -70,7 +73,7 @@ h1 {
     text-align: center;
     margin-bottom: 5px;
     margin-top: 10px;
-    background-image: url ("icons/flower.png");
+    
 }
 
 .questions {
