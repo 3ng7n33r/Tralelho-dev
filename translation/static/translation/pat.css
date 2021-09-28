@@ -7,11 +7,7 @@
     height: 188mm;
     width: 275mm;
     overflow: hidden
-    background-image:url("icons/flower.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 50%;
-    }
+       }
 
 :root {
     --fs-h1: 3rem;
@@ -61,10 +57,10 @@ h1 {
 
 .textwrapper {
     line-height: 15px;
-    background-image:url("icons/flower.png");
+    background-image: url('icons/fleur.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 50%;
+    
 }
 
 
