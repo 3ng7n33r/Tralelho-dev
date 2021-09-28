@@ -7,7 +7,6 @@
     height: 188mm;
     width: 275mm;
     overflow: hidden
-    background-image: url("icons/flower.png");
     background-position: center;
     background-repeat: no-repeat;
     font-size: 12px;
@@ -64,13 +63,9 @@ h1 {
     background-image: url("icons/flower.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 95%;
 }
 
-.textwrapper2 {
-    line-height: 15px;
-      background-size: 100%;
-}
 
 
 .circle{
@@ -444,6 +439,11 @@ transform: rotate(25deg);
     margin-bottom: 5px;
     margin-top: 10px;
 }
+
+.textwrapper2 {
+    line-height: 15px;
+    background-color: white;
+    }
 
 .questions {
     list-style-type: none;
