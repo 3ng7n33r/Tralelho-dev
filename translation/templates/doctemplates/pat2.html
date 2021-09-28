@@ -1,1 +1,51 @@
+<!doctype html>
+{% load i18n %}
+{% load static %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="{% static 'translation/pat2.css' %}">
+<div class="A4">
 
+  <div id="header">
+    <div id="titlecontainer">
+      <p><b>{% language target_language%}Scanner{% endlanguage %}</b><br>{% language base_language%}Scanner{% endlanguage %}</p>
+    </div>
+    </th>
+    <th>
+    </th>
+    <th class="tg-0lax">
+    <div id="flagcontainer">
+      <img class="smallflag" src="{% get_static_prefix %}translation/flags/{{ base_flag }}.png">
+      <i id="flagarrow" class="fa fa-arrow-right fa-3x" aria-hidden="true"></i>
+      <img class="smallflag" src="{% get_static_prefix %}translation/flags/{{ target_flag }}.png">
+    </div>
+  </div>
+  <div class="textwrapper">
+    <p>{% language target_language %}<b>{% translate "Vous allez passer une scanner" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Vous allez passer une scanner" %}{% endlanguage %}</p>
+
+   
+  </div>
+
+
+  <h2 class="secondpagetitle">{% language base_language %}{% translate "Checklist Scanner" %}{% endlanguage %}</h2>
+  <div>
+    <div class="half">
+      <ul class="questions">
+        <li>  <p>{% language target_language %}<b>{% translate "Nom" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Nom" %}{% endlanguage %}</p></li>
+        
+      </ul>
+    </div>
+   
+  </div>
+  <table class="tg">
+    <thead>
+     
+    </thead>
+    <tbody>
+     
+    </tbody>
+  </table>
+
+    
+</div>
