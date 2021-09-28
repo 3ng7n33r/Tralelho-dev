@@ -19,6 +19,8 @@
       <img class="smallflag" src="{% get_static_prefix %}translation/flags/{{ target_flag }}.png">
     </div>
   </div>
+
+<body>
   <div class="textwrapper">
     <p>{% language target_language %}<b>{% translate "Vous allez passer une scanner" %}</b>{% endlanguage %}<br>
     {% language base_language %}{% translate "Vous allez passer une scanner" %}{% endlanguage %}</p>
@@ -28,24 +30,13 @@
 
 
   <h2 class="secondpagetitle">{% language base_language %}{% translate "Checklist Scanner" %}{% endlanguage %}</h2>
-  <div>
-    <div class="half">
-      <ul class="questions">
-        <li>  <p>{% language target_language %}<b>{% translate "Nom" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Nom" %}{% endlanguage %}</p></li>
-        
-      </ul>
-    </div>
-   
-  </div>
-  <table class="tg">
-    <thead>
+ 
+
+ 
+  
      
-    </thead>
-    <tbody>
-     
-    </tbody>
-  </table>
+    </body>
+
 
     
 </div>
