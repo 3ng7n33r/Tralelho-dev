@@ -66,11 +66,8 @@ h1 {
 
 .textwrapper {
     line-height: 15px;
-    background-image: url ("{% static 'icons/flower.png' %}");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    
+   background-image: url("icons/flower.png");
+      
     
 }
 
