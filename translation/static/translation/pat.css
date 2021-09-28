@@ -7,6 +7,7 @@
     height: 188mm;
     width: 275mm;
     overflow: hidden
+    background-image: url("icons/flower.png");
     background-position: center;
     background-repeat: no-repeat;
     font-size: 12px;
