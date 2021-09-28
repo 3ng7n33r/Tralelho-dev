@@ -35,7 +35,7 @@ h1 {
     white-space: nowrap;
     overflow: clip;
     padding-bottom: 5px;
-    background-color: "red";
+   
 }
 
 #titlecontainer {
@@ -43,7 +43,7 @@ h1 {
     width: 50%;
     line-height: 25px;
     font-size: 15px;
-    background-color: "blue";
+    
 }
 
 #flagarrow {
@@ -70,7 +70,7 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    background-color: "green";
+    
     
 }
 
