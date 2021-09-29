@@ -7,7 +7,7 @@
     height: 275mm;
     width: 188mm;
     overflow: hidden;
-    border: dashed red;
+    
     
      
        }
@@ -36,16 +36,16 @@ h1 {
     white-space: nowrap;
     overflow: clip;
     padding-bottom: 5px;
-    border: dashed blue;
+   
    
 }
 
 #titlecontainer {
     display: inline-block;
-    width: 50%;
-    line-height: 25px;
-    font-size: 15px;
-    background-color:red;
+    width: 40%;
+    line-height: 30px;
+    font-size: 30px;
+    
     
 }
 
@@ -62,19 +62,14 @@ h1 {
 
 }
 
-#body {
-  background-image: url("icons/fleur.png");
-     background-color:red;
-    border: dashed yellow;
+.body {
+  background-image: url("icons/flower.png");
+   
 }
 
 
 .textwrapper {
     line-height: 15px;
-   background-image: url("icons/fleur.png");
-    border: dashed green;
-      
-    
 }
 
 
@@ -277,8 +272,8 @@ transform: rotate(30deg);
 
 .circle.multi-line15{    
 position: absolute;
-    top: 200mm;
-  left: 200mm;
+    top: 150mm;
+  left: 150mm;
 padding-top:5px;
 height:100px;
 transform: rotate(5deg);
@@ -291,8 +286,8 @@ transform: rotate(5deg);
 
 .circle.multi-line16{    
 position: absolute;
-    top: 220mm;
-  left: 200mm;
+    top: 160mm;
+  left: 160mm;
 padding-top:5px;
 height:100px;
 transform: rotate(5deg);
@@ -305,8 +300,8 @@ transform: rotate(5deg);
 
 .circle.multi-line17{    
 position: absolute;
-    top: 200mm;
-  left: 220mm;
+    top: 170mm;
+  left: 170mm;
 padding-top:5px;
 height:100px;
 transform: rotate(5deg);
@@ -319,8 +314,8 @@ transform: rotate(5deg);
 
 .circle.multi-line18{    
 position: absolute;
-    top: 210mm;
-  left: 200mm;
+    top: 180mm;
+  left: 180mm;
 padding-top:5px;
 height:100px;
 transform: rotate(5deg);
@@ -333,8 +328,8 @@ transform: rotate(5deg);
 
 .circle.multi-line19{    
 position: absolute;
-    top: 200mm;
-  left: 210mm;
+    top: 190mm;
+  left: 190mm;
 padding-top:5px;
 height:100px;
 transform: rotate(5deg);
@@ -347,8 +342,8 @@ transform: rotate(5deg);
 
 .circle.multi-line20{    
 position: absolute;
-    top: 210mm;
-  left: 210mm;
+    top: 100mm;
+  left: 110mm;
 padding-top:5px;
 height:100px;
 transform: rotate(5deg);
@@ -361,8 +356,8 @@ transform: rotate(5deg);
 
 .circle.multi-line21{    
 position: absolute;
-    top: 215mm;
-  left: 215mm;
+    top: 105mm;
+  left: 125mm;
 padding-top:5px;
 height:100px;
 transform: rotate(5deg);
@@ -375,8 +370,8 @@ transform: rotate(5deg);
 
 .circle.multi-line22{    
 position: absolute;
-    top: 230mm;
-  left: 230mm;
+    top: 100mm;
+  left: 130mm;
 padding-top:5px;
 height:100px;
 transform: rotate(5deg);
@@ -389,8 +384,8 @@ transform: rotate(5deg);
 
 .circle.multi-line23{    
 position: absolute;
-    top: 230mm;
-  left: 200mm;
+    top: 100mm;
+  left: 140mm;
 padding-top:5px;
 height:100px;
 transform: rotate(5deg);
@@ -403,8 +398,8 @@ transform: rotate(5deg);
 
 .circle.multi-line24{    
 position: absolute;
-    top: 200mm;
-  left: 230mm;
+    top: 100mm;
+  left: 150mm;
 padding-top:5px;
 height:100px;
 transform: rotate(5deg);
@@ -417,8 +412,8 @@ transform: rotate(5deg);
 
 .circle.multi-line25{    
 position: absolute;
-    top: 230mm;
-  left: 230mm;
+    top: 110mm;
+  left: 120mm;
 padding-top:5px;
 height:100px;
 transform: rotate(5deg);
@@ -430,8 +425,8 @@ transform: rotate(5deg);
 
 .circle.multi-line26{    
 position: absolute;
-    top: 230mm;
-  left: 230mm;
+    top: 130mm;
+  left: 110mm;
 padding-top:5px;
 height:100px;
 transform: rotate(25deg);
