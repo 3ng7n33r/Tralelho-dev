@@ -142,8 +142,8 @@ transform: rotate(0deg);
 
 .circle.multi-line5{    
 position: absolute;
-  top: 135mm;
-  left: 100mm;
+  top: 155mm;
+  left: 105mm;
 padding-top:5px;
 height:100px;
 transform: rotate(-20deg);
@@ -155,7 +155,7 @@ transform: rotate(-20deg);
 
 .circle.multi-line6{    
 position: absolute;
-    top: 105mm;
+    top: 85mm;
   left: 115mm;
 padding-top:5px;
 height:100px;
@@ -168,8 +168,8 @@ transform: rotate(20deg);
 
 .circle.multi-line7{    
 position: absolute;
-    top: 200mm;
-  left: -30mm;
+    top: 220mm;
+  left: -50mm;
 padding-top:5px;
 height:100px;
     width:300px;
@@ -224,7 +224,7 @@ transform: rotate(-20deg);
 .circle.multi-line13{    
 position: absolute;
     top: 115mm;
-  left: 80mm;
+  left: 50mm;
 padding-top:5px;
 height:100px;
 transform: rotate(20deg);
@@ -237,15 +237,15 @@ transform: rotate(20deg);
 .circle.multi-line14{    
 position: absolute;
     top: 230mm;
-  left: 60mm;
+  left: 50mm;
 padding-top:5px;
 height:100px;
     width:400px;
-transform: rotate(-50deg);
--moz-transform: rotate(-50deg);
--webkit-transform: rotate(-50deg);
--khtml-transform: rotate(-50deg);
--ms-transform: rotate(-50deg);
+transform: rotate(-40deg);
+-moz-transform: rotate(-40deg);
+-webkit-transform: rotate(-40deg);
+-khtml-transform: rotate(-40deg);
+-ms-transform: rotate(-40deg);
 }
 
 .circle.multi-line16{    
@@ -389,16 +389,16 @@ transform: rotate(-20deg);
 
 .circle.multi-line26{    
 position: absolute;
-    top: 240mm;
-  left: 0mm;
+    top: 250mm;
+  left: -10mm;
 padding-top:5px;
 height:100px;
 width:400px;
-transform: rotate(30deg);
--moz-transform: rotate(30deg);
--webkit-transform: rotate(30deg);
--khtml-transform: rotate(30deg);
--ms-transform: rotate(30deg);
+transform: rotate(20deg);
+-moz-transform: rotate(20deg);
+-webkit-transform: rotate(20deg);
+-khtml-transform: rotate(20deg);
+-ms-transform: rotate(20deg);
 }
 
 /*second page*/
@@ -480,12 +480,12 @@ transform: rotate(30deg);
 }
 
 .tableimagecell {
-    width: 100px;
+    width: 50px;
     height: 45px;
     overflow: clip;
 }
 
 .tableimage {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
 }
