@@ -138,8 +138,8 @@ transform: rotate(0deg);
 
 .circle.multi-line5{    
 position: absolute;
-    top: 200mm;
-  left: 0mm;
+    top: 90mm;
+  left: 110mm;
 padding-top:5px;
 height:100px;
 transform: rotate(-20deg);
@@ -151,8 +151,8 @@ transform: rotate(-20deg);
 
 .circle.multi-line6{    
 position: absolute;
-    top: 50mm;
-  left: 50mm;
+    top: 100mm;
+  left: 100mm;
 padding-top:5px;
 height:100px;
 transform: rotate(-20deg);
@@ -164,15 +164,15 @@ transform: rotate(-20deg);
 
 .circle.multi-line7{    
 position: absolute;
-    top: 100mm;
-  left: 100mm;
+    top: 0mm;
+  left: 150mm;
 padding-top:5px;
 height:100px;
-transform: rotate(-20deg);
--moz-transform: rotate(-20deg);
--webkit-transform: rotate(-20deg);
--khtml-transform: rotate(-20deg);
--ms-transform: rotate(-20deg);
+transform: rotate(20deg);
+-moz-transform: rotate(20deg);
+-webkit-transform: rotate(20deg);
+-khtml-transform: rotate(20deg);
+-ms-transform: rotate(20deg);
 }
 
 .circle.multi-line8{    
@@ -190,8 +190,8 @@ transform: rotate(-20deg);
 
 .circle.multi-line9{    
 position: absolute;
-    top: 150mm;
-  left: 50mm;
+    top: 110mm;
+  left: 110mm;
 padding-top:5px;
 height:100px;
 transform: rotate(-20deg);
@@ -203,8 +203,8 @@ transform: rotate(-20deg);
 
 .circle.multi-line10{    
 position: absolute;
-    top: 50mm;
-  left: 150mm;
+    top: 120mm;
+  left: 120mm;
 padding-top:5px;
 height:100px;
 transform: rotate(-20deg);
@@ -216,8 +216,8 @@ transform: rotate(-20deg);
 
 .circle.multi-line11{    
 position: absolute;
-    top: 100mm;
-  left: 150mm;
+    top: 130mm;
+  left: 130mm;
 padding-top:5px;
 height:100px;
 transform: rotate(-20deg);
@@ -255,15 +255,16 @@ transform: rotate(-20deg);
 
 .circle.multi-line14{    
 position: absolute;
-    top: 200mm;
-  left: 200mm;
+    top: 150mm;
+  left: 150mm;
 padding-top:5px;
 height:100px;
-transform: rotate(30deg);
--moz-transform: rotate(30deg);
--webkit-transform: rotate(30deg);
--khtml-transform: rotate(30deg);
--ms-transform: rotate(30deg);
+    width:400px;
+transform: rotate(-20deg);
+-moz-transform: rotate(-20deg);
+-webkit-transform: rotate(-20deg);
+-khtml-transform: rotate(-20deg);
+-ms-transform: rotate(-20deg);
 }
 
 .circle.multi-line15{    
