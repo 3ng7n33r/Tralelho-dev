@@ -62,6 +62,10 @@ h1 {
 
 }
 
+.fond {
+    opacity:0.5;
+    
+}
 
 .textwrapper {
     line-height: 15px;
