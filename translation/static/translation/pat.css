@@ -269,7 +269,7 @@ transform: rotate(-20deg);
 
 .circle.multi-line15{    
 position: absolute;
-    top: 230mm;
+    top: 220mm;
   left: 80mm;
 padding-top:5px;
 height:100px;
@@ -283,8 +283,8 @@ transform: rotate(-20deg);
 
 .circle.multi-line16{    
 position: absolute;
-    top: 220mm;
-  left: 80mm;
+    top: 210mm;
+  left: 90mm;
 padding-top:5px;
 height:100px;
 transform: rotate(-20deg);
@@ -297,8 +297,8 @@ transform: rotate(-20deg);
 
 .circle.multi-line17{    
 position: absolute;
-    top: 210mm;
-  left: 70mm;
+    top: 205mm;
+  left: 100mm;
 padding-top:5px;
 height:100px;
 transform: rotate(-20deg);
@@ -311,35 +311,7 @@ transform: rotate(-20deg);
 
 .circle.multi-line18{    
 position: absolute;
-    top: 200mm;
-  left: 100mm;
-padding-top:5px;
-height:100px;
-transform: rotate(-20deg);
--moz-transform: rotate(-20deg);
--webkit-transform: rotate(-20deg);
--khtml-transform: rotate(-20deg);
--ms-transform: rotate(-20deg);
-}
-
-
-.circle.multi-line19{    
-position: absolute;
-    top: 210mm;
-  left: 105mm;
-padding-top:5px;
-height:100px;
-transform: rotate(-20deg);
--moz-transform: rotate(-20deg);
--webkit-transform: rotate(-20deg);
--khtml-transform: rotate(-20deg);
--ms-transform: rotate(-20deg);
-}
-
-
-.circle.multi-line20{    
-position: absolute;
-    top: 200mm;
+    top: 190mm;
   left: 110mm;
 padding-top:5px;
 height:100px;
@@ -351,7 +323,7 @@ transform: rotate(-20deg);
 }
 
 
-.circle.multi-line21{    
+.circle.multi-line19{    
 position: absolute;
     top: 190mm;
   left: 115mm;
@@ -365,7 +337,7 @@ transform: rotate(-20deg);
 }
 
 
-.circle.multi-line22{    
+.circle.multi-line20{    
 position: absolute;
     top: 180mm;
   left: 120mm;
@@ -379,10 +351,38 @@ transform: rotate(-20deg);
 }
 
 
-.circle.multi-line23{    
+.circle.multi-line21{    
 position: absolute;
     top: 170mm;
+  left: 130mm;
+padding-top:5px;
+height:100px;
+transform: rotate(-20deg);
+-moz-transform: rotate(-20deg);
+-webkit-transform: rotate(-20deg);
+-khtml-transform: rotate(-20deg);
+-ms-transform: rotate(-20deg);
+}
+
+
+.circle.multi-line22{    
+position: absolute;
+    top: 175mm;
   left: 125mm;
+padding-top:5px;
+height:100px;
+transform: rotate(-20deg);
+-moz-transform: rotate(-20deg);
+-webkit-transform: rotate(-20deg);
+-khtml-transform: rotate(-20deg);
+-ms-transform: rotate(-20deg);
+}
+
+
+.circle.multi-line23{    
+position: absolute;
+    top: 165mm;
+  left: 130mm;
 padding-top:5px;
 height:100px;
 transform: rotate(-20deg);
@@ -395,8 +395,8 @@ transform: rotate(-20deg);
 
 .circle.multi-line24{    
 position: absolute;
-    top: 160mm;
-  left: 130mm;
+    top: 155mm;
+  left: 135mm;
 padding-top:5px;
 height:100px;
 transform: rotate(-20deg);
@@ -409,8 +409,8 @@ transform: rotate(-20deg);
 
 .circle.multi-line25{    
 position: absolute;
-    top: 155mm;
-  left: 145mm;
+    top: 135mm;
+  left: 140mm;
 padding-top:5px;
 height:100px;
 transform: rotate(-20deg);
