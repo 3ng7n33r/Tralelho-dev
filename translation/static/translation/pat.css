@@ -6,7 +6,8 @@
 .A4 {
     height: 275mm;
     width: 188mm;
-    overflow: hidden
+    overflow: hidden;
+    border: dashed red;
     
      
        }
@@ -35,6 +36,7 @@ h1 {
     white-space: nowrap;
     overflow: clip;
     padding-bottom: 5px;
+    border: dashed blue;
    
 }
 
@@ -63,12 +65,14 @@ h1 {
 #body {
   background-image: url("icons/fleur.png");
      background-color:red;
+    border: dashed yellow;
 }
 
 
 .textwrapper {
     line-height: 15px;
    background-image: url("icons/fleur.png");
+    border: dashed green;
       
     
 }
