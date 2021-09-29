@@ -97,7 +97,7 @@ a {
     display: grid;
     max-width: 874px;
     width: 70vw;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     align-items: center;
     height: 60px;
     justify-self: end;
