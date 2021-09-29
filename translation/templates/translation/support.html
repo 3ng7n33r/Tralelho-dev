@@ -4,10 +4,12 @@
 	{% load i18n %}
 	{% load static %}
 	<div class="navbar">
-		<a class="navlogo" href="/{{ base_language }}/{{ base_flag }}"><i class="fa fa-globe" ></i><p class="navtext">Tralelho</p></a>	
-		<a class="anav" href="/{{ base_language }}/{{ base_flag }}"><i class="fa fa-language" ></i></a>
-		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/documents"><i class="fa fa-file" ></i></a>
-		<a class="anav" id="active" href="/{{ base_language }}/{{ base_flag }}/support"><i class="fa fa-heart" ></i></a>
+		<a class="navlogo" href="/{{ base_language }}/{{ base_flag }}#PRESENTATION"><i class="fa fa-home" ></i></a>
+		<a class="navlogo" href="/{{ base_language }}/{{ base_flag }}/about"><i class="fa fa-globe" ></i><p class="navtext">Tralelho</p></a>	
+		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/{{ target_language }}/{{ target_flag }}"><i class="fa fa-language" ></i></a>
+		<a class="anav" id="active" href="/{{ base_language }}/{{ base_flag }}/documents"><i class="fa fa-print" ></i></a>
+		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/support"><i class="fa fa-heart" ></i></a>
+		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/samu"><i class="fa fa-ambulance " ></i></a>
 	</div>
 {% endblock %}
 
