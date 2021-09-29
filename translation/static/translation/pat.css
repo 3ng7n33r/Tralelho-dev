@@ -268,168 +268,169 @@ transform: rotate(30deg);
 
 .circle.multi-line15{    
 position: absolute;
-    top: 150mm;
-  left: 150mm;
+    top: 200mm;
+  left: 50mm;
 padding-top:5px;
 height:100px;
-transform: rotate(5deg);
--moz-transform: rotate(5deg);
--webkit-transform: rotate(5deg);
--khtml-transform: rotate(5deg);
--ms-transform: rotate(5deg);
+transform: rotate(-20deg);
+-moz-transform: rotate(-20deg);
+-webkit-transform: rotate(-20deg);
+-khtml-transform: rotate(-20deg);
+-ms-transform: rotate(-20deg);
 }
 
 
 .circle.multi-line16{    
 position: absolute;
-    top: 160mm;
-  left: 160mm;
+    top: 180mm;
+  left: 600mm;
 padding-top:5px;
 height:100px;
-transform: rotate(5deg);
--moz-transform: rotate(5deg);
--webkit-transform: rotate(5deg);
--khtml-transform: rotate(5deg);
--ms-transform: rotate(5deg);
+transform: rotate(-20deg);
+-moz-transform: rotate(-20deg);
+-webkit-transform: rotate(-20deg);
+-khtml-transform: rotate(-20deg);
+-ms-transform: rotate(-20deg);
 }
 
 
 .circle.multi-line17{    
 position: absolute;
     top: 170mm;
-  left: 170mm;
+  left: 700mm;
 padding-top:5px;
 height:100px;
-transform: rotate(5deg);
--moz-transform: rotate(5deg);
--webkit-transform: rotate(5deg);
--khtml-transform: rotate(5deg);
--ms-transform: rotate(5deg);
+transform: rotate(-20deg);
+-moz-transform: rotate(-20deg);
+-webkit-transform: rotate(-20deg);
+-khtml-transform: rotate(-20deg);
+-ms-transform: rotate(-20deg);
 }
 
 
 .circle.multi-line18{    
 position: absolute;
-    top: 180mm;
-  left: 180mm;
+    top: 160mm;
+  left: 80mm;
 padding-top:5px;
 height:100px;
-transform: rotate(5deg);
--moz-transform: rotate(5deg);
--webkit-transform: rotate(5deg);
--khtml-transform: rotate(5deg);
--ms-transform: rotate(5deg);
+transform: rotate(-20deg);
+-moz-transform: rotate(-20deg);
+-webkit-transform: rotate(-20deg);
+-khtml-transform: rotate(-20deg);
+-ms-transform: rotate(-20deg);
 }
 
 
 .circle.multi-line19{    
 position: absolute;
-    top: 190mm;
-  left: 190mm;
+    top: 150mm;
+  left: 90mm;
 padding-top:5px;
 height:100px;
-transform: rotate(5deg);
--moz-transform: rotate(5deg);
--webkit-transform: rotate(5deg);
--khtml-transform: rotate(5deg);
--ms-transform: rotate(5deg);
+transform: rotate(-20deg);
+-moz-transform: rotate(-20deg);
+-webkit-transform: rotate(-20deg);
+-khtml-transform: rotate(-20deg);
+-ms-transform: rotate(-20deg);
 }
 
 
 .circle.multi-line20{    
 position: absolute;
-    top: 100mm;
-  left: 110mm;
+    top: 1400mm;
+  left: 100mm;
 padding-top:5px;
 height:100px;
-transform: rotate(5deg);
--moz-transform: rotate(5deg);
--webkit-transform: rotate(5deg);
--khtml-transform: rotate(5deg);
--ms-transform: rotate(5deg);
+transform: rotate(-20deg);
+-moz-transform: rotate(-20deg);
+-webkit-transform: rotate(-20deg);
+-khtml-transform: rotate(-20deg);
+-ms-transform: rotate(-20deg);
 }
 
 
 .circle.multi-line21{    
 position: absolute;
-    top: 105mm;
-  left: 125mm;
+    top: 130mm;
+  left: 110mm;
 padding-top:5px;
 height:100px;
-transform: rotate(5deg);
--moz-transform: rotate(5deg);
--webkit-transform: rotate(5deg);
--khtml-transform: rotate(5deg);
--ms-transform: rotate(5deg);
+transform: rotate(-20deg);
+-moz-transform: rotate(-20deg);
+-webkit-transform: rotate(-20deg);
+-khtml-transform: rotate(-20deg);
+-ms-transform: rotate(-20deg);
 }
 
 
 .circle.multi-line22{    
 position: absolute;
-    top: 100mm;
-  left: 130mm;
+    top: 1200mm;
+  left: 120mm;
 padding-top:5px;
 height:100px;
-transform: rotate(5deg);
--moz-transform: rotate(5deg);
--webkit-transform: rotate(5deg);
--khtml-transform: rotate(5deg);
--ms-transform: rotate(5deg);
+transform: rotate(-20deg);
+-moz-transform: rotate(-20deg);
+-webkit-transform: rotate(-20deg);
+-khtml-transform: rotate(-20deg);
+-ms-transform: rotate(-20deg);
 }
 
 
 .circle.multi-line23{    
 position: absolute;
-    top: 100mm;
-  left: 140mm;
+    top: 110mm;
+  left: 130mm;
 padding-top:5px;
 height:100px;
-transform: rotate(5deg);
--moz-transform: rotate(5deg);
--webkit-transform: rotate(5deg);
--khtml-transform: rotate(5deg);
--ms-transform: rotate(5deg);
+transform: rotate(-20deg);
+-moz-transform: rotate(-20deg);
+-webkit-transform: rotate(-20deg);
+-khtml-transform: rotate(-20deg);
+-ms-transform: rotate(-20deg);
 }
 
 
 .circle.multi-line24{    
 position: absolute;
     top: 100mm;
-  left: 150mm;
+  left: 140mm;
 padding-top:5px;
 height:100px;
-transform: rotate(5deg);
--moz-transform: rotate(5deg);
--webkit-transform: rotate(5deg);
--khtml-transform: rotate(5deg);
--ms-transform: rotate(5deg);
+transform: rotate(-20deg);
+-moz-transform: rotate(-20deg);
+-webkit-transform: rotate(-20deg);
+-khtml-transform: rotate(-20deg);
+-ms-transform: rotate(-20deg);
 }
 
 
 .circle.multi-line25{    
 position: absolute;
-    top: 110mm;
-  left: 120mm;
+    top: 95mm;
+  left: 145mm;
 padding-top:5px;
 height:100px;
-transform: rotate(5deg);
--moz-transform: rotate(5deg);
--webkit-transform: rotate(5deg);
--khtml-transform: rotate(5deg);
--ms-transform: rotate(5deg);
+transform: rotate(-20deg);
+-moz-transform: rotate(-20deg);
+-webkit-transform: rotate(-20deg);
+-khtml-transform: rotate(-20deg);
+-ms-transform: rotate(-20deg);
 }
 
 .circle.multi-line26{    
 position: absolute;
-    top: 130mm;
+    top: 170mm;
   left: 110mm;
 padding-top:5px;
 height:100px;
-transform: rotate(25deg);
--moz-transform: rotate(25deg);
--webkit-transform: rotate(25deg);
--khtml-transform: rotate(25deg);
--ms-transform: rotate(25deg);
+width:200px;
+transform: rotate(-20deg);
+-moz-transform: rotate(-20deg);
+-webkit-transform: rotate(-20deg);
+-khtml-transform: rotate(-20deg);
+-ms-transform: rotate(-20deg);
 }
 
 /*second page*/
