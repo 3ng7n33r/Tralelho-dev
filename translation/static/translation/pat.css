@@ -116,7 +116,7 @@ transform: rotate(20deg);
 .circle.multi-line3{    
 position: absolute;
     top: 87mm;
-  left: 35mm;
+  left: 37mm;
   margin-top:15px;
 padding-top:5px;
 height:100px;
@@ -129,7 +129,7 @@ transform: rotate(-20deg);
 
 .circle.multi-line4{    
 position: absolute;
-    top: 95mm;
+    top: 97mm;
   left: 58mm;
 padding-top:5px;
 height:100px;
@@ -142,8 +142,8 @@ transform: rotate(0deg);
 
 .circle.multi-line5{    
 position: absolute;
-    top: 140mm;
-  left: 140mm;
+  top: 120mm;
+  left: 100mm;
 padding-top:5px;
 height:100px;
 transform: rotate(-20deg);
@@ -169,7 +169,7 @@ transform: rotate(-20deg);
 .circle.multi-line7{    
 position: absolute;
     top: 150mm;
-  left: 50mm;
+  left: 30mm;
 padding-top:5px;
 height:100px;
     width:300px;
@@ -182,42 +182,18 @@ transform: rotate(30deg);
 
 .circle.multi-line8{    
 position: absolute;
-    top: 130mm;
-  left: 130mm;
+    top: 75mm;
+  left: 75mm;
 padding-top:5px;
 height:100px;
-transform: rotate(-20deg);
--moz-transform: rotate(-20deg);
--webkit-transform: rotate(-20deg);
--khtml-transform: rotate(-20deg);
--ms-transform: rotate(-20deg);
+transform: rotate(10deg);
+-moz-transform: rotate(10deg);
+-webkit-transform: rotate(10deg);
+-khtml-transform: rotate(10deg);
+-ms-transform: rotate(10deg);
 }
 
-.circle.multi-line9{    
-position: absolute;
-    top: 120mm;
-  left: 100mm;
-padding-top:5px;
-height:100px;
-transform: rotate(-20deg);
--moz-transform: rotate(-20deg);
--webkit-transform: rotate(-20deg);
--khtml-transform: rotate(-20deg);
--ms-transform: rotate(-20deg);
-}
 
-.circle.multi-line10{    
-position: absolute;
-    top: 110mm;
-  left: 140mm;
-padding-top:5px;
-height:100px;
-transform: rotate(20deg);
--moz-transform: rotate(20deg);
--webkit-transform: rotate(20deg);
--khtml-transform: rotate(20deg);
--ms-transform: rotate(20deg);
-}
 
 .circle.multi-line11{    
 position: absolute;
@@ -261,7 +237,7 @@ transform: rotate(20deg);
 .circle.multi-line14{    
 position: absolute;
     top: 200mm;
-  left: 110mm;
+  left: 90mm;
 padding-top:5px;
 height:100px;
     width:500px;
@@ -275,7 +251,7 @@ transform: rotate(-50deg);
 .circle.multi-line16{    
 position: absolute;
     top: 215mm;
-  left: 80mm;
+  left: 78mm;
 padding-top:5px;
 height:100px;
 transform: rotate(-20deg);
@@ -289,7 +265,7 @@ transform: rotate(-20deg);
 .circle.multi-line17{    
 position: absolute;
     top: 205mm;
-  left: 90mm;
+  left: 85mm;
 padding-top:5px;
 height:100px;
 transform: rotate(-20deg);
@@ -303,7 +279,7 @@ transform: rotate(-20deg);
 .circle.multi-line18{    
 position: absolute;
     top: 195mm;
-  left: 95mm;
+  left: 92mm;
 padding-top:5px;
 height:100px;
 transform: rotate(-20deg);
@@ -345,7 +321,7 @@ transform: rotate(-20deg);
 .circle.multi-line21{    
 position: absolute;
     top: 175mm;
-  left: 120mm;
+  left: 115mm;
 padding-top:5px;
 height:100px;
 transform: rotate(-20deg);
@@ -359,7 +335,7 @@ transform: rotate(-20deg);
 .circle.multi-line22{    
 position: absolute;
     top: 170mm;
-  left: 120mm;
+  left: 122mm;
 padding-top:5px;
 height:100px;
 transform: rotate(-20deg);
@@ -372,8 +348,8 @@ transform: rotate(-20deg);
 
 .circle.multi-line23{    
 position: absolute;
-    top: 165mm;
-  left: 135mm;
+    top: 160mm;
+  left: 130mm;
 padding-top:5px;
 height:100px;
 transform: rotate(-20deg);
@@ -386,8 +362,8 @@ transform: rotate(-20deg);
 
 .circle.multi-line24{    
 position: absolute;
-    top: 155mm;
-  left: 140mm;
+    top: 150mm;
+  left: 135mm;
 padding-top:5px;
 height:100px;
 transform: rotate(-20deg);
@@ -400,8 +376,8 @@ transform: rotate(-20deg);
 
 .circle.multi-line25{    
 position: absolute;
-    top: 155mm;
-  left: 150mm;
+    top: 140mm;
+  left: 155mm;
 padding-top:5px;
 height:100px;
 transform: rotate(-20deg);
@@ -414,15 +390,15 @@ transform: rotate(-20deg);
 .circle.multi-line26{    
 position: absolute;
     top: 230mm;
-  left: 10mm;
+  left: 0mm;
 padding-top:5px;
 height:100px;
 width:400px;
-transform: rotate(50deg);
--moz-transform: rotate(50deg);
--webkit-transform: rotate(50deg);
--khtml-transform: rotate(50deg);
--ms-transform: rotate(50deg);
+transform: rotate(40deg);
+-moz-transform: rotate(40deg);
+-webkit-transform: rotate(40deg);
+-khtml-transform: rotate(40deg);
+-ms-transform: rotate(40deg);
 }
 
 /*second page*/
