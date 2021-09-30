@@ -63,13 +63,12 @@ h1 {
 }
 
 .fond {
-    opacity:0.5;
+    opacity:0.7;
     
 }
 
 .textwrapper {
     line-height: 15px;
-    background-image: url('icons/flower2.png');
 }
 
 
@@ -92,6 +91,7 @@ position: absolute;
 padding-top:5px;
 margin-top:5px;
 height:100px;
+    line-height: 200%;
 transform: rotate(-20deg);
 -moz-transform: rotate(-20deg);
 -webkit-transform: rotate(-20deg);
@@ -142,7 +142,7 @@ transform: rotate(0deg);
 
 .circle.multi-line5{    
 position: absolute;
-  top: 155mm;
+  top: 135mm;
   left: 105mm;
 padding-top:5px;
 height:100px;
@@ -155,8 +155,8 @@ transform: rotate(-20deg);
 
 .circle.multi-line6{    
 position: absolute;
-    top: 85mm;
-  left: 115mm;
+    top: 105mm;
+  left: 105mm;
 padding-top:5px;
 height:100px;
 transform: rotate(20deg);
@@ -168,8 +168,8 @@ transform: rotate(20deg);
 
 .circle.multi-line7{    
 position: absolute;
-    top: 220mm;
-  left: -50mm;
+    top: 170mm;
+  left: 0mm;
 padding-top:5px;
 height:100px;
     width:300px;
@@ -197,10 +197,11 @@ transform: rotate(10deg);
 
 .circle.multi-line11{    
 position: absolute;
-    top: 110mm;
+    top: 120mm;
   left: 140mm;
 padding-top:5px;
 height:100px;
+    width:200px;
 transform: rotate(20deg);
 -moz-transform: rotate(20deg);
 -webkit-transform: rotate(20deg);
@@ -223,8 +224,8 @@ transform: rotate(-20deg);
 
 .circle.multi-line13{    
 position: absolute;
-    top: 115mm;
-  left: 50mm;
+    top: 105mm;
+  left: 90mm;
 padding-top:5px;
 height:100px;
 transform: rotate(20deg);
@@ -236,11 +237,11 @@ transform: rotate(20deg);
 
 .circle.multi-line14{    
 position: absolute;
-    top: 230mm;
-  left: 50mm;
+    top: 250mm;
+  left: 70mm;
 padding-top:5px;
 height:100px;
-    width:400px;
+    width:300px;
 transform: rotate(-40deg);
 -moz-transform: rotate(-40deg);
 -webkit-transform: rotate(-40deg);
@@ -377,7 +378,7 @@ transform: rotate(-20deg);
 .circle.multi-line25{    
 position: absolute;
     top: 140mm;
-  left: 155mm;
+  left: 135mm;
 padding-top:5px;
 height:100px;
 transform: rotate(-20deg);
@@ -389,8 +390,8 @@ transform: rotate(-20deg);
 
 .circle.multi-line26{    
 position: absolute;
-    top: 250mm;
-  left: -10mm;
+    top: 230mm;
+  left: -20mm;
 padding-top:5px;
 height:100px;
 width:400px;
