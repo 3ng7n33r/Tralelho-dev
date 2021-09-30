@@ -63,7 +63,7 @@ h1 {
 }
 
 .fond {
-    opacity:0.7;
+    opacity:0.4;
     
 }
 
@@ -86,12 +86,12 @@ h1 {
 
 .circle.multi-line1{    
 position: absolute;
-    top: 55mm;
+    top: 50mm;
   left: 63mm;
 padding-top:5px;
 margin-top:5px;
 height:100px;
-    line-height: 200%;
+    line-height: 110%;
 transform: rotate(-20deg);
 -moz-transform: rotate(-20deg);
 -webkit-transform: rotate(-20deg);
@@ -143,7 +143,7 @@ transform: rotate(0deg);
 .circle.multi-line5{    
 position: absolute;
   top: 135mm;
-  left: 105mm;
+  left: 115mm;
 padding-top:5px;
 height:100px;
 transform: rotate(-20deg);
@@ -168,8 +168,8 @@ transform: rotate(20deg);
 
 .circle.multi-line7{    
 position: absolute;
-    top: 170mm;
-  left: 0mm;
+    top: 160mm;
+  left: -20mm;
 padding-top:5px;
 height:100px;
     width:300px;
@@ -198,7 +198,7 @@ transform: rotate(10deg);
 .circle.multi-line11{    
 position: absolute;
     top: 120mm;
-  left: 140mm;
+  left: 130mm;
 padding-top:5px;
 height:100px;
     width:200px;
@@ -225,7 +225,7 @@ transform: rotate(-20deg);
 .circle.multi-line13{    
 position: absolute;
     top: 105mm;
-  left: 90mm;
+  left: 100mm;
 padding-top:5px;
 height:100px;
 transform: rotate(20deg);
@@ -237,8 +237,8 @@ transform: rotate(20deg);
 
 .circle.multi-line14{    
 position: absolute;
-    top: 250mm;
-  left: 70mm;
+    top: 230mm;
+  left: 90mm;
 padding-top:5px;
 height:100px;
     width:300px;
