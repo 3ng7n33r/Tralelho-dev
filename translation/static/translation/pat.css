@@ -159,7 +159,7 @@ transform: rotate(0deg);
 
 .circle.multi-line6{    
 position: absolute;
-    top: 135mm;
+    top: 128mm;
   left: 85mm;
 padding-top:5px;
 height:100px;
@@ -174,7 +174,7 @@ transform: rotate(-20deg);
 
 .circle.multi-line7{    
 position: absolute;
-    top: 150mm;
+    top: 160mm;
   left: -10mm;
 padding-top:5px;
 height:100px;
@@ -206,22 +206,22 @@ transform: rotate(-10deg);
 
 .circle.multi-line11{    
 position: absolute;
-    top: 120mm;
-  left: 130mm;
+    top: 115mm;
+  left: 135mm;
 padding-top:5px;
 height:100px;
     width:200px;
     line-height: 105%;
-transform: rotate(-20deg);
--moz-transform: rotate(-20deg);
--webkit-transform: rotate(-20deg);
--khtml-transform: rotate(-20deg);
--ms-transform: rotate(-20deg);
+transform: rotate(10deg);
+-moz-transform: rotate(10deg);
+-webkit-transform: rotate(10deg);
+-khtml-transform: rotate(10deg);
+-ms-transform: rotate(10deg);
 }
 
 .circle.multi-line12{    
 position: absolute;
-    top: 105mm;
+    top: 97mm;
   left: 130mm;
 padding-top:5px;
 height:100px;
@@ -412,7 +412,7 @@ transform: rotate(-20deg);
 
 .circle.multi-line26{    
 position: absolute;
-    top: 240mm;
+    top: 235mm;
   left: -10mm;
 padding-top:5px;
 height:100px;
