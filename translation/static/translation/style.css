@@ -121,7 +121,7 @@ a {
 }
 
 .anav i {
-    color: var(--color-complement-0);
+    color: #87CEFA;
     font-size: min(10vw, 30px);
     transition: transform 0.5s ease;
 }
