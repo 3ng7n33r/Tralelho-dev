@@ -268,17 +268,17 @@ main {
 }
 
 .navbar a:hover .fa-globe {
-    color: #d44e66;
+    color: #000000;
     transform: scale(1.12);
 }
 
 .navbar a:hover .fa-print {
-    color: #d44e66;
+    color: #000000;
     transform: scale(1.12);
 }
 
 .navbar a:hover .fa-ambulance {
-    color: #d44e66;
+    color: #000000;
     transform: scale(1.12);
 }
 
