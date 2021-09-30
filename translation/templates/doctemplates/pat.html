@@ -214,61 +214,67 @@
 			
 		 </tr>	
 			
-			
-			
-			<p>{% language target_language %}<b>{% translate "Je vais vous faire une prise de sang" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Je vais vous faire une prise de sang" %}{% endlanguage %}</p>
-		   <p>{% language target_language %}<b>{% translate "Je vais vous poser une perfusion" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Je vais vous poser une perfusion" %}{% endlanguage %}</p>
-		   <p>{% language target_language %}<b>{% translate "Je vais vous faire une piqûre" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Je vais vous faire une piqûre" %}{% endlanguage %}</p>
-		   <p>{% language target_language %}<b>{% translate "Je vais vous faire un pansement" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Je vais vous faire un pansement" %}{% endlanguage %}</p>
-		   <p>{% language target_language %}<b>{% translate "Je vais faire votre toilette" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Je vais faire votre toilette" %}{% endlanguage %}</p>
-		   <p>{% language target_language %}<b>{% translate "Vous allez avoir une radio" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Vous allez avoir une radio" %}{% endlanguage %}</p>
-		   <p>{% language target_language %}<b>{% translate "Vous allez avoir une échographie" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Vous allez avoir une échographie" %}{% endlanguage %}</p>
-		   <p>{% language target_language %}<b>{% translate "Vous allez avoir un scanner" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Vous allez avoir un scanner" %}{% endlanguage %}</p>
-		   <p>{% language target_language %}<b>{% translate "Vous allez avoir une opération chirurgicale" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Vous allez avoir une opération chirurgicale" %}{% endlanguage %}</p>
-		   <p>{% language target_language %}<b>{% translate "Je vais vous faire un plâtre" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Je vais vous faire un plâtre" %}{% endlanguage %}</p>
-		   <p>{% language target_language %}<b>{% translate "Vous allez avoir une IRM" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Vous allez avoir une IRM" %}{% endlanguage %}</p>
-		   <p>{% language target_language %}<b>{% translate "Ne bougez pas" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Ne bougez pas" %}{% endlanguage %}</p>
-		   <p>{% language target_language %}<b>{% translate "Vous ne devez pas manger" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Vous ne devez pas manger" %}{% endlanguage %}</p>
-		   <p>{% language target_language %}<b>{% translate "Vous ne devez pas boire" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Vous ne devez pas boire" %}{% endlanguage %}</p>
-		   <p>{% language target_language %}<b>{% translate "Vous ne devez pas vous lever" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Vous ne devez pas vous lever" %}{% endlanguage %}</p>
-		     <p>{% language target_language %}<b>{% translate "Vous devez rester sur le dos" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Vous devez rester sur le dos" %}{% endlanguage %}</p>
-		     <p>{% language target_language %}<b>{% translate "Vous ne devez pas fumer" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Vous ne devez pas fumer" %}{% endlanguage %}</p>
-		     <p>{% language target_language %}<b>{% translate "Il faut rester en isolement" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Il faut rester en isolement" %}{% endlanguage %}</p>
-		     <p>{% language target_language %}<b>{% translate "Vous devez garder ce masque sur vous" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Vous devez garder ce masque sur vous" %}{% endlanguage %}</p>
-		     <p>{% language target_language %}<b>{% translate "Pouvez-vous vous asseoir ?" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Pouvez-vous vous asseoir ?" %}{% endlanguage %}</p>
-		     <p>{% language target_language %}<b>{% translate "Pouvez-vous vous lever ?" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Pouvez-vous vous lever ?" %}{% endlanguage %}</p>
-		     <p>{% language target_language %}<b>{% translate "Pouvez-vous marcher ?" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Pouvez-vous marcher ?" %}{% endlanguage %}</p>
-		     <p>{% language target_language %}<b>{% translate "Pour nous appeler appuyer ici" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Pour nous appeler appuyer ici" %}{% endlanguage %}</p>
-		    <p>{% language target_language %}<b>{% translate "Pour allumer ou éteindre les lumières appuyer ici" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Pour allumer ou éteindre les lumières appuyer ici" %}{% endlanguage %}</p>
-		    <p>{% language target_language %}<b>{% translate "Les toilettes sont ici" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "Les toilettes sont ici" %}{% endlanguage %}</p>
-		    <p>{% language target_language %}<b>{% translate "La salle de bain est ici" %}</b>{% endlanguage %}<br>
-    {% language base_language %}{% translate "La salle de bain est ici" %}{% endlanguage %}</p>
-		    
+			 <tr>
+        <td class="tableimagecell" rowspan="2"><img class="tableimage" src="{% get_static_prefix %}translation/docs/icons/radio.png"></td>
+            <td class="tg-0lax" style="width: 300px">{% language target_language %}<b>{% translate "Je vais vous faire une prise de sang" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Je vais vous faire une prise de sang" %}{% endlanguage %}</td>
+				 <td class="tableimagecell" rowspan="3"><img class="tableimage" src="{% get_static_prefix %}translation/docs/icons/pouls.png"></td> 
+		   <td class="tg-0lax" style="width: 300px">{% language target_language %}<b>{% translate "Je vais vous poser une perfusion" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Je vais vous poser une perfusion" %}{% endlanguage %}</td>
+		   <td class="tg-0lax" style="width: 300px">{% language target_language %}<b>{% translate "Je vais vous faire une piqûre" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Je vais vous faire une piqûre" %}{% endlanguage %}</td>
+		  <td class="tg-0lax" style="width: 300px">{% language target_language %}<b>{% translate "Je vais vous faire un pansement" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Je vais vous faire un pansement" %}{% endlanguage %}</td>
+		   <td class="tg-0lax" style="width: 300px">{% language target_language %}<b>{% translate "Je vais faire votre toilette" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Je vais faire votre toilette" %}{% endlanguage %}</td>
+				 <td class="tableimagecell" rowspan="3"><img class="tableimage" src="{% get_static_prefix %}translation/docs/icons/pouls.png"></td> 
+		   <td class="tg-0lax" style="width: 300px">{% language target_language %}<b>{% translate "Vous allez avoir une radio" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Vous allez avoir une radio" %}{% endlanguage %}</td>
+		   <td class="tg-0lax" style="width: 300px">{% language target_language %}<b>{% translate "Vous allez avoir une échographie" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Vous allez avoir une échographie" %}{% endlanguage %}</td>
+		   <td class="tg-0lax" style="width: 300px">{% language target_language %}<b>{% translate "Vous allez avoir un scanner" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Vous allez avoir un scanner" %}{% endlanguage %}</td>
+		   <td class="tg-0lax" style="width: 300px">{% language target_language %}<b>{% translate "Vous allez avoir une opération chirurgicale" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Vous allez avoir une opération chirurgicale" %}{% endlanguage %}</td>
+		   <td class="tg-0lax" style="width: 300px">{% language target_language %}<b>{% translate "Je vais vous faire un plâtre" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Je vais vous faire un plâtre" %}{% endlanguage %}</td>
+		   <td class="tg-0lax" style="width: 300px">{% language target_language %}<b>{% translate "Vous allez avoir une IRM" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Vous allez avoir une IRM" %}{% endlanguage %}</td>
+				 <td class="tableimagecell" rowspan="3"><img class="tableimage" src="{% get_static_prefix %}translation/docs/icons/pouls.png"></td> 
+		   <td class="tg-0lax" style="width: 300px">{% language target_language %}<b>{% translate "Ne bougez pas" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Ne bougez pas" %}{% endlanguage %}</td>
+		   <td class="tg-0lax" style="width: 300px">{% language target_language %}<b>{% translate "Vous ne devez pas manger" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Vous ne devez pas manger" %}{% endlanguage %}</td>
+		   <td class="tg-0lax" style="width: 300px">{% language target_language %}<b>{% translate "Vous ne devez pas boire" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Vous ne devez pas boire" %}{% endlanguage %}</td>
+		  <td class="tg-0lax" style="width: 300px">{% language target_language %}<b>{% translate "Vous ne devez pas vous lever" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Vous ne devez pas vous lever" %}{% endlanguage %}</td>
+		     <td class="tg-0lax" style="width: 300px">{% language target_language %}<b>{% translate "Vous devez rester sur le dos" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Vous devez rester sur le dos" %}{% endlanguage %}</td>
+		     <td class="tg-0lax" style="width: 300px">{% language target_language %}<b>{% translate "Vous ne devez pas fumer" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Vous ne devez pas fumer" %}{% endlanguage %}</td>
+				 <td class="tableimagecell" rowspan="3"><img class="tableimage" src="{% get_static_prefix %}translation/docs/icons/pouls.png"></td> 
+		     <td class="tg-0lax" style="width: 300px">{% language target_language %}<b>{% translate "Il faut rester en isolement" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Il faut rester en isolement" %}{% endlanguage %}</td>
+		     <td class="tg-0lax" style="width: 300px">{% language target_language %}<b>{% translate "Vous devez garder ce masque sur vous" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Vous devez garder ce masque sur vous" %}{% endlanguage %}</td>
+				 <td class="tableimagecell" rowspan="3"><img class="tableimage" src="{% get_static_prefix %}translation/docs/icons/pouls.png"></td> 
+		     <td class="tg-0lax" style="width: 300px">{% language target_language %}<b>{% translate "Pouvez-vous vous asseoir ?" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Pouvez-vous vous asseoir ?" %}{% endlanguage %}</td>
+		     <td class="tg-0lax" style="width: 300px">{% language target_language %}<b>{% translate "Pouvez-vous vous lever ?" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Pouvez-vous vous lever ?" %}{% endlanguage %}</td>
+		     <td class="tg-0lax" style="width: 300px">{% language target_language %}<b>{% translate "Pouvez-vous marcher ?" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Pouvez-vous marcher ?" %}{% endlanguage %}</td>
+				 <td class="tableimagecell" rowspan="3"><img class="tableimage" src="{% get_static_prefix %}translation/docs/icons/pouls.png"></td> 
+		     <td class="tg-0lax" style="width: 300px">{% language target_language %}<b>{% translate "Pour nous appeler appuyer ici" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Pour nous appeler appuyer ici" %}{% endlanguage %}</td>
+		    <td class="tg-0lax" style="width: 300px">{% language target_language %}<b>{% translate "Pour allumer ou éteindre les lumières appuyer ici" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Pour allumer ou éteindre les lumières appuyer ici" %}{% endlanguage %}</td>
+		    <td class="tg-0lax" style="width: 300px">{% language target_language %}<b>{% translate "Les toilettes sont ici" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "Les toilettes sont ici" %}{% endlanguage %}</td>
+		    <td class="tg-0lax" style="width: 300px">{% language target_language %}<b>{% translate "La salle de bain est ici" %}</b>{% endlanguage %}<br>
+    {% language base_language %}{% translate "La salle de bain est ici" %}{% endlanguage %}</td>
+		  </tr>	   
 	 </tbody>
   </table>
 </div>	 
