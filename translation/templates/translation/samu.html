@@ -1,19 +1,42 @@
+{% extends "base.html" %}
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+{% block navbar %}
+	{% load i18n %}
+	{% load static %}
+	<div class="navbar">
+		<a class="navlogo" href="/{{ base_language }}/{{ base_flag }}#PRESENTATION"><i class="fa fa-home" ></i></a>
+		<a class="navlogo" href="/{{ base_language }}/{{ base_flag }}/about"><i class="fa fa-question-circle-o" ></i><p class="navtext"></p></a>	
+		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/{{ target_language }}/{{ target_flag }}"><i class="fa fa-language" ></i></a>
+		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/documents"><i class="fa fa-print" ></i></a>
+		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/support"><i class="fa fa-heart" ></i></a>
+		<a class="anav" href="/{{ base_language }}/{{ base_flag }}/samu"><i class="fa fa-ambulance " ></i></a>
+	</div>
+{% endblock %}
 
-<head>
-<title>TraLELHo</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-	   <link rel="stylesheet" media="screen" type="text/css" href="stylesamu.css" />
+{% block flags %}
+	<div id="flagcontainer" onclick="switchVisibilityBlock('changebase')">
+		<img id="sourceflag" src="{% get_static_prefix %}translation/flags/{{ base_flag }}.png">
+	</div>
+{% endblock %}
 
-</head>
+{% block changebase %}
+	{% load i18n %}
+	{% load static %}
+	{% include "changebase.html" with changebase="" %}
+{% endblock %}
 
-
-<body>
-
-  <ul class="navigation">
+{% block section %}
+	{% load i18n %}
+	{% load static %}
+	<section class="about">
+		<div id="aboutheader"><i class="fa fa-globe"></i><h1 style="margin-left: 5px">Tralelho - Traduction pour les étrangers à l'hôpital</h1></div>
+		
+		
+{% endblock %}
+		
+		
+		
+		  <ul class="navigation">
   	
 		
 </ul>
