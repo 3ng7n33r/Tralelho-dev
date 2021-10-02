@@ -464,7 +464,7 @@ figcaption {
 .navicon {
     height: 50px;
     filter: invert(56%) sepia(7%) saturate(355%) hue-rotate(163deg) brightness(99%) contrast(86%);
-    color: #FFC0CB;
+    color: #abdff7;
 }
 
 .description {
