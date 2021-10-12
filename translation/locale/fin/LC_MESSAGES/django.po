@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 73d3b19e82fc460fd936796fc5b25f94\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-11 15:45+0000\n"
-"PO-Revision-Date: 2021-03-30 10:31\n"
+"PO-Revision-Date: 2021-09-20 09:36\n"
 "Last-Translator: \n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -159,7 +159,7 @@ msgstr "Ei"
 #: translation/templates/translation/language.html:3767
 #: translation/templates/translation/language.html:3770
 msgid "Je ne sais pas"
-msgstr ""
+msgstr "En tiedä"
 
 #: translation/templates/doctemplates/irm.html:89
 #: translation/templates/doctemplates/irm.html:90
@@ -326,17 +326,17 @@ msgstr "Neurologia"
 #: translation/templates/sidenav.html:15
 #: translation/templates/translation/language.html:686
 msgid "PNEUMOLOGIE"
-msgstr ""
+msgstr "pneumonology"
 
 #: translation/templates/sidenav.html:16
 #: translation/templates/translation/language.html:773
 msgid "CARDIOLOGIE"
-msgstr ""
+msgstr "kardiologia"
 
 #: translation/templates/sidenav.html:17
 #: translation/templates/translation/language.html:932
 msgid "MALAISE"
-msgstr ""
+msgstr "pahanolontunne"
 
 #: translation/templates/sidenav.html:18
 #: translation/templates/translation/language.html:1043
@@ -346,12 +346,12 @@ msgstr "ruoan sulatus kanavan ongelmia"
 #: translation/templates/sidenav.html:19
 #: translation/templates/translation/language.html:1194
 msgid "INFECTIEUX"
-msgstr ""
+msgstr "tarttuvat ongelmat"
 
 #: translation/templates/sidenav.html:20
 #: translation/templates/translation/language.html:1273
 msgid "OPHTALMOLOGIE"
-msgstr ""
+msgstr "Silmätaudit"
 
 #: translation/templates/sidenav.html:21
 #: translation/templates/translation/language.html:1320
@@ -361,17 +361,17 @@ msgstr "Sairaushistoria"
 #: translation/templates/sidenav.html:22
 #: translation/templates/translation/language.html:1399
 msgid "PEDIATRIE"
-msgstr ""
+msgstr "Peaditric ongelmat"
 
 #: translation/templates/sidenav.html:23
 #: translation/templates/translation/language.html:1470
 msgid "GYNECOLOGIE"
-msgstr ""
+msgstr "Gynekologia"
 
 #: translation/templates/sidenav.html:24
 #: translation/templates/translation/language.html:1573
 msgid "TRAUMATOLOGIE"
-msgstr ""
+msgstr "traumatologia ja ortopedia"
 
 #: translation/templates/sidenav.html:25
 #: translation/templates/translation/language.html:1700
@@ -440,47 +440,47 @@ msgstr ""
 #: translation/templates/translation/language.html:49
 #: translation/templates/translation/language.html:52
 msgid "Je vais utiliser le téléphone pour traduire les questions que j'ai à vous poser, êtes vous d'accord ?"
-msgstr ""
+msgstr "Hei, olen hoitaja. Sopiiko teille, että käytän puhelintani pian esittämieni kysymysten kääntämiseen?"
 
 #: translation/templates/translation/language.html:57
 #: translation/templates/translation/language.html:60
 msgid "Bonjour, je suis infirmière"
-msgstr ""
+msgstr "Hei, olen hoitohenkilökunta"
 
 #: translation/templates/translation/language.html:65
 #: translation/templates/translation/language.html:68
 msgid "Bonjour, je suis médecin"
-msgstr ""
+msgstr "Hei, olen lääkäri"
 
 #: translation/templates/translation/language.html:73
 #: translation/templates/translation/language.html:76
 msgid "Bonjour, je suis secouriste"
-msgstr ""
+msgstr "Hei, olen ensihoitaja"
 
 #: translation/templates/translation/language.html:81
 #: translation/templates/translation/language.html:84
 msgid "Bonjour, je suis bénévole"
-msgstr ""
+msgstr "Hei, olen vapaaehtoinen"
 
 #: translation/templates/translation/language.html:89
 #: translation/templates/translation/language.html:92
 msgid "Bonjour, je suis agent d'accueil"
-msgstr ""
+msgstr "Hei, olen asiakaspalvelutyöntekijä"
 
 #: translation/templates/translation/language.html:97
 #: translation/templates/translation/language.html:100
 msgid "Bonjour, je suis étudiant en médecine"
-msgstr ""
+msgstr "Hei, olen lääketieteen opiskelija"
 
 #: translation/templates/translation/language.html:105
 #: translation/templates/translation/language.html:108
 msgid "Bonjour, je suis sage-femme"
-msgstr ""
+msgstr "Hei, olen kätilö"
 
 #: translation/templates/translation/language.html:113
 #: translation/templates/translation/language.html:116
 msgid "Bonjour, je suis secrétaire"
-msgstr ""
+msgstr "Hei, olen sihteeri"
 
 #: translation/templates/translation/language.html:121
 #: translation/templates/translation/language.html:124
@@ -495,7 +495,7 @@ msgstr "Voitteko näyttää minulle passinne?"
 #: translation/templates/translation/language.html:144
 #: translation/templates/translation/language.html:147
 msgid "Pouvez-vous me montrez une carte d’identité"
-msgstr ""
+msgstr "Voisinko nähdä jonkin henkilöllisyystodistuksen?"
 
 #: translation/templates/translation/language.html:152
 #: translation/templates/translation/language.html:155
@@ -510,7 +510,7 @@ msgstr "Onko teillä eurooppalaista sairaanhoitokorttia?"
 #: translation/templates/translation/language.html:168
 #: translation/templates/translation/language.html:171
 msgid "Pouvez-vous me montre une carte d’assurance privée"
-msgstr ""
+msgstr "Onko teillä yksityistä vakuutusta? Onko teillä vakuutuskortti mukananne?"
 
 #: translation/templates/translation/language.html:176
 #: translation/templates/translation/language.html:179
@@ -560,17 +560,17 @@ msgstr ""
 #: translation/templates/translation/language.html:255
 #: translation/templates/translation/language.html:258
 msgid "Nous viendrons vous appeler"
-msgstr ""
+msgstr "Tulemme noutamaan teidät"
 
 #: translation/templates/translation/language.html:263
 #: translation/templates/translation/language.html:266
 msgid "Merci de ne pas manger, boire ou fumer pendant l’attente"
-msgstr ""
+msgstr "Ei syömistä, juomista tai tupakointia odotushuoneissa"
 
 #: translation/templates/translation/language.html:271
 #: translation/templates/translation/language.html:274
 msgid "Votre famille devra attendre ici"
-msgstr ""
+msgstr "Perheenne tulee odottaa täällä"
 
 #: translation/templates/translation/language.html:279
 #: translation/templates/translation/language.html:282
@@ -676,22 +676,22 @@ msgstr "kymmenen"
 #: translation/templates/translation/language.html:462
 #: translation/templates/translation/language.html:465
 msgid "Pouvez vous vous déshabiller pour que je vous examine"
-msgstr ""
+msgstr "Voitteko riisuutua, jotta voin tutkia teidät"
 
 #: translation/templates/translation/language.html:470
 #: translation/templates/translation/language.html:473
 msgid "Vous pouvez garder vos sous-vêtements"
-msgstr ""
+msgstr "Voitte pitää alusvaatteet päällänne"
 
 #: translation/templates/translation/language.html:478
 #: translation/templates/translation/language.html:481
 msgid "Vous pouvez vous asseoir sur la chaise"
-msgstr ""
+msgstr "Voitte istua tuolilla"
 
 #: translation/templates/translation/language.html:486
 #: translation/templates/translation/language.html:489
 msgid "Vous pouvez vous allonger sur la table d'examen"
-msgstr ""
+msgstr "Voitte maata pöydällä"
 
 #: translation/templates/translation/language.html:494
 #: translation/templates/translation/language.html:497
@@ -731,12 +731,12 @@ msgstr "Kosketan nyt käsiänne ja jalkojanne. Tunnetteko sitä?"
 #: translation/templates/translation/language.html:557
 #: translation/templates/translation/language.html:560
 msgid "Regardez-moi dans les yeux, je vais observer vos pupilles"
-msgstr ""
+msgstr "Katsokaa minua silmiin. Haluan tarkkailla pupillejanne"
 
 #: translation/templates/translation/language.html:565
 #: translation/templates/translation/language.html:568
 msgid "Avez vous des fourmillement ? Montrez moi où"
-msgstr ""
+msgstr "Onko teillä pinssejä tai neuloja? Näyttäkää minulle, missä."
 
 #: translation/templates/translation/language.html:573
 #: translation/templates/translation/language.html:576
@@ -756,7 +756,7 @@ msgstr "Avatkaa suu"
 #: translation/templates/translation/language.html:597
 #: translation/templates/translation/language.html:600
 msgid "Levez le bras droit"
-msgstr ""
+msgstr "Nostakaa oikeaa kättänne"
 
 #: translation/templates/translation/language.html:605
 #: translation/templates/translation/language.html:608
@@ -823,17 +823,17 @@ msgstr ""
 #: translation/templates/translation/language.html:708
 #: translation/templates/translation/language.html:711
 msgid "Prenez une grande inspiration puis bloquez votre respiration"
-msgstr ""
+msgstr "hengitä syvään, ja pidätä sitten henkeä"
 
 #: translation/templates/translation/language.html:716
 #: translation/templates/translation/language.html:719
 msgid "Respirez normalement"
-msgstr ""
+msgstr "hengitä tavallisesti"
 
 #: translation/templates/translation/language.html:724
 #: translation/templates/translation/language.html:727
 msgid "Respirez profondément"
-msgstr ""
+msgstr "hengitä syvään"
 
 #: translation/templates/translation/language.html:732
 #: translation/templates/translation/language.html:735
@@ -858,13 +858,13 @@ msgstr "oletko hengittänyt savua ?"
 #: translation/templates/translation/language.html:764
 #: translation/templates/translation/language.html:767
 msgid "Je vous laisse vous moucher, pour savoir s’il y a des traces de suie"
-msgstr ""
+msgstr "voisitko niistää, jotta näkisin onko sinulla nokea nenässä ?"
 
 #: translation/templates/translation/language.html:779
 #: translation/templates/translation/language.html:782
 #| msgid "Est-ce que vous voyez double ?"
 msgid "Est-ce que votre douleur"
-msgstr ""
+msgstr "Onko kipusi:"
 
 #: translation/templates/translation/language.html:787
 #: translation/templates/translation/language.html:790
@@ -884,7 +884,7 @@ msgstr ""
 #: translation/templates/translation/language.html:811
 #: translation/templates/translation/language.html:814
 msgid "Est-ce que votre douleur irradie ? Montrez-moi vers où"
-msgstr ""
+msgstr "Säteileekö kipu? Voitteko näyttää minne?"
 
 #: translation/templates/translation/language.html:819
 #: translation/templates/translation/language.html:822
@@ -1030,7 +1030,7 @@ msgstr "Näyttäkää kipeä kohta minulle"
 #: translation/templates/translation/language.html:1057
 #: translation/templates/translation/language.html:1060
 msgid "Est ce que la douleur irradie ? Si oui montrez moi vers où"
-msgstr ""
+msgstr "Levittäytyykö kipu? Esitä minulle, mihin päin."
 
 #: translation/templates/translation/language.html:1065
 #: translation/templates/translation/language.html:1068
@@ -1177,12 +1177,12 @@ msgstr "Onko sinulla päänsärkyä?"
 #: translation/templates/translation/language.html:1303
 #: translation/templates/translation/language.html:1306
 msgid "Est ce que vous avez l’impression que la pièce tourne autour de vous ?"
-msgstr ""
+msgstr "Tuntuuko sinusta että huone pyörii?"
 
 #: translation/templates/translation/language.html:1311
 #: translation/templates/translation/language.html:1314
 msgid "Avez-vous reçu un coup à la tête récemment ?"
-msgstr ""
+msgstr "Oletko saanut iskuja päähän viime aikoina?"
 
 #: translation/templates/translation/language.html:1326
 #: translation/templates/translation/language.html:1329
@@ -1202,17 +1202,17 @@ msgstr ""
 #: translation/templates/translation/language.html:1350
 #: translation/templates/translation/language.html:1353
 msgid "Avez-vous une ordonnance avec vos traitements ?"
-msgstr ""
+msgstr "Onko sinulla lääkkeiden ohje?"
 
 #: translation/templates/translation/language.html:1358
 #: translation/templates/translation/language.html:1361
 msgid "Avez-vous des allergies ? lesquelles ?"
-msgstr ""
+msgstr "Oletko allerginen? (jos niin, mille?)"
 
 #: translation/templates/translation/language.html:1366
 #: translation/templates/translation/language.html:1369
 msgid "Y a-t-il des antécédents de maladie dans votre famille ?"
-msgstr ""
+msgstr "Onko ollut perheessasi tiedettyjä sairauksia?"
 
 #: translation/templates/translation/language.html:1374
 #: translation/templates/translation/language.html:1377
@@ -1222,12 +1222,12 @@ msgstr ""
 #: translation/templates/translation/language.html:1382
 #: translation/templates/translation/language.html:1385
 msgid "Pouvez-vous vous lever ?"
-msgstr ""
+msgstr "Voitko nousta?"
 
 #: translation/templates/translation/language.html:1390
 #: translation/templates/translation/language.html:1393
 msgid "Pouvez-vous marcher ?"
-msgstr ""
+msgstr "Voitko kävellä?"
 
 #: translation/templates/translation/language.html:1405
 #: translation/templates/translation/language.html:1408
@@ -1648,7 +1648,7 @@ msgstr "Sinulla on oltava kipsi"
 #: translation/templates/translation/language.html:2120
 #: translation/templates/translation/language.html:2123
 msgid "Vous devrez porter une attelle"
-msgstr ""
+msgstr "Tarvitset kainalosauvat"
 
 #: translation/templates/translation/language.html:2128
 #: translation/templates/translation/language.html:2131
@@ -1683,56 +1683,56 @@ msgstr "Olen janoinen"
 #: translation/templates/translation/language.html:2183
 #: translation/templates/translation/language.html:2186
 msgid "J’ai mal"
-msgstr ""
+msgstr "Tähän sattuu"
 
 #: translation/templates/translation/language.html:2191
 #: translation/templates/translation/language.html:2194
 msgid "J’ai froid"
-msgstr ""
+msgstr "minulla on kylmä"
 
 #: translation/templates/translation/language.html:2199
 #: translation/templates/translation/language.html:2202
 msgid "J’ai chaud"
-msgstr ""
+msgstr "minulla on kuumetta"
 
 #: translation/templates/translation/language.html:2207
 #: translation/templates/translation/language.html:2210
 msgid "J’ai des nausées"
-msgstr ""
+msgstr "Olen pahoinvoiva"
 
 #: translation/templates/translation/language.html:2215
 #: translation/templates/translation/language.html:2218
 #: translation/templates/translation/language.html:3103
 #: translation/templates/translation/language.html:3106
 msgid "J’ai vomi"
-msgstr ""
+msgstr "Olen oksentanut"
 
 #: translation/templates/translation/language.html:2223
 #: translation/templates/translation/language.html:2226
 msgid "J’ai uriné (je voudrais être changé)"
-msgstr ""
+msgstr "Virtsaan (haluaisin tulla vaihdetuksi)"
 
 #: translation/templates/translation/language.html:2231
 #: translation/templates/translation/language.html:2234
 msgid "Je voudrais uriner"
-msgstr ""
+msgstr "Haluaisin virtsata"
 
 #: translation/templates/translation/language.html:2239
 #: translation/templates/translation/language.html:2242
 msgid "Je voudrais déféquer"
-msgstr ""
+msgstr "Haluaisin ulostaa"
 
 #: translation/templates/translation/language.html:2247
 #: translation/templates/translation/language.html:2250
 #: translation/templates/translation/language.html:2775
 #: translation/templates/translation/language.html:2778
 msgid "J’ai des vertiges"
-msgstr ""
+msgstr "minua pyörryttää"
 
 #: translation/templates/translation/language.html:2255
 #: translation/templates/translation/language.html:2258
 msgid "J’ai peur"
-msgstr ""
+msgstr "Minua pelottaa"
 
 #: translation/templates/translation/language.html:2263
 #: translation/templates/translation/language.html:2266
@@ -1747,7 +1747,7 @@ msgstr "Haluaisin lisätietoja"
 #: translation/templates/translation/language.html:2279
 #: translation/templates/translation/language.html:2282
 msgid "J’ai eu un accident"
-msgstr ""
+msgstr "Olen loukkaantunut"
 
 #: translation/templates/translation/language.html:2287
 #: translation/templates/translation/language.html:2290
@@ -1757,7 +1757,7 @@ msgstr ""
 #: translation/templates/translation/language.html:2295
 #: translation/templates/translation/language.html:2298
 msgid "J’ai été renversé"
-msgstr ""
+msgstr "Minun päälleni ajettiin autolla"
 
 #: translation/templates/translation/language.html:2303
 #: translation/templates/translation/language.html:2306
@@ -1769,12 +1769,12 @@ msgstr ""
 #: translation/templates/translation/language.html:2439
 #: translation/templates/translation/language.html:2442
 msgid "Je suis tombé"
-msgstr ""
+msgstr "Kaaduin"
 
 #: translation/templates/translation/language.html:2319
 #: translation/templates/translation/language.html:2322
 msgid "J’ai reçu un coup"
-msgstr ""
+msgstr "Joku löi minua"
 
 #: translation/templates/translation/language.html:2327
 #: translation/templates/translation/language.html:2330
@@ -1929,12 +1929,12 @@ msgstr ""
 #: translation/templates/translation/language.html:2583
 #: translation/templates/translation/language.html:2586
 msgid "La douleur est apparue brutalement"
-msgstr ""
+msgstr "Kipu alkoi yllättäen"
 
 #: translation/templates/translation/language.html:2591
 #: translation/templates/translation/language.html:2594
 msgid "La douleur est apparue progressivement"
-msgstr ""
+msgstr "Kipu alkoi vähitellen"
 
 #: translation/templates/translation/language.html:2599
 #: translation/templates/translation/language.html:2602
@@ -1954,7 +1954,7 @@ msgstr ""
 #: translation/templates/translation/language.html:2623
 #: translation/templates/translation/language.html:2626
 msgid "J’ai des difficultés à parler"
-msgstr ""
+msgstr "En voi puhua"
 
 #: translation/templates/translation/language.html:2631
 #: translation/templates/translation/language.html:2634
@@ -1969,7 +1969,7 @@ msgstr ""
 #: translation/templates/translation/language.html:2647
 #: translation/templates/translation/language.html:2650
 msgid "J’ai de la fièvre"
-msgstr ""
+msgstr "minulla on kuumetta"
 
 #: translation/templates/translation/language.html:2655
 #: translation/templates/translation/language.html:2658
@@ -1989,7 +1989,7 @@ msgstr ""
 #: translation/templates/translation/language.html:2679
 #: translation/templates/translation/language.html:2682
 msgid "J’ai fais un malaise"
-msgstr ""
+msgstr "Minua oksettaa"
 
 #: translation/templates/translation/language.html:2687
 #: translation/templates/translation/language.html:2690
@@ -1999,7 +1999,7 @@ msgstr ""
 #: translation/templates/translation/language.html:2695
 #: translation/templates/translation/language.html:2698
 msgid "J’ai perdu connaissance"
-msgstr ""
+msgstr "olin tiedoton"
 
 #: translation/templates/translation/language.html:2703
 #: translation/templates/translation/language.html:2706
@@ -2029,7 +2029,7 @@ msgstr ""
 #: translation/templates/translation/language.html:2743
 #: translation/templates/translation/language.html:2746
 msgid "Je suis épileptique"
-msgstr ""
+msgstr "Minulla on epilepsia"
 
 #: translation/templates/translation/language.html:2751
 #: translation/templates/translation/language.html:2754
@@ -2054,7 +2054,7 @@ msgstr ""
 #: translation/templates/translation/language.html:2791
 #: translation/templates/translation/language.html:2794
 msgid "Je suis diabétique"
-msgstr ""
+msgstr "Minulla on Diabetes"
 
 #: translation/templates/translation/language.html:2799
 #: translation/templates/translation/language.html:2802
@@ -2160,7 +2160,7 @@ msgstr ""
 #: translation/templates/translation/language.html:2959
 #: translation/templates/translation/language.html:2962
 msgid "Je crache du sang"
-msgstr ""
+msgstr "Yskin verta"
 
 #: translation/templates/translation/language.html:2967
 #: translation/templates/translation/language.html:2970
@@ -2170,7 +2170,7 @@ msgstr ""
 #: translation/templates/translation/language.html:2975
 #: translation/templates/translation/language.html:2978
 msgid "Je tousse"
-msgstr ""
+msgstr "minulla on yskä"
 
 #: translation/templates/translation/language.html:2983
 #: translation/templates/translation/language.html:2986
@@ -2180,7 +2180,7 @@ msgstr ""
 #: translation/templates/translation/language.html:2991
 #: translation/templates/translation/language.html:2994
 msgid "J’ai des difficultés à respirer"
-msgstr ""
+msgstr "minun on vaikea hengittää"
 
 #: translation/templates/translation/language.html:2999
 #: translation/templates/translation/language.html:3002
@@ -2260,7 +2260,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3127
 #: translation/templates/translation/language.html:3130
 msgid "Du sang"
-msgstr ""
+msgstr "Minulla on verta oksennuksessa"
 
 #: translation/templates/translation/language.html:3135
 #: translation/templates/translation/language.html:3138
@@ -2280,7 +2280,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3159
 #: translation/templates/translation/language.html:3162
 msgid "J’ai des diarrhées"
-msgstr ""
+msgstr "Minulla on ripuli"
 
 #: translation/templates/translation/language.html:3167
 #: translation/templates/translation/language.html:3170
@@ -2305,7 +2305,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3199
 #: translation/templates/translation/language.html:3202
 msgid "Il y avait du sang dans mes urines"
-msgstr ""
+msgstr "Minulla on verta virtsassa"
 
 #: translation/templates/translation/language.html:3207
 #: translation/templates/translation/language.html:3210
@@ -2315,7 +2315,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3215
 #: translation/templates/translation/language.html:3218
 msgid "J’ai des brûlures quand j’urine"
-msgstr ""
+msgstr "Virtsaaminen sattuu"
 
 #: translation/templates/translation/language.html:3223
 #: translation/templates/translation/language.html:3226
@@ -2330,7 +2330,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3239
 #: translation/templates/translation/language.html:3242
 msgid "Il y avait du sang dans mes selles"
-msgstr ""
+msgstr "Minulla on verta ulosteessa"
 
 #: translation/templates/translation/language.html:3247
 #: translation/templates/translation/language.html:3250
@@ -2450,7 +2450,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3439
 #: translation/templates/translation/language.html:3442
 msgid "J’ai été piqué ou mordu récemment"
-msgstr ""
+msgstr "Hyönteinen pisti minua"
 
 #: translation/templates/translation/language.html:3447
 #: translation/templates/translation/language.html:3450
@@ -3327,7 +3327,7 @@ msgid "Fidjien"
 msgstr ""
 
 msgid "Français"
-msgstr ""
+msgstr "Finnois"
 
 msgid "Créole Haitien"
 msgstr ""

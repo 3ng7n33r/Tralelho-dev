@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 73d3b19e82fc460fd936796fc5b25f94\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-11 15:45+0000\n"
-"PO-Revision-Date: 2021-05-25 12:40\n"
+"PO-Revision-Date: 2021-09-20 09:36\n"
 "Last-Translator: \n"
 "Language-Team: Czech\n"
 "Language: cs\n"
@@ -83,7 +83,7 @@ msgstr "Během vyšetření Vás požádáme o nadechnutí do plic a zastavit de
 #: translation/templates/translation/language.html:2017
 #: translation/templates/translation/language.html:2020
 msgid "Pour nous appeler appuyer ici"
-msgstr ""
+msgstr "pokud nás potřebujete zazvoňte na toto tlačítko"
 
 #: translation/templates/doctemplates/irm.html:47
 msgid "Checklist IRM"
@@ -216,7 +216,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3631
 #: translation/templates/translation/language.html:3634
 msgid "Avez-vous des éclats métalliques dans les yeux?"
-msgstr ""
+msgstr "Kovové střepiny v očích?"
 
 #: translation/templates/doctemplates/irm.html:188
 #: translation/templates/doctemplates/irm.html:189
@@ -326,17 +326,17 @@ msgstr "NEUROLOGIE"
 #: translation/templates/sidenav.html:15
 #: translation/templates/translation/language.html:686
 msgid "PNEUMOLOGIE"
-msgstr ""
+msgstr "PNEUMOLOGIE :"
 
 #: translation/templates/sidenav.html:16
 #: translation/templates/translation/language.html:773
 msgid "CARDIOLOGIE"
-msgstr ""
+msgstr "KARDIOLOGIE"
 
 #: translation/templates/sidenav.html:17
 #: translation/templates/translation/language.html:932
 msgid "MALAISE"
-msgstr ""
+msgstr "NEVOLNOST - MDLOBY"
 
 #: translation/templates/sidenav.html:18
 #: translation/templates/translation/language.html:1043
@@ -346,12 +346,12 @@ msgstr "TRÁVICÍ ÚSTROJÍ"
 #: translation/templates/sidenav.html:19
 #: translation/templates/translation/language.html:1194
 msgid "INFECTIEUX"
-msgstr ""
+msgstr "INFEKCE"
 
 #: translation/templates/sidenav.html:20
 #: translation/templates/translation/language.html:1273
 msgid "OPHTALMOLOGIE"
-msgstr ""
+msgstr "OČNÍ"
 
 #: translation/templates/sidenav.html:21
 #: translation/templates/translation/language.html:1320
@@ -361,17 +361,17 @@ msgstr "ANTECEDENCE"
 #: translation/templates/sidenav.html:22
 #: translation/templates/translation/language.html:1399
 msgid "PEDIATRIE"
-msgstr ""
+msgstr "PEDIATRIE"
 
 #: translation/templates/sidenav.html:23
 #: translation/templates/translation/language.html:1470
 msgid "GYNECOLOGIE"
-msgstr ""
+msgstr "GYNEKOLOGIE"
 
 #: translation/templates/sidenav.html:24
 #: translation/templates/translation/language.html:1573
 msgid "TRAUMATOLOGIE"
-msgstr ""
+msgstr "TRAUMA"
 
 #: translation/templates/sidenav.html:25
 #: translation/templates/translation/language.html:1700
@@ -440,47 +440,47 @@ msgstr ""
 #: translation/templates/translation/language.html:49
 #: translation/templates/translation/language.html:52
 msgid "Je vais utiliser le téléphone pour traduire les questions que j'ai à vous poser, êtes vous d'accord ?"
-msgstr ""
+msgstr "Budu používat telefon k překladu. Souhlasíte s tím?"
 
 #: translation/templates/translation/language.html:57
 #: translation/templates/translation/language.html:60
 msgid "Bonjour, je suis infirmière"
-msgstr ""
+msgstr "Dobrý den, jsem ošetřovatel"
 
 #: translation/templates/translation/language.html:65
 #: translation/templates/translation/language.html:68
 msgid "Bonjour, je suis médecin"
-msgstr ""
+msgstr "Dobrý den, jsem lékař"
 
 #: translation/templates/translation/language.html:73
 #: translation/templates/translation/language.html:76
 msgid "Bonjour, je suis secouriste"
-msgstr ""
+msgstr "Dobrý den, jsem první pomoc"
 
 #: translation/templates/translation/language.html:81
 #: translation/templates/translation/language.html:84
 msgid "Bonjour, je suis bénévole"
-msgstr ""
+msgstr "Dobrý den, jsem dobrovolník"
 
 #: translation/templates/translation/language.html:89
 #: translation/templates/translation/language.html:92
 msgid "Bonjour, je suis agent d'accueil"
-msgstr ""
+msgstr "Dobrý den, jsem recepční"
 
 #: translation/templates/translation/language.html:97
 #: translation/templates/translation/language.html:100
 msgid "Bonjour, je suis étudiant en médecine"
-msgstr ""
+msgstr "Dobrý den, jsem student medicíny"
 
 #: translation/templates/translation/language.html:105
 #: translation/templates/translation/language.html:108
 msgid "Bonjour, je suis sage-femme"
-msgstr ""
+msgstr "Dobrý den, jsem porodní asistent"
 
 #: translation/templates/translation/language.html:113
 #: translation/templates/translation/language.html:116
 msgid "Bonjour, je suis secrétaire"
-msgstr ""
+msgstr "Dobrý den, jsem sekretářka"
 
 #: translation/templates/translation/language.html:121
 #: translation/templates/translation/language.html:124
@@ -495,7 +495,7 @@ msgstr "Můžete mi ukázat váš cestovní pas?"
 #: translation/templates/translation/language.html:144
 #: translation/templates/translation/language.html:147
 msgid "Pouvez-vous me montrez une carte d’identité"
-msgstr ""
+msgstr "Můžete mi ukázat váš občanský průkaz?"
 
 #: translation/templates/translation/language.html:152
 #: translation/templates/translation/language.html:155
@@ -510,7 +510,7 @@ msgstr "Můžete mi ukázat Evropskou zdravotní kartu?"
 #: translation/templates/translation/language.html:168
 #: translation/templates/translation/language.html:171
 msgid "Pouvez-vous me montre une carte d’assurance privée"
-msgstr ""
+msgstr "Můžete mi ukázat zdravotní kartou soukromé zdravotní pojišťovny?"
 
 #: translation/templates/translation/language.html:176
 #: translation/templates/translation/language.html:179
@@ -545,22 +545,22 @@ msgstr "Prosím počkejte"
 #: translation/templates/translation/language.html:231
 #: translation/templates/translation/language.html:234
 msgid "Je vous laisse attendre sur les chaises"
-msgstr ""
+msgstr "Prosím počkejte na židli"
 
 #: translation/templates/translation/language.html:239
 #: translation/templates/translation/language.html:242
 msgid "Je vous laisse attendre sur le banc"
-msgstr ""
+msgstr "Prosím počkejte na lavici"
 
 #: translation/templates/translation/language.html:247
 #: translation/templates/translation/language.html:250
 msgid "Je vous laisse attendre dans la salle d'attente"
-msgstr ""
+msgstr "Prosím počkejte v Čekárně"
 
 #: translation/templates/translation/language.html:255
 #: translation/templates/translation/language.html:258
 msgid "Nous viendrons vous appeler"
-msgstr ""
+msgstr "Zavoláme vás"
 
 #: translation/templates/translation/language.html:263
 #: translation/templates/translation/language.html:266
@@ -601,12 +601,12 @@ msgstr "Kde máte bolesti?"
 #: translation/templates/translation/language.html:342
 #: translation/templates/translation/language.html:345
 msgid "Montrez-moi où vous avez mal"
-msgstr ""
+msgstr "ukažte mi kde cítíte bolest"
 
 #: translation/templates/translation/language.html:350
 #: translation/templates/translation/language.html:353
 msgid "Je vais vous examiner"
-msgstr ""
+msgstr "vyšetřím vás"
 
 #: translation/templates/translation/language.html:358
 #: translation/templates/translation/language.html:361
@@ -716,7 +716,7 @@ msgstr "Víte kde jste?"
 #: translation/templates/translation/language.html:533
 #: translation/templates/translation/language.html:536
 msgid "Suivez mon doigt du regard"
-msgstr ""
+msgstr "Sledujte očima můj prst"
 
 #: translation/templates/translation/language.html:541
 #: translation/templates/translation/language.html:544
@@ -736,7 +736,7 @@ msgstr "dívejte se mi do očí, budu sledovat vaše oční panenky"
 #: translation/templates/translation/language.html:565
 #: translation/templates/translation/language.html:568
 msgid "Avez vous des fourmillement ? Montrez moi où"
-msgstr ""
+msgstr "Máte pocit mravenčení? Ukažte mi kde"
 
 #: translation/templates/translation/language.html:573
 #: translation/templates/translation/language.html:576
@@ -746,7 +746,7 @@ msgstr "Tlačte na mé ruce"
 #: translation/templates/translation/language.html:581
 #: translation/templates/translation/language.html:584
 msgid "Ouvrez les yeux"
-msgstr ""
+msgstr "Otevřete oči"
 
 #: translation/templates/translation/language.html:589
 #: translation/templates/translation/language.html:592
@@ -756,7 +756,7 @@ msgstr "Otevřete ústa"
 #: translation/templates/translation/language.html:597
 #: translation/templates/translation/language.html:600
 msgid "Levez le bras droit"
-msgstr ""
+msgstr "Zvedněte levou ruku"
 
 #: translation/templates/translation/language.html:605
 #: translation/templates/translation/language.html:608
@@ -773,12 +773,12 @@ msgstr "bolest se objevila"
 #: translation/templates/translation/language.html:621
 #: translation/templates/translation/language.html:624
 msgid "La douleur est apparue progressivement ?"
-msgstr ""
+msgstr "Bolest se objevila postupně ?"
 
 #: translation/templates/translation/language.html:629
 #: translation/templates/translation/language.html:632
 msgid "La douleur est apparue brutalement ?"
-msgstr ""
+msgstr "Bolest se objevila najednou ?"
 
 #: translation/templates/translation/language.html:637
 #: translation/templates/translation/language.html:640
@@ -828,12 +828,12 @@ msgstr "Zhluboka se nadechnĕte a zadržte výdech"
 #: translation/templates/translation/language.html:716
 #: translation/templates/translation/language.html:719
 msgid "Respirez normalement"
-msgstr ""
+msgstr "dýchejte normálně"
 
 #: translation/templates/translation/language.html:724
 #: translation/templates/translation/language.html:727
 msgid "Respirez profondément"
-msgstr ""
+msgstr "Dýchejte zhluboka"
 
 #: translation/templates/translation/language.html:732
 #: translation/templates/translation/language.html:735
@@ -864,7 +864,7 @@ msgstr "Prosím vysmrkejte se abychom viděli jestli máte v dutinách částeč
 #: translation/templates/translation/language.html:782
 #| msgid "Est-ce que vous voyez double ?"
 msgid "Est-ce que votre douleur"
-msgstr ""
+msgstr "Vaše bolest:"
 
 #: translation/templates/translation/language.html:787
 #: translation/templates/translation/language.html:790
@@ -884,7 +884,7 @@ msgstr ""
 #: translation/templates/translation/language.html:811
 #: translation/templates/translation/language.html:814
 msgid "Est-ce que votre douleur irradie ? Montrez-moi vers où"
-msgstr ""
+msgstr "Vaše bolest se rozléhá? Ukažte mi do které oblasti."
 
 #: translation/templates/translation/language.html:819
 #: translation/templates/translation/language.html:822
@@ -909,17 +909,17 @@ msgstr "Dní"
 #: translation/templates/translation/language.html:851
 #: translation/templates/translation/language.html:854
 msgid "Je vais prendre votre pouls"
-msgstr ""
+msgstr "Změřím vám puls"
 
 #: translation/templates/translation/language.html:859
 #: translation/templates/translation/language.html:862
 msgid "Je vais appuyer doucement sur votre ongle"
-msgstr ""
+msgstr "Lehce zatlačím na váš nehet"
 
 #: translation/templates/translation/language.html:867
 #: translation/templates/translation/language.html:870
 msgid "Je vais prendre votre pression artérielle"
-msgstr ""
+msgstr "Změřím vám tlak"
 
 #: translation/templates/translation/language.html:875
 #: translation/templates/translation/language.html:878
@@ -1025,12 +1025,12 @@ msgstr "Jedl (a) jste dnes?"
 #: translation/templates/translation/language.html:1049
 #: translation/templates/translation/language.html:1052
 msgid "Montrez moi ou vous avez mal"
-msgstr ""
+msgstr "ukažte mi kde vás to bolí"
 
 #: translation/templates/translation/language.html:1057
 #: translation/templates/translation/language.html:1060
 msgid "Est ce que la douleur irradie ? Si oui montrez moi vers où"
-msgstr ""
+msgstr "Vaše bolest se rozléhá? Ukažte mi do které oblasti."
 
 #: translation/templates/translation/language.html:1065
 #: translation/templates/translation/language.html:1068
@@ -1122,12 +1122,12 @@ msgstr "Kouslo nebo píchlo vás něco?"
 #: translation/templates/translation/language.html:1208
 #: translation/templates/translation/language.html:1211
 msgid "Montrez moi à quel endroit"
-msgstr ""
+msgstr "Ukažte mi na kterém místě"
 
 #: translation/templates/translation/language.html:1216
 #: translation/templates/translation/language.html:1219
 msgid "Montrez moi où étaient les premiers boutons"
-msgstr ""
+msgstr "Ukažte mi kde se objevily první puchýře"
 
 #: translation/templates/translation/language.html:1224
 #: translation/templates/translation/language.html:1227
@@ -1142,7 +1142,7 @@ msgstr "Svědí vás to?"
 #: translation/templates/translation/language.html:1240
 #: translation/templates/translation/language.html:1243
 msgid "Il faut rester en isolement"
-msgstr ""
+msgstr "Budete muset zůstat v izolaci"
 
 #: translation/templates/translation/language.html:1248
 #: translation/templates/translation/language.html:1251
@@ -1177,12 +1177,12 @@ msgstr "Bolí vás hlava?"
 #: translation/templates/translation/language.html:1303
 #: translation/templates/translation/language.html:1306
 msgid "Est ce que vous avez l’impression que la pièce tourne autour de vous ?"
-msgstr ""
+msgstr "Máte pocit že se místnost okolo vás točí?"
 
 #: translation/templates/translation/language.html:1311
 #: translation/templates/translation/language.html:1314
 msgid "Avez-vous reçu un coup à la tête récemment ?"
-msgstr ""
+msgstr "Uhodila jste se poslední dobou do hlavy?"
 
 #: translation/templates/translation/language.html:1326
 #: translation/templates/translation/language.html:1329
@@ -1202,17 +1202,17 @@ msgstr ""
 #: translation/templates/translation/language.html:1350
 #: translation/templates/translation/language.html:1353
 msgid "Avez-vous une ordonnance avec vos traitements ?"
-msgstr ""
+msgstr "Máte předpis na vaše léky?"
 
 #: translation/templates/translation/language.html:1358
 #: translation/templates/translation/language.html:1361
 msgid "Avez-vous des allergies ? lesquelles ?"
-msgstr ""
+msgstr "Trpíte nějakou alergii? Jakou?"
 
 #: translation/templates/translation/language.html:1366
 #: translation/templates/translation/language.html:1369
 msgid "Y a-t-il des antécédents de maladie dans votre famille ?"
-msgstr ""
+msgstr "Jsou u vás v rodině dědičné nemoci? Jaké?"
 
 #: translation/templates/translation/language.html:1374
 #: translation/templates/translation/language.html:1377
@@ -1222,12 +1222,12 @@ msgstr ""
 #: translation/templates/translation/language.html:1382
 #: translation/templates/translation/language.html:1385
 msgid "Pouvez-vous vous lever ?"
-msgstr ""
+msgstr "Můžete se zvednout?"
 
 #: translation/templates/translation/language.html:1390
 #: translation/templates/translation/language.html:1393
 msgid "Pouvez-vous marcher ?"
-msgstr ""
+msgstr "Můžete chodit?"
 
 #: translation/templates/translation/language.html:1405
 #: translation/templates/translation/language.html:1408
@@ -1362,44 +1362,44 @@ msgstr "Berete léky proti srážlivosti krve? Jaké?"
 #: translation/templates/translation/language.html:1635
 #: translation/templates/translation/language.html:1638
 msgid "Je vais installer une collier afin de protéger votre colonne vertébrale"
-msgstr ""
+msgstr "Dam vám fixační límec abychom stabilizovali vaší páteř"
 
 #: translation/templates/translation/language.html:1643
 #: translation/templates/translation/language.html:1646
 msgid "Je dois mettre un antiseptique sur la plaie"
-msgstr ""
+msgstr "Musím vám vydezinfikovat ránu"
 
 #: translation/templates/translation/language.html:1651
 #: translation/templates/translation/language.html:1654
 msgid "Je dois suturer la plaie"
-msgstr ""
+msgstr "Musím vám ránu sešít"
 
 #: translation/templates/translation/language.html:1659
 #: translation/templates/translation/language.html:1662
 msgid "Je dois faire un pansement"
-msgstr ""
+msgstr "Musím vám dát náplast"
 
 #: translation/templates/translation/language.html:1667
 #: translation/templates/translation/language.html:1670
 msgid "Je vais faire une anesthésie autour de la plaie"
-msgstr ""
+msgstr "Umrtvím vám oblast okolo rány (zranění)"
 
 #: translation/templates/translation/language.html:1675
 #: translation/templates/translation/language.html:1678
 msgid "Ne bougez pas"
-msgstr ""
+msgstr "Nehýbejte se"
 
 #: translation/templates/translation/language.html:1683
 #: translation/templates/translation/language.html:1686
 msgid "Je dois vous faire un plâtre"
-msgstr ""
+msgstr "Musím vám dát sádru"
 
 #: translation/templates/translation/language.html:1691
 #: translation/templates/translation/language.html:1694
 #: translation/templates/translation/language.html:2080
 #: translation/templates/translation/language.html:2083
 msgid "Vous devez être opéré"
-msgstr ""
+msgstr "musíte byt operován (a)"
 
 #: translation/templates/translation/language.html:1706
 #: translation/templates/translation/language.html:1709
@@ -1476,12 +1476,12 @@ msgstr "zítra"
 #: translation/templates/translation/language.html:1818
 #: translation/templates/translation/language.html:1821
 msgid "Vous devez prendre une douche avec un shampoing avant l'opération chirurgicale"
-msgstr ""
+msgstr "Musíte se osprchovat a umýt si vlasy před operací"
 
 #: translation/templates/translation/language.html:1826
 #: translation/templates/translation/language.html:1829
 msgid "L’examen n’est pas douloureux"
-msgstr ""
+msgstr "Vyšetření není bolestivé"
 
 #: translation/templates/translation/language.html:1834
 #: translation/templates/translation/language.html:1837
@@ -1511,17 +1511,17 @@ msgstr ""
 #: translation/templates/translation/language.html:1874
 #: translation/templates/translation/language.html:1877
 msgid "Vous devez retier tous vos bijoux et piercing"
-msgstr ""
+msgstr "Prosím sundejte veškeré šperky a pearcing"
 
 #: translation/templates/translation/language.html:1882
 #: translation/templates/translation/language.html:1885
 msgid "Vous devez retier votre vernis a ongles"
-msgstr ""
+msgstr "Prosím odlakujte si nehty"
 
 #: translation/templates/translation/language.html:1890
 #: translation/templates/translation/language.html:1893
 msgid "Vous devez retier vos appareils dentaires et auditifs"
-msgstr ""
+msgstr "Prosím vyjměte vaše falešné zuby a naslouchátka"
 
 #: translation/templates/translation/language.html:1898
 #: translation/templates/translation/language.html:1901
@@ -1558,17 +1558,17 @@ msgstr "předepíšu vám"
 #: translation/templates/translation/language.html:1953
 #: translation/templates/translation/language.html:1956
 msgid "Je vous donne des médicaments"
-msgstr ""
+msgstr "Předepíšu vám léky"
 
 #: translation/templates/translation/language.html:1961
 #: translation/templates/translation/language.html:1964
 msgid "Je vous donne des antalgiques"
-msgstr ""
+msgstr "Předepíšu vám analgetika"
 
 #: translation/templates/translation/language.html:1969
 #: translation/templates/translation/language.html:1972
 msgid "Je vous donne des antibiotiques"
-msgstr ""
+msgstr "Předepíšu vám antibiotika"
 
 #: translation/templates/translation/language.html:1977
 #: translation/templates/translation/language.html:1980
@@ -1578,57 +1578,57 @@ msgstr "nesmíte pít"
 #: translation/templates/translation/language.html:1985
 #: translation/templates/translation/language.html:1988
 msgid "Vous ne devez pas manger"
-msgstr ""
+msgstr "nesmíte jíst"
 
 #: translation/templates/translation/language.html:1993
 #: translation/templates/translation/language.html:1996
 msgid "Vous ne devez pas vous lever"
-msgstr ""
+msgstr "nesmíte se zvednout"
 
 #: translation/templates/translation/language.html:2001
 #: translation/templates/translation/language.html:2004
 msgid "Vous devez rester sur le dos"
-msgstr ""
+msgstr "musíte zůstat ležet na zádech"
 
 #: translation/templates/translation/language.html:2009
 #: translation/templates/translation/language.html:2012
 msgid "Vous ne devez pas fumer"
-msgstr ""
+msgstr "Nesmíte kouřit"
 
 #: translation/templates/translation/language.html:2025
 #: translation/templates/translation/language.html:2028
 msgid "Pour allumer ou éteindre les lumières appuyer ici"
-msgstr ""
+msgstr "toto tlačítko rozsvítí / zhasne světlo"
 
 #: translation/templates/translation/language.html:2033
 #: translation/templates/translation/language.html:2036
 msgid "Les toilettes sont ici"
-msgstr ""
+msgstr "WC jsou zde"
 
 #: translation/templates/translation/language.html:2041
 #: translation/templates/translation/language.html:2044
 msgid "La salle de bain est ici"
-msgstr ""
+msgstr "koupelna je zde"
 
 #: translation/templates/translation/language.html:2049
 #: translation/templates/translation/language.html:2052
 msgid "Votre chambre est ici"
-msgstr ""
+msgstr "Váš pokoj je zde"
 
 #: translation/templates/translation/language.html:2064
 #: translation/templates/translation/language.html:2067
 msgid "Il y a une fracture"
-msgstr ""
+msgstr "máte zlomeninu"
 
 #: translation/templates/translation/language.html:2072
 #: translation/templates/translation/language.html:2075
 msgid "Il n’y a pas de fracture"
-msgstr ""
+msgstr "nemáte zlomeninu"
 
 #: translation/templates/translation/language.html:2088
 #: translation/templates/translation/language.html:2091
 msgid "Vous devez revenir demain matin"
-msgstr ""
+msgstr "musíte se vrátit zítra ráno"
 
 #: translation/templates/translation/language.html:2096
 #: translation/templates/translation/language.html:2099
@@ -1643,17 +1643,17 @@ msgstr "Musíte vyndat stehy za"
 #: translation/templates/translation/language.html:2112
 #: translation/templates/translation/language.html:2115
 msgid "Vous devez avoir un plâtre"
-msgstr ""
+msgstr "musíte mít sádru"
 
 #: translation/templates/translation/language.html:2120
 #: translation/templates/translation/language.html:2123
 msgid "Vous devrez porter une attelle"
-msgstr ""
+msgstr "musíte mít dlahu"
 
 #: translation/templates/translation/language.html:2128
 #: translation/templates/translation/language.html:2131
 msgid "Vous pouvez rentrer chez vous"
-msgstr ""
+msgstr "můžete jít domu"
 
 #: translation/templates/translation/language.html:2136
 #: translation/templates/translation/language.html:2139
@@ -1663,12 +1663,12 @@ msgstr "musíte jít do nemocnice"
 #: translation/templates/translation/language.html:2144
 #: translation/templates/translation/language.html:2147
 msgid "Vous devez rester à l'hôpital"
-msgstr ""
+msgstr "musíte zůstat v nemocnici"
 
 #: translation/templates/translation/language.html:2152
 #: translation/templates/translation/language.html:2155
 msgid "Vous allez être transféré dans un autre service"
-msgstr ""
+msgstr "Budete přemístěn na jiné oddělení"
 
 #: translation/templates/translation/language.html:2167
 #: translation/templates/translation/language.html:2170
@@ -1678,108 +1678,108 @@ msgstr "mám hlad"
 #: translation/templates/translation/language.html:2175
 #: translation/templates/translation/language.html:2178
 msgid "J’ai soif"
-msgstr ""
+msgstr "mam žízeň"
 
 #: translation/templates/translation/language.html:2183
 #: translation/templates/translation/language.html:2186
 msgid "J’ai mal"
-msgstr ""
+msgstr "bolí mĕ to"
 
 #: translation/templates/translation/language.html:2191
 #: translation/templates/translation/language.html:2194
 msgid "J’ai froid"
-msgstr ""
+msgstr "je mi zima"
 
 #: translation/templates/translation/language.html:2199
 #: translation/templates/translation/language.html:2202
 msgid "J’ai chaud"
-msgstr ""
+msgstr "je mi horko"
 
 #: translation/templates/translation/language.html:2207
 #: translation/templates/translation/language.html:2210
 msgid "J’ai des nausées"
-msgstr ""
+msgstr "mám nevolnosti, chce se mi zvracet"
 
 #: translation/templates/translation/language.html:2215
 #: translation/templates/translation/language.html:2218
 #: translation/templates/translation/language.html:3103
 #: translation/templates/translation/language.html:3106
 msgid "J’ai vomi"
-msgstr ""
+msgstr "zvracel(a) jsem"
 
 #: translation/templates/translation/language.html:2223
 #: translation/templates/translation/language.html:2226
 msgid "J’ai uriné (je voudrais être changé)"
-msgstr ""
+msgstr "pomočil(a) jsem se (chtěl(a) bych vyměnit spodní prádlo)"
 
 #: translation/templates/translation/language.html:2231
 #: translation/templates/translation/language.html:2234
 msgid "Je voudrais uriner"
-msgstr ""
+msgstr "chce se mi močit"
 
 #: translation/templates/translation/language.html:2239
 #: translation/templates/translation/language.html:2242
 msgid "Je voudrais déféquer"
-msgstr ""
+msgstr "potřebuji na stolici"
 
 #: translation/templates/translation/language.html:2247
 #: translation/templates/translation/language.html:2250
 #: translation/templates/translation/language.html:2775
 #: translation/templates/translation/language.html:2778
 msgid "J’ai des vertiges"
-msgstr ""
+msgstr "mám závratě"
 
 #: translation/templates/translation/language.html:2255
 #: translation/templates/translation/language.html:2258
 msgid "J’ai peur"
-msgstr ""
+msgstr "mám strach"
 
 #: translation/templates/translation/language.html:2263
 #: translation/templates/translation/language.html:2266
 msgid "Je voudrais être réinstallé"
-msgstr ""
+msgstr "chtěl(a) bych byt \"přeinstalována\" (změnit polohu)"
 
 #: translation/templates/translation/language.html:2271
 #: translation/templates/translation/language.html:2274
 msgid "Je voudrais des informations"
-msgstr ""
+msgstr "chtěl(a) bych více informací"
 
 #: translation/templates/translation/language.html:2279
 #: translation/templates/translation/language.html:2282
 msgid "J’ai eu un accident"
-msgstr ""
+msgstr "měl(a) jsem nehodu"
 
 #: translation/templates/translation/language.html:2287
 #: translation/templates/translation/language.html:2290
 msgid "J’étais piéton"
-msgstr ""
+msgstr "byla jsem chodec"
 
 #: translation/templates/translation/language.html:2295
 #: translation/templates/translation/language.html:2298
 msgid "J’ai été renversé"
-msgstr ""
+msgstr "byl(a) jsem převrácen(a )"
 
 #: translation/templates/translation/language.html:2303
 #: translation/templates/translation/language.html:2306
 msgid "Je n’ai pas été renversé"
-msgstr ""
+msgstr "nebyl(a) jsem převrácen(a)"
 
 #: translation/templates/translation/language.html:2311
 #: translation/templates/translation/language.html:2314
 #: translation/templates/translation/language.html:2439
 #: translation/templates/translation/language.html:2442
 msgid "Je suis tombé"
-msgstr ""
+msgstr "spadl(a) jsem"
 
 #: translation/templates/translation/language.html:2319
 #: translation/templates/translation/language.html:2322
 msgid "J’ai reçu un coup"
-msgstr ""
+msgstr "uhodil(a) jsem se"
 
 #: translation/templates/translation/language.html:2327
 #: translation/templates/translation/language.html:2330
 msgid "J’étais en voiture"
-msgstr ""
+msgstr "byl(a) jsem v autĕ"
 
 #: translation/templates/translation/language.html:2335
 #: translation/templates/translation/language.html:2338
@@ -1791,47 +1791,47 @@ msgstr "jel(a) jsem rychlostí x km/h"
 #: translation/templates/translation/language.html:2343
 #: translation/templates/translation/language.html:2346
 msgid "J’avais ma ceinture de sécurité"
-msgstr ""
+msgstr "měl(a) jsme bezpečnostní pas"
 
 #: translation/templates/translation/language.html:2351
 #: translation/templates/translation/language.html:2354
 msgid "Je n’avais pas de ceinture de sécurité"
-msgstr ""
+msgstr "nemĕl(a) jsem bezpečnostní pas"
 
 #: translation/templates/translation/language.html:2359
 #: translation/templates/translation/language.html:2362
 msgid "J’ai été éjecté pendant l’accident"
-msgstr ""
+msgstr "byl(a) jsem \"vystřelen(a)\" z auta při nehodě"
 
 #: translation/templates/translation/language.html:2367
 #: translation/templates/translation/language.html:2370
 msgid "Je n’ai pas été éjecté pendant l’accident"
-msgstr ""
+msgstr "nebyl(a) jsem \"vystřelen(a)\" z auta při nehodě"
 
 #: translation/templates/translation/language.html:2375
 #: translation/templates/translation/language.html:2378
 msgid "L’air-bag s’est déclenché"
-msgstr ""
+msgstr "Air-bag se otevřel"
 
 #: translation/templates/translation/language.html:2383
 #: translation/templates/translation/language.html:2386
 msgid "L’air-bag ne s’est pas déclenché"
-msgstr ""
+msgstr "Air-bag se neotevřel"
 
 #: translation/templates/translation/language.html:2391
 #: translation/templates/translation/language.html:2394
 msgid "J’étais en vélo"
-msgstr ""
+msgstr "byl(a) jsem na kole"
 
 #: translation/templates/translation/language.html:2399
 #: translation/templates/translation/language.html:2402
 msgid "J'étais en scooter"
-msgstr ""
+msgstr "byl(a) jsem na skútru"
 
 #: translation/templates/translation/language.html:2407
 #: translation/templates/translation/language.html:2410
 msgid "J'étais en moto"
-msgstr ""
+msgstr "byl(a) jsem na motorce"
 
 #: translation/templates/translation/language.html:2423
 #: translation/templates/translation/language.html:2426
@@ -1841,22 +1841,22 @@ msgstr "měl(a) jsem přilbu"
 #: translation/templates/translation/language.html:2431
 #: translation/templates/translation/language.html:2434
 msgid "Je n’avais pas de casque"
-msgstr ""
+msgstr "nemĕl(a) jsem přilbu"
 
 #: translation/templates/translation/language.html:2447
 #: translation/templates/translation/language.html:2450
 msgid "Je suis tombé de ma hauteur"
-msgstr ""
+msgstr "spadl(a) jsem z mojí výšky"
 
 #: translation/templates/translation/language.html:2455
 #: translation/templates/translation/language.html:2458
 msgid "Je suis tombé de “x” mètres de hauteur"
-msgstr ""
+msgstr "spadl(a) jsem z výšky x metrů"
 
 #: translation/templates/translation/language.html:2463
 #: translation/templates/translation/language.html:2466
 msgid "Ma tête a tapé pendant l’accident"
-msgstr ""
+msgstr "uhodil(a) jsem se při nehodě do hlavy"
 
 #: translation/templates/translation/language.html:2471
 #: translation/templates/translation/language.html:2474
@@ -1907,7 +1907,7 @@ msgstr ""
 #: translation/templates/translation/language.html:2543
 #: translation/templates/translation/language.html:2546
 msgid "Je prend des anticoagulants (médicaments pour fluidifier le sang)"
-msgstr ""
+msgstr "Beru léky na srážlivost krve"
 
 #: translation/templates/translation/language.html:2551
 #: translation/templates/translation/language.html:2554
@@ -1939,7 +1939,7 @@ msgstr ""
 #: translation/templates/translation/language.html:2599
 #: translation/templates/translation/language.html:2602
 msgid "J’arrive bien à bouger mes bras et jambes"
-msgstr ""
+msgstr "mohu hýbat rukama a nohama"
 
 #: translation/templates/translation/language.html:2607
 #: translation/templates/translation/language.html:2610
@@ -1949,127 +1949,127 @@ msgstr "nemohu hýbat jednou rukou / jednou nohou"
 #: translation/templates/translation/language.html:2615
 #: translation/templates/translation/language.html:2618
 msgid "J’arrive bien à parler"
-msgstr ""
+msgstr "mohu dobře mluvit"
 
 #: translation/templates/translation/language.html:2623
 #: translation/templates/translation/language.html:2626
 msgid "J’ai des difficultés à parler"
-msgstr ""
+msgstr "mám problém mluvit"
 
 #: translation/templates/translation/language.html:2631
 #: translation/templates/translation/language.html:2634
 msgid "La lumière me dérange"
-msgstr ""
+msgstr "světlo mi vadí"
 
 #: translation/templates/translation/language.html:2639
 #: translation/templates/translation/language.html:2642
 msgid "La lumière ne me dérange pas"
-msgstr ""
+msgstr "světlo mi nevadí"
 
 #: translation/templates/translation/language.html:2647
 #: translation/templates/translation/language.html:2650
 msgid "J’ai de la fièvre"
-msgstr ""
+msgstr "mám horečku"
 
 #: translation/templates/translation/language.html:2655
 #: translation/templates/translation/language.html:2658
 msgid "Je n’ai pas de fièvre"
-msgstr ""
+msgstr "nemám horečku"
 
 #: translation/templates/translation/language.html:2663
 #: translation/templates/translation/language.html:2666
 msgid "J’ai des douleurs à la nuque"
-msgstr ""
+msgstr "bolí mě v zátylku"
 
 #: translation/templates/translation/language.html:2671
 #: translation/templates/translation/language.html:2674
 msgid "Je n’ai pas de douleurs à la nuque"
-msgstr ""
+msgstr "nebolí mĕ v zátylku"
 
 #: translation/templates/translation/language.html:2679
 #: translation/templates/translation/language.html:2682
 msgid "J’ai fais un malaise"
-msgstr ""
+msgstr "omdlel(a) jsem"
 
 #: translation/templates/translation/language.html:2687
 #: translation/templates/translation/language.html:2690
 msgid "Je n’ai pas fais de malaise"
-msgstr ""
+msgstr "neomdlel(a) jsem"
 
 #: translation/templates/translation/language.html:2695
 #: translation/templates/translation/language.html:2698
 msgid "J’ai perdu connaissance"
-msgstr ""
+msgstr "byl(a) jsem v bezvědomí"
 
 #: translation/templates/translation/language.html:2703
 #: translation/templates/translation/language.html:2706
 msgid "Je n’ai pas perdu connaissance"
-msgstr ""
+msgstr "nebyla jsem v bezvědomí"
 
 #: translation/templates/translation/language.html:2711
 #: translation/templates/translation/language.html:2714
 msgid "J’ai perdu mes urines"
-msgstr ""
+msgstr "pomočil(a) jsem se"
 
 #: translation/templates/translation/language.html:2719
 #: translation/templates/translation/language.html:2722
 msgid "Je n’ai pas perdu mes urines"
-msgstr ""
+msgstr "nepomočil(a) jsem se"
 
 #: translation/templates/translation/language.html:2727
 #: translation/templates/translation/language.html:2730
 msgid "J’ai convulsé"
-msgstr ""
+msgstr "měl(a) jsem třes"
 
 #: translation/templates/translation/language.html:2735
 #: translation/templates/translation/language.html:2738
 msgid "Je n’ai pas convulsé"
-msgstr ""
+msgstr "neměl(a) jsem třes"
 
 #: translation/templates/translation/language.html:2743
 #: translation/templates/translation/language.html:2746
 msgid "Je suis épileptique"
-msgstr ""
+msgstr "jsem epileptik"
 
 #: translation/templates/translation/language.html:2751
 #: translation/templates/translation/language.html:2754
 msgid "Je ne suis pas épileptique"
-msgstr ""
+msgstr "nejsem epileptik"
 
 #: translation/templates/translation/language.html:2759
 #: translation/templates/translation/language.html:2762
 msgid "J’ai pris mes traitements aujourd’hui"
-msgstr ""
+msgstr "vzal(a) jsem si dnes léky"
 
 #: translation/templates/translation/language.html:2767
 #: translation/templates/translation/language.html:2770
 msgid "Je n’ai pas pris mes traitements aujourd’hui"
-msgstr ""
+msgstr "nevzal(a) jsem dnes léky"
 
 #: translation/templates/translation/language.html:2783
 #: translation/templates/translation/language.html:2786
 msgid "Je n’ai pas de vertiges"
-msgstr ""
+msgstr "nemám závratě"
 
 #: translation/templates/translation/language.html:2791
 #: translation/templates/translation/language.html:2794
 msgid "Je suis diabétique"
-msgstr ""
+msgstr "jsem diabetik"
 
 #: translation/templates/translation/language.html:2799
 #: translation/templates/translation/language.html:2802
 msgid "Je ne suis pas diabétique"
-msgstr ""
+msgstr "nejsem diabetik"
 
 #: translation/templates/translation/language.html:2807
 #: translation/templates/translation/language.html:2810
 msgid "J’ai mangé aujourd’hui"
-msgstr ""
+msgstr "dnes jsem jedl(a)"
 
 #: translation/templates/translation/language.html:2815
 #: translation/templates/translation/language.html:2818
 msgid "Je n’ai pas mangé aujourd’hui"
-msgstr ""
+msgstr "dnes jsem nejedl(a)"
 
 #: translation/templates/translation/language.html:2823
 #: translation/templates/translation/language.html:2826
@@ -2079,22 +2079,22 @@ msgstr "Hrudník"
 #: translation/templates/translation/language.html:2831
 #: translation/templates/translation/language.html:2834
 msgid "J’ai eu un choc au torse récemment"
-msgstr ""
+msgstr "nedávno jsem mel úraz, náraz na hrudníku"
 
 #: translation/templates/translation/language.html:2839
 #: translation/templates/translation/language.html:2842
 msgid "Je n’ai pas eu de choc au torse récemment"
-msgstr ""
+msgstr "v poslední době jsem neměl úraz, náraz na hrudníku"
 
 #: translation/templates/translation/language.html:2847
 #: translation/templates/translation/language.html:2850
 msgid "La douleur est encore présente"
-msgstr ""
+msgstr "ještě cítím bolest"
 
 #: translation/templates/translation/language.html:2855
 #: translation/templates/translation/language.html:2858
 msgid "La douleur n’est plus présente"
-msgstr ""
+msgstr "už mé to nebolí"
 
 #: translation/templates/translation/language.html:2863
 #: translation/templates/translation/language.html:2866
@@ -2135,102 +2135,102 @@ msgstr "bušilo mi srdce"
 #: translation/templates/translation/language.html:2919
 #: translation/templates/translation/language.html:2922
 msgid "Je ne ressent pas de palpitations"
-msgstr ""
+msgstr "Nebušilo mi srdce"
 
 #: translation/templates/translation/language.html:2927
 #: translation/templates/translation/language.html:2930
 msgid "Dans ma famille il y a des problèmes cardiaques"
-msgstr ""
+msgstr "V naší rodině máme problémy se srdcem"
 
 #: translation/templates/translation/language.html:2935
 #: translation/templates/translation/language.html:2938
 msgid "Dans ma famille il n’y a pas de problème cardiaque"
-msgstr ""
+msgstr "v naší rodině nejsou problémy se srdcem"
 
 #: translation/templates/translation/language.html:2943
 #: translation/templates/translation/language.html:2946
 msgid "La douleur est plus forte quand je respire"
-msgstr ""
+msgstr "bolest je silnější když dýchám"
 
 #: translation/templates/translation/language.html:2951
 #: translation/templates/translation/language.html:2954
 msgid "La douleur n’est pas plus forte quand je respire"
-msgstr ""
+msgstr "bolest není silnější když dýchám"
 
 #: translation/templates/translation/language.html:2959
 #: translation/templates/translation/language.html:2962
 msgid "Je crache du sang"
-msgstr ""
+msgstr "vykašlávám krev"
 
 #: translation/templates/translation/language.html:2967
 #: translation/templates/translation/language.html:2970
 msgid "Je ne crache pas du sang"
-msgstr ""
+msgstr "nevykašlávám krev"
 
 #: translation/templates/translation/language.html:2975
 #: translation/templates/translation/language.html:2978
 msgid "Je tousse"
-msgstr ""
+msgstr "kašlu"
 
 #: translation/templates/translation/language.html:2983
 #: translation/templates/translation/language.html:2986
 msgid "Je ne tousse pas"
-msgstr ""
+msgstr "nekašlu"
 
 #: translation/templates/translation/language.html:2991
 #: translation/templates/translation/language.html:2994
 msgid "J’ai des difficultés à respirer"
-msgstr ""
+msgstr "mám problém dýchat"
 
 #: translation/templates/translation/language.html:2999
 #: translation/templates/translation/language.html:3002
 msgid "Je n’ai pas de difficultés à respirer"
-msgstr ""
+msgstr "nemám problém dýchat"
 
 #: translation/templates/translation/language.html:3007
 #: translation/templates/translation/language.html:3010
 msgid "J’ai respiré des fumées"
-msgstr ""
+msgstr "nadýchal jsem se kouře"
 
 #: translation/templates/translation/language.html:3015
 #: translation/templates/translation/language.html:3018
 msgid "Je fume."
-msgstr ""
+msgstr "jsem kuřák"
 
 #: translation/templates/translation/language.html:3023
 #: translation/templates/translation/language.html:3026
 msgid "Je ne fume pas"
-msgstr ""
+msgstr "nejsem kuřák"
 
 #: translation/templates/translation/language.html:3031
 #: translation/templates/translation/language.html:3034
 msgid "Je bois de l’alcool"
-msgstr ""
+msgstr "piju alkohol"
 
 #: translation/templates/translation/language.html:3039
 #: translation/templates/translation/language.html:3042
 msgid "Je ne bois pas d’alcool"
-msgstr ""
+msgstr "nepiju alkohol"
 
 #: translation/templates/translation/language.html:3047
 #: translation/templates/translation/language.html:3050
 msgid "J’ai du cholestérol"
-msgstr ""
+msgstr "mám zvýšenou hladinu cholesterolu"
 
 #: translation/templates/translation/language.html:3055
 #: translation/templates/translation/language.html:3058
 msgid "Je n’ai pas de cholestérol"
-msgstr ""
+msgstr "nemám zvýšenou hladinu cholesterolu"
 
 #: translation/templates/translation/language.html:3063
 #: translation/templates/translation/language.html:3066
 msgid "Je suis asthmatique"
-msgstr ""
+msgstr "jsem astmatik"
 
 #: translation/templates/translation/language.html:3071
 #: translation/templates/translation/language.html:3074
 msgid "Je ne suis pas asthmatique"
-msgstr ""
+msgstr "nejsem astmatik"
 
 #: translation/templates/translation/language.html:3079
 #: translation/templates/translation/language.html:3082
@@ -2240,62 +2240,62 @@ msgstr "Břicho"
 #: translation/templates/translation/language.html:3087
 #: translation/templates/translation/language.html:3090
 msgid "J'ai des nausées"
-msgstr ""
+msgstr "trpím nevolností (chce se mi zvracet)"
 
 #: translation/templates/translation/language.html:3095
 #: translation/templates/translation/language.html:3098
 msgid "Je n'ai pas de nausées"
-msgstr ""
+msgstr "netrpím nevolností (nechce se mi zvracet)"
 
 #: translation/templates/translation/language.html:3111
 #: translation/templates/translation/language.html:3114
 msgid "Je n’ai pas vomi"
-msgstr ""
+msgstr "nezvracel(a) jsem"
 
 #: translation/templates/translation/language.html:3119
 #: translation/templates/translation/language.html:3122
 msgid "Des aliments"
-msgstr ""
+msgstr "potraviny"
 
 #: translation/templates/translation/language.html:3127
 #: translation/templates/translation/language.html:3130
 msgid "Du sang"
-msgstr ""
+msgstr "krev"
 
 #: translation/templates/translation/language.html:3135
 #: translation/templates/translation/language.html:3138
 msgid "Une fois"
-msgstr ""
+msgstr "jedenkrát"
 
 #: translation/templates/translation/language.html:3143
 #: translation/templates/translation/language.html:3146
 msgid "Deux fois"
-msgstr ""
+msgstr "dvakrát"
 
 #: translation/templates/translation/language.html:3151
 #: translation/templates/translation/language.html:3154
 msgid "Plusieurs fois"
-msgstr ""
+msgstr "vícekrát"
 
 #: translation/templates/translation/language.html:3159
 #: translation/templates/translation/language.html:3162
 msgid "J’ai des diarrhées"
-msgstr ""
+msgstr "mám průjem"
 
 #: translation/templates/translation/language.html:3167
 #: translation/templates/translation/language.html:3170
 msgid "Je n’ai pas de diarrhées"
-msgstr ""
+msgstr "nemám průjem"
 
 #: translation/templates/translation/language.html:3175
 #: translation/templates/translation/language.html:3178
 msgid "J’ai des gazs"
-msgstr ""
+msgstr "mám nadýmaní"
 
 #: translation/templates/translation/language.html:3183
 #: translation/templates/translation/language.html:3186
 msgid "Je n’ai plus de gazs"
-msgstr ""
+msgstr "už nemám nadýmaní"
 
 #: translation/templates/translation/language.html:3191
 #: translation/templates/translation/language.html:3194
@@ -2305,22 +2305,22 @@ msgstr "naposledy jsem močil:"
 #: translation/templates/translation/language.html:3199
 #: translation/templates/translation/language.html:3202
 msgid "Il y avait du sang dans mes urines"
-msgstr ""
+msgstr "v moči jsem mĕl(a) krev"
 
 #: translation/templates/translation/language.html:3207
 #: translation/templates/translation/language.html:3210
 msgid "Il n’y avait pas de sang dans mes urines"
-msgstr ""
+msgstr "v moči jsem neměl(a) krev"
 
 #: translation/templates/translation/language.html:3215
 #: translation/templates/translation/language.html:3218
 msgid "J’ai des brûlures quand j’urine"
-msgstr ""
+msgstr "při močení pociťuji páleni"
 
 #: translation/templates/translation/language.html:3223
 #: translation/templates/translation/language.html:3226
 msgid "Je n’ai pas de brûlures quand j’urine"
-msgstr ""
+msgstr "při močení nepociťuji páleni"
 
 #: translation/templates/translation/language.html:3231
 #: translation/templates/translation/language.html:3234
@@ -2330,12 +2330,12 @@ msgstr "naposledy jsem byl(a) na stolici:"
 #: translation/templates/translation/language.html:3239
 #: translation/templates/translation/language.html:3242
 msgid "Il y avait du sang dans mes selles"
-msgstr ""
+msgstr "měl(a) jsem krev ve stolici"
 
 #: translation/templates/translation/language.html:3247
 #: translation/templates/translation/language.html:3250
 msgid "Il n’y avait pas de sang dans mes selles"
-msgstr ""
+msgstr "nemĕl(a) jsem krev ve stolici"
 
 #: translation/templates/translation/language.html:3255
 #: translation/templates/translation/language.html:3258
@@ -2345,12 +2345,12 @@ msgstr "naposledy jsem měla menstruaci:"
 #: translation/templates/translation/language.html:3263
 #: translation/templates/translation/language.html:3266
 msgid "Je suis enceinte"
-msgstr ""
+msgstr "jsem těhotná"
 
 #: translation/templates/translation/language.html:3271
 #: translation/templates/translation/language.html:3274
 msgid "Je ne suis pas enceinte"
-msgstr ""
+msgstr "nejsem těhotná"
 
 #: translation/templates/translation/language.html:3279
 #: translation/templates/translation/language.html:3282
@@ -2360,12 +2360,12 @@ msgstr "Jsem v \"x\" týdnů těhotenství"
 #: translation/templates/translation/language.html:3287
 #: translation/templates/translation/language.html:3290
 msgid "J’ai eu des pertes par voie basse"
-msgstr ""
+msgstr "krvácela jsem (vaginální)"
 
 #: translation/templates/translation/language.html:3295
 #: translation/templates/translation/language.html:3298
 msgid "Je n’ai pas eu de perte par voie basse"
-msgstr ""
+msgstr "nekrvácela jsem (vaginální)"
 
 #: translation/templates/translation/language.html:3303
 #: translation/templates/translation/language.html:3306
@@ -2385,12 +2385,12 @@ msgstr ""
 #: translation/templates/translation/language.html:3327
 #: translation/templates/translation/language.html:3330
 msgid "J’ai perdu du poids ces derniers temps"
-msgstr ""
+msgstr "zhubnul(a) jsem v poslední době"
 
 #: translation/templates/translation/language.html:3335
 #: translation/templates/translation/language.html:3338
 msgid "Je n’ai pas perdu de poids ces derniers temps"
-msgstr ""
+msgstr "nezhubnul(a) jsem v poslední době"
 
 #: translation/templates/translation/language.html:3343
 #: translation/templates/translation/language.html:3346
@@ -2400,32 +2400,32 @@ msgstr "Záda/Krk"
 #: translation/templates/translation/language.html:3351
 #: translation/templates/translation/language.html:3354
 msgid "Ma douleur n’irradie pas vers la fesse ou la jambe"
-msgstr ""
+msgstr "Bolest se nerozšiřuje k hýždi nebo k noze"
 
 #: translation/templates/translation/language.html:3359
 #: translation/templates/translation/language.html:3362
 msgid "Ma douleur irradie vers la fesse ou la jambe"
-msgstr ""
+msgstr "bolest se rozšiřuje k hýždi nebo k noze"
 
 #: translation/templates/translation/language.html:3367
 #: translation/templates/translation/language.html:3370
 msgid "Je n’ai pas le dos bloqué"
-msgstr ""
+msgstr "nemám zablokovaná záda"
 
 #: translation/templates/translation/language.html:3375
 #: translation/templates/translation/language.html:3378
 msgid "J’ai le dos bloqué"
-msgstr ""
+msgstr "mám zablokovaná záda"
 
 #: translation/templates/translation/language.html:3383
 #: translation/templates/translation/language.html:3386
 msgid "J’ai mal surtout le soir"
-msgstr ""
+msgstr "mám bolesti hlavně večer"
 
 #: translation/templates/translation/language.html:3391
 #: translation/templates/translation/language.html:3394
 msgid "J’ai mal surtout le matin"
-msgstr ""
+msgstr "mám bolesti hlavně ráno"
 
 #: translation/templates/translation/language.html:3399
 #: translation/templates/translation/language.html:3402
@@ -2440,32 +2440,32 @@ msgstr "Noha"
 #: translation/templates/translation/language.html:3415
 #: translation/templates/translation/language.html:3418
 msgid "J’ai reçu un coup récemment"
-msgstr ""
+msgstr "Nedávno jsem se uhodil(a)"
 
 #: translation/templates/translation/language.html:3423
 #: translation/templates/translation/language.html:3426
 msgid "Je n’ai pas reçu de coup récemment"
-msgstr ""
+msgstr "v poslední době jsem se neuhodil(a)"
 
 #: translation/templates/translation/language.html:3439
 #: translation/templates/translation/language.html:3442
 msgid "J’ai été piqué ou mordu récemment"
-msgstr ""
+msgstr "nedávno mĕ něco píchlo / kouslo"
 
 #: translation/templates/translation/language.html:3447
 #: translation/templates/translation/language.html:3450
 msgid "Je n’ai pas été piqué ou mordu récemment"
-msgstr ""
+msgstr "v poslední době mĕ nic nepíchlo ani nekouslo"
 
 #: translation/templates/translation/language.html:3455
 #: translation/templates/translation/language.html:3458
 msgid "Ca me démange"
-msgstr ""
+msgstr "svědí mĕ to"
 
 #: translation/templates/translation/language.html:3463
 #: translation/templates/translation/language.html:3466
 msgid "Ca ne me démange pas"
-msgstr ""
+msgstr "nesvědí mĕ to"
 
 #: translation/templates/translation/language.html:3471
 #: translation/templates/translation/language.html:3474
@@ -2496,32 +2496,32 @@ msgstr ""
 #: translation/templates/translation/language.html:3511
 #: translation/templates/translation/language.html:3514
 msgid "Avez-vous des clips intra-cranien ?"
-msgstr ""
+msgstr "Máte jakýkoliv vnitřní implantát ?"
 
 #: translation/templates/translation/language.html:3519
 #: translation/templates/translation/language.html:3522
 msgid "Avez-vous un implant cochléaire ?"
-msgstr ""
+msgstr "Máte jakýkoliv kochleární implantát ?"
 
 #: translation/templates/translation/language.html:3527
 #: translation/templates/translation/language.html:3530
 msgid "Avez-vous un implant oculaire ?"
-msgstr ""
+msgstr "Máte jakýkoliv oční implantát ?"
 
 #: translation/templates/translation/language.html:3535
 #: translation/templates/translation/language.html:3538
 msgid "Avez-vous du métal dans le corps ?"
-msgstr ""
+msgstr "Máte jakýkoliv kov v těle ?"
 
 #: translation/templates/translation/language.html:3543
 #: translation/templates/translation/language.html:3546
 msgid "Avez-vous un défibrillateur ?"
-msgstr ""
+msgstr "Máte jakýkoliv defibrilátor ?"
 
 #: translation/templates/translation/language.html:3551
 #: translation/templates/translation/language.html:3554
 msgid "Avez-vous une chambre implantable ?"
-msgstr ""
+msgstr "Máte jakýkoliv katétr v tĕle?"
 
 #: translation/templates/translation/language.html:3559
 #: translation/templates/translation/language.html:3562
@@ -2551,7 +2551,7 @@ msgstr "Potřebuji pomoc, můžete jim zavolat?"
 #: translation/templates/translation/language.html:3599
 #: translation/templates/translation/language.html:3602
 msgid "Vous allez avoir une IRM"
-msgstr ""
+msgstr "MRI, magnetická rezonance"
 
 #: translation/templates/translation/language.html:3607
 #: translation/templates/translation/language.html:3610
@@ -2571,12 +2571,12 @@ msgstr "Je potřeba se nehýbat během celého vyšetření"
 #: translation/templates/translation/language.html:3639
 #: translation/templates/translation/language.html:3642
 msgid "Avez-vous une valve mécanique ?"
-msgstr ""
+msgstr "Máte jakýkoliv mechanická chlopeň ?"
 
 #: translation/templates/translation/language.html:3647
 #: translation/templates/translation/language.html:3650
 msgid "Avez-vous un capteur de glycémie ?"
-msgstr ""
+msgstr "Máte jakýkoliv snímač glycémie ?"
 
 #: translation/templates/translation/language.html:3663
 #: translation/templates/translation/language.html:3666
@@ -2621,12 +2621,12 @@ msgstr "Datum narození :"
 #: translation/templates/translation/language.html:3735
 #: translation/templates/translation/language.html:3738
 msgid "Taille :"
-msgstr ""
+msgstr "Kolik měříte"
 
 #: translation/templates/translation/language.html:3743
 #: translation/templates/translation/language.html:3746
 msgid "Poids :"
-msgstr ""
+msgstr "kolik vážíte"
 
 #: translation/views.py:23
 msgid "Afrique"
@@ -3327,7 +3327,7 @@ msgid "Fidjien"
 msgstr ""
 
 msgid "Français"
-msgstr ""
+msgstr "Tchèque"
 
 msgid "Créole Haitien"
 msgstr ""

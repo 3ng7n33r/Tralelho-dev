@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 73d3b19e82fc460fd936796fc5b25f94\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-11 15:45+0000\n"
-"PO-Revision-Date: 2021-03-30 10:31\n"
+"PO-Revision-Date: 2021-09-20 09:36\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi\n"
@@ -76,14 +76,14 @@ msgstr ""
 #: translation/templates/translation/language.html:3671
 #: translation/templates/translation/language.html:3674
 msgid "Durant l'examen, on vous demandera de gonfler et les poumons et de bloquer la respiration"
-msgstr ""
+msgstr "Trong cuộc kiểm tra, anh/chị sẽ được yêu cầu hít vào và giữ nguyên hơi thở"
 
 #: translation/templates/doctemplates/irm.html:41
 #: translation/templates/doctemplates/irm.html:42
 #: translation/templates/translation/language.html:2017
 #: translation/templates/translation/language.html:2020
 msgid "Pour nous appeler appuyer ici"
-msgstr ""
+msgstr "Bấm ở đây để gọi chúng tôi"
 
 #: translation/templates/doctemplates/irm.html:47
 msgid "Checklist IRM"
@@ -159,7 +159,7 @@ msgstr "Không"
 #: translation/templates/translation/language.html:3767
 #: translation/templates/translation/language.html:3770
 msgid "Je ne sais pas"
-msgstr ""
+msgstr "Tôi không biết"
 
 #: translation/templates/doctemplates/irm.html:89
 #: translation/templates/doctemplates/irm.html:90
@@ -216,7 +216,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3631
 #: translation/templates/translation/language.html:3634
 msgid "Avez-vous des éclats métalliques dans les yeux?"
-msgstr ""
+msgstr "Có mảnh kim loại trong mắt không?"
 
 #: translation/templates/doctemplates/irm.html:188
 #: translation/templates/doctemplates/irm.html:189
@@ -326,17 +326,17 @@ msgstr "thần kinh học"
 #: translation/templates/sidenav.html:15
 #: translation/templates/translation/language.html:686
 msgid "PNEUMOLOGIE"
-msgstr ""
+msgstr "Chuyên khoa hô hấp"
 
 #: translation/templates/sidenav.html:16
 #: translation/templates/translation/language.html:773
 msgid "CARDIOLOGIE"
-msgstr ""
+msgstr "Khoa tim"
 
 #: translation/templates/sidenav.html:17
 #: translation/templates/translation/language.html:932
 msgid "MALAISE"
-msgstr ""
+msgstr "Chóng mặt/ mất nhận thức"
 
 #: translation/templates/sidenav.html:18
 #: translation/templates/translation/language.html:1043
@@ -346,12 +346,12 @@ msgstr "Những vấn đề tiêu hóa"
 #: translation/templates/sidenav.html:19
 #: translation/templates/translation/language.html:1194
 msgid "INFECTIEUX"
-msgstr ""
+msgstr "Nhiễm khuẩn"
 
 #: translation/templates/sidenav.html:20
 #: translation/templates/translation/language.html:1273
 msgid "OPHTALMOLOGIE"
-msgstr ""
+msgstr "Nhãn khoa"
 
 #: translation/templates/sidenav.html:21
 #: translation/templates/translation/language.html:1320
@@ -361,17 +361,17 @@ msgstr "Tiền sử bệnh lý"
 #: translation/templates/sidenav.html:22
 #: translation/templates/translation/language.html:1399
 msgid "PEDIATRIE"
-msgstr ""
+msgstr "Nhi khoa"
 
 #: translation/templates/sidenav.html:23
 #: translation/templates/translation/language.html:1470
 msgid "GYNECOLOGIE"
-msgstr ""
+msgstr "Sản khoa"
 
 #: translation/templates/sidenav.html:24
 #: translation/templates/translation/language.html:1573
 msgid "TRAUMATOLOGIE"
-msgstr ""
+msgstr "Khoa chấn thương"
 
 #: translation/templates/sidenav.html:25
 #: translation/templates/translation/language.html:1700
@@ -440,47 +440,47 @@ msgstr ""
 #: translation/templates/translation/language.html:49
 #: translation/templates/translation/language.html:52
 msgid "Je vais utiliser le téléphone pour traduire les questions que j'ai à vous poser, êtes vous d'accord ?"
-msgstr ""
+msgstr "Bạn có phiền nếu tôi mượn điện thoại để dịch câu hỏi tôi muốn hỏi bạn được không?"
 
 #: translation/templates/translation/language.html:57
 #: translation/templates/translation/language.html:60
 msgid "Bonjour, je suis infirmière"
-msgstr ""
+msgstr "Xin chào, tôi là hộ lý"
 
 #: translation/templates/translation/language.html:65
 #: translation/templates/translation/language.html:68
 msgid "Bonjour, je suis médecin"
-msgstr ""
+msgstr "Xin chào, tôi là bác sĩ"
 
 #: translation/templates/translation/language.html:73
 #: translation/templates/translation/language.html:76
 msgid "Bonjour, je suis secouriste"
-msgstr ""
+msgstr "Xin chào, tôi là sơ cứu"
 
 #: translation/templates/translation/language.html:81
 #: translation/templates/translation/language.html:84
 msgid "Bonjour, je suis bénévole"
-msgstr ""
+msgstr "Xin chào, tôi là tình nguyện viên"
 
 #: translation/templates/translation/language.html:89
 #: translation/templates/translation/language.html:92
 msgid "Bonjour, je suis agent d'accueil"
-msgstr ""
+msgstr "Xin chào, tôi là Đại diện bộ phận dịch vụ khách hàng"
 
 #: translation/templates/translation/language.html:97
 #: translation/templates/translation/language.html:100
 msgid "Bonjour, je suis étudiant en médecine"
-msgstr ""
+msgstr "Xin chào, tôi là sinh viên dược"
 
 #: translation/templates/translation/language.html:105
 #: translation/templates/translation/language.html:108
 msgid "Bonjour, je suis sage-femme"
-msgstr ""
+msgstr "Xin chào, tôi là nữ hộ sinh"
 
 #: translation/templates/translation/language.html:113
 #: translation/templates/translation/language.html:116
 msgid "Bonjour, je suis secrétaire"
-msgstr ""
+msgstr "Xin chào, tôi là thư ký"
 
 #: translation/templates/translation/language.html:121
 #: translation/templates/translation/language.html:124
@@ -495,7 +495,7 @@ msgstr "Bạn có thể cho tôi xem hộ chiếu không?"
 #: translation/templates/translation/language.html:144
 #: translation/templates/translation/language.html:147
 msgid "Pouvez-vous me montrez une carte d’identité"
-msgstr ""
+msgstr "Tôi có thể xem ID của bạn chứ?"
 
 #: translation/templates/translation/language.html:152
 #: translation/templates/translation/language.html:155
@@ -510,17 +510,17 @@ msgstr "bạn có thẻ sức khỏe Châu Âu không?"
 #: translation/templates/translation/language.html:168
 #: translation/templates/translation/language.html:171
 msgid "Pouvez-vous me montre une carte d’assurance privée"
-msgstr ""
+msgstr "Bạn có thẻ bảo hiểm cá nhân không? Bạn có mang nó theo bên mình chứ?"
 
 #: translation/templates/translation/language.html:176
 #: translation/templates/translation/language.html:179
 msgid "Les frais des soins seront à votre charge"
-msgstr ""
+msgstr "Chi phí không được bảo hiểm hỗ trợ, bạn phải trả toàn bộ viện phí"
 
 #: translation/templates/translation/language.html:184
 #: translation/templates/translation/language.html:187
 msgid "Les frais des soins ne seront pas à votre charge"
-msgstr ""
+msgstr "Chi phí sẽ được trả bởi bảo hiểm. Bạn không cần thanh toán bất kỳ khoản phí nào"
 
 #: translation/templates/translation/language.html:192
 #: translation/templates/translation/language.html:195
@@ -560,17 +560,17 @@ msgstr ""
 #: translation/templates/translation/language.html:255
 #: translation/templates/translation/language.html:258
 msgid "Nous viendrons vous appeler"
-msgstr ""
+msgstr "Chúng tôi sẽ tới gặp anh/ chị"
 
 #: translation/templates/translation/language.html:263
 #: translation/templates/translation/language.html:266
 msgid "Merci de ne pas manger, boire ou fumer pendant l’attente"
-msgstr ""
+msgstr "Không được ăn uống hay hút thuốc ở trong phòng chờ"
 
 #: translation/templates/translation/language.html:271
 #: translation/templates/translation/language.html:274
 msgid "Votre famille devra attendre ici"
-msgstr ""
+msgstr "Gia đình của bạn nên đợi ở đây"
 
 #: translation/templates/translation/language.html:279
 #: translation/templates/translation/language.html:282
@@ -580,12 +580,12 @@ msgstr "Tùy thuộc vào tình trạng cơ thể của bạn mà bác sĩ sẽ 
 #: translation/templates/translation/language.html:287
 #: translation/templates/translation/language.html:290
 msgid "Nous vous demandons de ne pas manger ou boire tant que le médecin ne vous y a pas autorisé, certains examens demandant de rester à jeun"
-msgstr ""
+msgstr "Chúng tôi đề nghị anh không được ăn, uống nếu bác sĩ yêu cầu. Một số loại kiểm tra phải được thực hiện khi trong dạ dày không có thức ăn"
 
 #: translation/templates/translation/language.html:295
 #: translation/templates/translation/language.html:298
 msgid "Il faut attendre 1 heure pour avoir les résultats de la prise de sang"
-msgstr ""
+msgstr "Bạn phải đợi 1 giờ mới nhận được kết quả xét nghiệm máu"
 
 #: translation/templates/translation/language.html:310
 #: translation/templates/translation/language.html:313
@@ -676,27 +676,27 @@ msgstr "10"
 #: translation/templates/translation/language.html:462
 #: translation/templates/translation/language.html:465
 msgid "Pouvez vous vous déshabiller pour que je vous examine"
-msgstr ""
+msgstr "Vui lòng cởi quần áo để tôi kiểm tra"
 
 #: translation/templates/translation/language.html:470
 #: translation/templates/translation/language.html:473
 msgid "Vous pouvez garder vos sous-vêtements"
-msgstr ""
+msgstr "Anh có thể không cởi đồ lót"
 
 #: translation/templates/translation/language.html:478
 #: translation/templates/translation/language.html:481
 msgid "Vous pouvez vous asseoir sur la chaise"
-msgstr ""
+msgstr "Anh có thể ngồi trên ghế"
 
 #: translation/templates/translation/language.html:486
 #: translation/templates/translation/language.html:489
 msgid "Vous pouvez vous allonger sur la table d'examen"
-msgstr ""
+msgstr "Anh có thể nằm trên bàn"
 
 #: translation/templates/translation/language.html:494
 #: translation/templates/translation/language.html:497
 msgid "Vous pouvez vous allonger sur le brancard"
-msgstr ""
+msgstr "Bạn có thể nằm trên cáng này"
 
 #: translation/templates/translation/language.html:509
 #: translation/templates/translation/language.html:512
@@ -736,12 +736,12 @@ msgstr "Nhìn thẳng vào mắt tôi. Tôi muốn kiểm tra con ngươi bạn"
 #: translation/templates/translation/language.html:565
 #: translation/templates/translation/language.html:568
 msgid "Avez vous des fourmillement ? Montrez moi où"
-msgstr ""
+msgstr "Bạn có ngứa ran không? Chỉ cho tôi ở đâu."
 
 #: translation/templates/translation/language.html:573
 #: translation/templates/translation/language.html:576
 msgid "Poussez sur mes mains"
-msgstr ""
+msgstr "hãy đẩy lên tay tôi"
 
 #: translation/templates/translation/language.html:581
 #: translation/templates/translation/language.html:584
@@ -793,7 +793,7 @@ msgstr ""
 #: translation/templates/translation/language.html:653
 #: translation/templates/translation/language.html:656
 msgid "Dans quel pays ?"
-msgstr ""
+msgstr "Bạn có đi du lịch nước ngoài không? Bạn đi đâu?"
 
 #: translation/templates/translation/language.html:661
 #: translation/templates/translation/language.html:664
@@ -808,7 +808,7 @@ msgstr "Tiếng ồn có làm bạn khó chịu không?"
 #: translation/templates/translation/language.html:677
 #: translation/templates/translation/language.html:680
 msgid "Je vais faire une piqûre au bout de votre doigt pour connaître votre taux de sucre"
-msgstr ""
+msgstr "Tôi sẽ chích 1 lỗ nhỏ ở ngón út để để kiểm tra lượng đường trong máu của bạn"
 
 #: translation/templates/translation/language.html:692
 #: translation/templates/translation/language.html:695
@@ -823,17 +823,17 @@ msgstr ""
 #: translation/templates/translation/language.html:708
 #: translation/templates/translation/language.html:711
 msgid "Prenez une grande inspiration puis bloquez votre respiration"
-msgstr ""
+msgstr "hít 1 hơi thật sâu và giữ nó lại"
 
 #: translation/templates/translation/language.html:716
 #: translation/templates/translation/language.html:719
 msgid "Respirez normalement"
-msgstr ""
+msgstr "thở bình thường"
 
 #: translation/templates/translation/language.html:724
 #: translation/templates/translation/language.html:727
 msgid "Respirez profondément"
-msgstr ""
+msgstr "thở sâu"
 
 #: translation/templates/translation/language.html:732
 #: translation/templates/translation/language.html:735
@@ -864,7 +864,7 @@ msgstr "Bạn có thể xì mũi để tôi xem có đọng bụi không"
 #: translation/templates/translation/language.html:782
 #| msgid "Est-ce que vous voyez double ?"
 msgid "Est-ce que votre douleur"
-msgstr ""
+msgstr "Hãy kể cơn đau của bạn đi"
 
 #: translation/templates/translation/language.html:787
 #: translation/templates/translation/language.html:790
@@ -884,7 +884,7 @@ msgstr ""
 #: translation/templates/translation/language.html:811
 #: translation/templates/translation/language.html:814
 msgid "Est-ce que votre douleur irradie ? Montrez-moi vers où"
-msgstr ""
+msgstr "Cơn đau của bạn có xảy ra ở những bộ phận khác trên cơ thể bạn không? Nói cho tôi biết là ở chỗ nào?"
 
 #: translation/templates/translation/language.html:819
 #: translation/templates/translation/language.html:822
@@ -929,7 +929,7 @@ msgstr ""
 #: translation/templates/translation/language.html:883
 #: translation/templates/translation/language.html:886
 msgid "Ouvrez la bouche et soulevez la langue, je vais vous donner un traitement"
-msgstr ""
+msgstr "Há miệng ra và cong lưỡi lên. Tôi sẽ kê đơn cho bạn"
 
 #: translation/templates/translation/language.html:891
 #: translation/templates/translation/language.html:894
@@ -954,7 +954,7 @@ msgstr "Có bị mỡ trong máu cao không?"
 #: translation/templates/translation/language.html:923
 #: translation/templates/translation/language.html:926
 msgid "Je vais faire un enregistrement de votre coeur, ce n’est pas douloureux, ne bouger pas pendant quelques secondes"
-msgstr ""
+msgstr "Tôi sẽ đo điện tim cho bạn. Nó không đau, nhưng cố tránh di chuyển trong vài giây"
 
 #: translation/templates/translation/language.html:938
 #: translation/templates/translation/language.html:941
@@ -1030,7 +1030,7 @@ msgstr "Chỉ tôi xem bạn bị chấn thương ở đâu"
 #: translation/templates/translation/language.html:1057
 #: translation/templates/translation/language.html:1060
 msgid "Est ce que la douleur irradie ? Si oui montrez moi vers où"
-msgstr ""
+msgstr "Cơn đau có bị lan ra không? Lan đến đâu?"
 
 #: translation/templates/translation/language.html:1065
 #: translation/templates/translation/language.html:1068
@@ -1107,12 +1107,12 @@ msgstr "Tôi cần kiểm tra đường ruột của bạn, bạn thấy ổn ch
 #: translation/templates/translation/language.html:1177
 #: translation/templates/translation/language.html:1180
 msgid "Il faudra uriner dans ce pot pour réaliser un examen"
-msgstr ""
+msgstr "Cần phải đi tiểu vào ống này để xét nghiệm nước tiểu"
 
 #: translation/templates/translation/language.html:1185
 #: translation/templates/translation/language.html:1188
 msgid "Il faudra réaliser une toilette intime avant d’uriner dans le pot"
-msgstr ""
+msgstr "Phải vệ sinh bộ phận sinh dục sạch sẽ trước khi tiểu vào ống"
 
 #: translation/templates/translation/language.html:1200
 #: translation/templates/translation/language.html:1203
@@ -1122,12 +1122,12 @@ msgstr "Bạn đã bao giờ bị cắn chưa?hay đã chết?"
 #: translation/templates/translation/language.html:1208
 #: translation/templates/translation/language.html:1211
 msgid "Montrez moi à quel endroit"
-msgstr ""
+msgstr "Chỉ cho tôi chỗ nào trên cơ thể bạn"
 
 #: translation/templates/translation/language.html:1216
 #: translation/templates/translation/language.html:1219
 msgid "Montrez moi où étaient les premiers boutons"
-msgstr ""
+msgstr "Chỉ cho tôi nơi đầu tiên trên cơ thể bạn bị nốt mầm cắn"
 
 #: translation/templates/translation/language.html:1224
 #: translation/templates/translation/language.html:1227
@@ -1142,12 +1142,12 @@ msgstr "Điều đó có làm bạn khó chịu không?"
 #: translation/templates/translation/language.html:1240
 #: translation/templates/translation/language.html:1243
 msgid "Il faut rester en isolement"
-msgstr ""
+msgstr "Cần phải cách li căn bệnh này"
 
 #: translation/templates/translation/language.html:1248
 #: translation/templates/translation/language.html:1251
 msgid "Vous devez garder ce masque sur vous"
-msgstr ""
+msgstr "Bạn phải đeo mặt nạ để bảo vệ cho bạn"
 
 #: translation/templates/translation/language.html:1256
 #: translation/templates/translation/language.html:1259
@@ -1177,12 +1177,12 @@ msgstr "Anh/chị có bị đau đầu không?"
 #: translation/templates/translation/language.html:1303
 #: translation/templates/translation/language.html:1306
 msgid "Est ce que vous avez l’impression que la pièce tourne autour de vous ?"
-msgstr ""
+msgstr "Anh/chị có thấy chóng mặt hay bị quay quay không?"
 
 #: translation/templates/translation/language.html:1311
 #: translation/templates/translation/language.html:1314
 msgid "Avez-vous reçu un coup à la tête récemment ?"
-msgstr ""
+msgstr "Gần đây Anh/chị có bị va đầu vào đâu không?"
 
 #: translation/templates/translation/language.html:1326
 #: translation/templates/translation/language.html:1329
@@ -1202,17 +1202,17 @@ msgstr ""
 #: translation/templates/translation/language.html:1350
 #: translation/templates/translation/language.html:1353
 msgid "Avez-vous une ordonnance avec vos traitements ?"
-msgstr ""
+msgstr "Bạn có đơn thuốc ấy không?"
 
 #: translation/templates/translation/language.html:1358
 #: translation/templates/translation/language.html:1361
 msgid "Avez-vous des allergies ? lesquelles ?"
-msgstr ""
+msgstr "Bạn có bị dị ứng không? Nếu có, bạn dị ứng với những gì?"
 
 #: translation/templates/translation/language.html:1366
 #: translation/templates/translation/language.html:1369
 msgid "Y a-t-il des antécédents de maladie dans votre famille ?"
-msgstr ""
+msgstr "Gia đình bạn có tiền sử bệnh nào không? Có tiền sử với bệnh hiện tại của bạn không?"
 
 #: translation/templates/translation/language.html:1374
 #: translation/templates/translation/language.html:1377
@@ -1222,12 +1222,12 @@ msgstr ""
 #: translation/templates/translation/language.html:1382
 #: translation/templates/translation/language.html:1385
 msgid "Pouvez-vous vous lever ?"
-msgstr ""
+msgstr "Bạn có thể đứng lên được không?"
 
 #: translation/templates/translation/language.html:1390
 #: translation/templates/translation/language.html:1393
 msgid "Pouvez-vous marcher ?"
-msgstr ""
+msgstr "Bạn có thể đi lại được không?"
 
 #: translation/templates/translation/language.html:1405
 #: translation/templates/translation/language.html:1408
@@ -1362,44 +1362,44 @@ msgstr "Anh/chị có dùng thuốc chống đông máu không?"
 #: translation/templates/translation/language.html:1635
 #: translation/templates/translation/language.html:1638
 msgid "Je vais installer une collier afin de protéger votre colonne vertébrale"
-msgstr ""
+msgstr "Tôi sẽ nẹp cổ để bảo vệ xương cổ cho anh/chị"
 
 #: translation/templates/translation/language.html:1643
 #: translation/templates/translation/language.html:1646
 msgid "Je dois mettre un antiseptique sur la plaie"
-msgstr ""
+msgstr "Tôi sẽ khử trùng vết thương"
 
 #: translation/templates/translation/language.html:1651
 #: translation/templates/translation/language.html:1654
 msgid "Je dois suturer la plaie"
-msgstr ""
+msgstr "Tôi cần khâu vết thương lại"
 
 #: translation/templates/translation/language.html:1659
 #: translation/templates/translation/language.html:1662
 msgid "Je dois faire un pansement"
-msgstr ""
+msgstr "Tôi cần băng bó vết thương"
 
 #: translation/templates/translation/language.html:1667
 #: translation/templates/translation/language.html:1670
 msgid "Je vais faire une anesthésie autour de la plaie"
-msgstr ""
+msgstr "Tôi sẽ gây tê chỗ bị thương"
 
 #: translation/templates/translation/language.html:1675
 #: translation/templates/translation/language.html:1678
 msgid "Ne bougez pas"
-msgstr ""
+msgstr "Vui lòng đừng cử động"
 
 #: translation/templates/translation/language.html:1683
 #: translation/templates/translation/language.html:1686
 msgid "Je dois vous faire un plâtre"
-msgstr ""
+msgstr "Bạn phải có một thạch cao"
 
 #: translation/templates/translation/language.html:1691
 #: translation/templates/translation/language.html:1694
 #: translation/templates/translation/language.html:2080
 #: translation/templates/translation/language.html:2083
 msgid "Vous devez être opéré"
-msgstr ""
+msgstr "Anh chị cần phải phẫu thuật"
 
 #: translation/templates/translation/language.html:1706
 #: translation/templates/translation/language.html:1709
@@ -1416,27 +1416,27 @@ msgstr "Tôi sẽ đưa cho bạn một"
 #: translation/templates/translation/language.html:1722
 #: translation/templates/translation/language.html:1725
 msgid "Je vais vous poser une perfusion"
-msgstr ""
+msgstr "Tôi sẽ truyền dịch cho bạn"
 
 #: translation/templates/translation/language.html:1730
 #: translation/templates/translation/language.html:1733
 msgid "Je vais vous faire une prise de sang"
-msgstr ""
+msgstr "Tôi sẽ lấy mẫu máu"
 
 #: translation/templates/translation/language.html:1738
 #: translation/templates/translation/language.html:1741
 msgid "Je vais vous faire un pansement"
-msgstr ""
+msgstr "Tôi sẽ băng bó"
 
 #: translation/templates/translation/language.html:1746
 #: translation/templates/translation/language.html:1749
 msgid "Je vais vous faire une piqûre"
-msgstr ""
+msgstr "Tôi sẽ tiêm cho bạn"
 
 #: translation/templates/translation/language.html:1754
 #: translation/templates/translation/language.html:1757
 msgid "Je vais faire votre toilette"
-msgstr ""
+msgstr "Tôi sẽ tắm cho bạn"
 
 #: translation/templates/translation/language.html:1762
 #: translation/templates/translation/language.html:1765
@@ -1451,7 +1451,7 @@ msgstr ""
 #: translation/templates/translation/language.html:1778
 #: translation/templates/translation/language.html:1781
 msgid "Je vais vous faire un plâtre"
-msgstr ""
+msgstr "Bạn phải có một thạch cao"
 
 #: translation/templates/translation/language.html:1786
 #: translation/templates/translation/language.html:1789
@@ -1476,12 +1476,12 @@ msgstr "ngày mai"
 #: translation/templates/translation/language.html:1818
 #: translation/templates/translation/language.html:1821
 msgid "Vous devez prendre une douche avec un shampoing avant l'opération chirurgicale"
-msgstr ""
+msgstr "anh/chị cần tắm rửa và gội đầu trước khi phẫu thuật"
 
 #: translation/templates/translation/language.html:1826
 #: translation/templates/translation/language.html:1829
 msgid "L’examen n’est pas douloureux"
-msgstr ""
+msgstr "xét nghiệm sẽ không gây đau đớn"
 
 #: translation/templates/translation/language.html:1834
 #: translation/templates/translation/language.html:1837
@@ -1511,17 +1511,17 @@ msgstr ""
 #: translation/templates/translation/language.html:1874
 #: translation/templates/translation/language.html:1877
 msgid "Vous devez retier tous vos bijoux et piercing"
-msgstr ""
+msgstr "Anh/chị cần tháo trang sức hoặc khuyên"
 
 #: translation/templates/translation/language.html:1882
 #: translation/templates/translation/language.html:1885
 msgid "Vous devez retier votre vernis a ongles"
-msgstr ""
+msgstr "Anh/ chị cần bỏ sơn móng tay"
 
 #: translation/templates/translation/language.html:1890
 #: translation/templates/translation/language.html:1893
 msgid "Vous devez retier vos appareils dentaires et auditifs"
-msgstr ""
+msgstr "Anh/chị phải tháo răng giả và các thiết bị trợ thính ra"
 
 #: translation/templates/translation/language.html:1898
 #: translation/templates/translation/language.html:1901
@@ -1578,57 +1578,57 @@ msgstr "Bạn không được uống"
 #: translation/templates/translation/language.html:1985
 #: translation/templates/translation/language.html:1988
 msgid "Vous ne devez pas manger"
-msgstr ""
+msgstr "Bạn không được ăn"
 
 #: translation/templates/translation/language.html:1993
 #: translation/templates/translation/language.html:1996
 msgid "Vous ne devez pas vous lever"
-msgstr ""
+msgstr "Bạn không được ngồi dậy"
 
 #: translation/templates/translation/language.html:2001
 #: translation/templates/translation/language.html:2004
 msgid "Vous devez rester sur le dos"
-msgstr ""
+msgstr "Bạn phải nằm nghỉ lưng"
 
 #: translation/templates/translation/language.html:2009
 #: translation/templates/translation/language.html:2012
 msgid "Vous ne devez pas fumer"
-msgstr ""
+msgstr "Bạn không được hút thuốc"
 
 #: translation/templates/translation/language.html:2025
 #: translation/templates/translation/language.html:2028
 msgid "Pour allumer ou éteindre les lumières appuyer ici"
-msgstr ""
+msgstr "Bấm ở đây để bật hoặc tắt đèn"
 
 #: translation/templates/translation/language.html:2033
 #: translation/templates/translation/language.html:2036
 msgid "Les toilettes sont ici"
-msgstr ""
+msgstr "Nhà vệ sinh ở đây"
 
 #: translation/templates/translation/language.html:2041
 #: translation/templates/translation/language.html:2044
 msgid "La salle de bain est ici"
-msgstr ""
+msgstr "Phòng tắm ở đây"
 
 #: translation/templates/translation/language.html:2049
 #: translation/templates/translation/language.html:2052
 msgid "Votre chambre est ici"
-msgstr ""
+msgstr "Phòng của bạn ở đây"
 
 #: translation/templates/translation/language.html:2064
 #: translation/templates/translation/language.html:2067
 msgid "Il y a une fracture"
-msgstr ""
+msgstr "Anh/chị bị gãy xương"
 
 #: translation/templates/translation/language.html:2072
 #: translation/templates/translation/language.html:2075
 msgid "Il n’y a pas de fracture"
-msgstr ""
+msgstr "Anh/chị không bị gãy xương"
 
 #: translation/templates/translation/language.html:2088
 #: translation/templates/translation/language.html:2091
 msgid "Vous devez revenir demain matin"
-msgstr ""
+msgstr "Anh/chị cần quay lại đây vào ngày mai"
 
 #: translation/templates/translation/language.html:2096
 #: translation/templates/translation/language.html:2099
@@ -1653,7 +1653,7 @@ msgstr "Bạn phải đeo nẹp"
 #: translation/templates/translation/language.html:2128
 #: translation/templates/translation/language.html:2131
 msgid "Vous pouvez rentrer chez vous"
-msgstr ""
+msgstr "Anh/chị chị có thể về nhà được rồi"
 
 #: translation/templates/translation/language.html:2136
 #: translation/templates/translation/language.html:2139
@@ -1663,12 +1663,12 @@ msgstr "Anh/chị cần phải đến bệnh viện"
 #: translation/templates/translation/language.html:2144
 #: translation/templates/translation/language.html:2147
 msgid "Vous devez rester à l'hôpital"
-msgstr ""
+msgstr "Anh/chị cần phả ở lại bệnh viện"
 
 #: translation/templates/translation/language.html:2152
 #: translation/templates/translation/language.html:2155
 msgid "Vous allez être transféré dans un autre service"
-msgstr ""
+msgstr "Anh/chị sẽ được chuyển tới khoa/phòng khác"
 
 #: translation/templates/translation/language.html:2167
 #: translation/templates/translation/language.html:2170
@@ -1678,12 +1678,12 @@ msgstr "Tôi đói"
 #: translation/templates/translation/language.html:2175
 #: translation/templates/translation/language.html:2178
 msgid "J’ai soif"
-msgstr ""
+msgstr "Tôi khát"
 
 #: translation/templates/translation/language.html:2183
 #: translation/templates/translation/language.html:2186
 msgid "J’ai mal"
-msgstr ""
+msgstr "Tôi bị đau"
 
 #: translation/templates/translation/language.html:2191
 #: translation/templates/translation/language.html:2194
@@ -1693,93 +1693,93 @@ msgstr "Toi bi ret"
 #: translation/templates/translation/language.html:2199
 #: translation/templates/translation/language.html:2202
 msgid "J’ai chaud"
-msgstr ""
+msgstr "Tôi nóng"
 
 #: translation/templates/translation/language.html:2207
 #: translation/templates/translation/language.html:2210
 msgid "J’ai des nausées"
-msgstr ""
+msgstr "Tôi cảm thấy buồn nôn"
 
 #: translation/templates/translation/language.html:2215
 #: translation/templates/translation/language.html:2218
 #: translation/templates/translation/language.html:3103
 #: translation/templates/translation/language.html:3106
 msgid "J’ai vomi"
-msgstr ""
+msgstr "Toi nôn"
 
 #: translation/templates/translation/language.html:2223
 #: translation/templates/translation/language.html:2226
 msgid "J’ai uriné (je voudrais être changé)"
-msgstr ""
+msgstr "Tôi bị tiểu tiện ra (tôi muốn được thay )"
 
 #: translation/templates/translation/language.html:2231
 #: translation/templates/translation/language.html:2234
 msgid "Je voudrais uriner"
-msgstr ""
+msgstr "Tôi muốn tiểu tiện"
 
 #: translation/templates/translation/language.html:2239
 #: translation/templates/translation/language.html:2242
 msgid "Je voudrais déféquer"
-msgstr ""
+msgstr "Tôi muốn đi đại tiện"
 
 #: translation/templates/translation/language.html:2247
 #: translation/templates/translation/language.html:2250
 #: translation/templates/translation/language.html:2775
 #: translation/templates/translation/language.html:2778
 msgid "J’ai des vertiges"
-msgstr ""
+msgstr "Tôi bị chóng mặt"
 
 #: translation/templates/translation/language.html:2255
 #: translation/templates/translation/language.html:2258
 msgid "J’ai peur"
-msgstr ""
+msgstr "Tôi thấy sợ"
 
 #: translation/templates/translation/language.html:2263
 #: translation/templates/translation/language.html:2266
 msgid "Je voudrais être réinstallé"
-msgstr ""
+msgstr "Tôi muốn chuyển phòng"
 
 #: translation/templates/translation/language.html:2271
 #: translation/templates/translation/language.html:2274
 msgid "Je voudrais des informations"
-msgstr ""
+msgstr "Tôi muốn có thông tin"
 
 #: translation/templates/translation/language.html:2279
 #: translation/templates/translation/language.html:2282
 msgid "J’ai eu un accident"
-msgstr ""
+msgstr "Tôi bị tai nạn"
 
 #: translation/templates/translation/language.html:2287
 #: translation/templates/translation/language.html:2290
 msgid "J’étais piéton"
-msgstr ""
+msgstr "Tôi đã đi bộ"
 
 #: translation/templates/translation/language.html:2295
 #: translation/templates/translation/language.html:2298
 msgid "J’ai été renversé"
-msgstr ""
+msgstr "Tôi bị xe đâm"
 
 #: translation/templates/translation/language.html:2303
 #: translation/templates/translation/language.html:2306
 msgid "Je n’ai pas été renversé"
-msgstr ""
+msgstr "Tôi không bị xe đâm"
 
 #: translation/templates/translation/language.html:2311
 #: translation/templates/translation/language.html:2314
 #: translation/templates/translation/language.html:2439
 #: translation/templates/translation/language.html:2442
 msgid "Je suis tombé"
-msgstr ""
+msgstr "Tôi bị ngã"
 
 #: translation/templates/translation/language.html:2319
 #: translation/templates/translation/language.html:2322
 msgid "J’ai reçu un coup"
-msgstr ""
+msgstr "Tôi bị đánh"
 
 #: translation/templates/translation/language.html:2327
 #: translation/templates/translation/language.html:2330
 msgid "J’étais en voiture"
-msgstr ""
+msgstr "Lúc đó tôi đang lái xe"
 
 #: translation/templates/translation/language.html:2335
 #: translation/templates/translation/language.html:2338
@@ -1791,47 +1791,47 @@ msgstr "Lúc đó tôi đang chạy với vận tốc X km/h"
 #: translation/templates/translation/language.html:2343
 #: translation/templates/translation/language.html:2346
 msgid "J’avais ma ceinture de sécurité"
-msgstr ""
+msgstr "Tôi có thắt dây an toàn"
 
 #: translation/templates/translation/language.html:2351
 #: translation/templates/translation/language.html:2354
 msgid "Je n’avais pas de ceinture de sécurité"
-msgstr ""
+msgstr "Tôi đã không thắt dây an toàn"
 
 #: translation/templates/translation/language.html:2359
 #: translation/templates/translation/language.html:2362
 msgid "J’ai été éjecté pendant l’accident"
-msgstr ""
+msgstr "Tôi đã bị hất văng ra khỏi xe trong vụ tai nạn"
 
 #: translation/templates/translation/language.html:2367
 #: translation/templates/translation/language.html:2370
 msgid "Je n’ai pas été éjecté pendant l’accident"
-msgstr ""
+msgstr "Tôi đã không bị hất văng ra khỏi xe trong vụ tai nạn"
 
 #: translation/templates/translation/language.html:2375
 #: translation/templates/translation/language.html:2378
 msgid "L’air-bag s’est déclenché"
-msgstr ""
+msgstr "Túi khi đã bật/ mở ra"
 
 #: translation/templates/translation/language.html:2383
 #: translation/templates/translation/language.html:2386
 msgid "L’air-bag ne s’est pas déclenché"
-msgstr ""
+msgstr "Túi khí đã không bật/mở ra"
 
 #: translation/templates/translation/language.html:2391
 #: translation/templates/translation/language.html:2394
 msgid "J’étais en vélo"
-msgstr ""
+msgstr "Lúc đó tôi đang đi xe đạp"
 
 #: translation/templates/translation/language.html:2399
 #: translation/templates/translation/language.html:2402
 msgid "J'étais en scooter"
-msgstr ""
+msgstr "Lúc đó tôi đang đi xe scooter"
 
 #: translation/templates/translation/language.html:2407
 #: translation/templates/translation/language.html:2410
 msgid "J'étais en moto"
-msgstr ""
+msgstr "Lúc đó tôi đang đi moto"
 
 #: translation/templates/translation/language.html:2423
 #: translation/templates/translation/language.html:2426
@@ -1841,22 +1841,22 @@ msgstr "Lúc đó tôi đeo mũ bảo hiểm"
 #: translation/templates/translation/language.html:2431
 #: translation/templates/translation/language.html:2434
 msgid "Je n’avais pas de casque"
-msgstr ""
+msgstr "Tôi đã không đeo mũ bảo hiểm"
 
 #: translation/templates/translation/language.html:2447
 #: translation/templates/translation/language.html:2450
 msgid "Je suis tombé de ma hauteur"
-msgstr ""
+msgstr "Tôi đã bị ngã với độ cao bằng với chiều cao của mình"
 
 #: translation/templates/translation/language.html:2455
 #: translation/templates/translation/language.html:2458
 msgid "Je suis tombé de “x” mètres de hauteur"
-msgstr ""
+msgstr "Tôi đã bị ngã từ chiều cao XX mét"
 
 #: translation/templates/translation/language.html:2463
 #: translation/templates/translation/language.html:2466
 msgid "Ma tête a tapé pendant l’accident"
-msgstr ""
+msgstr "Đầu tôi bị va đập trong vụ tai nạn"
 
 #: translation/templates/translation/language.html:2471
 #: translation/templates/translation/language.html:2474
@@ -1907,7 +1907,7 @@ msgstr ""
 #: translation/templates/translation/language.html:2543
 #: translation/templates/translation/language.html:2546
 msgid "Je prend des anticoagulants (médicaments pour fluidifier le sang)"
-msgstr ""
+msgstr "Tôi đã dùng thuốc chống đông máu"
 
 #: translation/templates/translation/language.html:2551
 #: translation/templates/translation/language.html:2554
@@ -1939,7 +1939,7 @@ msgstr ""
 #: translation/templates/translation/language.html:2599
 #: translation/templates/translation/language.html:2602
 msgid "J’arrive bien à bouger mes bras et jambes"
-msgstr ""
+msgstr "Tôi có thể cử động tay chân dễ dàng"
 
 #: translation/templates/translation/language.html:2607
 #: translation/templates/translation/language.html:2610
@@ -1949,127 +1949,127 @@ msgstr "Tôi không thể cử động tay hay chân"
 #: translation/templates/translation/language.html:2615
 #: translation/templates/translation/language.html:2618
 msgid "J’arrive bien à parler"
-msgstr ""
+msgstr "Tôi có thể nói được"
 
 #: translation/templates/translation/language.html:2623
 #: translation/templates/translation/language.html:2626
 msgid "J’ai des difficultés à parler"
-msgstr ""
+msgstr "Tôi không thể nói được"
 
 #: translation/templates/translation/language.html:2631
 #: translation/templates/translation/language.html:2634
 msgid "La lumière me dérange"
-msgstr ""
+msgstr "Ánh đèn làm tôi thấy khó chịu"
 
 #: translation/templates/translation/language.html:2639
 #: translation/templates/translation/language.html:2642
 msgid "La lumière ne me dérange pas"
-msgstr ""
+msgstr "Ánh đèn không khiến tôi thấy khó chịu"
 
 #: translation/templates/translation/language.html:2647
 #: translation/templates/translation/language.html:2650
 msgid "J’ai de la fièvre"
-msgstr ""
+msgstr "Tôi bị sốt"
 
 #: translation/templates/translation/language.html:2655
 #: translation/templates/translation/language.html:2658
 msgid "Je n’ai pas de fièvre"
-msgstr ""
+msgstr "Tôi không bị sốt"
 
 #: translation/templates/translation/language.html:2663
 #: translation/templates/translation/language.html:2666
 msgid "J’ai des douleurs à la nuque"
-msgstr ""
+msgstr "Tôi bị đau ở gáy"
 
 #: translation/templates/translation/language.html:2671
 #: translation/templates/translation/language.html:2674
 msgid "Je n’ai pas de douleurs à la nuque"
-msgstr ""
+msgstr "Tôi không bị đau ở gáy / Gáy tôi không bị đau"
 
 #: translation/templates/translation/language.html:2679
 #: translation/templates/translation/language.html:2682
 msgid "J’ai fais un malaise"
-msgstr ""
+msgstr "Toi bi Buồn nôn"
 
 #: translation/templates/translation/language.html:2687
 #: translation/templates/translation/language.html:2690
 msgid "Je n’ai pas fais de malaise"
-msgstr ""
+msgstr "Tôi không bị chóng mặt"
 
 #: translation/templates/translation/language.html:2695
 #: translation/templates/translation/language.html:2698
 msgid "J’ai perdu connaissance"
-msgstr ""
+msgstr "Tôi đã bị hôn mê"
 
 #: translation/templates/translation/language.html:2703
 #: translation/templates/translation/language.html:2706
 msgid "Je n’ai pas perdu connaissance"
-msgstr ""
+msgstr "Tôi đã không bị hôn mê"
 
 #: translation/templates/translation/language.html:2711
 #: translation/templates/translation/language.html:2714
 msgid "J’ai perdu mes urines"
-msgstr ""
+msgstr "Tôi đã bị tiểu dầm"
 
 #: translation/templates/translation/language.html:2719
 #: translation/templates/translation/language.html:2722
 msgid "Je n’ai pas perdu mes urines"
-msgstr ""
+msgstr "Tôi không bị tiểu dầm"
 
 #: translation/templates/translation/language.html:2727
 #: translation/templates/translation/language.html:2730
 msgid "J’ai convulsé"
-msgstr ""
+msgstr "Tôi bị co giật"
 
 #: translation/templates/translation/language.html:2735
 #: translation/templates/translation/language.html:2738
 msgid "Je n’ai pas convulsé"
-msgstr ""
+msgstr "Tôi không bị co giật"
 
 #: translation/templates/translation/language.html:2743
 #: translation/templates/translation/language.html:2746
 msgid "Je suis épileptique"
-msgstr ""
+msgstr "Toi bi bệnh động kinh"
 
 #: translation/templates/translation/language.html:2751
 #: translation/templates/translation/language.html:2754
 msgid "Je ne suis pas épileptique"
-msgstr ""
+msgstr "Tôi không bị động kinh"
 
 #: translation/templates/translation/language.html:2759
 #: translation/templates/translation/language.html:2762
 msgid "J’ai pris mes traitements aujourd’hui"
-msgstr ""
+msgstr "Hôm nay tôi đã điều trị bệnh"
 
 #: translation/templates/translation/language.html:2767
 #: translation/templates/translation/language.html:2770
 msgid "Je n’ai pas pris mes traitements aujourd’hui"
-msgstr ""
+msgstr "Hôm nay tôi đã không điều trị bệnh"
 
 #: translation/templates/translation/language.html:2783
 #: translation/templates/translation/language.html:2786
 msgid "Je n’ai pas de vertiges"
-msgstr ""
+msgstr "Tôi không bị chóng mặt"
 
 #: translation/templates/translation/language.html:2791
 #: translation/templates/translation/language.html:2794
 msgid "Je suis diabétique"
-msgstr ""
+msgstr "Tôi bị bệnh tiểu đường"
 
 #: translation/templates/translation/language.html:2799
 #: translation/templates/translation/language.html:2802
 msgid "Je ne suis pas diabétique"
-msgstr ""
+msgstr "Tôi không bị tiểu đường"
 
 #: translation/templates/translation/language.html:2807
 #: translation/templates/translation/language.html:2810
 msgid "J’ai mangé aujourd’hui"
-msgstr ""
+msgstr "Hôm nay tôi đã ăn rồi"
 
 #: translation/templates/translation/language.html:2815
 #: translation/templates/translation/language.html:2818
 msgid "Je n’ai pas mangé aujourd’hui"
-msgstr ""
+msgstr "Hôm nay tôi đã không ăn gì"
 
 #: translation/templates/translation/language.html:2823
 #: translation/templates/translation/language.html:2826
@@ -2079,22 +2079,22 @@ msgstr "Nửa thân trên"
 #: translation/templates/translation/language.html:2831
 #: translation/templates/translation/language.html:2834
 msgid "J’ai eu un choc au torse récemment"
-msgstr ""
+msgstr "Gần đây tôi thấy khó chịu ở nửa mình trên"
 
 #: translation/templates/translation/language.html:2839
 #: translation/templates/translation/language.html:2842
 msgid "Je n’ai pas eu de choc au torse récemment"
-msgstr ""
+msgstr "Thời gian gần đây, tôi không thấy khó chịu ở nửa mình trên"
 
 #: translation/templates/translation/language.html:2847
 #: translation/templates/translation/language.html:2850
 msgid "La douleur est encore présente"
-msgstr ""
+msgstr "Hiện giờ, tôi vẫn cảm thấy đau"
 
 #: translation/templates/translation/language.html:2855
 #: translation/templates/translation/language.html:2858
 msgid "La douleur n’est plus présente"
-msgstr ""
+msgstr "Hiện giờ tôi không cảm thấy đau nữa"
 
 #: translation/templates/translation/language.html:2863
 #: translation/templates/translation/language.html:2866
@@ -2135,92 +2135,92 @@ msgstr "Tôi thấy bị đánh trống ngực"
 #: translation/templates/translation/language.html:2919
 #: translation/templates/translation/language.html:2922
 msgid "Je ne ressent pas de palpitations"
-msgstr ""
+msgstr "Tôi không bị đánh trống ngực"
 
 #: translation/templates/translation/language.html:2927
 #: translation/templates/translation/language.html:2930
 msgid "Dans ma famille il y a des problèmes cardiaques"
-msgstr ""
+msgstr "Gia đình tôi có tiền sử bệnh tim"
 
 #: translation/templates/translation/language.html:2935
 #: translation/templates/translation/language.html:2938
 msgid "Dans ma famille il n’y a pas de problème cardiaque"
-msgstr ""
+msgstr "Gia đình tôi không có tiền sử bệnh tim"
 
 #: translation/templates/translation/language.html:2943
 #: translation/templates/translation/language.html:2946
 msgid "La douleur est plus forte quand je respire"
-msgstr ""
+msgstr "Tôi thấy đau hơn khi hít thở"
 
 #: translation/templates/translation/language.html:2951
 #: translation/templates/translation/language.html:2954
 msgid "La douleur n’est pas plus forte quand je respire"
-msgstr ""
+msgstr "Tôi không thấy đau hơn khi hít thở"
 
 #: translation/templates/translation/language.html:2959
 #: translation/templates/translation/language.html:2962
 msgid "Je crache du sang"
-msgstr ""
+msgstr "Tôi bị ho ra máu"
 
 #: translation/templates/translation/language.html:2967
 #: translation/templates/translation/language.html:2970
 msgid "Je ne crache pas du sang"
-msgstr ""
+msgstr "Tôi không bị ho ra máu"
 
 #: translation/templates/translation/language.html:2975
 #: translation/templates/translation/language.html:2978
 msgid "Je tousse"
-msgstr ""
+msgstr "Tôi ho"
 
 #: translation/templates/translation/language.html:2983
 #: translation/templates/translation/language.html:2986
 msgid "Je ne tousse pas"
-msgstr ""
+msgstr "Tôi không bị ho"
 
 #: translation/templates/translation/language.html:2991
 #: translation/templates/translation/language.html:2994
 msgid "J’ai des difficultés à respirer"
-msgstr ""
+msgstr "Toi bi Khó thở"
 
 #: translation/templates/translation/language.html:2999
 #: translation/templates/translation/language.html:3002
 msgid "Je n’ai pas de difficultés à respirer"
-msgstr ""
+msgstr "Tôi không bị khó thở"
 
 #: translation/templates/translation/language.html:3007
 #: translation/templates/translation/language.html:3010
 msgid "J’ai respiré des fumées"
-msgstr ""
+msgstr "Tôi bị hít phải khói"
 
 #: translation/templates/translation/language.html:3015
 #: translation/templates/translation/language.html:3018
 msgid "Je fume."
-msgstr ""
+msgstr "Tôi có hút thuốc"
 
 #: translation/templates/translation/language.html:3023
 #: translation/templates/translation/language.html:3026
 msgid "Je ne fume pas"
-msgstr ""
+msgstr "Tôi không hút thuốc"
 
 #: translation/templates/translation/language.html:3031
 #: translation/templates/translation/language.html:3034
 msgid "Je bois de l’alcool"
-msgstr ""
+msgstr "Tôi có uống rượu"
 
 #: translation/templates/translation/language.html:3039
 #: translation/templates/translation/language.html:3042
 msgid "Je ne bois pas d’alcool"
-msgstr ""
+msgstr "Tôi không uộng rượu"
 
 #: translation/templates/translation/language.html:3047
 #: translation/templates/translation/language.html:3050
 msgid "J’ai du cholestérol"
-msgstr ""
+msgstr "Tôi bị cholesterol"
 
 #: translation/templates/translation/language.html:3055
 #: translation/templates/translation/language.html:3058
 msgid "Je n’ai pas de cholestérol"
-msgstr ""
+msgstr "Tôi không bị cholesterol"
 
 #: translation/templates/translation/language.html:3063
 #: translation/templates/translation/language.html:3066
@@ -2230,7 +2230,7 @@ msgstr "Toi bi benh hen"
 #: translation/templates/translation/language.html:3071
 #: translation/templates/translation/language.html:3074
 msgid "Je ne suis pas asthmatique"
-msgstr ""
+msgstr "Tôi không bị hen"
 
 #: translation/templates/translation/language.html:3079
 #: translation/templates/translation/language.html:3082
@@ -2240,22 +2240,22 @@ msgstr "Bụng"
 #: translation/templates/translation/language.html:3087
 #: translation/templates/translation/language.html:3090
 msgid "J'ai des nausées"
-msgstr ""
+msgstr "Tôi buồn nôn"
 
 #: translation/templates/translation/language.html:3095
 #: translation/templates/translation/language.html:3098
 msgid "Je n'ai pas de nausées"
-msgstr ""
+msgstr "tôi không bị buồnnoon"
 
 #: translation/templates/translation/language.html:3111
 #: translation/templates/translation/language.html:3114
 msgid "Je n’ai pas vomi"
-msgstr ""
+msgstr "Toi không bị nôn"
 
 #: translation/templates/translation/language.html:3119
 #: translation/templates/translation/language.html:3122
 msgid "Des aliments"
-msgstr ""
+msgstr "Đồ ăn"
 
 #: translation/templates/translation/language.html:3127
 #: translation/templates/translation/language.html:3130
@@ -2265,27 +2265,27 @@ msgstr "Toi bi non mau"
 #: translation/templates/translation/language.html:3135
 #: translation/templates/translation/language.html:3138
 msgid "Une fois"
-msgstr ""
+msgstr "1 lần"
 
 #: translation/templates/translation/language.html:3143
 #: translation/templates/translation/language.html:3146
 msgid "Deux fois"
-msgstr ""
+msgstr "2 lần"
 
 #: translation/templates/translation/language.html:3151
 #: translation/templates/translation/language.html:3154
 msgid "Plusieurs fois"
-msgstr ""
+msgstr "nhiều lần"
 
 #: translation/templates/translation/language.html:3159
 #: translation/templates/translation/language.html:3162
 msgid "J’ai des diarrhées"
-msgstr ""
+msgstr "Tôi bị tiêu chảy"
 
 #: translation/templates/translation/language.html:3167
 #: translation/templates/translation/language.html:3170
 msgid "Je n’ai pas de diarrhées"
-msgstr ""
+msgstr "Tôi không bị tiêu chảy"
 
 #: translation/templates/translation/language.html:3175
 #: translation/templates/translation/language.html:3178
@@ -2305,22 +2305,22 @@ msgstr ""
 #: translation/templates/translation/language.html:3199
 #: translation/templates/translation/language.html:3202
 msgid "Il y avait du sang dans mes urines"
-msgstr ""
+msgstr "Tôi đi tiểu ra máu"
 
 #: translation/templates/translation/language.html:3207
 #: translation/templates/translation/language.html:3210
 msgid "Il n’y avait pas de sang dans mes urines"
-msgstr ""
+msgstr "Tôi không bị đi tiểu ra máu"
 
 #: translation/templates/translation/language.html:3215
 #: translation/templates/translation/language.html:3218
 msgid "J’ai des brûlures quand j’urine"
-msgstr ""
+msgstr "Tôi bị đau khi đi tiểu"
 
 #: translation/templates/translation/language.html:3223
 #: translation/templates/translation/language.html:3226
 msgid "Je n’ai pas de brûlures quand j’urine"
-msgstr ""
+msgstr "Tôi không bị đau khi đi tiểu"
 
 #: translation/templates/translation/language.html:3231
 #: translation/templates/translation/language.html:3234
@@ -2330,12 +2330,12 @@ msgstr "Gần đây, tình trạng phân khi đại tiện của tôi:"
 #: translation/templates/translation/language.html:3239
 #: translation/templates/translation/language.html:3242
 msgid "Il y avait du sang dans mes selles"
-msgstr ""
+msgstr "Tôi đi đại tiện ra máu"
 
 #: translation/templates/translation/language.html:3247
 #: translation/templates/translation/language.html:3250
 msgid "Il n’y avait pas de sang dans mes selles"
-msgstr ""
+msgstr "Tôi không bị đại tiện ra máu"
 
 #: translation/templates/translation/language.html:3255
 #: translation/templates/translation/language.html:3258
@@ -2345,12 +2345,12 @@ msgstr "Kỳ hành kinh gần đây nhất:"
 #: translation/templates/translation/language.html:3263
 #: translation/templates/translation/language.html:3266
 msgid "Je suis enceinte"
-msgstr ""
+msgstr "Tôi đang có thai"
 
 #: translation/templates/translation/language.html:3271
 #: translation/templates/translation/language.html:3274
 msgid "Je ne suis pas enceinte"
-msgstr ""
+msgstr "Tôi không có thai"
 
 #: translation/templates/translation/language.html:3279
 #: translation/templates/translation/language.html:3282
@@ -2360,12 +2360,12 @@ msgstr "Từ \"x\" tuần"
 #: translation/templates/translation/language.html:3287
 #: translation/templates/translation/language.html:3290
 msgid "J’ai eu des pertes par voie basse"
-msgstr ""
+msgstr "Tôi bị mất máu khi sinh thường"
 
 #: translation/templates/translation/language.html:3295
 #: translation/templates/translation/language.html:3298
 msgid "Je n’ai pas eu de perte par voie basse"
-msgstr ""
+msgstr "Tôi không bị mất máu khi sinh thường"
 
 #: translation/templates/translation/language.html:3303
 #: translation/templates/translation/language.html:3306
@@ -2385,12 +2385,12 @@ msgstr ""
 #: translation/templates/translation/language.html:3327
 #: translation/templates/translation/language.html:3330
 msgid "J’ai perdu du poids ces derniers temps"
-msgstr ""
+msgstr "Gần đây tôi bị giảm cân"
 
 #: translation/templates/translation/language.html:3335
 #: translation/templates/translation/language.html:3338
 msgid "Je n’ai pas perdu de poids ces derniers temps"
-msgstr ""
+msgstr "Gần đây tôi không bị giảm cân"
 
 #: translation/templates/translation/language.html:3343
 #: translation/templates/translation/language.html:3346
@@ -2400,12 +2400,12 @@ msgstr "Lưng/cổ"
 #: translation/templates/translation/language.html:3351
 #: translation/templates/translation/language.html:3354
 msgid "Ma douleur n’irradie pas vers la fesse ou la jambe"
-msgstr ""
+msgstr "Cơn đau không lan đến mông hoặc chân"
 
 #: translation/templates/translation/language.html:3359
 #: translation/templates/translation/language.html:3362
 msgid "Ma douleur irradie vers la fesse ou la jambe"
-msgstr ""
+msgstr "Cơn đau lan đến mông hoặc chân"
 
 #: translation/templates/translation/language.html:3367
 #: translation/templates/translation/language.html:3370
@@ -2420,12 +2420,12 @@ msgstr ""
 #: translation/templates/translation/language.html:3383
 #: translation/templates/translation/language.html:3386
 msgid "J’ai mal surtout le soir"
-msgstr ""
+msgstr "Tôi bị đau nhất vào buổi tối"
 
 #: translation/templates/translation/language.html:3391
 #: translation/templates/translation/language.html:3394
 msgid "J’ai mal surtout le matin"
-msgstr ""
+msgstr "Tôi bị đau nhất vào buổi sáng"
 
 #: translation/templates/translation/language.html:3399
 #: translation/templates/translation/language.html:3402
@@ -2450,22 +2450,22 @@ msgstr ""
 #: translation/templates/translation/language.html:3439
 #: translation/templates/translation/language.html:3442
 msgid "J’ai été piqué ou mordu récemment"
-msgstr ""
+msgstr "Tôi bị đốt/cắn gần đây"
 
 #: translation/templates/translation/language.html:3447
 #: translation/templates/translation/language.html:3450
 msgid "Je n’ai pas été piqué ou mordu récemment"
-msgstr ""
+msgstr "Gần đây tôi không bị đốt hay căn"
 
 #: translation/templates/translation/language.html:3455
 #: translation/templates/translation/language.html:3458
 msgid "Ca me démange"
-msgstr ""
+msgstr "Nó làm tôi ngứa"
 
 #: translation/templates/translation/language.html:3463
 #: translation/templates/translation/language.html:3466
 msgid "Ca ne me démange pas"
-msgstr ""
+msgstr "Nó không làm tôi ngứa"
 
 #: translation/templates/translation/language.html:3471
 #: translation/templates/translation/language.html:3474
@@ -2551,7 +2551,7 @@ msgstr "Tôi cần cấp cứu, gọi cấp cứu giúp tôi với"
 #: translation/templates/translation/language.html:3599
 #: translation/templates/translation/language.html:3602
 msgid "Vous allez avoir une IRM"
-msgstr ""
+msgstr "Chụp cộng hưởng từ"
 
 #: translation/templates/translation/language.html:3607
 #: translation/templates/translation/language.html:3610
@@ -2611,7 +2611,7 @@ msgstr "Tên:"
 #: translation/templates/translation/language.html:3719
 #: translation/templates/translation/language.html:3722
 msgid "Prénom :"
-msgstr ""
+msgstr "Họ và tên :"
 
 #: translation/templates/translation/language.html:3727
 #: translation/templates/translation/language.html:3730
@@ -2621,7 +2621,7 @@ msgstr "Sinh ngày:"
 #: translation/templates/translation/language.html:3735
 #: translation/templates/translation/language.html:3738
 msgid "Taille :"
-msgstr ""
+msgstr "Chiều cao:"
 
 #: translation/templates/translation/language.html:3743
 #: translation/templates/translation/language.html:3746
@@ -3327,7 +3327,7 @@ msgid "Fidjien"
 msgstr ""
 
 msgid "Français"
-msgstr ""
+msgstr "Vietnamien"
 
 msgid "Créole Haitien"
 msgstr ""

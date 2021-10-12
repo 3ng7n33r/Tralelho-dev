@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 73d3b19e82fc460fd936796fc5b25f94\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-11 15:45+0000\n"
-"PO-Revision-Date: 2021-03-30 10:31\n"
+"PO-Revision-Date: 2021-09-20 09:36\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -76,7 +76,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3671
 #: translation/templates/translation/language.html:3674
 msgid "Durant l'examen, on vous demandera de gonfler et les poumons et de bloquer la respiration"
-msgstr ""
+msgstr "Во время процедуры прошу вас набрать полные легкие воздуха и задержать дыхание"
 
 #: translation/templates/doctemplates/irm.html:41
 #: translation/templates/doctemplates/irm.html:42
@@ -216,7 +216,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3631
 #: translation/templates/translation/language.html:3634
 msgid "Avez-vous des éclats métalliques dans les yeux?"
-msgstr ""
+msgstr "Есть ли металлические частицы в глазах?"
 
 #: translation/templates/doctemplates/irm.html:188
 #: translation/templates/doctemplates/irm.html:189
@@ -326,17 +326,17 @@ msgstr "НЕВРОЛОГИЯ"
 #: translation/templates/sidenav.html:15
 #: translation/templates/translation/language.html:686
 msgid "PNEUMOLOGIE"
-msgstr ""
+msgstr "ПУЛЬМОНОЛОГИЯ:"
 
 #: translation/templates/sidenav.html:16
 #: translation/templates/translation/language.html:773
 msgid "CARDIOLOGIE"
-msgstr ""
+msgstr "КАРДИОЛОГИЯ:"
 
 #: translation/templates/sidenav.html:17
 #: translation/templates/translation/language.html:932
 msgid "MALAISE"
-msgstr ""
+msgstr "НЕДОМОГАНИЕ:"
 
 #: translation/templates/sidenav.html:18
 #: translation/templates/translation/language.html:1043
@@ -346,12 +346,12 @@ msgstr "ГАСТРОЭНТЕРОЛОГИЯ"
 #: translation/templates/sidenav.html:19
 #: translation/templates/translation/language.html:1194
 msgid "INFECTIEUX"
-msgstr ""
+msgstr "ИНФЕКЦИОННЫЕ ЗАБОЛЕВАНИЯ:"
 
 #: translation/templates/sidenav.html:20
 #: translation/templates/translation/language.html:1273
 msgid "OPHTALMOLOGIE"
-msgstr ""
+msgstr "ОФТАЛЬМОЛОГИЯ:"
 
 #: translation/templates/sidenav.html:21
 #: translation/templates/translation/language.html:1320
@@ -361,17 +361,17 @@ msgstr "СЕМЕЙНЫЕ И НАСЛЕДСТВЕННЫЕ ЗАБОЛЕВАНИЯ"
 #: translation/templates/sidenav.html:22
 #: translation/templates/translation/language.html:1399
 msgid "PEDIATRIE"
-msgstr ""
+msgstr "ПЕДИАТРИЯ"
 
 #: translation/templates/sidenav.html:23
 #: translation/templates/translation/language.html:1470
 msgid "GYNECOLOGIE"
-msgstr ""
+msgstr "ГИНЕКОЛОГИЯ и АКУШЕРСТВО"
 
 #: translation/templates/sidenav.html:24
 #: translation/templates/translation/language.html:1573
 msgid "TRAUMATOLOGIE"
-msgstr ""
+msgstr "ТРАВМАТОЛОГИЯ"
 
 #: translation/templates/sidenav.html:25
 #: translation/templates/translation/language.html:1700
@@ -440,47 +440,47 @@ msgstr ""
 #: translation/templates/translation/language.html:49
 #: translation/templates/translation/language.html:52
 msgid "Je vais utiliser le téléphone pour traduire les questions que j'ai à vous poser, êtes vous d'accord ?"
-msgstr ""
+msgstr "я буду использовать мой телефон для перевода на русский язык задаваемых вам вопросов. Вы согласны?"
 
 #: translation/templates/translation/language.html:57
 #: translation/templates/translation/language.html:60
 msgid "Bonjour, je suis infirmière"
-msgstr ""
+msgstr "Добрый день, я ваша Лечащий персонал"
 
 #: translation/templates/translation/language.html:65
 #: translation/templates/translation/language.html:68
 msgid "Bonjour, je suis médecin"
-msgstr ""
+msgstr "Добрый день, я ваша Врач"
 
 #: translation/templates/translation/language.html:73
 #: translation/templates/translation/language.html:76
 msgid "Bonjour, je suis secouriste"
-msgstr ""
+msgstr "Добрый день, я ваша Спасатель"
 
 #: translation/templates/translation/language.html:81
 #: translation/templates/translation/language.html:84
 msgid "Bonjour, je suis bénévole"
-msgstr ""
+msgstr "Добрый день, я ваша Волонтёр"
 
 #: translation/templates/translation/language.html:89
 #: translation/templates/translation/language.html:92
 msgid "Bonjour, je suis agent d'accueil"
-msgstr ""
+msgstr "Добрый день, я ваша Сотрудник приёмного покоя"
 
 #: translation/templates/translation/language.html:97
 #: translation/templates/translation/language.html:100
 msgid "Bonjour, je suis étudiant en médecine"
-msgstr ""
+msgstr "Добрый день, я ваша Студент-медик"
 
 #: translation/templates/translation/language.html:105
 #: translation/templates/translation/language.html:108
 msgid "Bonjour, je suis sage-femme"
-msgstr ""
+msgstr "Добрый день, я ваша Акушерка"
 
 #: translation/templates/translation/language.html:113
 #: translation/templates/translation/language.html:116
 msgid "Bonjour, je suis secrétaire"
-msgstr ""
+msgstr "Добрый день, я ваша Секретарь"
 
 #: translation/templates/translation/language.html:121
 #: translation/templates/translation/language.html:124
@@ -545,17 +545,17 @@ msgstr "Прошу вас подождать:"
 #: translation/templates/translation/language.html:231
 #: translation/templates/translation/language.html:234
 msgid "Je vous laisse attendre sur les chaises"
-msgstr ""
+msgstr "Прошу вас подождать на стульях"
 
 #: translation/templates/translation/language.html:239
 #: translation/templates/translation/language.html:242
 msgid "Je vous laisse attendre sur le banc"
-msgstr ""
+msgstr "Прошу вас подождать на скамейке"
 
 #: translation/templates/translation/language.html:247
 #: translation/templates/translation/language.html:250
 msgid "Je vous laisse attendre dans la salle d'attente"
-msgstr ""
+msgstr "Прошу вас подождать в зале ожидания"
 
 #: translation/templates/translation/language.html:255
 #: translation/templates/translation/language.html:258
@@ -716,7 +716,7 @@ msgstr "Знаете ли вы, где мы находимся?"
 #: translation/templates/translation/language.html:533
 #: translation/templates/translation/language.html:536
 msgid "Suivez mon doigt du regard"
-msgstr ""
+msgstr "Следите, пожалуйста, глазами за моим пальцем"
 
 #: translation/templates/translation/language.html:541
 #: translation/templates/translation/language.html:544
@@ -736,7 +736,7 @@ msgstr "Посмотрите мне в глаза, пожалуйста, я ос
 #: translation/templates/translation/language.html:565
 #: translation/templates/translation/language.html:568
 msgid "Avez vous des fourmillement ? Montrez moi où"
-msgstr ""
+msgstr "Есть ли у вас покалывания? Покажите, пожалуйста, где."
 
 #: translation/templates/translation/language.html:573
 #: translation/templates/translation/language.html:576
@@ -793,7 +793,7 @@ msgstr ""
 #: translation/templates/translation/language.html:653
 #: translation/templates/translation/language.html:656
 msgid "Dans quel pays ?"
-msgstr ""
+msgstr "В какие страны?"
 
 #: translation/templates/translation/language.html:661
 #: translation/templates/translation/language.html:664
@@ -864,7 +864,7 @@ msgstr "Высморкайтесь, пожалуйста, необходимо �
 #: translation/templates/translation/language.html:782
 #| msgid "Est-ce que vous voyez double ?"
 msgid "Est-ce que votre douleur"
-msgstr ""
+msgstr "Ваша боль"
 
 #: translation/templates/translation/language.html:787
 #: translation/templates/translation/language.html:790
@@ -884,7 +884,7 @@ msgstr ""
 #: translation/templates/translation/language.html:811
 #: translation/templates/translation/language.html:814
 msgid "Est-ce que votre douleur irradie ? Montrez-moi vers où"
-msgstr ""
+msgstr "Ваша боль куда-то отдаёт? Покажите, пожалуйста, куда?"
 
 #: translation/templates/translation/language.html:819
 #: translation/templates/translation/language.html:822
@@ -1030,7 +1030,7 @@ msgstr "Покажите, пожалуйста, где у вас болит"
 #: translation/templates/translation/language.html:1057
 #: translation/templates/translation/language.html:1060
 msgid "Est ce que la douleur irradie ? Si oui montrez moi vers où"
-msgstr ""
+msgstr "Отдает ли куда-то боль? Если да, то покажите куда?"
 
 #: translation/templates/translation/language.html:1065
 #: translation/templates/translation/language.html:1068
@@ -1177,12 +1177,12 @@ msgstr "Болит ли у вас голова?"
 #: translation/templates/translation/language.html:1303
 #: translation/templates/translation/language.html:1306
 msgid "Est ce que vous avez l’impression que la pièce tourne autour de vous ?"
-msgstr ""
+msgstr "Есть ли у вас ощущение, что комната вращается вокуруг вас?"
 
 #: translation/templates/translation/language.html:1311
 #: translation/templates/translation/language.html:1314
 msgid "Avez-vous reçu un coup à la tête récemment ?"
-msgstr ""
+msgstr "Не ударялись ли вы недавно головой?"
 
 #: translation/templates/translation/language.html:1326
 #: translation/templates/translation/language.html:1329
@@ -1202,17 +1202,17 @@ msgstr ""
 #: translation/templates/translation/language.html:1350
 #: translation/templates/translation/language.html:1353
 msgid "Avez-vous une ordonnance avec vos traitements ?"
-msgstr ""
+msgstr "Есть ли у вас рецепт на принимаемые медикаменты?"
 
 #: translation/templates/translation/language.html:1358
 #: translation/templates/translation/language.html:1361
 msgid "Avez-vous des allergies ? lesquelles ?"
-msgstr ""
+msgstr "Страдаете ли вы от аллергии? (Какой?)"
 
 #: translation/templates/translation/language.html:1366
 #: translation/templates/translation/language.html:1369
 msgid "Y a-t-il des antécédents de maladie dans votre famille ?"
-msgstr ""
+msgstr "Есть ли случаи похожих заболеваний в вашей семье?"
 
 #: translation/templates/translation/language.html:1374
 #: translation/templates/translation/language.html:1377
@@ -1222,12 +1222,12 @@ msgstr ""
 #: translation/templates/translation/language.html:1382
 #: translation/templates/translation/language.html:1385
 msgid "Pouvez-vous vous lever ?"
-msgstr ""
+msgstr "Можете ли вы вставать?"
 
 #: translation/templates/translation/language.html:1390
 #: translation/templates/translation/language.html:1393
 msgid "Pouvez-vous marcher ?"
-msgstr ""
+msgstr "Можете ли вы ходить?"
 
 #: translation/templates/translation/language.html:1405
 #: translation/templates/translation/language.html:1408
@@ -1491,22 +1491,22 @@ msgstr "После операции у вас будет:"
 #: translation/templates/translation/language.html:1842
 #: translation/templates/translation/language.html:1845
 msgid "Après l'opération vous aurez une sonde urinaire"
-msgstr ""
+msgstr "После операции у вас будет мочевой катетер"
 
 #: translation/templates/translation/language.html:1850
 #: translation/templates/translation/language.html:1853
 msgid "Après l'opération vous aurez une sonde gastrique"
-msgstr ""
+msgstr "После операции у вас будет желудочный зонд"
 
 #: translation/templates/translation/language.html:1858
 #: translation/templates/translation/language.html:1861
 msgid "Après l'opération vous aurez un drain"
-msgstr ""
+msgstr "После операции у вас будет дренаж"
 
 #: translation/templates/translation/language.html:1866
 #: translation/templates/translation/language.html:1869
 msgid "Après l'opération vous aurez une cicatrice"
-msgstr ""
+msgstr "После операции у вас будет шов"
 
 #: translation/templates/translation/language.html:1874
 #: translation/templates/translation/language.html:1877
@@ -1558,17 +1558,17 @@ msgstr "Я даю вам:"
 #: translation/templates/translation/language.html:1953
 #: translation/templates/translation/language.html:1956
 msgid "Je vous donne des médicaments"
-msgstr ""
+msgstr "Я даю вам лекарства"
 
 #: translation/templates/translation/language.html:1961
 #: translation/templates/translation/language.html:1964
 msgid "Je vous donne des antalgiques"
-msgstr ""
+msgstr "Я даю вам обезболивающие"
 
 #: translation/templates/translation/language.html:1969
 #: translation/templates/translation/language.html:1972
 msgid "Je vous donne des antibiotiques"
-msgstr ""
+msgstr "Я даю вам антибиотики"
 
 #: translation/templates/translation/language.html:1977
 #: translation/templates/translation/language.html:1980
@@ -1710,12 +1710,12 @@ msgstr "Меня вырвало"
 #: translation/templates/translation/language.html:2223
 #: translation/templates/translation/language.html:2226
 msgid "J’ai uriné (je voudrais être changé)"
-msgstr ""
+msgstr "Я помочился/ась, мне нужна смена белья."
 
 #: translation/templates/translation/language.html:2231
 #: translation/templates/translation/language.html:2234
 msgid "Je voudrais uriner"
-msgstr ""
+msgstr "Я бы хотел/а помочиться."
 
 #: translation/templates/translation/language.html:2239
 #: translation/templates/translation/language.html:2242
@@ -1851,7 +1851,7 @@ msgstr "Я упал/а с высоты собственного роста"
 #: translation/templates/translation/language.html:2455
 #: translation/templates/translation/language.html:2458
 msgid "Je suis tombé de “x” mètres de hauteur"
-msgstr ""
+msgstr "Я упал/а с высоты \"x\" метров."
 
 #: translation/templates/translation/language.html:2463
 #: translation/templates/translation/language.html:2466
@@ -2265,12 +2265,12 @@ msgstr "Кровью"
 #: translation/templates/translation/language.html:3135
 #: translation/templates/translation/language.html:3138
 msgid "Une fois"
-msgstr ""
+msgstr "один раз"
 
 #: translation/templates/translation/language.html:3143
 #: translation/templates/translation/language.html:3146
 msgid "Deux fois"
-msgstr ""
+msgstr "дважды"
 
 #: translation/templates/translation/language.html:3151
 #: translation/templates/translation/language.html:3154
@@ -2375,12 +2375,12 @@ msgstr "Мои выделения были:"
 #: translation/templates/translation/language.html:3311
 #: translation/templates/translation/language.html:3314
 msgid "Mes pertes étaient de couleur rouge"
-msgstr ""
+msgstr "красного цвета."
 
 #: translation/templates/translation/language.html:3319
 #: translation/templates/translation/language.html:3322
 msgid "Mes pertes étaient de couleur noire"
-msgstr ""
+msgstr "чёрного цвета."
 
 #: translation/templates/translation/language.html:3327
 #: translation/templates/translation/language.html:3330
@@ -2551,7 +2551,7 @@ msgstr "Мне нужна неотложная медицинская помощ
 #: translation/templates/translation/language.html:3599
 #: translation/templates/translation/language.html:3602
 msgid "Vous allez avoir une IRM"
-msgstr ""
+msgstr "МРТ ( магнитно-резонансная терапия)"
 
 #: translation/templates/translation/language.html:3607
 #: translation/templates/translation/language.html:3610
@@ -2621,7 +2621,7 @@ msgstr "Дата рождения :"
 #: translation/templates/translation/language.html:3735
 #: translation/templates/translation/language.html:3738
 msgid "Taille :"
-msgstr ""
+msgstr "Высота :"
 
 #: translation/templates/translation/language.html:3743
 #: translation/templates/translation/language.html:3746
@@ -3327,7 +3327,7 @@ msgid "Fidjien"
 msgstr ""
 
 msgid "Français"
-msgstr ""
+msgstr "Russe"
 
 msgid "Créole Haitien"
 msgstr ""

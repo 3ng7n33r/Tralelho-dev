@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 73d3b19e82fc460fd936796fc5b25f94\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-11 15:45+0000\n"
-"PO-Revision-Date: 2021-03-30 10:32\n"
+"PO-Revision-Date: 2021-09-20 09:36\n"
 "Last-Translator: \n"
 "Language-Team: Akan\n"
 "Language: ak\n"
@@ -228,7 +228,7 @@ msgstr ""
 #: translation/templates/doctemplates/scn.html:83
 #: translation/templates/doctemplates/scn.html:84
 msgid "Êtes-vous enceinte?"
-msgstr ""
+msgstr "Are you pregnant?"
 
 #: translation/templates/doctemplates/irm.html:203
 #: translation/templates/doctemplates/irm.html:204
@@ -701,17 +701,17 @@ msgstr "You can lie on the stretcher."
 #: translation/templates/translation/language.html:509
 #: translation/templates/translation/language.html:512
 msgid "Avez-vous perdu connaissance ?"
-msgstr ""
+msgstr "Did you lose consciousness?"
 
 #: translation/templates/translation/language.html:517
 #: translation/templates/translation/language.html:520
 msgid "Savez-vous quel jour nous sommes ?"
-msgstr ""
+msgstr "Do you know what day it is?"
 
 #: translation/templates/translation/language.html:525
 #: translation/templates/translation/language.html:528
 msgid "Savez-vous où vous êtes ?"
-msgstr ""
+msgstr "Do you know where you are?"
 
 #: translation/templates/translation/language.html:533
 #: translation/templates/translation/language.html:536
@@ -721,7 +721,7 @@ msgstr "Follow my finger."
 #: translation/templates/translation/language.html:541
 #: translation/templates/translation/language.html:544
 msgid "Pouvez-vous bouger vos mains et vos pieds ?"
-msgstr ""
+msgstr "Can you move your hands and feet?"
 
 #: translation/templates/translation/language.html:549
 #: translation/templates/translation/language.html:552
@@ -761,7 +761,7 @@ msgstr "Lift your right arm."
 #: translation/templates/translation/language.html:605
 #: translation/templates/translation/language.html:608
 msgid "Avez-vous des douleurs à la tête ?"
-msgstr ""
+msgstr "Do you have a headache?"
 
 #: translation/templates/translation/language.html:613
 #: translation/templates/translation/language.html:616
@@ -783,7 +783,7 @@ msgstr "suddenly"
 #: translation/templates/translation/language.html:637
 #: translation/templates/translation/language.html:640
 msgid "Avez vous des douleurs dans la nuque ?"
-msgstr ""
+msgstr "Do you have any pain in the neck?"
 
 #: translation/templates/translation/language.html:645
 #: translation/templates/translation/language.html:648
@@ -798,12 +798,12 @@ msgstr ""
 #: translation/templates/translation/language.html:661
 #: translation/templates/translation/language.html:664
 msgid "Est ce que la lumière vous dérange ?"
-msgstr ""
+msgstr "Does the light bother you?"
 
 #: translation/templates/translation/language.html:669
 #: translation/templates/translation/language.html:672
 msgid "Est ce que le bruit vous dérange ?"
-msgstr ""
+msgstr "Does the noise bother you?"
 
 #: translation/templates/translation/language.html:677
 #: translation/templates/translation/language.html:680
@@ -838,22 +838,22 @@ msgstr "Breathe deeply."
 #: translation/templates/translation/language.html:732
 #: translation/templates/translation/language.html:735
 msgid "Fumez-vous ?"
-msgstr ""
+msgstr "Do you smoke?"
 
 #: translation/templates/translation/language.html:740
 #: translation/templates/translation/language.html:743
 msgid "Etes-vous asthmatique ?"
-msgstr ""
+msgstr "Are you asthmatic?"
 
 #: translation/templates/translation/language.html:748
 #: translation/templates/translation/language.html:751
 msgid "Avez vous pris votre traitement contre l’asthme ?"
-msgstr ""
+msgstr "Have you taken your asthma medication?"
 
 #: translation/templates/translation/language.html:756
 #: translation/templates/translation/language.html:759
 msgid "Avez-vous respiré des fumées ?"
-msgstr ""
+msgstr "Have you breathed in any type of smoke?"
 
 #: translation/templates/translation/language.html:764
 #: translation/templates/translation/language.html:767
@@ -944,12 +944,12 @@ msgstr "Do you drink alcohol?"
 #: translation/templates/translation/language.html:907
 #: translation/templates/translation/language.html:910
 msgid "Avez-vous du diabète ?"
-msgstr ""
+msgstr "Are you diabetic?"
 
 #: translation/templates/translation/language.html:915
 #: translation/templates/translation/language.html:918
 msgid "Avez-vous du cholestérol ?"
-msgstr ""
+msgstr "Do you have high cholesterol?"
 
 #: translation/templates/translation/language.html:923
 #: translation/templates/translation/language.html:926
@@ -1005,7 +1005,7 @@ msgstr ""
 #: translation/templates/translation/language.html:1010
 #: translation/templates/translation/language.html:1013
 msgid "Avez-vous perdu vos urines ?"
-msgstr ""
+msgstr "Did you experience any incontinence?"
 
 #: translation/templates/translation/language.html:1018
 #: translation/templates/translation/language.html:1021
@@ -1015,12 +1015,12 @@ msgstr ""
 #: translation/templates/translation/language.html:1026
 #: translation/templates/translation/language.html:1029
 msgid "Avez vous convulsé ?"
-msgstr ""
+msgstr "Did you experience any convulsions?"
 
 #: translation/templates/translation/language.html:1034
 #: translation/templates/translation/language.html:1037
 msgid "Avez-vous mangé aujourd’hui ?"
-msgstr ""
+msgstr "Have you eaten today?"
 
 #: translation/templates/translation/language.html:1049
 #: translation/templates/translation/language.html:1052
@@ -1035,22 +1035,22 @@ msgstr "Does the pain spread elsewhere?  Where to?"
 #: translation/templates/translation/language.html:1065
 #: translation/templates/translation/language.html:1068
 msgid "Avez-vous perdu du poids ces derniers mois ? Combien de Kg ?"
-msgstr ""
+msgstr "Have you lost any weight in the last few months?  How many kilos?"
 
 #: translation/templates/translation/language.html:1073
 #: translation/templates/translation/language.html:1076
 msgid "Avez-vous des brûlures quand vous urinez ?"
-msgstr ""
+msgstr "Have you experienced any burning sensation when urinating?"
 
 #: translation/templates/translation/language.html:1081
 #: translation/templates/translation/language.html:1084
 msgid "Est-ce qu’il y a du sang dans vos urines ?"
-msgstr ""
+msgstr "Have you noticed any blood in your urine?"
 
 #: translation/templates/translation/language.html:1089
 #: translation/templates/translation/language.html:1092
 msgid "Quelle est la date de vos dernières règles ?"
-msgstr ""
+msgstr "When was your last period?"
 
 #: translation/templates/translation/language.html:1097
 #: translation/templates/translation/language.html:1100
@@ -1062,12 +1062,12 @@ msgstr "Are you pregnant?"
 #: translation/templates/translation/language.html:1105
 #: translation/templates/translation/language.html:1108
 msgid "A quelle heure avez-vous uriné pour la dernière fois aujourd’hui ?"
-msgstr ""
+msgstr "When was the last time you urinated today?"
 
 #: translation/templates/translation/language.html:1113
 #: translation/templates/translation/language.html:1116
 msgid "Êtes vous constipé ?"
-msgstr ""
+msgstr "Are you experiencing any constipation?"
 
 #: translation/templates/translation/language.html:1121
 #: translation/templates/translation/language.html:1124
@@ -1097,12 +1097,12 @@ msgstr "Have you noticed any blood in your stool?"
 #: translation/templates/translation/language.html:1161
 #: translation/templates/translation/language.html:1164
 msgid "Avez-vous des gazs ?"
-msgstr ""
+msgstr "Do you have any gas?"
 
 #: translation/templates/translation/language.html:1169
 #: translation/templates/translation/language.html:1172
 msgid "Je dois vous faire un toucher rectal, êtes vous d’accord ?"
-msgstr ""
+msgstr "I need to do a rectal exam.  Are you ok with that?"
 
 #: translation/templates/translation/language.html:1177
 #: translation/templates/translation/language.html:1180
@@ -1117,7 +1117,7 @@ msgstr "You'll need to wash your genitals before urinating in the jar."
 #: translation/templates/translation/language.html:1200
 #: translation/templates/translation/language.html:1203
 msgid "Avez-vous été piqué ou mordu ?"
-msgstr ""
+msgstr "Have you been bitten or stung?"
 
 #: translation/templates/translation/language.html:1208
 #: translation/templates/translation/language.html:1211
@@ -1132,12 +1132,12 @@ msgstr "Show me where the first spots appeared."
 #: translation/templates/translation/language.html:1224
 #: translation/templates/translation/language.html:1227
 msgid "Depuis combien de temps la jambe est-elle rouge ?"
-msgstr ""
+msgstr "For how long has the leg been red?"
 
 #: translation/templates/translation/language.html:1232
 #: translation/templates/translation/language.html:1235
 msgid "Est ce que ça vous démange ?"
-msgstr ""
+msgstr "Is it itchy?"
 
 #: translation/templates/translation/language.html:1240
 #: translation/templates/translation/language.html:1243
@@ -1152,7 +1152,7 @@ msgstr "You need to keep this mask on."
 #: translation/templates/translation/language.html:1256
 #: translation/templates/translation/language.html:1259
 msgid "Avez-vous eu des rapports sexuels non protégés ?"
-msgstr ""
+msgstr "Have you had any unprotected sex?"
 
 #: translation/templates/translation/language.html:1264
 #: translation/templates/translation/language.html:1267
@@ -1162,27 +1162,27 @@ msgstr "I am going to take your temperature."
 #: translation/templates/translation/language.html:1279
 #: translation/templates/translation/language.html:1282
 msgid "Est-ce que vous voyez flou ?"
-msgstr ""
+msgstr "Is your vision blurry?"
 
 #: translation/templates/translation/language.html:1287
 #: translation/templates/translation/language.html:1290
 msgid "Est-ce que vous voyez double ?"
-msgstr ""
+msgstr "Are you seeing double?"
 
 #: translation/templates/translation/language.html:1295
 #: translation/templates/translation/language.html:1298
 msgid "Avez-vous mal à la tête ?"
-msgstr ""
+msgstr "Do you have a headache?"
 
 #: translation/templates/translation/language.html:1303
 #: translation/templates/translation/language.html:1306
 msgid "Est ce que vous avez l’impression que la pièce tourne autour de vous ?"
-msgstr ""
+msgstr "Do you feel as though the room is spinning?"
 
 #: translation/templates/translation/language.html:1311
 #: translation/templates/translation/language.html:1314
 msgid "Avez-vous reçu un coup à la tête récemment ?"
-msgstr ""
+msgstr "Have you been hit in the head recently?"
 
 #: translation/templates/translation/language.html:1326
 #: translation/templates/translation/language.html:1329
@@ -1212,7 +1212,7 @@ msgstr "Do you have any allergies? What are you allergic to?"
 #: translation/templates/translation/language.html:1366
 #: translation/templates/translation/language.html:1369
 msgid "Y a-t-il des antécédents de maladie dans votre famille ?"
-msgstr ""
+msgstr "Do you have any family medical history?"
 
 #: translation/templates/translation/language.html:1374
 #: translation/templates/translation/language.html:1377
@@ -1222,12 +1222,12 @@ msgstr ""
 #: translation/templates/translation/language.html:1382
 #: translation/templates/translation/language.html:1385
 msgid "Pouvez-vous vous lever ?"
-msgstr ""
+msgstr "Can you stand up?"
 
 #: translation/templates/translation/language.html:1390
 #: translation/templates/translation/language.html:1393
 msgid "Pouvez-vous marcher ?"
-msgstr ""
+msgstr "Can you walk?"
 
 #: translation/templates/translation/language.html:1405
 #: translation/templates/translation/language.html:1408

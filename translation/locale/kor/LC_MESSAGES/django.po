@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 73d3b19e82fc460fd936796fc5b25f94\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-11 15:45+0000\n"
-"PO-Revision-Date: 2021-03-30 10:31\n"
+"PO-Revision-Date: 2021-09-20 09:36\n"
 "Last-Translator: \n"
 "Language-Team: Korean\n"
 "Language: ko\n"
@@ -76,14 +76,14 @@ msgstr ""
 #: translation/templates/translation/language.html:3671
 #: translation/templates/translation/language.html:3674
 msgid "Durant l'examen, on vous demandera de gonfler et les poumons et de bloquer la respiration"
-msgstr ""
+msgstr "검사도중 숨을 깊이 들이마신뒤 숨을참으라고 하실겁니다"
 
 #: translation/templates/doctemplates/irm.html:41
 #: translation/templates/doctemplates/irm.html:42
 #: translation/templates/translation/language.html:2017
 #: translation/templates/translation/language.html:2020
 msgid "Pour nous appeler appuyer ici"
-msgstr ""
+msgstr "저희를 부를려면, 여기를 누르세요"
 
 #: translation/templates/doctemplates/irm.html:47
 msgid "Checklist IRM"
@@ -159,7 +159,7 @@ msgstr "아니"
 #: translation/templates/translation/language.html:3767
 #: translation/templates/translation/language.html:3770
 msgid "Je ne sais pas"
-msgstr ""
+msgstr "모르겠어요"
 
 #: translation/templates/doctemplates/irm.html:89
 #: translation/templates/doctemplates/irm.html:90
@@ -216,7 +216,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3631
 #: translation/templates/translation/language.html:3634
 msgid "Avez-vous des éclats métalliques dans les yeux?"
-msgstr ""
+msgstr "눈에 금속 조각이 있습니까?"
 
 #: translation/templates/doctemplates/irm.html:188
 #: translation/templates/doctemplates/irm.html:189
@@ -326,17 +326,17 @@ msgstr "신경과"
 #: translation/templates/sidenav.html:15
 #: translation/templates/translation/language.html:686
 msgid "PNEUMOLOGIE"
-msgstr ""
+msgstr "호흡기내과"
 
 #: translation/templates/sidenav.html:16
 #: translation/templates/translation/language.html:773
 msgid "CARDIOLOGIE"
-msgstr ""
+msgstr "심장학"
 
 #: translation/templates/sidenav.html:17
 #: translation/templates/translation/language.html:932
 msgid "MALAISE"
-msgstr ""
+msgstr "불쾌"
 
 #: translation/templates/sidenav.html:18
 #: translation/templates/translation/language.html:1043
@@ -346,12 +346,12 @@ msgstr "소화 장애"
 #: translation/templates/sidenav.html:19
 #: translation/templates/translation/language.html:1194
 msgid "INFECTIEUX"
-msgstr ""
+msgstr "전염성"
 
 #: translation/templates/sidenav.html:20
 #: translation/templates/translation/language.html:1273
 msgid "OPHTALMOLOGIE"
-msgstr ""
+msgstr "안과"
 
 #: translation/templates/sidenav.html:21
 #: translation/templates/translation/language.html:1320
@@ -361,17 +361,17 @@ msgstr "병력"
 #: translation/templates/sidenav.html:22
 #: translation/templates/translation/language.html:1399
 msgid "PEDIATRIE"
-msgstr ""
+msgstr "소아과"
 
 #: translation/templates/sidenav.html:23
 #: translation/templates/translation/language.html:1470
 msgid "GYNECOLOGIE"
-msgstr ""
+msgstr "부인과"
 
 #: translation/templates/sidenav.html:24
 #: translation/templates/translation/language.html:1573
 msgid "TRAUMATOLOGIE"
-msgstr ""
+msgstr "외상학"
 
 #: translation/templates/sidenav.html:25
 #: translation/templates/translation/language.html:1700
@@ -440,47 +440,47 @@ msgstr ""
 #: translation/templates/translation/language.html:49
 #: translation/templates/translation/language.html:52
 msgid "Je vais utiliser le téléphone pour traduire les questions que j'ai à vous poser, êtes vous d'accord ?"
-msgstr ""
+msgstr "제 질문을 핸드폰으로 번역 해 드려도 될까요?"
 
 #: translation/templates/translation/language.html:57
 #: translation/templates/translation/language.html:60
 msgid "Bonjour, je suis infirmière"
-msgstr ""
+msgstr "안녕하세요 저는 간호사"
 
 #: translation/templates/translation/language.html:65
 #: translation/templates/translation/language.html:68
 msgid "Bonjour, je suis médecin"
-msgstr ""
+msgstr "안녕하세요 저는 의사"
 
 #: translation/templates/translation/language.html:73
 #: translation/templates/translation/language.html:76
 msgid "Bonjour, je suis secouriste"
-msgstr ""
+msgstr "안녕하세요 저는 구급대원"
 
 #: translation/templates/translation/language.html:81
 #: translation/templates/translation/language.html:84
 msgid "Bonjour, je suis bénévole"
-msgstr ""
+msgstr "안녕하세요 저는 자원 봉사자"
 
 #: translation/templates/translation/language.html:89
 #: translation/templates/translation/language.html:92
 msgid "Bonjour, je suis agent d'accueil"
-msgstr ""
+msgstr "안녕하세요 저는 안내원"
 
 #: translation/templates/translation/language.html:97
 #: translation/templates/translation/language.html:100
 msgid "Bonjour, je suis étudiant en médecine"
-msgstr ""
+msgstr "안녕하세요 저는 의대 학생"
 
 #: translation/templates/translation/language.html:105
 #: translation/templates/translation/language.html:108
 msgid "Bonjour, je suis sage-femme"
-msgstr ""
+msgstr "안녕하세요 저는 조산부"
 
 #: translation/templates/translation/language.html:113
 #: translation/templates/translation/language.html:116
 msgid "Bonjour, je suis secrétaire"
-msgstr ""
+msgstr "안녕하세요 저는 비서"
 
 #: translation/templates/translation/language.html:121
 #: translation/templates/translation/language.html:124
@@ -510,7 +510,7 @@ msgstr "유럽 건강보험카드를 가지고 계십니까?"
 #: translation/templates/translation/language.html:168
 #: translation/templates/translation/language.html:171
 msgid "Pouvez-vous me montre une carte d’assurance privée"
-msgstr ""
+msgstr "사보험에 가입되어 있으십니까? 사보험카드를 가지고 계십니까?"
 
 #: translation/templates/translation/language.html:176
 #: translation/templates/translation/language.html:179
@@ -570,7 +570,7 @@ msgstr "대기실에선 음식과 음료 섭취, 흡연이 금지됩니다"
 #: translation/templates/translation/language.html:271
 #: translation/templates/translation/language.html:274
 msgid "Votre famille devra attendre ici"
-msgstr ""
+msgstr "보호자분은 여기서 기다려 주세요"
 
 #: translation/templates/translation/language.html:279
 #: translation/templates/translation/language.html:282
@@ -601,7 +601,7 @@ msgstr "아프세요?"
 #: translation/templates/translation/language.html:342
 #: translation/templates/translation/language.html:345
 msgid "Montrez-moi où vous avez mal"
-msgstr ""
+msgstr "어디가 아픈지 보여주세요"
 
 #: translation/templates/translation/language.html:350
 #: translation/templates/translation/language.html:353
@@ -736,7 +736,7 @@ msgstr "제 눈을 봐주십시오"
 #: translation/templates/translation/language.html:565
 #: translation/templates/translation/language.html:568
 msgid "Avez vous des fourmillement ? Montrez moi où"
-msgstr ""
+msgstr "몸에 저린곳이 있읍니까? 어딘지 보여주십시오."
 
 #: translation/templates/translation/language.html:573
 #: translation/templates/translation/language.html:576
@@ -788,12 +788,12 @@ msgstr "목에 통증이 있으십니까?"
 #: translation/templates/translation/language.html:645
 #: translation/templates/translation/language.html:648
 msgid "Avez-vous voyagez ces derniers mois ?"
-msgstr ""
+msgstr "최근 몇달중에 여행하신적이 있으십니까?"
 
 #: translation/templates/translation/language.html:653
 #: translation/templates/translation/language.html:656
 msgid "Dans quel pays ?"
-msgstr ""
+msgstr "어느 국가에 가셨습니까?"
 
 #: translation/templates/translation/language.html:661
 #: translation/templates/translation/language.html:664
@@ -823,7 +823,7 @@ msgstr ""
 #: translation/templates/translation/language.html:708
 #: translation/templates/translation/language.html:711
 msgid "Prenez une grande inspiration puis bloquez votre respiration"
-msgstr ""
+msgstr "숨을 참으세요"
 
 #: translation/templates/translation/language.html:716
 #: translation/templates/translation/language.html:719
@@ -833,7 +833,7 @@ msgstr "평상시대로 숨을 쉬어주세요"
 #: translation/templates/translation/language.html:724
 #: translation/templates/translation/language.html:727
 msgid "Respirez profondément"
-msgstr ""
+msgstr "깊게 숨을 쉬어주세요"
 
 #: translation/templates/translation/language.html:732
 #: translation/templates/translation/language.html:735
@@ -864,27 +864,27 @@ msgstr "그을음 흔적이 있는지 알기위해 코를 풀어주시기 바랍
 #: translation/templates/translation/language.html:782
 #| msgid "Est-ce que vous voyez double ?"
 msgid "Est-ce que votre douleur"
-msgstr ""
+msgstr "당신의 통증을 말해주십시오."
 
 #: translation/templates/translation/language.html:787
 #: translation/templates/translation/language.html:790
 msgid "Est ce que votre douleur serre ?"
-msgstr ""
+msgstr "꽉 조이는듯한 답답한 느낌이 있습니까?"
 
 #: translation/templates/translation/language.html:795
 #: translation/templates/translation/language.html:798
 msgid "Est ce que votre douleur pique ?"
-msgstr ""
+msgstr "찌르는듯한 느낌이 있습니까?"
 
 #: translation/templates/translation/language.html:803
 #: translation/templates/translation/language.html:806
 msgid "Est ce que votre douleur brûle ?"
-msgstr ""
+msgstr "타는듯한 느낌이 있습니까?"
 
 #: translation/templates/translation/language.html:811
 #: translation/templates/translation/language.html:814
 msgid "Est-ce que votre douleur irradie ? Montrez-moi vers où"
-msgstr ""
+msgstr "당신의 통증이 몸의 다른 부분과 연관되어 있습니까? 있다면 어디인지 말씀해 주십시오."
 
 #: translation/templates/translation/language.html:819
 #: translation/templates/translation/language.html:822
@@ -924,17 +924,17 @@ msgstr "이제 혈압을 측정하겠습니다"
 #: translation/templates/translation/language.html:875
 #: translation/templates/translation/language.html:878
 msgid "Ressentez-vous des palpitations ?"
-msgstr ""
+msgstr "심장이 두근 거리십니까 ?"
 
 #: translation/templates/translation/language.html:883
 #: translation/templates/translation/language.html:886
 msgid "Ouvrez la bouche et soulevez la langue, je vais vous donner un traitement"
-msgstr ""
+msgstr "입을 벌리시고 혀를 들어 주세요. 약물치료를 해 드리겠습니다"
 
 #: translation/templates/translation/language.html:891
 #: translation/templates/translation/language.html:894
 msgid "Est ce que ce médicament soulage votre douleur ?"
-msgstr ""
+msgstr "이 약물이 통증 완화에 도움이 되나요?"
 
 #: translation/templates/translation/language.html:899
 #: translation/templates/translation/language.html:902
@@ -954,12 +954,12 @@ msgstr "-고콜레스톨이 있으신가요?"
 #: translation/templates/translation/language.html:923
 #: translation/templates/translation/language.html:926
 msgid "Je vais faire un enregistrement de votre coeur, ce n’est pas douloureux, ne bouger pas pendant quelques secondes"
-msgstr ""
+msgstr "-심박수를 잴거예요. 아프진 않지만, 잠시 움직이지 말아주세요."
 
 #: translation/templates/translation/language.html:938
 #: translation/templates/translation/language.html:941
 msgid "Avez-vous senti votre malaise arriver ?"
-msgstr ""
+msgstr "현기증(어지럼증)을 느끼셨나요? / 어지럼증이 천천히 생겼나요?"
 
 #: translation/templates/translation/language.html:946
 #: translation/templates/translation/language.html:949
@@ -984,7 +984,7 @@ msgstr ""
 #: translation/templates/translation/language.html:978
 #: translation/templates/translation/language.html:981
 msgid "Avez vous des vertiges ?"
-msgstr ""
+msgstr "당신은 현기증을 느끼십니까?"
 
 #: translation/templates/translation/language.html:986
 #: translation/templates/translation/language.html:989
@@ -995,7 +995,7 @@ msgstr ""
 #: translation/templates/translation/language.html:994
 #: translation/templates/translation/language.html:997
 msgid "A quel endroit avez-vous ressenti ces signes ?"
-msgstr ""
+msgstr "통증이 어느 부위에 있나요?"
 
 #: translation/templates/translation/language.html:1002
 #: translation/templates/translation/language.html:1005
@@ -1025,12 +1025,12 @@ msgstr "뭘 먹었나요?"
 #: translation/templates/translation/language.html:1049
 #: translation/templates/translation/language.html:1052
 msgid "Montrez moi ou vous avez mal"
-msgstr ""
+msgstr "아파요 어디 보여줘"
 
 #: translation/templates/translation/language.html:1057
 #: translation/templates/translation/language.html:1060
 msgid "Est ce que la douleur irradie ? Si oui montrez moi vers où"
-msgstr ""
+msgstr "아프십니까 ? 어디가 아픈지 보여주세요."
 
 #: translation/templates/translation/language.html:1065
 #: translation/templates/translation/language.html:1068
@@ -1112,7 +1112,7 @@ msgstr "이 냄비에 소변을보아야합니다"
 #: translation/templates/translation/language.html:1185
 #: translation/templates/translation/language.html:1188
 msgid "Il faudra réaliser une toilette intime avant d’uriner dans le pot"
-msgstr ""
+msgstr "소변 보기전에 아래를 닦아야합니다"
 
 #: translation/templates/translation/language.html:1200
 #: translation/templates/translation/language.html:1203
@@ -1122,7 +1122,7 @@ msgstr "물렸나요?"
 #: translation/templates/translation/language.html:1208
 #: translation/templates/translation/language.html:1211
 msgid "Montrez moi à quel endroit"
-msgstr ""
+msgstr "어딘지 보여주세요"
 
 #: translation/templates/translation/language.html:1216
 #: translation/templates/translation/language.html:1219
@@ -1142,7 +1142,7 @@ msgstr "그것이 당신을 긁었나요?"
 #: translation/templates/translation/language.html:1240
 #: translation/templates/translation/language.html:1243
 msgid "Il faut rester en isolement"
-msgstr ""
+msgstr "격리되어야 합니다"
 
 #: translation/templates/translation/language.html:1248
 #: translation/templates/translation/language.html:1251
@@ -1177,57 +1177,57 @@ msgstr "두통이 있나요?"
 #: translation/templates/translation/language.html:1303
 #: translation/templates/translation/language.html:1306
 msgid "Est ce que vous avez l’impression que la pièce tourne autour de vous ?"
-msgstr ""
+msgstr "혹시 이 방이 돌고 있는 것처럼 느껴지세요?"
 
 #: translation/templates/translation/language.html:1311
 #: translation/templates/translation/language.html:1314
 msgid "Avez-vous reçu un coup à la tête récemment ?"
-msgstr ""
+msgstr "혹시 최근에 머리를 부딪히셨나요?"
 
 #: translation/templates/translation/language.html:1326
 #: translation/templates/translation/language.html:1329
 msgid "Avez-vous des maladies (diabète, hypertension) ?"
-msgstr ""
+msgstr "당신은 의료 기록을 가지고 있습니까?"
 
 #: translation/templates/translation/language.html:1334
 #: translation/templates/translation/language.html:1337
 msgid "Avez-vous été hospitalisé récemment ?"
-msgstr ""
+msgstr "최근에 입원하신적이 있나요?"
 
 #: translation/templates/translation/language.html:1342
 #: translation/templates/translation/language.html:1345
 msgid "Avez-vous un traitement en cours ? lequel ?"
-msgstr ""
+msgstr "지병이나, 수술, 치료받으신 적이 있으신가요?"
 
 #: translation/templates/translation/language.html:1350
 #: translation/templates/translation/language.html:1353
 msgid "Avez-vous une ordonnance avec vos traitements ?"
-msgstr ""
+msgstr "복용 중이신 약이 있으신가요?"
 
 #: translation/templates/translation/language.html:1358
 #: translation/templates/translation/language.html:1361
 msgid "Avez-vous des allergies ? lesquelles ?"
-msgstr ""
+msgstr "당신은 알레르기가 있습니까?"
 
 #: translation/templates/translation/language.html:1366
 #: translation/templates/translation/language.html:1369
 msgid "Y a-t-il des antécédents de maladie dans votre famille ?"
-msgstr ""
+msgstr "가족력이 있으신가요?"
 
 #: translation/templates/translation/language.html:1374
 #: translation/templates/translation/language.html:1377
 msgid "Pouvez-vous vous asseoir ?"
-msgstr ""
+msgstr "앉으실 수 있나요?"
 
 #: translation/templates/translation/language.html:1382
 #: translation/templates/translation/language.html:1385
 msgid "Pouvez-vous vous lever ?"
-msgstr ""
+msgstr "일어서 주 시겠어요"
 
 #: translation/templates/translation/language.html:1390
 #: translation/templates/translation/language.html:1393
 msgid "Pouvez-vous marcher ?"
-msgstr ""
+msgstr "걸을 수 있나요?"
 
 #: translation/templates/translation/language.html:1405
 #: translation/templates/translation/language.html:1408
@@ -1317,7 +1317,7 @@ msgstr "당신은 피임을해야합니까?"
 #: translation/templates/translation/language.html:1556
 #: translation/templates/translation/language.html:1559
 msgid "Je dois faire un examen gynécologique, allongez vous sur la table"
-msgstr ""
+msgstr "산부인과 진료가 필요합니다. 침대에 누워 주시겠어요?"
 
 #: translation/templates/translation/language.html:1564
 #: translation/templates/translation/language.html:1567
@@ -1372,7 +1372,7 @@ msgstr "나는 상처에 소독약을 발라야 합니다"
 #: translation/templates/translation/language.html:1651
 #: translation/templates/translation/language.html:1654
 msgid "Je dois suturer la plaie"
-msgstr ""
+msgstr "상처를 꿰매야 해요"
 
 #: translation/templates/translation/language.html:1659
 #: translation/templates/translation/language.html:1662
@@ -1382,12 +1382,12 @@ msgstr "나는 드레싱을 해야 합니다"
 #: translation/templates/translation/language.html:1667
 #: translation/templates/translation/language.html:1670
 msgid "Je vais faire une anesthésie autour de la plaie"
-msgstr ""
+msgstr "마취를 할 거에요"
 
 #: translation/templates/translation/language.html:1675
 #: translation/templates/translation/language.html:1678
 msgid "Ne bougez pas"
-msgstr ""
+msgstr "움직이지 마세요"
 
 #: translation/templates/translation/language.html:1683
 #: translation/templates/translation/language.html:1686
@@ -1441,12 +1441,12 @@ msgstr "화장실이 있어야 합니다"
 #: translation/templates/translation/language.html:1762
 #: translation/templates/translation/language.html:1765
 msgid "Vous allez avoir un scanner"
-msgstr ""
+msgstr "스캐너(X선 진단장치)가 있어야 합니다."
 
 #: translation/templates/translation/language.html:1770
 #: translation/templates/translation/language.html:1773
 msgid "Vous allez avoir une radio"
-msgstr ""
+msgstr "엑스레이"
 
 #: translation/templates/translation/language.html:1778
 #: translation/templates/translation/language.html:1781
@@ -1456,12 +1456,12 @@ msgstr "나는 당신에게 깁스를 해드려야 합니다"
 #: translation/templates/translation/language.html:1786
 #: translation/templates/translation/language.html:1789
 msgid "Vous allez avoir une échographie"
-msgstr ""
+msgstr "당신은 초음파 검사를 해야합니다."
 
 #: translation/templates/translation/language.html:1794
 #: translation/templates/translation/language.html:1797
 msgid "Vous allez avoir une opération chirurgicale"
-msgstr ""
+msgstr "당신은 수술을 받아야 합니다."
 
 #: translation/templates/translation/language.html:1802
 #: translation/templates/translation/language.html:1805
@@ -1481,7 +1481,7 @@ msgstr "당신은 수술 전에 샴푸(세제)로 샤워를 해야 합니다"
 #: translation/templates/translation/language.html:1826
 #: translation/templates/translation/language.html:1829
 msgid "L’examen n’est pas douloureux"
-msgstr ""
+msgstr "검사가 아프지 않습니다"
 
 #: translation/templates/translation/language.html:1834
 #: translation/templates/translation/language.html:1837
@@ -1511,17 +1511,17 @@ msgstr ""
 #: translation/templates/translation/language.html:1874
 #: translation/templates/translation/language.html:1877
 msgid "Vous devez retier tous vos bijoux et piercing"
-msgstr ""
+msgstr "피어싱, 목걸이와같은 장신구류를 빼셔야해요"
 
 #: translation/templates/translation/language.html:1882
 #: translation/templates/translation/language.html:1885
 msgid "Vous devez retier votre vernis a ongles"
-msgstr ""
+msgstr "매니큐어를 지우셔야해요"
 
 #: translation/templates/translation/language.html:1890
 #: translation/templates/translation/language.html:1893
 msgid "Vous devez retier vos appareils dentaires et auditifs"
-msgstr ""
+msgstr "틀니나 보청기를 빼셔야해요"
 
 #: translation/templates/translation/language.html:1898
 #: translation/templates/translation/language.html:1901
@@ -1578,27 +1578,27 @@ msgstr "술 마시면 안돼요."
 #: translation/templates/translation/language.html:1985
 #: translation/templates/translation/language.html:1988
 msgid "Vous ne devez pas manger"
-msgstr ""
+msgstr "먹으면 안돼요"
 
 #: translation/templates/translation/language.html:1993
 #: translation/templates/translation/language.html:1996
 msgid "Vous ne devez pas vous lever"
-msgstr ""
+msgstr "일어나면 안돼요"
 
 #: translation/templates/translation/language.html:2001
 #: translation/templates/translation/language.html:2004
 msgid "Vous devez rester sur le dos"
-msgstr ""
+msgstr "배를 위로하시고 누워 계셔야 합니다"
 
 #: translation/templates/translation/language.html:2009
 #: translation/templates/translation/language.html:2012
 msgid "Vous ne devez pas fumer"
-msgstr ""
+msgstr "담배 피면 안돼요"
 
 #: translation/templates/translation/language.html:2025
 #: translation/templates/translation/language.html:2028
 msgid "Pour allumer ou éteindre les lumières appuyer ici"
-msgstr ""
+msgstr "불을키고끌때, 여기를 누르세요"
 
 #: translation/templates/translation/language.html:2033
 #: translation/templates/translation/language.html:2036
@@ -1608,37 +1608,37 @@ msgstr "화장실은 여기 있습니다"
 #: translation/templates/translation/language.html:2041
 #: translation/templates/translation/language.html:2044
 msgid "La salle de bain est ici"
-msgstr ""
+msgstr "화장실은 여기에요"
 
 #: translation/templates/translation/language.html:2049
 #: translation/templates/translation/language.html:2052
 msgid "Votre chambre est ici"
-msgstr ""
+msgstr "병실은 여기에요"
 
 #: translation/templates/translation/language.html:2064
 #: translation/templates/translation/language.html:2067
 msgid "Il y a une fracture"
-msgstr ""
+msgstr "골절이 있어요"
 
 #: translation/templates/translation/language.html:2072
 #: translation/templates/translation/language.html:2075
 msgid "Il n’y a pas de fracture"
-msgstr ""
+msgstr "골절이 없어요"
 
 #: translation/templates/translation/language.html:2088
 #: translation/templates/translation/language.html:2091
 msgid "Vous devez revenir demain matin"
-msgstr ""
+msgstr "내일 아침에 다시 오셔야 해요"
 
 #: translation/templates/translation/language.html:2096
 #: translation/templates/translation/language.html:2099
 msgid "Vous devez revenir dans"
-msgstr ""
+msgstr "당신은 ~로 돌아가셔야해요"
 
 #: translation/templates/translation/language.html:2104
 #: translation/templates/translation/language.html:2107
 msgid "Vous devrez faire retirer les fils dans"
-msgstr ""
+msgstr "당신은 ~에 있는 와이어를 제거하셔야할 거에요"
 
 #: translation/templates/translation/language.html:2112
 #: translation/templates/translation/language.html:2115
@@ -1648,7 +1648,7 @@ msgstr "캐스트가 필요합니다"
 #: translation/templates/translation/language.html:2120
 #: translation/templates/translation/language.html:2123
 msgid "Vous devrez porter une attelle"
-msgstr ""
+msgstr "부목이 필요합니다"
 
 #: translation/templates/translation/language.html:2128
 #: translation/templates/translation/language.html:2131
@@ -1683,7 +1683,7 @@ msgstr "목이 말라 요"
 #: translation/templates/translation/language.html:2183
 #: translation/templates/translation/language.html:2186
 msgid "J’ai mal"
-msgstr ""
+msgstr "여기가 아픕니다"
 
 #: translation/templates/translation/language.html:2191
 #: translation/templates/translation/language.html:2194
@@ -1698,24 +1698,24 @@ msgstr "나는 뜨겁다"
 #: translation/templates/translation/language.html:2207
 #: translation/templates/translation/language.html:2210
 msgid "J’ai des nausées"
-msgstr ""
+msgstr "저 속이 안좋아요."
 
 #: translation/templates/translation/language.html:2215
 #: translation/templates/translation/language.html:2218
 #: translation/templates/translation/language.html:3103
 #: translation/templates/translation/language.html:3106
 msgid "J’ai vomi"
-msgstr ""
+msgstr "저 토했어요."
 
 #: translation/templates/translation/language.html:2223
 #: translation/templates/translation/language.html:2226
 msgid "J’ai uriné (je voudrais être changé)"
-msgstr ""
+msgstr "저 소변눴어요. (옷 알아주세요)"
 
 #: translation/templates/translation/language.html:2231
 #: translation/templates/translation/language.html:2234
 msgid "Je voudrais uriner"
-msgstr ""
+msgstr "저 소변 마려워요."
 
 #: translation/templates/translation/language.html:2239
 #: translation/templates/translation/language.html:2242
@@ -1732,7 +1732,7 @@ msgstr "저 어지러워요"
 #: translation/templates/translation/language.html:2255
 #: translation/templates/translation/language.html:2258
 msgid "J’ai peur"
-msgstr ""
+msgstr "저는 무서워요"
 
 #: translation/templates/translation/language.html:2263
 #: translation/templates/translation/language.html:2266
@@ -1742,22 +1742,22 @@ msgstr ""
 #: translation/templates/translation/language.html:2271
 #: translation/templates/translation/language.html:2274
 msgid "Je voudrais des informations"
-msgstr ""
+msgstr "정보를 원해요"
 
 #: translation/templates/translation/language.html:2279
 #: translation/templates/translation/language.html:2282
 msgid "J’ai eu un accident"
-msgstr ""
+msgstr "상처를 입었었습니다"
 
 #: translation/templates/translation/language.html:2287
 #: translation/templates/translation/language.html:2290
 msgid "J’étais piéton"
-msgstr ""
+msgstr "저는 보행자였어요"
 
 #: translation/templates/translation/language.html:2295
 #: translation/templates/translation/language.html:2298
 msgid "J’ai été renversé"
-msgstr ""
+msgstr "자동차에 부딪혔습니다"
 
 #: translation/templates/translation/language.html:2303
 #: translation/templates/translation/language.html:2306
@@ -1769,17 +1769,17 @@ msgstr ""
 #: translation/templates/translation/language.html:2439
 #: translation/templates/translation/language.html:2442
 msgid "Je suis tombé"
-msgstr ""
+msgstr "넘어 졌습니다"
 
 #: translation/templates/translation/language.html:2319
 #: translation/templates/translation/language.html:2322
 msgid "J’ai reçu un coup"
-msgstr ""
+msgstr "누군가가 나를 때렸습니다"
 
 #: translation/templates/translation/language.html:2327
 #: translation/templates/translation/language.html:2330
 msgid "J’étais en voiture"
-msgstr ""
+msgstr "저는 운전하고 있었어요"
 
 #: translation/templates/translation/language.html:2335
 #: translation/templates/translation/language.html:2338
@@ -2029,7 +2029,7 @@ msgstr ""
 #: translation/templates/translation/language.html:2743
 #: translation/templates/translation/language.html:2746
 msgid "Je suis épileptique"
-msgstr ""
+msgstr "간질병이 있습니다"
 
 #: translation/templates/translation/language.html:2751
 #: translation/templates/translation/language.html:2754
@@ -2054,7 +2054,7 @@ msgstr ""
 #: translation/templates/translation/language.html:2791
 #: translation/templates/translation/language.html:2794
 msgid "Je suis diabétique"
-msgstr ""
+msgstr "당뇨병이 있습니다"
 
 #: translation/templates/translation/language.html:2799
 #: translation/templates/translation/language.html:2802
@@ -2225,7 +2225,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3063
 #: translation/templates/translation/language.html:3066
 msgid "Je suis asthmatique"
-msgstr ""
+msgstr "천식이 있습니다"
 
 #: translation/templates/translation/language.html:3071
 #: translation/templates/translation/language.html:3074
@@ -2450,7 +2450,7 @@ msgstr ""
 #: translation/templates/translation/language.html:3439
 #: translation/templates/translation/language.html:3442
 msgid "J’ai été piqué ou mordu récemment"
-msgstr ""
+msgstr "벌레/곤충한테 찔렸습니다"
 
 #: translation/templates/translation/language.html:3447
 #: translation/templates/translation/language.html:3450
@@ -2551,7 +2551,7 @@ msgstr "도움이 필요해요, 구급대를 불러주시겠어요?"
 #: translation/templates/translation/language.html:3599
 #: translation/templates/translation/language.html:3602
 msgid "Vous allez avoir une IRM"
-msgstr ""
+msgstr "MRI (자기 공명 영상)"
 
 #: translation/templates/translation/language.html:3607
 #: translation/templates/translation/language.html:3610
@@ -2561,7 +2561,7 @@ msgstr "검사가 깁니다. 한 15분에서 40분정도 걸립니다"
 #: translation/templates/translation/language.html:3615
 #: translation/templates/translation/language.html:3618
 msgid "L'examen n'est pas douloureux mais il est très bruyant"
-msgstr ""
+msgstr "검사가 아프진않지만 소음이 심합니다"
 
 #: translation/templates/translation/language.html:3623
 #: translation/templates/translation/language.html:3626
@@ -2621,7 +2621,7 @@ msgstr "생일 :"
 #: translation/templates/translation/language.html:3735
 #: translation/templates/translation/language.html:3738
 msgid "Taille :"
-msgstr ""
+msgstr "높이 :"
 
 #: translation/templates/translation/language.html:3743
 #: translation/templates/translation/language.html:3746
